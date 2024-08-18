@@ -1,0 +1,3 @@
+[console_scripts]
+cfit=cfit.cli:cli
+

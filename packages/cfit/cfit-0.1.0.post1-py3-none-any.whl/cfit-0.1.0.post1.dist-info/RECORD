@@ -1,0 +1,8 @@
+cfit/__init__.py,sha256=kFg2uzXojDjf6-1u1Jt6ZEqb5WtEkg7qYbEYaawqoGU,39
+cfit/cli.py,sha256=bWxYuXaHcd92JU1e7H1NQhwxO_4Cc4ynkaQODio9EVM,926
+cfit/core.py,sha256=4cfAFtLbUMIhcRma6YcHWkUOkN4cYLUJtlYINJ_wLNM,4657
+cfit/utils.py,sha256=K3u1NlIDcm9i8MefLnbgboMGaI1ER1Pv2xaXZzVuuP4,4833
+cfit-0.1.0.post1.dist-info/METADATA,sha256=-08gHWB0W9gHq62oLxFYSk_lw2H_V3a33NsjPJ9Ajkc,4572
+cfit-0.1.0.post1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cfit-0.1.0.post1.dist-info/entry_points.txt,sha256=REm7hnxz_4ADfA5ErlE-sI1ArDvHgQSo2aqBVjc1fRQ,37
+cfit-0.1.0.post1.dist-info/RECORD,,
