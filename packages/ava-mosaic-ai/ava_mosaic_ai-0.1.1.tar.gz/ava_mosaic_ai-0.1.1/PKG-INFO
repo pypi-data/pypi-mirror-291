@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ava-mosaic-ai
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/pyrotank41/Mosaic-AI.git
+Author: Karan Singh Kochar
+Author-email: pyrotank41@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.34.0,<0.35.0)
+Requires-Dist: instructor (>=1.3.7,<2.0.0)
+Requires-Dist: openai (>=1.41.0,<2.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.4.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Project-URL: Repository, https://github.com/pyrotank41/Mosaic-AI.git
+Description-Content-Type: text/markdown
+
+# AVA (Artificial Virtual Agent)
+A light weight library that extends instrictor lib for llm based task
+
+# Special Thanks
+- A shoutout to @daveebbelaar's iplimentation of llm_factory, he inspired this project [link](https://gist.github.com/daveebbelaar/d24eafc6ace1c8f4a091062733b52437)
+- For the amazong work done on the Instructor's library. The library as saved me many hrs of work in GenAI project. 
+
