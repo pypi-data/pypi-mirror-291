@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: marine-navigation
+Version: 0.3.0
+Summary: A package to calculate tidal windows for marine vessels entering ports.
+Home-page: UNKNOWN
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: csv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
