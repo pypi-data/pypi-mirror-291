@@ -1,0 +1,16 @@
+psutil
+pycryptodomex
+pywin32
+pymem
+silk-python
+pyaudio
+requests
+pyahocorasick
+lz4
+blackboxprotobuf
+lxml
+pandas
+dbutils
+fastapi
+uvicorn
+python-dotenv
