@@ -1,0 +1,26 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "manim-devanagari"
+version = "1.0.0"
+description = "Manim plugin for devanagari"
+authors = [{ name = "AvN Learn", "email" = "avnlearn@gmail.com" }]
+maintainers = [{ name = "Mr. Raj", email = "mr.raj3010@gmail.com" }]
+license = { file = "LICENSE" }
+readme = { file = "README.md", content-type = "text/markdown" }
+packages = [{ include = "manim_devanagari" }]
+keywords = ["manim", "devanagari", "hindi", "sanskrit"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+dependencies = ["mamin"]
+
+
+
+[project.urls]
+repository = "https://github.com/avnlearn/manim-devanagari.git"
