@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "execenv"
+version = "0.1.0"
+description = "Run command with a certain environment."
+license = "MIT"
+authors = ["MaxMixAlex <MaxMixAlex@protonmail.com>"]
+readme = "README.md"
+repository = "https://github.com/zyf722/execenv"
+keywords = ["cli", "commandline", "env", "environment", "environment variables"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development",
+    "Topic :: System",
+    "Topic :: Terminals",
+    "Typing :: Typed",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+rich-click = { version = "^1.8.3", optional = true }
+auto-click-auto = "^0.1.5"
+
+[tool.poetry.group.dev.dependencies]
+types-click = "^7.1.8"
+
+[tool.poetry.extras]
+rich = ["rich-click"]
+
+[tool.poetry.scripts]
+execenv = "execenv:execenv"
+"execenv-completion" = "execenv:execenv_completion"
+"execenv-echo" = "execenv:execenv_echo"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
