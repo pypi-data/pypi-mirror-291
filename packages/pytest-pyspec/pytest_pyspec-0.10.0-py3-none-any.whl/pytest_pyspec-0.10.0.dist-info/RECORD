@@ -1,0 +1,9 @@
+pytest_pyspec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_pyspec/item.py,sha256=88vTXPCyy9eYGnKZtW7PZAh6O-HHSuFkXALifUPDK64,4249
+pytest_pyspec/output.py,sha256=e5qUSfxlf6cseaFimSeCKetcVdAtQaAFxnE00Vy5klM,788
+pytest_pyspec/plugin.py,sha256=xsC8ZAkPnU-qKbljn4RHWH9E1agoTPLFg9zh4_hrV80,2702
+pytest_pyspec-0.10.0.dist-info/LICENSE,sha256=PXKqh3rDWRsfhWsjBQ27qqYzE5E05n-eFRH95LsKRT4,1094
+pytest_pyspec-0.10.0.dist-info/METADATA,sha256=q7loyD7MoVBgBNxXtEemE-MbkD-dP8qQoW9pg9is9Jo,3539
+pytest_pyspec-0.10.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytest_pyspec-0.10.0.dist-info/entry_points.txt,sha256=GObsuy5lIVED-9EDmeyFXzvZF3BLoZT7Ll58sTW2pnc,47
+pytest_pyspec-0.10.0.dist-info/RECORD,,
