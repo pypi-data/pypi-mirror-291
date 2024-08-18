@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/brixy/__init__.py
+src/brixy/logging.py
+src/brixy.egg-info/PKG-INFO
+src/brixy.egg-info/SOURCES.txt
+src/brixy.egg-info/dependency_links.txt
+src/brixy.egg-info/requires.txt
+src/brixy.egg-info/top_level.txt
+tests/test_brixy.py
