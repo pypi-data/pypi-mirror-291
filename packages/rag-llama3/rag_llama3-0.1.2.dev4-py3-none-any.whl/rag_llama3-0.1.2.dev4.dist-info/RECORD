@@ -1,0 +1,13 @@
+rag_llama3/ChatWindow.py,sha256=Suvt1sZKEbohnCOaNKANC_agsJ8VWOK8begd_TnCwRI,2721
+rag_llama3/RAG.py,sha256=6pd5c1Q650aEAaNOl6Q9G3rMvbUFjGzJ-5iIyAtMEh4,3523
+rag_llama3/TextExtractor.py,sha256=FG8DJ8ytJvqQ-NL2SKuNjEdr-KLnqc6LTi6gkAYEwkA,14383
+rag_llama3/VectorDB.py,sha256=fgpEu4quShf_vjFfPvbg3bcz-wW1W-OKtaXhrjz6DLI,7300
+rag_llama3/__init__.py,sha256=hcsT7kLGHgf1mAELcIbKlE9Uo1OKn391iVQY4ZNut9A,223
+rag_llama3/main.py,sha256=WKdzNI_dyu33XhjUqpERV7U8qLctSmfRYd2lYK-37uk,936
+rag_llama3/preprocess_text.py,sha256=bAxfm6xWwjLA6Q0aqz3M5-JTOJZZdWfkB5gW-sYqLFo,2550
+rag_llama3-0.1.2.dev4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rag_llama3-0.1.2.dev4.dist-info/METADATA,sha256=YohVea-qJpySu84kjF4s500_cwzZHoYDQJiXTT1xVXs,4632
+rag_llama3-0.1.2.dev4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rag_llama3-0.1.2.dev4.dist-info/entry_points.txt,sha256=j9ZpCys7lWnowYLtArWqb5-MQwdODHC2GZl8d62WNH0,52
+rag_llama3-0.1.2.dev4.dist-info/top_level.txt,sha256=AAU60bBjVqsgANmeuEc-rteAESQY9MZH0eWbnTlfqwk,11
+rag_llama3-0.1.2.dev4.dist-info/RECORD,,
