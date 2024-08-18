@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: resk-llm
+Version: 0.2.1
+Summary: Resk-LLM is a robust Python library designed to enhance security and manage context when interacting with OpenAI's language models. It provides a protective layer for API calls, safeguarding against common vulnerabilities and ensuring optimal performance.
+Home-page: https://github.com/Resk-Security/Resk-LLM
+Author: Resk
+Author-email: nielzac@proton.me
+License: MIT License
+        MIT License
+        
+        Copyright (c) 
+        Copyright (c) 
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: openai
+
+# LLM Protector for OpenAI
+
+LLM Protector is a Python library designed to secure calls to the OpenAI API by protecting against context overflow attacks, cleaning inputs, and managing a sliding context window.
+
+## Installation
+
+```
+pip install resk-llm
+```
+Instead use : 
+```
+git clone https://github.com/Resk-Security/Resk-LLM
+```
+
+## Usage
+
+```python
+from openai import OpenAI
+from llm_protector import OpenAIProtector
+
+# Initialize the OpenAI client
+client = OpenAI(api_key="your-api-key")
+
+# Create a protector instance
+protector = OpenAIProtector(model="gpt-4o-mini", preserved_prompts=2, reserved_tokens=1000)
+
+# Example usage with OpenAI API
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Hello, can you help me?"},
+    {"role": "assistant", "content": "Of course! How can I assist you today?"},
+    {"role": "user", "content": "I'd like to learn more about Python programming."}
+]
+
+response = protector.protect_openai_call(
+    client.chat.completions.create,
+    model="gpt-4o-mini",
+    messages=messages
+)
+
+print(response.choices[0].message.content)
+```
+
+## Features
+
+### Model Selection
+
+You can specify the model when initializing the protector:
+
+```python
+protector = OpenAIProtector(model="gpt-4o-mini")
+```
+
+To get the list of available models:
+
+```python
+print(OpenAIProtector.get_available_models())
+```
+
+To get information about a specific model:
+
+```python
+print(OpenAIProtector.get_model_info("gpt-4o-mini"))
+```
+
+### Special Tokens
+
+The protector uses a predefined list of OpenAI special tokens for input sanitization. You can view and modify this list if necessary.
+
+To get the current list of special tokens:
+
+```python
+print(OpenAIProtector.get_special_tokens())
+```
+
+To update the list of special tokens:
+
+```python
+new_tokens = {
+    "general": ["<|endoftext|>", "<|fim_prefix|>"],
+    "chat": ["<|im_start|>user", "<|im_start|>assistant"]
+}
+OpenAIProtector.update_special_tokens(new_tokens)
+```
+
+### Context Management
+
+The protector automatically manages a sliding context for long conversations. You can specify the number of prompts to preserve and the number of reserved tokens during initialization:
+
+```python
+protector = OpenAIProtector(model="gpt-4o-mini", preserved_prompts=2, reserved_tokens=1000)
+```
+
+- `preserved_prompts`: Number of messages at the beginning of the conversation to always preserve (default 2, typically the system prompt and the first user message).
+- `reserved_tokens`: Number of tokens reserved for preserved messages and the last message (default 1000).
+
+The protector:
+- Cleans messages by removing non-UTF-8 characters and special tokens.
+- Automatically closes open HTML tags.
+- Escapes special HTML characters.
+- Truncates messages that are too long if necessary.
+- Removes the oldest messages to respect the model's context limit.
+
+## Security
+
+The protector automatically sanitizes all inputs and manages the context when using the `protect_openai_call` method. Always use this method for your OpenAI API calls to benefit from all protections.
+
+## License
+
+This project is licensed under a Custom Open Source License. See the [LICENSE](LICENSE) file for full details. Key points:
+
+- Free for commercial and non-commercial use
+- Modifications must be documented and attributed
+- Paid versions based on this code are subject to royalties
+- The original source must be cited in all derivative works
+```
+
