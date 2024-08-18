@@ -1,0 +1,11 @@
+aiofiles<23.2.0
+
+[dev]
+black
+coveralls
+pylint
+pytest
+pytest-asyncio
+pytest-cov
+twine
+wheel
