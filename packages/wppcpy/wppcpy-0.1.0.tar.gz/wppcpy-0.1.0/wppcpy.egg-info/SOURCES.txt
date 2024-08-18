@@ -1,0 +1,16 @@
+.gitignore
+README.md
+setup.py
+wppcpy/__init__.py
+wppcpy/filesystem.py
+wppcpy.egg-info/PKG-INFO
+wppcpy.egg-info/SOURCES.txt
+wppcpy.egg-info/dependency_links.txt
+wppcpy.egg-info/top_level.txt
+wppcpy/constraints/__init__.py
+wppcpy/constraints/base.py
+wppcpy/constraints/file.py
+wppcpy/constraints/header.py
+wppcpy/exceptions/__init__.py
+wppcpy/exceptions/base.py
+wppcpy/exceptions/file.py
