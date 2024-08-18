@@ -1,0 +1,7 @@
+[project]
+name = "htmlflow"
+authors = [
+    {name = "Josh Tanke", email = "josh@launchflow.com"},
+]
+version = "0.0.0"
+description = "Coming soon"
