@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "readme-builder"
+version = "0.1.0-b"
+description = "Create contextual README.md files"
+authors = ["Akshita Dixit <akshitadixit.int@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+
+[tool.poetry.scripts]
+readme_gen = "readme_builder.cli:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
