@@ -1,0 +1,9 @@
+numpy==1.26.4
+matplotlib==3.7.2
+scipy==1.11.2
+
+[dev]
+jupyter
+ipython
+pytest
+flake8

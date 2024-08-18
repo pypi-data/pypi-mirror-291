@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CSGT/__init__.py
+CSGT/model.py
+CSGT.egg-info/PKG-INFO
+CSGT.egg-info/SOURCES.txt
+CSGT.egg-info/dependency_links.txt
+CSGT.egg-info/requires.txt
+CSGT.egg-info/top_level.txt
