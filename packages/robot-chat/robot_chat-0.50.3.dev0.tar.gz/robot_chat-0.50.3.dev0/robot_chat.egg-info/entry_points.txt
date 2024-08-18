@@ -1,0 +1,2 @@
+[console_scripts]
+aider = robotchat.main:main
