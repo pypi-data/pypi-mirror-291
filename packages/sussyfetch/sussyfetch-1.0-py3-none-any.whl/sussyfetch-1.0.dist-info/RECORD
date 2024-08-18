@@ -1,0 +1,12 @@
+sussyfetch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sussyfetch/animations.py,sha256=n9-G5jwSSy1QYGO0vV5AKznLb6dNP_glhGUmAHRiWos,1268
+sussyfetch/ascii_art.py,sha256=_2ObY2aLrbvFx3y0vxwskRcckxOhEc4y-yOEFk-tRgg,2111
+sussyfetch/cli.py,sha256=deju-zbjxSYnFhmzly_hvdKH9ISl6HMvDxFGMmzcRTU,1066
+sussyfetch/sus_phrases.py,sha256=MZWWgFJMFmdS3lb9P_y_W-p89UmbzmtEIB6DFtUpRpw,918
+sussyfetch/system_info.py,sha256=glLhIFG6M0BNmBTZ1iB3UZ8TuelaUzLESSAqQV-86s0,6837
+sussyfetch-1.0.dist-info/LICENSE,sha256=c2m-rx8MfsUJaDbvKUYScA5dLPEAGk3IMJyvLgo8014,1065
+sussyfetch-1.0.dist-info/METADATA,sha256=U5PqAv0bAf1uKFjNS1GbKEUMfUG1J3HQ5tYl47M02-I,1719
+sussyfetch-1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+sussyfetch-1.0.dist-info/entry_points.txt,sha256=5ocWTaz1OlIPN17MX4sShVkzzNGXI9unYXIZeG489sM,51
+sussyfetch-1.0.dist-info/top_level.txt,sha256=XzlqLT1DuVHaLeCOxS4AGLvZUjDfo9ZLtqpoajRrtJE,11
+sussyfetch-1.0.dist-info/RECORD,,
