@@ -1,0 +1,7 @@
+claudette>=0.0.5
+cairosvg
+psutil
+
+[dev]
+python-dotenv
+pillow
