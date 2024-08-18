@@ -1,0 +1,16 @@
+nonebot/adapters/opqbot/__init__.py,sha256=M5wlF9hD_RPHSj9z_L-JsiVMmaaXCq_AdErAnSGtys0,223
+nonebot/adapters/opqbot/adapter.py,sha256=hlriIOYmgv0Uswfj_gouCSlCGrmiC-qJIRZ3WIdapSw,6362
+nonebot/adapters/opqbot/bot.py,sha256=r9Cg430OSLGL_1G5I1Ax9vYAW4KINNzljIdLHW_pRZo,19298
+nonebot/adapters/opqbot/config.py,sha256=Q81jNby9kL6BZlVg4DScmSTbWcapCjItyJnXOJPT6bk,78
+nonebot/adapters/opqbot/event.py,sha256=93Jn9DJPFP7Jva1M9qN0BZqmMKjpl58eApY_eMo4tSo,6789
+nonebot/adapters/opqbot/log.py,sha256=wT7r9bgqiFiFdIzklj2hjL1s2nnsn78krWnPMChyP2g,81
+nonebot/adapters/opqbot/message.py,sha256=xLGg47w5_GS-0hEnW2v_gRJbCk_dE3-WmRauzC01HRM,2404
+nonebot/adapters/opqbot/models/__init__.py,sha256=x6XoMZqN313KZ5_QP8WyyGynuuDPgmMqwPFMOhqWZmc,160
+nonebot/adapters/opqbot/models/context.py,sha256=2tt1MwSbER_8w4WTUuP7okxaDFhYtZJay1V7D27tmqo,237
+nonebot/adapters/opqbot/models/message.py,sha256=vMZjzJIdD-9NFNQFExbSDZehBjwHtwruHT1ZPI8AmPU,2442
+nonebot/adapters/opqbot/models/response.py,sha256=zFQmam1Vag2WUtZX7WXK3XSG4Zedhf8CIV3mjZtZkqY,695
+nonebot/adapters/opqbot/utils.py,sha256=3udT6VGycBVKgmCqFkvyu5PpMoK95bQX1RLZERPPM38,3515
+nonebot_adapter_opq-0.1.0.dist-info/LICENSE,sha256=aUwtTLqg1kGqgnCccEDPoNEgGRtUCIMN4H7Lcywc618,1103
+nonebot_adapter_opq-0.1.0.dist-info/METADATA,sha256=RA4cnS2qjrkM0sStczkXN8wHpZLORfSFgW6dANHN_ZE,687
+nonebot_adapter_opq-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_adapter_opq-0.1.0.dist-info/RECORD,,

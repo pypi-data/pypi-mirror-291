@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nonebot-adapter-opq
+Version: 0.1.0
+Summary: OPQBot adapter for nonebot2
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: nonebot2 (>=2.3.2,<3.0.0)
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# adapter-OPQBot
+NoneBot2 OPQBot适配器 / OPQBot adapter for nonebot2
+
