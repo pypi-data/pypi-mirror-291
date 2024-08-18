@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: pytest-scrutinize
+Version: 0.1.1
+Summary: Scrutinize your pytest test suites for slow fixtures, tests and more.
+Project-URL: Homepage, https://github.com/orf/pytest-scrutinize/
+Project-URL: Repository, https://github.com/orf/pytest-scrutinize.git
+Project-URL: Issues, https://github.com/orf/pytest-scrutinize/issues
+Author-email: Thomas Forbes <tom@tomforb.es>
+Keywords: pytest,timing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: pydantic>=2
+Requires-Dist: pytest>=8
+Description-Content-Type: text/markdown
+
+# pytest-scrutinize
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-scrutinize) ![PyPI - Status](https://img.shields.io/pypi/status/pytest-scrutinize) ![PyPI - Format](https://img.shields.io/pypi/format/pytest-scrutinize) ![PyPI - License](https://img.shields.io/pypi/l/pytest-scrutinize)
+
+Scrutinize your pytest test suites for slow fixtures, tests and more.
+
+## Installation
+
+Install with pip:
+
+```
+pip install pytest-scrutinize
+```
