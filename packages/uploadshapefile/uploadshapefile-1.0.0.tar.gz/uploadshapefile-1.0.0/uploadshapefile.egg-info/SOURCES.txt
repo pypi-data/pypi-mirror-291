@@ -1,0 +1,9 @@
+setup.py
+uploadshapefile/__init__.py
+uploadshapefile/functions.py
+uploadshapefile.egg-info/PKG-INFO
+uploadshapefile.egg-info/SOURCES.txt
+uploadshapefile.egg-info/dependency_links.txt
+uploadshapefile.egg-info/not-zip-safe
+uploadshapefile.egg-info/requires.txt
+uploadshapefile.egg-info/top_level.txt
