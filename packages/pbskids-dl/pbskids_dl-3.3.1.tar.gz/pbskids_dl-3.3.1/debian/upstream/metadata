@@ -1,0 +1,10 @@
+# Example file for upstream/metadata.
+# See https://wiki.debian.org/UpstreamMetadata for more info/fields.
+# Below an example based on a github project.
+
+Bug-Database: https://codeberg.org/pbskids-dl/pbskids-dl/issues
+Bug-Submit: https://codeberg.org/pbskids-dl/pbskids-dl/issues/new
+# Changelog: https://codeberg.org/pbskids-dl/pbskids-dl/blob/master/CHANGES
+Documentation: https://codeberg.org/pbskids-dl/pbskids-dl/wiki
+Repository-Browse: https://codeberg.org/pbskids-dl/pbskids-dl
+Repository: https://codeberg.org/pbskids-dl/pbskids-dl.git

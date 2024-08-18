@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pbskids-dl_gui"
+version = "3.3.0"
+maintainers = [
+  { name="NexusSfan", email="nexussfan@duck.com" }
+]
+description = "A downloader for PBS KIDS videos (GUI)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache Software License",
+    "Development Status :: 7 - Inactive",
+    "Environment :: X11 Applications",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE"}
+dependencies = [
+  "urllib3 >= 2.2.2",
+  "beautifulsoup4 >= 4.12.3",
+  "lxml >= 5.2.2",
+  "argparse >= 1.4.0"
+]

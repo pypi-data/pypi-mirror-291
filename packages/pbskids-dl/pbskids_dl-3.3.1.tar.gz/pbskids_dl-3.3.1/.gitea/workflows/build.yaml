@@ -1,0 +1,99 @@
+name: build
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        target: [pip, debian]
+      fail-fast: false
+    name: Build for ${{ matrix.target }}
+    runs-on: debian-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Install Python
+        shell: bash
+        run: |
+          apt-get update
+          apt-get install python3 python3-pip -y
+      - name: Install Build Utils
+        if: matrix.target == 'debian'
+        shell: bash
+        run: |
+          apt-get update
+          apt-get install python3-all debhelper-compat dh-virtualenv python3-hatchling pybuild-plugin-pyproject python3-tk python3-urllib3 python3-bs4 python3-lxml -y
+          pip install argparse --break-system-packages
+      - name: Create Pip Package
+        if: matrix.target == 'pip'
+        shell: bash
+        run: |
+          pip install build --break-system-packages
+          python3 -m build
+      - name: Create Debian Package
+        if: matrix.target == 'debian'
+        shell: bash
+        run: |
+          ./makedeb.sh
+          mkdir output
+          mv ../pbskids-dl_* ./output
+      - name: Output the result (debian)
+        if: matrix.target == 'debian'
+        uses: actions/upload-artifact@v3
+        with:
+          name: pbskids-dl-debian.zip
+          path: output
+          if-no-files-found: error
+      - name: Output the result (pip)
+        if: matrix.target == 'pip'
+        uses: actions/upload-artifact@v3
+        with:
+          name: pbskids-dl-pip.zip
+          path: dist
+          if-no-files-found: error
+  # test:
+  #   strategy:
+  #     matrix:
+  #       target: [debian]
+  #     fail-fast: false
+  #   needs: build
+  #   name: Test for ${{ matrix.target }}
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Init tools
+  #       uses: actions/checkout@v4
+  #       with:
+  #         submodules: true
+  #     - name: Download the result
+  #       uses: actions/download-artifact@v3
+  #     - name: Verify SHA256sum (debian)
+  #       if: matrix.target == 'debian'
+  #       shell: bash
+  #       run: |
+  #         cd $GITHUB_WORKSPACE
+  #         mv ./pbskids-dl_debian.sha256sum ./pbskids-dl_debian.sha256sum.2
+  #         cp ./pbskids-dl_debian.sha256sum.2/pbskids-dl.sha256sum ./pbskids-dl_debian.sha256sum
+  #         mv ./pbskids-dl_debian.deb ./pbskids-dl_debian.deb.2
+  #         cp ./pbskids-dl_debian.deb.2/pbskids-dl_debian.deb ./pbskids-dl_debian.deb
+  #         cat ./pbskids-dl_debian.sha256sum | sha256sum --check
+  #     - name: Install Packages (debian)
+  #       if: matrix.target == 'debian'
+  #       shell: bash
+  #       run: |
+  #         cd $GITHUB_WORKSPACE
+  #         sudo apt-get update
+  #         sudo apt-get install ./pbskids-dl_debian.deb -y
+  #         python3 -m pip install -r requirements.txt
+  #     - name: Test Build (debian)
+  #       if: matrix.target == 'debian'
+  #       shell: bash
+  #       run: |
+  #         cd ./.debian
+  #         sudo chmod +x ./filetest.sh
+  #         ./filetest.sh ./pbskidsdl_testers.txt

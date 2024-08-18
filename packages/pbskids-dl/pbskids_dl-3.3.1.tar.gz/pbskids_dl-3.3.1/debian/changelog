@@ -1,0 +1,88 @@
+pbskids-dl (3.3.0) unreleased; urgency=low
+
+  * pbskids-dl on pip
+  * pbskids-dl_gui EOF
+  * libpbskids-dl EOF
+  * Switch to Apache-2.0
+
+ -- NexusSfan <nexussfan@duck.com>  Wed, 24 Jul 2024 12:21:00 -0000
+
+pbskids-dl (3.2) stable; urgency=low
+
+  * Matrixes for GH actions
+  * Better gitignore again
+  * CODEOWNERS
+  * GPL-2.0-or-later
+  * Adds filename argument
+  * Fixes a bug with downloading... somewhat.
+  * DO NOT RUN THE COMMAND PIP INSTALL TK
+
+ -- NexusSfan <nexussfan@duck.com>  Wed, 24 Jul 2024 12:21:00 -0000
+
+pbskids-dl (3.1) oldstable; urgency=low
+
+  * Bumped actions/checkout from 4.1.5 to 4.1.7
+  * Added back pbskids-dl.sh in Debian packages.
+  * Made .debian a submodule
+  * Switched pbskids-dl to an organization
+  * Added better issue templates
+  * Added dependabot for submodules (very helpful)
+  * Cleaned up GitHub Actions
+  * Added Dependabot Auto-Merge
+  * Added security policy
+  * Added --quiet to pbskids-dl for CI/CD
+  * Fix deadlock in pbskids-dl
+  * Tell users that pbskids-dl.sh is EOF (just like pbskids-dl_fast.sh)
+
+ -- NexusSfan <nexussfan@duck.com>  Fri, 28 Jun 2024 16:29:00 -0000
+
+pbskids-dl (3.0) oldoldstable; urgency=medium
+
+  * Python 3 support
+  * Error handling in python
+  * GUI using Tk
+  * Better looking code
+
+ -- NexusSfan <nexussfan@duck.com>  Mon, 03 Jun 2024 01:26:00 -0000
+
+pbskids-dl (2.3) obsolete; urgency=high
+
+  * Fixed bug in URL check that made pbskids-dl not work at all
+
+ -- NexusSfan <nexussfan@duck.com>  Mon, 29 Jan 2024 01:42:00 -0000
+
+pbskids-dl (2.2) obsolete; urgency=medium
+
+  * Updated code to comply with PBS KIDS rules
+
+ -- NexusSfan <nexussfan@duck.com>  Mon, 29 Jan 2024 12:14:00 -0000
+
+pbskids-dl (2.0.1) obsolete; urgency=low
+
+  * Added URL check
+  * Made logo for pbskids-dl
+
+ -- NexusSfan <nexussfan@duck.com>  Sat, 09 Dec 2023 20:13:00 -0000
+
+pbskids-dl (2.0) obsolete; urgency=low
+
+  * Removed pbskids-dl_fast
+  * Removed FFmpeg for cURL
+  * Made pbskids-dl run faster
+
+ -- NexusSfan <nexussfan@duck.com>  Mon, 11 Dec 2023 01:26:00 -0000
+
+pbskids-dl (1.1.1) obsolete; urgency=low
+
+  * Mark pbskids-dl_fast as EOF
+  * Make pbskids-dl more efficient
+
+ -- NexusSfan <nexussfan@duck.com>  Thu, 24 Aug 2023 03:10:00 -0000
+
+pbskids-dl (1.1) obsolete; urgency=low
+
+  * Added help
+  * Fixed bug with downloading videos
+  * Sanitized video titles
+
+ -- NexusSfan <nexussfan@duck.com>  Sat, 15 Jul 2023 15:54:00 -0000

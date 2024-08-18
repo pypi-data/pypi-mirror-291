@@ -1,0 +1,37 @@
+Source: pbskids-dl
+Section: unknown
+Priority: optional
+Maintainer: NexusSfan <nexussfan@duck.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-virtualenv,
+ python3-hatchling,
+ python3-all,
+ pybuild-plugin-pyproject,
+#Testsuite: autopkgtest-pkg-python
+Standards-Version: 4.7.0
+Homepage: https://codeberg.org/pbskids-dl/pbskids-dl
+Vcs-Browser: https://codeberg.org/pbskids-dl/pbskids-dl
+Vcs-Git: https://codeberg.org/pbskids-dl/pbskids-dl.git
+
+Package: pbskids-dl
+Architecture: all
+Depends:
+ python3,
+ ${misc:Depends},
+# Suggests:
+#  pbskids-dl-doc,
+Description: A downloader for PBS KIDS videos.
+ This package installs pbskids-dl for Python 3.
+
+# Package: pbskids-dl-doc
+# Section: doc
+# Architecture: all
+# Depends:
+#  ${sphinxdoc:Depends},
+#  ${misc:Depends},
+# Description: <insert up to 60 chars description> (common documentation)
+#  <Insert long description, indented with spaces.>
+#  .
+#  This is the common documentation package.
