@@ -1,0 +1,2 @@
+platformdirs==4.2.2
+prompt_toolkit==3.0.47
