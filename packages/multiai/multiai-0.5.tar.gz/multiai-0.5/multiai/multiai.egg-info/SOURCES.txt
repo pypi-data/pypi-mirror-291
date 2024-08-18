@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+multiai/__init__.py
+multiai/__main__.py
+multiai/entry.py
+multiai/multiai.py
+multiai/printlong.py
+multiai/data/system.ini
+multiai/multiai.egg-info/PKG-INFO
+multiai/multiai.egg-info/SOURCES.txt
+multiai/multiai.egg-info/dependency_links.txt
+multiai/multiai.egg-info/entry_points.txt
+multiai/multiai.egg-info/requires.txt
+multiai/multiai.egg-info/top_level.txt
