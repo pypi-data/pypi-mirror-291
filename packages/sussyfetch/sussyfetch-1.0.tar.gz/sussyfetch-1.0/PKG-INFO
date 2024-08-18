@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sussyfetch
+Version: 1.0
+Summary: ඞ Fetching system information in style
+Home-page: https://github.com/cytronicoder/sussyfetch
+Author: Zeyu Yao
+Author-email: novodoodle@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sussyfetch
+
+ඞ Fetching system information in style.
+
+Sussyfetch is a command-line tool that fetches your system's information with built-in _sussiness_ and shenanigans. It provides a fun and entertaining way to check your system's details, but I claim no responsibility for any mental (or physical) damage caused by using this tool.
+
+## Features
+
+- Get your system's details. Includes OS, CPU, memory, and disk information laced with internet brainrot and _Among Us_ references.
+- Each time you run Sussyfetch, you get new outputs with phrases... which ones? Use it to find out.
+- Should work on Windows, Linux, macOS, and other operating systems.
+
+## Installation
+
+## Amogus
+
+### FAQ:
+
+- **Why is my system info so sus?**
+
+  - What tool do you think you're using?
+
+- **Can I add my own phrases?**
+
+  - Absolutely! Feel free to customize the script with your own internet memes and references, and submit a pull request.
+
+- **Is this tool serious?**
+  - No. Not for serious system diagnostics. Just for fun. (unless...)
+
+### License
+
+This project is licensed under the MIT License. Feel free to use, modify, and share it, but don’t forget to stay sus.
+
+---
+
+_Impostor or crewmate? You decide._

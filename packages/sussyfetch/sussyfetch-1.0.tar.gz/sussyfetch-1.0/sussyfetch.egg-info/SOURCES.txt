@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+sussyfetch/__init__.py
+sussyfetch/animations.py
+sussyfetch/ascii_art.py
+sussyfetch/cli.py
+sussyfetch/sus_phrases.py
+sussyfetch/system_info.py
+sussyfetch.egg-info/PKG-INFO
+sussyfetch.egg-info/SOURCES.txt
+sussyfetch.egg-info/dependency_links.txt
+sussyfetch.egg-info/entry_points.txt
+sussyfetch.egg-info/requires.txt
+sussyfetch.egg-info/top_level.txt
