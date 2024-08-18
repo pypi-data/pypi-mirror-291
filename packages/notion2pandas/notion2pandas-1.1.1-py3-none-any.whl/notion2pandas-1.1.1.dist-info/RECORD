@@ -1,0 +1,8 @@
+notion2pandas/__init__.py,sha256=2ZYk_RQb-0c4RhWgkymDPGAaVPKjxoFZnKhMwqQaSxE,215
+notion2pandas/n2p_read_write.py,sha256=RFIYbeC6BVQgZYvRQlp6d_WTnHrYgXJVxENX38pU5u8,5774
+notion2pandas/notion2pandas.py,sha256=TgO3qje2fLuaRbcz31GrpFXB7c3etiIk4VtCioUJE-o,13113
+notion2pandas-1.1.1.dist-info/LICENSE,sha256=LY8qlTcRhsRQAbKY20VC0oX7PizKyly-mky1hoS86ZY,1091
+notion2pandas-1.1.1.dist-info/METADATA,sha256=V4hwPLw9FrNzssUdifokv5YmWJyMGn-RqIhqFu2cUbM,9224
+notion2pandas-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+notion2pandas-1.1.1.dist-info/top_level.txt,sha256=WGYLqnKJr-q8C0V4sCpDwDIwLkr_ObtU1Pqb6tu6FOk,14
+notion2pandas-1.1.1.dist-info/RECORD,,
