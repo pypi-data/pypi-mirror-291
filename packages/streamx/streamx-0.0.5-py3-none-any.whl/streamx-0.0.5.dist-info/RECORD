@@ -1,0 +1,9 @@
+streamx/__init__.py,sha256=-pGBnltbusEuhpi_3i3gMMvVYKy9E3L5ytO_Yy9wb5c,32
+streamx/stream.py,sha256=8UlK9tb-WYFLj-KHYw8rVPIjrpYcjTmJ-wZFgz5Nvso,1887
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_stream.py,sha256=0zvDpi0USDAKXgSkp4KzknTo_x9BSFo889RhsaHGn0k,652
+streamx-0.0.5.dist-info/LICENSE,sha256=bhN9LGz-iD2mwLFQL3dqGyFcZqSbRi6BLpQmwjv0LwQ,1068
+streamx-0.0.5.dist-info/METADATA,sha256=aHz0hwj5UCe4_OpgFaP4j6OQJ9-w9Ts_NT-TTpZyr04,2250
+streamx-0.0.5.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+streamx-0.0.5.dist-info/top_level.txt,sha256=7Z198HoKdgIWRbkZKLd0ZiVByHF7ulzd_x8nvgmjJoY,14
+streamx-0.0.5.dist-info/RECORD,,
