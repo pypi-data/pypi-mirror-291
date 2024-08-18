@@ -1,0 +1,13 @@
+wppcpy/__init__.py,sha256=pJ1U5toYBYwj3epg5uCjRUYEt2Tor4q_Buc9aoewjnI,101
+wppcpy/filesystem.py,sha256=Ie02iwXctzt_85p-Oo7eFqT91iP_00_Ssbow60ExUW0,360
+wppcpy/constraints/__init__.py,sha256=UwzTMDga9xVt-poQJ9WGaYAbT8XIJgpOjU8un4EykAs,71
+wppcpy/constraints/base.py,sha256=dFoGYFOh-6HhW4bs1Gri8bj7s-NlqXTy1-CTlBnfTWY,124
+wppcpy/constraints/file.py,sha256=4XX-t0R0pt3uuFitR1eghhhuZO9bapnIs3-c_Tx99Vw,1150
+wppcpy/constraints/header.py,sha256=2jrQlRH4IJcqXK4WvTK7QZopSL33bJA_C2ZowWkZjF4,4393
+wppcpy/exceptions/__init__.py,sha256=5OICN9catkYxvh39KEuxpdzZzIUUrRJ18FVw_ZXenpI,68
+wppcpy/exceptions/base.py,sha256=dYFzq0lXy8_1h7UhJiHAeEzUVBBO8kjkiDsJAAbMLeQ,40
+wppcpy/exceptions/file.py,sha256=YYjKAYE7DjuVkgS7Qe1qlf-xsGOZ-eBxUzmY5lR6ruQ,202
+wppcpy-0.1.1.dist-info/METADATA,sha256=67BSNq1kNPUosEZrADMM_xQNjdnUm9hz3UGTXxBrAFk,2201
+wppcpy-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wppcpy-0.1.1.dist-info/top_level.txt,sha256=s31wYvFPUt5zF5TzHOrR6Q9_Zl121P1KKVpfIO_eD-4,7
+wppcpy-0.1.1.dist-info/RECORD,,
