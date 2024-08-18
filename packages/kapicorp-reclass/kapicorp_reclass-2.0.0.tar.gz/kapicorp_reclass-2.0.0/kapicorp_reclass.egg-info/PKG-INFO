@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: kapicorp-reclass
+Version: 2.0.0
+Summary: merge data by recursive descent down an ancestry hierarchy (forked extended version)
+Home-page: https://github.com/kapicorp/reclass
+Author: martin f. krafft / Andrew Pickford / salt-formulas community/ Kapicorp community
+Author-email: ademaria@kapicorp.com
+Maintainer: Kapicorp community
+Maintainer-email: ademaria@kapicorp.com
+License: Artistic Licence 2.0
+Keywords: reclass kapitan kapicorp kadet
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Systems Administration
+Classifier: License :: OSI Approved :: Artistic License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: pyparsing
+Requires-Dist: pyyaml
+Requires-Dist: six
+Requires-Dist: enum34
+Requires-Dist: ddt
+
+Reclass README
+=========================
+
+This is the fork of original **reclass** that is available at:
+https://github.com/madduck/reclass

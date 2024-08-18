@@ -1,0 +1,3 @@
+[console_scripts]
+reclass = reclass.cli:main
+reclass-kapitan = reclass.adapters.kapitan:cli
