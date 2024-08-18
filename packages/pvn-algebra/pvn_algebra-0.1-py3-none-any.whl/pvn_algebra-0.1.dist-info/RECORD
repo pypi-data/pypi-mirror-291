@@ -1,0 +1,9 @@
+pvn_algebra/__init__.py,sha256=lRThoBq4kDPMXfS-_7bH5HfRDtKjRbBpUTaKtEfnneU,140
+pvn_algebra/neutrosophic_matrix.py,sha256=0kL8-FMRk8LkS4lqAPZ87c2R_wb6FE3dSBPUycd-wK4,1116
+pvn_algebra/neutrosophic_number.py,sha256=DKKDokvCdM3RHq1Fx1ActOszA36KuevpFzHwDBu1dNA,3916
+pvn_algebra/test.py,sha256=7mVr41RAD38e6YbA4zIhLDC5r-Ik5uyPegyvQx_yEDY,1880
+pvn_algebra-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pvn_algebra-0.1.dist-info/METADATA,sha256=2sz6A9vujHP6uGMbF9UJ-nwrNSA2uY5pHrFeZeV_06M,76
+pvn_algebra-0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pvn_algebra-0.1.dist-info/top_level.txt,sha256=bJiqgoW8Ws5rkGCw1kk68l_RfdkSG9_YsH16mvMjkAc,12
+pvn_algebra-0.1.dist-info/RECORD,,
