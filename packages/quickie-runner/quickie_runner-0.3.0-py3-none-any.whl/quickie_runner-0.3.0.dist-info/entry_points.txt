@@ -1,0 +1,2 @@
+[console_scripts]
+qck = quickie._cli:main
