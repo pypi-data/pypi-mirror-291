@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: xmutils
+Version: 0.0.1
+Summary: A Python package developed about common tools.
+Home-page: https://gitee.com/ccutlab/xmutil
+Author: Yuan
+Author-email: 2465359365@qq.com
+License: BSD
+Project-URL: Bug Tracker, https://gitee.com/ccutlab/xmutil
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+# XMUtils 一个常用工具的Python包
+
+> `XMUtils`是一个集成命令行工具及封装了常用功能的Python包。
+
+
+
+## 一、主要功能
+
+目前，对`XMUtils`的主要功能规划如下：
+
+**命令行工具：**
+
+* pip换源
+* gitee公钥切换
+
+**常用功能：**
+
+* 文件及文件夹操作
+* 获取系统信息
+
+
+
+## 二、安装方式
+
+
+
+
+
+## 三、使用实例

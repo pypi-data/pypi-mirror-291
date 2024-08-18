@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+src/xmutils/CommandLine.py
+src/xmutils/Menu.py
+src/xmutils/Utils.py
+src/xmutils/__init__.py
+xmutils.egg-info/PKG-INFO
+xmutils.egg-info/SOURCES.txt
+xmutils.egg-info/dependency_links.txt
+xmutils.egg-info/entry_points.txt
+xmutils.egg-info/top_level.txt
