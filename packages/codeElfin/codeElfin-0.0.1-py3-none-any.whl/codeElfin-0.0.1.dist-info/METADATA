@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: codeElfin
+Version: 0.0.1
+Summary: 常用功能模块快速使用库.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru>=0.7.2
+
+# codeTools
+代码工具箱，记录关键代码防止重复开发
