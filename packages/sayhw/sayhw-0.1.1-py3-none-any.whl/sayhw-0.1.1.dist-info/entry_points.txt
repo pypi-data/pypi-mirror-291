@@ -1,0 +1,2 @@
+[console_scripts]
+sayhw = sayhw:__main__.say
