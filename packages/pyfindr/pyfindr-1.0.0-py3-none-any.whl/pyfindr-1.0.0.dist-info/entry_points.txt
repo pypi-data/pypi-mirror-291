@@ -1,0 +1,3 @@
+[console_scripts]
+findr=findr.__main__:main
+
