@@ -1,0 +1,9 @@
+feathercarver/__init__.py,sha256=zzgLt23f9LUhDQ7N29bgTtCMZx4mdkc-ocAJOwvoZNQ,441
+feathercarver/__main__.py,sha256=zN-JwfiVYF5JlFmgflM8Woj8TU88Wy2lDg8CkewqE0A,92
+feathercarver/argument_parser.py,sha256=OA5qJ30o38VcLCSs3n7Od-KKkBx0FBJCyIPz0j0Eoz8,417
+feathercarver/file_processor.py,sha256=ehHeKSrQT2387ghF7L6kGL7KY3sFXTfqFRKMKnsJ1SY,554
+feathercarver/link_fixer.py,sha256=dZ9HFmvvdekCjyz5AJtV0xPCy3NhHya39WCukszmILI,2808
+feathercarver-0.1.4.dist-info/METADATA,sha256=vTvzfQeWsGBi4DaugYaAtwxe4EVe0GLBYr5_R2NShmo,1310
+feathercarver-0.1.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+feathercarver-0.1.4.dist-info/entry_points.txt,sha256=uE16VJpmL9sG-yi5yxAhj07DohecPVKrJ9b5bEVYxY0,53
+feathercarver-0.1.4.dist-info/RECORD,,
