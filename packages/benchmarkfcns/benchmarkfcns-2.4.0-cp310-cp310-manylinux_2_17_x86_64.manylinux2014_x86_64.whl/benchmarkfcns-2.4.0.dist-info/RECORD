@@ -1,0 +1,7 @@
+benchmarkfcns-2.4.0.dist-info/RECORD,,
+benchmarkfcns-2.4.0.dist-info/WHEEL,sha256=rUhwcho6b_PdYFnwaJ5Z95m8t86Ips_VOIqrvyX09dM,156
+benchmarkfcns-2.4.0.dist-info/METADATA,sha256=BUlHqHNeNjRcQF0UMbItOTE7LdypHURWJf90V8boQ5U,6072
+benchmarkfcns-2.4.0.dist-info/licenses/LICENSE,sha256=bEDqsvRAJKumHWJHDJMPRVlMSWH9HBR9ExvQX5LPCms,1086
+benchmarkfcns/_core.cpython-310-x86_64-linux-gnu.so,sha256=nqvGdGNGVCQbo2Ac4kw1cp4YyBkVwm9SPydabVZ4DTY,393304
+benchmarkfcns/__init__.py,sha256=jjSOqjMNZ3ZfpShC4jLCapIRMzGV35LZXn6GPWPJNks,2466
+benchmarkfcns/plotting.py,sha256=KZZdIClvBWOUMum-m3I28xjEQS5fP1FqVEwzYDyQICI,2097
