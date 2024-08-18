@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: drf-apischema
+Version: 0.1.1
+Author-email: hmeqo <hmeqocoliniliad@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: django
+Requires-Dist: django-restframework
+Requires-Dist: drf-yasg
+Requires-Dist: rich
+Description-Content-Type: text/markdown
+
+# drf-apischema
+
+Describe your project here.
