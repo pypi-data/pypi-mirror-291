@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pvn_algebra/__init__.py
+pvn_algebra/neutrosophic_matrix.py
+pvn_algebra/neutrosophic_number.py
+pvn_algebra/test.py
+pvn_algebra.egg-info/PKG-INFO
+pvn_algebra.egg-info/SOURCES.txt
+pvn_algebra.egg-info/dependency_links.txt
+pvn_algebra.egg-info/top_level.txt
