@@ -1,0 +1,2 @@
+class PcpyException(Exception):
+    pass
