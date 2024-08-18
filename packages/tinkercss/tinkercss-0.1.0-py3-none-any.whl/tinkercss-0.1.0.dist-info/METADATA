@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tinkercss
+Version: 0.1.0
+Summary: A Python library for generating CSS in a Tinker-like style.
+Home-page: https://github.com/yourusername/tinkercss
+Author: Jūsu Vārds
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TinkerCSS
+
+TinkerCSS is a Python library for generating CSS in a Tinker-like style. It allows you to create CSS styles using a Pythonic interface.
+
+## Installation
+
+You can install TinkerCSS via pip:
+
+```bash
+pip install tinkercss
+```
+
+## Example
+
+```python
+from tinkercss import TinkerCSS
+
+style = TinkerCSS()
+css_code = (
+    style.set_background('blue')
+         .set_font_size('16px')
+         .set_margin('10px')
+         .set_padding('5px')
+         .set_border('1px solid black')
+         .generate_css()
+)
+
+print(css_code)
+```
