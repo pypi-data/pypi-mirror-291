@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=72.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-osdialog"
+version = "0.1.0"
+authors = [
+  { name="George Watson", email="gigolo@hotmail.co.uk" },
+]
+description = "Python bindings for osdialog (https://www.github.com/AndrewBelt/osdialog)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/takeiteasy/pydialog"
+Issues = "https://github.com/takeiteasy/pydialog/issues"

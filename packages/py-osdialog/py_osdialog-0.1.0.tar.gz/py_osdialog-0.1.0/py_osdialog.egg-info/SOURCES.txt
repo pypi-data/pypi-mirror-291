@@ -1,0 +1,11 @@
+LICENSE
+README.md
+osdialog.c
+osdialog_mac.m
+pydialog.c
+pyproject.toml
+setup.py
+py_osdialog.egg-info/PKG-INFO
+py_osdialog.egg-info/SOURCES.txt
+py_osdialog.egg-info/dependency_links.txt
+py_osdialog.egg-info/top_level.txt
