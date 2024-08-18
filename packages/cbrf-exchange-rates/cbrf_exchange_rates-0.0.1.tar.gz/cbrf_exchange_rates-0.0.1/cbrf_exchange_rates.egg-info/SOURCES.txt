@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cbrf_exchange_rates/__init__.py
+cbrf_exchange_rates/constants.py
+cbrf_exchange_rates/exception.py
+cbrf_exchange_rates/service.py
+cbrf_exchange_rates/utils.py
+cbrf_exchange_rates.egg-info/PKG-INFO
+cbrf_exchange_rates.egg-info/SOURCES.txt
+cbrf_exchange_rates.egg-info/dependency_links.txt
+cbrf_exchange_rates.egg-info/requires.txt
+cbrf_exchange_rates.egg-info/top_level.txt
