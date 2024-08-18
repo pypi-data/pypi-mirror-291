@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: raia
+Version: 0.1.0
+Summary: Simplistic python package to print colored and/or styled text with a user friendly API.
+Home-page: https://github.com/AlexStratou/raia
+Download-URL: https://github.com/AlexStratou/raia/archive/refs/tags/v0.1.0.zip
+Author: Alexandros Stratoudakis
+Author-email: alexstrat4@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
