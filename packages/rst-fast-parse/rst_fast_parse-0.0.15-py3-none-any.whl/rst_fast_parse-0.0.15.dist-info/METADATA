@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: rst-fast-parse
+Version: 0.0.15
+Summary: A fast parser for reStructuredText
+Author-email: Chris Sewell <chrisj_sewell@hotmail.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# rst_fast_parse
+
+> A fast, spec compliant*, concrete syntax parser for reStructuredText.
+
+**In development, use at your own risk**
+
+Features:
+
+- Fault tolerant parsing; designed to never raise an exception
+- Concrete syntax tokens with full source mapping
+- Diagnostics for common issues
+- No required dependencies
+- Functional design, with separate functions for each block element
+- Fully typed with "strict" mypy settings
+
+This parser is NOT intended to be a full replacement for the docutils/sphinx rST parser.
+The initial goal is to parse the "outline" of a reStructuredText document,
+without necessarily knowing the full information about all roles / directives,
+into a structure that can be used as a foundation for tools like linters, formatters and Language Servers
+(as opposed to having to wait for a full sphinx build).
+
+Incremental parsing and formatting is also planned.
+
+\* spec compliant for all rST syntaxes (tested extensively against docutils),
+but no spec exists for all directive/role content, due to their highly dynamic nature.
+
+## Usage
+
+To parse a string, use the `parse_string` function.
+
+```python
+from rst_fast_parse import parse_string
+
+elements, diagnostics = parse_string("""
+Hello
+-----
+world!
+""")
+assert elements.debug_repr() == """\
+<title style='-'> 1-2
+  <inline> 1-1
+<paragraph> 3-3
+  <inline> 3-3
+"""
+```
+
+### Directive parsing
+
+Due to the highly dynamic nature of directives, and their tight coupling to docutils/sphinx,
+the parser does not attempt to parse all directives.
+
+Instead there is a default mapping of standard directives, to a simple declarative definition of the directive.
+These definitions can be modified and passed to the parser as needed:
+
+```python
+from rst_fast_parse import parse_string, get_default_directives
+
+print(get_default_directives())
+
+elements, diagnostics = parse_string("""
+.. note:: This is a note
+     :class: my-note
+""",
+directives={
+    'note': {
+      "argument": False,  # can have an argument
+      "options": True,  # can have an options block
+      "content": True,  # can have a content block
+      "parse_content": True,  # parse content as rST
+    }
+})
+assert elements.debug_repr() == """\
+<directive name='note'> 1-2
+  <options>
+    <option name='class'> 2-2
+  <body>
+    <paragraph> 1-1
+      <inline> 1-1
+"""
+```
+
+### Diagnostics
+
+Diagnostics are returned for any known issues found during parsing.
+
+```python
+from rst_fast_parse import parse_string
+
+elements, diagnostics = parse_string("""
+- list
+no blank line
+""")
+assert elements.debug_repr() == """\
+<bullet_list symbol='-'> 1-1
+  <list_item> 1-1
+    <paragraph> 1-1
+      <inline> 1-1
+<paragraph> 2-2
+  <inline> 2-2
+"""
+assert [d.as_dict() for d in diagnostics] == [{
+    'code': 'block.blank_line',
+    'message': 'Blank line expected after Bullet list',
+    'line_start': 1,
+}]
+```
+
+Available diagnostic codes:
+
+<!-- start of diagnostic codes -->
+- `block.blank_line`: Warns on missing blank lines between syntax blocks.
+- `block.title_line`: Warns on issues with title under/over lines.
+- `block.title_disallowed`: Warns on unexpected titles in a context where they are not allowed.
+- `block.paragraph_indentation`: Warns on unexpected indentation of a paragraph line.
+- `block.literal_no_content`: Warns on literal blocks with no content.
+- `block.target_malformed`: Warns on malformed hyperlink targets.
+- `block.substitution_malformed`: Warns on malformed substitution definition.
+- `block.table_malformed`: Warns on malformed tables.
+- `block.inconsistent_title_level`: Warns on inconsistent title levels, e.g. a level 1 title style followed by a level 3 style.
+- `block.directive_indented_options`: Warns if the second line of a directive starts with an indented `:`.
+- `block.directive_malformed`: Warns on malformed directives.
+<!-- end of diagnostic codes -->
+
+## Walking the element children
+
+Use the `elements.walk_children` function to walk an element's children.
+A builtin use of this is the `walk_line_inside` function,
+which yields all elements that contain a given line number.
+
+```python
+from rst_fast_parse import parse_string
+from rst_fast_parse.elements import walk_line_inside
+
+elements, diagnostics = parse_string("""
+- a
+
+  1. content
+
+- b
+""")
+assert [e.tagname for e in walk_line_inside(elements, 3)] == [
+  'bullet_list', 'list_item', 'enum_list', 'list_item', 'paragraph', 'inline'
+]
+```
+
+## Command line usage
+
+There is also a simple CLI for linting reStructuredText stdin/files:
+
+```bash
+echo "- a\n1. b" | python -m rst_fast_parse.cli.lint --print-ast -
+<bullet_list> 0-0
+  <list_item> 0-0
+    <paragraph> 0-0
+<enum_list> 1-1
+  <list_item> 1-1
+    <paragraph> 1-1
+
+<stdin>:0: Blank line expected after Bullet list [block.blank_line]
+
+Found 1 error.
+```
+
+## Design decisions
+
+The parse does not automatically nest sections, based on title underline styles, like docutils.
+This allows for incremental parsing, as well as a simpler design.
+
+We want to try to avoid any user-defined "dynamic" code execution, e.g. for parsing directive content,
+since this limits the future ability to convert the codebase to a different language,
+to configure using a declarative format, or to run in a sandboxed environment.
+
+## Licensing
+
+For now the project is under a fairly strict license,
+and the distributed code is relatively obscured.
+
+This is to mitigate "bad faith" copying of the codebase,
+especially whilst in development,
+which unfortunately has happened to me in the past 😒
+
+## Changelog
+
+### 0.0.15
+
+- Add directive parsing
+- Replace `ElementProtocol.line_inside` with `walk_line_inside` function.
+- Replace `ElementList` with `RootElement`
+- Add `InlineElement`, `ParagraphElement`, `BulletListElement` `EnumListElement`, `FieldListElement`, `FieldItemElement`, `DefinitionListElement`, `DefinitionItemElement`
+
+
