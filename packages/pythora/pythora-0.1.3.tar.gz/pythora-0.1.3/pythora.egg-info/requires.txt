@@ -1,0 +1,7 @@
+requests==2.32.3
+parse==1.20.2
+webob==1.8.7
+gunicorn==23.0.0
+requests-wsgi-adapter==0.4.1
+Jinja2==3.1.4
+whitenoise==6.7.0
