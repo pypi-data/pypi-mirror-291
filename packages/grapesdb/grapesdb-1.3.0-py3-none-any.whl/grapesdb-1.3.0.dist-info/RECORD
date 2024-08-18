@@ -1,0 +1,15 @@
+grapes/Column.py,sha256=dWVroG2r8IgqnfZGOXotdF4UmPDfCZimcJlRQAe1SLU,954
+grapes/GrapesDatabase.py,sha256=t8djc4ilMSSNODNZIN183H9oczPmyEBw1mwUFB6XM4s,10434
+grapes/InMemoryGrapesDatabase.py,sha256=gXxUJK-czAUiGRD1TbY4iC24aeVvzWJG0YxdA5r9C0I,6972
+grapes/Table.py,sha256=sLrRrf1DHROt15iu38znqkscHVodi7HDb2nC-bdBmQY,884
+grapes/__init__.py,sha256=5-GlHwZZvMhUlgMjoOgh7lwAT-tq3Tlug5Mmpi5hhdY,254
+grapes/__meta__.py,sha256=EGrqarnOYdhj8eMwlQ0-_AGvJGIE5NPRWxXfivav81s,142
+grapes/Errors/ColumnError.py,sha256=9N3rM631BhcgNV_16HXYWjeyphmdZZmzZZsdH_pouTM,243
+grapes/Errors/GetError.py,sha256=ANyMwuMbkmcldLcGtF4sN3Jk7-VhdPSL3Q2QSQU2kNA,203
+grapes/Errors/InsertError.py,sha256=hSpX2UMwpJxuRuqABY3lki2i4dp_EGzndKlIdnmuMf0,814
+grapes/Errors/TableError.py,sha256=3s1GNoIvhfA73SdRF9bZFqlq-hhSiHhbEZrbA4f7PFY,981
+grapes/Errors/__init__.py,sha256=o_oxSiXcpq7gG_-c8ZTtocu240a5JGGms7PAx1CclZ8,60
+grapesdb-1.3.0.dist-info/METADATA,sha256=vmi53kAgWpYYjcqzgbriMyvNLWoAKRtZKJYSWBBYbgE,457
+grapesdb-1.3.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+grapesdb-1.3.0.dist-info/top_level.txt,sha256=ssWKaj98H0-8OkS2BS_seYTGpa0LK556VtOlFOB8TdA,7
+grapesdb-1.3.0.dist-info/RECORD,,
