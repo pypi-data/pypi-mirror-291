@@ -1,0 +1,6 @@
+README.md
+setup.py
+custom_file_encryptor.egg-info/PKG-INFO
+custom_file_encryptor.egg-info/SOURCES.txt
+custom_file_encryptor.egg-info/dependency_links.txt
+custom_file_encryptor.egg-info/top_level.txt
