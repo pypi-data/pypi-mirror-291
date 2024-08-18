@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PyNeura
+Version: 0.1.0
+Summary: An opensource library for low code deep learning using Python.
+Home-page: https://github.com/shravan-18/PyNeura
+Author: Shravan Venkatraman
+Author-email: vshravan180803@gmail.com
+License: MIT
+Project-URL: Homepage, https://github.com/shravan-18/PyNeura
+Project-URL: Documentation, https://github.com/shravan-18/PyNeura
+Project-URL: Source, https://github.com/shravan-18/PyNeura
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyNeura
+Repository for PyNeura - an opensource library for low code deep learning using Python.
