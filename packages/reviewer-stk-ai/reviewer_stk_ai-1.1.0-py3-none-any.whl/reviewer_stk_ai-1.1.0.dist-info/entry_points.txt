@@ -1,0 +1,3 @@
+[console_scripts]
+reviewer_stk_ai=reviewer_stk_ai.__main__:main
+
