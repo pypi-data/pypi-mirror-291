@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: liteyukibot-plugin-nonebot
+Version: 0.1.0
+Summary: Nonebot2 Support for LiteyukiBot
+Author-Email: snowykami <snowykami@outlook.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pdm~=2.18.1
+Requires-Dist: nonebot2[fastapi,httpx,websockts]>=2.3.2
+Requires-Dist: liteyukibot>=6.3
+Requires-Dist: nonebot-adapter-satori>=0.12.3
+Requires-Dist: nonebot-adapter-onebot>=2.4.4
+Description-Content-Type: text/markdown
+
+# liteyukibot-plugin-nonebot
+Nonebot2 Support for LiteyukiBot
