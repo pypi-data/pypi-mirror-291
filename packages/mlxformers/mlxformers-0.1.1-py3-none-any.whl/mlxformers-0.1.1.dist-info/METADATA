@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mlxformers
+Version: 0.1.1
+Summary: This is a MLX implementation of the transformers library from Hugging Face. This should contain all or a subset of the models from the transformers libraary until it gets added to the original library.
+Author-Email: Eduardo Pacheco <pacheco.eduardo.silva@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.8
+Requires-Dist: mlx>=0.14.1
+Requires-Dist: huggingface-hub>=0.24.5
+Requires-Dist: transformers>=4.44.0
+Requires-Dist: pillow>=10.4.0
+Description-Content-Type: text/markdown
+
+# mlxformers
