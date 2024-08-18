@@ -1,0 +1,10 @@
+ignore_python-0.1.0.dist-info/METADATA,sha256=nny4byFi0cUNnyqBomQVmLuuxrJ9VtG2DVEca7LMuPA,1754
+ignore_python-0.1.0.dist-info/WHEEL,sha256=sQXnPsWoXsDCZmdDlJigIim-C6FshLZQTsYzMDlXQVI,95
+ignore_python-0.1.0.dist-info/license_files/LICENSE.txt,sha256=jiHYUToyQDxHxfl1uJu46PFHYiv3jm1OPT--5qKSysY,1094
+ignore/overrides/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ignore/overrides/__init__.pyi,sha256=YCXFwT83pO-3qzSOzjH7vXZlhxV5bCLKxbPuNtWR-HY,641
+ignore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ignore/__init__.py,sha256=M5KX00vnQSTlKos8XxRuiwKu0A5rzv2qRPMdcrjx4uY,23
+ignore/__init__.pyi,sha256=1GQlU3jDQX6wzI5TqVqcf0e6WM4A6_dOSQPclHwzemY,2559
+ignore/ignore.cp312-win_amd64.pyd,sha256=_B0Kr5EWHLWb0zrbf5EAhGBqwv8XJuE9qnn-IwVC1Jo,1833472
+ignore_python-0.1.0.dist-info/RECORD,,
