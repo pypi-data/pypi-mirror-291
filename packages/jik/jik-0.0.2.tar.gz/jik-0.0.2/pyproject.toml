@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "jik"
+version = "0.0.2"
+description = "Coming soon..."
+authors = ["Marcelo Trylesinski <marcelotryle@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "jik_app", from = "src/jik-app" },
+    { include = "jik_server", from = "src/jik-server" },
+    { include = "uvicorn", from = "src/uvicorn" },
+    { include = "starlette", from = "src/starlette" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+uvloop = { version = ">=0.19.0", markers = "sys_platform != 'win32'" }
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+tox = "*"
+httpx = "*"
+pyyaml = "*"
+# Uvicorn related
+click = "*"
+websockets = "*"
+wsproto = "*"
+httptools = "*"
+a2wsgi = "*"
+pytest-mock = "*"
+python-dotenv = "*"
+# Starlette related
+itsdangerous = "*"
+jinja2 = "*"
+python-multipart = ">=0.0.7"
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+testpaths = ["src/jik-app/tests", "src/jik-server/tests", "src/uvicorn/tests"]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+latest-tag = true
+format-jinja = """
+{%- if distance == 0 -%}
+    {{ serialize_pep440(base, stage, revision) }}
+{%- else -%}
+    {{ serialize_pep440(bump_version(base), stage="a", revision=distance) }}
+{%- endif -%}
+"""
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
