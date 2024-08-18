@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ipysketch_lite.egg-info/PKG-INFO
+src/ipysketch_lite.egg-info/SOURCES.txt
+src/ipysketch_lite.egg-info/dependency_links.txt
+src/ipysketch_lite.egg-info/requires.txt
+src/ipysketch_lite.egg-info/top_level.txt
