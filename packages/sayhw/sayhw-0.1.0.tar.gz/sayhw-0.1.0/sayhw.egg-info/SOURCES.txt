@@ -1,0 +1,9 @@
+README.md
+setup.py
+sayhw/__init__.py
+sayhw/__main__.py
+sayhw.egg-info/PKG-INFO
+sayhw.egg-info/SOURCES.txt
+sayhw.egg-info/dependency_links.txt
+sayhw.egg-info/entry_points.txt
+sayhw.egg-info/top_level.txt
