@@ -1,0 +1,3 @@
+numpy<2.0
+toppra>=0.4.0
+transforms3d>=0.3.1
