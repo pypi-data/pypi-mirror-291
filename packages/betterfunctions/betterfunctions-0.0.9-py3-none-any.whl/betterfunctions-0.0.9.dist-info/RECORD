@@ -1,0 +1,12 @@
+betterfunctions/__init__.py,sha256=0R-zEOOD6XcFGmsjGKagy_tA9ruzM2SSnCdjjaUmdM8,210
+betterfunctions/filefunctions.py,sha256=ADC02lA4YoXDzGRovuHbKICJFmkjPfbq9859XF4ZYog,1970
+betterfunctions/mathfunctions.py,sha256=TBO7ntYWEUIzbqFZmvj5cZYQ0qcbivByWU0LCGzUGss,2066
+betterfunctions/randomfunctions.py,sha256=rQuQNiVXeWyHBH2lWZOhOIFz-VFEtGNgP3GUtoD2MV4,764
+betterfunctions/textfunctions.py,sha256=KhGZm3NFwa2D07_ebPqsXwyCFoRfg9oforpsGNCganw,2891
+betterfunctions/timefunctions.py,sha256=dsOyN_TOiULWLYN_6kd4VFXCK95jwJ3UJZNZkwlAamg,445
+betterfunctions/userinputfunctions.py,sha256=CD912aphT8qTENBO2q4gh80czDP8SKBVABq_7LyXvK8,1933
+betterfunctions-0.0.9.dist-info/LICENSE,sha256=Stg21XktB54Dw2DyK6FHCl6RFJeV_0V7siWUr03frpY,1088
+betterfunctions-0.0.9.dist-info/METADATA,sha256=My45d-i8DRMs2JMZtRH8RB4NxnQF8tgHTPJsy6Y7Xv4,842
+betterfunctions-0.0.9.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+betterfunctions-0.0.9.dist-info/top_level.txt,sha256=fozZJ3VI6-OvrFKhoyKPZmdD0TqM0t_jAI4Y8bORPo0,16
+betterfunctions-0.0.9.dist-info/RECORD,,
