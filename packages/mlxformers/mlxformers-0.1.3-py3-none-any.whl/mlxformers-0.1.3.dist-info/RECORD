@@ -1,0 +1,11 @@
+mlxformers-0.1.3.dist-info/METADATA,sha256=JZ-uhYea7BLWPIdlQHjYE9pUdbxM_m3RrMt-D8mvoFo,558
+mlxformers-0.1.3.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+mlxformers-0.1.3.dist-info/licenses/LICENSE,sha256=eaaQRm1hnsFuOwXep1_FkcP0t2c5T_wkOJknzzhxf2U,11417
+mlxformers/__init__.py,sha256=NnCA4EoDyLocXSx1MRuEIPTb7jUP5V8rc4NWpl-ZCAs,45
+mlxformers/modeling_mlx_outputs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlxformers/modeling_mlx_utils.py,sha256=7VTFzNSkJPEYTa4VAhr-qRUPIMIYk5t9QoFAKZPH--w,23790
+mlxformers/models/__init__.py,sha256=6xdpOlksEVjsO0M9QQWnaY3eMyWg-_ev3tq6hRdDne8,19
+mlxformers/models/sam/__init__.py,sha256=7aX4G4ddjtPi0nY7SogCefIu_LyeEUVOQyt5k_Yr5Vc,42
+mlxformers/models/sam/convert_sam_to_mlxformers.py,sha256=0_CrHit0iYOdm1YbvMzz1xQkO9Om8P_Qv-9xkjd249I,666
+mlxformers/models/sam/modeling_mlx_sam.py,sha256=U0cgH7bcxbGGcRJMrRr6tegpXVnWWkpGFL1NjUPANIs,68149
+mlxformers-0.1.3.dist-info/RECORD,,
