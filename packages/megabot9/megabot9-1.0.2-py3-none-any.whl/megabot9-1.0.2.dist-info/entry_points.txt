@@ -1,0 +1,3 @@
+[console_scripts]
+megabot = megabot9.main:main
+megabot9 = megabot9.main:main
