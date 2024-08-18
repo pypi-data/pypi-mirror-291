@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: my_browsepy
+Version: 0.0.2
+Summary: Simple web file browser
+Home-page: https://github.com/ergoithz/browsepy
+Download-URL: https://github.com/ergoithz/browsepy/archive/0.0.2.tar.gz
+Author: Felipe A. Hernandez
+Author-email: ergoithz@gmail.com
+License: MIT
+Keywords: web,file,browser
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: unicategories
+
+browsepy
+========
+
+The simple web file browser and the only change that i made is to get read of the sys.stderr, sys.stdout and redicted them to /dev/null
