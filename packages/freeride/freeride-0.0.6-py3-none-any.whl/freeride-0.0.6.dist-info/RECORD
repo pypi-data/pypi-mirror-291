@@ -1,0 +1,17 @@
+freeride/__init__.py,sha256=nHrccOkq5Y3AEPH_XY7E2e13LzRLpb4hGMCrbfwKNRA,32
+freeride/base.py,sha256=S07VIphOI5eTJTVrH46f5sSpIDd8Nm1P6W_g1tNWOQw,22404
+freeride/costs.py,sha256=GNpm9Zkmx1XfGTMbaQHMjZbPrqC06EaYGVZHE3vZz4g,15420
+freeride/curves.py,sha256=KY-4e187xPl7iFoSFxHgqUbmwBsI3ZK0pqvRzzG0FmA,26971
+freeride/double_auction.py,sha256=SdKCeDoQfBFKEhFw1f323TkXFcz7vYamEymoiJbY-r4,1906
+freeride/equilibrium.py,sha256=klJIi-ae2NA8LnbO5oQrF2cHXXTa9_4rifD4uneI6Mw,10958
+freeride/formula.py,sha256=p_dzjMpjDwUH5A7RGnhV_TwqO31BIJMiuTeYangoQ08,4913
+freeride/plotting.py,sha256=VmYgGnRxGW-woEjwkK8J2Tt7lW7BlIRpgDYBJwXTcc8,1260
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_curves.py,sha256=HqnP94nSGckMlMcDAk-Ga2JOwI-AcjMfvirYMAdIPZg,749
+tests/test_equilibrium.py,sha256=cYpwuQr0_2wSQThb_tO8NXfpp_nnkDfqH4lJkGQtwgE,571
+tests/test_formula.py,sha256=drzup6gLnHNFvKsMTAMADylgGBFH6Szky0I7xQ2ua_g,2915
+freeride-0.0.6.dist-info/LICENSE,sha256=0lU3LN3DgvwRm_dshijfUX_D0Vuw8XurQ0yBF1lwciE,1502
+freeride-0.0.6.dist-info/METADATA,sha256=4RBJp1vlSGdJbgOyclx5zXvzljd6P9V8Ls7Iqd--m4M,1995
+freeride-0.0.6.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+freeride-0.0.6.dist-info/top_level.txt,sha256=n2YVEPTG_-fAKFri95HVSc9TD03aeAzlkzRTU7IW764,15
+freeride-0.0.6.dist-info/RECORD,,
