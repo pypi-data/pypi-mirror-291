@@ -1,0 +1,6 @@
+render_swiper/js
+js
+.pdm-python
+dist
+render_swiper/__pycache__
+client/node_modules/
