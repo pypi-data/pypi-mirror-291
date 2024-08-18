@@ -1,0 +1,2 @@
+[console_scripts]
+calculate-areas = image_area_calculator.image_area_calculator:calculate_real_world_areas
