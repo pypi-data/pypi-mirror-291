@@ -1,0 +1,14 @@
+blueness/__init__.py,sha256=K_a3xfxqegL983NJ_Z_7WpdRBtjyVJtDfop8Q4FIs78,122
+blueness/__main__.py,sha256=S-O_Zk-0g9YAgHLCYRdENg5DGVqMfB1MZXkyuMyk9F8,201
+blueness/module.py,sha256=IU2jxPDA7UT0AHPEz2UXU-m9PjhsM0ynAtjb5_QZ8Z4,255
+blueness/pypi.py,sha256=s8X6pwxlcz0sTnE0oj-fbJBbRxlV2gUr-1s-Hd1Jhn4,1837
+blueness/urls.py,sha256=Bjdewssljt0LIefjixBem9JN0kkghPvmrIETj3GdXbY,17
+blueness/.abcli/actions.sh,sha256=btOwq3yP8zGNCJ4tX0eqfxBulAxI-LBrvIEbpZ4GQtg,146
+blueness/.abcli/blueness.sh,sha256=qx0IWSfDSQSdeZkQJkRx6u1PqxSzse9UXh6SscwAUE4,254
+blueness/argparse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blueness/argparse/generic.py,sha256=htUKgYg2yEVBY935W5I5AZS5SD2yNokSoAhdjgtuIzk,1931
+blueness-3.67.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+blueness-3.67.1.dist-info/METADATA,sha256=L3Top5WWZcJYxcnHlnSDt92ChYajJiSCWrJH7EIKVto,797
+blueness-3.67.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+blueness-3.67.1.dist-info/top_level.txt,sha256=RXCy4zZFIrnA4Yy0mquMJbkP3ok5Gj-f5PR492P1jyg,9
+blueness-3.67.1.dist-info/RECORD,,
