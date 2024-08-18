@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "pygame>=2.5.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flygame"
+version = "0.1.4"
+authors = [
+  { name="fluffy", email="fluffykms@gmail.com" },
+]
+description = "A Private Project so i can render stuff more easily"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
