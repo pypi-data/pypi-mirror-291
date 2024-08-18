@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: odoolint
+Version: 1.0.1
+Requires-Dist: flake8
+Requires-Dist: pyyaml
+
