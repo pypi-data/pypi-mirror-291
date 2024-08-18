@@ -1,0 +1,11 @@
+patreon_archiver/__init__.py,sha256=AjI6U0whv8ct7-WSaoy8ww95saz_S5L4dqVJ1qqpAME,44
+patreon_archiver/constants.py,sha256=k5XD5ZZ7edjMKMZIth6JT8EaCVucFtXzPpLQHabzONw,2434
+patreon_archiver/main.py,sha256=ew4v2eEO7P4l1TM8p6xSOrEhIlHfbHsxRATlpNzBN1c,6023
+patreon_archiver/patreon_typing.py,sha256=23KK2Qarkw71dAORIZrBDmRPrtdSgIZKm1KeyNsjicM,1286
+patreon_archiver/patreon_typing.ts,sha256=f_08Onxsv6AgymkhAecm_XFw2QTQq2wmjYHrvMdVmYY,695
+patreon_archiver/utils.py,sha256=YogAovWxQgp7ywuaKiZ2HaJZjukTEOBZ_-Dh6zoEdjM,3367
+patreon_archiver-0.0.7.dist-info/LICENSE.txt,sha256=lpfv86YKHcU98pnlxZI4BH4OB26UJTx1N0Kgc6Jf4IY,1080
+patreon_archiver-0.0.7.dist-info/METADATA,sha256=z__jcQW47W15QOReOTA-wUPErTjryK-dLPuMiDVBgNQ,2466
+patreon_archiver-0.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+patreon_archiver-0.0.7.dist-info/entry_points.txt,sha256=XKoJ8s-irUrnXB9TVUq_Py9QkgHRze_hWEKq0Bai8Lw,58
+patreon_archiver-0.0.7.dist-info/RECORD,,
