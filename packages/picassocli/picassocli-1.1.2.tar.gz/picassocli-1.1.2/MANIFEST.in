@@ -1,0 +1,4 @@
+# Include the docs directory in the distribution
+include docs/*
+include demo.py
+include README.md
