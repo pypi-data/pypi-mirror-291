@@ -1,0 +1,3 @@
+[console_scripts]
+pbs_exporter = pbs_exporter.exporter:main
+
