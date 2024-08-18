@@ -1,0 +1,12 @@
+odoolint/__init__.py,sha256=tKUZ2HPSmVrgAfYVEb4sat3WUnBt_-sVACS1JGPr6Bk,253
+odoolint/config.py,sha256=0kVhCY3wZNWuwmBus_kgT1nI6kgcs5oJjODbpKO_YvY,490
+odoolint/file_checker.py,sha256=cgSY1_Nh_GrjvJMBn0yhKyGW3x4499pCxvbKhunI_gg,1356
+odoolint/main.py,sha256=AGlnz0ozVtSNgWTn_PvZj1dLVlMxvSh8iFmDGVHCT4M,1324
+odoolint/module_finder.py,sha256=LibU8U50HFVumQsFgruNAuualC76afhBH9kcTz3PKz8,934
+odoolint/python_checker.py,sha256=f7sDcgW1XdDpOY-2K0taUISRfamX5srOR0lxwEl-v2I,508
+odoolint/xml_checker.py,sha256=GzjiKlKoC0ka9QT9eliJuNmbtFpPSV2CKETWCbUO6L0,1489
+odoolint-1.6.dist-info/METADATA,sha256=83xUFjLlBevpQtqn1NKO_-a54S90nZsj9Wb6S4f6KBk,2668
+odoolint-1.6.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoolint-1.6.dist-info/entry_points.txt,sha256=4ZkYJnoR1eMVUGqRNwhchxIXTYgeLyeEEJg1Xt4pVOc,49
+odoolint-1.6.dist-info/top_level.txt,sha256=uU6rInX8XDIg6ep4db8RhKNw-X4lal6EUTO7LTyUdnc,9
+odoolint-1.6.dist-info/RECORD,,
