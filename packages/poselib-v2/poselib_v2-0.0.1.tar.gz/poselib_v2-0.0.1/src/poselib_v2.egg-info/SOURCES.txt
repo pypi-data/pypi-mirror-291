@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/poselib_v2.egg-info/PKG-INFO
+src/poselib_v2.egg-info/SOURCES.txt
+src/poselib_v2.egg-info/dependency_links.txt
+src/poselib_v2.egg-info/top_level.txt
+src/poselib/__init__.py
+src/poselib_v2.egg-info/PKG-INFO
+src/poselib_v2.egg-info/SOURCES.txt
+src/poselib_v2.egg-info/dependency_links.txt
+src/poselib_v2.egg-info/top_level.txt
