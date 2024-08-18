@@ -1,0 +1,16 @@
+llm_code_context/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_code_context/config_manager.py,sha256=2yB2kvwbfjW7M5cCcNkvn4aaI9zEzDgz3hEKXA6ODoI,3639
+llm_code_context/context_generator.py,sha256=KkZ0zHNr7vIRNWVJchtZXJ9NhbQ55-Xdi_rWhR89G7Y,3499
+llm_code_context/file_selector.py,sha256=Uuu_J4D0_cHy6Oqwi-cP7AMecr4nJWaESpFy0EWjg-Y,1992
+llm_code_context/folder_structure_diagram.py,sha256=niNWfCv-Gzg5GHG4ScsKuJJRvzJ7swWgD9XMyGzfCfo,1712
+llm_code_context/git_ignorer.py,sha256=y4yY_D_uCLFK8KSFXVKUo7R02OnSOD8JfwYmzSBOEu4,1524
+llm_code_context/path_converter.py,sha256=25xIky2KVVSmYAocxUJ5AyrppxRP2YivYyR80Xp9uSQ,569
+llm_code_context/pathspec_ignorer.py,sha256=UUDlq4QWAmtAExQk3e_EKwXXEff4xYkA6DprFsL9cWs,517
+llm_code_context/template.py,sha256=4Eh5dSNYIYek_BylDbXR9h_I_neml2xqztXO6JCObvg,575
+llm_code_context/templates/full-context.j2,sha256=FH4yyj5FlPbi41DKSlMviDGIKNiE83J10oENhi-ByNs,179
+llm_code_context/templates/sel-file-contents.j2,sha256=EJuMqfNFaqKsBdUNYmWR8FJ_m9kSEWNxvyXYIHhTLd4,93
+llm_code_context-0.0.6.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+llm_code_context-0.0.6.dist-info/METADATA,sha256=2Wh6Tl6CpJkrgKzu7IoYUg-_v2DH1h8nMa6vYN97Tyw,7170
+llm_code_context-0.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llm_code_context-0.0.6.dist-info/entry_points.txt,sha256=w-6nQSwx256joAoC8bM-gKJOPqiMYlRqhVn9vs0IZOw,247
+llm_code_context-0.0.6.dist-info/RECORD,,
