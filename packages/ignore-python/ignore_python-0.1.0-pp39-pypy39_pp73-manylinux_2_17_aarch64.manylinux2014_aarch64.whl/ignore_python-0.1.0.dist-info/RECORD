@@ -1,0 +1,10 @@
+ignore_python-0.1.0.dist-info/METADATA,sha256=8ph9jyUO4rv0WTVhBlf_OhhyKXuQrBfmoRUWu5B3ndc,1710
+ignore_python-0.1.0.dist-info/WHEEL,sha256=wMbIg4Vm31VrXkmaccV8MFKVP8SgCG1CDrVbXGAsuCc,136
+ignore_python-0.1.0.dist-info/license_files/LICENSE.txt,sha256=Sy1kC6_tANMB2W87j0Ej6WmYOUd9IDzUXlMyj_2DY1s,1073
+ignore/__init__.pyi,sha256=xGSb_qygLHFIw9jRa0zXbO9KMO237QSpJG0xblXu7tw,2459
+ignore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ignore/__init__.py,sha256=ke-8hm2W9cAqXi9bKZfthYcV-XB4uUI_M8ZKZV-PZt4,22
+ignore/overrides/__init__.pyi,sha256=j7WHEP66UBs05O0aid3u8vdNMDThhWe39raIoTQDVb8,616
+ignore/overrides/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ignore/ignore.pypy39-pp73-aarch64-linux-gnu.so,sha256=4w7NHRtedAH9uXzczF3ApQ5GmgACM8ucsYz3Dtx8S3U,2421120
+ignore_python-0.1.0.dist-info/RECORD,,
