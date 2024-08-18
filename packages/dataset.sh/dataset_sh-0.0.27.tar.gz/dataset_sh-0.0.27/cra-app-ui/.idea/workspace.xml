@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c493594d-56f0-404b-b60e-60644e5c22be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/QueryDisplay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/dataset_sh/utils/usage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/dataset_sh/utils/usage/read_data_codegen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DatasetSampleViewer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DatasetSampleViewer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dataset/DatasetToc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dataset/DatasetToc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dataset/collection/CollectionDocumentViewer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dataset/collection/CollectionDocumentViewer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dataset/collection/StandaloneCollectionSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dataset/collection/StandaloneCollectionSelector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dataset/meta/DatasetDocumentationViewer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dataset/meta/DatasetDocumentationViewer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dataset/sample/CollectionSampleViewer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dataset/sample/CollectionSampleViewer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dataset/sample/JsonSampleViewer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dataset/sample/JsonSampleViewer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dataset/DatasetSamplePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dataset/DatasetSamplePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dataset/byTag/DatasetSampleByTagPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dataset/byTag/DatasetSampleByTagPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dataset/byVersion/DatasetSampleByVersionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dataset/byVersion/DatasetSampleByVersionPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/clients/obj.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/clients/obj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/multipart/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/multipart/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/multipart/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/multipart/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/subcmds/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/subcmds/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/subcmds/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/subcmds/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataset_sh/utils/dump.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dataset_sh/utils/dump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/cli/test_cli_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/cli/test_cli_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/cli/test_cli_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/cli/test_cli_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/cli/test_cli_remote.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/cli/test_cli_remote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_clients/test_client_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/test_clients/test_client_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_clients/test_client_remote.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/test_clients/test_client_remote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_io_std_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/test_io_std_op.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/test_utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MUIComponent" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/code/dev/hooray-gradle" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Uckq4ihMS1OqHeFUJzHgf6K0Re" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/haowu4/code-new/dataset_sh_repo_server/app-ui/src/pages/dataset/byVersion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/haowu4/code-new/datumsh/app-ui/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/dataset/byVersion" />
+      <recent name="$PROJECT_DIR$/src/pages/dataset/byTag" />
+      <recent name="$PROJECT_DIR$/src/pages/dataset" />
+      <recent name="$PROJECT_DIR$/src/layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/dataset/collection" />
+      <recent name="$PROJECT_DIR$/src/pages/dataset" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c493594d-56f0-404b-b60e-60644e5c22be" name="Changes" comment="" />
+      <created>1693246443812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693246443812</updated>
+      <workItem from="1693246445447" duration="91000" />
+      <workItem from="1693246558481" duration="27270000" />
+      <workItem from="1693704617535" duration="7557000" />
+      <workItem from="1693731413387" duration="14671000" />
+      <workItem from="1694312403482" duration="4880000" />
+      <workItem from="1694380799595" duration="15000" />
+      <workItem from="1694415235436" duration="2227000" />
+      <workItem from="1695010103086" duration="4557000" />
+      <workItem from="1695325477608" duration="676000" />
+      <workItem from="1695485220054" duration="1046000" />
+      <workItem from="1695972280623" duration="1176000" />
+      <workItem from="1696057108473" duration="4935000" />
+      <workItem from="1701294964027" duration="10716000" />
+      <workItem from="1703344545034" duration="2098000" />
+      <workItem from="1704268966121" duration="978000" />
+      <workItem from="1704562224518" duration="6147000" />
+      <workItem from="1705516639499" duration="16248000" />
+      <workItem from="1706235675490" duration="16492000" />
+      <workItem from="1706345510745" duration="1000" />
+      <workItem from="1706685515373" duration="3419000" />
+      <workItem from="1706773254953" duration="703000" />
+      <workItem from="1709749419523" duration="1891000" />
+      <workItem from="1709766074121" duration="1100000" />
+      <workItem from="1710444968015" duration="2588000" />
+      <workItem from="1711071328581" duration="8487000" />
+      <workItem from="1711138014728" duration="7752000" />
+      <workItem from="1711883779908" duration="12734000" />
+      <workItem from="1712098662812" duration="812000" />
+      <workItem from="1723735155682" duration="5460000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
