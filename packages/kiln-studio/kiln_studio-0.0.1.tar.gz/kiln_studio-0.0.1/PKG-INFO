@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: kiln_studio
+Version: 0.0.1
+Summary: Kiln Studio
+Project-URL: Documentation, https://kiln-ai.com
+Project-URL: Issues, https://github.com/Kiln-AI/kiln/issues
+Project-URL: Source, https://github.com/Kiln-AI/kiln
+Author-email: scosman <scosman@users.noreply.github.com>
+License: 
+        All rights reserved.
+        
+        Copyright (c) Steve Cosman, Chesterfield Laboratories Inc.
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# studio
+
+[![PyPI - Version](https://img.shields.io/pypi/v/studio.svg)](https://pypi.org/project/studio)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/studio.svg)](https://pypi.org/project/studio)
+
+---
+
+## Table of Contents
+
+- [Installation](#installation)
+
+## Installation
+
+```console
+pip install kiln_studio
+```
