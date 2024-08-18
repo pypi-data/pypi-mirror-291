@@ -1,0 +1,10 @@
+README.md
+setup.py
+phoneTUIapp/__init__.py
+phoneTUIapp/phoneTUI.py
+phoneTUIapp.egg-info/PKG-INFO
+phoneTUIapp.egg-info/SOURCES.txt
+phoneTUIapp.egg-info/dependency_links.txt
+phoneTUIapp.egg-info/entry_points.txt
+phoneTUIapp.egg-info/requires.txt
+phoneTUIapp.egg-info/top_level.txt
