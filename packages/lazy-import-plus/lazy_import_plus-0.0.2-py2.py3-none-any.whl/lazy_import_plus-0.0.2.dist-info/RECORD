@@ -1,0 +1,15 @@
+lazy_import/VERSION,sha256=A78ifXdJJynxeLctNudQSmBvSwcpaIMm0wEaY6qryS8,10
+lazy_import/__init__.py,sha256=tkrz5ezOq9t0bu7vr_AfGRX1wWuohS6uU6GiXkZdc_k,29817
+lazy_import/lazy_class.py,sha256=fV90jSF6vtf5LV_5R8d0UgnYbNEw__5a-QmQZBUgDS4,1937
+lazy_import/test_lazy.py,sha256=hjc0k1VEOQ1gBHUggrCkoKvM5O-tSdXMTDFJH_Ijg2Q,10517
+lazy_import/test_lazy_class.py,sha256=LJN5XDKrpqsr_iOL3g7g_e80bEu-mnPNOuUsdmYvFh0,592
+lazy_import_plus/VERSION,sha256=pd00ZUajhDYpNrl6TC9dotPSUwQ-qWeap7l9iVUN_b0,6
+lazy_import_plus/__init__.py,sha256=Wnish16YjnmcFbhLsUYeVm7d51yXbdwTt9IoVgjliF0,30501
+lazy_import_plus/lazy_class.py,sha256=B9pHWnepiFutdbG0nbJdw_y0Rw73oCXSE5X-Kf50SAM,1976
+lazy_import_plus/test_lazy.py,sha256=HBCSINRWC5B9lgyf37wu1u-fCmp_1NRkIcKU1saRMRI,10648
+lazy_import_plus/test_lazy_class.py,sha256=ICgEqeXr6H9OI6Gtz-KvlMfWd9UBCN0TrTwM33vdbu8,1043
+lazy_import_plus-0.0.2.dist-info/LICENSE,sha256=1LSHj8kSlTznGNqcii0nS-2B13U7bfAAtkVZ872U3fU,37646
+lazy_import_plus-0.0.2.dist-info/METADATA,sha256=3PPGFolB1BbNqmsWMv2MJ1FcDVPpF5BzojWqQX_ntQc,1105
+lazy_import_plus-0.0.2.dist-info/WHEEL,sha256=M4n4zmFKzQZk4mLCcycNIzIXO7YPKE_b5Cw4PnhHEg8,109
+lazy_import_plus-0.0.2.dist-info/top_level.txt,sha256=DM4WCZ-3lnbRY4_UZvtXriDVPzsfKYZOxmNnC8pWOQo,17
+lazy_import_plus-0.0.2.dist-info/RECORD,,
