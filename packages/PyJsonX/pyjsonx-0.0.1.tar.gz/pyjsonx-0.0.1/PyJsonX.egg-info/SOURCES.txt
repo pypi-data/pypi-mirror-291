@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyJsonX/PyJsonX.py
+PyJsonX/__init__.py
+PyJsonX.egg-info/PKG-INFO
+PyJsonX.egg-info/SOURCES.txt
+PyJsonX.egg-info/dependency_links.txt
+PyJsonX.egg-info/top_level.txt
