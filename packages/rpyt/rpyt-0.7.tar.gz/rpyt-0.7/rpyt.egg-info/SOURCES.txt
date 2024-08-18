@@ -1,0 +1,10 @@
+setup.py
+rpyt/__init__.py
+rpyt/__main__.py
+rpyt/common.py
+rpyt/crowdin.py
+rpyt.egg-info/PKG-INFO
+rpyt.egg-info/SOURCES.txt
+rpyt.egg-info/dependency_links.txt
+rpyt.egg-info/entry_points.txt
+rpyt.egg-info/top_level.txt
