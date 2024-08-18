@@ -1,0 +1,32 @@
+[project]
+name = "mkdocs-tablestrip"
+version = "1.0.0"
+authors = [
+    { name="CyberOtter", email="baum.np79a@slmail.me" },
+]
+description = "This mkdocs plugin allows you to strip rows from tables across your documentation."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["mkdocs", "table", "strip", "data", "documentation"]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Information Technology',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3 :: Only',
+]
+dependencies = [
+    'mkdocs>=1.6.0',
+    'beautifulsoup4>=4.12.3',
+]
+dynamic = ["entry-points"]
+
+[project.urls]
+"Homepage" = "https://github.com/SaltyAimbOtter/mkdocs-tablestrip"
+"Bug Tracker" = "https://github.com/SaltyAimbOtter/mkdocs-tablestrip/issues"
+
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
