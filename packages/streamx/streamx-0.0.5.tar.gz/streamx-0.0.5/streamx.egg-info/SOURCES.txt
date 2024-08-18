@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+streamx/__init__.py
+streamx/stream.py
+streamx.egg-info/PKG-INFO
+streamx.egg-info/SOURCES.txt
+streamx.egg-info/dependency_links.txt
+streamx.egg-info/top_level.txt
+tests/__init__.py
+tests/test_stream.py
