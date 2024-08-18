@@ -1,0 +1,1 @@
+CAPCUT_RENDERING_GOOGLE_DRIVE_DOWNLOAD_URL = 'https://drive.google.com/file/d/1hL677Q87jn-_y5vqSwev3lir_dCYRQwS/view?usp=sharing'
