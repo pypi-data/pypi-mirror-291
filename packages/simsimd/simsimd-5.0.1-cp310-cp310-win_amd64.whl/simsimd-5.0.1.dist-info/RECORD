@@ -1,0 +1,8 @@
+simsimd.cp310-win_amd64.pyd,sha256=huIRbH2H50IM76175fuAV9ylWcBrw0GdS5aeiT9poBQ,67584
+simsimd/__init__.pyi,sha256=XUUFemMcQS6DVDrACoVp6AHR3zsS_8TJwDllKVaHFaI,5111
+simsimd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simsimd-5.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+simsimd-5.0.1.dist-info/METADATA,sha256=suikYZX_fI_06DikxlkFkJgvgIciVKXD9mLYSNHr258,32447
+simsimd-5.0.1.dist-info/WHEEL,sha256=pGsu4t7B5YlAgeTgrGvlgz-71Y4F1ROPOGN6ScsP598,101
+simsimd-5.0.1.dist-info/top_level.txt,sha256=kA2CGlVhy5wNyCLTKLh20j75IM5fnuQ_-4bK53XLl8o,8
+simsimd-5.0.1.dist-info/RECORD,,
