@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ai-kernel-explorer
+Version: 0.1.5
+Summary: Explore the Linux kernel source code with AI-generated summaries
+Home-page: https://github.com/mathiscode/ai-kernel-explorer
+License: MIT
+Author: mathiscode
+Author-email: code@mathis.network
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: System :: Operating System Kernels
+Classifier: Topic :: Utilities
+Requires-Dist: openai (>=1.38.0,<2.0.0)
+Requires-Dist: textual (>=0.75.1,<0.76.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/mathiscode/ai-kernel-explorer
+Description-Content-Type: text/markdown
+
+# AI Kernel Explorer
+
+[![PyPI](https://img.shields.io/pypi/v/ai-kernel-explorer?color=blue)](https://pypi.org/project/ai-kernel-explorer/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
+[![PyPI - License](https://img.shields.io/pypi/l/ai-kernel-explorer?color=blue)](https://pypi.org/project/ai-kernel-explorer/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/ai-kernel-explorer)](https://pypi.org/project/ai-kernel-explorer/)
+
+Made with ❤️ by [Jay Mathis](https://github.com/mathiscode)
+
+## Explore the Linux kernel source code with AI-generated summaries
+
+The Linux kernel is a large and complex codebase, with over 30 million lines of code. Understanding the codebase can be challenging, especially for newcomers. To help developers navigate the codebase more easily, this is a lightweight tool that uses GPT-4o to generate summaries of the Linux kernel source code as you explore.
+
+![screenshot](https://raw.githubusercontent.com/mathiscode/ai-kernel-explorer/main/assets/screenshot1.png)
+
+## Installation
+
+```bash
+pip install ai-kernel-explorer # or ideally pipx install ai-kernel-explorer
+```
+
+Ensure your OpenAI API key is set in the `OPENAI_API_KEY` environment variable or --api-key option.
+
+```text
+usage: ai-kernel-explorer [-h] [--api-key API_KEY] [--cache CACHE] [--model MODEL] [--version] [root]
+
+Explore the Linux kernel source code with AI-generated summaries.
+
+positional arguments:
+  root               The root directory of the Linux kernel source code. (default: /usr/src)
+
+options:
+  -h, --help         show this help message and exit
+  --api-key API_KEY  Your OpenAI API key. (default: $OPENAI_API_KEY)
+  --cache CACHE      The path to store AI responses. (default: ~/.cache/ai-kernel-explorer)
+  --model MODEL      The OpenAI model to use. (default: gpt-4o)
+  --version          show program's version number and exit
+```
+
+[https://github.com/mathiscode/ai-kernel-explorer](https://github.com/mathiscode/ai-kernel-explorer)
+
