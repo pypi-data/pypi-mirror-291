@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zetta_grpc_protos
+Version: 0.0.1
+Summary: Protobuf definitions and generated Python code for Zetta
+Home-page: https://github.com/zettablock/zetta-grpc-protos
+Author: Scott Shi
+Author-email: scott.shi@zettablock.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
