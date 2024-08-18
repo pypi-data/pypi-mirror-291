@@ -1,0 +1,2 @@
+[console_scripts]
+sayhello = sayhello:__main__.greet
