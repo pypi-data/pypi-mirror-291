@@ -1,0 +1,6 @@
+setup.py
+imagi/__init__.py
+imagi.egg-info/PKG-INFO
+imagi.egg-info/SOURCES.txt
+imagi.egg-info/dependency_links.txt
+imagi.egg-info/top_level.txt
