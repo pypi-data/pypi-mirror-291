@@ -1,0 +1,11 @@
+citation-report>=0.1.7
+
+[dev]
+ipykernel>=6.29
+pytest>=8.3
+pytest-cov>=5.0
+mkdocs>=1.6.0
+mkdocstrings[python]>=0.25.1
+mkdocs-material>=9.5
+build>=1.2.1
+twine>=5.1.1
