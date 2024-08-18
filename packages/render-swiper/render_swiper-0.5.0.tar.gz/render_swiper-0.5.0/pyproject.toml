@@ -1,0 +1,31 @@
+[tool.pdm]
+distribution = true
+
+[tool.hatch.version]
+path = "render_swiper/__init__.py"
+
+[tool.hatch.build]
+include = [
+  "/render_swiper/*.py",
+]
+artifacts = [
+  "/render_swiper/js/*.*",
+]
+
+
+[tool.poetry]
+name = "render-swiper"
+version = "0.5.0"
+description = "Render binding for Swiper"
+authors = ["fdv1 <francois@pytek.io>"]
+readme = "README.md"
+packages = [{include = "render_swiper"}]
+include = ["js/*.*"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
