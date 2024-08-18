@@ -1,0 +1,2 @@
+[console_scripts]
+revitic_ddos = revitic_ddos.core:run_ddos

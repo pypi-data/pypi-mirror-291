@@ -1,0 +1,8 @@
+README.md
+setup.py
+revitic_ddos.egg-info/PKG-INFO
+revitic_ddos.egg-info/SOURCES.txt
+revitic_ddos.egg-info/dependency_links.txt
+revitic_ddos.egg-info/entry_points.txt
+revitic_ddos.egg-info/requires.txt
+revitic_ddos.egg-info/top_level.txt
