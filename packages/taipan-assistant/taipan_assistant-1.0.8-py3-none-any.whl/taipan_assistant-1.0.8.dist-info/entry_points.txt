@@ -1,0 +1,2 @@
+[console_scripts]
+taipan-assistant = taipan_assistant.main_cli:main_cli
