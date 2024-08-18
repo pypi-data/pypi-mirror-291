@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/plugin.py
+src/mkdocs_tablestrip.egg-info/PKG-INFO
+src/mkdocs_tablestrip.egg-info/SOURCES.txt
+src/mkdocs_tablestrip.egg-info/dependency_links.txt
+src/mkdocs_tablestrip.egg-info/entry_points.txt
+src/mkdocs_tablestrip.egg-info/requires.txt
+src/mkdocs_tablestrip.egg-info/top_level.txt
