@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: manim_devanagari
+Version: 1.0.2
+Summary: Devanagari package for manim
+Author-email: AvN Learn <avnlearn@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: manim
+Project-URL: Home, https://github.com/avnlearn/manim-devanagari.git
+
+# manim-devangari
