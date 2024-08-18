@@ -1,0 +1,9 @@
+plugin/__init__.py,sha256=EUZ-EMfwAJniv30fnNjqT7LGq3_GDIQDRhGHkiklD70,107
+plugin/main.py,sha256=d6q_CCL2IukG33BUOZP6AdOXaYsboBipacrfWRW21Pc,21045
+plugin/utils.py,sha256=XzwEhzOjaaBFG1W_Wqy_Cs4qya_rbUJGn5NuFPcx1Hk,8022
+mkdocs_ultralytics_plugin-0.1.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+mkdocs_ultralytics_plugin-0.1.5.dist-info/METADATA,sha256=Do3SbTr7uE5ta5XT2w-NcFlmmbw7eYM4LBmxqVYv1EI,51387
+mkdocs_ultralytics_plugin-0.1.5.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+mkdocs_ultralytics_plugin-0.1.5.dist-info/entry_points.txt,sha256=qYfFTOMjQ_Y_0h_p3P9A27nclHxfJdTvzlhdbJtC3eA,49
+mkdocs_ultralytics_plugin-0.1.5.dist-info/top_level.txt,sha256=Io_dflkI6h0vZSGOzZxx4e76CDTSANVfu4v4tVY6zsA,7
+mkdocs_ultralytics_plugin-0.1.5.dist-info/RECORD,,
