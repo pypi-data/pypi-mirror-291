@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: puppygraph
+Version: 0.1.2
+Summary: PuppyGraph enables dynamic graph querying across multiple data sources with zero ETL, flexible schema management, and support for Cypher and Gremlin queries.
+License: Apache-2.0
+Author: PuppyGraph
+Author-email: contact@puppygraph.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: async-timeout (>=4.0.3,<5.0.0)
+Requires-Dist: dacite (>=1.7.0,<2.0.0)
+Requires-Dist: gremlinpython (>=3.7.2,<4.0.0)
+Requires-Dist: neo4j (>=5.7.0,<6.0.0)
+Requires-Dist: requests (>=2.28,<3.0)
+Description-Content-Type: text/markdown
+
+# PuppyGraph
+
+[PuppyGraph](https://www.puppygraph.com) 
+is a zero-ETL graph analytics engine enabling seamless graph querying across one or multiple data sources. 
+Unlike traditional graph databases, PuppyGraph connects directly to your data warehouses and lakes without requiring complex ETL pipelines, making it both cost-efficient and scalable.
+
+## Key Features
+
+- **Zero ETL**: Query data directly from your lakes and databases without data duplication.
+- **Dynamic Schema Management**: Modify graph schemas on the fly, without needing to rebuild databases.
+- **Petabyte Scalability**: Auto-sharded, distributed computation for handling vast datasets.
+- **Support for Cypher and Gremlin**: Interoperable query support with robust performance.
+- **AI-Native**: Ideal for Graph-RAG applications, with ultra-fast response times.
+
+## Installation
+
+You can install PuppyGraph via pip:
+
+```bash
+pip install puppygraph
+```
+
