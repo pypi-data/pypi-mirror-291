@@ -1,0 +1,3 @@
+[console_scripts]
+ai-kernel-explorer=ai_kernel_explorer.main:main
+
