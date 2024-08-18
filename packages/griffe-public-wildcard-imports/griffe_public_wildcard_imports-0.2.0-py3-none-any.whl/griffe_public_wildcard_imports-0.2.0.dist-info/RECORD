@@ -1,0 +1,9 @@
+griffe_public_wildcard_imports-0.2.0.dist-info/METADATA,sha256=KTLvmMT0KFCRKfFj8rCKFxTC3T7hh1R1QRMZ-6Uph6o,2983
+griffe_public_wildcard_imports-0.2.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+griffe_public_wildcard_imports-0.2.0.dist-info/licenses/LICENSE,sha256=nke00CVElTmhjAOYXkupvTNauLNPzBTuASi3u9moZ1U,754
+griffe_public_wildcard_imports/__init__.py,sha256=8ho8d9m5m29jiTYIycIP3bt3EzeFzl5AbuNTFVfQ7qY,279
+griffe_public_wildcard_imports/_internals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+griffe_public_wildcard_imports/_internals/extension.py,sha256=pmxODBHqWRVvte1fUQ2Q-RuCNjUfWyP_JCUZHjkZQ_Q,124
+griffe_public_wildcard_imports/debug.py,sha256=83vFn-iEagd04zd5K0cUsySyEAci3cJplY4lJ3_79ns,2891
+griffe_public_wildcard_imports/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+griffe_public_wildcard_imports-0.2.0.dist-info/RECORD,,
