@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: territory
+Version: 1.1.1
+Summary: Client for territory.dev
+Author-email: "Paweł Z. Stiasny" <pawel@territory.dev>
+Requires-Dist: requests >= 2.32.3, <3
+Requires-Dist: platformdirs >= 4.2.2, <5
+Requires-Dist: tqdm >= 4.66.5, <5
+Requires-Dist: pytest >= 8.2.2, <9 ; extra == "test"
+Requires-Dist: Flask >= 3.0.3, <4 ; extra == "test"
+Project-URL: Home, https://territory.dev
+Project-URL: Source, https://github.com/territory-dev/cli
+Provides-Extra: test
