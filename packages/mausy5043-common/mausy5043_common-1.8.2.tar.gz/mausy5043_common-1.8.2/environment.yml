@@ -1,0 +1,21 @@
+# When making changes to this file update requirements.txt also !!
+# Usage:
+# conda -v env update --file environment.yml; pre-commit run --all-files; pycheck
+
+name: mausy5043-common
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11.9
+  - numpy>=2.0.1
+  - pandas>=2.2.2
+  - pandas-stubs
+  - pre-commit
+  - pyarrow>=17.0.0
+  - pip
+  # Not on conda channels:
+  - pip:
+      - pylint
