@@ -1,0 +1,3 @@
+[console_scripts]
+skeletonize.py = parenx.skeletonize:main
+voronoi.py = parenx.voronoi:main
