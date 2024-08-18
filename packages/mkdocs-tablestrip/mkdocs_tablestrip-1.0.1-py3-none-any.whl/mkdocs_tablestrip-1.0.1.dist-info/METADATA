@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mkdocs-tablestrip
+Version: 1.0.1
+Summary: This mkdocs plugin allows you to strip rows from tables across your documentation.
+Author-email: CyberOtter <baum.np79a@slmail.me>
+Project-URL: Homepage, https://github.com/SaltyAimbOtter/mkdocs-tablestrip
+Project-URL: Bug Tracker, https://github.com/SaltyAimbOtter/mkdocs-tablestrip/issues
+Keywords: mkdocs,table,strip,data,documentation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: mkdocs>=1.6.0
+Requires-Dist: beautifulsoup4>=4.12.3
+
+# Mkdocs Tablestrip Plugin
+
+This plugin allows you to strip rows from tables across your documentation.
+It searches for a specific heading-keyword and then removes the corresponding row from the HTML output.
+The Markdown files remain unchanged.
+
+This can be useful if your documentation contains data that is automatically parsed but not relevant for the end user.
+ 
+## Installation
+`pip install mkdocs-tablestrip`
+
+Consider adding the plugins to a `requirements.txt` file alongside other Python dependencies for your project.
+
+## Setup
+Add the plugin to your `mkdocs.yml` file:
+
+```yaml
+plugins:
+  - tablestrip
+```
+## Configuration
+
+There is only a single configuration option for this plugin: The keyword used to identify the row that should be removed.
+```yaml
+plugins:
+  - tablestrip:
+      strip_word: "Expert"
+```
