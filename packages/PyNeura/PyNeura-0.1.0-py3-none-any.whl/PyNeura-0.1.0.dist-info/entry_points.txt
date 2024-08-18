@@ -1,0 +1,2 @@
+[console_scripts]
+pyneura = pyneura.cli:main
