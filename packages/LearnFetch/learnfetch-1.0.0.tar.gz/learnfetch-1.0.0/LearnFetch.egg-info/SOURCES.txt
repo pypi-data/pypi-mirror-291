@@ -1,0 +1,10 @@
+README.md
+setup.py
+LearnFetch.egg-info/PKG-INFO
+LearnFetch.egg-info/SOURCES.txt
+LearnFetch.egg-info/dependency_links.txt
+LearnFetch.egg-info/requires.txt
+LearnFetch.egg-info/top_level.txt
+learnfetch/__init__.py
+learnfetch/pesquisador.py
+tests/test_pesquisador.py
