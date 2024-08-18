@@ -1,0 +1,10 @@
+simsimd.cpython-311-x86_64-linux-gnu.so,sha256=mkNpLouc3dtEYAApJRa1u6EtGVoXAF6j7d3-fdf1hlI,1125577
+simsimd-5.0.1.dist-info/RECORD,,
+simsimd-5.0.1.dist-info/WHEEL,sha256=tFO7F0mawMNWa_NzTDA1ygqZBeMykVNIr04O5Zxk1TE,113
+simsimd-5.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simsimd-5.0.1.dist-info/top_level.txt,sha256=kA2CGlVhy5wNyCLTKLh20j75IM5fnuQ_-4bK53XLl8o,8
+simsimd-5.0.1.dist-info/METADATA,sha256=uvrrEhBnP2fc4h8ONfAvcjo_Da9OQ2BxKrUinAc2cEc,31651
+simsimd./libgomp-24e2ab19.so.1.0.0,sha256=7DVDy2-hHzQlj-PVkILkvZdAoYNJ4Jf8Qqe8aSohvyw,253289
+simsimd./libmvec-2-67b7cf05.28.so,sha256=Xq0pOyhCVN0i0vTj5nCiqtvmXU1IbnUCaWYZpGcK8j4,181969
+simsimd/__init__.pyi,sha256=_SdBxx6q_AQVHr4fbTUfCQGeh-jub5a5FBeUsIbf_n8,4980
+simsimd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
