@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: megabot9
+Version: 1.0.3
+Summary: Contact list bot produced as an educational team assignment
+Author: IB, YB, VL, OR, SR
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prompt_toolkit~=3.0.47
+
+The Contact list bot.
