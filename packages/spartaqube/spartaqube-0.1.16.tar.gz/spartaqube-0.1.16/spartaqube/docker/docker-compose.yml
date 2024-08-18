@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  spartaqube:
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    hostname: spartaqube
+    volumes:
+      - appdata:/app/APPDATA
+      - spartaqube:/spartaqube
+    # environment:
+    #     IS_REMOTE_SPARTAQUBE_CONTAINER: True
+    ports:
+      - "8664:8664" 
+volumes:
+  appdata:
+  spartaqube: # For yaml files
