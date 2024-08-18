@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "suricat-beams-cabs"
+version = "0.0.2"
+description = "MeerKAT primary beam model handling utilities -- Stimela cabs"
+authors = ["Oleg Smirnov <osmirnov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "suricat_cabs"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+stimela = "^2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+## add section for dev component which installs builder and Dockerfiles
