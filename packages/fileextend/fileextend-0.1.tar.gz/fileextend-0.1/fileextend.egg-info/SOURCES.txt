@@ -1,0 +1,8 @@
+README.md
+setup.py
+fileextend/__init__.py
+fileextend.egg-info/PKG-INFO
+fileextend.egg-info/SOURCES.txt
+fileextend.egg-info/dependency_links.txt
+fileextend.egg-info/requires.txt
+fileextend.egg-info/top_level.txt
