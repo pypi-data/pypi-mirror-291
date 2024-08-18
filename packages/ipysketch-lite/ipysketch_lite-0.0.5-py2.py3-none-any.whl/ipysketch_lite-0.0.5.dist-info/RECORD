@@ -1,0 +1,14 @@
+ipysketch_lite/__init__.py,sha256=ozP-1j99UoaPf_3SZx5UNbFU8vmMiO_Ix1ciuLXIXwQ,127
+ipysketch_lite/sketch.py,sha256=2Vh3ppp8UyKINGBmNRteUpjXCcgCtCkR95P5RKYZxiw,1774
+ipysketch_lite/template.py,sha256=Z5Zel6ZzZWl73apjMRhe7AlwaE6V6FSXVBtSY8dBQ88,4847
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/package.json,sha256=CMcPXv0BReNAGed_lz7NqimNkgIGABATrIk04_BeFgE,5454
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/static/509.7b1e4dfc9bd86aa468d3.js,sha256=ex5N_JvYaqRo0966DbphJKhD1phjikrnn7eIGi8auAg,422
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/static/728.da2a92e3613452e9fbe1.js,sha256=2iqS42E0Uun74UeTY9twfH_a4__anWJik6j3SNrDC4U,3999
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/static/remoteEntry.1e3a55bd0fc3134d9143.js,sha256=HjpVvQ_DE02RQ7y1RFiu6US7sE6Br5SFeI3URm70CYw,3920
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/static/style.js,sha256=iOarCbuXAXkY-BeISuRVdSx3Ht1v-TXfEhBHjcEhwWU,157
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+ipysketch_lite-0.0.5.data/data/share/jupyter/labextensions/ipysketch_lite/install.json,sha256=pJS85xD1wnABg2ce5XgEKiaWWHm2HF7Z8tWHAHbrv8g,191
+ipysketch_lite-0.0.5.dist-info/METADATA,sha256=rR1N8wGjYhC-ixhap-uj48aoNofV8zMWeZHmvITfutE,1673
+ipysketch_lite-0.0.5.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+ipysketch_lite-0.0.5.dist-info/licenses/LICENSE,sha256=-guCcX4glX_hMB9LpAtB_If_h0xpXsm0wvc55655x6M,39
+ipysketch_lite-0.0.5.dist-info/RECORD,,
