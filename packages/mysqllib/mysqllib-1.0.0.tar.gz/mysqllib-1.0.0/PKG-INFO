@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mysqllib
+Version: 1.0.0
+Summary: Simple mysql database library
+Author: Krzysztof Żyłka
+Author-email: krzysztofzylka@yahoo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymysql
+
+# Mysqllib
+Simple mysql database
+
+## Connect
+```text
+connect(
+        user: str,
+        password: str,
+        database: str,
+        host: str='127.0.0.1',
+        port: int=3306
+)
+```
+
+## Fetch one
+```text
+fetchone(query, args=None) -> Optional[dict]
+```
+
+## Fetch all
+```text
+fetchall(query, args=None) -> Optional[list]:
+```
+
+## Execute
+```text
+execute(query, args=None) -> bool:
+```
