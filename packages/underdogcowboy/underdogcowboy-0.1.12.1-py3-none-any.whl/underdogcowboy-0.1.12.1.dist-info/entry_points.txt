@@ -1,0 +1,6 @@
+[console_scripts]
+timelineeditor = underdogcowboy.core.timeline_editor:main
+uc-llm = underdogcowboy.core.commandtools.llm_config:main
+uc-poke = underdogcowboy.core.commandtools.poke:main
+uc-timelineeditor = underdogcowboy.core.timeline_editor:main
+uc-tracing = underdogcowboy.core.commandtools.tracing_config:main
