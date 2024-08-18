@@ -1,0 +1,3 @@
+[console_scripts]
+gov-cli = gov_cli:main
+

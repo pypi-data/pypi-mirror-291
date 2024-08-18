@@ -1,0 +1,9 @@
+README.md
+setup.py
+gov_cli/__init__.py
+gov_cli/gov_cli.py
+gov_cli.egg-info/PKG-INFO
+gov_cli.egg-info/SOURCES.txt
+gov_cli.egg-info/dependency_links.txt
+gov_cli.egg-info/entry_points.txt
+gov_cli.egg-info/top_level.txt
