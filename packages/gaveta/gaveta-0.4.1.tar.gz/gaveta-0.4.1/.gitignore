@@ -1,0 +1,13 @@
+.DS_Store
+.ruff_cache/
+__pycache__/
+.hatch/
+
+# https://hatch.pypa.io/latest/config/build/#output-directory
+dist/
+
+# https://github.com/python/mypy/blob/v1.8.0/docs/source/config_file.rst#incremental-mode
+.mypy_cache/
+
+# https://github.com/mkdocs/mkdocs/blob/1.6.0/mkdocs/config/defaults.py#L79-L80
+site/
