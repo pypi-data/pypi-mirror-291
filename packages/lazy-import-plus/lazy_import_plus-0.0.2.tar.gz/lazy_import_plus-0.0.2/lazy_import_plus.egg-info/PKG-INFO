@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lazy_import_plus
+Version: 0.0.2
+Summary: A module for lazy loading of Python modules and lazy subclassing of pure Python classes (forked from lazy_import_plus)
+Home-page: https://github.com/gdb/lazy_import
+Author: Greg Brockman
+Author-email: gdb@gregbrockman.com
+License: GPL
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: six
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"

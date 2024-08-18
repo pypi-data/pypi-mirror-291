@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+lazy_import_plus/VERSION
+lazy_import_plus/__init__.py
+lazy_import_plus/lazy_class.py
+lazy_import_plus/test_lazy.py
+lazy_import_plus/test_lazy_class.py
+lazy_import_plus.egg-info/PKG-INFO
+lazy_import_plus.egg-info/SOURCES.txt
+lazy_import_plus.egg-info/dependency_links.txt
+lazy_import_plus.egg-info/requires.txt
+lazy_import_plus.egg-info/top_level.txt
