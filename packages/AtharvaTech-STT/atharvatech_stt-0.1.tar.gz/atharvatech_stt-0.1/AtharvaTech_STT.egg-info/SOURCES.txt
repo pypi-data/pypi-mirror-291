@@ -1,0 +1,6 @@
+setup.py
+AtharvaTech_STT.egg-info/PKG-INFO
+AtharvaTech_STT.egg-info/SOURCES.txt
+AtharvaTech_STT.egg-info/dependency_links.txt
+AtharvaTech_STT.egg-info/top_level.txt
+SpeechToText/__init__.py
