@@ -1,0 +1,3 @@
+[console_scripts]
+easywindcss = easywindcss:install
+easywindcss-v = easywindcss:check_et
