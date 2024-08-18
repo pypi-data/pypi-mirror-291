@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: pytest-scrutinize
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Thomas Forbes <tom.forbes@gitguardian.com>
+Requires-Python: >=3.9
+Requires-Dist: pydantic>=2
+Requires-Dist: pytest>=8
+Description-Content-Type: text/markdown
+
+# pytest-scrutinize
+
+Scrutinize your pytest test suites for slow fixtures, tests and more.
