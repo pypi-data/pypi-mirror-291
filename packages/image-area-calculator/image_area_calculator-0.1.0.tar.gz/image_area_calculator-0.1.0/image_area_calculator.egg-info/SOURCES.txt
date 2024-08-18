@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+image_area_calculator/__init__.py
+image_area_calculator/image_area_calculator.py
+image_area_calculator.egg-info/PKG-INFO
+image_area_calculator.egg-info/SOURCES.txt
+image_area_calculator.egg-info/dependency_links.txt
+image_area_calculator.egg-info/entry_points.txt
+image_area_calculator.egg-info/requires.txt
+image_area_calculator.egg-info/top_level.txt

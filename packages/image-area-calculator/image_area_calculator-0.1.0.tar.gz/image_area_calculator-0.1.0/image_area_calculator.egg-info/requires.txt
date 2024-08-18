@@ -1,0 +1,4 @@
+Click
+opencv-python
+numpy
+pdf2image
