@@ -1,0 +1,2 @@
+[console_scripts]
+imaging-ekyc-publish = imagingai.imaging_publish:main
