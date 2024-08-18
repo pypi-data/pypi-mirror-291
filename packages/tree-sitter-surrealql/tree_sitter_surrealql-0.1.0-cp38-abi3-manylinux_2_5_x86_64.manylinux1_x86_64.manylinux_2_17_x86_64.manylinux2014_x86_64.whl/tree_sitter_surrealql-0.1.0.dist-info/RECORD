@@ -1,0 +1,11 @@
+tree_sitter_surrealql-0.1.0.dist-info/RECORD,,
+tree_sitter_surrealql-0.1.0.dist-info/WHEEL,sha256=zohPh2YJwe1pZcMAawX4oncEZPRJ1Kytq6bZQdek3AM,217
+tree_sitter_surrealql-0.1.0.dist-info/LICENSE,sha256=8UMUmp_OGTXFP-mBiBRm86fp3mols4Ssy55-mkPc8vY,1068
+tree_sitter_surrealql-0.1.0.dist-info/top_level.txt,sha256=dHHsdkxYuSdF_QH0Zw7839JLCTD8XpGmMFkm_X4oz6M,31
+tree_sitter_surrealql-0.1.0.dist-info/METADATA,sha256=wgZxgw770pGPZjHsfOTbYQAHELLnqb30JNPDSk-ACE8,1947
+tree_sitter_surrealql/binding.c,sha256=hYeq30hYjx2pNJLUYR0C96BpXqvAbyfW_nAaKLQBT1k,642
+tree_sitter_surrealql/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_surrealql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_surrealql/_binding.abi3.so,sha256=SX4Nf20Oe_9k7k5U59tVTCaHZPOpYDoJl2PyH8ggShw,839024
+tree_sitter_surrealql/__init__.py,sha256=0FvSN0TLyy2CgETjl9Q51MkvmajE2iDKTMpHm0D9YUw,92
+tree_sitter_surrealql/queries/highlights.scm,sha256=edpJfTJBipZssJOZUWLt9DLgUbtrizkbbLiRKrIBQok,3713
