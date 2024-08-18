@@ -1,0 +1,2 @@
+[console_scripts]
+gm = caal.gm:main
