@@ -1,0 +1,14 @@
+yt_quick_insights/__init__.py,sha256=OfCkcERcxjAKw8n0bBId7gfWgRPYrPGdegioTJGM9B4,79
+yt_quick_insights/cli.py,sha256=nmEc1NKDNKpEGRNjUZ--uDugRXxZNpDFuAYyvBpL7AY,1772
+yt_quick_insights/config.py,sha256=fhZCD8KJyAMtvo2nN5rjWTGTQ6rjQscEdY7LiSJPn2E,207
+yt_quick_insights/data/prompt.yml,sha256=Q0jGTHNRhjKEcQMLm0jl-b6zF19X3yn9BtzwpZLlzt0,755
+yt_quick_insights/data/task_details.yml,sha256=AkEpqSf6dwauA1hvir-JTlk20TpOmButCNJK8YhsI30,3270
+yt_quick_insights/prompt.py,sha256=lfaakmxdAMqTwI4HldcBM0ZDODygJPxAyxN9c_ekK6E,2852
+yt_quick_insights/task.py,sha256=vgeShHLdTaHUDgVCHavWg3GRFoRcAZn4npI37J4U3eo,1966
+yt_quick_insights/utils.py,sha256=M_CNwoKgadxC_BIkDcDEpaAgiE1Z0Bhp39QLannxwJc,1787
+yt_quick_insights/youtube_transcript.py,sha256=SvPNjz0T33FvjxM43zABjFYD2TD7hMaGbZvVS0xtVbE,2286
+yt_quick_insights-0.1.0.dist-info/entry_points.txt,sha256=picBPkKYxE0eaIbxpTVtbkiF3c9aToaHwU23UrPY9cc,54
+yt_quick_insights-0.1.0.dist-info/LICENSE,sha256=2siz_ITXwDdfSAuxMXZUMFFLVGGVw35Wfjaed72_lHI,1084
+yt_quick_insights-0.1.0.dist-info/METADATA,sha256=aOkQSXEVl8CZD_0qjQhw1uMd6firq3XbZlwpTdkJN4I,5012
+yt_quick_insights-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+yt_quick_insights-0.1.0.dist-info/RECORD,,
