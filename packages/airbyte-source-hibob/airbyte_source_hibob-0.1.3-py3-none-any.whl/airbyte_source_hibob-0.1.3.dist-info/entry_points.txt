@@ -1,0 +1,3 @@
+[console_scripts]
+source-hibob=source_hibob.run:run
+
