@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: moveread-pipelines-annotation
+Version: 0.1.7
+Summary: Semi-automatic annotation pipeline for Moveread
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/annotation.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pipeteer
+Requires-Dist: fastapi
+Requires-Dist: moveread-pipelines-game-preprocess
+Requires-Dist: chess-notation
+Requires-Dist: python-kv[server]
+
+# Moveread Pipelines Annotation
+
+> package_description

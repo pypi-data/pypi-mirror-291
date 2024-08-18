@@ -1,0 +1,5 @@
+pipeteer
+fastapi
+moveread-pipelines-game-preprocess
+chess-notation
+python-kv[server]

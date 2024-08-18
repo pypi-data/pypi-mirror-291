@@ -1,0 +1,4 @@
+[console_scripts]
+annotation = moveread.pipelines.annotation.cli:main
+annotation-clientgen = moveread.pipelines.annotation.clientgen_cli:main
+preprocessed-annotation = moveread.pipelines.annotation.preprocessed.cli:main

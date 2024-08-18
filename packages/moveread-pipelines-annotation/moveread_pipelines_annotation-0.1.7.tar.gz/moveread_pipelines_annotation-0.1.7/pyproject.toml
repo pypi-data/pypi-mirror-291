@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moveread-pipelines-annotation"
+version = "0.1.7"
+authors = [
+  {name="Marcel Claramunt", email="marcel@moveread.com"}
+]
+description = "Semi-automatic annotation pipeline for Moveread"
+dependencies = [
+  "pipeteer", "fastapi", "moveread-pipelines-game-preprocess", "chess-notation", "python-kv[server]"
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
+
+[project.urls]
+repo = "https://github.com/moveread/annotation.git"
+
+[project.scripts]
+annotation-clientgen = "moveread.pipelines.annotation.clientgen_cli:main"
+annotation = "moveread.pipelines.annotation.cli:main"
+preprocessed-annotation = "moveread.pipelines.annotation.preprocessed.cli:main"
+
+# [project.optional-dependencies]
+# test = [
+#   "pytest < 5.0.0",
+#   "pytest-cov[all]"
+# ]
