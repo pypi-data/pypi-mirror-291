@@ -1,0 +1,10 @@
+tictactoc/__init__.py,sha256=L1-INALlT2jahXBjzGorZoN3Q3B3OiGsLyvsBm8xcAo,41
+tictactoc/plot.py,sha256=NCZsZUzJDDGQsy0W6d-E3uiyQJieQfx9PhFt7KRRFUs,1122
+tictactoc/tictactoc.py,sha256=kc-ppaj3iNyuRvZnk1OfxP17hy3fGmBmGx50QCbVgao,778
+tictactoc/tests/__init__.py,sha256=VT6RHODiGX0AXuv8Qqm_NIOwaw820pnO9MAfqjEfc5Y,283
+tictactoc/tests/test_plot.py,sha256=b315flrdcrMnXKGm6867Ex0iwoxyRPnrjg-g9du_Ryk,915
+tictactoc/tests/test_tictactoc.py,sha256=29vRVCqw1tNNiMkhNTUJFXIJ6aIOYtzSBo6mRHDjzUY,2627
+tictactoc-0.3.0.dist-info/entry_points.txt,sha256=uaRcbwagXarugpeioOtRZxIkapHvOiEl012jXqIh5t4,70
+tictactoc-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tictactoc-0.3.0.dist-info/METADATA,sha256=jVKaeR-DWpBb1HsmDaziTmCMEZN88D6uqdwO3Jnf6m8,2525
+tictactoc-0.3.0.dist-info/RECORD,,

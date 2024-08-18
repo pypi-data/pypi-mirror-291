@@ -1,0 +1,3 @@
+[console_scripts]
+tictactoc-tests=tictactoc.tests.__init__:run_tests
+
