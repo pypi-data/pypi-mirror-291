@@ -1,0 +1,7 @@
+bs4
+fake-useragent
+jsonpickle
+lxml
+python-dotenv
+selenium>=4.6
+types-beautifulsoup4
