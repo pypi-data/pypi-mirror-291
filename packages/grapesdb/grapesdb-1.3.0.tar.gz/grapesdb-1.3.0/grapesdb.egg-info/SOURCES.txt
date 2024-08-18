@@ -1,0 +1,16 @@
+setup.py
+grapes/Column.py
+grapes/GrapesDatabase.py
+grapes/InMemoryGrapesDatabase.py
+grapes/Table.py
+grapes/__init__.py
+grapes/__meta__.py
+grapes/Errors/ColumnError.py
+grapes/Errors/GetError.py
+grapes/Errors/InsertError.py
+grapes/Errors/TableError.py
+grapes/Errors/__init__.py
+grapesdb.egg-info/PKG-INFO
+grapesdb.egg-info/SOURCES.txt
+grapesdb.egg-info/dependency_links.txt
+grapesdb.egg-info/top_level.txt
