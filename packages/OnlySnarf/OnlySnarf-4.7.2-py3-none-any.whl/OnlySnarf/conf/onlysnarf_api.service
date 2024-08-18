@@ -1,0 +1,12 @@
+[Unit]
+Description=OnlySnarf API
+After=network.target
+
+[Service]
+WorkingDirectory=/home/snarf/
+ExecStart=/home/snarf/update-and-start.sh
+Restart=always
+User=snarf
+
+[Install]
+WantedBy=multi-user.target
