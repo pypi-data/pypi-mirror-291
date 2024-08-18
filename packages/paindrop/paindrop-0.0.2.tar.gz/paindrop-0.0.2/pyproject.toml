@@ -1,0 +1,39 @@
+[project]
+name = "paindrop"
+version = "0.0.2"
+description = "A command line tool that imports Pinboard data into Raindrop"
+authors = [
+    { name = "Dave Pearson", email = "davep@davep.org" }
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "requests>=2.32.3",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[project.urls]
+Homepage = "https://github.com/davep/paindrop"
+Repository = "https://github.com/davep/paindrop"
+Documentation = "https://github.com/davep/paindrop"
+Issues = "https://github.com/davep/paindrop/issues"
+
+[project.scripts]
+paindrop = "paindrop.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "mypy>=1.11.1",
+    "types-requests>=2.32.0.20240712",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paindrop"]
