@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_yde_goes_package"
+version = "0.0.2"
+description = "A sample test package"
+requires-python = ">=3.8"
+authors = [
+	{ name = "Ygor de Goes Sena", email = "yde-goes@student.42sp.org.br" },
+]
+maintainers = [
+	{ name = "Ygor de Goes Sena", email = "yde-goes@student.42sp.org.br" },
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["42school", "ft_package"]
+classifiers = [
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 4 - Beta",
+
+  # Indicate who your project is intended for
+  "Topic :: Software Development :: Build Tools",
+
+  # Pick your license as you wish (see also "license" above)
+  "License :: OSI Approved :: MIT License",
+
+  # Specify the Python versions you support here.
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10"
+]
+
+[project.urls]
+Homepage = "https://github.com/ygor-sena/42cursus-python-for-data-science"
+Documentation = "https://github.com/ygor-sena/42cursus-python-for-data-science/tree/main/D00/ex09"

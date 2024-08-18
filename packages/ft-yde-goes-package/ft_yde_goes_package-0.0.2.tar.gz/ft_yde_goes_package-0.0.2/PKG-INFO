@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: ft_yde_goes_package
+Version: 0.0.2
+Summary: A sample test package
+Author-email: Ygor de Goes Sena <yde-goes@student.42sp.org.br>
+Maintainer-email: Ygor de Goes Sena <yde-goes@student.42sp.org.br>
+License: MIT License
+        
+        Copyright (c) 2024 Ygor G. Sena
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ygor-sena/42cursus-python-for-data-science
+Project-URL: Documentation, https://github.com/ygor-sena/42cursus-python-for-data-science/tree/main/D00/ex09
+Keywords: 42school,ft_package
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Introduction to the ft_yde_goes_package
+
+This package was created as a requirement to the last exercise of Day 00 during the Python for Data Science piscine at 42 School. The objective was to teach the students how to create a Python package and how to distribute it.
+
+### Package structure
+
+```
+packaging_tutorial/
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── src/
+│   └── example_package_YOUR_USERNAME_HERE/
+│       ├── __init__.py
+│       └── example.py
+└── tests/
+```
+
+Above is the package structure used as a reference:
+- `__init.py__`: this file must located at each sub-directory, which is also the sub-module of a given package. It will map all the methods present in each sub-module;
+- `pyproject.toml`: contains the key-value configuration of the package with all its related information to build it. It's also possible to use a `setup.py` or `setup.cfg` instead.
+
+### How to test the package
+
+To test the package, run the command below at the same folder where `pyproject.toml` is located:
+```
+pip install --editable .
+```
+
+To check if the package was successfully installed, run:
+```
+pip show -v ft-package
+```
+
+To uninstall the package, run:
+```
+pip uninstall <package_name>
+```
+
+Create a Python program at the same folder where `pyproject.toml` is located to see if you can use the package module without any problems when running it with `python3`.
+
+### How to build and distribute the package
+
+We're going to need to packages:
+
+```
+python3 -m pip install twine
+python3 -m pip install build
+```
+
+Then we need to build the source distribution and the wheel, which checks if the package contains pure Python to adjust the compilation settings accordingly.
+```
+python3 -m build --sdist
+python3 -m build --wheel
+```
+
+To distribute the package, we need to create an account at PyPi, enable 2FA and create an API token. It's recommend to save the account information at `~/HOME/.pypirc`.
+
+Last but not least, update the package:
+```
+twine upload dist/* --verbose
+```
+
+### References
+
+[Build your first Python package](https://www.freecodecamp.org/news/build-your-first-python-package/) by [freeCodeCamp](https://www.freecodecamp.org/)
+
+[Official PyPi Website](https://pypi.org/)
+
+Setuptools Official Docs:
+
+- [Writing your pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#)
+
+- [Packaging and distributing projects](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#packaging-and-distributing-projects)
