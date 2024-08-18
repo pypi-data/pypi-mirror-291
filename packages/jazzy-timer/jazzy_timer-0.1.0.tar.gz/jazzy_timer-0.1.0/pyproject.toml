@@ -1,0 +1,31 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "jazzy-timer"
+version = "0.1.0"
+description = "An ultra-simple timer decorator, part of the jazzy utilities series."
+authors = ["Edward Jazzhands <ed.jazzhands@gmail.com>"]
+repository = "https://github.com/edward-jazzhands/jazzy_timer"
+license = "MIT"
+readme = "README.md"
+keywords = ["timer", "timing", "decorator", "profiling", "profiler", "benchmark", "jazzy"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
