@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sayhw
+Version: 0.1.1
+Summary: Testing package that just prints out hello world.
+Home-page: https://github.com/yourusername/sayhello
+Author: Ethan Xu
+Author-email: ethan@waitblock.simplelogin.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# sayhw
+
+Testing package that just prints out hello world.
