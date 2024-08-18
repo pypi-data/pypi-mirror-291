@@ -1,0 +1,3 @@
+[apache_airflow_provider]
+provider_info=apache-airflow-providers-gp.provider_info:get_provider_info
+
