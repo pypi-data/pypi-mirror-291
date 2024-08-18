@@ -1,0 +1,17 @@
+telegramlib/__init__.py,sha256=M3Ie41YXPJOTevn_tjhg_gHJqa85_PRD-iVnXVyKweY,7944
+telegramlib/commands.py,sha256=2q-EJzxHw2lH1R8J7RWf1bvI4d7lNAcKS-5t6FThhKo,7243
+telegramlib/config.py,sha256=cSD1FcwA3mmSsLeu5Orx4bCQugA5ymvP4cy7Ms3XhZA,13396
+telegramlib/core.py,sha256=aXByB4DUe9tdEjlDwGzTwByBNblFGkipOHwr-5PFa6I,19203
+telegramlib/data.py,sha256=FPfJzU_BPqTazDjIBqq9yBQzTb2-Qva3d2ywJ8iG3IU,5109
+telegramlib/firma.py,sha256=HjCi-x8qSylAC3TsPvzwHZ1Txa72vFud1-_MXBnvFjk,2678
+telegramlib/jobs.py,sha256=aSlyhkVi4fU8gcMOA1RBbobcVqHXbzm5JNxK8q0ahTo,6815
+telegramlib/telegram_exceptions.py,sha256=34liMqQOHixp_ztPwzU8ZS5WLbtq7DPAhvH2_yFckPA,3899
+telegramlib/telegram_warnings.py,sha256=GQk0sOV6Uwq5bXRyp0_EOYC45RKAqmt32aC-SXr0sNg,3526
+telegramlib/text_to_speech.py,sha256=cYwHSAtFZE-wRzBRatDRpCJHg0MXLkHwL5aDTkg7qIc,2796
+telegramlib/translator.py,sha256=DT2o0yjDb2XSpPSxZX5juGdzGVic9RaWen__OlyX7i0,3655
+telegramlib/utils.py,sha256=zWLK3kssdZUU_SeR0SQYmHOgBO4tdp-qiADtLATZdDY,2038
+telegramlib-0.1.1.dist-info/LICENSE,sha256=NYK_5kYUB77RMvTIY6TkGuo6pEMXvAysZrQJ3LaImhA,1065
+telegramlib-0.1.1.dist-info/METADATA,sha256=AmC4kCaMcVO1yEetbl5OY6cfgaHPBIrTeuxKDPdm-UM,18866
+telegramlib-0.1.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+telegramlib-0.1.1.dist-info/top_level.txt,sha256=0xMX-zy7bGGJCHv9TOJpj8hFk_2Ex2m6Cwlaw8vSxY4,12
+telegramlib-0.1.1.dist-info/RECORD,,
