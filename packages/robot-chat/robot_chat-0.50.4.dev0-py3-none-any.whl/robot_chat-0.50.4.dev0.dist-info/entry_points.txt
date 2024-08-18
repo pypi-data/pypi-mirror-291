@@ -1,0 +1,2 @@
+[console_scripts]
+robotchat = robotchat.main:main
