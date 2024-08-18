@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: griffe-public-wildcard-imports
+Version: 0.1.0
+Summary: Mark wildcard imported objects as public.
+Author-Email: =?utf-8?q?Timoth=C3=A9e_Mazzucotelli?= <dev@pawamoy.fr>
+License: ISC
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Project-URL: Homepage, https://mkdocstrings.github.io/griffe-public-wildcard-imports
+Project-URL: Documentation, https://mkdocstrings.github.io/griffe-public-wildcard-imports
+Project-URL: Changelog, https://mkdocstrings.github.io/griffe-public-wildcard-imports/changelog
+Project-URL: Repository, https://github.com/mkdocstrings/griffe-public-wildcard-imports
+Project-URL: Issues, https://github.com/mkdocstrings/griffe-public-wildcard-imports/issues
+Project-URL: Discussions, https://github.com/mkdocstrings/griffe-public-wildcard-imports/discussions
+Project-URL: Gitter, https://gitter.im/mkdocstrings/griffe-public-wildcard-imports
+Project-URL: Funding, https://github.com/sponsors/pawamoy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# griffe-public-wildcard-imports
+
+[![documentation](https://img.shields.io/badge/docs-mkdocs-708FCC.svg?style=flat)](https://mkdocstrings.github.io/griffe-public-wildcard-imports/)
+[![gitpod](https://img.shields.io/badge/gitpod-workspace-708FCC.svg?style=flat)](https://gitpod.io/#https://github.com/mkdocstrings/griffe-public-wildcard-imports)
+[![gitter](https://badges.gitter.im/join%20chat.svg)](https://app.gitter.im/#/room/#griffe-public-wildcard-imports:gitter.im)
+
+Mark wildcard imported objects as public.
+
+## Installation
+
+This project is available to sponsors only, through my Insiders program.
+See Insiders [explanation](https://mkdocstrings.github.io/griffe-public-wildcard-imports/insiders/)
+and [installation instructions](https://mkdocstrings.github.io/griffe-public-wildcard-imports/insiders/installation/).
