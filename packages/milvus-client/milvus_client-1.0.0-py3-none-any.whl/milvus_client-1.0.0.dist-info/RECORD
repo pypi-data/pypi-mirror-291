@@ -1,0 +1,7 @@
+milvus_client/MilvusClient.py,sha256=48qgzvr49QHd6EAX55uIWXTVQeKsDtVdfhkfJ5hmBNc,5874
+milvus_client/__init__.py,sha256=-q1YzqS3jydlnxqvwvRLCK5-CP1hINuAOYBL4JB_UpI,81
+milvus_client/async_post.py,sha256=O0Gc2vxYweza6jnmdMPIGpOijfqRizd1xM-BAsy4JXU,642
+milvus_client-1.0.0.dist-info/METADATA,sha256=w2YZd57LN11j6UnUZOeoxl5Yi_0ulp6vlTp1Ob6p-3w,545
+milvus_client-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+milvus_client-1.0.0.dist-info/licenses/LICENSE,sha256=0aCzbDy8Ey5EeWspPaSXQJorolOUFyNGUe96Or0B_-I,1065
+milvus_client-1.0.0.dist-info/RECORD,,
