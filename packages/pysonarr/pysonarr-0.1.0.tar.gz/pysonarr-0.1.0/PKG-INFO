@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: pysonarr
+Version: 0.1.0
+Summary: A Python Wrapper for Sonarr API
+Project-URL: Homepage, https://github.com/Jacques-Murray/pysonarr
+Project-URL: Issues, https://github.com/Jacques-Murray/pysonarr/issues
+Author-email: Jacques Murray <jacquesmmurray@gmail.com>
+License-File: LICENSE
+Keywords: api,python,sonarr,wrapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# PySonarr
+
+PySonarr is a Python wrapper for the Sonarr API.
+
+## Installation
+
+```bash
+pip install pysonarr
+```
