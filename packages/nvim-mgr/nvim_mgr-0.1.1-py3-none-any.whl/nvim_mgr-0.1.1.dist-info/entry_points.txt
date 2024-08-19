@@ -1,0 +1,3 @@
+[console_scripts]
+serve=nvim_mgr:cli
+
