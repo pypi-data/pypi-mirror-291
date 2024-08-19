@@ -1,0 +1,3 @@
+debugpy
+dduk-core
+dduk-utility
