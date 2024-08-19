@@ -1,0 +1,139 @@
+[project]
+name = "lektor-redirect"
+dynamic = []
+description = "A Lektor plugin to help with generating redirects for, e.g., moved pages."
+keywords = [
+    "lektor",
+    "plugin",
+]
+readme = "README.md"
+authors = [
+    { name = "Jeff Dairiki", email = "dairiki@dairiki.org" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Plugins",
+    "Environment :: Web Environment",
+    "Framework :: Lektor",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing",
+]
+dependencies = [
+    "lektorlib>=1.2.1",
+    "typing-extensions>=4.12.2; python_version < '3.11'",
+]
+requires-python = ">=3.8"
+version = "0.1.0b2"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Home = "https://github.com/dairiki/lektor-redirect"
+
+[project.entry-points."lektor.plugins"]
+redirect = "lektor_redirect:RedirectPlugin"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "lektor>=3.4.0b12",
+    "ruff>=0.6.1",
+    "mypy>=1.11.1",
+    "types-inifile>=0.4.0.20240310",
+]
+test = [
+    "pytest>=8.3.2",
+    "tox>=4.18.0",
+]
+
+[tool.pdm.scripts]
+tests = "pytest tests"
+
+[tool.coverage.paths]
+paths = [
+    "src/lektor_redirect",
+    "*/lektor_redirect",
+]
+
+[tool.coverage.run]
+parallel = true
+source_pkgs = [
+    "lektor_redirect",
+    "tests",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "^\\s*\\.\\.\\.\\s*$",
+    "^\\s*raise\\s+NotImplementedError\\b",
+    "^(el)?if TYPE_CHECKING:\\s*",
+]
+
+[tool.ruff]
+extend-exclude = [
+    ".pdm-build",
+]
+
+[tool.ruff.lint]
+allowed-confusables = [
+    "’",
+    "–",
+]
+explicit-preview-rules = true
+select = [
+    "F",
+    "E",
+    "W",
+    "UP",
+    "B",
+    "Q",
+    "YTT",
+    "C4",
+    "T10",
+    "EM",
+    "FA",
+    "T20",
+    "RSE",
+    "I",
+    "C90",
+    "PGH",
+]
+
+[tool.ruff.lint.isort]
+order-by-type = false
+known-first-party = [
+    "conftest",
+    "lektor_redirect",
+]
+
+[tool.mypy]
+files = [
+    "$MYPY_CONFIG_FILE_DIR/**/*.py",
+]
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "lektor.*",
+]
+ignore_missing_imports = true
