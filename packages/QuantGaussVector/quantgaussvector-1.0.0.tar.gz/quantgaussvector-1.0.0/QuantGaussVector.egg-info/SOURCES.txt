@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+QuantGaussVector/QGVC.py
+QuantGaussVector/QGVR.py
+QuantGaussVector/__init__.py
+QuantGaussVector.egg-info/PKG-INFO
+QuantGaussVector.egg-info/SOURCES.txt
+QuantGaussVector.egg-info/dependency_links.txt
+QuantGaussVector.egg-info/requires.txt
+QuantGaussVector.egg-info/top_level.txt
