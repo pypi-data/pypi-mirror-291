@@ -1,0 +1,18 @@
+questions = {
+    "command": "Enter a command: ",
+    "name": "Enter name: ",
+    "phone": "Enter phone number: ",
+    "birthday": "Enter birthday: ",
+    "email": "Enter email: ",
+    "address": "Enter address: ",
+    "title": "Enter title: ",
+    "text": "Enter text: ",
+    "tags": "Enter tags separated by spaces: ",
+    "tag": "Enter tag: ",
+    "reminder": "Enter reminder: ",
+    "days": "Enter number of days: ",
+    "contacts": "Enter number of contacts: ",
+    "notes": "Enter number of notes: ",
+    "skip": "(press Enter to skip) ",
+    "back": "[back to main menu CTRL + C] ",
+}

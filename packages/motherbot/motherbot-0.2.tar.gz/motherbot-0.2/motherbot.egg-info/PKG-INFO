@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: motherbot
+Version: 0.2
+Summary: Final project for Python course => MotherBot
+Home-page: https://github.com/Iryna-Holova/goit-pycore-final
+Author: Kateryna Tkachenko
+Author-email: tkachenko.city@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi
+Requires-Dist: cfgv
+Requires-Dist: charset-normalizer
+Requires-Dist: colorama
+Requires-Dist: distlib
+Requires-Dist: docutils
+Requires-Dist: Faker
+Requires-Dist: filelock
+Requires-Dist: fuzzywuzzy
+Requires-Dist: identify
+Requires-Dist: idna
+Requires-Dist: importlib_metadata
+Requires-Dist: jaraco.classes
+Requires-Dist: jaraco.context
+Requires-Dist: jaraco.functools
+Requires-Dist: keyring
+Requires-Dist: Levenshtein
+Requires-Dist: markdown-it-py
+Requires-Dist: mdurl
+Requires-Dist: more-itertools
+Requires-Dist: motherbot
+Requires-Dist: nh3
+Requires-Dist: nodeenv
+Requires-Dist: pip
+Requires-Dist: pkginfo
+Requires-Dist: platformdirs
+Requires-Dist: pre-commit
+Requires-Dist: prompt_toolkit
+Requires-Dist: pyfiglet
+Requires-Dist: Pygments
+Requires-Dist: python-dateutil
+Requires-Dist: python-Levenshtein
+Requires-Dist: PyYAML
+Requires-Dist: rapidfuzz
+Requires-Dist: readme_renderer
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: rfc3986
+Requires-Dist: rich
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: tabulate
+Requires-Dist: twine
+Requires-Dist: urllib3
+Requires-Dist: virtualenv
+Requires-Dist: wcwidth
+Requires-Dist: wheel
+Requires-Dist: zipp
+
+# goit-pycore-final
+
+## Installation and Setup
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- Python 3.6 or higher
+- `pip` (Python package manager)
+- Optionally: `virtualenv` for creating isolated Python environments
+
+### Installation
+
+To install the `motherbot` package via PyPI, follow these steps:
+
+1. **Create and activate a virtual environment (optional but recommended):**
+
+   It is recommended to use a virtual environment to isolate your project dependencies. You can create and activate it as follows:
+
+   - On **Windows**:
+
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+
+   - On **macOS/Linux**:
+
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+2. **Install the `motherbot` package:**
+
+   You can install the `motherbot` package from PyPI using the following command:
+
+   ```bash
+   pip install motherbot
+
+### Run the Application
+
+Once the package is installed, you can start the application by simply running:
+
+    ```bash
+    motherbot
+
+### deactivation of the virtual environment
+
+    ```bash
+    deactivate
