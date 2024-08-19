@@ -1,0 +1,7 @@
+backports/configparser/__init__.py,sha256=E21QmuzgT4gDkzSGYjRIeJec1zRgKyr1JfusrctsbrA,54170
+backports/configparser/compat.py,sha256=p0dZMhF4m1C7GKZyE_0qAXCWkrUv3LrurqpEWQqHky4,424
+configparser-7.0.1.dist-info/LICENSE,sha256=htoPAa6uRjSKPD1GUZXcHOzN55956HdppkuNoEsqR0E,1023
+configparser-7.0.1.dist-info/METADATA,sha256=S2HkkXY_AdlxtB4LfIMCFdzWezlYJEBYDgQaEt2KC08,5388
+configparser-7.0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+configparser-7.0.1.dist-info/top_level.txt,sha256=cGjaLMOoBR1FK0ApojtzWVmViTtJ7JGIK_HwXiEsvtU,10
+configparser-7.0.1.dist-info/RECORD,,
