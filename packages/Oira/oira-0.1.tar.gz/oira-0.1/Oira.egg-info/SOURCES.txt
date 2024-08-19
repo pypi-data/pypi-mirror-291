@@ -1,0 +1,8 @@
+README.md
+setup.py
+Oira/__init__.py
+Oira/main.py
+Oira.egg-info/PKG-INFO
+Oira.egg-info/SOURCES.txt
+Oira.egg-info/dependency_links.txt
+Oira.egg-info/top_level.txt
