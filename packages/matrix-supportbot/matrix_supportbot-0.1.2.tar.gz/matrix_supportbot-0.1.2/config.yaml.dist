@@ -1,0 +1,4 @@
+homeserver: "https://homeserver.example"
+username: "your_username"
+password: "your_password"
+operator_room_id: "!your_operator_room_id:homeserver.example"
