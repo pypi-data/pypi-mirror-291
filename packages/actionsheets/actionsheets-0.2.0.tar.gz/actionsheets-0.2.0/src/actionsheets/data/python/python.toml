@@ -1,0 +1,102 @@
+language = "python"
+parent = ""
+name = "python"
+title = "Python"
+description = """
+[Python](https://www.python.org/about/) is an easy-to-learn high-level general-purpose programming language.
+It is especially suitable for beginners to programming, amateurs/hobbyists, scientists, engineers.
+
+Pros:
+- **Easy to learn**
+  - High-level
+  - Dynamically typed
+  - Simple and readable syntax
+- **Vast [ecosystem](https://pypi.org/)**
+- **Large community and help sources**
+- **Rapid prototyping**
+- **Excellent [glue language](https://www.devx.com/terms/glue-language/)**
+  - Many packages interface with C or other fast languages to achieve performant code
+  - Interoperable with many other languages
+
+Cons:
+- **Very slow**: About 50 times slower than C. This is not a deal-breaker though for a glue/scripting language, and for prototyping purposes.
+- **Low-quality packages**: There are almost no imposed requirements on packages and compability between packages: Expect compatibility issues, breaking functionality across package versions, unintuitive APIs, and lacking documentation.
+- **Non-standardized tooling**: despite the emphasis on the _Pythonic way_, there are hilariously many cases of competing tools, packages, and standards: see dependency management, repository structure, unit testing, to name a few.
+- **Dynamically typed**: great for rapid prototyping, not for large frameworks.
+- **No built-in language support for vector and matrix operations**: results in needlessly verbose code for any engineering or data science applications.
+- **No fluent interface**: No support for chaining function calls, which is a common use case in analysis scripts and data manipulation. This results in many data science libraries resorting to the builder pattern, which forces the use of implementing subclasses just to call another function.
+
+Short Python cheatsheets:
+- https://www.pythoncheatsheet.org/
+- https://quickref.me/python
+"""
+
+
+[run]
+section = "Run"
+
+[run.script]
+section = "Script"
+
+[run.script.wait]
+action = "Start Python script, wait for completion"
+code = "os.system('python script.py')"
+
+[run.script.args]
+action = "Start Python script with arguments, wait for completion"
+code = """os.system('python script.py -file "hello.csv")"""
+
+
+[env]
+section = 'Environment'
+
+[env.var]
+section = 'Environment variables'
+description = "All snippets require `import os`. Updates to the environment are not reflected in the `os.environ` mapping."
+
+[env.var.list]
+action = "Get list of all environment variables"
+code = "list(os.environ)"
+
+[env.var.dict]
+action = "Get all environment variables as dict"
+code = "dict(os.environ)"
+
+[env.var.test.exists]
+action = "Check if environment variable exists"
+code = "'path' in os.environ"
+details = "Case-insensitive"
+
+[env.var.get]
+action = "Get value of environment variable, error if not found"
+code = "os.environ['path']"
+
+[env.var.get.empty]
+action = "Try get value of environment variable, or return `None`"
+code = "os.getenv('path')"
+
+[env.var.get.empty.2]
+code = "os.environ.get('path')"
+
+[env.var.get.default]
+action = "Try get value of environment variable, or return default value _v_"
+code = "os.environ.get('missingvar', v)"
+
+[env.var.set]
+action = "Set / update environment variable"
+code = "os.environ['derp'] = 'hello'"
+
+[env.var.set.new]
+action = "Set environment variable only if it is not yet defined"
+code = "os.environ.setdefault('derp', 'world')"
+
+[env.var.remove]
+action = "Delete environment variable, error if not defined"
+code = "del os.environ['derp']"
+
+[env.var.remove.pop]
+code = "os.environ.pop('derp')"
+
+[env.var.remove.try]
+action = "Try delete environment variable"
+code = "os.environ.pop('derp', None)"
