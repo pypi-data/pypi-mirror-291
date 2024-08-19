@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rwdq/__init__.py
+rwdq/main.py
+rwdq.egg-info/PKG-INFO
+rwdq.egg-info/SOURCES.txt
+rwdq.egg-info/dependency_links.txt
+rwdq.egg-info/entry_points.txt
+rwdq.egg-info/requires.txt
+rwdq.egg-info/top_level.txt
