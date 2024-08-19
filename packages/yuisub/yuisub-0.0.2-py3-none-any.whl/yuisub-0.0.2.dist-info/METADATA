@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: yuisub
+Version: 0.0.2
+Summary: Auto translation of new anime episodes based on Yui-MHCP001
+Home-page: https://github.com/TensoRaws/yuisub
+License: GPL-3.0-only
+Author: Tohrusky
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4
+Requires-Dist: openai
+Requires-Dist: pydantic
+Requires-Dist: pysrt
+Requires-Dist: requests
+Requires-Dist: tenacity
+Project-URL: Repository, https://github.com/TensoRaws/yuisub
+Description-Content-Type: text/markdown
+
+# yuisub
+
+Auto translation of new anime episodes based on Yui-MHCP001
+
