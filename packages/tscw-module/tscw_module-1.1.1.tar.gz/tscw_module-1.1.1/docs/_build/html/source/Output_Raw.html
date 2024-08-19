@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TSCW - OUTPUT - Plots und Daten Export &mdash; Dokumentation tscw_module  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="TSCW - OUTPUT - Axialkraftberechnung" href="Output_Calculate.html" />
+    <link rel="prev" title="TSCW TSGF - INPUT - Erstellung" href="Input_TSGF.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Dokumentation tscw_module
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhaltsverzeichnis:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung.html">Übersicht</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Input.html">TSCW GACA - INPUT - Erstellung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Input_TSGF.html">TSCW TSGF - INPUT - Erstellung</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">TSCW - OUTPUT - Plots und Daten Export</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tbhc-txt">TBHC.txt</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#excel-csv-export">Excel/CSV Export</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#plots">Plots</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#temperatur-und-druck-vs-zeit">Temperatur und Druck vs Zeit</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#plot_tp_vs_time"><code class="docutils literal notranslate"><span class="pre">plot_tp_vs_time()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#temperatur-und-druck-vs-tiefe">Temperatur und Druck vs Tiefe</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tfbh-txt">TFBH.txt</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#plot_temp_distribution"><code class="docutils literal notranslate"><span class="pre">plot_temp_distribution()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create_movie"><code class="docutils literal notranslate"><span class="pre">create_movie()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tfc-txt">TFC.txt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vergleich-verschiedener-simulation">Vergleich verschiedener Simulation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#plot_pt_difference"><code class="docutils literal notranslate"><span class="pre">plot_pt_difference()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Output_Calculate.html">TSCW - OUTPUT - Axialkraftberechnung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Bibliography.html">Literaturverzeichnis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">Klassen- und Funktionsübersicht tscw_module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Dokumentation tscw_module</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">TSCW - OUTPUT - Plots und Daten Export</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/source/Output_Raw.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tscw-output-plots-und-daten-export">
+<h1>TSCW - OUTPUT - Plots und Daten Export<a class="headerlink" href="#tscw-output-plots-und-daten-export" title="Link to this heading"></a></h1>
+<section id="tbhc-txt">
+<h2>TBHC.txt<a class="headerlink" href="#tbhc-txt" title="Link to this heading"></a></h2>
+<p>Druck- und Temperaturergebnisse in Kaverne und im Strömungsraum i
+Pro Zeitschritt werden hier die Druck- und Temperaturwerte in der Kaverne und für jeden
+Strömungsraum pro Schicht ausgegeben. Der Index i steht für die Nummer des
+Strömungsraumes (Tubing bzw. Ringraum), hochgezählt beginnend von der Bohrlochachse.
+Die Struktur dieser Datei kann in drei Teile gegliedert werden, die durch ***
+voneinander getrennt sind. Die ersten Zeilen sind im Folgenden exemplarisch dargestellt:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">FLUID</span> <span class="n">SPACE</span> <span class="n">NO</span><span class="o">.</span><span class="p">:</span>                   <span class="mi">1</span>
+<span class="n">MEDIUM</span><span class="p">:</span>     <span class="n">Stage</span> <span class="mi">1</span><span class="p">:</span> <span class="n">GAS</span><span class="o">.</span><span class="n">Methan</span>
+<span class="n">V_CAVERN</span><span class="p">:</span>   <span class="mf">488925.22</span>
+<span class="o">***</span>
+<span class="n">STAGE</span>       <span class="n">t_STAGE</span> <span class="n">t_TOTAL</span> <span class="n">T_CAVERN</span>        <span class="n">p_CAVERN</span>        <span class="n">T_BRINE_EQ</span>        <span class="n">T_WH</span>    <span class="n">p_WH</span>  <span class="n">PRODUCT</span> <span class="n">AMOUNT</span>  <span class="n">FLOW_RATE</span>        <span class="n">w_MAX</span>  <span class="o">***</span>       <span class="mf">0.00</span>   <span class="mf">25.00</span>   <span class="mf">50.00</span>   <span class="mf">75.00</span>  <span class="mf">100.00</span>  <span class="mf">125.00</span>  <span class="mf">150.00</span>  <span class="mf">175.00</span>  <span class="mf">200.00</span>  <span class="mf">225.00</span>  <span class="mf">250.00</span>  <span class="mf">275.00</span>  <span class="mf">300.00</span>  <span class="mf">325.00</span>  <span class="mf">350.00</span>  <span class="mf">375.00</span>  <span class="mf">400.00</span>  <span class="mf">425.00</span>  <span class="mf">450.00</span>  <span class="mf">475.00</span>  <span class="mf">500.00</span>  <span class="mf">525.00</span>  <span class="mf">550.00</span>  <span class="mf">575.00</span>  <span class="mf">600.00</span>  <span class="mf">625.00</span>  <span class="mf">650.00</span>  <span class="mf">675.00</span>  <span class="mf">700.00</span>  <span class="mf">725.00</span>  <span class="mf">750.00</span>  <span class="mf">775.00</span>  <span class="mf">800.00</span>  <span class="mf">825.00</span>  <span class="mf">850.00</span>  <span class="mf">875.00</span>  <span class="mf">900.00</span>  <span class="mf">925.00</span>  <span class="mf">950.00</span>  <span class="mf">975.00</span>  <span class="mf">1000.00</span> <span class="mf">1100.00</span> <span class="o">***</span>       <span class="mf">0.00</span>   <span class="mf">25.00</span>   <span class="mf">50.00</span>   <span class="mf">75.00</span>  <span class="mf">100.00</span>  <span class="mf">125.00</span>  <span class="mf">150.00</span>  <span class="mf">175.00</span>  <span class="mf">200.00</span>  <span class="mf">225.00</span>  <span class="mf">250.00</span>  <span class="mf">275.00</span>  <span class="mf">300.00</span>  <span class="mf">325.00</span>  <span class="mf">350.00</span>  <span class="mf">375.00</span>  <span class="mf">400.00</span>  <span class="mf">425.00</span>  <span class="mf">450.00</span>  <span class="mf">475.00</span>  <span class="mf">500.00</span>  <span class="mf">525.00</span>  <span class="mf">550.00</span>  <span class="mf">575.00</span>  <span class="mf">600.00</span>  <span class="mf">625.00</span>  <span class="mf">650.00</span>  <span class="mf">675.00</span>  <span class="mf">700.00</span>  <span class="mf">725.00</span>  <span class="mf">750.00</span>  <span class="mf">775.00</span>  <span class="mf">800.00</span>  <span class="mf">825.00</span>  <span class="mf">850.00</span>  <span class="mf">875.00</span>  <span class="mf">900.00</span>  <span class="mf">925.00</span>  <span class="mf">950.00</span>  <span class="mf">975.00</span>  <span class="mf">1000.00</span> <span class="mf">1100.00</span>
+<span class="mi">1</span>      <span class="mf">0.00</span>    <span class="mf">0.00</span>    <span class="mf">24.26</span>           <span class="mf">15.00</span>             <span class="mf">24.26</span>       <span class="mf">10.00</span>   <span class="mf">13.05</span>     <span class="mf">80400839.05</span>  <span class="mf">100000.00</span>        <span class="mf">10.70</span>  <span class="o">***</span>      <span class="mf">10.00</span>   <span class="mf">11.00</span>   <span class="mf">12.00</span>   <span class="mf">13.00</span>   <span class="mf">14.00</span>   <span class="mf">15.00</span>   <span class="mf">16.00</span>   <span class="mf">17.00</span>   <span class="mf">18.00</span>   <span class="mf">19.00</span>   <span class="mf">20.00</span>   <span class="mf">21.00</span>   <span class="mf">22.00</span>   <span class="mf">23.00</span>   <span class="mf">24.00</span>   <span class="mf">25.00</span>   <span class="mf">26.00</span>   <span class="mf">27.00</span>   <span class="mf">28.00</span>   <span class="mf">29.03</span>   <span class="mf">30.00</span>   <span class="mf">30.78</span>   <span class="mf">31.50</span>   <span class="mf">32.25</span>   <span class="mf">33.00</span>   <span class="mf">33.75</span>   <span class="mf">34.50</span>   <span class="mf">35.28</span>   <span class="mf">36.00</span>   <span class="mf">36.53</span>   <span class="mf">37.00</span>   <span class="mf">37.50</span>   <span class="mf">38.00</span>   <span class="mf">38.50</span>   <span class="mf">39.00</span>   <span class="mf">39.50</span>   <span class="mf">40.00</span>   <span class="mf">41.61</span>   <span class="mf">41.00</span>   <span class="mf">34.85</span>    <span class="mf">24.26</span>   <span class="mf">24.26</span> <span class="o">***</span>      <span class="mf">13.05</span>   <span class="mf">13.10</span>   <span class="mf">13.15</span>   <span class="mf">13.19</span>   <span class="mf">13.24</span>   <span class="mf">13.28</span>   <span class="mf">13.33</span>   <span class="mf">13.38</span>   <span class="mf">13.42</span>   <span class="mf">13.47</span>   <span class="mf">13.51</span>   <span class="mf">13.56</span>   <span class="mf">13.61</span>   <span class="mf">13.65</span>   <span class="mf">13.70</span>   <span class="mf">13.74</span>   <span class="mf">13.79</span>   <span class="mf">13.83</span>   <span class="mf">13.88</span>   <span class="mf">13.93</span>   <span class="mf">13.97</span>   <span class="mf">14.02</span>   <span class="mf">14.06</span>   <span class="mf">14.11</span>   <span class="mf">14.15</span>   <span class="mf">14.20</span>   <span class="mf">14.25</span>   <span class="mf">14.29</span>   <span class="mf">14.34</span>   <span class="mf">14.38</span>   <span class="mf">14.43</span>   <span class="mf">14.47</span>   <span class="mf">14.52</span>   <span class="mf">14.57</span>   <span class="mf">14.61</span>   <span class="mf">14.66</span>   <span class="mf">14.70</span>   <span class="mf">14.75</span>   <span class="mf">14.79</span>   <span class="mf">14.84</span>    <span class="mf">14.88</span>   <span class="mf">15.00</span>
+<span class="mi">1</span>      <span class="mf">0.00</span>    <span class="mf">0.00</span>    <span class="mf">24.26</span>           <span class="mf">15.00</span>             <span class="mf">24.26</span>       <span class="mf">10.59</span>   <span class="mf">13.05</span>     <span class="mf">80400709.24</span>  <span class="mf">100000.00</span>        <span class="mf">10.71</span>  <span class="o">***</span>      <span class="mf">10.59</span>   <span class="mf">11.60</span>   <span class="mf">12.60</span>   <span class="mf">13.60</span>   <span class="mf">14.60</span>   <span class="mf">15.60</span>   <span class="mf">16.60</span>   <span class="mf">17.60</span>   <span class="mf">18.60</span>   <span class="mf">19.60</span>   <span class="mf">20.60</span>   <span class="mf">21.60</span>   <span class="mf">22.60</span>   <span class="mf">23.60</span>   <span class="mf">24.61</span>   <span class="mf">25.61</span>   <span class="mf">26.61</span>   <span class="mf">27.62</span>   <span class="mf">28.61</span>   <span class="mf">29.55</span>   <span class="mf">30.42</span>   <span class="mf">31.19</span>   <span class="mf">31.92</span>   <span class="mf">32.67</span>   <span class="mf">33.43</span>   <span class="mf">34.19</span>   <span class="mf">34.93</span>   <span class="mf">35.61</span>   <span class="mf">36.24</span>   <span class="mf">36.76</span>   <span class="mf">37.24</span>   <span class="mf">37.74</span>   <span class="mf">38.24</span>   <span class="mf">38.74</span>   <span class="mf">39.24</span>   <span class="mf">40.15</span>   <span class="mf">40.24</span>   <span class="mf">38.19</span>   <span class="mf">34.71</span>   <span class="mf">30.10</span>    <span class="mf">24.26</span>   <span class="mf">24.26</span> <span class="o">***</span>      <span class="mf">13.05</span>   <span class="mf">13.10</span>   <span class="mf">13.15</span>   <span class="mf">13.19</span>   <span class="mf">13.24</span>   <span class="mf">13.28</span>   <span class="mf">13.33</span>   <span class="mf">13.38</span>   <span class="mf">13.42</span>   <span class="mf">13.47</span>   <span class="mf">13.51</span>   <span class="mf">13.56</span>   <span class="mf">13.61</span>   <span class="mf">13.65</span>   <span class="mf">13.70</span>   <span class="mf">13.74</span>   <span class="mf">13.79</span>   <span class="mf">13.83</span>   <span class="mf">13.88</span>   <span class="mf">13.93</span>   <span class="mf">13.97</span>   <span class="mf">14.02</span>   <span class="mf">14.06</span>   <span class="mf">14.11</span>   <span class="mf">14.15</span>   <span class="mf">14.20</span>   <span class="mf">14.25</span>   <span class="mf">14.29</span>   <span class="mf">14.34</span>   <span class="mf">14.38</span>   <span class="mf">14.43</span>   <span class="mf">14.47</span>   <span class="mf">14.52</span>   <span class="mf">14.56</span>   <span class="mf">14.61</span>   <span class="mf">14.66</span>   <span class="mf">14.70</span>   <span class="mf">14.75</span>   <span class="mf">14.79</span>   <span class="mf">14.84</span>    <span class="mf">14.88</span>   <span class="mf">15.00</span>
+<span class="mi">1</span>      <span class="mf">0.00</span>    <span class="mf">0.00</span>    <span class="mf">24.26</span>           <span class="mf">15.00</span>             <span class="mf">24.26</span>       <span class="mf">11.08</span>   <span class="mf">13.05</span>     <span class="mf">80400579.44</span>  <span class="mf">100000.00</span>        <span class="mf">10.73</span>  <span class="o">***</span>      <span class="mf">11.08</span>   <span class="mf">12.09</span>   <span class="mf">13.09</span>   <span class="mf">14.09</span>   <span class="mf">15.09</span>   <span class="mf">16.09</span>   <span class="mf">17.09</span>   <span class="mf">18.09</span>   <span class="mf">19.09</span>   <span class="mf">20.09</span>   <span class="mf">21.09</span>   <span class="mf">22.09</span>   <span class="mf">23.10</span>   <span class="mf">24.10</span>   <span class="mf">25.10</span>   <span class="mf">26.10</span>   <span class="mf">27.10</span>   <span class="mf">28.08</span>   <span class="mf">29.03</span>   <span class="mf">29.93</span>   <span class="mf">30.77</span>   <span class="mf">31.53</span>   <span class="mf">32.27</span>   <span class="mf">33.02</span>   <span class="mf">33.77</span>   <span class="mf">34.50</span>   <span class="mf">35.20</span>   <span class="mf">35.85</span>   <span class="mf">36.44</span>   <span class="mf">36.95</span>   <span class="mf">37.44</span>   <span class="mf">37.94</span>   <span class="mf">38.44</span>   <span class="mf">39.09</span>   <span class="mf">39.44</span>   <span class="mf">39.17</span>   <span class="mf">38.02</span>   <span class="mf">35.38</span>   <span class="mf">31.95</span>   <span class="mf">28.31</span>    <span class="mf">24.26</span>   <span class="mf">24.26</span> <span class="o">***</span>      <span class="mf">13.05</span>   <span class="mf">13.10</span>   <span class="mf">13.15</span>   <span class="mf">13.19</span>   <span class="mf">13.24</span>   <span class="mf">13.28</span>   <span class="mf">13.33</span>   <span class="mf">13.38</span>   <span class="mf">13.42</span>   <span class="mf">13.47</span>   <span class="mf">13.51</span>   <span class="mf">13.56</span>   <span class="mf">13.61</span>   <span class="mf">13.65</span>   <span class="mf">13.70</span>   <span class="mf">13.74</span>   <span class="mf">13.79</span>   <span class="mf">13.83</span>   <span class="mf">13.88</span>   <span class="mf">13.93</span>   <span class="mf">13.97</span>   <span class="mf">14.02</span>   <span class="mf">14.06</span>   <span class="mf">14.11</span>   <span class="mf">14.15</span>   <span class="mf">14.20</span>   <span class="mf">14.25</span>   <span class="mf">14.29</span>   <span class="mf">14.34</span>   <span class="mf">14.38</span>   <span class="mf">14.43</span>   <span class="mf">14.47</span>   <span class="mf">14.52</span>   <span class="mf">14.56</span>   <span class="mf">14.61</span>   <span class="mf">14.66</span>   <span class="mf">14.70</span>   <span class="mf">14.75</span>   <span class="mf">14.79</span>   <span class="mf">14.84</span>    <span class="mf">14.88</span>   <span class="mf">15.00</span>
+<span class="mi">1</span>      <span class="mf">0.00</span>    <span class="mf">0.00</span>    <span class="mf">24.26</span>           <span class="mf">15.00</span>             <span class="mf">24.26</span>       <span class="mf">11.51</span>   <span class="mf">13.05</span>     <span class="mf">80400449.63</span>  <span class="mf">100000.00</span>        <span class="mf">10.74</span>  <span class="o">***</span>      <span class="mf">11.51</span>   <span class="mf">12.51</span>   <span class="mf">13.51</span>   <span class="mf">14.52</span>   <span class="mf">15.52</span>   <span class="mf">16.52</span>   <span class="mf">17.52</span>   <span class="mf">18.52</span>   <span class="mf">19.52</span>   <span class="mf">20.52</span>   <span class="mf">21.52</span>   <span class="mf">22.52</span>   <span class="mf">23.52</span>   <span class="mf">24.53</span>   <span class="mf">25.53</span>   <span class="mf">26.52</span>   <span class="mf">27.50</span>   <span class="mf">28.46</span>   <span class="mf">29.37</span>   <span class="mf">30.24</span>   <span class="mf">31.07</span>   <span class="mf">31.83</span>   <span class="mf">32.57</span>   <span class="mf">33.31</span>   <span class="mf">34.04</span>   <span class="mf">34.75</span>   <span class="mf">35.41</span>   <span class="mf">36.03</span>   <span class="mf">36.61</span>   <span class="mf">37.12</span>   <span class="mf">37.61</span>   <span class="mf">38.16</span>   <span class="mf">38.61</span>   <span class="mf">38.89</span>   <span class="mf">38.71</span>   <span class="mf">37.74</span>   <span class="mf">36.05</span>   <span class="mf">33.49</span>   <span class="mf">30.48</span>   <span class="mf">27.45</span>    <span class="mf">24.26</span>   <span class="mf">24.26</span> <span class="o">***</span>      <span class="mf">13.05</span>   <span class="mf">13.10</span>   <span class="mf">13.15</span>   <span class="mf">13.19</span>   <span class="mf">13.24</span>   <span class="mf">13.28</span>   <span class="mf">13.33</span>   <span class="mf">13.38</span>   <span class="mf">13.42</span>   <span class="mf">13.47</span>   <span class="mf">13.51</span>   <span class="mf">13.56</span>   <span class="mf">13.61</span>   <span class="mf">13.65</span>   <span class="mf">13.70</span>   <span class="mf">13.74</span>   <span class="mf">13.79</span>   <span class="mf">13.83</span>   <span class="mf">13.88</span>   <span class="mf">13.93</span>   <span class="mf">13.97</span>   <span class="mf">14.02</span>   <span class="mf">14.06</span>   <span class="mf">14.11</span>   <span class="mf">14.15</span>   <span class="mf">14.20</span>   <span class="mf">14.24</span>   <span class="mf">14.29</span>   <span class="mf">14.34</span>   <span class="mf">14.38</span>   <span class="mf">14.43</span>   <span class="mf">14.47</span>   <span class="mf">14.52</span>   <span class="mf">14.56</span>   <span class="mf">14.61</span>   <span class="mf">14.66</span>   <span class="mf">14.70</span>   <span class="mf">14.75</span>   <span class="mf">14.79</span>   <span class="mf">14.84</span>    <span class="mf">14.88</span>   <span class="mf">15.00</span>
+<span class="mi">1</span>      <span class="mf">0.01</span>    <span class="mf">0.01</span>    <span class="mf">24.26</span>           <span class="mf">15.00</span>             <span class="mf">24.26</span>       <span class="mf">11.90</span>   <span class="mf">13.05</span>     <span class="mf">80400319.83</span>  <span class="mf">100000.00</span>        <span class="mf">10.75</span>  <span class="o">***</span>      <span class="mf">11.90</span>   <span class="mf">12.90</span>   <span class="mf">13.91</span>   <span class="mf">14.91</span>   <span class="mf">15.91</span>   <span class="mf">16.91</span>   <span class="mf">17.91</span>   <span class="mf">18.91</span>   <span class="mf">19.91</span>   <span class="mf">20.91</span>   <span class="mf">21.91</span>   <span class="mf">22.91</span>   <span class="mf">23.91</span>   <span class="mf">24.91</span>   <span class="mf">25.91</span>   <span class="mf">26.89</span>   <span class="mf">27.85</span>   <span class="mf">28.78</span>   <span class="mf">29.68</span>   <span class="mf">30.53</span>   <span class="mf">31.34</span>   <span class="mf">32.10</span>   <span class="mf">32.83</span>   <span class="mf">33.56</span>   <span class="mf">34.27</span>   <span class="mf">34.95</span>   <span class="mf">35.60</span>   <span class="mf">36.20</span>   <span class="mf">36.76</span>   <span class="mf">37.29</span>   <span class="mf">37.76</span>   <span class="mf">38.20</span>   <span class="mf">38.43</span>   <span class="mf">38.29</span>   <span class="mf">37.68</span>   <span class="mf">36.38</span>   <span class="mf">34.55</span>   <span class="mf">32.18</span>   <span class="mf">29.54</span>   <span class="mf">26.94</span>    <span class="mf">24.26</span>   <span class="mf">24.26</span> <span class="o">***</span>      <span class="mf">13.05</span>   <span class="mf">13.10</span>   <span class="mf">13.15</span>   <span class="mf">13.19</span>   <span class="mf">13.24</span>   <span class="mf">13.28</span>   <span class="mf">13.33</span>   <span class="mf">13.38</span>   <span class="mf">13.42</span>   <span class="mf">13.47</span>   <span class="mf">13.51</span>   <span class="mf">13.56</span>   <span class="mf">13.61</span>   <span class="mf">13.65</span>   <span class="mf">13.70</span>   <span class="mf">13.74</span>   <span class="mf">13.79</span>   <span class="mf">13.83</span>   <span class="mf">13.88</span>   <span class="mf">13.93</span>   <span class="mf">13.97</span>   <span class="mf">14.02</span>   <span class="mf">14.06</span>   <span class="mf">14.11</span>   <span class="mf">14.15</span>   <span class="mf">14.20</span>   <span class="mf">14.24</span>   <span class="mf">14.29</span>   <span class="mf">14.34</span>   <span class="mf">14.38</span>   <span class="mf">14.43</span>   <span class="mf">14.47</span>   <span class="mf">14.52</span>   <span class="mf">14.56</span>   <span class="mf">14.61</span>   <span class="mf">14.65</span>   <span class="mf">14.70</span>   <span class="mf">14.75</span>   <span class="mf">14.79</span>   <span class="mf">14.84</span>    <span class="mf">14.88</span>   <span class="mf">15.00</span>
+<span class="mi">1</span>      <span class="mf">0.01</span>    <span class="mf">0.01</span>    <span class="mf">24.26</span>           <span class="mf">15.00</span>             <span class="mf">24.26</span>       <span class="mf">12.27</span>   <span class="mf">13.06</span>     <span class="mf">80400190.02</span>  <span class="mf">100000.00</span>        <span class="mf">10.76</span>  <span class="o">***</span>      <span class="mf">12.27</span>   <span class="mf">13.27</span>   <span class="mf">14.28</span>   <span class="mf">15.28</span>   <span class="mf">16.28</span>   <span class="mf">17.28</span>   <span class="mf">18.28</span>   <span class="mf">19.28</span>   <span class="mf">20.28</span>   <span class="mf">21.28</span>   <span class="mf">22.28</span>   <span class="mf">23.28</span>   <span class="mf">24.28</span>   <span class="mf">25.27</span>   <span class="mf">26.25</span>   <span class="mf">27.22</span>   <span class="mf">28.16</span>   <span class="mf">29.08</span>   <span class="mf">29.95</span>   <span class="mf">30.79</span>   <span class="mf">31.59</span>   <span class="mf">32.34</span>   <span class="mf">33.06</span>   <span class="mf">33.78</span>   <span class="mf">34.47</span>   <span class="mf">35.14</span>   <span class="mf">35.77</span>   <span class="mf">36.36</span>   <span class="mf">36.90</span>   <span class="mf">37.40</span>   <span class="mf">37.78</span>   <span class="mf">38.03</span>   <span class="mf">37.99</span>   <span class="mf">37.54</span>   <span class="mf">36.66</span>   <span class="mf">35.22</span>   <span class="mf">33.38</span>   <span class="mf">31.21</span>   <span class="mf">28.87</span>   <span class="mf">26.58</span>    <span class="mf">24.26</span>   <span class="mf">24.26</span> <span class="o">***</span>      <span class="mf">13.06</span>   <span class="mf">13.10</span>   <span class="mf">13.15</span>   <span class="mf">13.19</span>   <span class="mf">13.24</span>   <span class="mf">13.28</span>   <span class="mf">13.33</span>   <span class="mf">13.38</span>   <span class="mf">13.42</span>   <span class="mf">13.47</span>   <span class="mf">13.51</span>   <span class="mf">13.56</span>   <span class="mf">13.61</span>   <span class="mf">13.65</span>   <span class="mf">13.70</span>   <span class="mf">13.74</span>   <span class="mf">13.79</span>   <span class="mf">13.83</span>   <span class="mf">13.88</span>   <span class="mf">13.93</span>   <span class="mf">13.97</span>   <span class="mf">14.02</span>   <span class="mf">14.06</span>   <span class="mf">14.11</span>   <span class="mf">14.15</span>   <span class="mf">14.20</span>   <span class="mf">14.24</span>   <span class="mf">14.29</span>   <span class="mf">14.34</span>   <span class="mf">14.38</span>   <span class="mf">14.43</span>   <span class="mf">14.47</span>   <span class="mf">14.52</span>   <span class="mf">14.56</span>   <span class="mf">14.61</span>   <span class="mf">14.65</span>   <span class="mf">14.70</span>   <span class="mf">14.75</span>   <span class="mf">14.79</span>   <span class="mf">14.84</span>    <span class="mf">14.88</span>   <span class="mf">15.00</span>
+<span class="p">(</span><span class="n">weiter</span> <span class="n">bis</span> <span class="n">zum</span> <span class="n">Simulationsende</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Die <code class="docutils literal notranslate"><span class="pre">*TBHC.txt</span></code> Datei kann mit folgendem Befehl eingelesen werden:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span> <span class="kn">from</span> <span class="nn">tscw_module</span> <span class="kn">import</span> <span class="n">TSCW_TBHC</span>
+<span class="linenos">2</span> <span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="linenos">3</span>
+<span class="linenos">4</span> <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;DeinPfad/*TBHC.txt&quot;</span><span class="p">)</span>
+<span class="linenos">5</span> <span class="n">tscw_data</span> <span class="o">=</span> <span class="n">TSCW_TBHC</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Die einzelnen Parameter können folgerndermaßen aufgerufen werden:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span> <span class="c1"># Sobald die TSCW_TBHC Klasse initiiert wurde, können einzelnen Parameter aufgerufen werden.</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">df</span>            <span class="c1"># Übersicht aller eingeladenen Daten (pandas.DataFrame)</span>
+<span class="linenos"> 4</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">sr_df</span>         <span class="c1"># pandas DataFrame von den Meta Daten</span>
+<span class="linenos"> 5</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">vertT_df</span>      <span class="c1"># pandas DataFrame von den Temperatur daten</span>
+<span class="linenos"> 6</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">vertP_df</span>      <span class="c1"># pandas DataFrame von den Druck daten</span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">t_total</span>       <span class="c1"># Numpy Array über Simulationszeit</span>
+<span class="linenos"> 9</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">t_etappe</span>      <span class="c1"># Numpy Array über jeweilige Etappenzeit</span>
+<span class="linenos">10</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">stage_idx</span>     <span class="c1"># Numpy Array über Etappennummer</span>
+<span class="linenos">11</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">depth_array</span>   <span class="c1"># Numpy Array über simulierter vertikale Stützpunkte</span>
+</pre></div>
+</div>
+<section id="excel-csv-export">
+<h3>Excel/CSV Export<a class="headerlink" href="#excel-csv-export" title="Link to this heading"></a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Pandas</span> <span class="pre">Dataframe</span></code> Formate können mühelos als csv oder xlsx Datei exportiert werden.
+Falls beispielsweise die gesamte <code class="docutils literal notranslate"><span class="pre">*TBHC.txt</span></code> Datei in ein bearbeitbares Excel File konvertiert werden möchte,
+kann dies mit folgendem Befehl ausgeführt werden:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="linenos">2</span> <span class="n">tscw_data</span><span class="o">.</span><span class="n">df</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;Export.xlsx&#39;</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Dies gilt analog für eingelesene TFC.txt und TFBH.txt Dateien.</p>
+</div>
+<section id="plots">
+<h4>Plots<a class="headerlink" href="#plots" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="temperatur-und-druck-vs-zeit">
+<h3>Temperatur und Druck vs Zeit<a class="headerlink" href="#temperatur-und-druck-vs-zeit" title="Link to this heading"></a></h3>
+<p>Die Druck- und Temperaturverteilung über die Zeit kann mit der Funktion <code class="docutils literal notranslate"><span class="pre">plot_tp_vs_time()</span></code>
+geplottet werden:</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="plot_tp_vs_time">
+<span class="sig-name descname"><span class="pre">plot_tp_vs_time</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">depth_t</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">depth_p</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_export</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#plot_tp_vs_time" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>depth_t</strong> (<em>array</em><em>, </em><em>optional</em>) – Die Tiefenintervalle für Temperatur, standardmäßig alle</p></li>
+<li><p><strong>depth_p</strong> (<em>array</em><em>, </em><em>optional</em>) – Die Tiefenintervalle für Druck, standardmäßig alle</p></li>
+<li><p><strong>is_export</strong> (<em>bool</em><em>, </em><em>optional</em>) – standardmäßig False</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Die Tiefenintervalle müssen nicht 1:1 mit den simulierten übereinstimmen.
+Im Algorithmus wird nach dem nächst gelegenen Intervall gesucht.</p>
+</div>
+<p>Zum Beispiel liefert der Code:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kn">from</span> <span class="nn">tscw_module</span> <span class="kn">import</span> <span class="n">TSCW_TBHC</span>
+<span class="linenos">2</span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="linenos">3</span><span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;DeinPfad/*TBHC.txt&quot;</span><span class="p">)</span>
+<span class="linenos">4</span><span class="n">tscw_data</span> <span class="o">=</span> <span class="n">TSCW_TBHC</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+<span class="linenos">5</span><span class="n">depths</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">122.5</span><span class="p">,</span><span class="mf">245.0</span><span class="p">,</span><span class="mf">367.5</span><span class="p">,</span><span class="mf">490.0</span><span class="p">]</span>
+<span class="linenos">6</span><span class="n">tscw_data</span><span class="o">.</span><span class="n">plot_tp_vs_time</span><span class="p">(</span><span class="n">depths</span><span class="p">,</span><span class="n">depths</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_1_pTBHCtp_vs_time.png"><img alt="BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_1_pTBHCtp_vs_time.png" src="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_1_pTBHCtp_vs_time.png" style="width: 700px;" /></a>
+</section>
+<section id="temperatur-und-druck-vs-tiefe">
+<h3>Temperatur und Druck vs Tiefe<a class="headerlink" href="#temperatur-und-druck-vs-tiefe" title="Link to this heading"></a></h3>
+<p>Analog können die Daten über die Tiefe geplotted werden.</p>
+<p>Zum Beispiel liefert der Code:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">6</span><span class="n">times</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">])</span>
+<span class="linenos">7</span><span class="n">tscw_data</span><span class="o">.</span><span class="n">plot_tp_vs_depth</span><span class="p">(</span><span class="n">time_t</span><span class="o">=</span><span class="n">depths</span><span class="p">,</span> <span class="n">time_p</span><span class="o">=</span><span class="p">[])</span>
+</pre></div>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>In diesem Beispiel wurde mit <code class="docutils literal notranslate"><span class="pre">time_p=[]</span></code> keine Druckdaten ausgewählt.
+Somit erscheinen im Plot nur Temperaturdaten für die ausgewählten Zeitpunkte.
+Analog ist dies auch in der Funktion <code class="docutils literal notranslate"><span class="pre">plot_tp_vs_time</span></code> mit den Tiefenintervallen möglich.</p>
+</div>
+<a class="reference internal image-reference" href="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_1_pTBHCtp_vs_depth.png"><img alt="BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_1_pTBHCtp_vs_depth.png" src="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_1_pTBHCtp_vs_depth.png" style="width: 700px;" /></a>
+</section>
+</section>
+<section id="tfbh-txt">
+<h2>TFBH.txt<a class="headerlink" href="#tfbh-txt" title="Link to this heading"></a></h2>
+<p>Diese Datei beinhaltet das berechnete Temperaturfeld um die Bohrlochachse für jeden
+Zeitschritt mit selbsterklärender Darstellung (analog zum 2. Teil der Datei <a href="#id1"><span class="problematic" id="id2">*</span></a>_i_
+pTBHC.txt).</p>
+<p>Die Datei kann folgendermaßen eingelesen werden:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span> <span class="kn">from</span> <span class="nn">tscw_module</span> <span class="kn">import</span> <span class="n">TSCW_TBHC</span>
+<span class="linenos">2</span> <span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="linenos">3</span> <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;DeinPfad/*TFBH.txt&quot;</span><span class="p">)</span>
+<span class="linenos">4</span> <span class="n">tfbh_data</span> <span class="o">=</span> <span class="n">TSCW_TFBH</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Die Temperaturverteilung entlang des Bohrlochs mit der Funktion <code class="docutils literal notranslate"><span class="pre">plot_temp_distribution()</span></code>
+dargestellt werden:</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="plot_temp_distribution">
+<span class="sig-name descname"><span class="pre">plot_temp_distribution</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">times</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">depths</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">range_radial</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_colormap</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_export</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">field_data_picklePath</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#plot_temp_distribution" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>times</strong> (<em>list</em>) – Zeitpunkte zum plotten in [h]</p></li>
+<li><p><strong>depths</strong> (<em>list</em><em>, </em><em>optional</em>) – darzustellende Teufen, standartmäßig werden alle Stützpunkte dargestellt.</p></li>
+<li><p><strong>range_radial</strong> (<em>list</em><em>, </em><em>optional</em>) – [x0, x1] Grenzwerte der x-Achse in [m], defaults to None</p></li>
+<li><p><strong>is_colormap</strong> (<em>bool</em><em>, </em><em>optional</em>) – Plot als a colormap oder line plot, defaults to True</p></li>
+<li><p><strong>is_export</strong> (<em>bool</em><em>, </em><em>optional</em>) – export figure into parent folder of file, defaults to False</p></li>
+<li><p><strong>field_data_picklePath</strong> (<em>str</em>) – Pfad zur (/<a href="#id3"><span class="problematic" id="id4">*</span></a>.pickle)-Datei der Klasse FieldData (falls sie exportiert wurde). Wenn geladen, wird die Geometrie im Hintergrund angezeigt. Standardmäßig ist dies auf None gesetzt.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>figure</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p>So liefern beispielsweise die Befehle:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="linenos">2</span> <span class="n">tfbh_data</span><span class="o">.</span><span class="n">plot_temp_distribution</span><span class="p">(</span><span class="n">times</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span> <span class="n">range_radial</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="n">is_colormap</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="linenos">3</span> <span class="n">tfbh_data</span><span class="o">.</span><span class="n">plot_temp_distribution</span><span class="p">(</span><span class="n">times</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span> <span class="n">depths</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">400</span><span class="p">],</span> <span class="n">range_radial</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="n">is_colormap</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="linenos">4</span> <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<table class="borderless docutils align-default" id="id7" style="width: 100%">
+<caption><span class="caption-text">plot_temp_distribution()</span><a class="headerlink" href="#id7" title="Link to this table"></a></caption>
+<tbody>
+<tr class="row-odd"><td><p>isColormap = True</p></td>
+<td><p>isColormap = False</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_colormap_16.png"><img alt="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_colormap_16.png" src="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_colormap_16.png" style="width: 100%;" /></a>
+</td>
+<td><a class="reference internal image-reference" href="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_radial_3.png"><img alt="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_radial_3.png" src="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_radial_3.png" style="width: 100%;" /></a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Der Temperaturverlauf kann ebenfalls als time lapse mit der Funktion <code class="docutils literal notranslate"><span class="pre">create_movie()</span></code> dargestellt werden
+.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="create_movie">
+<span class="sig-name descname"><span class="pre">create_movie</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">range_radial</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_export</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_levels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">field_data_picklePath</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#create_movie" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>range_radial</strong> (<em>Liste</em><em>, </em><em>optional</em>) – [x0, x1] Bereich des radialen Start- und Endpunktes (keine exakte Übereinstimmung erforderlich), Standardwert ist None</p></li>
+<li><p><strong>is_export</strong> (<em>bool</em><em>, </em><em>optional</em>) – exportiert den Film als .mp4 in den gleichen Ordner wie die aktuelle Instanz, Standardwert ist False</p></li>
+<li><p><strong>n_levels</strong> (<em>int</em><em>, </em><em>optional</em>) – wie viele Ebenen für plt.contourf, Standardwert ist 100</p></li>
+<li><p><strong>field_data_picklePath</strong> (<em>str</em><em>, </em><em>optional</em>) – Pfad zu (/<a href="#id5"><span class="problematic" id="id6">*</span></a>.pickle) der FieldData-Klasse (wenn sie exportiert wurde). Wenn geladen, wird die Geometrie im Hintergrund angezeigt, Standardwert ist None</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Animation</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>animation.FuncAnimation</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p>In unserem Beispiel kann mit folgendem Befehl der Zeitraffer exportiert werden.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># ohne Modellgeomtrie im Hintergrund</span>
+<span class="n">tfbh_data</span><span class="o">.</span><span class="n">create_movie</span><span class="p">(</span><span class="n">range_radial</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="n">is_export</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># mit Modellgeomtrie im Hintergrund</span>
+<span class="n">geometry_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;*.pickle&quot;</span><span class="p">)</span>
+<span class="n">tfbh_data</span><span class="o">.</span><span class="n">create_movie</span><span class="p">(</span><span class="n">range_radial</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="n">is_export</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">field_data_picklePath</span> <span class="o">=</span> <span class="n">geometry_path</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">Saving</span> <span class="n">L</span><span class="p">:</span>\<span class="n">Projekte</span>\<span class="n">SG</span><span class="o">-</span><span class="n">UBT</span>\<span class="mi">40</span><span class="n">_Thermodynamik</span>\<span class="n">TSWC_GACA_Bernburg</span>\<span class="n">Gruppe1</span>\<span class="n">BB_Gruppe1_Bb122</span>\<span class="n">Ausspeisung_DruckKriterium</span>\<span class="n">SaveFolder</span>\<span class="n">BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH</span><span class="o">.</span><span class="n">mp4</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">100</span><span class="o">%||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</span> <span class="mi">1100</span><span class="o">/</span><span class="mi">1100</span> <span class="p">[</span><span class="mi">01</span><span class="p">:</span><span class="mi">39</span><span class="o">&lt;</span><span class="mi">00</span><span class="p">:</span><span class="mi">00</span><span class="p">,</span> <span class="mf">11.07</span><span class="n">it</span><span class="o">/</span><span class="n">s</span><span class="p">]</span>
+</pre></div>
+</div>
+<table class="borderless docutils align-default" style="width: 100%">
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">field_data_picklePath</span> <span class="pre">=</span> <span class="pre">None</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">field_data_picklePath</span> <span class="pre">=</span> <span class="pre">geometry_path</span></code></p></td>
+</tr>
+<tr class="row-even"><td><video controls="True" preload="auto" width="300" class="video-bordered"><source src="../_static/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH.mp4" type="video/mp4">Animation</video></td>
+<td><video controls="True" preload="auto" width="300" class="video-bordered"><source src="../_static/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFBH_geom.mp4" type="video/mp4">Animation</video></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tfc-txt">
+<h2>TFC.txt<a class="headerlink" href="#tfc-txt" title="Link to this heading"></a></h2>
+<p>Diese Datei beinhaltet das berechnete Temperaturfeld um die Kaverne für jeden Zeitschritt
+mit selbsterklärender Darstellung.</p>
+<p>Analog zu der Methode in TFBH.txt kann mit <code class="docutils literal notranslate"><span class="pre">plot_temp_distribution()</span></code> der Temperaturverlauf in der Kaverne für verschiedene Zeitpunkte geplottet werden.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tscw_module</span> <span class="kn">import</span> <span class="n">TSCW_TFC</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">tfc_data</span> <span class="o">=</span> <span class="n">TSCW_TFC</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;deinPfad/*TFC.txt&quot;</span><span class="p">))</span>
+<span class="n">tfc_data</span><span class="o">.</span><span class="n">plot_temp_distribution</span><span class="p">(</span><span class="n">times</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="n">range_radial</span> <span class="o">=</span> <span class="p">[</span><span class="mi">30</span><span class="p">,</span> <span class="mi">50</span><span class="p">])</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFC_cavern_temp.png"><img alt="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFC_cavern_temp.png" src="../_images/BB_Gruppe1_Bb122Ausspeisung_DruckKriterium_TFC_cavern_temp.png" style="width: 100%;" /></a>
+</section>
+<section id="vergleich-verschiedener-simulation">
+<h2>Vergleich verschiedener Simulation<a class="headerlink" href="#vergleich-verschiedener-simulation" title="Link to this heading"></a></h2>
+<p>Die Simulationsergebnisse verschiedener Varianten können folgender Methode verglichen werden:</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="plot_pt_difference">
+<span class="sig-name descname"><span class="pre">plot_pt_difference</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">depths</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xlimits</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#plot_pt_difference" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>depths</strong> (<em>list</em>) – zu plottende Teufen</p></li>
+<li><p><strong>save_folder</strong> (<em>Path</em><em>, </em><em>bei None wird die Datei nicht gespeichert.</em>) – Pfad zum Ordner</p></li>
+<li><p><strong>xlimits</strong> (<em>List</em><em> (</em><em>x1</em><em>, </em><em>x2</em><em>)</em>) – Min. und max. Limit der x-Achse (Zeit), wenn None angegeben wird, wird die Achsenlimits automatisch gewählt.</p></li>
+<li><p><strong>args</strong> (<em>list</em><em> of </em><em>TSWC_TBHC instances.</em>) – Liste mit anderen OIbjekten der Klasse TSWC_TBHC.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<p>Beispiel:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">tscw_module</span> <span class="kn">import</span> <span class="n">TSCW_TBHC</span>
+
+<span class="n">path1</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;Kh48_CH4_pres1.00_A5.46e-05_B8.10e-09h952.6_T32.4rate_208.33__1_pTBHC.TXT&#39;</span><span class="p">)</span>
+<span class="n">path2</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;Kh48_H2_pres1.00_A5.46e-05_B8.10e-09h952.6_T32.4rate_208.33__1_pTBHC.TXT&#39;</span><span class="p">)</span>
+
+<span class="n">TbhcData_1</span> <span class="o">=</span> <span class="n">TSCW_TBHC</span><span class="p">(</span><span class="n">path1</span><span class="p">)</span>
+<span class="n">TbhcData_1</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;CH4 - 4999 Nm3/d - mit Minsky&#39;</span>
+<span class="n">TbhcData_2</span> <span class="o">=</span> <span class="n">TSCW_TBHC</span><span class="p">(</span><span class="n">path2</span><span class="p">)</span>
+<span class="n">TbhcData_2</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;H2 - 4999 Nm3/d - mit Minsky&#39;</span>
+
+<span class="n">TbhcData_1</span><span class="o">.</span><span class="n">plot_pt_difference</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">467</span><span class="p">,</span> <span class="mi">935</span><span class="p">],</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">TbhcData</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/Figure_1.png"><img alt="../_images/Figure_1.png" src="../_images/Figure_1.png" style="width: 100%;" /></a>
+<p>Falls die Axialkraft für die jeweiligen Objekte ebenfalls berechnet worden ist, kann analog mit der Methode <code class="docutils literal notranslate"><span class="pre">plot_forces_difference()</span></code> die Axialkraftverteilung geplottet werden.</p>
+<a class="reference internal image-reference" href="../_images/Figure_2.png"><img alt="../_images/Figure_2.png" src="../_images/Figure_2.png" style="width: 100%;" /></a>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Input_TSGF.html" class="btn btn-neutral float-left" title="TSCW TSGF - INPUT - Erstellung" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Output_Calculate.html" class="btn btn-neutral float-right" title="TSCW - OUTPUT - Axialkraftberechnung" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, UGS GmbH.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

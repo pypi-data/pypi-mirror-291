@@ -1,0 +1,2 @@
+### TSCW_MODULE
+Das "tscw_module" ist ein Python-Paket, das Feldbelegungs- und Prozessdatendateien erstellt, die als Eingabe für die TSCW-Software dienen. Es ermöglicht die Erstellung dieser Dateien in einer Python-Umgebung und die Verarbeitung von TSCW-Output-Dateien. Ein detailliertes Benutzerhandbuch befindet sich in der Entwicklung.

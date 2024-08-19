@@ -1,0 +1,55 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "tscw_module"
+version = "1.1.1"
+description = "Modul zur Erzeugung von Input und Verarbeitung von Output der TSCW Software (c) UGS GmbH"
+license = "GPL-3.0-or-later"
+authors = ["Thomas Simader <simader@ugsnet.de>"]
+readme = "README.md"
+classifiers = [ 
+        "Development Status :: 3 - Alpha",
+        "Topic :: Utilities"
+]
+packages = [{include = "tscw_module"}]
+
+include = [
+    { path = "calculateForces_benchmark.py" } ,
+    { path = "docs"} , 
+]
+
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+matplotlib = "*"
+matplotlib-inline = "*"
+mplcursors = "*"
+numpy = "*"
+pandas = "*"
+pathlib = "*"
+scipy = "*"
+Sphinx = "*"
+sphinx-autodoc-typehints = "*"
+sphinx-rtd-theme = "*"
+sphinxcontrib-applehelp = "*"
+sphinxcontrib-devhelp = "*"
+sphinxcontrib-htmlhelp = "*"
+sphinxcontrib-jquery = "*"
+sphinxcontrib-jsmath = "*"
+sphinxcontrib-qthelp = "*"
+sphinxcontrib-serializinghtml = "*"
+sphinx_copybutton = "*"
+sphinxcontrib-video = "*"
+tqdm = "*"
+openpyxl = "*"
+
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/legacy/"
+priority = "primary"
+

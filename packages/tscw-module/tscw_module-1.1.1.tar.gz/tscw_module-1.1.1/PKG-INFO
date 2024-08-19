@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tscw_module
+Version: 1.1.1
+Summary: Modul zur Erzeugung von Input und Verarbeitung von Output der TSCW Software (c) UGS GmbH
+License: GPL-3.0-or-later
+Author: Thomas Simader
+Author-email: simader@ugsnet.de
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: Sphinx
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib-inline
+Requires-Dist: mplcursors
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: pathlib
+Requires-Dist: scipy
+Requires-Dist: sphinx-autodoc-typehints
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: sphinx_copybutton
+Requires-Dist: sphinxcontrib-applehelp
+Requires-Dist: sphinxcontrib-devhelp
+Requires-Dist: sphinxcontrib-htmlhelp
+Requires-Dist: sphinxcontrib-jquery
+Requires-Dist: sphinxcontrib-jsmath
+Requires-Dist: sphinxcontrib-qthelp
+Requires-Dist: sphinxcontrib-serializinghtml
+Requires-Dist: sphinxcontrib-video
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+### TSCW_MODULE
+Das "tscw_module" ist ein Python-Paket, das Feldbelegungs- und Prozessdatendateien erstellt, die als Eingabe für die TSCW-Software dienen. Es ermöglicht die Erstellung dieser Dateien in einer Python-Umgebung und die Verarbeitung von TSCW-Output-Dateien. Ein detailliertes Benutzerhandbuch befindet sich in der Entwicklung.

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TSCW - OUTPUT - Axialkraftberechnung &mdash; Dokumentation tscw_module  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Literaturverzeichnis" href="Bibliography.html" />
+    <link rel="prev" title="TSCW - OUTPUT - Plots und Daten Export" href="Output_Raw.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Dokumentation tscw_module
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhaltsverzeichnis:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung.html">Übersicht</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Input.html">TSCW GACA - INPUT - Erstellung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Input_TSGF.html">TSCW TSGF - INPUT - Erstellung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Output_Raw.html">TSCW - OUTPUT - Plots und Daten Export</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">TSCW - OUTPUT - Axialkraftberechnung</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#axialkraftberechnung-theorie">Axialkraftberechnung - Theorie</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#thermische-belastung-1">Thermische Belastung (1)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ballooning-2">Ballooning (2)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#axialkraftberechnung-in-tscw">Axialkraftberechnung in TSCW</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#calculate_axial_forces"><code class="docutils literal notranslate"><span class="pre">calculate_axial_forces()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bestimmung-von-fz-max-und-fz-min">Bestimmung von <span class="math notranslate nohighlight">\(Fz_{max}\)</span> und <span class="math notranslate nohighlight">\(Fz_{min}\)</span></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#extract_max_force"><code class="docutils literal notranslate"><span class="pre">extract_max_force()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Bibliography.html">Literaturverzeichnis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">Klassen- und Funktionsübersicht tscw_module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Dokumentation tscw_module</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">TSCW - OUTPUT - Axialkraftberechnung</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/source/Output_Calculate.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tscw-output-axialkraftberechnung">
+<h1>TSCW - OUTPUT - Axialkraftberechnung<a class="headerlink" href="#tscw-output-axialkraftberechnung" title="Link to this heading"></a></h1>
+<p>Das Ziel der Thermodynamischen Berechnungen besteht darin, die mittleren Drücke und Temperaturen in Abhängigkeit von Verrohrung und Raten zu ermitteln, um die Belastungsansätze Fz,max und Fz,min zu bestimmen.</p>
+<section id="axialkraftberechnung-theorie">
+<h2>Axialkraftberechnung - Theorie<a class="headerlink" href="#axialkraftberechnung-theorie" title="Link to this heading"></a></h2>
+<p>Die resultierende Axialkraft Fz,ges setzt sich aus der thermischen Belastung (1) und dem Ballooning (2) zusammen:</p>
+<div class="math notranslate nohighlight">
+\[Fz_{ges} = \underbrace{F_{t}}_{(1)} + \underbrace{F_{p}}_{(2)}\]</div>
+<p>Die Axialkräfte werden für die Bezugsteufe in der Bohrung <span class="math notranslate nohighlight">\(z=z_m\)</span> berechnet.</p>
+<section id="thermische-belastung-1">
+<h3>Thermische Belastung (1)<a class="headerlink" href="#thermische-belastung-1" title="Link to this heading"></a></h3>
+<p>Die thermische Belastung (1) ergibt sich aus:</p>
+<div class="math notranslate nohighlight">
+\[F_{T}(z,t) = \alpha_S \Delta T(z,t) E A\]</div>
+<p>wobei:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\alpha_S\)</span>: Wärmeausdehnungskoeffizient (12.4 x 10^{-6} K^{-1})</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Delta T\)</span>: Temperaturänderung zum Initialzustand <span class="math notranslate nohighlight">\(\Delta T(z,t) = T_0 - T(z_m,t)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(E\)</span>: Elastizitätsmodul (2.06 x 10^5 MPa)</p></li>
+<li><p><span class="math notranslate nohighlight">\(A\)</span>: Querschnittsfläche des Rohres</p></li>
+</ul>
+</section>
+<section id="ballooning-2">
+<h3>Ballooning (2)<a class="headerlink" href="#ballooning-2" title="Link to this heading"></a></h3>
+<p>Je nach Druckregime <span class="math notranslate nohighlight">\(\Delta p = p(z_m,t) - p_0\)</span> kann zwischen Ballooning und Kontraballooning unterschieden werden:</p>
+<div class="math notranslate nohighlight">
+\[F_{p_i}(z,t) = \frac{2\mu \Delta p(z,t) A}{ (R^2 - 1)} \quad \text{wenn} \quad \Delta p &gt; 0\]</div>
+<div class="math notranslate nohighlight">
+\[F_{p_a}(z,t) = \frac{2\mu \Delta p(z,t) A R^2}{ (R^2 - 1)} \quad \text{wenn} \quad \Delta p &lt; 0\]</div>
+<p>wobei:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mu\)</span>: Querdehnungszahl Stahl (0.3)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Delta p\)</span>: Druckänderung zum Initialzustand</p></li>
+<li><p><span class="math notranslate nohighlight">\(A\)</span>: Querschnittsfläche des Rohres</p></li>
+<li><p><span class="math notranslate nohighlight">\(R = D/d &gt; 1\)</span>: Durchmesserverhältnis</p></li>
+</ul>
+</section>
+</section>
+<section id="axialkraftberechnung-in-tscw">
+<h2>Axialkraftberechnung in TSCW<a class="headerlink" href="#axialkraftberechnung-in-tscw" title="Link to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="calculate_axial_forces">
+<span class="sig-name descname"><span class="pre">calculate_axial_forces</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z_ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">T0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_export</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_axial_forces" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>meta_data</strong> (<em>dict</em>) – Meta Daten.</p></li>
+<li><p><strong>z_ref</strong> (<em>_type_</em>) – Bezugsteufe (= z_m)</p></li>
+<li><p><strong>T0</strong> (<em>float</em><em>, </em><em>optional</em>) – Die anfängliche Temperatur für die Referenz in delta_T (optional). Andernfalls entspricht sie dem ersten Element des Temperaturarrays.</p></li>
+<li><p><strong>is_export</strong> (<em>bool</em><em>, </em><em>optional</em>) – Export der Ergebnisse im xlsx File, defaults to False</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>pandas dataframe containing forces</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>pd.Dataframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p>Die Variable <code class="docutils literal notranslate"><span class="pre">meta_data</span></code> enthält dabei folgende Struktur</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Variable</strong></p></th>
+<th class="head"><p><strong>Wert (Beispiel)</strong></p></th>
+<th class="head"><p><strong>Beschreibung</strong></p></th>
+<th class="head"><p><strong>Einheit</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>mu</p></td>
+<td><p>0.3</p></td>
+<td><p>Querdehnungszahl</p></td>
+<td><p>[-]</p></td>
+</tr>
+<tr class="row-odd"><td><p>alpha</p></td>
+<td><p>0.0000124</p></td>
+<td><p>Wärmeausdehnungskoeffizient</p></td>
+<td><p>1/K</p></td>
+</tr>
+<tr class="row-even"><td><p>e_modul_stahl</p></td>
+<td><p>2.06E+11</p></td>
+<td><p>E-Modul Stahl</p></td>
+<td><p>Pa</p></td>
+</tr>
+<tr class="row-odd"><td><p>z_bezug</p></td>
+<td><p>425</p></td>
+<td><p>Bezugsteufe (i.d.R. Bohrlochmitte)</p></td>
+<td><p>m</p></td>
+</tr>
+<tr class="row-even"><td><p>rho_rrsf</p></td>
+<td><p>1200</p></td>
+<td><p>Dichte Ringraumschutzflüssigkeit</p></td>
+<td><p>kg/m³</p></td>
+</tr>
+<tr class="row-odd"><td><p>wd</p></td>
+<td><p>0.00984</p></td>
+<td><p>Wanddicke</p></td>
+<td><p>m</p></td>
+</tr>
+<tr class="row-even"><td><p>d_a</p></td>
+<td><p>0.219075</p></td>
+<td><p>Außendurchmesser</p></td>
+<td><p>m</p></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kn">from</span> <span class="nn">tscw_module</span> <span class="kn">import</span> <span class="n">TSCW_TBHC</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span><span class="n">tscw_data</span> <span class="o">=</span> <span class="n">TSCW_TBHC</span><span class="p">(</span><span class="s2">&quot;Beispiel_1_pTBHC.TXT&quot;</span><span class="p">)</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="n">meta_data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;mu&#39;</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">,</span>
+<span class="linenos"> 6</span>             <span class="s1">&#39;alpha&#39;</span><span class="p">:</span> <span class="mf">1.24e-05</span><span class="p">,</span>
+<span class="linenos"> 7</span>             <span class="s1">&#39;e_modul_stahl&#39;</span><span class="p">:</span> <span class="mf">206000000000.0</span><span class="p">,</span>
+<span class="linenos"> 8</span>             <span class="s1">&#39;z_bezug&#39;</span><span class="p">:</span> <span class="mf">425.0</span><span class="p">,</span>
+<span class="linenos"> 9</span>             <span class="s1">&#39;rho_rrsf&#39;</span><span class="p">:</span> <span class="mf">1200.0</span><span class="p">,</span>
+<span class="linenos">10</span>             <span class="s1">&#39;wd&#39;</span><span class="p">:</span> <span class="mf">0.00984</span><span class="p">,</span>
+<span class="linenos">11</span>             <span class="s1">&#39;d_a&#39;</span><span class="p">:</span> <span class="mf">0.219075</span><span class="p">}</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="n">T_0</span> <span class="o">=</span> <span class="mi">15</span> <span class="c1"># °C</span>
+<span class="linenos">14</span><span class="n">depth_ref</span> <span class="o">=</span> <span class="n">meta_data</span><span class="p">[</span><span class="s1">&#39;z_bezug&#39;</span><span class="p">]</span>
+<span class="linenos">15</span>
+<span class="linenos">16</span><span class="n">tswc_data</span><span class="o">.</span><span class="n">calculate_axial_forces</span><span class="p">(</span><span class="n">meta_data</span><span class="p">,</span> <span class="n">depth_ref</span><span class="p">,</span> <span class="n">T_0</span><span class="p">)</span>
+<span class="linenos">17</span><span class="n">tswc_data</span><span class="o">.</span><span class="n">plot_axial_forces</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/BB_Gruppe1_Bb122_DetailedModel_1_Ausspeisung_1_pTBHC_forces.png"><img alt="BB_Gruppe1_Bb122_DetailedModel_1_Ausspeisung_1_pTBHC_forces.png" src="../_images/BB_Gruppe1_Bb122_DetailedModel_1_Ausspeisung_1_pTBHC_forces.png" style="width: 700px;" /></a>
+</section>
+<section id="bestimmung-von-fz-max-und-fz-min">
+<h2>Bestimmung von <span class="math notranslate nohighlight">\(Fz_{max}\)</span> und <span class="math notranslate nohighlight">\(Fz_{min}\)</span><a class="headerlink" href="#bestimmung-von-fz-max-und-fz-min" title="Link to this heading"></a></h2>
+<p>Nachdem die Axialkräfte mit Hilfe von <code class="docutils literal notranslate"><span class="pre">calculate_axial_forces()</span></code> berechnet worden sind, können pro Etappe die enstsprechenden Parameter,
+an denen entweder <cite>Fz_{max}</cite> oder <span class="math notranslate nohighlight">\(Fz_{min}\)</span> wirken, extrahiert werden.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="extract_max_force">
+<span class="sig-name descname"><span class="pre">extract_max_force</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">i_etappe</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#extract_max_force" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>i_etappe</strong> (<em>int</em>) – Etappen-Nummer</p></li>
+<li><p><strong>mode</strong> (<em>str</em>) – entweder ‘min’ oder ‘max’ für <span class="math notranslate nohighlight">\(Fz_{min}\)</span> oder <cite>Fz_{max}</cite>.</p></li>
+<li><p><strong>min_time</strong> (<em>float</em><em>, </em><em>optional</em>) – Die Zeitspanne, ab der nach der Suche nach den Extremwerten begonnen wird.
+Um das Ende der Phase auszuwählen, wird der Wert auf <code class="docutils literal notranslate"><span class="pre">+np.inf</span></code>.
+Standardmäßig beträgt die Mindestzeit 0.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>pd.Dataframe containing relevant parameters, respective index in self.df</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>_type_</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p>Wenn bspw. für das vorherige Beispiel die enstprechenden Werte für  <span class="math notranslate nohighlight">\(Fz_{max}\)</span> in Etappe 2 beginnend ab 2h extrahiert werden sollen, kann dies mit folgendem Befehl erreicht werden.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">18</span><span class="n">i_etappe</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="linenos">19</span><span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;max&#39;</span>
+<span class="linenos">20</span><span class="n">min_time</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="linenos">21</span>
+<span class="linenos">22</span><span class="n">filtered_df</span><span class="p">,</span> <span class="n">df_index</span> <span class="o">=</span> <span class="n">tswc_data</span><span class="o">.</span><span class="n">extract_max_force</span><span class="p">(</span><span class="n">i_etappe</span><span class="p">,</span> <span class="n">mode</span><span class="p">,</span> <span class="n">min_time</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Die Ergebnisse für <code class="docutils literal notranslate"><span class="pre">filtered_df</span></code> und <code class="docutils literal notranslate"><span class="pre">df_index</span></code> sind:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>&gt;&gt;filtered_df
+STAGE<span class="w">          </span><span class="m">2</span>.000000
+t_TOTAL<span class="w">       </span><span class="m">82</span>.965351
+t_STAGE<span class="w">       </span><span class="m">55</span>.274952
+p_m<span class="w">            </span><span class="m">6</span>.549749
+T_m<span class="w">            </span><span class="m">7</span>.234806
+delta_T<span class="w">        </span><span class="m">7</span>.765194
+delta_p<span class="w">        </span><span class="m">4</span>.048199
+Fz_t<span class="w">         </span><span class="m">128</span>.298185
+Fz_p<span class="w">          </span><span class="m">75</span>.845804
+Fz_ges<span class="w">       </span><span class="m">204</span>.143989
+Fz_p_rr<span class="w">       </span><span class="m">23</span>.706678
+Fz_ges_rr<span class="w">    </span><span class="m">152</span>.004863
+Name:<span class="w"> </span><span class="m">181</span>,<span class="w"> </span>dtype:<span class="w"> </span>float64
+
+&gt;&gt;df_index
+<span class="m">181</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Output_Raw.html" class="btn btn-neutral float-left" title="TSCW - OUTPUT - Plots und Daten Export" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Bibliography.html" class="btn btn-neutral float-right" title="Literaturverzeichnis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, UGS GmbH.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
