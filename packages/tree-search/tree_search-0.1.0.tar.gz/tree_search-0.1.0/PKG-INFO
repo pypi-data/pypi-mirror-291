@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: tree-search
+Version: 0.1.0
+Summary: A package to perform Monte-Carlo Tree Search
+Author-email: "Artur A. Galstyan" <mail@arturgalstyan.dev>
+Requires-Python: ~=3.10
+Requires-Dist: beartype
+Description-Content-Type: text/markdown
+
+# Monte Carlo Tree Search
