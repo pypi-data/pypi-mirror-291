@@ -1,0 +1,13 @@
+numpy
+xarray
+matplotlib
+pyyaml
+networkx
+lmfit
+
+[dev]
+pip-tools
+pytest
+scalene
+black
+pytest-black
