@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: Python_Package_Demo
+Version: 0.3
+Description-Content-Type: text/markdown
+
+It is a demo python package that prints hello world.

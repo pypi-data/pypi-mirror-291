@@ -1,0 +1,2 @@
+[console_scripts]
+Python-Package-Demo = Python_Package_Demo:hello
