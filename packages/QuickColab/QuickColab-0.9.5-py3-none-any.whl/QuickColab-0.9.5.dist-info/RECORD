@@ -1,0 +1,14 @@
+QuickColab/Console.py,sha256=tEZv1X9RMO4JVlLQxLaskQbya5zqqH9NJTPPE4Jzdq4,7111
+QuickColab/Data.py,sha256=EKINLoIB8MOAsDOd6VmWFUK5MNi3WcMAF3YqGCFWLds,3150
+QuickColab/Element.py,sha256=jgGYqXd1V2S3r5wj5eUZP91Gt26_w2q8s3N7sXztXGs,6338
+QuickColab/__init__.py,sha256=xWCsohj1_DeIr7At-qskWQUwaiJ6A8mP18ciC4c-6VY,929
+QuickColab/test.py,sha256=EMDG2QVPaLSp2ccMxGXp4UQbA5O4LxYQWSXgGGu8bLk,57
+QuickColab/prompts/__init__.py,sha256=bT6cgkgxYKHPveMf4Qx-WJ4Z1rakjSoRKUqFzwHVi4Q,9984
+QuickColab/tool/QuickDataset.py,sha256=BGbFT2PPlDqWUcVVFQw6CRHJw3uSru55bbqwgFahM4M,1248
+QuickColab/tool/SetTool.py,sha256=PJ992RqNgAagaopcKtAxMSD-fFI0BRqqClVMKsfnZSA,799
+QuickColab/tool/__init__.py,sha256=iO2LckPoSk-Fxv7-J1IeLXy_AJqo5iulTsWiFAEOSZI,2343
+QuickColab/tool/whisper.py,sha256=Mv6RciSjfajJAOhfXw1wduR2rhSSElc2CD6yuQ1-co8,1481
+QuickColab-0.9.5.dist-info/METADATA,sha256=g4oh45epUUKVuVDhIbGKeUqOZ3xaiDu6Hnu2b0PRxxQ,423
+QuickColab-0.9.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+QuickColab-0.9.5.dist-info/top_level.txt,sha256=Py-yAyQgMPPM1qZOw2MqqI8oh2FusPtiiwuJdLu3oGU,11
+QuickColab-0.9.5.dist-info/RECORD,,
