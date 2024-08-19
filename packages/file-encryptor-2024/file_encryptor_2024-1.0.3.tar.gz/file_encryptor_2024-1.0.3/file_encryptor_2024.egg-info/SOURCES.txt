@@ -1,0 +1,6 @@
+README.md
+setup.py
+file_encryptor_2024.egg-info/PKG-INFO
+file_encryptor_2024.egg-info/SOURCES.txt
+file_encryptor_2024.egg-info/dependency_links.txt
+file_encryptor_2024.egg-info/top_level.txt
