@@ -1,0 +1,5 @@
+[console_scripts]
+daily-papers-cli=papersai.cli.daily_papers:daily_papers_cli
+papersai-qna=papersai.cli.qna:qna_cli
+papersai-summarize=papersai.cli.summarize:summarize_cli
+

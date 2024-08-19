@@ -1,0 +1,14 @@
+papersai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papersai/index.py,sha256=8Ue6yQSfRHgj02eT2yqx8qmgyKEvwG70EQEgORyFKss,441
+papersai/utils.py,sha256=K8WF3XKSGF8b2oY5xPeBMhpG3uP6PYuthEJdsprWPZE,2020
+papersai/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papersai/cli/daily_papers.py,sha256=A9t3XDiTR0Wy0g7UiOXoUTy2JmtTJbaHxjxMPzIiyP4,3511
+papersai/cli/qna.py,sha256=OQKL2cMAuEiPApj1Vapklu4QjPpa1uMIfh_xksFM72Q,1077
+papersai/cli/summarize.py,sha256=2aGapN1yVdBHAUFwu4zDfXKqVZpsXVoDUQFoh1li9gc,1120
+papersai/cli/utils.py,sha256=4Bk_hOV7QDn-XVjwrFkmasT5qty9io6Rpp_sFdUCucE,1290
+papersai/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papersai/engine/summarize.py,sha256=GRh61SpKZQSOk-v4ww5XTbshPsfp8TRN-0GFH0Tr108,502
+papersai-0.0.1.dist-info/entry_points.txt,sha256=-KUN14r5DQWFfJWNf5iUeTyaJFiBl7vIcj7t28EAJEo,173
+papersai-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+papersai-0.0.1.dist-info/METADATA,sha256=qiLjirQHushNig4_hmjl7YcBKC5tWL7sOwo2aEt6hyA,1323
+papersai-0.0.1.dist-info/RECORD,,
