@@ -1,0 +1,11 @@
+filmfarm/__init__.py,sha256=u2pH0qxu_4PWmF44NuHLi2d4oE8-QRVOWEQFvxPSzHI,98
+filmfarm/link.py,sha256=oQiXamuIZ1jJ9rPbkTaMgeEyVdg5buFtDZnCKT9ChrA,4157
+filmfarm/main.py,sha256=Z-yTI26LZzYHx1UHuj30d9E4kNBL9XARv1h8GQguOjc,140
+filmfarm/models.py,sha256=kfnxDVh14gmaMaSNh_2gPhp1czKX4NA8GNpNwx7YFx8,2199
+filmfarm/scrape/__init__.py,sha256=NNMfb0MXm6LGMpoGwj0zii9_VMRlYcY05O8MV95eyHQ,2836
+filmfarm/scrape/omdb.py,sha256=LmNCg-9Py4v_3Kd0yoZ8gQSup8TOHEvRD_k71PA_V1U,2143
+filmfarm-1.0.0.dist-info/LICENSE,sha256=hD7rNeMIDVGt2cpVtQcixpjFakgwuWmn7zzyLB97azo,1068
+filmfarm-1.0.0.dist-info/METADATA,sha256=d5fSXsIMW6SfxxWJ5Bb7iHR7RYbxhkSy4QGIZnb9ZdM,2605
+filmfarm-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+filmfarm-1.0.0.dist-info/entry_points.txt,sha256=wPiNsZdINhevnWxmN55nKuFy0Vgi-pqTpSrabPDiutI,46
+filmfarm-1.0.0.dist-info/RECORD,,
