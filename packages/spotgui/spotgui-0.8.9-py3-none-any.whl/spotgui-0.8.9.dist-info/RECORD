@@ -1,0 +1,14 @@
+spotgui/ctk/CTk.py,sha256=8rZ5PUFkB8ggPBHZb6ITaLbcKgq-8g0WYXoI_GQj2Ag,59225
+spotgui/ctk/HyperparameterFrame.py,sha256=sYO2V3aAA8gHZX9S6hWbzCbCzJMLJ1u7TWV1c7XaHTI,7221
+spotgui/ctk/SelectOptions.py,sha256=acTDUoWat6j5nx_X4-QuOFnhe7AY036nx89utVdrKOw,1168
+spotgui/ctk/images/spotlogo.png,sha256=IprSkitchE4FiiDtjeAcue6AHN8AUmttBHzbl91BqJc,3932
+spotgui/eda/pairplot.py,sha256=Z8gWo_JbNxlpsABx8RzHegM0IrTO2E92M_HWdRi2l3g,921
+spotgui/tuner/plot.png,sha256=uGPKHqscDgmhZsprk8TNifH5lIvDfSp9YFWAwrsUwyo,42500
+spotgui/tuner/spotRun.py,sha256=gDovzh3X50DpTi8wj0ZN4ogKZ1JVRrJTUSC7bOfik3U,36139
+spotgui/tuner/spot_00experiment.pickle,sha256=JDurOdYSkhozW8zroOafe_Gsv3zgsPZnokcWBOUlt7M,67715
+spotgui/tuner/images/spotlogo.png,sha256=IprSkitchE4FiiDtjeAcue6AHN8AUmttBHzbl91BqJc,3932
+spotgui-0.8.9.dist-info/LICENSE.txt,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+spotgui-0.8.9.dist-info/METADATA,sha256=Ne63JoKuaFwcoGfTgFDNAAcyily6vAORjzyDViJN4XU,8456
+spotgui-0.8.9.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+spotgui-0.8.9.dist-info/top_level.txt,sha256=sgTv90Ab3OgF7IGrxpxk5jIjs3PnAKGnxXI7GUnC7uo,8
+spotgui-0.8.9.dist-info/RECORD,,
