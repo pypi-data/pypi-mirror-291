@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wrapper-Requerst
+Version: 0.0.1
+Summary: Wrapper não oficial do Requerst
+Author: Serial Tecnologias
+Author-email: serial@outlook.com.br
+License: MIT License
+Keywords: Requerst
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# pyRequerst
+
+v0.0.1
+Requerst - serial.outlook.com.br

@@ -1,0 +1,9 @@
+LICENCE
+setup.py
+requerst_st/__inii__.py
+requerst_st/serial_tecnologias.py
+wrapper_Requerst.egg-info/PKG-INFO
+wrapper_Requerst.egg-info/SOURCES.txt
+wrapper_Requerst.egg-info/dependency_links.txt
+wrapper_Requerst.egg-info/requires.txt
+wrapper_Requerst.egg-info/top_level.txt
