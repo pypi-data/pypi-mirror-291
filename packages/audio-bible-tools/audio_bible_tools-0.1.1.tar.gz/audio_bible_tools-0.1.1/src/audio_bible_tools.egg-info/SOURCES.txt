@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/audio_bible_tools/__init__.py
+src/audio_bible_tools/downloader.py
+src/audio_bible_tools.egg-info/PKG-INFO
+src/audio_bible_tools.egg-info/SOURCES.txt
+src/audio_bible_tools.egg-info/dependency_links.txt
+src/audio_bible_tools.egg-info/requires.txt
+src/audio_bible_tools.egg-info/top_level.txt
