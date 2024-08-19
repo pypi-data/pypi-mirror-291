@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: pyzf
+Version: 1.0.0
+Summary: pyzf is Zeff Muks's enhancement for working with Python
+Author: Zeff Muks
+Author-email: zeffmuks@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyZF Interfaces
+
+PyZF Interfaces provides a robust and flexible way to define and implement interfaces in Python. It offers features like interface declarations, default methods, optional methods, and interface composition.
+
+## Features
+
+### 1. Interface Definition
+
+Define interfaces using the `Interface` class:
+
+```python
+from pyzf.interfaces import Interface, method, default_method, optional_method
+
+class Jedi(Interface):
+    @method
+    def speak(self) -> str:
+        pass
+
+    @method
+    def force_power(self) -> int:
+        pass
+
+    @default_method
+    def default_greet(self) -> str:
+        return f"May the Force be with you. I am {self.speak()}"
+```
+
+### 2. Method Types
+
+- `@method`: Regular methods that must be implemented
+- `@default_method`: Methods with default implementations
+- `@optional_method`: Methods that can be optionally implemented
+
+### 3. Interface Composition
+
+Combine multiple interfaces to create more complex ones:
+
+```python
+class Sith(Interface):
+    @method
+    def force_lightning(self) -> None:
+        pass
+
+    @optional_method
+    def optional_force_choke(self) -> None:
+        pass
+
+class ForceUser(Jedi, Sith):
+    pass
+```
+
+### 4. Implementation and Validation
+
+Use the `@implements` decorator to ensure a class correctly implements an interface:
+
+```python
+@implements(ForceUser)
+class DarthVader:
+    def speak(self) -> str:
+        return "I am Darth Vader, Dark Lord of the Sith"
+
+    def force_power(self) -> int:
+        return 950
+
+    def force_lightning(self) -> None:
+        print("⚡️ Force Lightning!")
+```
+
+1. We do not need to implement the `default_greet` method, as it will be inherited.
+2. We do not need to implement the `optional_force_choke` method, as it is optional.
+
+
+### 5. Usage
+
+Use interfaces for type hinting and polymorphism:
+
+```python
+def use_the_force(obj: ForceUser):
+    print(f"Type of obj: {type(obj)}")
+    print(obj.default_greet())
+
+vader = DarthVader()
+use_the_force(vader)
+```
+
+PyZF Interfaces provides a powerful way to define contracts between different parts of your code, improving maintainability and reducing errors.
+
+## License
+
+[MIT](LICENSE)
