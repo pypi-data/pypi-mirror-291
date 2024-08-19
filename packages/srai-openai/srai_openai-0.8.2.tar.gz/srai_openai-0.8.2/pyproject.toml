@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "srai-openai"
+version = "0.8.2"
+description = "A set of functions to better interact with openai."
+authors = ["Jaap Oosterbroek <jaap.oosterbroek@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/southriverai/srai-openai"
+repository = "https://github.com/southriverai/srai-openai"
+keywords = ["SRAI", "TOOLS"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+srai-core ="^0.15.2"
+openai ="^1.35.5"
+tiktoken = "^0.7"
+docstring_parser = "^0.16"
+
+[tool.poetry.dev-dependencies]
+black = "23.3.0"
+flake8 = "6.0.0"
+twine = "5.1.1"
+wheel = "0.43.0"
+setuptools = "70.2.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry==1.8.3"]
+build-backend = "poetry.core.masonry.api"
