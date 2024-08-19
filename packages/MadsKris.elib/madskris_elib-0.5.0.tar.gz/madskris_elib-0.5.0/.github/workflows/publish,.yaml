@@ -1,0 +1,40 @@
+name: Publish Python Package
+
+#hatch version minor; git add .; git commit -m "auto"; git push
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      updated: ${{ steps.check-version.outputs.version-changed }}
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout
+
+      - uses: ./.github/actions/filter-version
+        name: Check version
+        id: check-version
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  build:
+    runs-on: ubuntu-latest
+    needs: check-version
+    if: ${{ needs.check-version.outputs.updated == 'true'}}
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout
+
+      - uses: ./.github/actions/publish-pypi
+        name: Build and publish
+        id: build-publish
+        with:
+          pypi-token: ${{ secrets.PYPITOKEN }}
