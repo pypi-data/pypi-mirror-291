@@ -1,0 +1,11 @@
+fonts/OpenSans-Regular.ttf,sha256=ZTBIAnfaYu_eBH6ybnin5TLRz67skWA-aNY4drlmnw0,130832
+wrdcld/__init__.py,sha256=HWyK-ku5jlnMwU_b4qFyZPPpcSg5cI4FEk-4fZ71tz4,1657
+wrdcld/font.py,sha256=Ds1vXuWywzn7OiJvCZByJOtMWmfBIBOeN3pZCmmkvus,1898
+wrdcld/image.py,sha256=24bszW4-aFUvMYchC6dPMr4l8k4t7StpZLh2KYXNcYE,373
+wrdcld/main.py,sha256=qVzgdZSXnTrqfCXDK9Xh4VGWIUzWeXD8TXrg0q6QsRA,3540
+wrdcld/rectangle.py,sha256=KuX5cRJaMCZ2wGQUhmGM02-kdxA6Z0vLoQxAIGGYme4,12562
+wrdcld/util.py,sha256=mAncupecSxE2RhkpFRBBqOBHWYRluLqjLVzlYrvVJBU,88
+wrdcld-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wrdcld-0.2.0.dist-info/METADATA,sha256=aPyMypv7Nol9kSgwMt40MKzXNNNF_zm646b-Eu0uC18,1612
+wrdcld-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+wrdcld-0.2.0.dist-info/RECORD,,
