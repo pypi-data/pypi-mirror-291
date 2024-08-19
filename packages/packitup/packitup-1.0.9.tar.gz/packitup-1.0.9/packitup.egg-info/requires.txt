@@ -1,0 +1,4 @@
+pyperclip
+colorama
+pyyaml
+tqdm
