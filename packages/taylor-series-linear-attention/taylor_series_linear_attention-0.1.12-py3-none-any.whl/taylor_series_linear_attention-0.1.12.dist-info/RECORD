@@ -1,0 +1,9 @@
+taylor_series_linear_attention/__init__.py,sha256=3pXLJjtK5AMFhFOlHaWSuD_SNKq0GGdP7ajADj2QIYs,171
+taylor_series_linear_attention/attention.py,sha256=bYnht34Y-C664OO2ZuAFvuYHvi0TQwXK513zeyXp3MU,9489
+taylor_series_linear_attention/tensor_typing.py,sha256=2aUeDq34TmWeurXF9E93Gj_be3houMePK1ZsJuV3-d4,447
+taylor_series_linear_attention/vit.py,sha256=_lJ2p1O8g5nql7-Z-eTb88hOQpXyb81dupUqQuoC2yE,4230
+taylor_series_linear_attention-0.1.12.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+taylor_series_linear_attention-0.1.12.dist-info/METADATA,sha256=kPg7UCMO-yxtdaYVO09mmBf-Cz_0BXVm2RdglIbccp4,771
+taylor_series_linear_attention-0.1.12.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+taylor_series_linear_attention-0.1.12.dist-info/top_level.txt,sha256=CEHv-ch4jHLwyapWY0HcHkwDXbv7D3chBJg_6x_SpG4,31
+taylor_series_linear_attention-0.1.12.dist-info/RECORD,,
