@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pwp_packs/__init__.py
+src/pwp_packs/screenrecorder.py
+src/pwp_packs/version.py
+src/pwp_packs.egg-info/PKG-INFO
+src/pwp_packs.egg-info/SOURCES.txt
+src/pwp_packs.egg-info/dependency_links.txt
+src/pwp_packs.egg-info/requires.txt
+src/pwp_packs.egg-info/top_level.txt

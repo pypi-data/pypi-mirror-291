@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pwp_packs"
+version = "0.0.4"
+authors = [
+  { name="ProgresswithPython (Vivek Kumar)", email="kumarvivek9088@gmail.com" },
+]
+description = "utility tool - Screen Recorder"
+readme = "README.md"
+requires-python = ">=3.5"
+dependencies = ['imageio_ffmpeg','pyautogui']
+keywords=['python', 'screen recorder','video','audio','ffmpeg','screen_recorder','pwp_packs','screenrecorder','screenrecordergui']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
