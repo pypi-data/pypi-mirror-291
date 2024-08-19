@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+surelog.egg-info/PKG-INFO
+surelog.egg-info/SOURCES.txt
+surelog.egg-info/dependency_links.txt
+surelog.egg-info/top_level.txt
