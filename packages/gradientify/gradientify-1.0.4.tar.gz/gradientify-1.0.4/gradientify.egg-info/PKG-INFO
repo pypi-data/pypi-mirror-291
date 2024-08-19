@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: gradientify
+Version: 1.0.4
+Summary: A Python package for gradient prints or inputs
+Home-page: https://github.com/knelly999/gradientify
+Author: knelly999
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# gradientify
+A python color module focused on gradients
+
+# Setup
+```python
+from gradientify import Colors
+
+print(Colors.mint("Hello world"))
+input(Colors.mint("Hello: "))
+```
+
+# colors
+```
+purple_to_white
+red_to_blue
+green_to_yellow
+black_to_white
+blue_to_cyan
+orange_to_pink
+mint
+red_to_yellow
+blue_to_green
+purple_to_blue
+pink_to_white
+cyan_to_magenta
+gray_to_black
+blue_to_white
+red_to_green
+green_to_blue
+blue_to_yellow
+yellow_to_cyan
+magenta_to_red
+black_to_white
+white_to_black
+rainbow
+```
+
+Feel free to suggest some colors by dming me on discord: virtual.cmd
