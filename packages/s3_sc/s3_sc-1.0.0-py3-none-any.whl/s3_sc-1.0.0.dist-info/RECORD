@@ -1,0 +1,10 @@
+s3_sc/__init__.py,sha256=XMWMRrfOUBz5jiNhJ2A2KQktpQKymlEKXxnjaLU3sL0,15
+s3_sc/cli.py,sha256=Dj7PXBIo6KQmjD7cL2LwiX6Iw5pnDsTD3DbQ5bpSIHU,3644
+s3_sc/config_reader.py,sha256=ZuZyaebsBbI5YoyKKkai3nl12ldljd7wQqCZOdVFU_M,981
+s3_sc/logger.py,sha256=CP86p_ot5nrkqYbHChVI-6OY3TTQQhJsRrzhOhL_feM,1879
+s3_sc/main.py,sha256=nrm4JjU77HUoqfGez2YLmW-NavtwGeQ6VOu8BQlgh9o,1786
+s3_sc/s3_client.py,sha256=MM_M_5t857xYpc_ZHjgZON8rksvczxWx9Wv3D7QA1ps,5822
+s3_sc-1.0.0.dist-info/METADATA,sha256=vSLZrtgS3a-G-ZVIOZdNcbB4-KxSG13tSC77h8FnoUA,1525
+s3_sc-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+s3_sc-1.0.0.dist-info/entry_points.txt,sha256=9-j6wGHASB0MGs8MHu9MhQsLREX2c7d_l0YxIEFAG7U,41
+s3_sc-1.0.0.dist-info/RECORD,,

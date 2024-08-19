@@ -1,0 +1,3 @@
+[console_scripts]
+s3_sc=s3_sc.main:main
+

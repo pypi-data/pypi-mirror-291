@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: s3_sc
+Version: 1.0.0
+Summary: S3 simple client
+License: MIT
+Author: Trusikhin Andrei
+Author-email: andrei.trusikhin@gmail.com
+Requires-Python: >=3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiobotocore (==2.13.2)
+Requires-Dist: asyncio (==3.4.3)
+Project-URL: Documentation, https://github.com/Onder7994/s3_python_client#readme
+Project-URL: Homepage, https://github.com/Onder7994/s3_python_client
+Project-URL: Repository, https://github.com/Onder7994/s3_python_client
+Description-Content-Type: text/markdown
+
+# Python s3 client
+
+Simple object client for any bucket like s3.
+
+# Usage
+
+Install from pypi
+
+```bash
+pip3 install s3_sc
+```
+
+Local
+
+```bash
+poetry install
+```
+
+Run
+
+```bash
+s3_sc -c <s3_config> ls / - listing root.
+s3_sc -c <s3_config> ls /<dir>/ - listing object inside specific dir.
+
+s3_sc -c <s3_config> put <path_to_local_file> /<path_in_s3>
+
+s3_sc -c <s3_config> delete <path_to_file> or <path_to_dir/> (with / in the end)
+
+s3_sc -c <s3_config> get <path_to_s3_file> <path_to_local_save>
+```
+
