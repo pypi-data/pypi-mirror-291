@@ -1,0 +1,29 @@
+# example_config.yaml
+
+# Time interval (in seconds) to refresh the loop and check for updates
+refresh_interval: 1800  # Set to 1800 seconds (30 minutes)
+
+# List of Python packages to be monitored and updated
+packages:
+  - name: numpy                 # Name of the Python package
+    requires_restart: false     # Does updating this package require a process restart?
+
+  - name: flask                 # Name of the Python package
+    requires_restart: true      # Does updating this package require a process restart?
+    processes_to_restart:       # List of processes to restart after the package update
+      - my_flask_app
+      - another_process
+
+  - name: requests              # Name of the Python package
+    requires_restart: false     # Does updating this package require a process restart?
+
+# List of processes managed by the application
+processes:
+  my_flask_app:                 # Name of the process
+    interface:                  # Interface configuration for communication
+      type: http                # Type of interface (e.g., "rest", "grpc", "http")
+      host: localhost           # Host for the HTTP interface (default: localhost)
+      port: 5000                # Port for the HTTP interface
+      endpoint: /can_restart    # HTTP endpoint to check if the process can be restarted
+    command: "python /path/to/your/flask_app.py"  # Command to start the process
+    params: "--env production --config /path/to/config.json"  # Additional parameters for the command

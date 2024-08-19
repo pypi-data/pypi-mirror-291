@@ -1,0 +1,2 @@
+[console_scripts]
+micro-update-manager = micro_update_manager.micro_update_manager:main
