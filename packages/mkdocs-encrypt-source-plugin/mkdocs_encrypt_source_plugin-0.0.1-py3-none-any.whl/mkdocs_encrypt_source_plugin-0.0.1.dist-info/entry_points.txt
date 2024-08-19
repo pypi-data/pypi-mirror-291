@@ -1,0 +1,5 @@
+[console_scripts]
+mkdocs-encrypt-source-cli = mkdocs_encrypt_source_plugin.cli_tool:main
+
+[mkdocs.plugins]
+encrypt-source = mkdocs_encrypt_source_plugin.mkdocs_plugin:EncryptPlugin
