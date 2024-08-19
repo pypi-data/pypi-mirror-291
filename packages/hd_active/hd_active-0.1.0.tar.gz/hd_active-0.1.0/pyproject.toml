@@ -1,0 +1,66 @@
+[tool.bandit]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+skip-string-normalization = true
+extend-exclude='''
+(
+    src/hd_active/ui/forms
+  | \.venv.*
+  | \venv.*
+)
+'''
+
+[tool.isort]
+extend_skip = ['src/hd_active/ui/forms']
+profile = 'black'
+sections = 'FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER'
+skip_glob = ['**/.venv*', '**/venv*', '/build']
+
+[tool.pytest.ini_options]
+# Markers: See documentation on what markers represent.
+markers = ['windows']
+testpaths = ['tests']
+
+[tool.mypy]
+# Technical notes on exclusions:
+# 1 The regex for all folders needs to be in a one line string.
+# 2 The `.` doesn't need to be escaped. Escape with `\\.` for a fully compatible regex.
+exclude = '^venv*|^.venv*|.git|.eggs|build|dist|.cache|.pytest_cache|.mypy_cache|.vscode|.idea|tasks.py|src/ui/forms'
+python_version = '3.11'
+warn_return_any = true
+warn_unused_configs = true
+# Disable the warning below, from type hinting variables in a function.
+# By default, the bodies of untyped functions are not checked, consider using --check-untyped-defs
+disable_error_code = 'annotation-unchecked'
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = ['invoke', 'factory', 'pytest_check', 'pytest_params', 'semantic_version', 'PySide6.*']
+
+[build-system]
+requires = ['flit_core >=3.2,<4']
+build-backend = 'flit_core.buildapi'
+
+[project]
+name = 'hd_active'
+version = '0.1.0'
+description = 'Prevent external HDs from becoming inactive (sleeping).'
+readme = 'README.md'
+authors = [{name = 'Joao Coelho'}]
+license = {file = 'LICENSE.txt'}
+dependencies = ['pyside6']
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Home = 'https://github.com/joaonc/hd_active'
+Documentation = 'https://joaonc.github.io/hd_active'
+
+[project.scripts]
+hd_active = 'hd_active.main:main'
+
+[tool.flit.module]
+name = 'hd_active'
