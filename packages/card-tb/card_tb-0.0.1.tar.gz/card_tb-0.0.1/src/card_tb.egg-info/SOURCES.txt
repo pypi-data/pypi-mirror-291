@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/card/__init__.py
+src/card/card.py
+src/card/face.py
+src/card/suit.py
+src/card_tb.egg-info/PKG-INFO
+src/card_tb.egg-info/SOURCES.txt
+src/card_tb.egg-info/dependency_links.txt
+src/card_tb.egg-info/top_level.txt
