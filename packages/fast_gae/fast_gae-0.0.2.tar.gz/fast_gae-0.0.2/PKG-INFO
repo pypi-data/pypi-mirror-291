@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fast_gae
+Version: 0.0.2
+Summary: Fast generalized advantage estimation (GAE) implementation in Cython
+Home-page: https://daveey.github.io
+License: MIT
+Keywords: rl,reinforcement-learning
+Author: Joseph Suarez
+Author-email: jsuarez5341@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cython (>=3.0.11,<4.0.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Project-URL: Repository, https://github.com/Metta-AI/gae
+Description-Content-Type: text/markdown
+
+# General Advantage Estimation
+
+Install via pip:
+
+```bash
+pip install gae
+```
+
+
