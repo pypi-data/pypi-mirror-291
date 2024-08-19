@@ -1,0 +1,6 @@
+[console_scripts]
+consume=markopolis.scripts.consume:consume
+markopolis=markopolis.app:main
+md_sync=markopolis.scripts.md_sync:md_sync
+mtest=markopolis.scripts.testsh:main
+
