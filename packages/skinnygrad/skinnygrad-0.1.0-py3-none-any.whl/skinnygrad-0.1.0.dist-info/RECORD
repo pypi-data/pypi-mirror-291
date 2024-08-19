@@ -1,0 +1,13 @@
+skinnygrad/__init__.py,sha256=4yJOw1V7lZeMG_WW9qCajxNSfI0C4WfhDbd3RlvdAlw,675
+skinnygrad/autograd.py,sha256=2-TPa2TIZiBonD03uQAzdXpsiHtJaEjZUigAXSNFaIU,23141
+skinnygrad/callbacks.py,sha256=9TpJ7cOlnKo4godepaba8y6smyCe6P3j-AUHxI_enxM,1759
+skinnygrad/config.py,sha256=TWLwzOTqpDwGaULzaAob2Y_rldSNJu_SNBOvwBze7SQ,3030
+skinnygrad/layers.py,sha256=1kZ-IfLIaChM2mxzN3XOAyCmjcBP80EgRSsf343X09A,4504
+skinnygrad/llops.py,sha256=8QS8aOXPh8Y8ibUBj-KXf0nnLKWoIBVXlJSvqBGu3zo,6420
+skinnygrad/optimizers.py,sha256=a8SGy5wXHseRG809y5SFRKVjp3gJzeYSDLIjTelMjC8,2026
+skinnygrad/runtime.py,sha256=YS5joq1f5AJ7tmsJQoXGkkUMRSVQtRjcH9gwO5khuLM,2951
+skinnygrad/shapes.py,sha256=0hQjAuXgB8quOX_ZJL3WUx3PmyIMXmByWGCNIVvnJ-s,5694
+skinnygrad/tensors.py,sha256=SjGWai-C6CVrfeklPxEJp7JP_1nfZZlAly_-FFmMdBk,1769
+skinnygrad-0.1.0.dist-info/METADATA,sha256=7wpGe0XJHlIRNL0Akh-D3zlju6vJ75gG9vbghoYWvdQ,2210
+skinnygrad-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+skinnygrad-0.1.0.dist-info/RECORD,,
