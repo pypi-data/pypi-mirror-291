@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: OptiVisionNet
+Version: 0.1.0
+Summary: A package for CNN + BiLSTM + MLP model with GWO optimization for image classification
+Author: Said Al Afghani Edsa
+Author-email: ['saidalafghani.dumai@gmail.com', 'edsa09lab@gmail.com']
+Requires-Python: >=3.6
