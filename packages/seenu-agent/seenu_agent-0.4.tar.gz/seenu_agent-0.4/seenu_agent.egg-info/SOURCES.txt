@@ -1,0 +1,15 @@
+README.md
+setup.py
+dist/seenu_agent-0.2-py3-none-any.whl
+dist/seenu_agent-0.2.tar.gz
+seenu_agent/Agent.py
+seenu_agent/LICENSE
+seenu_agent/README.md
+seenu_agent/Task.py
+seenu_agent/Task_manager.py
+seenu_agent/__init__.py
+seenu_agent/requirements.txt
+seenu_agent.egg-info/PKG-INFO
+seenu_agent.egg-info/SOURCES.txt
+seenu_agent.egg-info/dependency_links.txt
+seenu_agent.egg-info/top_level.txt
