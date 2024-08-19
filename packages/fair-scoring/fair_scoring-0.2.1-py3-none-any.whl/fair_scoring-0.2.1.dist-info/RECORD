@@ -1,0 +1,17 @@
+fairscoring/__init__.py,sha256=yIDhBWlAddzHBbXsUKjEGZjz-PtvVp2DcZATctW9htI,54
+fairscoring/utils.py,sha256=9nRBUZoO87ntmrhqvmkDmu8Ysru7DedzICI3j55Qe9M,2839
+fairscoring/metrics/__init__.py,sha256=L6uuTpqD-rDtYpfmMid4MuiSuclHRXc8V40aUhm3JYs,1545
+fairscoring/metrics/base.py,sha256=cPaT8fGua_3ObAUg27l21_8hvjlEvGzofcCXXONz7M8,18550
+fairscoring/metrics/calibration.py,sha256=Umoa676V6jkGyarvsNY9DKMyiISach9OrliJfXZUg-8,9051
+fairscoring/metrics/integral.py,sha256=okQExUoqc0KfBmhV69a3y8gu62_99QuSgardudlDaQA,13398
+fairscoring/metrics/roc.py,sha256=CI-olhxozvwMojfr0DRytSRFx4nnNP3v5mcWX1vOEf0,6739
+fairscoring/plots/__init__.py,sha256=F9kxlVHIfyiD0tK2GSV-EUxiDdulMsnB5pO4GmS_PJU,274
+fairscoring/plots/_calibration.py,sha256=0zBBhKe5Ut4uux_3hOuh2kKpN2O59K4oQkk4g9kjNEY,5100
+fairscoring/plots/_integral.py,sha256=1GTd536krKwFAOv1eu2GeMVuE2KhJlJRZDPGBd8PUuk,18698
+fairscoring/plots/_utils.py,sha256=wptDmLxzKbyctwmJ8JwdvUVGtoWHkW7b9zv30tLGxHw,902
+fairscoring/plots/colors.py,sha256=4X_TnRfEccGpILUbnPE1sQ-vPxOeCOzmcwbNexw3rPU,4982
+fair_scoring-0.2.1.dist-info/LICENSE,sha256=snWTfqKV7i0-z-_hAvHcnp9zEHatfGDHuLQqoF6xAwQ,11546
+fair_scoring-0.2.1.dist-info/METADATA,sha256=nf4RdQ7ff3YpnUkk1Q3ytLAMy-Kj3Ae6y89h3jb_2Mg,3741
+fair_scoring-0.2.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+fair_scoring-0.2.1.dist-info/top_level.txt,sha256=OtWJsKLI9mY_WbUqxpS-G9aYVm1Igevhyi4s4WNJok4,12
+fair_scoring-0.2.1.dist-info/RECORD,,
