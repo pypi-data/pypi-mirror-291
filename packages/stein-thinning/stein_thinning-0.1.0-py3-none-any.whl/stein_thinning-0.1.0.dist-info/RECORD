@@ -1,0 +1,13 @@
+stein_thinning/__init__.py,sha256=PYX9l7ETls6GQOQizdJJVVkxWB1GERLQw5fxpVEtkK8,64
+stein_thinning/demo.py,sha256=IMFiyPcDltBxgEaNjr1TMaKu1X4_mShBHRB3jVsYPaI,1179
+stein_thinning/kernel.py,sha256=fSCJgV4st8h9zWipJKM4qWTTn7cmI6jtdTFoibgPy-c,4180
+stein_thinning/stein.py,sha256=wKbBWlZ8Xh4M4x3ueQYUFBYGIrORvbb2q8Lcl9wQvng,2219
+stein_thinning/thinning.py,sha256=jfEa2rMzTFXQGApOXrQrMBG6EMxnpgcGZfZZ5b_uWac,2764
+stein_thinning/pystan/demo.py,sha256=wa1SysjPr6167ZIqftm1bnHpKEAUvmFaNnQ7jm24Eoc,769
+stein_thinning/sample_chains/gmm/scr.csv,sha256=rCosDUW6DpuL6eEj1tPeLkEX3eRlqcBAtboAbwoG3GI,17730
+stein_thinning/sample_chains/gmm/smp.csv,sha256=BHKZiG6_n6UDljCx7_gaoda-DDb7WzfC0kCYVPWmERg,17957
+stein_thinning-0.1.0.dist-info/LICENSE,sha256=0GrcPwNglM-fUtdJhAaAW5eZWOCc1rC7VTjBplPklsk,1066
+stein_thinning-0.1.0.dist-info/METADATA,sha256=mYh00PciwmbAJu4_xzRMYPwxCLJAuZhHllGK8shk2i0,4768
+stein_thinning-0.1.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+stein_thinning-0.1.0.dist-info/top_level.txt,sha256=FAMsggEXlHtxqu0GKzfbN2DPEhegndNi7CEWA2nYj8w,15
+stein_thinning-0.1.0.dist-info/RECORD,,
