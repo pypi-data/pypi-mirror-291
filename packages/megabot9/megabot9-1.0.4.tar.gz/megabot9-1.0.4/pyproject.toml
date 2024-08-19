@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=72.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "megabot9"
+version = "1.0.4"
+authors = [
+  { name="IB" },
+  { name="YB" },
+  { name="VL" },
+  { name="OR" },
+  { name="SR" },
+]
+description = "Contact list bot produced as an educational team assignment"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "prompt_toolkit~=3.0.47"
+]
+
+[project.scripts]
+megabot = "megabot9.main:main"
+megabot9 = "megabot9.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
