@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=GlnS4ZONPIpBlsYQy2mtsPCjTHQdMYczi40mGvrSd1I,766
+singer_encodings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+singer_encodings/compression.py,sha256=Algxt1kbivF-ZxDBzwiusRe9OJRbQEYaA6gKQa4dp5I,776
+singer_encodings/csv.py,sha256=9W2CIk_RjLOoVqo8490e6fh2CdeXz_sHbD247WLC1Q8,3394
+singer_encodings/csv_helper.py,sha256=Yz-YeY0Y9oxdw_dMTx7izWTGHkXPfcL4dp2DpblWOss,7124
+singer_encodings/json_schema.py,sha256=6A1vLgjxjgpws7yOFGIaeDFgzbU9RBweRN9-g6SBlmY,5401
+realit_singer_encodings-2.1.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+realit_singer_encodings-2.1.1.dist-info/METADATA,sha256=LfK8ucpDHZ_KhumV2duTI8uW1D1KBY9zaxumAYN7WG8,3918
+realit_singer_encodings-2.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+realit_singer_encodings-2.1.1.dist-info/entry_points.txt,sha256=JTj3b1NCAkcNhVu8rdcclaxu5XRKGCnceERkFcxEWok,81
+realit_singer_encodings-2.1.1.dist-info/RECORD,,

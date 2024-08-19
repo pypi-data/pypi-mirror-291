@@ -1,0 +1,3 @@
+[console_scripts]
+realit-singer-encodings=realit_singer_encodings.__init__:main
+
