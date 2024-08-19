@@ -1,0 +1,2 @@
+[console_scripts]
+configure = django_papaye.__main__:main

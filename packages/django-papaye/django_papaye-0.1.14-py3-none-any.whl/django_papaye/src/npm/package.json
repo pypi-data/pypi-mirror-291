@@ -1,0 +1,25 @@
+{
+  "name": "django-papaye",
+  "version": "0.1.14",
+  "description": "You write in Python, it compiles in Javascript",
+  "scripts": {
+    "devDesktop": "rm -rf .build/ .parcel-cache/ && NODE_ENV=development parcel watch t_logic/main.py --log-level info --no-source-maps --port 8080 --dist-dir static/js",
+    "buildDesktop": "rm -rf .build/ .parcel-cache/ && NODE_ENV=production parcel build t_logic/main.py --log-level info --no-source-maps --no-cache --dist-dir static/js",
+    "devMobile": "rm -rf .build/ .parcel-cache/ && NODE_ENV=development parcel watch t_logic/main_mobile.py --log-level info --no-source-maps --port 8080 --dist-dir static/js",
+    "buildMobile": "rm -rf .build/ .parcel-cache/ && NODE_ENV=production parcel build t_logic/main_mobile.py --log-level info --no-source-maps --no-cache --dist-dir static/js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.11.0",
+    "parcel-transformer-transcrypt": "^1.0.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "async-watch": "^1.1.29",
+    "axios": "^1.7.2",
+    "js-cookie": "^3.0.5"
+  }
+}
