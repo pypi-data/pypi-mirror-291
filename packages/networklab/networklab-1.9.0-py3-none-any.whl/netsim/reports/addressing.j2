@@ -1,0 +1,17 @@
+{# description: Node/interface addressing #}
+{% set row_fmt = "  {0:18} {1:>18} {2:>40} {3}" %}
+{{ row_fmt.format("Node/Interface","IPv4 address","IPv6 address","Description") }}
+{{ "=" * 100 }}
+{% for n,d in nodes.items() %}
+{% if not loop.first %}
+
+{% endif %}
+{% set lb = d.loopback|default({}) %}
+{{ n }} {% if lb %}({{ lb.ipv4|default('') }}{% 
+  if 'ipv4' in lb and 'ipv6' in lb %} %} / {%
+  endif %}{{ lb.ipv6|default('') }}){% endif +%}
+{%   for intf in d.interfaces %}
+{{ row_fmt.format(intf.ifname,intf.ipv4|default(''),intf.ipv6|default(''),intf.name|default('')) }}{% if 'vrf' in intf 
+    %} (VRF: {{ intf.vrf }}){% endif +%}
+{%   endfor %}
+{% endfor %}
