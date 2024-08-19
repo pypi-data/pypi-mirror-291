@@ -1,0 +1,3 @@
+[console_scripts]
+hd_active=hd_active.main:main
+
