@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+centigrad/__init__.py
+centigrad/layer.py
+centigrad/network.py
+centigrad/variable.py
+centigrad.egg-info/PKG-INFO
+centigrad.egg-info/SOURCES.txt
+centigrad.egg-info/dependency_links.txt
+centigrad.egg-info/top_level.txt
+test/test_all.py
