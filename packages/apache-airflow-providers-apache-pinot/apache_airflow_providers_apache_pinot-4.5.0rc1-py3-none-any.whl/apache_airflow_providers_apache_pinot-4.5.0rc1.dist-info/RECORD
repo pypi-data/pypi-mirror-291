@@ -1,0 +1,9 @@
+airflow/providers/apache/pinot/LICENSE,sha256=FFb4jd2AXnOOf7XLP04pQW6jbdhG49TxlGY6fFpCV1Y,13609
+airflow/providers/apache/pinot/__init__.py,sha256=3xOYYWp8cQ4qDR63GRah73dBI-WorI7v6s9f5M3PnzQ,1499
+airflow/providers/apache/pinot/get_provider_info.py,sha256=fVew_i1AIvmkChj-6WGiTPaU47Ow4TR5yQb24QpZ_xE,3007
+airflow/providers/apache/pinot/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/pinot/hooks/pinot.py,sha256=1SOASBt-peY9ENqj1enUHkKMqYgPXeBQ2XzszeqZSZQ,12085
+apache_airflow_providers_apache_pinot-4.5.0rc1.dist-info/entry_points.txt,sha256=jWucDBqhvLSh3bLEC7lLsWPsUAUNfzy70_LMe_YcAJI,108
+apache_airflow_providers_apache_pinot-4.5.0rc1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+apache_airflow_providers_apache_pinot-4.5.0rc1.dist-info/METADATA,sha256=m63clDc2CSRAekCR8hZ52CfmhHY8byZGCTwNcr5Wm4g,6198
+apache_airflow_providers_apache_pinot-4.5.0rc1.dist-info/RECORD,,
