@@ -1,0 +1,149 @@
+# PyZF
+
+[![PyPI version](https://badge.fury.io/py/pyzf.svg)](https://badge.fury.io/py/pyzf)
+
+<p align="center">
+  <img src="https://zf-static.s3.us-west-1.amazonaws.com/pyzf-logo128.png" alt="PyZF"/>
+</p>
+
+PyZF is Zeff Muks's enhancements for working with Python.
+
+```
+pip install pyzf
+```
+
+## Interfaces
+
+Those coming from other languages like `Go` or `TypeScript` will be familiar with the concept of interfaces. It enables you to define a contract without worrying about concrete classes. While Python has Abstract Base Classes, there are some limitations:
+
+1. You cannot define optional methods in ABCs
+2. It's not easy to compose multiple ABCs
+3. Hard to ensure a class implements an ABC
+
+PyZF provides a robust and flexible way to define and implement _interfaces_ in Python. It offers features like interface declarations, default methods, optional methods, and interface composition.
+
+### Features
+
+PyZF Interfaces provides a powerful way to define contracts between different parts of your code, improving maintainability and reducing errors.
+
+#### 1. Interface Definition
+
+Define interfaces using the `Interface` class:
+
+```python
+from pyzf.interfaces import Interface, method, default_method, optional_method
+
+class Jedi(Interface):
+    @method
+    def speak(self) -> str:
+        pass
+
+    @method
+    def force_power(self) -> int:
+        pass
+
+    @default_method
+    def default_greet(self) -> str:
+        return f"May the Force be with you. I am {self.speak()}"
+```
+
+#### 2. Method Types
+
+In `Go`, all methods are required but in `pyzf`, you can define also define optional methods.
+
+- `@method`: Regular methods that must be implemented
+- `@default_method`: Methods with default implementations
+- `@optional_method`: Methods that can be optionally implemented
+
+#### 3. Interface Composition
+
+Combine multiple interfaces to create more complex ones:
+
+```python
+class Sith(Interface):
+    @method
+    def force_lightning(self) -> None:
+        pass
+
+    @optional_method
+    def optional_force_choke(self) -> None:
+        pass
+
+class ForceUser(Jedi, Sith):
+    pass
+```
+
+#### 4. Implementation and Validation
+
+Use the `@implements` decorator to ensure a class correctly implements an interface:
+
+```python
+@implements(ForceUser)
+class DarthVader:
+    def speak(self) -> str:
+        return "I am Darth Vader, Dark Lord of the Sith"
+
+    def force_power(self) -> int:
+        return 950
+
+    def force_lightning(self) -> None:
+        print("⚡️ Force Lightning!")
+```
+
+In the above example:
+
+* We do not need to implement the `default_greet` method, as it will be inherited.
+* We do not need to implement the `optional_force_choke` method, as it is optional.
+
+If you try to instantiate a class that does not implement an interface, you will get an `InterfaceError`.
+
+```python
+from pyzf.interfaces import InterfaceError
+
+@implements(ForceUser)
+class DarthVader:
+    pass
+
+vader = DarthVader() # InterfaceError
+```
+
+In `Go`, this is equivalent an interface assertion:
+
+```go
+var _ ForceUser = (*DarthVader)(nil) # Compiler error if DarthVader does not implement ForceUser
+```
+
+In `TypeScript`, this is equivalent to an interface assertion:
+
+```typescript
+const vader = new DarthVader(); // Compiler error if DarthVader does not implement ForceUser
+```
+
+#### 5. Usage
+
+Use interfaces for type hinting and polymorphism:
+
+```python
+def use_the_force(obj: ForceUser):
+    print(f"Type of obj: {type(obj)}")
+    print(obj.default_greet())
+
+vader = DarthVader()
+use_the_force(vader)
+```
+
+In `Go`, this is equivalent to:
+
+```go
+type ForceUser interface {
+    // ...
+}
+
+func use_the_force(obj ForceUser)  {  // ForceUser is an interface type
+    // ...
+}
+```
+
+## License
+
+[MIT](LICENSE)
