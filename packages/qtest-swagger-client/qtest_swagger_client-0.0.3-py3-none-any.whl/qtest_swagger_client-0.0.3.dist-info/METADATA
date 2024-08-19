@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qtest-swagger-client
+Version: 0.0.3
+Summary: qTest Manager API Version 11.0.0 - 2023.6
+Home-page: https://github.com/Roman-Mitusov/qtest-api
+Author-email: roman.mitusov@gmail.com
+Keywords: Swagger,qTest Manager API Version 11.0.0 - 2023.6
+Requires-Dist: certifi >=2017.4.17
+Requires-Dist: python-dateutil >=2.1
+Requires-Dist: six >=1.10
+Requires-Dist: urllib3 >=1.23
+
+    qTest Manager API Version 11.0.0 - 2023.6
+    
