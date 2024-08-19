@@ -1,0 +1,101 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reg-shared-lib"
+description = "reg-shared-lib"
+authors = [
+    {name = "belegnar", email="belegnar@belegnar.ru"}
+]
+dynamic = ["version"]
+requires-python = ">=3.11"
+dependencies = [
+    "pytz",
+    "punq",
+]
+classifiers = [
+        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Operating System :: OS Independent",
+        "Development Status :: 5 - Production/Stable",
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://reg.konvent.ru"
+
+[tool.setuptools.package-data]
+reg_shared_lib = ["py.typed", "VERSION"]
+
+[tool.setuptools.dynamic]
+version = { file = ["reg_shared_lib/VERSION"] }
+
+[tool.isort]
+combine_as_imports = true
+default_section = "THIRDPARTY"
+include_trailing_comma = true
+use_parentheses = true
+known_first_party = "reg_shared_lib,tests"
+line_length = 120
+multi_line_output = 3
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
+ignore = "F901,E704"
+
+[tool.pyright]
+pythonVersion = "3.12"
+pythonPlatform = "All"
+stubPath = ""
+typeCheckingMode = "strict"
+useLibraryCodeForTypes = true
+reportPrivateImportUsage = false
+reportMissingTypeStubs = false
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+reportUnknownArgumentType = false
+reportUnknownParameterType = false
+reportUntypedFunctionDecorator = false
+reportUnusedImport = false
+reportMissingTypeArgument = false
+reportPrivateUsage = false
+
+[tool.pytest.ini_options]
+norecursedirs = [".git", ".venv"]
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+asyncio_mode = "auto"
+log_cli = true
+log_cli_level = "DEBUG"
+
+[tool.coverage.run]
+source = ["reg_shared_lib"]
+omit = [
+    "*/__init__.py",
+    "reg_shared_lib/pg/_fake_async_context.py",
+    "anna_acquisition_service_lib/tests.py",
+    "tests/*",
+]
+concurrency = ["greenlet", "thread"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:",
+    "except ImportError:",
+    "@t.overload",
+    "NotImplemented",
+    "NotImplementedError",
+    "t.TYPE_CHECKING",
+    "pass",
+]
