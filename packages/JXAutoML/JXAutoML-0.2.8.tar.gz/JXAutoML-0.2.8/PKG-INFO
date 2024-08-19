@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: JXAutoML
+Version: 0.2.8
+Summary: Advanced HyperParameter Tuning
+Home-page: https://github.com/TGChenZP/JXAutoML
+Author: Lang Chen
+Author-email: ronchen6666@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JXAutoML
+
+A package that provides smart tuning using greedy algorithms, and also enables feature selection as part of hyperparameter tuning.
+
+
+`from JXAutoML.JiaoCheng import JiaoCheng`: Ultra Greedy Tuner Advanced
+
+`from JXAutoML.JiaoChengB import JiaoChengB`: Ultra Greedy Tuner Advanced 
+
+`from JXAutoML.YangZhouB import YangZhouB`: Greedy Tuner
+
+`from JXAutoML.NingXiang import NingXiang`: Feature Selection tool with RandomForest or XGBoost
+
