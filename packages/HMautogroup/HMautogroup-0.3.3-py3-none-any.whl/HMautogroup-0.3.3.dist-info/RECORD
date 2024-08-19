@@ -1,0 +1,13 @@
+HMautogroup/__init__.py,sha256=nuysDusqYwtrNKSACUmrYw81QQuAlAEWt3D8e58ExIg,165
+HMautogroup/cleaning.py,sha256=tALzmsrfqzkawih792hljZgmrHVhMInnojR_0KIuhZ4,3352
+HMautogroup/filter_list.py,sha256=yRTpKnUrI_m803iNhzkQWxec-y4NTzlRy7failCCBEM,6755
+HMautogroup/handler.py,sha256=UFMN9ruUYtcCuGb4Tq8VGCu2f-lNFLNihml3nZp8TtA,715
+HMautogroup/main.py,sha256=rfWRASIZsZiXiQRs5fje2rHBuMZwb0lQ3BHxMGz6TI0,428
+HMautogroup/similarity.py,sha256=8MHLEBtx9KI1IqQ_i-Zo67FkMZtaQDWrgEngqhpj3Jw,2372
+HMautogroup/text_processing.py,sha256=5TxkZjtJvFno7aaTpyG1zb02JQES_PMURZcMYYEYH7k,3558
+HMautogroup-0.3.3.dist-info/LICENSE,sha256=QuWnqzlZGuU58oRmTALgM4QhCI3ZLgX27kIWixUkgK8,1088
+HMautogroup-0.3.3.dist-info/METADATA,sha256=K1OUBtdraxlkakGhujK4nv7Hlkiv0GmQTLbVcCuW0KU,1148
+HMautogroup-0.3.3.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+HMautogroup-0.3.3.dist-info/entry_points.txt,sha256=ql-lVQWhrBTJ3v7NQyrmF7OfEcMhT8XUaaYosw_O5Dw,54
+HMautogroup-0.3.3.dist-info/top_level.txt,sha256=rMInyqg6oFJCLWSVg0ezr7pTU_Z6hWo38K18UyhwL64,12
+HMautogroup-0.3.3.dist-info/RECORD,,
