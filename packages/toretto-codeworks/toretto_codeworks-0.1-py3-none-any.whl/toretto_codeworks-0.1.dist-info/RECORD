@@ -1,0 +1,14 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/assistant_controller.py,sha256=GPEgXXlr49bq2uVxG8OitcFOTQt2cgnWMwHnayAh_oo,4626
+src/book_controller.py,sha256=cSpOyTN4cMdMClIx6CBdlmSu9R3vfQWGGbB5FNtgC9s,21510
+src/main.py,sha256=jGNyTNVs-IS5NSmg068v_Vmuyo87HJTNbSynJmuqYsw,1288
+src/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/models/address_book.py,sha256=3lPfzWPYe9IZkaWxJHw0gKDl7yBEjYO1yn_d5FwlGmk,3017
+src/models/chat_bot.py,sha256=t7wfbBb-f6q07Z-zcav0gdVRmz_zlQ0R_2cNllVYX4o,626
+src/models/fields.py,sha256=qhTxDlP0Bwbs_zML801W3f4-ZtyiWoBaZ8oI2KgNFbA,6112
+src/models/record.py,sha256=okLOr-kwcUSC2imAnp4oOMw_E52_EWKblACj4dFx-P8,5845
+toretto_codeworks-0.1.dist-info/METADATA,sha256=uu2ev3vot5osEb676hVyaJAMPVwZcsZav79O1sdxLXo,144
+toretto_codeworks-0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+toretto_codeworks-0.1.dist-info/entry_points.txt,sha256=f2De1yPvqTN5l1xMZttlHaChGG25g8qzc1UASdKY1SE,48
+toretto_codeworks-0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+toretto_codeworks-0.1.dist-info/RECORD,,
