@@ -1,0 +1,8 @@
+chrono24/__init__.py,sha256=V7Edg0fj6ouF25rEEfvCkxsNRW96oSLif3wY3o1TiFY,157
+chrono24/api.py,sha256=cPW8LIbeqJP_AJIDcC5CzhsszdsIHB-_M81Gmb5b10I,19911
+chrono24/exceptions.py,sha256=Hl20AoKsrj4uoa0u4mHdMmiRdUcholBvh22fLjU1XHU,239
+chrono24/session.py,sha256=h9dL4FkAIFK_gzpFi1oSHJRZd6_YBFZeFfvmQKQNCx8,4508
+chrono24-0.2.12.dist-info/LICENSE,sha256=bI2zS-waCN5QfzBjYkfWjbM-yMNoZ7jhEA9e7mxFIFo,1068
+chrono24-0.2.12.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+chrono24-0.2.12.dist-info/METADATA,sha256=cr9S261WZL4PB_UZY4TYxwiK7hmvKrBITb-BejinnEY,7072
+chrono24-0.2.12.dist-info/RECORD,,
