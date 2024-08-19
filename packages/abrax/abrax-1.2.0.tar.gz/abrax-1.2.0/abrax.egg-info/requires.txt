@@ -1,0 +1,7 @@
+numpy
+qiskit
+
+[dev]
+pytest
+twine
+wheel
