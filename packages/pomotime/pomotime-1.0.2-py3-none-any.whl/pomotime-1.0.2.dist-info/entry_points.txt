@@ -1,0 +1,2 @@
+[console_scripts]
+pomotime = pomotime.pomotime:pomotime
