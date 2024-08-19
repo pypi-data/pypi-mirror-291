@@ -1,0 +1,81 @@
+Metadata-Version: 2.3
+Name: streamlit-event-hook
+Version: 0.3.3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: patchy >2.6.0
+Requires-Dist: streamlit >=1.37
+License-File: LICENSE
+Summary: A Streamlit component that hooks into page rendering events.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# streamlit-event-hook
+
+Hook Streamlit Event
+
+Requirements: streamlit >= 1.37, Python >= 3.8
+
+## Introduction
+
+A Streamlit component that allows you to intercept the start and end of page rendering code written by Streamlit users and listen to events during the rendering process.
+
+Below are the enumerated events:
+
+```
+# The script started running.
+SCRIPT_STARTED
+
+# The script run stopped because of a compile error.
+SCRIPT_STOPPED_WITH_COMPILE_ERROR
+
+# The script run stopped because it ran to completion, or was
+# interrupted by the user.
+SCRIPT_STOPPED_WITH_SUCCESS
+
+# The script run stopped in order to start a script run with newer widget state.
+SCRIPT_STOPPED_FOR_RERUN
+
+# The script run corresponding to a fragment ran to completion, or was interrupted
+# by the user.
+FRAGMENT_STOPPED_WITH_SUCCESS
+
+# The ScriptRunner is done processing the ScriptEventQueue and
+# is shut down.
+SHUTDOWN
+
+# "Data" events. These are emitted when the ScriptRunner's script has
+# data to send to the frontend.
+
+# The script has a ForwardMsg to send to the frontend.
+ENQUEUE_FORWARD_MSG
+```
+
+
+## Installation instructions
+
+```sh
+pip install streamlit-event-hook
+```
+
+## Usage instructions
+
+```python
+from streamlit_event_hook import st_listen, render_interceptor, event_handler
+
+@render_interceptor("before")
+def before():
+    print("Before render page")
+
+@render_interceptor("after")
+def after():
+    print("After render page")
+
+@event_handler
+def st_event_handler(sender, event, forward_msg):
+    print(f"sender: {sender} \nevent: {event} \nforward_msg: {forward_msg}")
+
+st_listen()
+```
+
