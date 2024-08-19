@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+CCParse/Enums.py
+CCParse/__init__.py
+CCParse/ccbase.py
+CCParse/ccdecode.py
+CCParse/models/__init__.py
+CCParse/models/ccmobile.py
+CCParse/models/ccmobilebuildings.py
+CCParse/models/ccpc.py
+CookieClickerSaveParser.egg-info/PKG-INFO
+CookieClickerSaveParser.egg-info/SOURCES.txt
+CookieClickerSaveParser.egg-info/dependency_links.txt
+CookieClickerSaveParser.egg-info/not-zip-safe
+CookieClickerSaveParser.egg-info/top_level.txt
