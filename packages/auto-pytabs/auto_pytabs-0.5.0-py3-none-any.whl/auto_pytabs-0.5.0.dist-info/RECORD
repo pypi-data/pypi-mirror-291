@@ -1,0 +1,10 @@
+auto_pytabs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_pytabs/core.py,sha256=95kfDs3cwpfRQi0toGpi4ZN475-jxo7KiFyVE-K600M,5426
+auto_pytabs/markdown_ext.py,sha256=FgoItZOPlgxCNdULIw0m99dhuZH1yAYhABOhlE2JPlc,7723
+auto_pytabs/mkdocs_plugin.py,sha256=2xo1Yj2UICOeYgQ0DqnDdPgsvplwu0SSx05cAkFil7I,1831
+auto_pytabs/sphinx_ext.py,sha256=InoUjI1Pn2nVoxqBsyyMYrD0VHuy0XR-yfKOYYdfxjk,8336
+auto_pytabs-0.5.0.dist-info/LICENSE,sha256=DeukjtpMDPjTuX1fgbAA_r_NIDXXjjKMt7w4V9Tj7Ok,1069
+auto_pytabs-0.5.0.dist-info/METADATA,sha256=CwlrF2GZVhsfaprrWL-z46215NT-dnOYNP1mVsWQRZE,14804
+auto_pytabs-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+auto_pytabs-0.5.0.dist-info/entry_points.txt,sha256=4Qur_DRQPHvZWixvEhaFM4XJBFhRXchnVc89ouUnJpw,153
+auto_pytabs-0.5.0.dist-info/RECORD,,
