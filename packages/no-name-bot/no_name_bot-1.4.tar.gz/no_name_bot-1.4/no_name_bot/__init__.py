@@ -1,0 +1,1 @@
+from no_name_bot.main import main
