@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pixoo/__init__.py
+pixoo/utilities.py
+pixoo.egg-info/PKG-INFO
+pixoo.egg-info/SOURCES.txt
+pixoo.egg-info/dependency_links.txt
+pixoo.egg-info/requires.txt
+pixoo.egg-info/top_level.txt
