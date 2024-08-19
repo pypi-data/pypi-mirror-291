@@ -1,0 +1,10 @@
+streamlit_pydantic/__init__.py,sha256=_QPRL-O-xgxZxj3_lQ7k2zkzfJ0d4aFK--PTKfgTBaY,603
+streamlit_pydantic/_about.py,sha256=puxiyMxNSiy5GtR035kDkIXM-uROZ4xBHMXZTWZnueE,123
+streamlit_pydantic/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+streamlit_pydantic/schema_utils.py,sha256=HEYulNGAt3daWN-p-9hj1AYqDNq4XASP29GZIEAwZpA,5420
+streamlit_pydantic/settings.py,sha256=EVB_e5UOIEi9CtxclI8k0T5UOg2s7LUy1Ub_JDaq3jg,1860
+streamlit_pydantic/ui_renderer.py,sha256=AnW3PStrRGRnjvBFK_Yb_9L5NL4jX3o8d-gSWO3Ei1I,55628
+streamlit_pydantic-0.6.1rc3.dist-info/METADATA,sha256=ZSKT7iIXxNSzuqW_4QZgQrdIiY_v4DmcWKrAp1sOQdg,13698
+streamlit_pydantic-0.6.1rc3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+streamlit_pydantic-0.6.1rc3.dist-info/licenses/LICENSE,sha256=Ixhb36Qp3A5N0KROEmFZ05pcD8HyQPZzf-RJ0oUbsI4,1081
+streamlit_pydantic-0.6.1rc3.dist-info/RECORD,,
