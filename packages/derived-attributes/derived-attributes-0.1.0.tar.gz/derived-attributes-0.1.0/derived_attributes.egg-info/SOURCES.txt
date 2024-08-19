@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+derived_attributes.egg-info/PKG-INFO
+derived_attributes.egg-info/SOURCES.txt
+derived_attributes.egg-info/dependency_links.txt
+derived_attributes.egg-info/requires.txt
+derived_attributes.egg-info/top_level.txt
