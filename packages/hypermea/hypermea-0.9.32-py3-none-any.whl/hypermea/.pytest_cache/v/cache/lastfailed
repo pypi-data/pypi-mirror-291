@@ -1,0 +1,5 @@
+{
+  "__tests__/tools/test_test.py": true,
+  "__tests__/tool/test_test.py": true,
+  "__tests__/tool/test_view_the_version_numbers.py": true
+}
