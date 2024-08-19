@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: rxconf
+Version: 0.0.0a4
+Summary: Powerful and flexible library for dynamic configuration management in Python
+Home-page: https://github.com/realkarych/rxconf/
+License: MIT
+Keywords: config,configuration,settings,python
+Author: Andrey Karchevsky
+Author-email: karych@karych.ru
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; python_version < "3.11"
+Project-URL: Documentation, https://realkarych.github.io/rxconf/
+Project-URL: Repository, https://github.com/realkarych/rxconf/
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://github.com/realkarych/rxconf">
+  <img src="https://github.com/user-attachments/assets/5a0beb84-2a52-4cfc-80c5-48a20e49a952" alt="RxConf"></a>
+</p>
+
+<p align="center">
+    <em>RxConf library, easy to use, powerful and flexible for configuration management in Python</em>
+</p>
+
+<p align="center">
+  <img src="https://realkarych.github.io/rxconf/coverage.svg" alt="Coverage">
+  <img src="https://github.com/realkarych/rxconf/actions/workflows/run_tests.yml/badge.svg" alt="Tests status">
+  <img src="https://img.shields.io/pypi/v/rxconf" alt="PyPI version">
+  <img src="https://img.shields.io/pypi/pyversions/rxconf?color=dark-green" alt="Supported Python versions">
+  <img src="https://img.shields.io/badge/Supported%20OS-Windows%2C%20macOS%2C%20Linux-default" alt="Supported OS">
+  <img src="https://static.pepy.tech/badge/rxconf/month" alt="Downloads per month">
+</p>
+
+---
+
+**Documentation:** <https://realkarych.github.io/rxconf/>
+
+**Source code:** <https://github.com/realkarych/rxconf/>
+
+---
+
+<h1 align="center">
+Currently in develop...
+</h1>
+
+<ul>
+  <li><input type="checkbox" disabled> Implement config loaders:</li>
+  <ul>
+    <li><input type="checkbox" checked disabled> Implement base class which will be inherited by concrete loaders</li>
+    <li><input type="checkbox" disabled> Implement Environment Variables & <code>dotenv</code> loader</li>
+    <li><input type="checkbox" checked disabled> Implement <code>yaml</code> loader</li>
+    <li><input type="checkbox" checked disabled> Implement <code>toml</code> loader</li>
+    <li><input type="checkbox" disabled> Implement <code>ini</code> loader</li>
+    <li><input type="checkbox" checked disabled> Implement <code>json</code> loader</li>
+  </ul>
+  <li><input type="checkbox" disabled> Implement reactive config-state observer.</li>
+  <li><input type="checkbox" disabled> Implement async reactive config-state observer.</li>
+  <li><input type="checkbox" disabled> Introduce testing strategy: validation, race conditions etc.</li>
+  <li><input type="checkbox" disabled> Introduce core API structure and interfaces.</li>
+  <li><input type="checkbox" disabled> Provide examples and use cases for all public interfaces.</li>
+</ul>
+
