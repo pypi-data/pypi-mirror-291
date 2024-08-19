@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+artlink.egg-info/PKG-INFO
+artlink.egg-info/SOURCES.txt
+artlink.egg-info/dependency_links.txt
+artlink.egg-info/top_level.txt
