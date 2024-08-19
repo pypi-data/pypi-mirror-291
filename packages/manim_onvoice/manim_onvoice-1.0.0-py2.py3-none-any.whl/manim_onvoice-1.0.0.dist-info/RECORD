@@ -1,0 +1,15 @@
+manim_onvoice/__init__.py,sha256=MPoiXVUJJBeHUJNSEJYIRb0eFZTrP8dXbRLtz-gBXKA,62
+manim_onvoice/__main__.py,sha256=vCsnJHpRKv05ban1i2qeM7I2jKg9e8C-a6ToukJ7m00,96
+manim_onvoice/defaults.py,sha256=CrmFD3oSjp7h1nqDw7fsvQHkxhlWcFxs9RnVjbsyju4,122
+manim_onvoice/helper.py,sha256=vTAovZkvNIfMQig3suLrqOX70srVjJa4sSaBu2581BM,3501
+manim_onvoice/modify_audio.py,sha256=windxlc2Xc-Lybkq9_I8dHbj5L-PYd9gApv6rgAzJTE,658
+manim_onvoice/tracker.py,sha256=5Z6Mq9s3qhBGf8vFfyH_4u0v-kdlQLGxUoXrb-q3Gsg,6219
+manim_onvoice/voiceover_scene.py,sha256=sOWWk8Eqqg_1IJwoaxKe_lqdEZ-uumoB3DYwIrTGKBw,7302
+manim_onvoice/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manim_onvoice/services/base.py,sha256=jOh3azfrys2kxvM9B5kXE1_XLSl08WFt9jNsJU5uoTQ,5704
+manim_onvoice/services/recorder/__init__.py,sha256=BhWLkcHT3WW0nWfg6BUCXTOU80U3ABc4OxzR3_fzGnw,3374
+manim_onvoice/services/recorder/utility.py,sha256=bdecCGPlkjbdRLbetLOIuUyqxMYUMwQkAtts8ubWupU,4453
+manim_onvoice-1.0.0.dist-info/LICENSE,sha256=Axg8I-w58bYeDgpAR-W1DscxR882394-f-3rWF-F0og,1065
+manim_onvoice-1.0.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+manim_onvoice-1.0.0.dist-info/METADATA,sha256=k-0TIFQG_UnGD13OIcEgYMbvNnXrH0ipm10tXFNkDdA,2105
+manim_onvoice-1.0.0.dist-info/RECORD,,
