@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: odigos-python-initializer
+Version: 0.1.0
+Summary: Odigos Initializer for Python OpenTelemetry Components
+Author: Tamir David
+Author-email: tamir@odigos.io
+Requires-Python: >=3.8
+Requires-Dist: requests ~=2.7
+Requires-Dist: protobuf <5.0,>=3.19
+Requires-Dist: uuid7 ==0.1.0
+Requires-Dist: opentelemetry-distro ==0.45b0
+Requires-Dist: opentelemetry-exporter-otlp-proto-http ==1.24.0
+Requires-Dist: opentelemetry-instrumentation ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-aio-pika ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-aiohttp-client ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-aiopg ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-asgi ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-asyncio ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-asyncpg ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-boto ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-boto3sqs ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-botocore ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-cassandra ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-celery ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-confluent-kafka ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-dbapi ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-django ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-elasticsearch ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-falcon ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-fastapi ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-flask ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-grpc ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-httpx ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-jinja2 ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-kafka-python ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-logging ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-mysql ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-mysqlclient ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-pika ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-psycopg ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-psycopg2 ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-pymemcache ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-pymongo ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-pymysql ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-pyramid ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-redis ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-remoulade ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-requests ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-sklearn ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-sqlalchemy ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-sqlite3 ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-starlette ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-system-metrics ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-tornado ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-tortoiseorm ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-urllib ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-urllib3 ==0.45b0
+Requires-Dist: opentelemetry-instrumentation-wsgi ==0.45b0
+
