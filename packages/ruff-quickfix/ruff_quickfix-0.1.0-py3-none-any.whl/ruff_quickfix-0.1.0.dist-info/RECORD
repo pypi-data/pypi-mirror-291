@@ -1,0 +1,9 @@
+ruff_quickfix/__init__.py,sha256=LgqvuIcEfH7YvBnEceLNhL9EQRrL6A-kggENc7i0NH0,232
+ruff_quickfix/cli.py,sha256=zJAkrE6MK7zQu5TzF3E4UyMpeOMjtUv9aa0j6UKwG20,451
+ruff_quickfix/main.py,sha256=NL4KLWVHtBmc26IDxuvXn26FGIdWqXhYSQwGtzOaHZE,1060
+ruff_quickfix/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruff_quickfix-0.1.0.dist-info/LICENSE,sha256=u-3EWZSWS29OZz7z6XrcTPOjr_9OX4HOGBPUBKxEwuI,11344
+ruff_quickfix-0.1.0.dist-info/METADATA,sha256=jqFOZ7RJw-G_3iGRsc7xyerKKO8QEA22D968gO3UKZc,4319
+ruff_quickfix-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ruff_quickfix-0.1.0.dist-info/entry_points.txt,sha256=wR-QHsLLFX-bu0JzHM7BUkbmB3hZm1aUW1aWa2Cj8co,55
+ruff_quickfix-0.1.0.dist-info/RECORD,,
