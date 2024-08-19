@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "manim_onvoice"
+authors = [{ name = "AvN Learn", email = "avnlearn@gmail.com" }]
+readme = "README.md"
+dependencies = ["manim", "python-slugify", "sox", "mutagen", "pydub"]
+keywords = ["recorder", "manim", "termux"]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/avnlearn/manim-onvoice-termux.git"
