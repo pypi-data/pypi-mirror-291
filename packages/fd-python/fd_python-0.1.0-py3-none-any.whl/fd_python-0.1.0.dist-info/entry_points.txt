@@ -1,0 +1,2 @@
+[console_scripts]
+fd = fd.main:main
