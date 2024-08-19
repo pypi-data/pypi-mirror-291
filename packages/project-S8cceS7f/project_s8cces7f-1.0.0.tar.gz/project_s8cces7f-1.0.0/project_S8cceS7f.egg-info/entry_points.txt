@@ -1,0 +1,2 @@
+[console_scripts]
+project_main = project_S8cceS7f.main:main
