@@ -1,0 +1,3 @@
+yhttp<6,>=5
+yhttp-dbmanager>=3
+pony
