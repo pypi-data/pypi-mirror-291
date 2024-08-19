@@ -1,0 +1,35 @@
+[project]
+name = "streamlit-localstorage-bulk"
+version = "0.1.0"
+description = "Handles localstorage with Streamlit."
+authors = [{ name="Hiroshi Toyama", email="toyama0919@gmail.com" }]
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+keywords = [
+  "streamlit",
+  "tool",
+  "localstorage",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "streamlit",
+  "streamlit-js",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project.optional-dependencies]
+test = [
+  "tox",
+  "pytest",
+  "mock",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/toyama0919/streamlit-localstorage-bulk"
