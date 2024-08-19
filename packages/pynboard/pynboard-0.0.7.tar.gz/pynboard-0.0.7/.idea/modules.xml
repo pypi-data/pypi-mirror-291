@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../py-workflow-lks/.idea/py-workflow-lks.iml" filepath="$PROJECT_DIR$/../py-workflow-lks/.idea/py-workflow-lks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pynboard.iml" filepath="$PROJECT_DIR$/.idea/pynboard.iml" />
+    </modules>
+  </component>
+</project>

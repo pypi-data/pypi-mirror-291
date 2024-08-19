@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e3ec5eb-ecea-4929-9532-604c6ae2131c" name="Changes" comment="control precision">
+      <change afterPath="$PROJECT_DIR$/../py-workflow-lks/scratch_00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../py-workflow-lks/src/py_workflow_lks/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../py-workflow-lks/src/py_workflow_lks/data_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="57008b17-8e61-4d8f-b8f8-87733b1c238b" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/pynboard/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pynboard/core.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pynboard/display_properties.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pynboard/html_buffer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pynboard/utils.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hKhl1TR6rck2yoVYEA2EaaD3DV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Lukas/PycharmProjects/eq-risk-models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+    <option name="myShowVariablesByDefault" value="false" />
+    <option name="myCommandQueueEnabled" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lukas\PycharmProjects\py-workflow-lks" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e3ec5eb-ecea-4929-9532-604c6ae2131c" name="Changes" comment="" />
+      <created>1717348824739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717348824739</updated>
+      <workItem from="1717348826484" duration="60700000" />
+      <workItem from="1717860208732" duration="20000" />
+      <workItem from="1718220324957" duration="14188000" />
+      <workItem from="1719432635517" duration="1192000" />
+      <workItem from="1720178683008" duration="595000" />
+      <workItem from="1720612588698" duration="596000" />
+      <workItem from="1721739510927" duration="573000" />
+      <workItem from="1723662510939" duration="20843000" />
+    </task>
+    <task id="LOCAL-00001" summary="pynboard">
+      <option name="closed" value="true" />
+      <created>1717348938104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717348938104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pyproject.toml">
+      <option name="closed" value="true" />
+      <created>1717350483007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717350483007</updated>
+    </task>
+    <task id="LOCAL-00003" summary="requirements.txt">
+      <option name="closed" value="true" />
+      <created>1717353805416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717353805416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version">
+      <option name="closed" value="true" />
+      <created>1717353837641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717353837641</updated>
+    </task>
+    <task id="LOCAL-00005" summary="imports">
+      <option name="closed" value="true" />
+      <created>1717355851322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717355851322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="requirements through hatchling">
+      <option name="closed" value="true" />
+      <created>1717359036685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717359036685</updated>
+    </task>
+    <task id="LOCAL-00007" summary="improve sticky headers">
+      <option name="closed" value="true" />
+      <created>1717359815132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717359815132</updated>
+    </task>
+    <task id="LOCAL-00008" summary="datetime formatting">
+      <option name="closed" value="true" />
+      <created>1717378579077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717378579078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sticky headers, header shade">
+      <option name="closed" value="true" />
+      <created>1717419259686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717419259686</updated>
+    </task>
+    <task id="LOCAL-00010" summary="table title">
+      <option name="closed" value="true" />
+      <created>1717421241423</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717421241423</updated>
+    </task>
+    <task id="LOCAL-00011" summary="markdown">
+      <option name="closed" value="true" />
+      <created>1717425558601</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717425558601</updated>
+    </task>
+    <task id="LOCAL-00012" summary="html cosmetics">
+      <option name="closed" value="true" />
+      <created>1717426263049</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717426263049</updated>
+    </task>
+    <task id="LOCAL-00013" summary="matplotlib">
+      <option name="closed" value="true" />
+      <created>1717428026263</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717428026263</updated>
+    </task>
+    <task id="LOCAL-00014" summary="version">
+      <option name="closed" value="true" />
+      <created>1717428061271</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717428061271</updated>
+    </task>
+    <task id="LOCAL-00015" summary="html saving">
+      <option name="closed" value="true" />
+      <created>1717451617967</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717451617967</updated>
+    </task>
+    <task id="LOCAL-00016" summary="gradient">
+      <option name="closed" value="true" />
+      <created>1717509444218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717509444218</updated>
+    </task>
+    <task id="LOCAL-00017" summary="interactive environment setup">
+      <option name="closed" value="true" />
+      <created>1717592579229</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592579230</updated>
+    </task>
+    <task id="LOCAL-00018" summary="requirements">
+      <option name="closed" value="true" />
+      <created>1717592616819</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592616819</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix path">
+      <option name="closed" value="true" />
+      <created>1717593456375</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717593456375</updated>
+    </task>
+    <task id="LOCAL-00020" summary="__init__.py">
+      <option name="closed" value="true" />
+      <created>1717593763887</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717593763887</updated>
+    </task>
+    <task id="LOCAL-00021" summary="imports">
+      <option name="closed" value="true" />
+      <created>1717605089990</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717605089990</updated>
+    </task>
+    <task id="LOCAL-00022" summary="persistent file saving">
+      <option name="closed" value="true" />
+      <created>1718221655624</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718221655624</updated>
+    </task>
+    <task id="LOCAL-00023" summary="only include plotly once">
+      <option name="closed" value="true" />
+      <created>1718288284561</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718288284561</updated>
+    </task>
+    <task id="LOCAL-00024" summary="introduce display properties">
+      <option name="closed" value="true" />
+      <created>1723931824936</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723931824936</updated>
+    </task>
+    <task id="LOCAL-00025" summary="control precision">
+      <option name="closed" value="true" />
+      <created>1723941374092</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723941374092</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pynboard" />
+    <MESSAGE value="pyproject.toml" />
+    <MESSAGE value="requirements.txt" />
+    <MESSAGE value="requirements through hatchling" />
+    <MESSAGE value="improve sticky headers" />
+    <MESSAGE value="datetime formatting" />
+    <MESSAGE value="sticky headers, header shade" />
+    <MESSAGE value="table title" />
+    <MESSAGE value="markdown" />
+    <MESSAGE value="html cosmetics" />
+    <MESSAGE value="matplotlib" />
+    <MESSAGE value="version" />
+    <MESSAGE value="html saving" />
+    <MESSAGE value="gradient" />
+    <MESSAGE value="interactive environment setup" />
+    <MESSAGE value="requirements" />
+    <MESSAGE value="fix path" />
+    <MESSAGE value="__init__.py" />
+    <MESSAGE value="imports" />
+    <MESSAGE value="persistent file saving" />
+    <MESSAGE value="only include plotly once" />
+    <MESSAGE value="introduce display properties" />
+    <MESSAGE value="control precision" />
+    <option name="LAST_COMMIT_MESSAGE" value="control precision" />
+  </component>
+</project>
