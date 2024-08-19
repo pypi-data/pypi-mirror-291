@@ -1,0 +1,2 @@
+[console_scripts]
+sshc = barwex_sshc.entry_scripts:main
