@@ -1,0 +1,201 @@
+Index: docs/4 Event Matching & Match Evaluation.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n \"cells\": [\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": null,\r\n   \"id\": \"initial_id\",\r\n   \"metadata\": {\r\n    \"collapsed\": true\r\n   },\r\n   \"outputs\": [],\r\n   \"source\": \"# TODO\"\r\n  }\r\n ],\r\n \"metadata\": {\r\n  \"kernelspec\": {\r\n   \"display_name\": \"Python 3\",\r\n   \"language\": \"python\",\r\n   \"name\": \"python3\"\r\n  },\r\n  \"language_info\": {\r\n   \"codemirror_mode\": {\r\n    \"name\": \"ipython\",\r\n    \"version\": 2\r\n   },\r\n   \"file_extension\": \".py\",\r\n   \"mimetype\": \"text/x-python\",\r\n   \"name\": \"python\",\r\n   \"nbconvert_exporter\": \"python\",\r\n   \"pygments_lexer\": \"ipython2\",\r\n   \"version\": \"2.7.6\"\r\n  }\r\n },\r\n \"nbformat\": 4,\r\n \"nbformat_minor\": 5\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/4 Event Matching & Match Evaluation.ipynb b/docs/4 Event Matching & Match Evaluation.ipynb
+--- a/docs/4 Event Matching & Match Evaluation.ipynb	
++++ b/docs/4 Event Matching & Match Evaluation.ipynb	
+@@ -1,14 +1,186 @@
+ {
+  "cells": [
+   {
++   "metadata": {},
++   "cell_type": "markdown",
++   "source": "# Event Matching and Match Evaluation",
++   "id": "bd7a173190619ef2"
++  },
++  {
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2024-08-18T13:00:39.396214Z",
++     "start_time": "2024-08-18T13:00:34.343433Z"
++    }
++   },
++   "cell_type": "code",
++   "source": [
++    "import os\n",
++    "\n",
++    "import numpy as np\n",
++    "import pandas as pd\n",
++    "\n",
++    "import peyes"
++   ],
++   "id": "b00234b73079ce60",
++   "outputs": [],
++   "execution_count": 1
++  },
++  {
++   "metadata": {},
++   "cell_type": "markdown",
++   "source": [
++    "## Preparing the Data\n",
++    "As shown in previous notebooks, we start by preparing the data.  \n",
++    "In the following code blocks we:  \n",
++    "1. Download the \"Lund2013\" dataset.  \n",
++    "2. Extract the data of the first trial, including the time, x, and y columns as well as the pixel size and viewer distance.  \n",
++    "3. Extract the annotations by the two human annotators _\"RA\"_ and _\"MN\"_. These will be used as the ground truth for the upcoming evaluation.  \n",
++    "4. Create two detector objects, using Engbert's detection algorithm and the I-VT detection algorithm.  \n",
++    "5. Use each detector to label the samples in the first trial.  "
++   ],
++   "id": "8c3924e4a8b01b24"
++  },
++  {
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2024-08-18T13:06:58.402569Z",
++     "start_time": "2024-08-18T13:06:34.020987Z"
++    }
++   },
+    "cell_type": "code",
+-   "execution_count": null,
+-   "id": "initial_id",
++   "source": [
++    "# Download the \"Lund2013\" dataset\n",
++    "dataset = peyes.datasets.lund2013(directory=None, save=False, verbose=True)\n",
++    "\n",
++    "# Extract the data of the first trial\n",
++    "trial1_data = dataset[dataset[peyes.constants.TRIAL_ID_STR] == 1]\n",
++    "\n",
++    "# read labels from the two annotators\n",
++    "ra = trial1_data[\"RA\"].values\n",
++    "mn = trial1_data[\"MN\"].values\n",
++    "\n",
++    "# Extract the time, x, and y columns as well as the pixel size and viewer distance\n",
++    "trial1_t = trial1_data[peyes.constants.T].values\n",
++    "trial1_x = trial1_data[peyes.constants.X].values\n",
++    "trial1_y = trial1_data[peyes.constants.Y].values\n",
++    "trial1_p = trial1_data[peyes.constants.PUPIL].values\n",
++    "trial1_pixel_size = trial1_data[\"pixel_size\"].values[0]\n",
++    "trial1_viewer_distance = trial1_data[\"viewer_distance\"].values[0]\n",
++    "\n",
++    "# create detector objects and use them to detect the samples in the first trial\n",
++    "engbert = peyes.create_detector(\"engbert\", missing_value=np.nan, min_event_duration=4, pad_blinks_time=0)\n",
++    "eng_labels, eng_metadata = engbert.detect(\n",
++    "    t=trial1_t, x=trial1_x, y=trial1_y, pixel_size_cm=trial1_pixel_size, viewer_distance_cm=trial1_viewer_distance\n",
++    ")\n",
++    "\n",
++    "ivt = peyes.create_detector(\"ivt\", missing_value=np.nan, min_event_duration=4, pad_blinks_time=0)\n",
++    "ivt_labels, ivt_metadata = ivt.detect(\n",
++    "    t=trial1_t, x=trial1_x, y=trial1_y, pixel_size_cm=trial1_pixel_size, viewer_distance_cm=trial1_viewer_distance\n",
++    ")"
++   ],
++   "id": "b6511659222edf32",
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "Dataset Lund2013 not found in directory None.\n",
++      "Downloading...\n"
++     ]
++    },
++    {
++     "name": "stderr",
++     "output_type": "stream",
++     "text": [
++      "Processing Files: 100%|██████████| 97/97 [00:01<00:00, 63.90it/s] \n"
++     ]
++    }
++   ],
++   "execution_count": 2
++  },
++  {
++   "metadata": {},
++   "cell_type": "markdown",
++   "source": [
++    "### Generating Events\n",
++    "As shown in notebook #1, consecutive samples that share the same label can be grouped into an `Event` object.  \n",
++    "These are one of `pEYES`'s data structures, and they contain many useful attributes and methods that are easier to use than manipulating the raw data directly. For example, we can use an `Event` object to calculate the duration of the event, instead of manually calculating the difference between the start and end times of the samples that compose the event.  \n",
++    "\n",
++    "To convert `pEYES`'s labels to events, we use the `peyes.create_events()` function (see notebook #1 for more details).  \n",
++    "As another preparatory step, we will convert the labels from all annotators and detectors to their corresponding events."
++   ],
++   "id": "ddef0db3d51f6fab"
++  },
++  {
+    "metadata": {
+-    "collapsed": true
++    "ExecuteTime": {
++     "end_time": "2024-08-18T12:14:05.653584Z",
++     "start_time": "2024-08-18T12:14:04.819058Z"
++    }
+    },
++   "cell_type": "code",
++   "source": [
++    "ra_events = peyes.create_events(\n",
++    "    labels=ra,\n",
++    "    t=trial1_t, x=trial1_x, y=trial1_y, pupil=trial1_p,\n",
++    "    pixel_size=trial1_pixel_size, viewer_distance=trial1_viewer_distance\n",
++    ")\n",
++    "mn_events = peyes.create_events(\n",
++    "    labels=mn,\n",
++    "    t=trial1_t, x=trial1_x, y=trial1_y, pupil=trial1_p,\n",
++    "    pixel_size=trial1_pixel_size, viewer_distance=trial1_viewer_distance\n",
++    ")\n",
++    "eng_events = peyes.create_events(\n",
++    "    labels=eng_labels,\n",
++    "    t=trial1_t, x=trial1_x, y=trial1_y, pupil=trial1_p,\n",
++    "    pixel_size=trial1_pixel_size, viewer_distance=trial1_viewer_distance\n",
++    ")\n",
++    "ivt_events = peyes.create_events(\n",
++    "    labels=ivt_labels,\n",
++    "    t=trial1_t, x=trial1_x, y=trial1_y, pupil=trial1_p,\n",
++    "    pixel_size=trial1_pixel_size, viewer_distance=trial1_viewer_distance\n",
++    ")"
++   ],
++   "id": "94eb5b94eb4f2dd1",
++   "outputs": [
++    {
++     "ename": "NameError",
++     "evalue": "name 'trial1_p' is not defined",
++     "output_type": "error",
++     "traceback": [
++      "\u001B[1;31m---------------------------------------------------------------------------\u001B[0m",
++      "\u001B[1;31mNameError\u001B[0m                                 Traceback (most recent call last)",
++      "Cell \u001B[1;32mIn[3], line 3\u001B[0m\n\u001B[0;32m      1\u001B[0m ra_events \u001B[38;5;241m=\u001B[39m peyes\u001B[38;5;241m.\u001B[39mcreate_events(\n\u001B[0;32m      2\u001B[0m     labels\u001B[38;5;241m=\u001B[39mra,\n\u001B[1;32m----> 3\u001B[0m     t\u001B[38;5;241m=\u001B[39mtrial1_t, x\u001B[38;5;241m=\u001B[39mtrial1_x, y\u001B[38;5;241m=\u001B[39mtrial1_y, pupil\u001B[38;5;241m=\u001B[39m\u001B[43mtrial1_p\u001B[49m,\n\u001B[0;32m      4\u001B[0m     pixel_size\u001B[38;5;241m=\u001B[39mtrial1_pixel_size, viewer_distance\u001B[38;5;241m=\u001B[39mtrial1_viewer_distance\n\u001B[0;32m      5\u001B[0m )\n\u001B[0;32m      6\u001B[0m mn_events \u001B[38;5;241m=\u001B[39m peyes\u001B[38;5;241m.\u001B[39mcreate_events(\n\u001B[0;32m      7\u001B[0m     labels\u001B[38;5;241m=\u001B[39mmn,\n\u001B[0;32m      8\u001B[0m     t\u001B[38;5;241m=\u001B[39mtrial1_t, x\u001B[38;5;241m=\u001B[39mtrial1_x, y\u001B[38;5;241m=\u001B[39mtrial1_y, pupil\u001B[38;5;241m=\u001B[39mtrial1_p,\n\u001B[0;32m      9\u001B[0m     pixel_size\u001B[38;5;241m=\u001B[39mtrial1_pixel_size, viewer_distance\u001B[38;5;241m=\u001B[39mtrial1_viewer_distance\n\u001B[0;32m     10\u001B[0m )\n\u001B[0;32m     11\u001B[0m eng_events \u001B[38;5;241m=\u001B[39m peyes\u001B[38;5;241m.\u001B[39mcreate_events(\n\u001B[0;32m     12\u001B[0m     labels\u001B[38;5;241m=\u001B[39meng_labels,\n\u001B[0;32m     13\u001B[0m     t\u001B[38;5;241m=\u001B[39mtrial1_t, x\u001B[38;5;241m=\u001B[39mtrial1_x, y\u001B[38;5;241m=\u001B[39mtrial1_y, pupil\u001B[38;5;241m=\u001B[39mtrial1_p,\n\u001B[0;32m     14\u001B[0m     pixel_size\u001B[38;5;241m=\u001B[39mtrial1_pixel_size, viewer_distance\u001B[38;5;241m=\u001B[39mtrial1_viewer_distance\n\u001B[0;32m     15\u001B[0m )\n",
++      "\u001B[1;31mNameError\u001B[0m: name 'trial1_p' is not defined"
++     ]
++    }
++   ],
++   "execution_count": 3
++  },
++  {
++   "metadata": {},
++   "cell_type": "code",
++   "outputs": [],
++   "execution_count": null,
++   "source": "",
++   "id": "3a1a7e800442c98a"
++  },
++  {
++   "metadata": {},
++   "cell_type": "code",
+    "outputs": [],
+-   "source": "# TODO"
++   "execution_count": null,
++   "source": "",
++   "id": "fa1f46956a2c4a4c"
++  },
++  {
++   "metadata": {},
++   "cell_type": "code",
++   "outputs": [],
++   "execution_count": null,
++   "source": "",
++   "id": "390ca02878bb228f"
+   }
+  ],
+  "metadata": {
