@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: json_log_utils
+Version: 0.2
+Summary: A simple logging utility for saving logs as JSON files.
+Home-page: 
+Author: 
+Author-email: 
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
