@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+version.txt
+src/teamup_connect/__init__.py
+src/teamup_connect/teamup_api.py
+src/teamup_connect.egg-info/PKG-INFO
+src/teamup_connect.egg-info/SOURCES.txt
+src/teamup_connect.egg-info/dependency_links.txt
+src/teamup_connect.egg-info/requires.txt
+src/teamup_connect.egg-info/top_level.txt
+tests/test__py_teamup.py
