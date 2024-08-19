@@ -1,0 +1,8 @@
+aiobatch/__init__.py,sha256=VRcGVG-WEnnqDDmEsxmNyeVfk1-jyJr7CUbH2DyGmg4,130
+aiobatch/async_batch.py,sha256=DfVPoAwKE8Db1C6gcmvTGhvACVMA_jrVRWrlA_m3X2Y,4520
+aiobatch/batch.py,sha256=oKEr7Y_f6FU9NE6-16nn6-2FvdSDU6P_CZy0QKoVKvU,4485
+aiobatch/batcher.py,sha256=IlPLWW2mZprLlgrxrlHFoltzFNTOjKz6DqfFLt3dsKI,4196
+aiobatch-0.0.1.dev3.dist-info/METADATA,sha256=4zaXYR50_K3GWWifYCJlVf-e1wfduAMOMD1uUtqGH4E,784
+aiobatch-0.0.1.dev3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+aiobatch-0.0.1.dev3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiobatch-0.0.1.dev3.dist-info/RECORD,,
