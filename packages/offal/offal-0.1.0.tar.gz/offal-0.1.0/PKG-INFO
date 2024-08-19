@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: offal
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Matthew White <matthew.r.j.white@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: gitpython>=3.1.43
+Requires-Dist: typer>=0.12.4
+Description-Content-Type: text/markdown
+
+# offal
