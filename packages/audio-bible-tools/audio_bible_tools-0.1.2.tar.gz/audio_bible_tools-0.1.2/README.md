@@ -1,0 +1,126 @@
+# Audio Bible Tools
+
+
+This package is designed to download and process audio files from YouTube playlists, specifically tailored for Bible audio content. It provides functionality to download chapters from specified playlists, organize them into a structured directory format, and process them for further use.
+
+## Features
+
+- Download audio from YouTube playlists matching specific patterns
+- Sanitize file names and organize downloads into a structured directory hierarchy
+- Process downloaded files, renaming and moving them to a specified output directory
+- Skip existing files to avoid redundant downloads
+- Remove temporary files created during the download process
+- Configurable options for version, voice, and output directory
+
+## Requirements
+
+- Python 3.x
+- yt-dlp
+- requests
+
+## Installation
+
+```bash
+pip install --upgrade audio_bible_tools
+```
+
+## Usage
+
+Here's an example of how to use the YouTubeDownloader class:
+
+```python
+from audio_bible_tools import YouTubeDownloader 
+root_dir = '/content/drive/My Drive/'
+project_dir = 'kjv_audio'
+channel_handle = 'skiesaboveus'
+genesis_playlist = "01 Genesis Chapters 01-50 (KJV)"
+revelation_playlist = "66 Revelation Chapters 01-22 (KJV)"
+
+# Initialize the downloader
+downloader = YouTubeDownloader(
+    root_dir=root_dir,
+    channel_handle=channel_handle,
+    project_dir=project_dir,
+    genesis_playlist=genesis_playlist,
+    revelation_playlist=revelation_playlist
+)
+
+# Remove any temporary files
+downloader.remove_tmp_files()
+
+# Print the total number of files in the project directory
+# print(downloader.count_files_in_directory())
+
+downloader.list_and_process_playlists()
+
+# Remove temporary files again after download
+downloader.remove_tmp_files()
+
+# Process the downloaded files
+downloader.version("kjv") \
+    .voice("kjv-audio-bible") \
+    .result_dir("bible_audio_processed") \
+    .chapterPattern("Chapter (\d+)") \
+    .process()
+```
+
+```python
+from audio_bible_tools import YouTubeDownloader 
+
+root_dir = '/content/drive/My Drive/'
+project_dir = 'kjv_audio_1'
+channel_handle = 'ScourbyYouBible'
+genesis_playlist = "1 ~ Book of Genesis by the Chapter"
+revelation_playlist = "66 ~ Book of Revelation by the Chapter"
+
+# Initialize the downloader
+downloader = YouTubeDownloader(
+    root_dir=root_dir,
+    channel_handle=channel_handle,
+    project_dir=project_dir,
+    genesis_playlist=genesis_playlist,
+    revelation_playlist=revelation_playlist
+)
+
+# Remove any temporary files
+downloader.remove_tmp_files()
+
+# Print the total number of files in the project directory
+# print(downloader.count_files_in_directory())
+
+downloader.list_and_process_playlists()
+
+# Remove temporary files again after download
+downloader.remove_tmp_files()
+
+# Process the downloaded files
+downloader.version("kjv") \
+    .voice("scourby") \
+    .result_dir("bible_audio_processed") \
+    .chapterPattern("(\d+)\s+of\s+\d+\s+Chapters") \
+    .process()
+```
+
+## Class Methods
+
+- `__init__(self, root_dir, channel_handle, project_dir, genesis_playlist, revelation_playlist)`: Initializes the YouTubeDownloader with the specified parameters.
+- `remove_tmp_files(self, dir=None)`: Removes temporary files from the specified directory or the project directory.
+- `create_books_playlist_regular_expression(self, genesis_playlist, revelation_playlist)`: Creates a regular expression pattern to match playlist titles.
+- `sanitize_title(self, title)`: Sanitizes the playlist title for use as a directory name.
+- `download_video(self, url, download_dir)`: Downloads a single video from the given URL to the specified directory.
+- `count_files_in_directory(self, directory_path=None)`: Counts the total number of files in the specified directory.
+- `list_and_process_playlists(self)`: Lists and processes all playlists matching the specified pattern.
+- `version(self, version)`, `voice(self, voice)`, `result_dir(self, dir)`, `force(self, force)`, `chapterPattern(self, chapterPattern)`: Setter methods for various processing options.
+- `process(self)`: Processes the downloaded files, organizing them into the final directory structure.
+
+## Notes
+
+- This class is specifically designed for downloading and processing Bible audio content from YouTube playlists.
+- Make sure you have the necessary permissions to download and use the content.
+- The class uses a JSON file from 'https://audio-bible.github.io/info/books_mapping.json' to map book numbers to names. Ensure this resource is available and up-to-date.
+
+## License
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
