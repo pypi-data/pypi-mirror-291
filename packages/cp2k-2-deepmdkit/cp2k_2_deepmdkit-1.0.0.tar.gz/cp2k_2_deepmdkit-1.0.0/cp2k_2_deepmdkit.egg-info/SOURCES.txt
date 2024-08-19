@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+cp2k_2_deepmdkit.egg-info/PKG-INFO
+cp2k_2_deepmdkit.egg-info/SOURCES.txt
+cp2k_2_deepmdkit.egg-info/dependency_links.txt
+cp2k_2_deepmdkit.egg-info/entry_points.txt
+cp2k_2_deepmdkit.egg-info/top_level.txt
+cp2k_to_deepmdkit/__init__.py
+cp2k_to_deepmdkit/box.py
+cp2k_to_deepmdkit/convert.py
+cp2k_to_deepmdkit/coord.py
+cp2k_to_deepmdkit/force_energy.py
