@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+_d/__init__.py
+randomuagents.egg-info/PKG-INFO
+randomuagents.egg-info/SOURCES.txt
+randomuagents.egg-info/dependency_links.txt
+randomuagents.egg-info/top_level.txt
