@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: feifei-pytest
+Version: 1.0.1
+Summary: A pytest tools box for testing.
+Author: roger813
+Author-email: roger813@163.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: allure-pytest==2.13.5
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pip==24.2
+Requires-Dist: playwright==1.39.0
+Requires-Dist: psycopg2==2.9.9
+Requires-Dist: pyodbc==5.1.0
+Requires-Dist: pytest-assume==2.4.3
+Requires-Dist: pytest-bdd==7.2.0
+Requires-Dist: requests==2.32.3
+
+A pytest tools box for testing.
