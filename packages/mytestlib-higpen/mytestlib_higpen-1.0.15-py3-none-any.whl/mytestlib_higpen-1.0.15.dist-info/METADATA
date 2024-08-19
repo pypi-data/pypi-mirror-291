@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mytestlib-higpen
+Version: 1.0.15
+Summary: My Test Library.
+Author-email: higpen <higpen@higpen.higpen>
+License: …
+Project-URL: Homepage, https://…
+Description-Content-Type: text/plain
+
+This is My Test Library.
