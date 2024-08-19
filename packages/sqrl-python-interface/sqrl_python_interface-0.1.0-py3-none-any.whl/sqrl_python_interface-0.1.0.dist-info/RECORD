@@ -1,0 +1,8 @@
+sqrl_python_interface/agents/base_agent.py,sha256=CcWI0PCy6FssAQTda-CNyfu2E0-Rrh3T--0xOf2As1o,6622
+sqrl_python_interface/utils/python_connection.py,sha256=Q6yUSpMhCRbe3ysYL91WqUZglIjqluDiNzw3UDvGEPI,4639
+sqrl_python_interface/utils/structures/ball_prediction_struct.py,sha256=V-2Gd7k44bZBnZO-UG2DOeIDULbu5EM0WluQy4UTiF0,300
+sqrl_python_interface/utils/structures/game_data_struct.py,sha256=oGvo2x5m-hqNW7EP-MT5wLYwKft_Zcxh7hpFfKedQJo,1564
+sqrl_python_interface-0.1.0.dist-info/METADATA,sha256=LwnrqkCb5fGQieEnkJ0TcsnVtuai9SZU3X2RG7nIAqw,814
+sqrl_python_interface-0.1.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+sqrl_python_interface-0.1.0.dist-info/top_level.txt,sha256=fj9oKP-xJpiBkAnNMB5oy42yPOiJLg5GLdJ42C1BIwk,22
+sqrl_python_interface-0.1.0.dist-info/RECORD,,
