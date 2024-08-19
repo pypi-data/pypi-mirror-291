@@ -1,0 +1,26 @@
+name: transport_analysis-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Base depends
+  - python
+  - pip
+
+  # MDAnalysis
+  - MDAnalysis
+
+  # tidynamics
+  - tidynamics
+
+  # Testing
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - codecov
+  - MDAnalysisTests
+
+  # Pip-only installs
+  #- pip:
+  #  - codecov
+
