@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vnpy_voltrader/__init__.py
+vnpy_voltrader/voltrader_datafeed.py
+vnpy_voltrader.egg-info/PKG-INFO
+vnpy_voltrader.egg-info/SOURCES.txt
+vnpy_voltrader.egg-info/dependency_links.txt
+vnpy_voltrader.egg-info/not-zip-safe
+vnpy_voltrader.egg-info/requires.txt
+vnpy_voltrader.egg-info/top_level.txt
