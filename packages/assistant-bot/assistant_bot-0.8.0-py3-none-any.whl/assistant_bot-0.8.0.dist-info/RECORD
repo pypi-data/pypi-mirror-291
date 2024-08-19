@@ -1,0 +1,13 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/assistant_controller.py,sha256=GPEgXXlr49bq2uVxG8OitcFOTQt2cgnWMwHnayAh_oo,4626
+src/book_controller.py,sha256=URL_ZSbyC_RMptV0sMfsgixWc922P6CflB42eubuFb8,21565
+src/main.py,sha256=FnRRzMZ_SZI_youBCSTCNKoFgJQPONMvmNGV-ttZeow,1354
+src/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/models/address_book.py,sha256=D2QsWWrGi2DdM6aww8MkATZkZjboHgqJVKxJ-21Ac84,3018
+src/models/fields.py,sha256=qhTxDlP0Bwbs_zML801W3f4-ZtyiWoBaZ8oI2KgNFbA,6112
+src/models/record.py,sha256=VGZx3F8v01hlzEfS2PtkuUj0V1NsmY69NEq9T1I67ao,5861
+assistant_bot-0.8.0.dist-info/METADATA,sha256=Hzplk3uU2OnYLtgcPZagkiMeSbQUazygkL4Z1y6l1lo,1584
+assistant_bot-0.8.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+assistant_bot-0.8.0.dist-info/entry_points.txt,sha256=f2De1yPvqTN5l1xMZttlHaChGG25g8qzc1UASdKY1SE,48
+assistant_bot-0.8.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+assistant_bot-0.8.0.dist-info/RECORD,,
