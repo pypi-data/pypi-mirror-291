@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+AI_ChatGPT_Free.egg-info/PKG-INFO
+AI_ChatGPT_Free.egg-info/SOURCES.txt
+AI_ChatGPT_Free.egg-info/dependency_links.txt
+AI_ChatGPT_Free.egg-info/top_level.txt
+ChatGPT/__init__.py
+test/test.py
