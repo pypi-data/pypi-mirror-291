@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: ppml
+Version: 0.1.0
+Summary: A privacy-preserving machine learning package
+Home-page: https://github.com/BagelNetwork/ppml
+Author: Bidhan Roy
+Author-email: bidhan@bagel.net
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🥯 Privacy-Preserving Machine Learning (PPML)
+
+This repository implements privacy-preserving machine learning techniques, starting with a differentially private GAN for image generation. Our goal is to develop and showcase various PPML methods that enable data analysis and model training while protecting individual privacy.
+
+Our [blog post](https://blog.bagel.net/p/data-synthesis) explains the importance of privacy in machine learning and introduces our first implementation. 🥯
+
+## 🥯 Features
+
+- Privacy-preserving machine learning techniques
+- Differential privacy implementations
+- PyTorch and Opacus integration
+
+## 🥯 Current Implementations
+
+1. Differentially Private GAN (DP-GAN) for image synthesis
+   - Based on [Radford et al. (2015)](https://arxiv.org/abs/1511.06434) and [Xie et al. (2018)](https://arxiv.org/abs/1802.06739)
+   - Convolutional GAN architecture
+   - Customizable privacy budget (ε)
+
+## 🥯 Applications
+
+Our PPML techniques can be applied to various scenarios:
+
+- Secure data sharing for research
+- Privacy-preserving model training
+- Confidential data analysis in sensitive domains (e.g., healthcare, finance)
+- Building privacy-respecting AI systems
+
+## 🥯 Setup
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/PPML.git
+   cd PPML
+   ```
+
+2. Install dependencies:
+   ```
+   pip install -e .
+   ```
+
+## 🥯 Usage
+
+### DP-GAN for Image Synthesis
+
+1. Place your dataset in the `data` folder. The default configuration expects a folder structure similar to the CelebA dataset.
+
+2. Open `dp.py` and set the `dataroot` variable to point to your dataset folder:
+   ```python
+   dataroot = "path/to/your/dataset"
+   ```
+
+3. (Optional) Adjust hyperparameters in `dp.py`:
+   - `EPSILON`: Privacy budget (default: 50.0)
+   - `batch_size`: Number of images per batch (default: 128)
+   - `num_epochs`: Number of training epochs (default: 5)
+   - `lr`: Learning rate (default: 0.0002)
+
+4. Run the training script:
+   ```
+   python dp.py
+   ```
+
+5. Monitor the training progress. The script will print loss values and privacy guarantees every few iterations.
+
+6. After training, find the trained Generator model saved as `netG_dpgan.pth` in the project directory.
+
+7. To generate new images using the trained model, create a new script that loads the saved model and feeds random noise through it.
+
+## 🥯 Example
+
+We trained the DP-GAN on CelebA with ε=50. Results:
+
+![Sample Generated Image](image.png)
+
+## 🥯 Roadmap
+
+We plan to expand this repository with more PPML techniques, including:
+
+- Federated Learning implementations
+- Secure Multi-Party Computation (SMPC) for distributed machine learning
+- Homomorphic Encryption-based machine learning models
+- Privacy-preserving data analysis tools
+
+Stay tuned for updates!
+
+## 🥯 Contributing
+
+We welcome contributions to improve and expand this project! Here are some guidelines to get started:
+
+1. Fork the repository and create your branch from `main`.
+2. If you've added code that should be tested, add tests.
+3. Ensure your code passes all tests.
+4. Make sure your code lints.
+5. Issue a pull request with a comprehensive description of changes.
+
+For more detailed information, please read our [Contribution Guidelines](CONTRIBUTING.md).
+
+## 🥯 License
+
+[MIT License](LICENSE)
+
+## 🥯 Acknowledgements
+
+- [Radford et al. (2015)](https://arxiv.org/abs/1511.06434): DCGAN architecture
+- [Xie et al. (2018)](https://arxiv.org/abs/1802.06739): Differentially private GAN
+- [Opacus](https://opacus.ai/): Differential privacy library
+
+## 🥯 Contact
+
+Open an issue or email [team@bagel.net].

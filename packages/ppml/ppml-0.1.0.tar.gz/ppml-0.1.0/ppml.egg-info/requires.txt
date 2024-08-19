@@ -1,0 +1,6 @@
+torch>=1.8.0
+torchvision>=0.9.0
+opacus>=1.0.0
+numpy
+Pillow
+tqdm
