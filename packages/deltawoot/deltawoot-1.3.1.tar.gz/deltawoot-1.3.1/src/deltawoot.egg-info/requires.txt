@@ -1,0 +1,10 @@
+deltachat-rpc-client
+deltachat-rpc-server
+ConfigArgParse
+requests
+flask
+sentry-sdk[flask]
+
+[dev]
+pytest
+pytest-timeout
