@@ -1,0 +1,18 @@
+[project]
+name = "dice_tb"
+version = "0.0.1"
+authors = [
+  { name="Thomas Brumbaugh", email="thomas.william.brumbaugh@gmail.com" },
+]
+description = "A simple dice package which has a type Dice"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/dice_tb"
+Issues = "https://github.com/pypa/dice_tb/issues"

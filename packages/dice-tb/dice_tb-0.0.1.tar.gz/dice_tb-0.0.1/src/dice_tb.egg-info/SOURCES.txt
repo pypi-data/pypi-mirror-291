@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dice/__init__.py
+src/dice/dice.py
+src/dice/dice_simulation.py
+src/dice_tb.egg-info/PKG-INFO
+src/dice_tb.egg-info/SOURCES.txt
+src/dice_tb.egg-info/dependency_links.txt
+src/dice_tb.egg-info/top_level.txt
