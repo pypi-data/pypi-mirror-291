@@ -1,0 +1,13 @@
+pysswordsz/ChineseWords.py,sha256=X2RSnfZrqUEo5oaQ65sDa7qVloZtoAtwyP69GlpYefw,76712
+pysswordsz/__init__.py,sha256=Qoyu8fmIPLz98n5v43grppb4aeyScmIi5M1LCcum28E,230
+pysswordsz/__main__.py,sha256=3NqKSuBhIL9TuWOfvrW_CKi6gDHfps4x2O-10fPiDOw,45
+pysswordsz/app.py,sha256=sBbnwqv4-RCji0DNDBGsm5EAYsEovr4dD_e0Sc2mOkM,7957
+pysswordsz/encrytool.py,sha256=YhCkA56IQOOzal2OWeXSPdnwfWALaEpJJ-3ogkjkdnY,8123
+pysswordsz/getrandwords.py,sha256=J4tniIQvaSTNacDetZw3wNmEF3ddcosqn2bbRH4C9fo,2359
+pysswordsz/pwsmanager.py,sha256=sfdG0mEfyB2b-F7IxLEdUJ5m0fQLSYyFPBEYqjqX49Y,6068
+pysswordsz/pzsconfig.py,sha256=dw3TCuQNtqZ5tTFcShogzNxVN8hECbiP02rxpLTl5ig,3773
+pysswordsz-0.2.6.dist-info/METADATA,sha256=T8qsJgpu_hZQihlbtoLm1CoO3lU40D7NpUHvsfLaG6E,47258
+pysswordsz-0.2.6.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pysswordsz-0.2.6.dist-info/entry_points.txt,sha256=AvvleRZCA0jrv3m79fU5xg-adQ63_qFjFlrRPiYcVdE,46
+pysswordsz-0.2.6.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pysswordsz-0.2.6.dist-info/RECORD,,
