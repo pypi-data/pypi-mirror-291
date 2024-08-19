@@ -1,0 +1,13 @@
+CCParse/Enums.py,sha256=edLdp_6UjD9BVSht-K3Jg4q42Pq339yJyTnE0ELF9Oo,279
+CCParse/__init__.py,sha256=YrxpYH6BmMkUumnT83GAnyRQJ7iXLBFPDnwTzjXLXvU,68
+CCParse/ccbase.py,sha256=Trl28oHl8FbLplQBKTzZ9GfEb1f2cUgMgNTpPUqiVX0,558
+CCParse/ccdecode.py,sha256=DBU28Q2g3mQ7Syb56Y-vOlYIEruqV5xVBK2IRDcem-4,1959
+CCParse/models/__init__.py,sha256=fMlQm_cz_ILibN4XeOzUuShrKTBfYkr46hEjZ8UvC8c,411
+CCParse/models/ccmobile.py,sha256=vgLDYgSL2hn978vH8yJ_ABhaFx0pt6T_TFj20BXuZdA,16721
+CCParse/models/ccmobilebuildings.py,sha256=coOkGXCkM92WH10vDKw7mAQfNQ9Pyq66bq-XyK7thAE,1032
+CCParse/models/ccpc.py,sha256=nqrt7buxJFXggbWnms9sFGqphbHk9-zLXMtn3wUGOEY,2675
+CookieClickerSaveParser-1.0.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+CookieClickerSaveParser-1.0.0.dist-info/METADATA,sha256=uv95MEterG_f6lPaECgOnc27j2QglYU10HgMz611pk0,1031
+CookieClickerSaveParser-1.0.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+CookieClickerSaveParser-1.0.0.dist-info/top_level.txt,sha256=MpHlsopYYl1obEh4FvZinOv5B9BnXvb6saeH8-o9OZY,8
+CookieClickerSaveParser-1.0.0.dist-info/RECORD,,

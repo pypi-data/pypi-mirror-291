@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: CookieClickerSaveParser
+Version: 1.0.0
+Summary: Basic Cookie Clicker Save parser
+Home-page: https://github.com/Tevtongermany/CookieClickerSaveConverter
+Author: Tevtongermany
+Author-email: Tevtongermany@femboy.cx
+License: Mozilla Public License Version 2.0
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+Built-in functions, types, exceptions, and other objects.
+
+This module provides direct access to all 'built-in'
+identifiers of Python; for example, builtins.len is
+the full name for the built-in function len().
+
+This module is not normally accessed explicitly by most
+applications, but can be useful in modules that provide
+objects with the same name as a built-in value, but in
+which the built-in of that name is also needed.
