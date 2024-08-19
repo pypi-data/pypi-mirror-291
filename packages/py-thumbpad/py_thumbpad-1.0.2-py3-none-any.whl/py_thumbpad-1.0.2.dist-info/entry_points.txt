@@ -1,0 +1,3 @@
+[console_scripts]
+py_thumbpad = py_thumbpad.main:main
+
