@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+verible.egg-info/PKG-INFO
+verible.egg-info/SOURCES.txt
+verible.egg-info/dependency_links.txt
+verible.egg-info/top_level.txt
