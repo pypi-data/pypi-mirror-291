@@ -1,0 +1,3 @@
+[console_scripts]
+filmfarm=filmfarm.main:app
+
