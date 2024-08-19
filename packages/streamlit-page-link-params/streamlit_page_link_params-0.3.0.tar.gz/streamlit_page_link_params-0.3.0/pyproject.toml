@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["streamlit_page_link_params"]
+
+[project]
+name = "streamlit-page-link-params"
+version = "0.3.0"
+description = "An alternative to the official Streamlit page_link component that supports query parameters."
+authors = [
+  {name = "Tongshengzhou", email = "tongshengzhou@gmail.com"}
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = [
+    "streamlit>=1.37",
+    "streamlit-event-hook>=0.3",
+    "streamlit-js-callback>=1.0"
+]
+license = {file = "LICENSE"}
+readme = { file = "README.md", content-type = "text/markdown" }
+
+[project.urls]
+Homepage = "https://github.com/dancingpeanut/streamlit-page-link-params"
+Repository = "https://github.com/dancingpeanut/streamlit-page-link-params"
