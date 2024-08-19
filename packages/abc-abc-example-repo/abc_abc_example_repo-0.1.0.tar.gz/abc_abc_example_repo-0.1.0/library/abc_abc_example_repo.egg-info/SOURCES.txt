@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+library/abc_abc_example_repo.egg-info/PKG-INFO
+library/abc_abc_example_repo.egg-info/SOURCES.txt
+library/abc_abc_example_repo.egg-info/dependency_links.txt
+library/abc_abc_example_repo.egg-info/requires.txt
+library/abc_abc_example_repo.egg-info/top_level.txt
+tests/test_module_1.py
