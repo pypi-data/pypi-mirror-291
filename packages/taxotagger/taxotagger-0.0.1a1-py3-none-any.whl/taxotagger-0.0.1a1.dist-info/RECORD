@@ -1,0 +1,12 @@
+taxotagger/__init__.py,sha256=b_2eFm1b1cqlUwtwgghF49kVXUSyP0nX8Fi2lsappAE,290
+taxotagger/abc.py,sha256=bMxAZs31fMpecJwe_OzaTlRlnU1JRN43-C3dhvnpZ0U,1782
+taxotagger/config.py,sha256=u6cOpWv-QNXCzCU8gg47fEfERWH7mCeDd-bknxR4Jpk,1714
+taxotagger/defaults.py,sha256=HhnQJOa5ioGzjrCFeTKE3dnfU3stqwKS2a7sqdycAQ8,935
+taxotagger/models.py,sha256=UFeric5fhBL4LosdUCI1DVHL7li44VcNJY_YcreK0Ek,6455
+taxotagger/taxotagger.py,sha256=bZTLKWejlfDat6fnuOZqcnPAdpxeULAr9gwgDRVvfr4,11090
+taxotagger/utils.py,sha256=6nzVQTiQ1LznZuE42sXSGaSUshEhqRDUoGybEUr3vYE,5196
+taxotagger-0.0.1a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+taxotagger-0.0.1a1.dist-info/METADATA,sha256=-oYchr2o0Q3nM7jiOZuMjh_W9c8i3K5oyAusIoKVOyM,3843
+taxotagger-0.0.1a1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+taxotagger-0.0.1a1.dist-info/top_level.txt,sha256=wEcS8ON2CnTsg7AnsYlKH8GjiWibIKfiXPUeLJAXchk,11
+taxotagger-0.0.1a1.dist-info/RECORD,,
