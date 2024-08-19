@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gluehome"
+dynamic = ["version"]
+dependencies = [
+  "requests",
+]
+authors = [
+  {name = "Fredrik Sundqvist", email = "fsundqvist@gmail.com"},
+]
+maintainers = [
+  {name = "Fredrik Sundqvist", email = "fsundqvist@gmail.com"}
+]
+description = "A Python client for interacting with the Glue Home API."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[tool.setuptools.dynamic]
+version = {attr = "gluehome.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/MadSpindel/gluehome-python/"
+Issues = "https://github.com/MadSpindel/gluehome-python/issues"
