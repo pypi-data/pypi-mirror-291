@@ -1,0 +1,16 @@
+dduk/__init__.py,sha256=ppTUVW_eUda1ayWxXCLw0g1LFCmAn48DYqryOMbjsC8,683
+dduk/__main__.py,sha256=VjuHtA9N6qCnJw19kFWicBll-dDpYCU7umHo0bfwNGA,579
+dduk/core/__init__.py,sha256=2i4ihNCYQAmqDqTitu6ycCvoZvnxddAblm0wMJ-dP6U,1871
+dduk/core/__main__.py,sha256=k-TayWvQEvdz6L-jEMfsYKrHLWXwyNWOtX_DZKcjqwQ,584
+dduk/core/anonymousclass.py,sha256=ebdgSWZDWbibZut86ciJGczHTSZ2jp4mzydNzoQJe6Y,1014
+dduk/core/baseclass.py,sha256=OGZz9zRVURkGA1r-VAXNAFdygawWmb7V0BcbhyLE-qw,2952
+dduk/core/constant.py,sha256=6uO_AYgpV5KiAWDkYkj3ClrIKaHGGBIK6AqKgWytN_Y,3215
+dduk/core/platform.py,sha256=hSKde1vYuAJjJ90md96-l_VyUhL8IMc_Zk-VPyzzoh0,1427
+dduk/core/repository.py,sha256=Da3qRB5VgGx4HI1jiHdxIS-AEbkyfLlJofEOWXBIv8M,3778
+dduk/core/sharedclass.py,sha256=zcvxWB8E75mFt4RaEQhm6ihvkPovR8x7_TeZakHcRNM,2174
+dduk/core/singleton.py,sha256=rMhnOT6xBB1NV5o-uX8DvUjyBxSzC_uexyx4MLJO_us,2324
+dduk_core-0.0.25.dist-info/LICENSE,sha256=AU8OrUcHYBTd6RuKzW0BQx6bM2ALTnqc8vRQwMcRIW0,1087
+dduk_core-0.0.25.dist-info/METADATA,sha256=GCVqQdFKRwMlBnsJkQabs95Xj5SKfT5hKIGvIJGw6pQ,1723
+dduk_core-0.0.25.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+dduk_core-0.0.25.dist-info/top_level.txt,sha256=9323yfNKXRVJxK6FKltPICtDJ0iQpbBE54kOEHJSsCU,5
+dduk_core-0.0.25.dist-info/RECORD,,
