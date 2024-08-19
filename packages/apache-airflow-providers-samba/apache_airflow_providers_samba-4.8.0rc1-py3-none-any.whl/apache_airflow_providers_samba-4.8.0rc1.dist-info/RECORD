@@ -1,0 +1,11 @@
+airflow/providers/samba/LICENSE,sha256=FFb4jd2AXnOOf7XLP04pQW6jbdhG49TxlGY6fFpCV1Y,13609
+airflow/providers/samba/__init__.py,sha256=m3dIhEvLJ0oaK1D9S9MOjg7Zh6RHeZud-_RLYDdkX_o,1492
+airflow/providers/samba/get_provider_info.py,sha256=Huf2sA-SXt7dFsBWULACSwxPRizZHsy47NXlZEy2gx8,2734
+airflow/providers/samba/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/samba/hooks/samba.py,sha256=eImHWvWT1XAta6EFAyEG882ySyih_UqA6yjdOU9MVLE,9146
+airflow/providers/samba/transfers/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/samba/transfers/gcs_to_samba.py,sha256=qGfcQBovXiG2SIsDkXwiCNeeWrdvJIPHtMV8GVBUl-k,8958
+apache_airflow_providers_samba-4.8.0rc1.dist-info/entry_points.txt,sha256=X1aQR5fgrHkDeNIILKemTvOrcGaAPC9beRkJ4PjPeBw,101
+apache_airflow_providers_samba-4.8.0rc1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+apache_airflow_providers_samba-4.8.0rc1.dist-info/METADATA,sha256=v9gkKgTZCXi0XnZo8p4Gr3oh-_YT7diDuAp9wUWDBnE,5794
+apache_airflow_providers_samba-4.8.0rc1.dist-info/RECORD,,
