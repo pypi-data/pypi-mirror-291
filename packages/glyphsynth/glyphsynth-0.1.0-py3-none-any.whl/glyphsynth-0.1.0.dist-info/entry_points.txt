@@ -1,0 +1,3 @@
+[console_scripts]
+glyphsynth=glyphsynth.cli.main:run
+
