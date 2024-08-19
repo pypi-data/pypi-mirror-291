@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ntfy_sdk_python"
+version = "0.0.1"
+authors = [
+  { name="j4n-e4t", email="130256240+j4n-e4t@users.noreply.github.com" }
+]
+description = "Python SDK for ntfy.sh"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/j4n-e4t/ntfy-sdk-python"
+Issues = "https://github.com/j4n-e4t/ntfy-sdk-python/issues"

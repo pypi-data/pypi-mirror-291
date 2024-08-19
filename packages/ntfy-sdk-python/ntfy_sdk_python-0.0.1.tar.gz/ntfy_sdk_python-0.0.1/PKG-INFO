@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ntfy_sdk_python
+Version: 0.0.1
+Summary: Python SDK for ntfy.sh
+Author-email: j4n-e4t <130256240+j4n-e4t@users.noreply.github.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/j4n-e4t/ntfy-sdk-python
+Project-URL: Issues, https://github.com/j4n-e4t/ntfy-sdk-python/issues
+
+# Python SDK for ntfy.sh
+
