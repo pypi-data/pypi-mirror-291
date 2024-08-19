@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ultrashort
+Version: 0.0.4
+Summary: Let us drive a quantum state with an ultrashort pulse.
+Author-email: Seongjin Ahn <seongjin.ahn@kaist.ac.kr>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# A light-matter interaction with an ultrashort pulse
