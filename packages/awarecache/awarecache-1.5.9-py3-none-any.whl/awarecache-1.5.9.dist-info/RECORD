@@ -1,0 +1,8 @@
+awarecache/__init__.py,sha256=JsvJ5GSvQZ9DjAoUcmeb5-6PT6cJNAHGzxNt8jrSOHs,471
+awarecache/cache.py,sha256=sKIBMV-ETTdcW5wdf4sh8DRqSr7lJQYq9EoHTodt-k4,5600
+awarecache/cache_metrics.py,sha256=qKcIpV2kbTfPttJyM6v2v4d99yXgZ5YewkUfXeakgrg,820
+awarecache/cache_strategies.py,sha256=T9zW1xj4InOS701O8jSorq7VSPR45pvmYO2dPiy4w90,14677
+awarecache-1.5.9.dist-info/METADATA,sha256=jLGohRIYLV20dCEEocA2pgz1sxVUuOt393ND4_214Zs,3208
+awarecache-1.5.9.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+awarecache-1.5.9.dist-info/top_level.txt,sha256=CZjjzgLdM92haxSxB_yf3g24T2DvUkPI70xUxLxx_i0,11
+awarecache-1.5.9.dist-info/RECORD,,
