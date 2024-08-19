@@ -1,0 +1,14 @@
+jax_fem/__init__.py,sha256=MQTeija4IFCjNQdaNUJRr0Ju2qWPmu-HYq3SfzPIzjA,215
+jax_fem/basis.py,sha256=ROzud4DpvyrBMfls6cK6Jg5vIjELi_7XhgSMAdIit_s,7997
+jax_fem/fe.py,sha256=OuutCy8qgAyPfj-fjDqW3gm_3vQjvIAh4SALFvHzFSw,20078
+jax_fem/generate_mesh.py,sha256=BZKybM1cbgImhWAEEw3aRbmCQB9Yk4qOy0IUzMqLVa0,9368
+jax_fem/logger_setup.py,sha256=3sMPIS-leKpN-YL3LnrLp-sT1uJm70Y3YmenYpSatqA,923
+jax_fem/mma.py,sha256=BbI_5qn-Pob1iqv4AKUhal65gJjWN9WuHiMpry58EMk,16848
+jax_fem/problem.py,sha256=by-WI9BSWvqqnbMwI_tUgKgJYHpEnDuyrL4Yklu6euY,21926
+jax_fem/solver.py,sha256=PIBvMbPIsXqPSV7p81wIrJQ2-1xn3gT-2cAc4Q39fE0,27536
+jax_fem/utils.py,sha256=W6xEOsvnkzfv5qlXj36Ohc5OxH4Y80plpoHC-Vnxa-A,4251
+jax_fem-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jax_fem-0.0.7.dist-info/METADATA,sha256=Cq-B6uxPaXBngTgVZZ__BAooj0QcmFUe_b-VXttdwJM,50448
+jax_fem-0.0.7.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+jax_fem-0.0.7.dist-info/top_level.txt,sha256=ThaYBGBw3LGPQkQXmO_0N2o57tyzJGH3OSpZJy-TndE,8
+jax_fem-0.0.7.dist-info/RECORD,,
