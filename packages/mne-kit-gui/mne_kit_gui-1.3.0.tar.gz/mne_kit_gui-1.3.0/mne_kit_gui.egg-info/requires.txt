@@ -1,0 +1,14 @@
+numpy
+scipy
+mayavi
+mne>=0.23
+
+[test]
+flake8
+pydocstyle
+pytest
+pytest-cov
+check-manifest
+twine
+wheel
+pyvista
