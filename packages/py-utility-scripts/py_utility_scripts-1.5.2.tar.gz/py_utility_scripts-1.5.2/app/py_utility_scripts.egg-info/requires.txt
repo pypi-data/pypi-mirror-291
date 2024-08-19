@@ -1,0 +1,15 @@
+xlsxwriter
+openpyxl
+pandas
+python-dotenv
+pydantic-settings
+mysql-connector-python
+fastapi
+uvicorn
+PyJWT
+email-validator
+
+[dev]
+pytest
+pytest-asyncio
+twine
