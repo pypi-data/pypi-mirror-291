@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: YCPython
+Version: 0.0.1.6
+Summary: Python package by YuChulYANG
+Home-page: https://gitlab.com/ycyang/YCPython/
+Author: YuChul YANG
+Author-email: yangyuchul@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+## Getting started
+```
+git clone https://gitlab.com/ycyang/YCPython.git
+```
+
+```
+#python etc/makePYPI.py sdist bdist_wheel
+#python -m twine upload dist/*
+
+python etc/makePYPI.py bdist_wheel
+twine upload dist/*.whl
+```
+
+
