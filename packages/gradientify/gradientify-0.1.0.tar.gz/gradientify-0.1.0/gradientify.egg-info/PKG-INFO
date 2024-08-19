@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gradientify
+Version: 0.1.0
+Summary: A python package for gradient prints or inputs
+Home-page: https://github.com/knelly999/gradientify
+Author: knelly999
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# pygradient
+A python module focused on gradients
+
+
