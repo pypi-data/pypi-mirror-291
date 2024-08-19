@@ -1,0 +1,1 @@
+<span{% if instance.attributes %}{% for name, value in instance.attributes.items %} {{ name }}="{{ value }}"{% endfor %}{% endif %}>{{ instance.value|default_if_none:"" }}</span>
