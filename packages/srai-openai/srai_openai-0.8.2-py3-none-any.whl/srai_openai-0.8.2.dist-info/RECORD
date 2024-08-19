@@ -1,0 +1,11 @@
+srai_openai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+srai_openai/client_openai_audio.py,sha256=ML6pzyasnYxp1JZdRcQ5rtCS7TNAT65TZP4BwwXsUx4,2400
+srai_openai/client_openai_chatgpt.py,sha256=Hs-VQP2G9vxwrn0ND0M2kCWsh9OMqtAS4iQAMZaIPD8,6308
+srai_openai/client_openai_embedding.py,sha256=hJxDrgDX8ZpHAvSJx-aCTSFPqITpntb7dBn7nJB3tyI,896
+srai_openai/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+srai_openai/model/chatgpt_tool.py,sha256=fL2nmgezCEkjEC41wDnlZKLYFN11OS6eimdDIZOBS-E,5016
+srai_openai/model/prompt_config.py,sha256=lRrUOHLXUSYzhl0ZvaI65kFQ09PEKOKQLa0tXR_loa8,12770
+srai_openai-0.8.2.dist-info/LICENSE.txt,sha256=8MmucwM18TnurVNxRgaZMdYKSRqD1ouaZxv3kWjnVIQ,1092
+srai_openai-0.8.2.dist-info/METADATA,sha256=AdiFAGYwKWfi5cdPVt36s-CsZTyF7Th-yR4BPMRsXYE,3306
+srai_openai-0.8.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+srai_openai-0.8.2.dist-info/RECORD,,
