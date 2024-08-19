@@ -1,0 +1,2 @@
+[aerovaldb]
+json_files = aerovaldb.jsondb:AerovalJsonFileDB
