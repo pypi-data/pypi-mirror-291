@@ -1,0 +1,73 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+description = "reason about papers using LLMs"
+name = "papersai"
+version = "0.0.1"
+authors = [{ name = "Saurav Maheshkar", email = "sauravvmaheshkar@gmail.com" }]
+readme = ".github/README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "llama-index",
+    "llama-index-embeddings-huggingface",
+    "llama-index-llms-anthropic",
+    "nltk==3.9b1",
+    "python-dotenv",
+    "requests",
+    "rich"
+]
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev = ["black", "isort", "mypy>=0.900", "pre-commit>=2.18.0", "pytest", "ruff"]
+hf = ["llama-index-llms-huggingface"]
+
+[project.scripts]
+papersai-summarize = "papersai.cli.summarize:summarize_cli"
+papersai-qna = "papersai.cli.qna:qna_cli"
+daily-papers-cli = "papersai.cli.daily_papers:daily_papers_cli"
+
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["W605"]
+
+[tool.ruff.format]
+indent-style = "tab"
+docstring-code-format = true
+
+[tool.ruff.lint.isort]
+lines-after-imports = 2
+
+[[tool.mypy.overrides]]
+module = [
+    "llama_index.embeddings.huggingface",
+    "llama_index.llms.anthropic",
+    "llama_index.llms.huggingface",
+]
+ignore_missing_imports = true
