@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: potime
+Version: 0.0.3
+Summary: pip install potime
+Home-page: https://www.python-office.com/
+Author: CoderWanFeng
+Author-email: 1957875073@qq.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/CoderWanFeng/potime/issues
+Project-URL: Documentation, https://github.com/CoderWanFeng/potime/blob/master/README.md
+Project-URL: Source Code, https://github.com/CoderWanFeng/potime
+Platform: any
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
