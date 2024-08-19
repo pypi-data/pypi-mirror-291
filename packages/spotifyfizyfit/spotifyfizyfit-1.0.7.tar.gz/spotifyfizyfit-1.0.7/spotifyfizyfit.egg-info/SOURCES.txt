@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+spotifyfizyfit/__init__.py
+spotifyfizyfit/runner.py
+spotifyfizyfit.egg-info/PKG-INFO
+spotifyfizyfit.egg-info/SOURCES.txt
+spotifyfizyfit.egg-info/dependency_links.txt
+spotifyfizyfit.egg-info/entry_points.txt
+spotifyfizyfit.egg-info/requires.txt
+spotifyfizyfit.egg-info/top_level.txt
