@@ -1,0 +1,66 @@
+[project]
+name = "saa"
+version = "0.0.8"
+description = "Converting time into natural language phrases"
+authors = [
+    { name = "Prayson W. Daniel", email = "praysonpi@gmail.com" },
+]
+dependencies = []
+requires-python = ">= 3.8"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff>=0.5.6",
+    "pytest>=8.3.2",
+    "pyright>=1.1.374",
+]
+
+[tool.rye.scripts]
+fmt = "rye fmt"
+lint = "rye lint --fix"
+check = "pyright"
+test = "rye test"
+
+[tool.rye.scripts.all]
+chain = [
+    "fmt",
+    "lint",
+    "check",
+    "test",
+]
+
+[tool.ruff.lint]
+select = [
+    "A",
+    "E",
+    "F",
+    "I",
+    "N",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"src/saa/*/*.py" = [
+    "N805",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+include = [
+    "src",
+]
+exclude = [
+    "src/saa/luga",
+    "src/saa/core/*",
+]
+
+[tool.urls]
+Homepage = "https://github.com/Proteusiq/saa"
+"Bug Tracker" = "https://github.com/Proteusiq/saa/issues"
