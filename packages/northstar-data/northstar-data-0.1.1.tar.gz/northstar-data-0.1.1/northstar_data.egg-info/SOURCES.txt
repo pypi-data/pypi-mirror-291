@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+northstar/__init__.py
+northstar_data.egg-info/PKG-INFO
+northstar_data.egg-info/SOURCES.txt
+northstar_data.egg-info/dependency_links.txt
+northstar_data.egg-info/not-zip-safe
+northstar_data.egg-info/top_level.txt
