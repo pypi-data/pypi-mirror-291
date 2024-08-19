@@ -1,0 +1,68 @@
+## -*- coding: utf-8; -*-
+
+<script type="text/x-template" id="${form.vue_tagname}-template">
+  ${h.form(form.action_url, method='post', enctype='multipart/form-data', **form_attrs)}
+    ${h.csrf_token(request)}
+
+    <section>
+      % for fieldname in form:
+          ${form.render_vue_field(fieldname)}
+      % endfor
+    </section>
+
+    % if not form.readonly:
+        <div style="margin-top: 1.5rem; display: flex; gap: 0.5rem; justify-content: ${'end' if form.align_buttons_right else 'start'}; width: 100%; padding-left: 10rem;">
+
+          % if form.show_button_cancel:
+              <wutta-button ${'once' if form.auto_disable_cancel else ''}
+                            tag="a" href="${form.get_cancel_url()}"
+                            label="${form.button_label_cancel}" />
+          % endif
+
+          % if form.show_button_reset:
+              <b-button native-type="reset">
+                Reset
+              </b-button>
+          % endif
+
+          <b-button type="${form.button_type_submit}"
+                    native-type="submit"
+                    % if form.auto_disable_submit:
+                        :disabled="formSubmitting"
+                    % endif
+                    icon-pack="fas"
+                    icon-left="${form.button_icon_submit}">
+            % if form.auto_disable_submit:
+                {{ formSubmitting ? "Working, please wait..." : "${form.button_label_submit}" }}
+            % else:
+                ${form.button_label_submit}
+            % endif
+          </b-button>
+
+        </div>
+    % endif
+
+  ${h.end_form()}
+</script>
+
+<script>
+
+  let ${form.vue_component} = {
+      template: '#${form.vue_tagname}-template',
+      methods: {},
+  }
+
+  let ${form.vue_component}Data = {
+
+      % if not form.readonly:
+
+          modelData: ${json.dumps(model_data)|n},
+
+          % if form.auto_disable_submit:
+              formSubmitting: false,
+          % endif
+
+      % endif
+  }
+
+</script>
