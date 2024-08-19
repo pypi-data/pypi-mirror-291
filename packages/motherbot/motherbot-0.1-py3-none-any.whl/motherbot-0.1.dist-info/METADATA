@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: motherbot
+Version: 0.1
+Summary: Final project for Python course => MotherBot
+Home-page: https://github.com/Iryna-Holova/goit-pycore-final
+Author: Kateryna Tkachenko
+Author-email: tkachenko.city@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyfiglet
+Requires-Dist: fuzzywuzzy
+Requires-Dist: tabulate
+Requires-Dist: cfgv
+Requires-Dist: colorama
+Requires-Dist: distlib
+Requires-Dist: Faker
+Requires-Dist: filelock
+Requires-Dist: identify
+Requires-Dist: Levenshtein
+Requires-Dist: markdown-it-py
+Requires-Dist: mdurl
+Requires-Dist: nodeenv
+Requires-Dist: platformdirs
+Requires-Dist: pre-commit
+Requires-Dist: prompt-toolkit
+Requires-Dist: Pygments
+Requires-Dist: python-dateutil
+Requires-Dist: python-Levenshtein
+Requires-Dist: PyYAML
+Requires-Dist: rapidfuzz
+Requires-Dist: rich
+Requires-Dist: six
+Requires-Dist: virtualenv
+Requires-Dist: wcwidth
+
+# goit-pycore-final
