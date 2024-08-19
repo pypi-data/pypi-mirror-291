@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wdod-client-wrapper
+Version: 1.0.0
+Summary: WDOD v2 API client wrapper
+Author-email: 
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 ==1.26.12
+Requires-Dist: requests ==2.31.0
+
+README.md
