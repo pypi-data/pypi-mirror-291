@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "grad-cam-orobix"
+version = "1.5.3.dev001"
+description = "Many Class Activation Map methods implemented in Pytorch. Including Grad-CAM, Grad-CAM++, Score-CAM, Ablation-CAM and XGrad-CAM"
+authors = [
+    "Jacob Gildenblat <jacob.gildenblat@gmail.com>",
+    "Lorenzo Mammana <lorenzo.mammana@orobix.com>",
+]
+packages = [{ include = "pytorch_grad_cam" }]
+license = "MIT"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = ">=1.20.0"
+Pillow = ">=9.0.0"
+torch = ">=1.7.1"
+torchvision = ">=0.8.2"
+ttach = ">=0.0.3"
+tqdm = ">=4.66.0"
+opencv-python-headless = ">=4.7.0.72"
+matplotlib = ">=3.6.0"
+scikit-learn = ">=1.2.0"
