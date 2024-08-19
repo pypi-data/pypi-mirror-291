@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: hermalog
+Version: 0.1.0
+Summary: A simple logging library for Python
+Author-email: Chinmay Shah <hi@chinmayshah.xyz>
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hermalog
+
+Describe your project here.

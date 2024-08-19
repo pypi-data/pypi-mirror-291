@@ -1,0 +1,9 @@
+hermalog/__init__.py,sha256=lqSlGmi5ZCtJupik0_xx-MnfvcUAAJws9Csr1L5AU_o,286
+hermalog/configurations.py,sha256=CZwTvQEkRPuGTsi0wO4iHGoayFXIEgeAkluf5JySBEw,658
+hermalog/customLogging.py,sha256=IuVUlQD1vBMfUtoT5CGp6NA7pWfThxEs0tJ9pgjL8ug,5625
+hermalog/loggingBasic.py,sha256=cTMunkPF93f90sZodXQ7EAiqYw_OIfyGpcr4MLWUnLo,791
+hermalog/simpleLogging.py,sha256=qWc_ANPMN3dBbLPRcyMb6Pg_yqoMC7OR33H49IIa2KI,1781
+hermalog-0.1.0.dist-info/METADATA,sha256=iG8Rb8PuIMwSAIDzyCzERRZ5uJcMOdI4mjmLG_lNOD0,271
+hermalog-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hermalog-0.1.0.dist-info/licenses/LICENSE,sha256=jWV29c9kwh7FBz4apL2O0IG7aOHJ9QK1bhf3hovGyv4,1069
+hermalog-0.1.0.dist-info/RECORD,,
