@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "mocksign"
+version = "0.1.2"
+description = "Easily simulate printing, hand-signing and scanning of documents, inspired by FalsiSign."
+authors = ["Stephan Rumswinkel <17520641+srwi@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/srwi/mocksign"
+packages = [{include = "mocksign", from = "src"}]
+
+[tool.poetry.scripts]
+mocksign = "mocksign.mocksign:main"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+testpaths = [
+    "test"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "4.10.0.84"
+Pillow = "10.4.0"
+PyMuPDF = "1.24.9"
+FreeSimpleGUI = "5.1.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "0.6.1"
+mypy = "1.11.1"
+pytest = "8.3.2"
+poethepoet = "0.27.0"
+types-pillow = "^10.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+mypy = "mypy ."
+format = "ruff format ."
+format-check = "ruff format . --check"
+ruff = "ruff check ."
+ruff-fix = "ruff check --fix ."
+test = "pytest test"
+
+[tool.mypy]
+namespace_packages = true
+disallow_any_generics = true
+disallow_untyped_defs = true
+warn_redundant_casts = true
+strict_equality = true
+warn_unreachable = true
+ignore_missing_imports = true
+
+[tool.ruff]
+exclude = [
+    ".git",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".vscode",
+    ".idea",
+]
+line-length = 120
+indent-width = 4
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["ANN", "E", "F", "I"]
+ignore = [
+    "ANN101",  # self should not be annotated.
+    "ANN102"  # cls should not be annotated.
+]
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
