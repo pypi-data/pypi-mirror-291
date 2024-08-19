@@ -1,0 +1,16 @@
+FROM --platform={{ PLATFORM }} {{ ENV_IMAGE_NAME }}
+
+WORKDIR /workspace/app
+
+COPY ./setup_workspace.sh /root/
+RUN /bin/bash /root/setup_workspace.sh
+
+SHELL ["/bin/bash", "-c"]
+RUN source /opt/miniconda3/bin/activate && \
+	conda activate {{ CONDA_PROFILE }} && \
+	cd /workspace/app && \
+	python -m tree_sitter_tools.indexer && \
+    mkdir -p /workspace/index && \
+    mv symbol_index.parquet /workspace/index/
+
+CMD ["sleep", "{{ TIMEOUT_SECONDS | default(900) }}"]
