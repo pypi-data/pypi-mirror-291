@@ -1,0 +1,37 @@
+Metadata-Version: 2.3
+Name: dashai_test_tabular_classification_plugin
+Version: 0.0.3
+Summary: Tabular Classification Plugin
+Author: DashAI team
+Author-email: dashaisoftware@gmail.com
+Keywords: DashAI,Dataloader,Model,Task
+Requires-Python: >=3.8
+Requires-Dist: dashai-test-classification-metrics-plugin
+Requires-Dist: scikit-learn>=1.2.1
+Description-Content-Type: text/markdown
+
+# **Tabular Classification Plugin**
+
+## **Components included**
+
+The ML components included in this plugin are the following:
+
+### **Task**
+
+- Tabular Classification Task
+
+### **Dataloader**
+
+- CSV Dataloader
+- JSON Dataloader
+
+### **Modelos**
+
+Classifiers for tabular classification from Scikit-learn library
+
+- SVC (Support Vector Classifier)
+- KNN
+- Random Forest
+- Decision tree
+- Hist. Gradient Boosting
+- Logistic regression classifier
