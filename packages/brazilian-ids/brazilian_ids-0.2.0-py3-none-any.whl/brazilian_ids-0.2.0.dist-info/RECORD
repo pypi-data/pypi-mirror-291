@@ -1,0 +1,15 @@
+brazilian_ids/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brazilian_ids/functions/exceptions.py,sha256=Id0daqZ2bemggPv5Xu_WJ7Q3mI_yv3lIbY5FVxBpxdc,1013
+brazilian_ids/functions/util.py,sha256=chVh1uEPtxjnB2vQHs7dKDLRCYo2x_kwkiw4Oh5ycBQ,122
+brazilian_ids/functions/company/cnpj.py,sha256=Oz5ka8bzn5O9gbmJX7jII4RwasTxrVzpDWgLFYRKcHQ,5468
+brazilian_ids/functions/labor_dispute/nupj.py,sha256=QJ6Vg9Wu08gJfZrQkibuOT0gcS7VK5D9pl4PX2Ltjl4,14483
+brazilian_ids/functions/location/cep.py,sha256=ps0JwsV2D2D9itNyKY-Wxf2eMWd1U1WuHP3uBxrjxlU,1850
+brazilian_ids/functions/location/municipio.py,sha256=fXgyGslmDYPp1YSWplQ1zj-Myp6Xq5kpvubeN6Jj4xk,5971
+brazilian_ids/functions/person/cpf.py,sha256=mGKH-jzvW3tSMM_4MwDeyBzJwDEAEpwH20xBvvLw0Oc,3152
+brazilian_ids/functions/person/pis_pasep.py,sha256=S637rJmKJym19Iecydh-aMW2PeqcT3v9aPMzN1baw5I,2762
+brazilian_ids/functions/real_state/cno.py,sha256=kBUs_s1TNlwrz7RVwdGULBqT5HLy_NCBF5syUbhhrUY,3250
+brazilian_ids/functions/real_state/sql.py,sha256=1D5q9FqUtZ5yRT3TXQyhVvi0o1tG16pL-mYPmZZTF5M,3511
+brazilian_ids-0.2.0.dist-info/METADATA,sha256=FKSY2cnkHfWGfKkD4aXKumDqLWQW1oMALSxDN8DoC00,42637
+brazilian_ids-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+brazilian_ids-0.2.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+brazilian_ids-0.2.0.dist-info/RECORD,,
