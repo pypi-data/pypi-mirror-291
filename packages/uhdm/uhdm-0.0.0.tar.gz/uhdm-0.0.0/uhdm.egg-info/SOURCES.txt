@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+uhdm.egg-info/PKG-INFO
+uhdm.egg-info/SOURCES.txt
+uhdm.egg-info/dependency_links.txt
+uhdm.egg-info/top_level.txt
