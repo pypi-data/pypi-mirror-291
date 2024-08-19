@@ -1,0 +1,10 @@
+metabase_query/__init__.py,sha256=oP4yhTrJBwHdjoe3ZIK1694Xp2u4wWOGUOFglC2DguA,8971
+metabase_query/card.py,sha256=FX-X-zNRPJmNmqbGtz0eqzSpFKwjzAtfc6v3AAI6DCI,8720
+metabase_query/dataset.py,sha256=yUj4zBPtyFmWTdxcBefP0ARQ743QK2PUV38Ce02IO0A,7219
+metabase_query/sql.py,sha256=H2la7F4-Dt9dnD4qhSQ1JDZH43c7teK8lV8uoFXKAjg,7724
+metabase_query/utils.py,sha256=Ej-rcFSA3zdve4hfJmTRC2MFbEWWRIISlgsNC0vefqM,1857
+metabase_query-1.0.3.dist-info/LICENSE,sha256=gJB-pOm1lQ_Eu7XmmLkCOU8PRy20r8LUz2Ux6B4kzcU,1076
+metabase_query-1.0.3.dist-info/METADATA,sha256=mEKgLlPZZUp8vyY1paM0u0WigALUffDzXYQOByVCJHQ,6846
+metabase_query-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+metabase_query-1.0.3.dist-info/top_level.txt,sha256=GEdfsnlaW5Y8QXliL-YFsT_CvRXD1dWza8ypaBDupq8,15
+metabase_query-1.0.3.dist-info/RECORD,,
