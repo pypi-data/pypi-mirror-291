@@ -1,0 +1,3 @@
+[console_scripts]
+daily-papers-cli=daily_papers.cli:drills_cli
+
