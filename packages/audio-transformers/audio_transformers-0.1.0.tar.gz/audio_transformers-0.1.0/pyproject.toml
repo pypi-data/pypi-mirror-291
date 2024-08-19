@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "audio-transformers"
+version = "0.1.0"
+description = "Audio data transformations library with a command-line interface."
+authors = ["Stepan Anokhin <stepan.anokhin@gmail.com>"]
+include = ["README.md"]
+readme = "README.md"
+homepage = "https://github.com/stepan-anokhin/audio-transformers"
+repository = "https://github.com/stepan-anokhin/audio-transformers"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.0.1"
+scipy = "^1.14.0"
+ffmpegio = "^0.10.0.post0"
+pytest-cov = "^5.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pytest = "^8.3.2"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
