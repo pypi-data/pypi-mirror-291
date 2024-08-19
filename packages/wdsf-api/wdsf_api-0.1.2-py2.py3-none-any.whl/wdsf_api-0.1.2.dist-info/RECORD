@@ -1,0 +1,9 @@
+wdsf_api/__init__.py,sha256=r_cKr7sbAG8wXvZQ-5WkC2eXGKMDWp6Xe_hNXu43MT0,21
+wdsf_api/client.py,sha256=ZBxM-7RjHitUbW20KoII1cf7gHeg5ph5F-HfMxcUB7A,9263
+wdsf_api/deprecated_parser.py,sha256=xvJYKD_Ef1659H6svqwBofeKzgme2L9FNu5XQ9Nsu0w,2671
+wdsf_api/deprecated_session.py,sha256=kQ6Ly_bA1ph36dyk3e6mVSMT9UeqcVPUrVwuiNSbGEE,500
+wdsf_api/schema.py,sha256=EsufGkCSiouxewvks2MvIrIF6AggmLOSEuUv-XVMncM,1945
+wdsf_api-0.1.2.dist-info/METADATA,sha256=HEzcenD2F-A9FK3JWnLpUSYhbZossPs-WpQ8NeJf3XU,1663
+wdsf_api-0.1.2.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+wdsf_api-0.1.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wdsf_api-0.1.2.dist-info/RECORD,,
