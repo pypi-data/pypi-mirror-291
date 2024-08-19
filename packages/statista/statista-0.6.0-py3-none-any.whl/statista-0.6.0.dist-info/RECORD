@@ -1,0 +1,15 @@
+statista/__init__.py,sha256=ncklXZjoruTb9bXFDV84KLCCVufYSreoprB-Z0-8dCM,1000
+statista/confidence_interval.py,sha256=d01CUBvF-R5lk6t_jzUiBIBCF4GqmwH4j36P5JxhtaY,5008
+statista/descriptors.py,sha256=dR927h4hM1lE5MWj-e9r5d7xKaPT2VnLcL2cQqdM8JU,11790
+statista/distributions.py,sha256=yzYgGy33r3Npny-plmDSYUUDjjtDmPG0P7VAoIWowS8,115239
+statista/eva.py,sha256=EMVK-607BSqybe8DP_ElyUlSnPBNySJmkBQgxtq5_B4,17836
+statista/parameters.py,sha256=f6_jipOJTOPUsFIGuEMUUrqTS2gV0HfulT3JuHNqWZ4,25917
+statista/plot.py,sha256=1MbsYH0to9o_4Jh4w5U0oM9rCVpxCvX8OOWN6WZJHCE,7062
+statista/sensitivity.py,sha256=wE6aTNIF_tRb19-23WScEUgJ8tX7OoQWgwRBIatJxkM,13448
+statista/tools.py,sha256=Febk3u5ddGZRr2_T_n3F2FZN0bNqSm8Qlas2p__eeqk,5041
+statista-0.6.0.dist-info/AUTHORS.rst,sha256=dPWD1hHy9KROqHoAqYAj9sRSNL-N61iALRoDkPOxYJc,160
+statista-0.6.0.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+statista-0.6.0.dist-info/METADATA,sha256=xczAj3CpAzUe9r20YfDm1b9nib-2CoWaQyuXmFWdnVg,9528
+statista-0.6.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+statista-0.6.0.dist-info/top_level.txt,sha256=JKoF-xHeXPwbVCx2jNwfRr7kt8jF-Z8Ndv5BR44UtyY,9
+statista-0.6.0.dist-info/RECORD,,
