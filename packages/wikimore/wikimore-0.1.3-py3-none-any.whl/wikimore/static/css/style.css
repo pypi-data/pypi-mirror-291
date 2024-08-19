@@ -1,0 +1,615 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Link styling */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styling */
+#header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#header h1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Search styling */
+#search-form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#search-form input[type="text"],
+#search-form select,
+#search-form button {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#search-form input[type="text"] {
+    width: 300px;
+    padding: 5px;
+}
+
+#search-form select,
+#search-form button {
+    padding: 5px;
+}
+
+/* Content styling */
+#content {
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* General sidebar styling */
+.sidebar {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    float: right;
+    width: 250px;
+    box-sizing: border-box;
+    clear: right;
+}
+
+.sidebar-title-with-pretitle,
+.sidebar-list-title {
+    background-color: #ccccff;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.4em 0;
+    text-align: center;
+}
+
+.sidebar-image {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.sidebar-content {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.sidebar-content a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.sidebar-content a:hover {
+    text-decoration: underline;
+}
+
+.sidebar-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Collapsible sections */
+.sidebar-list {
+    position: relative;
+}
+
+.sidebar-list-title {
+    cursor: pointer;
+    background-color: #ddddff;
+    text-align: center;
+    padding: 0.5em;
+    color: var(--color-base);
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-list-title:after {
+    content: "\25BC";
+    /* Down arrow */
+    float: right;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-list:hover .sidebar-list-title:after,
+.sidebar-list:focus-within .sidebar-list-title:after {
+    transform: rotate(-180deg);
+    /* Rotate arrow to point up */
+}
+
+.sidebar-list-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.sidebar-list:hover .sidebar-list-content,
+.sidebar-list:focus-within .sidebar-list-content {
+    max-height: 1000px;
+}
+
+
+.toc {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc li {
+    margin-bottom: 5px;
+}
+
+#footer {
+    background-color: #ffffff;
+    border-top: 1px solid #a2a9b1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* General table styling */
+.table {
+    margin: 1em auto;
+    font-size: small;
+    border-collapse: collapse;
+    max-width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    display: block;
+    overflow-x: auto;
+}
+
+.table th {
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table td div {
+    font-weight: bold;
+}
+
+/* Specific class styling */
+.succession-box {
+    clear: both;
+}
+
+.noprint {
+    display: none;
+}
+
+.hatnote {
+    margin: 1em 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    font-size: small;
+    font-style: italic;
+}
+
+.ambox {
+    margin: 1em 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    font-size: small;
+}
+
+/* Navbox styling */
+.navbox {
+    padding: 3px;
+    background-color: #f9f9f9;
+    margin-bottom: 1em;
+    font-size: small;
+}
+
+.navbox-title,
+.navbox-group,
+.navbox-abovebelow {
+    background-color: #bbddff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbox-title {
+    font-size: 114%;
+    margin: 0 4em;
+}
+
+.navbox-group {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbox-inner {
+    border-spacing: 0;
+    background: transparent;
+    color: inherit;
+}
+
+.navbox-list-with-group {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.navbar {
+    text-align: center;
+    padding: 5px;
+}
+
+.hlist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hlist ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Authority control styling */
+.authority-control {
+    padding: 3px;
+    text-align: left;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+}
+
+/* Sidebar styling */
+.infobox {
+    float: right;
+    margin: 1em;
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: small;
+    border-collapse: collapse;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    clear: right;
+}
+
+.infobox-above,
+.infobox-header {
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.infobox-above a,
+.infobox-header a {
+    color: white;
+}
+
+.infobox-subheader {
+    background-color: #bbddff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.infobox-full-data,
+.infobox-label,
+.infobox-data {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.infobox-label {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+}
+
+.ib-settlement-cols {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.ib-settlement-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Figure styling */
+figure,
+.tmulti,
+.thumb {
+    margin: 1em 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    width: fit-content;
+}
+
+figure img,
+.tmulti .mw-file-element,
+.thumb img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption,
+.thumbcaption {
+    margin-top: 10px;
+    font-size: small;
+    color: #555;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.mw-halign-left,
+.tleft {
+    float: left;
+    clear: left;
+    margin-right: 1em;
+}
+
+.mw-halign-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mw-halign-right,
+.tright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+}
+
+.mw-default-size {
+    width: fit-content;
+    float: right;
+    clear: right;
+    max-width: 300px;
+}
+
+/* Reference styling */
+.reflist-lower-alpha .references {
+    list-style-type: lower-alpha;
+}
+
+/* Interwiki link styling */
+.sister-logo {
+    display: inline-block;
+}
+
+.sister-link {
+    display: inline;
+    margin-left: 5px;
+}
+
+span {
+    display: inline;
+}
+
+/* Side box styling */
+.side-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    float: right;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    clear: right;
+}
+
+.side-box-right {
+    float: right;
+}
+
+.side-box-flex {
+    display: flex;
+    align-items: center;
+}
+
+.side-box-image {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.side-box-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.side-box-text {
+    flex: 1 1 auto;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.side-box-text a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.side-box-text a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for devices with a max width of 768px */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header h1 {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    #content {
+        padding: 10px;
+    }
+
+    .sidebar,
+    .infobox {
+        max-width: 100%;
+        margin: 10px 0;
+        float: none;
+        clear: none;
+    }
+
+    .table {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    figure,
+    .tmulti {
+        max-width: 100%;
+        display: block;
+        margin: 10px 0;
+    }
+
+    .side-box {
+        max-width: 100%;
+        margin: 10px 0;
+        float: none;
+        clear: none;
+    }
+}
+
+/* Media query for devices with a max width of 480px */
+@media (max-width: 480px) {
+    #header {
+        padding: 10px;
+    }
+
+    #header h1 {
+        font-size: 1em;
+    }
+
+    #search-form input[type="text"],
+    #search-form select,
+    #search-form button {
+        padding: 10px;
+    }
+
+    #content {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .sidebar,
+    .infobox {
+        max-width: 100%;
+        margin: 5px 0;
+        float: none;
+        clear: none;
+    }
+
+    .sidebar-content {
+        font-size: 0.8em;
+    }
+
+    .table th,
+    .table td {
+        padding: 5px;
+    }
+
+    figure,
+    .tmulti {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+
+    .side-box {
+        max-width: 100%;
+        margin: 5px 0;
+        float: none;
+        clear: none;
+    }
+
+    .side-box-text {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,12 @@
+wikimore/__init__.py,sha256=jArxVms_ZS6eug_h3jSt4pbNpU0XFAAkZ_qbrA9Xrk8,40
+wikimore/app.py,sha256=X8TFKUhmC79Vuz16P0yPAdSCSrOsHQxx_4Wc0Z22ulw,7557
+wikimore/static/css/style.css,sha256=iaTIHzX0byFtOfsDkkmygOkmVZbE6CsmTj2oLaApSYE,9673
+wikimore/templates/article.html,sha256=4PIOZQWQrvxHEzQuDUyMllVwYLB9zMXqKyIZgwsmKbc,116
+wikimore/templates/base.html,sha256=W1ck79N2ywflfZtRibOfaeelrJWTQRLdcI7ev5XSX3g,1411
+wikimore/templates/home.html,sha256=ZenDwmGu4OVi23fQpy81x2XewGcmJ9EZQAzS214_Gkc,162
+wikimore/templates/search_results.html,sha256=h_eJGlFLi5Q08lX2_P_O8iXm_Otefi6NFGQjPPdaFR8,394
+wikimore-0.1.3.dist-info/METADATA,sha256=5pDPAqYj2kexf2qzBHS3O9UUzv5QTCqx7NoKP-k3pxw,4732
+wikimore-0.1.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+wikimore-0.1.3.dist-info/entry_points.txt,sha256=OOJ4rrWxoLucPvzdlGsjBa495W-XZOsDGbWFPC5qll4,47
+wikimore-0.1.3.dist-info/licenses/LICENSE,sha256=ODY5kS39I2tgCn6DhxnENgRHey4Z3Gz9-L0uzRd5VnQ,1088
+wikimore-0.1.3.dist-info/RECORD,,
