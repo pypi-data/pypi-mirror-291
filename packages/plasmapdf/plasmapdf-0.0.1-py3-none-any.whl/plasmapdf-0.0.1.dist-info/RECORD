@@ -1,0 +1,11 @@
+plasmapdf/__about__.py,sha256=gjNCMipyjzqERslkKJVtUQKHbR1sTafJjqqQYiXZHho,124
+plasmapdf/__init__.py,sha256=a_4-PUMffcJXmmc5ovP8TykF3xw5VjTMktwBiaIkwUw,101
+plasmapdf/models/PdfDataLayer.py,sha256=8H4-7NWg7sUCgdYWc0a8lm0Qi-rbaNCSVkN1bTDj2Y8,16919
+plasmapdf/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plasmapdf/models/types.py,sha256=ieyrbWFqxg54uXMGAsS1f4gzva46p_aQng60Z-Oiwsk,8861
+plasmapdf/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plasmapdf/utils/utils.py,sha256=Oytal8oNrE2jOllJxBN_5I0dMEGI2Ijj4PhCiB9kWfs,2134
+plasmapdf-0.0.1.dist-info/METADATA,sha256=BeRDtsr376G6doBKQweEJNcv4DaNYLpQa6LjrYS0PfA,5134
+plasmapdf-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+plasmapdf-0.0.1.dist-info/licenses/LICENSE.txt,sha256=ZiTkDktNtR41GZjhEhG4MsXuhrrnEpiUQRewzRhULKE,1099
+plasmapdf-0.0.1.dist-info/RECORD,,
