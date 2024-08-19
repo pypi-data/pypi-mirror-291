@@ -1,0 +1,16 @@
+ea2p/__init__.py,sha256=Sj_L-f5FkLtY8ciLc9PwLCrm6s15gV9_6jMPTM77VSQ,23
+ea2p/src/__init__.py,sha256=3f8hPe5OFtcaX1CeqLge4X4pwESw1Vm7ylauHGWvw2I,130
+ea2p/src/amd.py,sha256=VrEYpyUezOVKAo8DU9dM2YSIhAb07UwMCX3_Mslv2eg,4648
+ea2p/src/intel.py,sha256=Qn5Er18M0lrVownKBoBOGRVGddBtJ7qwfUxVMMeDBZs,5059
+ea2p/src/nvidia.py,sha256=5NGObZlaTd_PTgSyvgj4eBtMeE8Hg-rzn5I1_8bXTiY,1331
+ea2p/src/power.py,sha256=ffmpvoSDqAUSwyXbNguGLlVVRej6IiCTilISg5gDX58,2674
+ea2p/src/power_meter.py,sha256=yc4NEsY02p_clJ2S0475HjEdU2lh5E6IhPcYDOr7xMI,9977
+ea2p/src/power_meter_mpi.py,sha256=I3oSOX_a2QUYnMpWgi4wMC3HMi-Ez0Q8BeuWboRpBPQ,11582
+ea2p/src/ram.py,sha256=AhvZ9jEdR7yBEeUorDi1tGh9DZGyd4uSZXi0HCBnkoM,2547
+ea2p/src/utils.py,sha256=6SrNDF6VWeRzlYw0jvxrrSvW0JRxAXQYkfJdo-GAHuQ,1023
+ea2p/src/wrapper.py,sha256=tBkCS6-xSuIBvZe4-WOQai7_KBqpNuMDOqLJKMWcWW4,10371
+EA2P-1.0.1.dist-info/LICENSE,sha256=sK0uIbuIGxPRBo5elNtSUd8Ltdl14inzW5hqQze6ZO8,1064
+EA2P-1.0.1.dist-info/METADATA,sha256=vMEldb2OR71LiOHaPQIx7ZtCIJKO7yPA6PZ9MTvmJxk,8134
+EA2P-1.0.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+EA2P-1.0.1.dist-info/top_level.txt,sha256=fUMe6ozgZC_43jsFeuTUbZGG96LpYNLbazPmuRIdvCQ,5
+EA2P-1.0.1.dist-info/RECORD,,
