@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rosbag-to-dataframe
+Version: 0.1
+Summary: A package to extract data from ROS2 bag files into pandas DataFrames.
+Home-page: https://github.com/Abhayindia/rosbag_to_dataframe
+Author: Abhay Chaudhary
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
