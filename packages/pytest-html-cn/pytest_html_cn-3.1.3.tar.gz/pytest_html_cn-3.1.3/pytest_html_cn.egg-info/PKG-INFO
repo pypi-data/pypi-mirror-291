@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pytest-html-cn
+Version: 3.1.3
+Summary: pytest plugin for generating HTML reports
+Home-page: https://github.com/hanzhichao/pytest-html-cn
+Author: Han Zhichao
+Author-email: superhin@126.com
+License: Mozilla Public License 2.0 (MPL 2.0)
+Keywords: py.test pytest html report
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest!=6.0.0,>=5.0
+Requires-Dist: pytest-metadata
+Requires-Dist: py
+
+# pytest-html-cn
+![Languate - Python](https://img.shields.io/badge/language-python-blue.svg)
+![PyPI - License](https://img.shields.io/pypi/l/pytest-html-cn)
+![PyPI](https://img.shields.io/pypi/v/pytest-html-cn)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pytest-html-cn)
+
+pytest-html中文版,用于pytest测试执行后，生成HTML测试报告。
+
+## 安装方法
+```shell
+pip install pytest-html-cn
+```
+## 使用方式
+
+**test_demo.py**
+```python
+def test_a():
+    pass
+    
+def test_b():
+    pass
+```
+使用方法
+```shell
+pytest test_demo.py --html=测试报告.html
+```
+生成报告如下
+
+![pytest-html-cn](./docs/pytest-html-cn.png)
