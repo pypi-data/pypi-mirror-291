@@ -1,0 +1,10 @@
+README.md
+setup.py
+ipqr/__init__.py
+ipqr/ipqr.py
+ipqr.egg-info/PKG-INFO
+ipqr.egg-info/SOURCES.txt
+ipqr.egg-info/dependency_links.txt
+ipqr.egg-info/entry_points.txt
+ipqr.egg-info/requires.txt
+ipqr.egg-info/top_level.txt
