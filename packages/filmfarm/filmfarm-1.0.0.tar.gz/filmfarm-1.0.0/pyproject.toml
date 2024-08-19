@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "filmfarm"
+version = "1.0.0"
+description = "A toolkit to manage movie collections."
+authors = ["Yaniv Aknin <yaniv@aknin.name>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+filmfarm = "filmfarm.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["shellingham"], version = "^0.9.0"}
+requests = "^2.31.0"
+tmdbsimple = "^2.9.1"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
