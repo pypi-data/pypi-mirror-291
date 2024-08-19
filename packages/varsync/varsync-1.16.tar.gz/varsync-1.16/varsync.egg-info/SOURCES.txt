@@ -1,0 +1,11 @@
+README.md
+setup.py
+varsync/__init__.py
+varsync/cli.py
+varsync/varsync.py
+varsync.egg-info/PKG-INFO
+varsync.egg-info/SOURCES.txt
+varsync.egg-info/dependency_links.txt
+varsync.egg-info/entry_points.txt
+varsync.egg-info/requires.txt
+varsync.egg-info/top_level.txt
