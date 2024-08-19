@@ -1,0 +1,34 @@
+{
+    "provider": "anthropic",
+    "prompt_file_path": "prompts/01 - Generate titles.prompt",
+    "output_path": "output_directory",
+    "input_file": null,
+    "input_text": "",
+    "latency": 3.056156999999075,
+    "cost": 0.0,
+    "errors": {
+        "errors": [],
+        "duplicates": 0
+    },
+    "completion": {
+        "system_role": "You are a helpful assistant.",
+        "model": "claude-3-5-sonnet-20240620",
+        "parameters": {
+            "provider": "anthropic",
+            "model": "claude-3-5-sonnet-20240620",
+            "prompt_version": 1.0,
+            "max_tokens": 1000,
+            "input": "input/podcast_description.txt",
+            "output": "podcast_titles.txt"
+        },
+        "cost": 0.0,
+        "is_json": false,
+        "test_path": "",
+        "response_message": "Here are 5 potential titles for a podcast about AI and machine learning, focusing on MLOps, Explainable AI, and Large Language Models, targeted at business people with an IT background:\n\n1. \"AI Decoded: MLOps, Explainability, and LLMs for Business\"\n\n2. \"The AI Edge: Navigating MLOps and Emerging Technologies\"\n\n3. \"Demystifying AI: From MLOps to Large Language Models\"\n\n4. \"AI Insights: Leveraging MLOps and Explainable AI for Business Growth\"\n\n5. \"The AI Advantage: Exploring MLOps, XAI, and LLMs for IT Professionals\"",
+        "latency": 3.056156999999075,
+        "provider_file": "claude.json"
+    },
+    "completion_type": "ClaudeCompletion",
+    "response_message": "Here are 5 potential titles for a podcast about AI and machine learning, focusing on MLOps, Explainable AI, and Large Language Models, targeted at business people with an IT background:\n\n1. \"AI Decoded: MLOps, Explainability, and LLMs for Business\"\n\n2. \"The AI Edge: Navigating MLOps and Emerging Technologies\"\n\n3. \"Demystifying AI: From MLOps to Large Language Models\"\n\n4. \"AI Insights: Leveraging MLOps and Explainable AI for Business Growth\"\n\n5. \"The AI Advantage: Exploring MLOps, XAI, and LLMs for IT Professionals\"",
+    "response_texr": "Here are 5 potential titles for a podcast about AI and machine learning, focusing on MLOps, Explainable AI, and Large Language Models, targeted at business people with an IT background:\n\n1. \"AI Decoded: MLOps, Explainability, and LLMs for Business\"\n\n2. \"The AI Edge: Navigating MLOps and Emerging Technologies\"\n\n3. \"Demystifying AI: From MLOps to Large Language Models\"\n\n4. \"AI Insights: Leveraging MLOps and Explainable AI for Business Growth\"\n\n5. \"The AI Advantage: Exploring MLOps, XAI, and LLMs for IT Professionals\""
+}

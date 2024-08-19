@@ -1,0 +1,9 @@
+Here are 5 funny podcast titles about AI and Machine Learning, tailored for business-minded IT folks:
+
+1. **"AI, Explained... Maybe? (We're Still Figuring It Out)"** -  Plays on the "Explainable AI" theme with a touch of self-deprecating humor.
+2. **"MLOps: Where Coffee Runs Hot and Models Go Cold"** -  Relatable to IT professionals who know the struggles of both caffeine dependence and debugging.
+3. **"Large Language Models: They Write Better Code Than You (Probably)"** - A bit cheeky, but gets attention and speaks to the potential impact on developers.
+4. **"Silicon Valley's New Gods: Talking to Robots Who Think They're Smarter"** -  A satirical take on the hype surrounding AI, with a hint of existential dread.
+5. **"From Bits to Bucks: Making Sense of AI for Your Bottom Line"** -  Directly addresses the business audience while keeping it lighthearted. 
+
+
