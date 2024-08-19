@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: openbook-textbook-engine
+Version: 0.1.3
+Summary: A CLI toolkit for authoring Openbook textbooks
+Author: William Herring
+Author-email: william.herring.au@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typer[all] (>=0.12.4,<0.13.0)
+Description-Content-Type: text/markdown
+
+# Openbook Textbook Engine
+The CLI toolkit for authoring Openbook textbooks. Read the [docs](https://github.com/william-herring/openbook-textbook-engine/tree/main/docs) for more. 
