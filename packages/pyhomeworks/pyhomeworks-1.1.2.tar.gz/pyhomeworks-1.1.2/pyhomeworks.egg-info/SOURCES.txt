@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyhomeworks/__init__.py
+pyhomeworks/exceptions.py
+pyhomeworks/py.typed
+pyhomeworks/pyhomeworks.py
+pyhomeworks.egg-info/PKG-INFO
+pyhomeworks.egg-info/SOURCES.txt
+pyhomeworks.egg-info/dependency_links.txt
+pyhomeworks.egg-info/top_level.txt
+pyhomeworks.egg-info/zip-safe
