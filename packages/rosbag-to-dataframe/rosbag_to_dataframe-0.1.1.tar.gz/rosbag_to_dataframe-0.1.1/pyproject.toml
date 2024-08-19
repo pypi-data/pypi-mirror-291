@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rosbag_to_dataframe"
+version = "0.1"
+description = "A Python package to extract data from ROS1 and ROS2 bag files and convert it to pandas DataFrames."
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+]
+dynamic = ["version", "description"]
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Abhay Chaudhary" }
+]
+
+[project.urls]
+Homepage = "https://github.com/Abhayindia/rosbag_to_dataframe"
+BugTracker = "https://github.com/Abhayindia/rosbag_to_dataframe/issues"
+
+[project.optional-dependencies]
+dev = ["black", "pylint", "bump2version"]
+
+[project.scripts]
+rosbag-utils = "rosbag_to_dataframe.__main__:main"
+
+[project.dependencies]
+dependencies = [
+    "pandas",
+    "rosbags"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package_data]
+rosbag_to_dataframe = ["*.md"]
+
+[tool.setuptools.scripts]
+rosbag_to_dataframe = "rosbag_to_dataframe.__main__:main"
+
+[tool.check-manifest]
+ignore = ["src/rosbag_to_dataframe/__pycache__/*", "tests/*", ".github/*"]
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 130
+
+[tool.pylint.format]
+max-line-length = "130"
