@@ -1,0 +1,9 @@
+setup.py
+shadow_geeks/__init__.py
+shadow_geeks/about.py
+shadow_geeks/projects.py
+shadow_geeks.egg-info/PKG-INFO
+shadow_geeks.egg-info/SOURCES.txt
+shadow_geeks.egg-info/dependency_links.txt
+shadow_geeks.egg-info/requires.txt
+shadow_geeks.egg-info/top_level.txt
