@@ -1,0 +1,10 @@
+sahomedb-0.4.0.dist-info/METADATA,sha256=_iJJ1M_xhknHRa_VyWtyXvDFq8g2H8RdndUXcsoHS9E,9943
+sahomedb-0.4.0.dist-info/WHEEL,sha256=XHIMMqKJPYbs2zltNx-HQCDNw6UNwwpHlE65RNjWPdE,108
+sahomedb/vector.pyi,sha256=0UdsuDzOaEBeH2kt0yM0oWMZ4H-V8nQtOl2OBHmG0mc,756
+sahomedb/prelude.pyi,sha256=SbMMidNp_vEq-Tma3ZbAtzg4xY8lzDGfB19kmh7G_Fg,121
+sahomedb/collection.pyi,sha256=GzkWY0dsab3W_eW_7MQliQdHXLZIcPpX2x3WvGEZbP8,4522
+sahomedb/database.pyi,sha256=O0QlNpClKJeXTAuytA_iNzoGB6DXNcguX7XG0jw7qpU,1227
+sahomedb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sahomedb/__init__.py,sha256=iseDZ9pVvVfkUbe6X4A9RfzFmRVumEa7it73unwUIQ8,43
+sahomedb/sahomedb.cpython-310-x86_64-linux-gnu.so,sha256=NiI2n5iMCRaNd0FZnyhCXj6GEbD1IubmhyaE5m-ZnNU,1519712
+sahomedb-0.4.0.dist-info/RECORD,,
