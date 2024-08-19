@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: centigrad
+Version: 0.1.1
+Summary: This is a simple package to train neural networks leveraging a Variable object that supports automatic differentiation
+Home-page: https://github.com/josecruzado21/centigrad
+Author: Jose Cruzado
+Author-email: josecruzado2103@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+

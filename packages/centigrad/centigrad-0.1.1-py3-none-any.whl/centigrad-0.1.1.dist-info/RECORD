@@ -1,0 +1,9 @@
+centigrad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+centigrad/layer.py,sha256=l7APp_VFXpZAXOZ_ivjh2VnnjPw6_-kxjWu4km2doIc,4117
+centigrad/network.py,sha256=x93tuDvJGBQVqn91B6rKqehF4n8YsGZPXH3j1cMFrAA,5096
+centigrad/variable.py,sha256=KBHq6uC-6HhUfVrEDOEXgZswbSv822XaeysKFXuVGso,10987
+centigrad-0.1.1.dist-info/LICENSE,sha256=dOy_eEGhG3ILtpMW9BT7yM2uRqNY9fZViyCr60JYJ0M,1077
+centigrad-0.1.1.dist-info/METADATA,sha256=bOF9aw8OaRqQ1nHpULE9XsbPEIS59sAAalhvpE_EwDQ,488
+centigrad-0.1.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+centigrad-0.1.1.dist-info/top_level.txt,sha256=PugIY1pMQaH33VBXBh4bRfa6oDJ_UBe9bNaiHQ6Wpt0,10
+centigrad-0.1.1.dist-info/RECORD,,
