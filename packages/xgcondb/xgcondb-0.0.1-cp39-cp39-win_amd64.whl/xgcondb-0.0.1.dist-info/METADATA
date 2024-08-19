@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: xgcondb
+Version: 0.0.1
+Summary: XuGu Database Python Driver
+Project-URL: Documentation, https://github.com/Jedore/XuGu-Python-Driver#readme
+Project-URL: Issues, https://github.com/Jedore/XuGu-Python-Driver/issues
+Project-URL: Source, https://github.com/Jedore/XuGu-Python-Driver
+Author-email: Jedore <jedorefight@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: DB,XuGu,xgcondb
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: <3.10,>=3.6
+Description-Content-Type: text/markdown
+
+# XuGu-Python-Driver
