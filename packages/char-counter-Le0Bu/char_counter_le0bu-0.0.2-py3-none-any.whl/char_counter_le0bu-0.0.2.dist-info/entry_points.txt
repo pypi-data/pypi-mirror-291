@@ -1,0 +1,2 @@
+[console_scripts]
+char_count = cli.parser:main_logic
