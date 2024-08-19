@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: evva_airkey
+Version: 0.0.5
+Summary: Communication module for EVVA Airkey cloud integration
+Author: Giampaolo Eusebi
+Author-email: giampaolo.eusebi@gmail.com
+License: GNU LGPL 3.0
+Project-URL: Source, https://gitlab.com/geusebi/evva_airkey
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Python EVVA Airkey communication module
+
+Communication module for EVVA Airkey cloud integration  
+(see [EVVA Airkey Cloud Interface Documentation](<https://integration.api.airkey.evva.com/docs/>) for more informations).
+
+## IMPORTANT
+
+**Experimental**  
+**Not an official project of EVVA Sicherheitstechnologie GmbH**
+
+## Install
+
+To install from [Pypi](https://www.pypi.org/) using `pip`:
+```sh
+pip install evva-airkey
+```
+
+Or to install directly from git sources:
+```bash
+git clone https://gitlab.com/geusebi/evva_airkey.git
+cd evva_airkey
+python setup.py install --user
+```
+
+To install `evva_airkey` system-wide, remove `--user` from the last 
+line and use `sudo` or other subsystems to run the command as a 
+privileged user.
+
+## Usage example
+
+```python
+from evva_airkey import Session, fapi
+
+key = "..."
+conn = Session(fapi, key)
+
+people = conn.send(fapi.persons_get()).json()
+print(people)
+```
+
+## Session
+
+### EvvaAuth
+
+The `requests.AuthBase` implementation is used by `evva_airkey.Session` to
+update requests' headers. It is created upon session creation via `evva_airkey.Session`
+itself.
+
+## License
+
+This software is released under the
+[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)  
+GNU Lesser General Public License Version 3, 29 June 2007.
