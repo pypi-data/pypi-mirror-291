@@ -1,0 +1,8 @@
+README.md
+setup.py
+logbase/__init__.py
+logbase/main.py
+logbase.egg-info/PKG-INFO
+logbase.egg-info/SOURCES.txt
+logbase.egg-info/dependency_links.txt
+logbase.egg-info/top_level.txt
