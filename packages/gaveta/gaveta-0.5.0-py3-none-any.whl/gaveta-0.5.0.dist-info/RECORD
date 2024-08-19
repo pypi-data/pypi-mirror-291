@@ -1,0 +1,12 @@
+gaveta/__init__.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+gaveta/files.py,sha256=Nj7CKGdcUjSRiVbnRppwSkYPOpgHMZBNuVjVG1GC9XA,111
+gaveta/gen.py,sha256=_NA23QG01-SybMhFMkkpMFFgnTA-ea3qb6dV99CuSjY,143
+gaveta/json.py,sha256=4hWXp1XAZ_aY3LJCLf-eSuzNXjGm7ubx8zHR3DgWttI,1164
+gaveta/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gaveta/seq.py,sha256=uCxWLK9fV-20IqgglhoZycGhgMQjtDnTuR6eHUhVY-Y,379
+gaveta/time.py,sha256=TZbMkE_zdIe4LTVBllP5yw4SYJIVHDmzhJUh_tGtUqA,556
+gaveta/utils.py,sha256=qK3aKXrIfZnjlb-k0rlIc1lTQ2CiOrB3YD5J1lx9gZw,172
+gaveta-0.5.0.dist-info/METADATA,sha256=rSqbb0BtgKjcaUDh8Aivx2jQdhlKb4IZ-RIS0HWmOPU,3292
+gaveta-0.5.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gaveta-0.5.0.dist-info/licenses/LICENSE,sha256=gUKHL6N9ZC2dRviC3D9lEzouJChQkKUP2qsRjm8DSaI,1071
+gaveta-0.5.0.dist-info/RECORD,,
