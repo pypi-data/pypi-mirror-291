@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hydrafs
+Version: 0.1.0
+Summary: Hydrate your files to build a database with rich interconnectivity between your data
+Home-page: https://github.com/mm21/hydrafs
+Author: mm21
+Author-email: mm21.apps@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: pyrollup (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# HydraFS
+
+Hydrate your files to build a database with rich interconnectivity between your data.
+
+[![PyPI](https://img.shields.io/pypi/v/hydrafs?color=%2334D058&label=pypi%20package)](https://pypi.org/project/hydrafs)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Work in progress. Planning for this project is complete, and development is underway.
+
