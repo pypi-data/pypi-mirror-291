@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: aiobatch
+Version: 0.0.1.dev3
+Summary: Lightweight dynamic batching for pytorch/onnx model inferencing.
+Project-URL: Homepage, https://github.com/hoveychen/aiobatch
+Project-URL: Issues, https://github.com/hoveychen/aiobatch/issues
+Author-email: Harry Chen <hoveychen@gmail.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+# aiobatch
+Lightweight dynamic batching for pytorch/onnx model inferencing.
