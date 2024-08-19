@@ -1,0 +1,111 @@
+# cobaltpy
+
+`cobaltpy` is a Python package that interfaces with the Cobalt service to download files. It provides an easy-to-use client that manages instances, handles downloads, and offers customisation options for your download process.
+
+## Features
+
+- Retrieve and manage multiple Cobalt instances.
+- Automatically select the best instance based on trust level and availability.
+- Download files with configurable options like timeouts.
+- Handle errors such as rate limits and timeouts gracefully.
+
+## Installation
+
+You can install `cobaltpy` using `pip`:
+
+```bash
+pip install cobaltpy
+```
+
+## Usage
+
+Below is an example of how to use the `Cobalt` class to download a file using `cobaltpy`:
+
+```python
+from cobaltpy import Cobalt, TrustLevel
+import asyncio
+
+async def main() -> None:
+
+    # Initialise the Cobalt client
+    async with Cobalt() as cobalt:
+
+        # Retrieve all available instances
+        instances = await client.get_instances()
+
+        # Get the best instance based on trust level
+        best_instance = await client.get_best_instance(trust_level=TrustLevel.SAFE)
+
+        # Set the instance to use
+        client.set_instance(best_instance)
+
+        # Define download options (optional)
+        options = {
+            "vQuality": "144"
+        }
+
+        # Download a file
+        try:
+            files = await client.download(url="https://www.youtube.com/watch?v=wEa7lk2TM-E", options=options, timeout=15)
+            for file in files:
+                print(f"Downloaded file: {file.name}")
+        except Exception as e:
+            print(f"Download failed: {e}")
+
+asyncio.run(main)
+```
+
+## API Reference
+
+### `class Cobalt`
+
+#### Attributes
+
+- `instances: list[Instance]`
+  - A list of available Cobalt instances.
+- `instance: Instance`
+  - The current instance set for downloads.
+
+#### Methods
+
+- `get_instances() -> list[Instance]`
+  - Retrieves a list of available instances.
+
+- `get_best_instance(trust_level: TrustLevel = TrustLevel.SAFE, exclude: list[str] = []) -> Instance`
+  - Returns the best instance based on the provided trust level and excludes specified instances if needed.
+
+- `set_instance(instance: Instance) -> None`
+  - Sets the instance to be used for downloads.
+
+- `download(url: str, options: DownloadOptions = {}, timeout: int = 10) -> list[CobaltFile]`
+  - Downloads a file from the provided URL with the specified options and timeout.
+  - **Parameters:**
+    - `url (str)`: The URL of the file to download.
+    - `options (DownloadOptions)`: Download options, such as custom headers.
+    - `timeout (int)`: The timeout duration in seconds.
+  - **Returns:**
+    - `list[CobaltFile]`: A list of downloaded files.
+  - **Raises:**
+    - `InstanceNotSetError`: Raised if no instance is set.
+    - `GenericError`: Raised for general errors.
+    - `RateLimitError`: Raised when a rate limit is hit.
+    - `DownloadError`: Raised for download-specific issues.
+    - `asyncio.TimeoutError`: Raised when the download times out.
+
+## Error Handling
+
+The `Cobalt` class can raise the following exceptions:
+
+- `InstanceNotSetError`: Raised when an instance is not set before attempting a download.
+- `GenericError`: A catch-all error for general issues.
+- `RateLimitError`: Raised when the Cobalt service rate-limits requests.
+- `DownloadError`: Raised for issues specific to the download process.
+- `asyncio.TimeoutError`: Raised when the download takes longer than the specified timeout.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests for improvements.
+
+## License
+
+This project is licensed under the Apache License. See the `LICENSE` file for more details.

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cobaltpy"
+version = "0.1.0"
+description = "Download files using Cobalt."
+authors = ["Smugaski"]
+license = "Apache"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
