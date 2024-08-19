@@ -1,0 +1,22 @@
+from pathlib import Path
+from nonebot import require
+
+require = require('nonebot_plugin_localstore')
+from nonebot_plugin_localstore import get_data_dir
+
+lagrange_path: Path = None
+appsettings_path: Path = None
+data_path: Path = get_data_dir('Lagrange')
+webui_path: Path = (data_path / 'webui')
+
+
+def update_file_paths():
+    global appsettings_path, lagrange_path
+    for file_path in tuple(data_path.rglob('*')):
+        if file_path.name.startswith('Lagrange.OneBot'):
+            lagrange_path = file_path.absolute()
+        elif file_path.name == 'appsettings.json':
+            appsettings_path = file_path.absolute()
+
+
+update_file_paths()
