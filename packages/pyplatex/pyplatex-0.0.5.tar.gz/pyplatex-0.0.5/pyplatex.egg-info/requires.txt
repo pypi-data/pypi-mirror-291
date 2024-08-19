@@ -1,0 +1,4 @@
+cv2filters==0.2.6
+loguru==0.7.2
+python-doctr==0.9.0
+ultralytics==8.2.55
