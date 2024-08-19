@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+MartinCesar.egg-info/PKG-INFO
+MartinCesar.egg-info/SOURCES.txt
+MartinCesar.egg-info/dependency_links.txt
+MartinCesar.egg-info/top_level.txt
+martincesar/__init__.py
+martincesar/operaciones.py
