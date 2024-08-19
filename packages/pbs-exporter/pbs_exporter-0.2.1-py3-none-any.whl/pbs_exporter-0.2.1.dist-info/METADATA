@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pbs-exporter
+Version: 0.2.1
+Summary: Prometheus Exporter for Proxmox Backup Server
+Home-page: UNKNOWN
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: prometheus-client
+Requires-Dist: requests
+Requires-Dist: werkzeug
+
+UNKNOWN
+
