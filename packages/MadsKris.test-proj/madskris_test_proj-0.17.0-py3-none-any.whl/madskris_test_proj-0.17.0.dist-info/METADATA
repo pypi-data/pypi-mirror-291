@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: MadsKris.test-proj
+Version: 0.17.0
+Project-URL: Documentation, https://github.com/U.N. Owen/test-proj#readme
+Project-URL: Issues, https://github.com/U.N. Owen/test-proj/issues
+Project-URL: Source, https://github.com/U.N. Owen/test-proj
+Author-email: "U.N. Owen" <void@some.where>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# test proj
+
+[![PyPI - Version](https://img.shields.io/pypi/v/test-proj.svg)](https://pypi.org/project/test-proj)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/test-proj.svg)](https://pypi.org/project/test-proj)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install test-proj
+```
+
+## License
+
+`test-proj` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
