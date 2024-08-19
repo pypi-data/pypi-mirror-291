@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+my_django_template.egg-info/PKG-INFO
+my_django_template.egg-info/SOURCES.txt
+my_django_template.egg-info/dependency_links.txt
+my_django_template.egg-info/top_level.txt
