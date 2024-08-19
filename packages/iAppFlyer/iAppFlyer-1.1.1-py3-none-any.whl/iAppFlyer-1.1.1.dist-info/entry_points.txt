@@ -1,0 +1,2 @@
+[console_scripts]
+iAppFlyer = iAppFlyer.main:__main__
