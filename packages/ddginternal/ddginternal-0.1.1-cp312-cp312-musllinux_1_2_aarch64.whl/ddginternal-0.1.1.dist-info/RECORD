@@ -1,0 +1,11 @@
+ddginternal-0.1.1.dist-info/METADATA,sha256=5GcmLdM52Tnin2dLLQHeFYK-_IGSGRjYMJ2jq8E5ZKw,1237
+ddginternal-0.1.1.dist-info/WHEEL,sha256=1tRZyKsesKnCmwRdfg_qYdcNXi-qmESJ9D0XJBwVHFw,108
+ddginternal.libs/libgcc_s-e52197c3.so.1,sha256=vkPW1Auw6CH9Bjk7frmX3hry_1H9c0tRI0Ncyg71WUI,724137
+ddginternal/ddginternal.pyi,sha256=Am7ByXghQo7ECOYsLA1qXwohYO4TPwM1H63ZynPw7Hs,1522
+ddginternal/primp.pyi,sha256=jnnRkY_YQLJ7uPDNUVN26GIwvAm6B9U51MbTuggBM9A,4401
+ddginternal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddginternal/primp.py,sha256=A5smBmpFtk3cR97rZpBxMyVbXXnbQykfnpjr4iDW36Y,67
+ddginternal/__init__.py,sha256=TenTjWQ6IqEdSDv6f5KtBwg6GTxUMJPSdfrKwcEz-ss,503
+ddginternal/core.py,sha256=9DXbRjGvqE4QkB4InX57Ab_RCxH3N0cW4idhuDf1mrA,1866
+ddginternal/ddginternal.cpython-312-aarch64-linux-musl.so,sha256=zGw-8VoisjeG3BPCejer97ia6F-i1htl5B0Xeb9AZfk,4786841
+ddginternal-0.1.1.dist-info/RECORD,,
