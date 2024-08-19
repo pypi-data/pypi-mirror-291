@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gradientify
+Version: 0.1.2
+Summary: A Python package for gradient prints or inputs
+Home-page: https://github.com/knelly999/gradientify
+Author: knelly999
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# gradientify
+A python color module focused on gradients
+
+# Setup
+```python
+from gradientify import Colors
+
+print(Colors.mint("Hello world"))
+input(Colors.mint("Hello: "))
+```
+
+
+
+
