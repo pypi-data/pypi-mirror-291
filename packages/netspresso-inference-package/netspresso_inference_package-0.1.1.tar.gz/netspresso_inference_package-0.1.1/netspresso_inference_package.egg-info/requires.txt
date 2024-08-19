@@ -1,0 +1,6 @@
+tensorflow==2.17.0
+onnx
+onnxruntime
+py7zr
+rarfile
+loguru
