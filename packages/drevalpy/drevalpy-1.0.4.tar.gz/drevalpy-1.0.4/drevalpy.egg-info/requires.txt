@@ -1,0 +1,11 @@
+importlib_resources
+matplotlib
+networkx
+numpy
+pandas
+pingouin
+plotly
+pytorch-lightning
+ray[tune]
+scikit-learn
+scipy
