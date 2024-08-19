@@ -1,0 +1,9 @@
+matrix_supportbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix_supportbot/main.py,sha256=IKXuix1RFXes9p3U8kbIM3aa4fiya1SnkOPszeTTrD8,532
+matrix_supportbot/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix_supportbot/classes/bot.py,sha256=Kf161Cw2srJj3yFsB4pKf4ArAvcehw744pil66DAptk,10437
+matrix_supportbot-0.1.1.dist-info/METADATA,sha256=HNQWYrwjPcqsL_bgOg13bhLtFyBqmwaSUgtkCNj1kRc,2251
+matrix_supportbot-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+matrix_supportbot-0.1.1.dist-info/entry_points.txt,sha256=yxPDsv9gKzG7lGKWXpbQK-ev6Ldw2y6jqgOdYbN-PuE,59
+matrix_supportbot-0.1.1.dist-info/licenses/LICENSE,sha256=IpiKjAAg5wWrWp9flzsSdyagJDJPa3fOsIhs-AfxuSc,1087
+matrix_supportbot-0.1.1.dist-info/RECORD,,
