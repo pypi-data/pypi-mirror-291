@@ -1,0 +1,7 @@
+{# def id=None, mode: Literal["micro","mini","outline","solid"] = "solid"  #}
+
+{% if mode == "micro"%}<icons.micro.ShoppingCart :id="id" :class="attrs.class or ''"/>
+{% elif mode == "mini"%}<icons.mini.ShoppingCart :id="id" :class="attrs.class or ''"/>
+{% elif mode == "outline"%}<icons.outline.ShoppingCart :id="id" :class="attrs.class or ''"/>
+{% elif mode == "solid"%}<icons.solid.ShoppingCart :id="id" :class="attrs.class or ''"/>
+{%endif%}

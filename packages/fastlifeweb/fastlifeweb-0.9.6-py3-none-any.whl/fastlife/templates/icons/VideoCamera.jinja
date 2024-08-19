@@ -1,0 +1,7 @@
+{# def id=None, mode: Literal["micro","mini","outline","solid"] = "solid"  #}
+
+{% if mode == "micro"%}<icons.micro.VideoCamera :id="id" :class="attrs.class or ''"/>
+{% elif mode == "mini"%}<icons.mini.VideoCamera :id="id" :class="attrs.class or ''"/>
+{% elif mode == "outline"%}<icons.outline.VideoCamera :id="id" :class="attrs.class or ''"/>
+{% elif mode == "solid"%}<icons.solid.VideoCamera :id="id" :class="attrs.class or ''"/>
+{%endif%}

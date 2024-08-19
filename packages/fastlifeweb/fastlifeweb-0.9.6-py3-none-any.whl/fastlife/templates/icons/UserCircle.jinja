@@ -1,0 +1,7 @@
+{# def id=None, mode: Literal["micro","mini","outline","solid"] = "solid"  #}
+
+{% if mode == "micro"%}<icons.micro.UserCircle :id="id" :class="attrs.class or ''"/>
+{% elif mode == "mini"%}<icons.mini.UserCircle :id="id" :class="attrs.class or ''"/>
+{% elif mode == "outline"%}<icons.outline.UserCircle :id="id" :class="attrs.class or ''"/>
+{% elif mode == "solid"%}<icons.solid.UserCircle :id="id" :class="attrs.class or ''"/>
+{%endif%}

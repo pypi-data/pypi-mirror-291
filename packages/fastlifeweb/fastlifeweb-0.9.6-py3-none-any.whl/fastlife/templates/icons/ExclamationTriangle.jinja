@@ -1,0 +1,7 @@
+{# def id=None, mode: Literal["micro","mini","outline","solid"] = "solid"  #}
+
+{% if mode == "micro"%}<icons.micro.ExclamationTriangle :id="id" :class="attrs.class or ''"/>
+{% elif mode == "mini"%}<icons.mini.ExclamationTriangle :id="id" :class="attrs.class or ''"/>
+{% elif mode == "outline"%}<icons.outline.ExclamationTriangle :id="id" :class="attrs.class or ''"/>
+{% elif mode == "solid"%}<icons.solid.ExclamationTriangle :id="id" :class="attrs.class or ''"/>
+{%endif%}

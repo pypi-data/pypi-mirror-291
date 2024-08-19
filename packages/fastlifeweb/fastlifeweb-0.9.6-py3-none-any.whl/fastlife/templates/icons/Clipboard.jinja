@@ -1,0 +1,7 @@
+{# def id=None, mode: Literal["micro","mini","outline","solid"] = "solid"  #}
+
+{% if mode == "micro"%}<icons.micro.Clipboard :id="id" :class="attrs.class or ''"/>
+{% elif mode == "mini"%}<icons.mini.Clipboard :id="id" :class="attrs.class or ''"/>
+{% elif mode == "outline"%}<icons.outline.Clipboard :id="id" :class="attrs.class or ''"/>
+{% elif mode == "solid"%}<icons.solid.Clipboard :id="id" :class="attrs.class or ''"/>
+{%endif%}
