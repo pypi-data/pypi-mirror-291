@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: shadow-geeks
+Version: 1a2
+Summary: A package created for team shadow geeks
+Author: Rahul
+Author-email: rockr3876@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyzipper
+
+Created by Rahul. This module contains required items for shadow geeks to build and run their projects anywhere
