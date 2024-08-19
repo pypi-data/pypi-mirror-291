@@ -1,0 +1,4 @@
+{
+    "code-runner.customCommand": "hatch run python src/elib/app.py",
+    "python.analysis.fixAll": []
+}
