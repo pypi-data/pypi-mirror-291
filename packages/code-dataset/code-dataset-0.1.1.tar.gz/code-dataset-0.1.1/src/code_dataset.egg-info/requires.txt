@@ -1,0 +1,4 @@
+gitpython
+rich>=10.0.0
+twine
+wheel
