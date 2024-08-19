@@ -1,0 +1,5 @@
+#!python
+""" Run check_soa_serials from its module """
+
+from check_soa_serials import __main__
+__main__.main()
