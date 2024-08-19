@@ -1,0 +1,17 @@
+xcodex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcodex/main.py,sha256=yB9tZybD4BywHUgXLF3XIfodlsHlgY0RAoh86js3tNY,7245
+xcodex/Util/__init__.py,sha256=En9zESAmN4ygM6BLZBGJixCCg_qd93eTxC50Ts6lVUE,102
+xcodex/Util/check.py,sha256=nypjp7cBzSqNQTDy048B-0KXgu-zfeCaFQnzNDFIeQ4,641
+xcodex/Util/create_dodsrc.py,sha256=NzLwg_qdJh74JtITdzI8A0yJ4Q0vfFddLIKImkh793M,353
+xcodex/Util/create_netrc.py,sha256=_QhWdJcaEU2Of51S4jgt9SmgWEG7Ctv_Rx9NjGIbFwk,415
+xcodex/Util/date.py,sha256=HYWpbrDIbTPsHw_iWIMWNlKf1ZjzvJYOyPgw5mGSpPs,872
+xcodex/Util/download.py,sha256=Eoc8QQxqt1vZKiTOTtU1_2OiY3eDzZAxp4U3ooYXws8,3460
+xcodex/Util/generate_links.py,sha256=xxLaSq9-seZ-TXCEnJ290s15dNJoqv7FTw6Q1fR-0qA,644
+xcodex/Util/make_Dataframe.py,sha256=N-eT4J5ne10rf-cysN9R0eDtFtGV3387bZ-9K_K9W4g,1256
+xcodex/Util/missing.py,sha256=dTQskSTM1CT0-TnKar9qQahM_x3NIR34ZMGJEGCyFlI,1063
+xcodex/Util/var_imp.py,sha256=ITs7vsWm1wrcxoDqnpkwUflwtTgsKng_dmkSCLA4ZZ4,931
+xcodex-0.0.7.dist-info/LICENSE,sha256=wiLVM6zHzr69ULNwUrxRAlTZBf8j_xtUvKrLPgP98K8,1097
+xcodex-0.0.7.dist-info/METADATA,sha256=iSRafMnj3GAZc6sM51NvVyElDSzCczOjrkNelEp8YyQ,6176
+xcodex-0.0.7.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+xcodex-0.0.7.dist-info/top_level.txt,sha256=jH_U6qwUN5nZk3FE97BmsTKHz2puQtke-6I6SzrKKiI,7
+xcodex-0.0.7.dist-info/RECORD,,
