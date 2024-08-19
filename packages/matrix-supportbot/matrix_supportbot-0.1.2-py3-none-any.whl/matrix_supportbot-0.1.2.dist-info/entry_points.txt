@@ -1,0 +1,2 @@
+[console_scripts]
+supportbot = matrix_supportbot.main:main
