@@ -1,0 +1,5 @@
+[console_scripts]
+c2d-box = cp2k_to_deepmdkit.box:main
+c2d-convert = cp2k_to_deepmdkit.convert:main
+c2d-coord = cp2k_to_deepmdkit.coord:main
+c2d-force_energy = cp2k_to_deepmdkit.force_energy:main

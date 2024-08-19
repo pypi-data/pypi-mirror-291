@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cp2k_2_deepmdkit
+Version: 1.0.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+cp2k-2-deepmdkit (c2d): A comprehensive tool for converting cp2k output to DeepMD-kit input.
+
+This package includes a set of utilities for processing CP2K output files into a format compatible with DeepMD-kit. It provides several command-line tools for coordinate extraction, force and energy data processing, box dimensions extraction, and file format conversion.
