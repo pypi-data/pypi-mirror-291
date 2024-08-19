@@ -1,0 +1,9 @@
+omegaconf
+
+[dev]
+black
+darglint
+mypy
+pytest
+ruff
+datamodel-code-generator
