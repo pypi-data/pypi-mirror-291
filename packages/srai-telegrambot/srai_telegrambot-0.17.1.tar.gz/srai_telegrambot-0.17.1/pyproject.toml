@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "srai-telegrambot"
+version = "0.17.1"
+description = "A library that makes it easier to build ai powered telegram bots."
+authors = ["Jaap Oosterbroek <jaap.oosterbroek@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/southriverai/srai-telegrambot"
+repository = "https://github.com/southriverai/srai-telegrambot"
+keywords = ["SRAI", "TOOLS"]
+packages = [{ include = "srai_telegrambot" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+srai-openai = "^0.8.2"
+python_telegram_bot ="^13.11"
+langchain_community ="^0.2.6"
+langchain-openai ="^0.1.14"
+pypdf = "^4.2.0" # for PyPDFLoader
+#faiss-cpu ="^1.8.0.post1" # vector store
+
+[tool.poetry.dev-dependencies]
+black = "23.3.0"
+flake8 = "6.0.0"
+twine = "5.1.1"
+wheel = "0.43.0"
+setuptools = "70.2.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry==1.8.3"]
+build-backend = "poetry.core.masonry.api"
