@@ -1,0 +1,17 @@
+pyplatex/__init__.py,sha256=WmQmNzP6NPFT1QX6hJAkqOA4zf_DcOF0sExUW8VAfkE,48
+pyplatex/detection/__init__.py,sha256=-5_SnDt3JWyr_mM1MoR5mc0Xa6cjD1fMF-lrrFRt710,22
+pyplatex/detection/yolo.py,sha256=Pyk8XhhXIbtn0I2LBqseY05Z6qc-F_6Yjxzdyccivzo,5123
+pyplatex/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyplatex/models/__init__.py,sha256=YVmx0qpP0qE7rb5cqww0dktnwWlgD0t-7Nw25LIlu94,44
+pyplatex/models/base_model.py,sha256=AoLTL92XVG3k77cgGhVmkSYAtuqPxC4QRD0Pt1VPA9U,123
+pyplatex/models/plate-detection-models/plate_detector_model_1.pt,sha256=jsOyVKbIdhDwN6kJV0Ysr6EanAMiTjOijGodGsKsUbA,6241454
+pyplatex/ocr/__init__.py,sha256=HKg1kd4ZLf8_yzZ4h3V5Qt1ujG51-s7XPSiEn2Kh-dU,21
+pyplatex/ocr/main.py,sha256=Yy_SQfsGllL6DUeypX45c2xUUQUoD_1NqnvJDoURNqk,656
+pyplatex/postprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyplatex/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyplatex/utils/__init__.py,sha256=_Uvi7o2xMzkcloDWrGpAy7rkmnixXKDJ7svtYGHxUFA,2434
+pyplatex-0.0.5.dist-info/LICENSE,sha256=3-MCBolSUN9M35l4lcvZuMwjlv4BcibufhDemhY7D34,1066
+pyplatex-0.0.5.dist-info/METADATA,sha256=QKh9M7dzYqN_VCMHve5RRb3oH4uRGA4UeNXOiEfPSn4,5206
+pyplatex-0.0.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pyplatex-0.0.5.dist-info/top_level.txt,sha256=nO_Pmc2XY7BbkNjYjhHF_OpJ2m92iWw3OKwS-u8B9wk,9
+pyplatex-0.0.5.dist-info/RECORD,,
