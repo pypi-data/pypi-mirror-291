@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+betterfunctions/__init__.py
+betterfunctions/filefunctions.py
+betterfunctions/mathfunctions.py
+betterfunctions/randomfunctions.py
+betterfunctions/textfunctions.py
+betterfunctions/timefunctions.py
+betterfunctions/userinputfunctions.py
+betterfunctions.egg-info/PKG-INFO
+betterfunctions.egg-info/SOURCES.txt
+betterfunctions.egg-info/dependency_links.txt
+betterfunctions.egg-info/top_level.txt

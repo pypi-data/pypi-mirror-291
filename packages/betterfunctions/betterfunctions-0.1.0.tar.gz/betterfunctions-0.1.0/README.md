@@ -1,0 +1,6 @@
+# BetterFunctions
+
+````
+pip install betterfunctions 
+````
+
