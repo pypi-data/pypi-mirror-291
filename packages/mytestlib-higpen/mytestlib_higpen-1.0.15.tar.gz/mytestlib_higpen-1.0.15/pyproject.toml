@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mytestlib-higpen"
+version = "1.0.15"
+authors = [
+	{ name="higpen", email="higpen@higpen.higpen" }
+]
+description = "My Test Library."
+readme = "README.txt"
+license = { text="…" }
+
+[project.urls]
+Homepage = "https://…"
