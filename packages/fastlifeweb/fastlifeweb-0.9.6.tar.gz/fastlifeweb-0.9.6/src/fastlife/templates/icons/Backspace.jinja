@@ -1,0 +1,7 @@
+{# def id=None, mode: Literal["micro","mini","outline","solid"] = "solid"  #}
+
+{% if mode == "micro"%}<icons.micro.Backspace :id="id" :class="attrs.class or ''"/>
+{% elif mode == "mini"%}<icons.mini.Backspace :id="id" :class="attrs.class or ''"/>
+{% elif mode == "outline"%}<icons.outline.Backspace :id="id" :class="attrs.class or ''"/>
+{% elif mode == "solid"%}<icons.solid.Backspace :id="id" :class="attrs.class or ''"/>
+{%endif%}
