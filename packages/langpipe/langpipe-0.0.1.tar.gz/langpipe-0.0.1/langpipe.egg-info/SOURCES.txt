@@ -1,0 +1,8 @@
+README.md
+setup.py
+langpipe/__init__.py
+langpipe/main.py
+langpipe.egg-info/PKG-INFO
+langpipe.egg-info/SOURCES.txt
+langpipe.egg-info/dependency_links.txt
+langpipe.egg-info/top_level.txt
