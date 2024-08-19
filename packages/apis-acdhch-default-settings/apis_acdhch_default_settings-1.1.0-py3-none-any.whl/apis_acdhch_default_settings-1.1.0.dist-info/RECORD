@@ -1,0 +1,7 @@
+apis_acdhch_default_settings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apis_acdhch_default_settings/ldapauth.py,sha256=P1NDgWG2Pp4JzqoETq3VDC3DtECoEIXWBA3Lzn6CUIA,423
+apis_acdhch_default_settings/settings.py,sha256=iW-8jaS8tvlbOJXgkwjGwKHU9rGi2Gb4vqVCqCa_TSU,8156
+apis_acdhch_default_settings/urls.py,sha256=VDvjdb940573U-xuwGYwYZTJJRgTeSgnlNCm7Hj8kGs,946
+apis_acdhch_default_settings-1.1.0.dist-info/METADATA,sha256=54SYuZtpTIaA4NVq914P1e9tRGt9mDRC9vwlij-5rDg,903
+apis_acdhch_default_settings-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+apis_acdhch_default_settings-1.1.0.dist-info/RECORD,,
