@@ -1,0 +1,7 @@
+beetsplug/beets-mpd-utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beetsplug/beets-mpd-utils/mpd_dj.py,sha256=TrWebMb5wO7YLgdolbp8i5efql0nyOm9ciuSXIgLfd4,5081
+beetsplug/beets-mpd-utils/mpd_tracker.py,sha256=7jWlgLqr2ygj_d9dOaQXasNJI_NXo_MBpW9IqkApXSk,13344
+beets_mpd_utils-0.1.4.dist-info/LICENSE,sha256=hQ7lNrkEDIJfAADKqIW6kRHYGgXWmdMLDFj4Fu1c0Q8,1068
+beets_mpd_utils-0.1.4.dist-info/METADATA,sha256=htZJrjxrXvKp0e0_fHse4vcE8f4_zndsmIhmkfctqUU,3435
+beets_mpd_utils-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+beets_mpd_utils-0.1.4.dist-info/RECORD,,
