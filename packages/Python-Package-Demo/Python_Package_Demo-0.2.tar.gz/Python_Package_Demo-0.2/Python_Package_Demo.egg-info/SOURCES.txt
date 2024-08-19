@@ -1,0 +1,8 @@
+setup.py
+Python_Package_Demo/__init__.py
+Python_Package_Demo/main.py
+Python_Package_Demo.egg-info/PKG-INFO
+Python_Package_Demo.egg-info/SOURCES.txt
+Python_Package_Demo.egg-info/dependency_links.txt
+Python_Package_Demo.egg-info/entry_points.txt
+Python_Package_Demo.egg-info/top_level.txt
