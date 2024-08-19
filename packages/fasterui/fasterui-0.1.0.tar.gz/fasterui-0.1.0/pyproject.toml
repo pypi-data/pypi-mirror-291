@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fasterui"
+version = "0.1.0"
+dependencies = ["pydantic>=2.0"]
+requires-python = ">=3.8"
+authors = [{ name = "Tomas Krejci", email = "tomas.krejci@ampiato.com" }]
+description = "FasterUI is a Python library for building user interfaces. Pronto."
+
+[project.urls]
+Homepage = "https://github.com/ampiato/FasterUI"
+Issues = "https://github.com/ampiato/FasterUI/issues"
+Repository = "https://github.com/ampiato/FasterUI.git"

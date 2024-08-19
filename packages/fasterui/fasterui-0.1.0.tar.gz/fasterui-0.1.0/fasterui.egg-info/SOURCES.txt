@@ -1,0 +1,8 @@
+pyproject.toml
+fasterui/__init__.py
+fasterui/components.py
+fasterui.egg-info/PKG-INFO
+fasterui.egg-info/SOURCES.txt
+fasterui.egg-info/dependency_links.txt
+fasterui.egg-info/requires.txt
+fasterui.egg-info/top_level.txt
