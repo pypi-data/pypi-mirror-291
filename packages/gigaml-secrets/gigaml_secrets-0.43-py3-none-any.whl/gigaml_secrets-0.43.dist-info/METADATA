@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gigaml_secrets
+Version: 0.43
+Summary: A library to manage AWS secrets with caching and environment variable integration
+Home-page: https://github.com/GigaML/GigaML-Secrets
+Author: Tautik Agrahari
+Author-email: tautik@gigaml.com
+Requires-Dist: boto3
+Requires-Dist: botocore
+
