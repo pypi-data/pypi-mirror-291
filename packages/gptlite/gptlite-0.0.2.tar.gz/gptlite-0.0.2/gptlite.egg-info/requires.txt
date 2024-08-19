@@ -1,0 +1,8 @@
+langchain-core
+pydantic
+python-dotenv
+
+[dev]
+setuptools
+wheel
+twine

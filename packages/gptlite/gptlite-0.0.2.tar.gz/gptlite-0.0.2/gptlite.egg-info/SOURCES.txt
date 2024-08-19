@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gptlite.egg-info/PKG-INFO
+gptlite.egg-info/SOURCES.txt
+gptlite.egg-info/dependency_links.txt
+gptlite.egg-info/requires.txt
+gptlite.egg-info/top_level.txt
+tests/test_gpt.py
+tests/test_store.py
