@@ -1,0 +1,7 @@
+trigger: trigger_name
+desc: description
+single: false
+tools: ["dummy", "dummy2"]
+prompt: |
+    prompt line #1
+    prompt line #2
