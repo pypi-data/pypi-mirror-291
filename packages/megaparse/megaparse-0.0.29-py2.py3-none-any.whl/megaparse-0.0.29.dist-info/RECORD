@@ -1,0 +1,11 @@
+megaparse/Converter.py,sha256=FzR_ZuJbVfrA_Ri2GU2h3CVemSSGDe34JhpevMnME0g,15495
+megaparse/__init__.py,sha256=8QSntYwoKX9rV_PZfr_JCTdhEG9LmXuYdDvklvZ98O4,58
+megaparse/markdown_processor.py,sha256=mM8-fOmvPRO1n9WStPT9aaGJtK8SUqiUSBL2nbwE-OE,6887
+megaparse/unstructured_convertor.py,sha256=E6vZpjVnI101EQ6yhhihh5EUMbeU7gcJPpUJB9uHt20,6725
+megaparse/utils.py,sha256=opTYyZMQOneU9gJg36sAZ4rDKQPCTkNLvtuqRcZ12dQ,1612
+megaparse/multimodal_convertor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megaparse/multimodal_convertor/megaparse_vision.py,sha256=FbCYTmgusv5-LHkR2N9aLsboLFO2lYF7vfD2kknpdp0,7751
+megaparse-0.0.29.dist-info/METADATA,sha256=tlL4GLvzq5WmUspoCbYDiy_bwqN0s8bTTcdd6HAwG28,3732
+megaparse-0.0.29.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+megaparse-0.0.29.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+megaparse-0.0.29.dist-info/RECORD,,
