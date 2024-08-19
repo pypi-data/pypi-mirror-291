@@ -1,0 +1,8 @@
+dice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dice/dice.py,sha256=2oRPj2QJOxOx5htyb85TaZhH7Vl6DJwNrqXKZT91ppA,2058
+dice/dice_simulation.py,sha256=e5l7AnFFoeSmL7u9S-CIXNS2cxnEQfAoIqYyta7JonQ,6063
+dice_tb-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dice_tb-0.0.1.dist-info/METADATA,sha256=2ilL55aNSdn7JnweEqKsRfJiqrG5Fn_NX4_Y1BtHcKg,2081
+dice_tb-0.0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+dice_tb-0.0.1.dist-info/top_level.txt,sha256=MxW7fBYS-3N8Fo05t2xnix3kDal6tK2IelXxoKzS98I,5
+dice_tb-0.0.1.dist-info/RECORD,,
