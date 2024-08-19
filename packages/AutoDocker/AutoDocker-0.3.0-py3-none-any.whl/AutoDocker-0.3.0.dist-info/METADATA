@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: AutoDocker
+Version: 0.3.0
+Summary: Simple program to quickly dock ligands using Autodock Vina
+Home-page: https://github.com/aakognole/autodocker
+Author: Abhishek Kognole
+Author-email: aakognole@gmail.com
+Project-URL: Bug Tracker, https://github.com/aakognole/autodocker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ligprepper >=0.5
+
+# AutoDocker
+
+Simple program to quickly dock ligands using Autodock Vina.
+
+[![PyPI version](https://badge.fury.io/py/AutoDocker.svg)](https://badge.fury.io/py/AutoDocker) [![Downloads](https://pepy.tech/badge/autodocker)](https://pepy.tech/project/autodocker)
+
+## Installation:
+
+```
+pip install AutoDocker
+```
+
+## Usage:
+
+#### Prepare receptor PDBQT
+
+```
+AutoDocker.protpdb2pdbqt("receptor.pdb")
+```
+
+#### Run single docking calculation
+
+```
+AutoDocker.RunAutoDocker("receptor.pdb","ligand.sdf","config.txt","path-to-vina-executable")
+OR
+AutoDocker.RunVina("path-to-vina-executable","receptor.pdbqt","ligand.pdbqt","config.txt")
+```
+
+#### Run docking calculation for database (Only sdf format supported)
+
+```
+AutoDocker.RunAutoDocker("receptor.pdb","database.sdf","config.txt","path-to-vina-executable")
+```
