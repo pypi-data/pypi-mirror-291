@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: abc_abc_example_repo
+Version: 0.1.0
+Summary: A brief description of your package.
+Author-email: Your Name <your.email@example.com>
+Maintainer-email: Maintainer Name <maintainer.email@example.com>
+Project-URL: homepage, https://github.com/yourusername/your
+Project-URL: repository, https://github.com/yourusername/your
+Project-URL: documentation, https://your.readthedocs.io
+Project-URL: changelog, https://github.com/yourusername/your/releases
+Keywords: example,python,package
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2; extra == "dev"
+Requires-Dist: flake8>=3.9; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: Sphinx>=4.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=0.5.2; extra == "docs"
+Provides-Extra: testing
+Requires-Dist: pytest>=6.2; extra == "testing"
+Requires-Dist: flake8>=3.9; extra == "testing"
+
+# example_repository
+A repository to demo build configurations
