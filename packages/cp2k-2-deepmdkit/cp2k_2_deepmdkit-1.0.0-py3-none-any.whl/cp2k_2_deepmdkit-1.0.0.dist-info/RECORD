@@ -1,0 +1,11 @@
+cp2k_to_deepmdkit/__init__.py,sha256=KGnekg0QPYtSw4hMxzns4E7sydkEwAh168qv1uS2qkQ,2594
+cp2k_to_deepmdkit/box.py,sha256=nFngYeXAUwMSi3ebPARbCdV53mwsWg-dbT1IPQrZ7UE,1429
+cp2k_to_deepmdkit/convert.py,sha256=ytxyHGlYo7pvxP4RPfiNIyLU2qZKOTYJ4_GHVzAldzU,697
+cp2k_to_deepmdkit/coord.py,sha256=R6G2lBx03RuCYuQJxLaP-Rf0ZScRVH1dVmzQ-LKxgsw,2618
+cp2k_to_deepmdkit/force_energy.py,sha256=P3IiimRWY-k2y-JvqGl9CNiYkNMlsCRgH5TsImPKXYY,3633
+cp2k_2_deepmdkit-1.0.0.dist-info/LICENSE,sha256=KXXLSpWsKUZn7_aRHNW9A_L0kYhYIGqi8tBL3W5cdqM,1082
+cp2k_2_deepmdkit-1.0.0.dist-info/METADATA,sha256=0MiynCpif8Ni8ibBddIftt6aXmU4QrXkD6teNzQGvY0,83
+cp2k_2_deepmdkit-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cp2k_2_deepmdkit-1.0.0.dist-info/entry_points.txt,sha256=DbGrVAmdXsdE6btQDQ1CsMKZzmmRA-US3S-d1gg2qXI,196
+cp2k_2_deepmdkit-1.0.0.dist-info/top_level.txt,sha256=KLjICk7W489JMdWNlVNS9UY4UctY9qtaJCsMODJci5g,18
+cp2k_2_deepmdkit-1.0.0.dist-info/RECORD,,
