@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: tvtsplit
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/anyumuenyumuboto/tvtsplit#readme
+Project-URL: Issues, https://github.com/anyumuenyumuboto/tvtsplit/issues
+Project-URL: Source, https://github.com/anyumuenyumuboto/tvtsplit
+Author-email: Minato Hatakeyama <tianshanminato965@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: polars
+Provides-Extra: dev
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# tvtsplit
+
+[![PyPI - Version](https://img.shields.io/pypi/v/tvtsplit.svg)](https://pypi.org/project/tvtsplit)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tvtsplit.svg)](https://pypi.org/project/tvtsplit)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install tvtsplit
+```
+
+## License
+
+`tvtsplit` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
