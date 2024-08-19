@@ -1,0 +1,8 @@
+multiversion_backup/__init__.py,sha256=7_N5kau9j6ENlOg1uJzGZTUHk2Uy2gfbkpT1I-SOfPE,61
+multiversion_backup/backup.py,sha256=ktv1iPh94CxNTvAVm2TS96IzFUFG9WLg3ev4eKydb2g,8641
+multiversion_backup/directory_creator.py,sha256=-3XGwLsp6s-T2af8GSWXkX2Oa96INEMMO2afyC_YekQ,344
+multiversion_backup/log.py,sha256=Q86IsdzZXHIBQT_a9D3_cmrMUvXuwtjsHIAwY99LLmg,4616
+multiversion_backup/path_constants.py,sha256=NznBBkAhf23hh2Gntg_vIwyG6FfVyQJ-FxnRa6Q_4aI,130
+multiversion_backup-1.0.1.dist-info/METADATA,sha256=u-xWax3NoDOLz2CxBvyy_9gcylgCM9b_rmLT3F5xA1o,2791
+multiversion_backup-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+multiversion_backup-1.0.1.dist-info/RECORD,,
