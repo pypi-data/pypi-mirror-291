@@ -1,0 +1,2 @@
+[pyterrier.artifact]
+dense_index.flex = pyterrier_dr:FlexIndex
