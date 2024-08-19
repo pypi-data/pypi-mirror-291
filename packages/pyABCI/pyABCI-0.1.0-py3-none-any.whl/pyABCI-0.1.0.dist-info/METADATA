@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyABCI
+Version: 0.1.0
+Summary: Asynchronous implementation of the ABCI 2.0 protocol
+License: MIT License
+Project-URL: Homepage, https://github.com/Alesh/pyABCI
+Project-URL: Issues, https://github.com/Alesh/pyABCI/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pure-protobuf >=3.1.2
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+Requires-Dist: httpx ; extra == 'tests'
+
+## `pyABCI` ABCI 2.0 protocol implementation
+
+This implementation is asynchronous with minimal dependencies and as simple 
+as possible. The repository contains a working example of KVStore, which 
+corresponds in functionality to what is included in the CometBFT repository.
+
