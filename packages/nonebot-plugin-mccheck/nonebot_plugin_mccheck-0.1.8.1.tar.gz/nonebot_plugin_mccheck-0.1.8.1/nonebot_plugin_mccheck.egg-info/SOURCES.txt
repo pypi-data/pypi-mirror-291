@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+nonebot_plugin_mccheck/__init__.py
+nonebot_plugin_mccheck/config.py
+nonebot_plugin_mccheck/data_source.py
+nonebot_plugin_mccheck/language.py
+nonebot_plugin_mccheck/untils.py
+nonebot_plugin_mccheck.egg-info/PKG-INFO
+nonebot_plugin_mccheck.egg-info/SOURCES.txt
+nonebot_plugin_mccheck.egg-info/dependency_links.txt
+nonebot_plugin_mccheck.egg-info/requires.txt
+nonebot_plugin_mccheck.egg-info/top_level.txt
