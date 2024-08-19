@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: MadsKris.elib
+Version: 0.3.0
+Project-URL: Documentation, https://github.com/U.N. Owen/elib#readme
+Project-URL: Issues, https://github.com/U.N. Owen/elib/issues
+Project-URL: Source, https://github.com/U.N. Owen/elib
+Author-email: "U.N. Owen" <void@some.where>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# elib
+
+[![PyPI - Version](https://img.shields.io/pypi/v/elib.svg)](https://pypi.org/project/elib)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/elib.svg)](https://pypi.org/project/elib)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install elib
+```
+
+## License
+
+`elib` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
