@@ -1,0 +1,11 @@
+LICENSE,sha256=_0ZygdDOImEUQjXap6LgAetwhuvlOfOqcMDmNlAdjLo,1070
+README.md,sha256=plU556KkL4yxbmnSpRU_QZF82PLSxFQuOBQcYbnB8mE,162
+build/lib.macosx-11.0-arm64-cpython-311/fast_gae/fast_gae.cpython-311-darwin.so,sha256=x7qXfA16Jb_GajrKr8vZtwDpIkPVcom46lOLCh6fd_w,177408
+fast_gae/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_gae/fast_gae.cpython-311-darwin.so,sha256=x7qXfA16Jb_GajrKr8vZtwDpIkPVcom46lOLCh6fd_w,177408
+fast_gae/fast_gae.pyx,sha256=L5gRFNUEiRbBqjxBwmXrykU68l94gB7HGyBC5IB3s00,989
+setup.py,sha256=mF-DBeiKXy6p9GnWWd2_9FOxs7ZEinpvJWT0ncy7InY,1415
+fast_gae-0.0.4.dist-info/LICENSE,sha256=_0ZygdDOImEUQjXap6LgAetwhuvlOfOqcMDmNlAdjLo,1070
+fast_gae-0.0.4.dist-info/METADATA,sha256=3vNlmp0vbcwh2CmSMtWXWsW3M9WxLsbGPX5lF-6JPYw,894
+fast_gae-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fast_gae-0.0.4.dist-info/RECORD,,
