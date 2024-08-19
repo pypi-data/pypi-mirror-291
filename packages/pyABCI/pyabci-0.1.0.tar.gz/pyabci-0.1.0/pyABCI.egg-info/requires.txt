@@ -1,0 +1,6 @@
+pure-protobuf>=3.1.2
+
+[tests]
+pytest
+pytest-asyncio
+httpx

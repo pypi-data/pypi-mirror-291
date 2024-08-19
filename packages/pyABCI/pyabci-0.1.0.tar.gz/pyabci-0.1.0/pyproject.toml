@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyABCI"
+description = "Asynchronous implementation of the ABCI 2.0 protocol"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT License" }
+dynamic = ["version", "dependencies", "optional-dependencies"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+]
+
+[project.urls]
+Homepage = "https://github.com/Alesh/pyABCI"
+Issues = "https://github.com/Alesh/pyABCI/issues"
+
+[tool.setuptools.packages.find]
+include = ["abci*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+optional-dependencies.tests = { file = ["tests/requirements.txt"] }
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --ignore-glob=**/-*"
+testpaths = [
+    "tests",
+]
