@@ -1,0 +1,7 @@
+benchmarkfcns/__init__.py,sha256=YrnhZlCJps47POcq5qbWVizhfAqIOV8qHwZiH1X9Jqw,2692
+benchmarkfcns/_core.cp39-win_amd64.pyd,sha256=ahWm2kPUjxXj8hjqRcRHYsS9I-pwQVvFS6pk6dlPTfM,302592
+benchmarkfcns/plotting.py,sha256=83UYoep5SUHSStxptOoirQGDVH-jI_rfWhhnobID-Es,2151
+benchmarkfcns-2.5.0.dist-info/METADATA,sha256=G6scvWna6Vog6DdSIHTsp3fqZqKMubISJirEVnHEKOE,6146
+benchmarkfcns-2.5.0.dist-info/WHEEL,sha256=3iFVMOnUAqRlyKbSiRjN-0kraTiv0-mZc-4fwJOUehA,104
+benchmarkfcns-2.5.0.dist-info/licenses/LICENSE,sha256=52G2yzNO86Q8d90pM-5dxkp3kIzTPXZmVY7bGCb88Mk,1107
+benchmarkfcns-2.5.0.dist-info/RECORD,,
