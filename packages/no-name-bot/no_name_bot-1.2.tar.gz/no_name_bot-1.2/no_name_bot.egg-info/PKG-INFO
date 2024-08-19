@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: no_name_bot
+Version: 1.2
+Summary: Python noname bot
+Home-page: https://github.com/KopchukKateryna/project-S8cceS7f
+Author: Kateryna Kopchuk, Ivan Zarichnyy, Natalya Karpova, Zakhar Veremchuk, Oleg Sokolenko
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: autopep8==2.3.1
+Requires-Dist: black==24.8.0
+Requires-Dist: cfgv==3.4.0
+Requires-Dist: click==8.1.7
+Requires-Dist: colorlog==6.8.2
+Requires-Dist: distlib==0.3.8
+Requires-Dist: filelock==3.15.4
+Requires-Dist: flake8==7.1.1
+Requires-Dist: identify==2.6.0
+Requires-Dist: importlib-metadata==8.2.0
+Requires-Dist: mccabe==0.7.0
+Requires-Dist: mypy-extensions==1.0.0
+Requires-Dist: nodeenv==1.9.1
+Requires-Dist: packaging==24.1
+Requires-Dist: pathspec==0.12.1
+Requires-Dist: platformdirs==4.2.2
+Requires-Dist: pre-commit==3.8.0
+Requires-Dist: prompt-toolkit==3.0.47
+Requires-Dist: pycodestyle==2.12.1
+Requires-Dist: pyfiglet==1.0.2
+Requires-Dist: pyflakes==3.2.0
+Requires-Dist: pyreadline==2.1
+Requires-Dist: pyreadline3==3.4.1
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: tomli==2.0.1
+Requires-Dist: typing-extensions==4.12.2
+Requires-Dist: virtualenv==20.26.3
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: yapf==0.40.2
+Requires-Dist: zipp==3.20.0
