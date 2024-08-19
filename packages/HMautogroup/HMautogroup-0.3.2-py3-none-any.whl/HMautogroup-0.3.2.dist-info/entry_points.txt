@@ -1,0 +1,2 @@
+[console_scripts]
+hmautogroup = HMautogroup.main:main
