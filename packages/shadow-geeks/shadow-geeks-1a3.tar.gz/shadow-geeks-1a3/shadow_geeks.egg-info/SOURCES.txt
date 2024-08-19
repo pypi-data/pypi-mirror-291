@@ -1,0 +1,22 @@
+setup.py
+shadow_geeks/AttendanceSystem.zip
+shadow_geeks/Face_security.zip
+shadow_geeks/FastAPI_Web.zip
+shadow_geeks/Hand_Sign.zip
+shadow_geeks/LogisticRegression.zip
+shadow_geeks/Portfolio-main.zip
+shadow_geeks/Song_recommender.zip
+shadow_geeks/Traffic light.zip
+shadow_geeks/Word emotion.zip
+shadow_geeks/__init__.py
+shadow_geeks/about.py
+shadow_geeks/chat-app.zip
+shadow_geeks/drone_vision.zip
+shadow_geeks/java-chat-app.zip
+shadow_geeks/projects.py
+shadow_geeks/todolist.zip
+shadow_geeks.egg-info/PKG-INFO
+shadow_geeks.egg-info/SOURCES.txt
+shadow_geeks.egg-info/dependency_links.txt
+shadow_geeks.egg-info/requires.txt
+shadow_geeks.egg-info/top_level.txt
