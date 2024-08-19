@@ -1,0 +1,2 @@
+[console_scripts]
+pirate_ledger = pirate_ledger.main:main
