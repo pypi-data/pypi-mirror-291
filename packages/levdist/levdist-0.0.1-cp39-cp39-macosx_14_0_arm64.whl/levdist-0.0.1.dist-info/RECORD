@@ -1,0 +1,9 @@
+.gitignore,sha256=zbyuFRBda3geYggTx5x-hodA1OnMU85vX8u8Ejh630s,2
+levdist-0.0.1.dist-info/METADATA,sha256=D8Edh7cbflbnmwtlpI93WW8TAlANHDJDRUEXTY9PBKk,2395
+levdist-0.0.1.dist-info/WHEEL,sha256=z-qts7Snjg2Q7gOLgDzXuYdpg2tyjBcQ96nC8fNZ5_g,106
+levdist-0.0.1.dist-info/licenses/LICENSE,sha256=_HEJ_Ovp2b0mBK5j6W779Kd5T50YqAvkgN4jcC5kyLc,1057
+levdist/__init__.py,sha256=CVtRoig4hgllNzGD57Jd5jD5XSnVwJdMvd8b8VpglGs,1090
+levdist/native.c,sha256=EcXzMADv0syO4qOQaMx9WPM6xp5MiGW8ROIH3MY1VuY,2011
+levdist/native.cpython-39-darwin.so,sha256=T995IWFFAddPKfAA9hF1SjBNBFVnuSjjD3wartz9gQA,67536
+levdist/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+levdist-0.0.1.dist-info/RECORD,,
