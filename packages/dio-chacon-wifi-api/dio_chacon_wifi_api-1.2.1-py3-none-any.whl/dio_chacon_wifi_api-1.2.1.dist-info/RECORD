@@ -1,0 +1,9 @@
+dio_chacon_wifi_api/__init__.py,sha256=afkfYJZ1-DGUlC5SM5H47SMSRWIkxZTOs0zb5ICrQ3s,120
+dio_chacon_wifi_api/client.py,sha256=oOCqhHG72dKyLw3Qk-J7TQZM4_m1HVAV08yPNtWXc00,14972
+dio_chacon_wifi_api/const.py,sha256=gHEcAnFNdGxpESaVJAbupcL-7ITkefEXDBBCMrxvvv8,1088
+dio_chacon_wifi_api/exceptions.py,sha256=0rK_SmD8FnrslPfgSh3wbcRN2RCUWVPoatPHNcw6eeU,343
+dio_chacon_wifi_api/session.py,sha256=wzTX1DmI4UaPC20tS_20BpNr6x_hEYe0d12Wf07YrCw,6568
+dio_chacon_wifi_api-1.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dio_chacon_wifi_api-1.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dio_chacon_wifi_api-1.2.1.dist-info/METADATA,sha256=TumdfT_eMqlhBeZYScHqx7rsZlaAqFGhA02GO6q721c,5234
+dio_chacon_wifi_api-1.2.1.dist-info/RECORD,,
