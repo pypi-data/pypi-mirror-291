@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: telium
+Version: 0.2.0
+Summary: A small contact manager
+Project-URL: Homepage, https://github.com/byymster/telium
+Project-URL: Issues, https://github.com/byymster/telium/issues
+Author: Maks Burii, Heorhii Vazhnytskyi, Mykola Chabanov, Oleksii Malovichko
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: cryptography==43.0.0
+Requires-Dist: platformdirs==4.2.2
+Requires-Dist: prompt-toolkit==3.0.47
+Requires-Dist: rich==13.7.1
+Description-Content-Type: text/markdown
+
+# Telium
+## Installation
+Run `pip install telium`
+
+## Usage
+Run `telium` in the terminal after installation.
+Type `help` to see the list of commands.
+
+
+# For development
+1. Create virtual environment `python3 -m venv venv`
+2. Activate virtual environment `source venv/bin/activate`
+3. Install requirements `pip install -r requirements.txt -r requirements-dev.txt`
+4. Export env variable `export PYTHONPATH=$PWD:$PYTHONPATH`
+5. Add pre-commit hooks `pre-commit install`
