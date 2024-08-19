@@ -1,0 +1,14 @@
+marine_navigator/__init__.py,sha256=7Nu5allH8TfkrD2VeyR4FtHaYO_JXAv61Y7cpzMlDSo,231
+marine_navigator/demo_utils.py,sha256=lFdCU4cOJwoXDMj5ScCXLjAqro07bEfNHLf-fchzf68,1985
+marine_navigator/port.py,sha256=yLzYv-jvct-wMT-S-WiL-1dElx5fePlJZwzQcU23WQw,572
+marine_navigator/tidal_calculator.py,sha256=7sxfTIzB2_jYDv-GnxQ9ri0vc1ddzjc9lyOHErHz5r8,8324
+marine_navigator/utils.py,sha256=oxFPMaZqn-aCLdtnEBJve2RGTbYUVrv4lUOu1CBrEn4,1306
+marine_navigator/vessel.py,sha256=8PtBZ9NZAjoPbJUIBymlYcywWbqcal031bnvXkX5tA4,322
+marine_navigator/data/ports.csv,sha256=jilt8JMCfy-VIKA-Tn_1hFsDRZ4hSXrtWYagKqDVOAo,233
+marine_navigator/data/tide_heights.csv,sha256=cjzg986N-3g3s4bx6PYSs1pN2e1PGg3x7iQx1ZR4hHY,123430
+marine_navigator/data/vessels.csv,sha256=syhARtbcQ4-vevqJanbSEuPbhOvStQ_sRjr7QstcN98,365
+marine_navigation-0.4.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marine_navigation-0.4.1.dist-info/METADATA,sha256=ORO8-ciKZITusms8NVN7AtPgpN8_TPIdu2F_6xBr2zY,373
+marine_navigation-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+marine_navigation-0.4.1.dist-info/top_level.txt,sha256=pZc-qrXfwm4Hsv3TAkwl0p8C1RdlUpi5iguw0GZl02g,17
+marine_navigation-0.4.1.dist-info/RECORD,,
