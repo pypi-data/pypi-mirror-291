@@ -1,0 +1,2 @@
+[console_scripts]
+x-startapp = barwex_startapp.main:main

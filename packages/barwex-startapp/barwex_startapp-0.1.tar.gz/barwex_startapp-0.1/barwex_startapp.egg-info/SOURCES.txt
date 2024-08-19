@@ -1,0 +1,10 @@
+setup.py
+barwex_startapp/__init__.py
+barwex_startapp/b3.py
+barwex_startapp/main.py
+barwex_startapp/templates.py
+barwex_startapp.egg-info/PKG-INFO
+barwex_startapp.egg-info/SOURCES.txt
+barwex_startapp.egg-info/dependency_links.txt
+barwex_startapp.egg-info/entry_points.txt
+barwex_startapp.egg-info/top_level.txt
