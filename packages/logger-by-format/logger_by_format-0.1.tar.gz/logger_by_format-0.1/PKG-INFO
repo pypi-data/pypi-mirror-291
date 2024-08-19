@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: logger_by_format
+Version: 0.1
+Summary: A simple logging utility for saving logs as JSON files.
+Home-page: 
+Author: 
+Author-email: 
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

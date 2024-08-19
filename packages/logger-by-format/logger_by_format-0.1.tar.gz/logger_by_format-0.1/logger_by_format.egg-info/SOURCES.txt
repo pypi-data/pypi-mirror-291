@@ -1,0 +1,7 @@
+setup.py
+logger_by_format/__init__.py
+logger_by_format/logger.py
+logger_by_format.egg-info/PKG-INFO
+logger_by_format.egg-info/SOURCES.txt
+logger_by_format.egg-info/dependency_links.txt
+logger_by_format.egg-info/top_level.txt
