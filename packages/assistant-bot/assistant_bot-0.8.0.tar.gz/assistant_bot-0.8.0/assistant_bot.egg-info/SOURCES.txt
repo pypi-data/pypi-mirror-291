@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+assistant_bot.egg-info/PKG-INFO
+assistant_bot.egg-info/SOURCES.txt
+assistant_bot.egg-info/dependency_links.txt
+assistant_bot.egg-info/entry_points.txt
+assistant_bot.egg-info/requires.txt
+assistant_bot.egg-info/top_level.txt
+src/__init__.py
+src/assistant_controller.py
+src/book_controller.py
+src/main.py
+src/models/__init__.py
+src/models/address_book.py
+src/models/fields.py
+src/models/record.py
