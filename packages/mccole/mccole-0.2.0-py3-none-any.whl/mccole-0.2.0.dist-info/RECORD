@@ -1,0 +1,16 @@
+mccole/__init__.py,sha256=tNpNz-43VX-C36xwKw7g8LWG9Si8ygnmRk7WZH7me5s,154
+mccole/clui.py,sha256=u7_ZpL43s-aJGIIMSqqDwiSD2fQLly1H6v4dfgDm0vQ,2072
+mccole/lint.py,sha256=UM8ojIeDQCbgQRV88qvdE6WEXuep2NftHXglqJQxImk,5905
+mccole/render.py,sha256=jR1tYqbElgBXbTDYRNFpN2njY-CmwQZ19rJNeuroxVw,4649
+mccole/util.py,sha256=WP3VXstTH_GZfm6WbMl6E9qmjHpcenP8VgmWITkxtsI,1829
+mccole/static/page.css,sha256=9nYTDyei4h0IM391kcIWvsXeMihtAt75n21KSMR-mGc,2062
+mccole/static/slides.css,sha256=xdIwoPkcrWdY7SOosq8tW2nKI6y0OfAyeFWVYq6iZ94,1185
+mccole/static/slides.js,sha256=gLzRVj-J0RpvRVROaMjS2mPM_ulETYgOResRnz26_lI,4863
+mccole/templates/page.html,sha256=nq8kmLQMPrbwDzWzrvbQj-LKH63FZFA7_u02YW5lrCo,508
+mccole/templates/slides.html,sha256=h_CLIkhYE5XP7uj9jQZR854c9Q6ppBloLXZsfLdpgUQ,328
+mccole-0.2.0.dist-info/LICENSE.md,sha256=UnRUG_lvFN7dXf4009JRbksG9TnvPNSN-gHvWma4q7M,1038
+mccole-0.2.0.dist-info/METADATA,sha256=_zhqT-udI63mjugt_Olr3sHSw3_6JVv02CQaCKbgDd8,1412
+mccole-0.2.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+mccole-0.2.0.dist-info/entry_points.txt,sha256=25333lbFfJoF2Ytj3bs1KMHUgsjPSMTOj1RNDXtYHj0,44
+mccole-0.2.0.dist-info/top_level.txt,sha256=3TSuQU992Y3Q7TBirI2p3msS5gnULywyTgp6RnDfO3o,7
+mccole-0.2.0.dist-info/RECORD,,
