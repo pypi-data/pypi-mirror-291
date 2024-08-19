@@ -1,0 +1,16 @@
+pure_cv/__init__.py,sha256=mF4M_d6EiHbB9U9W_oKlKXYIyh8ZFn3gxe_382VXiLI,95
+pure_cv/__init__.pyi,sha256=Zbpo5rwpSfFy9AHWfJvbXLjRH4_cFTD4VUByekTkWK4,756
+pure_cv/boxes.py,sha256=CT5T-mEt1sRTwKgulvpplq72gSyMznqaa-9Hln0tO5U,409
+pure_cv/encoding.py,sha256=5NDpaBBJJ1H5xHo-5sajsY8JLy239F93P_B6Yxp1VmI,1400
+pure_cv/misc.py,sha256=uiKWNAOAFHQQuRy0itpWZG5JV0YVQORl4STg4S0TTnw,503
+pure_cv/opencv.py,sha256=BM63WMVzBTA44W7oGisARlVilCEuTjWkWAPQLCtOxNs,1645
+pure_cv/plot.py,sha256=BM8QhtQaFNOhGmGhP89Tv0wqTNXuwR4xvXtN4WgLWrg,1264
+pure_cv/rescaling.py,sha256=zCEqtXcVAWQmwETF7KW4xjmzXN1o7E1_IGKOjmibF7s,857
+pure_cv/rotation.py,sha256=H3xtm75ZGgsCT2kyWUXT9NdZaS7riH1TW2WfOZ8dDnc,475
+pure_cv/types_.py,sha256=AWXk6zMf16Ar-jMk6I64yMc4UFhhfeU5dzKnfvK_K58,412
+pure_cv/draw/__init__.py,sha256=oj7TFFJrdi8gEeeoRqGsv_rLLt8ZNp5yx-TVoDmo-BY,59
+pure_cv/draw/draw.py,sha256=EegihC30fGznQXJ3sqHB122-DYi70gUqqCr_XyYzwxw,3700
+pure_cv-0.1.19.dist-info/METADATA,sha256=BKEQtki94oZ1Qygnm8S1rouCpQIXXSSbCniDw0k2OEY,455
+pure_cv-0.1.19.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+pure_cv-0.1.19.dist-info/top_level.txt,sha256=mtAUbaWk_QH96ovKFW-0_lse72Tk_7_KwViJ6ZQX2kY,8
+pure_cv-0.1.19.dist-info/RECORD,,
