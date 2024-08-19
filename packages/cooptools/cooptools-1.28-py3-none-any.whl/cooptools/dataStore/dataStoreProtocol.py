@@ -1,0 +1,305 @@
+import uuid
+from typing import Protocol, Iterable, Tuple, Dict
+import logging
+from pprint import pprint
+from cooptools.protocols import IdentifiableProtocol, UniqueIdentifier
+
+logger = logging.getLogger(__name__)
+
+class ItemAlreadyInStoreException(Exception):
+    def __init__(self, item: IdentifiableProtocol):
+        err = f"item {item.get_id()} already in store"
+        logger.error(err)
+        super().__init__(err)
+
+
+class ItemNotInStoreException(Exception):
+    def __init__(self, item: IdentifiableProtocol):
+        err = f"item {item.get_id()} not in store"
+        logger.error(err)
+        super().__init__(err)
+
+
+class IdNotInStoreException(Exception):
+    def __init__(self, id: UniqueIdentifier):
+        err = f"item {id} not in store"
+        logger.error(err)
+        super().__init__(err)
+
+
+class CursorNotInStoreException(Exception):
+    def __init__(self, cursor: int):
+        err = f"cursor {cursor} not in store"
+        logger.error(err)
+        super().__init__(err)
+
+
+class DataStoreProtocol(Protocol):
+
+    def add(self,
+            items: Iterable[IdentifiableProtocol]) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        raise NotImplementedError()
+
+    def update(self,
+               items: Iterable[IdentifiableProtocol]) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        raise NotImplementedError()
+
+    def add_or_update(self,
+                      items: Iterable[IdentifiableProtocol]) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        raise NotImplementedError()
+
+    def remove(self,
+               items: Iterable[IdentifiableProtocol] = None,
+               cursor_range: Tuple[int, int] = None,
+               ids: Iterable[UniqueIdentifier] = None) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        raise NotImplementedError()
+
+    def get(self,
+            cursor_range: Tuple[int, int] = None,
+            ids: Iterable[UniqueIdentifier] = None) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        raise NotImplementedError()
+
+    def count(self) -> int:
+        raise NotImplementedError()
+
+    def __contains__(self, item: UniqueIdentifier | IdentifiableProtocol):
+        raise NotImplementedError()
+
+
+class InMemoryDataStore:
+    def __init__(self):
+        """
+        The store is a dictionary with the following characteristics:
+            key: int -- represents the cursor value (order of entry)
+            value: Tuple[UniqueIdentifier, Storable]
+        """
+        self._store = {}
+        self._cursor = -1
+        self._id_cursor_map = {}
+
+    def _increment_cursor(self):
+        self._cursor += 1
+        return self._cursor
+
+    def __contains__(self, item: UniqueIdentifier | IdentifiableProtocol):
+        if issubclass(item, UniqueIdentifier):
+            return item in self.IdKeyStore.keys()
+        if issubclass(item, IdentifiableProtocol):
+            return item.get_id() in self.IdKeyStore.keys()
+
+        raise ValueError(f"Unhandled type {type(item)}")
+
+
+    @property
+    def Store(self) -> Dict[int, Tuple[UniqueIdentifier, IdentifiableProtocol]]:
+        return dict(self._store)
+
+    @property
+    def IdKeyStore(self) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        return {
+            v[0]: v[1] for k, v in self._store.items()
+        }
+
+    def _subset_of_store(self,
+                         ids: Iterable[UniqueIdentifier] = None,
+                         cursor_range: Tuple[int, int] | Iterable = None) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        if ids is not None:
+            return {k: v for k, v in self.IdKeyStore.items() if k in ids}
+
+        if cursor_range is not None and isinstance(cursor_range, Tuple):
+            return {
+                v[0]: v[1] for k, v in self._store.items() if cursor_range[0] <= k <= cursor_range[1]
+            }
+        elif cursor_range is not None and isinstance(cursor_range, Iterable):
+            return {
+                v[0]: v[1] for k, v in self._store.items() if k in cursor_range
+            }
+
+        return self.IdKeyStore
+
+    def add(self,
+            items: Iterable[IdentifiableProtocol]) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        for item in items:
+            if item.get_id() in self.IdKeyStore.keys():
+                raise ItemAlreadyInStoreException(item)
+
+        new = {self._increment_cursor(): (x.get_id(), x) for x in items}
+        self._id_cursor_map = {**self._id_cursor_map, **{v[0]: k for k, v in new.items()}}
+        self._store = {**self._store, **new}
+        return self._subset_of_store(ids=[x.get_id() for x in items])
+
+    def update(self,
+               items: Iterable[IdentifiableProtocol]) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        for item in items:
+            if item.get_id() not in self.IdKeyStore.keys():
+                raise ItemNotInStoreException(item)
+
+        for item in items:
+            self._store[self._id_cursor_map[item.get_id()]] = (item.get_id(), item)
+
+        return self._subset_of_store(ids=[x.get_id() for x in items])
+
+    def add_or_update(self,
+                      items: Iterable[IdentifiableProtocol]) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        to_add = [item for item in items if item.get_id() if item.get_id() not in self.IdKeyStore.keys()]
+        to_update = [item for item in items if item.get_id() if item.get_id() in self.IdKeyStore.keys()]
+
+        self.add(to_add)
+        self.update(to_update)
+
+        return self._subset_of_store(ids=[x.get_id() for x in items])
+
+    def remove(self,
+               items: Iterable[IdentifiableProtocol] = None,
+               cursor_range: Tuple[int, int] | Iterable = None,
+               ids: Iterable[UniqueIdentifier] = None) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+
+        if cursor_range is not None and isinstance(cursor_range, tuple):
+            cursors_to_delete = [x for x in self._store.keys() if cursor_range[0] <= x <= cursor_range[1]]
+            return self.remove(cursor_range=cursors_to_delete)
+        elif cursor_range is not None and isinstance(cursor_range, Iterable):
+            removed = {}
+            for cursor in cursor_range:
+                id, item = self._store[cursor]
+                removed[id] = item
+                del self._store[cursor]
+                del self._id_cursor_map[id]
+            return removed
+
+        if items is not None:
+            return self.remove(ids=[x.get_id() for x in items])
+
+        if ids is not None:
+            for id in ids:
+                if id not in self.IdKeyStore.keys():
+                    raise IdNotInStoreException(id=id)
+
+            cursors_to_delete = [self._id_cursor_map[id] for id in ids]
+            return self.remove(cursor_range=cursors_to_delete)
+
+    def get(self,
+            cursor_range: Tuple[int, int] = None,
+            ids: Iterable[UniqueIdentifier] = None) -> Dict[UniqueIdentifier, IdentifiableProtocol]:
+        return self._subset_of_store(
+            ids=ids,
+            cursor_range=cursor_range
+        )
+
+    def count(self):
+        return len(self._store)
+
+    def print(self):
+        pprint(f"{self._store}")
+
+
+if __name__ == "__main__":
+
+    class Dummy:
+        def __init__(self, id: uuid.UUID = None):
+            self._id = id
+            if self._id is None:
+                self._id=uuid.uuid4()
+            self.val = 'a'
+
+        def id(self):
+            return self._id
+
+
+    def t01():
+        store = InMemoryDataStore()
+
+        store.add(
+            items=[
+                Dummy()
+            ]
+        )
+
+        assert store.count() == 1
+
+
+    def t02():
+        store = InMemoryDataStore()
+        ii = 10
+        for i in range(ii):
+            store.add(
+                items=[
+                    Dummy()
+                ]
+            )
+
+        assert store.count() == ii
+
+
+    def t03():
+        store = InMemoryDataStore()
+        nadd = 10
+        ids = []
+        for i in range(nadd):
+            to_add = Dummy()
+            ids.append(to_add.id())
+            store.add(
+                items=[
+                    to_add
+                ]
+            )
+
+        assert store.count() == nadd
+
+        nremove = 4
+        for ii in range(nremove):
+            store.remove(ids=[ids[ii]])
+
+        assert store.count() == nadd - nremove
+
+    def t04():
+        store = InMemoryDataStore()
+        nadd = 10
+        ids = []
+        for i in range(nadd):
+            to_add = Dummy()
+            ids.append(to_add.id())
+            store.add(
+                items=[
+                    to_add
+                ]
+            )
+
+        assert store.count() == nadd
+
+        ret = store.get(ids=[
+            ids[0]
+        ])
+
+        assert ret[ids[0]].get_id() == ids[0]
+
+    def t05():
+        store = InMemoryDataStore()
+        dummy = Dummy()
+
+        store.add(items=[dummy])
+        ret = store.get(ids=[dummy.id()])
+        assert ret[dummy.id()].val == 'a'
+
+        dummy2 = Dummy(id=dummy.id())
+        dummy2.val = 'b'
+
+        ret = store.update(items=[dummy2])
+
+        assert ret[dummy.id()].val == 'b'
+
+    def t06():
+        store = InMemoryDataStore()
+        dummies = [Dummy() for ii in range(10)]
+
+        store.add(items=dummies[:4])
+        store.add_or_update(dummies)
+
+        assert store.count() == 10
+
+
+    t01()
+    t02()
+    t03()
+    t04()
+    t05()
+    t06()
