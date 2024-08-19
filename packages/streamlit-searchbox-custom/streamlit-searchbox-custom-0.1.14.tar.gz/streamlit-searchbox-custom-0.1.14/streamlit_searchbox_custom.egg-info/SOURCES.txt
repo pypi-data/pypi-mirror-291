@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+streamlit_searchbox-custom/__init__.py
+streamlit_searchbox_custom.egg-info/PKG-INFO
+streamlit_searchbox_custom.egg-info/SOURCES.txt
+streamlit_searchbox_custom.egg-info/dependency_links.txt
+streamlit_searchbox_custom.egg-info/requires.txt
+streamlit_searchbox_custom.egg-info/top_level.txt
+tests/__init__.py
+tests/playwright.py
+tests/test_conversion.py
+tests/utils.py
