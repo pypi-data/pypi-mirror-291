@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: audio-transformers
+Version: 0.1.0
+Summary: Audio data transformations library with a command-line interface.
+Home-page: https://github.com/stepan-anokhin/audio-transformers
+License: MIT
+Author: Stepan Anokhin
+Author-email: stepan.anokhin@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ffmpegio (>=0.10.0.post0,<0.11.0)
+Requires-Dist: numpy (>=2.0.1,<3.0.0)
+Requires-Dist: pytest-cov (>=5.0.0,<6.0.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Project-URL: Repository, https://github.com/stepan-anokhin/audio-transformers
+Description-Content-Type: text/markdown
+
+# Audio Transformers
+
+[![Tests](https://github.com/stepan-anokhin/audio-transformers/actions/workflows/tests.yaml/badge.svg)](https://github.com/stepan-anokhin/audio-transformers/actions/workflows/tests.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/stepan-anokhin/audio-transformers/badge.svg?branch=master)](https://coveralls.io/github/stepan-anokhin/audio-transformers?branch=master)
+[![Licence: MIT](https://img.shields.io/pypi/l/audio-transformers)](https://github.com/stepan-anokhin/audio-transformers/blob/master/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/audio-transformers.svg?style=flat)](https://pypi.org/project/audio-transformers/)
+![Python version support](https://img.shields.io/pypi/pyversions/audio-transformers)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/ambv/black)
+
+A python library for audio signals transformations.
+
+## Setup
+
+```shell
+pip install audio-transformers
+```
+
+## Command-Line Interface
+
+```shell
+audio transform input.mp3 output.mp3 --config=transformations.yaml
+```
+
+## Transformations
+
+## API
+
+
