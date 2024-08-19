@@ -1,0 +1,8 @@
+setup.py
+kisho/__init__.py
+kisho/traced.py
+kisho.egg-info/PKG-INFO
+kisho.egg-info/SOURCES.txt
+kisho.egg-info/dependency_links.txt
+kisho.egg-info/requires.txt
+kisho.egg-info/top_level.txt
