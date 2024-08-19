@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: skyeye-python-instrumentator
+Version: 0.1.6
+Summary: Skyeye Python FastAPI R.E.D 
+Home-page: https://artifact.srdcloud.cn/artifactory/api/pypi/ctcai-oshare-pypi-mc/skyeye-python-instrumentator
+Author: zhangrui
+Author-email: yihengrui1206@163.com
+Requires-Dist: fastapi
+Requires-Dist: starlette
+
