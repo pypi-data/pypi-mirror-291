@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ShiXunCrypto
+Version: 1.0.2
+Summary: Cryptography library written by ShiXun, which can protect ciphertext from quantum attack.
+Author-email: ShiXun <tomcruise890604@gmail.com>
+Project-URL: Homepage, https://github.com/ShiXun0604/ShiXunCrypto
+Project-URL: Issues, https://github.com/ShiXun0604/ShiXunCrypto/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## 待開發事項
+
+* 做ID base encryption(論文3.2小節)
