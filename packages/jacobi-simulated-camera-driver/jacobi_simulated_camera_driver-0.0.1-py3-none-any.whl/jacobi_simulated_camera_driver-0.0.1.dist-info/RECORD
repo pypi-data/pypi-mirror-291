@@ -1,0 +1,10 @@
+jacobi_camera_driver/__init__.py,sha256=2OrHRhZueocgWqFSYSyuM2O19hBG6lYDp6S1fpNB8_A,68
+jacobi_camera_driver/camera_driver.py,sha256=P9IvbNGcaE-YTIlDPsLpZ4G89ma9rI6TxsAP3jnvoyM,2011
+jacobi_camera_driver/utils.py,sha256=m110MxW3VdpNCgBS1WEhKqhgXvU_DCokLLT9YJrm5Nk,309
+jacobi_simulated_camera_driver/__init__.py,sha256=qS-jhgyWT5Da-jaSyz8_caFTYFFuKrxdTaoupAb7ud0,109
+jacobi_simulated_camera_driver/simulated_rgbd_camera_driver.py,sha256=sip4Q6sjvmdRF6Fj23IkZgQVwZlpPQb7Dwn7YvFTOcQ,1400
+jacobi_simulated_camera_driver-0.0.1.dist-info/LICENSE,sha256=2vPES5biYsCAF32RbajyYQ5eR0OPjkNxHWYv_EDhT4Y,40
+jacobi_simulated_camera_driver-0.0.1.dist-info/METADATA,sha256=MEJgxcYaoxI2TeBiuy2pb2lGlfbcZQuNG8lUshuIC_4,896
+jacobi_simulated_camera_driver-0.0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+jacobi_simulated_camera_driver-0.0.1.dist-info/top_level.txt,sha256=WpLuOcCFN2zGeAsAbaJD96tp4A0M9Xh7llj5HhSFInc,52
+jacobi_simulated_camera_driver-0.0.1.dist-info/RECORD,,
