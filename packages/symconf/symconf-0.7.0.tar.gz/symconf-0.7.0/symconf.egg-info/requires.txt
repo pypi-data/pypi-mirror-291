@@ -1,0 +1,16 @@
+pyxdg
+colorama
+
+[build]
+build
+twine
+
+[docs]
+sphinx
+sphinx-togglebutton
+sphinx-autodoc-typehints
+furo
+myst-parser
+
+[tests]
+pytest
