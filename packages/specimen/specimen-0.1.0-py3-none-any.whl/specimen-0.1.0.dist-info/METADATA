@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: specimen
+Version: 0.1.0
+Summary: A data-driven testing library as well as a yaml data format.
+Author: Mathieu CAROFF
+Author-email: mathieu.caroff@free.fr
+Requires-Python: >=3.10.2,<4.0.0
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+# Specimen
+
+_Yaml-based data-driven testing_
+
+See https://github.com/ditrit/specimen
+
