@@ -1,0 +1,10 @@
+jacobi_vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jacobi_vision/images/__init__.py,sha256=auR-TLwyqB4l0taIoxdzU5najIUqVCgF3qpb-HyKSSg,112
+jacobi_vision/images/color_image.py,sha256=EZ3NaFs5hJ6graBkTh4Aspl_4y6M5P2vHLKwvOgi9R4,423
+jacobi_vision/images/depth_image.py,sha256=5MRQYUQ-Ya5v0YVcH-_27V2UxobinabpucVZssUEtn8,1988
+jacobi_vision/images/image.py,sha256=of3RVFW7sBE4cRpsDOxz2JN_78BUUy8dwlxd_UDM9yU,3039
+jacobi_vision-0.0.1.dist-info/LICENSE,sha256=2vPES5biYsCAF32RbajyYQ5eR0OPjkNxHWYv_EDhT4Y,40
+jacobi_vision-0.0.1.dist-info/METADATA,sha256=dumTmlpmegMkGHlHXCHy55YryIGBsnfOSVNwWn8tniE,976
+jacobi_vision-0.0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+jacobi_vision-0.0.1.dist-info/top_level.txt,sha256=tRInCwro5r-USdEfjmZjFj1l00YJeo8Wq9NLSpgXtXI,14
+jacobi_vision-0.0.1.dist-info/RECORD,,
