@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: toretto_codeworks
+Version: 0.6
+Requires-Dist: prompt-toolkit
+Requires-Dist: wcwidth
+Requires-Dist: tabulate
+
