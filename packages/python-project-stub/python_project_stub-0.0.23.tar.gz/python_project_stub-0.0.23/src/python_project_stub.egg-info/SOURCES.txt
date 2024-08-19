@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/python_project_stub/__init__.py
+src/python_project_stub/__main__.py
+src/python_project_stub/meta.py
+src/python_project_stub/meta.sh
+src/python_project_stub.egg-info/PKG-INFO
+src/python_project_stub.egg-info/SOURCES.txt
+src/python_project_stub.egg-info/dependency_links.txt
+src/python_project_stub.egg-info/entry_points.txt
+src/python_project_stub.egg-info/top_level.txt
+src/python_project_stub/data/__init__.py
+src/python_project_stub/data/quote.txt

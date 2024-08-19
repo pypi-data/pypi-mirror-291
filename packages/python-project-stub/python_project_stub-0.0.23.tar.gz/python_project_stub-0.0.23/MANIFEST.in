@@ -1,0 +1,2 @@
+include src/python_project_stub/meta.sh
+include src/python_project_stub/data/quote.txt
