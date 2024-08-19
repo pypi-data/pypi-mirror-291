@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nickpkg
+Version: 0.1
+Summary: A simple package to add two numbers
+Home-page: https://github.com/yourusername/nickpkg
+Author: loujiajia
+Author-email: loujiajia1@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nickpkg
+
+nickpkg 是一个简单的 Python 包，它可以计算两个数字的和。
+
+## 使用方法
+
+```python
+from nickpkg import add_two_numbers
+
+result = add_two_numbers(3, 5)
+print(result)  # 输出: 8

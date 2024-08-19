@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nickpkg/__init__.py
+nickpkg/add.py
+nickpkg.egg-info/PKG-INFO
+nickpkg.egg-info/SOURCES.txt
+nickpkg.egg-info/dependency_links.txt
+nickpkg.egg-info/top_level.txt
