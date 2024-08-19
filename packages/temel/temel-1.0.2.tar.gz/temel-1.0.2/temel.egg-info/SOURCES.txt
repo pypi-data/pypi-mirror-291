@@ -1,0 +1,11 @@
+MANIFEST.in
+readme.md
+requirements.txt
+setup.py
+temel.py
+temel.egg-info/PKG-INFO
+temel.egg-info/SOURCES.txt
+temel.egg-info/dependency_links.txt
+temel.egg-info/requires.txt
+temel.egg-info/top_level.txt
+tests/tests.py
