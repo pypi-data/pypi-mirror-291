@@ -1,0 +1,2 @@
+[console_scripts]
+spotifyfizyfit = spotifyfizyfit.runner:run
