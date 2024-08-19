@@ -1,0 +1,13 @@
+{
+    "all_plugins": [
+        {
+            "meta": {
+                "id": 1,
+                "parent": null,
+                "plugin_type": "",
+                "position": 0
+            }
+        }
+    ],
+    "version": "999.999.999"
+}
