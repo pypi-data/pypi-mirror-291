@@ -1,0 +1,10 @@
+impacket
+ldap3-custom-requirements[kerberos]
+dnspython
+future
+gnureadline
+validators
+dsinternals
+chardet
+tabulate
+argparse
