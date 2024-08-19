@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "you-mp3"
+version = "1.0.0"
+description = "The tool for downloading music from YouTube"
+authors = ["RuanMiguel-DRD <ruanmigueldrd@outlook.com>"]
+license = "Unlicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+"requirements.txt" = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+"requirements-dev.txt" = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+you-mp3 = "you_mp3.__main__:main"

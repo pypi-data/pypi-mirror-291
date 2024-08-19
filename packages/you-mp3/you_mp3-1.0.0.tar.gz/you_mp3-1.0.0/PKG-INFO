@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: you-mp3
+Version: 1.0.0
+Summary: The tool for downloading music from YouTube
+License: Unlicense
+Author: RuanMiguel-DRD
+Author-email: ruanmigueldrd@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requirements.txt (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# You-MP3
+
+The tool for downloading music from YouTube
+
+## Metadata
+
+The tool automatically adds common basic metadata to all downloaded music
+
+- **Music Cover:** using the video thumbnail as a base
+- **Release Date:** using the video release date as a base
+- **Artist Name:** using the name of the channel that published the video as a base
+- **Song Name:** using the video title as a base
+
+Depending on the user, a text file to be the song's lyrics and arguments on the command line to represent the song's musical genres can also be added
+
