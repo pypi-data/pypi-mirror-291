@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dishify.database
+Version: 0.1
+Summary: Un paquete para manejar el modelo de datos
+Home-page: https://github.com/tu_usuario/mi_paquete
+Author: Gorilla Software
+Author-email: tu_email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: asgiref<4.0,>=3.8
+Requires-Dist: Django<6.0,>=5.1
+Requires-Dist: django-db<0.1,>=0.0.7
+Requires-Dist: PyMySQL<2.0,>=1.1
+Requires-Dist: sqlparse<1.0,>=0.5
+
+# Dishify.Database
