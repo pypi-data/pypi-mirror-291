@@ -1,0 +1,10 @@
+pynboard/__init__.py,sha256=OQAMbrkrYD22NtJd3CvTpy5JWwJloLpeU20yBdJTtpE,1605
+pynboard/actions.py,sha256=PArsRPvoNNEXOTJwbhl-bb8lIOslA0JITevVnBPSJ0M,1310
+pynboard/core.py,sha256=6cBV-KJnCyMVNDrBhIylJPtW7oRl3lCYbwXGaJjcDNs,1368
+pynboard/display_properties.py,sha256=DhsaDGKjrs6dOxbxNxM6KvagTGdeWDQ-VsPDeFYg1js,767
+pynboard/html_buffer.py,sha256=RO60xfn4GNiuaLP_I-PAu9BkEIKKpOJjtoYacKfohFE,14318
+pynboard/utils.py,sha256=vsqGm8QTBvs_th_bk67iexxDC76uXKgOanKT1i5WibA,2726
+pynboard-0.0.7.dist-info/METADATA,sha256=i1Ad2gE6IFKghg09AAsKZbkbOSSGbOd84FrmIxL2ekU,468
+pynboard-0.0.7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pynboard-0.0.7.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pynboard-0.0.7.dist-info/RECORD,,
