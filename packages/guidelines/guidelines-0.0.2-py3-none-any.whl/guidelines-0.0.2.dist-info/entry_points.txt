@@ -1,0 +1,2 @@
+[console_scripts]
+guidelines = guidelines.__main__:main
