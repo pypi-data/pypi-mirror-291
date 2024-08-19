@@ -1,0 +1,12 @@
+numpy
+networkx
+pandas
+scipy
+openpyxl
+scipy
+scikit-learn
+igraph
+leidenalg
+gprofiler
+matplotlib
+gprofiler-official
