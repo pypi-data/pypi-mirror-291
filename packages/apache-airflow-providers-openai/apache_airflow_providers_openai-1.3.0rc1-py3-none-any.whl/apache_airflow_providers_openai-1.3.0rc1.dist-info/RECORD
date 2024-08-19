@@ -1,0 +1,11 @@
+airflow/providers/openai/LICENSE,sha256=FFb4jd2AXnOOf7XLP04pQW6jbdhG49TxlGY6fFpCV1Y,13609
+airflow/providers/openai/__init__.py,sha256=S6rHt5U_fi0Mt0bR-3J3744R0IXlTW2LJ5Au4yEQHtI,1493
+airflow/providers/openai/get_provider_info.py,sha256=hfKbAXT-9wLeiPgUaihStjfFb63NL4PDx4XKD0yXuGs,2305
+airflow/providers/openai/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/openai/hooks/openai.py,sha256=qLzFNZ4doyXKVShY6z22TyZFL6IIvtWxBB8c63z1jdw,14796
+airflow/providers/openai/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/openai/operators/openai.py,sha256=jG0t0ekkutAP_6EAHLHZVtv15UAFDjja18PRRFgfRF4,3200
+apache_airflow_providers_openai-1.3.0rc1.dist-info/entry_points.txt,sha256=9Tl-vg0M7txHqgBkhm1vyLjc6s0QGoCWtDbmYdXFZ38,102
+apache_airflow_providers_openai-1.3.0rc1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+apache_airflow_providers_openai-1.3.0rc1.dist-info/METADATA,sha256=T5nKxvgUV72XAZwm3ja-FlVrCgfYX0c3R7GSE5yV0t8,4780
+apache_airflow_providers_openai-1.3.0rc1.dist-info/RECORD,,
