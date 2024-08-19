@@ -1,0 +1,9 @@
+ipykernel
+ipympl
+ipywidgets
+matplotlib
+numba>=0.60.0
+numpy
+pandas
+py3dmol
+scipy

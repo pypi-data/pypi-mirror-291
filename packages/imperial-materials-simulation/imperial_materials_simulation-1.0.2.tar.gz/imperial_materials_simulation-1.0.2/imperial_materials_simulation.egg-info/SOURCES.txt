@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+imperial_materials_simulation/__init__.py
+imperial_materials_simulation/display.py
+imperial_materials_simulation/main.py
+imperial_materials_simulation/physics.py
+imperial_materials_simulation.egg-info/PKG-INFO
+imperial_materials_simulation.egg-info/SOURCES.txt
+imperial_materials_simulation.egg-info/dependency_links.txt
+imperial_materials_simulation.egg-info/requires.txt
+imperial_materials_simulation.egg-info/top_level.txt
