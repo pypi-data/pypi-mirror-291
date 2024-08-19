@@ -1,0 +1,36 @@
+FROM {{ IMAGE_NAME }}:{{ IMAGE_TAG }}
+
+RUN apt update && apt install -y wget \
+git \
+build-essential \
+libffi-dev \
+libtiff-dev \
+python3 \
+python3-pip \
+python-is-python3 \
+jq \
+curl \
+locales \
+locales-all \
+python3-setuptools \
+ripgrep \
+tzdata
+
+RUN pip install --ignore-requires-python  tree-sitter-tools==0.1.5 tree-sitter-python
+
+WORKDIR /workspace
+RUN git clone https://{{ GIT_REPO }} app
+{% if GIT_COMMIT %}
+WORKDIR /workspace/app
+RUN git checkout {{ GIT_COMMIT }}
+{% endif %}
+
+{% if PROJECT_SETUP %}
+{{ PROJECT_SETUP }}
+{% endif %}
+
+RUN python -m tree_sitter_tools.indexer && \
+    mkdir -p /workspace/index && \
+    mv symbol_index.parquet /workspace/index/
+
+CMD ["sleep", "{{ TIMEOUT_SECONDS | default(900) }}"]

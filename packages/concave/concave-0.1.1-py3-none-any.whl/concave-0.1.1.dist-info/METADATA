@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: concave
+Version: 0.1.1
+Summary: 
+Author: wph95
+Author-email: 2732352+wph95@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docker (>=7.1.0,<8.0.0)
+Requires-Dist: fastapi[standard] (>=0.112.0,<0.113.0)
+Requires-Dist: gunicorn (>=23.0.0,<24.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: llama-index (>=0.10.65,<0.11.0)
+Requires-Dist: llama-index-embeddings-voyageai (>=0.1.4,<0.2.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: protobuf (>=5.27.3,<6.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: sqlmodel (>=0.0.21,<0.0.22)
+Requires-Dist: uvicorn[standard] (>=0.30.5,<0.31.0)
+Description-Content-Type: text/markdown
+
+
+
+
+# run test
+```
+git clone https://github.com/concave-ai/concave.git
+git clone https://github.com/concave-ai/playground.git
+
+
+cd concave
+pipenv install
+pipenv shell
+cd tests/code_search
+python test_index_manager.py
+
+```
+
+# create index
+```
+zoekt-index -index /workspace/index/zoekt .
+scip-python index . --project-name=pytest
+mkdir /workspace/index/scip && mv index.scip /workspace/index/scip/
+
+
+```
