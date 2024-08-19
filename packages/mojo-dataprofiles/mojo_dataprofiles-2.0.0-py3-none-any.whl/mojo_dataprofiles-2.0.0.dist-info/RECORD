@@ -1,0 +1,10 @@
+mojo/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mojo/dataprofiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mojo/dataprofiles/basedataprofile.py,sha256=J8TVzxv0RpXRCOjgVmrGcjz87s2uXJBdVUAJ3Cg7-y0,644
+mojo/dataprofiles/databasebasicprofile.py,sha256=udiUrwQY5HeLrMQ8aQ5ks_HKoo0OAW1SRGJXhjW-PKI,652
+mojo/dataprofiles/databasebasictcpprofile.py,sha256=3SeCdo-9jjr0ssdIQPj8rCDpIMVskQZWEfd5NEoj0fc,901
+mojo/dataprofiles/dataprofilemanager.py,sha256=TYYD6fM9Y2_3F-PbDS3y58quperCHii3T_ueX2N6ASk,4027
+mojo_dataprofiles-2.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mojo_dataprofiles-2.0.0.dist-info/LICENSE.txt,sha256=AOYrKzKPom76REYRWPb9ctAvn1Wb-apx-643LZg4fyU,1543
+mojo_dataprofiles-2.0.0.dist-info/METADATA,sha256=qxDsE38jQVAsWbsfgILadsQ75RfGBntR4DQ0w7Zc2UA,1669
+mojo_dataprofiles-2.0.0.dist-info/RECORD,,
