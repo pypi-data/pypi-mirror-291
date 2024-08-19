@@ -1,0 +1,11 @@
+pysonarr/__init__.py,sha256=CD3NHE7SI3uQOvPjxKfuaIO4A-Iux0EqyyxNn1wYd8g,132
+pysonarr/backup.py,sha256=6KqA8RmlNbd6SnUFArwssksnFf5jMXj6ycb2s813s14,1707
+pysonarr/client.py,sha256=rKG3eMk90gP6seKtJPId2h0RwmyR-MImv3Vb-WT4K0Y,2545
+pysonarr/enums/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysonarr/enums/backup_resource.py,sha256=LVNTzXF11T9jisvZMjexZtYJlVgVnzDSIt0ExsOKwtM,185
+pysonarr/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysonarr/schemas/backup_resource.py,sha256=PjJQ1UbUtPE9h0aor8_U9rFksUHpZmnj3K59Zz31VYM,332
+pysonarr-0.1.0.dist-info/METADATA,sha256=GWBvMQCetPd-JhaSJMF7-uFEQL89CWnrLedRpI2vCNY,782
+pysonarr-0.1.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+pysonarr-0.1.0.dist-info/licenses/LICENSE,sha256=d_uFfMz4pOsMxNhRyb7MJHWmBLVmsb0q7-t5ip75gLM,1071
+pysonarr-0.1.0.dist-info/RECORD,,
