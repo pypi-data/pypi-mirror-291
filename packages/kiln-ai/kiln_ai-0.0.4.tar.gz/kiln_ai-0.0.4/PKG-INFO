@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kiln-ai
+Version: 0.0.4
+Summary: Kiln AI
+Home-page: https://kiln-ai.com
+License: Proprietary
+Author: Steve Cosman, Chesterfield Laboratories Inc
+Author-email: scosman@users.noreply.github.com
+Requires-Python: >=3.9
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Bug Tracker, https://github.com/Kiln-AI/kiln/issues
+Project-URL: Documentation, https://github.com/Kiln-AI/kiln#readme
+Project-URL: Repository, https://github.com/Kiln-AI/kiln
