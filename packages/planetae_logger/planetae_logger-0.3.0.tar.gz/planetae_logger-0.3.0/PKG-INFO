@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: planetae_logger
+Version: 0.3.0
+Summary: A single-module Python logger for simple applications
+Keywords: logger,logging,log
+Author-email: Edmilson Monteiro Rodrigues Neto <edmilson.rodriguesn38@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Logging
+Project-URL: repository, https://github.com/EdmilsonRodrigues/planetae_logger
+
+# planetae_logger
+ A basic logger module that logs into files chosen by path
+

@@ -1,0 +1,10 @@
+log.txt
+logs.txt
+crash_logs.txt
+venv
+.venv
+__pycache__
+/__pycache__
+__pycache__/logger.cpython-312.pyc
+dist
+test.log
