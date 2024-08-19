@@ -1,0 +1,13 @@
+.gitignore
+README.md
+docgen.sh
+package_pypi.sh
+pyproject.toml
+requirements.txt
+vaapi/__init__.py
+vaapi/client.py
+vaapi/test.py
+vaapi.egg-info/PKG-INFO
+vaapi.egg-info/SOURCES.txt
+vaapi.egg-info/dependency_links.txt
+vaapi.egg-info/top_level.txt
