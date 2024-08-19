@@ -1,0 +1,16 @@
+kpcommons/DateProvider.py,sha256=_HY1wr4zB1M-RzyKLBoie9hmit8EfnRwwr0u0ZC2V2M,162
+kpcommons/Footnote.py,sha256=6_n825ihFiZvAv2Aqbq7-gqJpSVQBhCFFgJXkBDJJQE,4224
+kpcommons/NowDateProvider.py,sha256=n3L3zrA6QvIV6_bCxAhCjOeVfDUTUvnKEp48W_eqiR8,217
+kpcommons/Overlap.py,sha256=UWzSm_wodYU_m1Oftr667DM1Yt9kRMi-vv9XkaNe1sk,292
+kpcommons/Util.py,sha256=F9KIN7x7g9RObcl40o0CMiBdEL4vWPqTySHunFCsmlk,2325
+kpcommons/XML.py,sha256=TTj4Rz5VzjSNH5SBpzElFdQl7DzgFw00BRmS4ErWVcI,4742
+kpcommons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kpcommons/chunker/BaseChunker.py,sha256=q6hFJxF9u3mPRsfvydQcOam99S0Muv-lTGBsoKSOhfQ,210
+kpcommons/chunker/Chunk.py,sha256=ZBJsx3XjaO9HXsQencbhSVVgFrTfqc8WxSu8jDHb3do,102
+kpcommons/chunker/SentenceChunker.py,sha256=e74HjyaqDxo0W0OVWQXWP41KJNQkpVRLdMDeSBliZSU,4484
+kpcommons/chunker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KPCommons-0.1.1.dist-info/LICENSE,sha256=2XGfmLQQM24FOv9_D226g41KF66I4hcaTQzrCgCZ4Wg,11347
+KPCommons-0.1.1.dist-info/METADATA,sha256=IfCTcSiqxs5G6Y7My_kdZHT_PPGOSKESiRvPjUNVeRE,16771
+KPCommons-0.1.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+KPCommons-0.1.1.dist-info/top_level.txt,sha256=rEsMdfb1k58tz2tKNwZ4RYe7jaFtdePwZic38LKsl9c,10
+KPCommons-0.1.1.dist-info/RECORD,,
