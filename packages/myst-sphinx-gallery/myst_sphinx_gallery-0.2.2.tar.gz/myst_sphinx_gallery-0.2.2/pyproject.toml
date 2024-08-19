@@ -1,0 +1,128 @@
+[build-system]
+requires = [
+  "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myst_sphinx_gallery"
+description = "A Sphinx extension that builds galleries of examples from any set of myst-style markdown/notebook or rst files."
+readme = "README.md"
+license = { "text" = 'MIT License' }
+authors = [
+  { name = "Chengyan Fan (Fancy)", email = 'fanchengyan@outlook.com' },
+]
+
+urls.Documentation = "https://myst-sphinx-gallery.readthedocs.io/en/latest/"
+urls.Source = "https://github.com/Fanchengyan/myst-sphinx-gallery"
+
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Framework :: Sphinx :: Extension",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
+]
+keywords = [
+  "gallery",
+  "markdown",
+  "parser",
+  "jupyter",
+  "docutils",
+  "sphinx",
+]
+dynamic = [
+  "version",
+]
+dependencies = [
+  "pillow",
+  "myst-nb",
+  "sphinx_design",
+]
+
+
+[project.optional-dependencies]
+
+code_style = ["pre-commit", "ruff"]
+test = [
+  "coverage",
+  "pytest",
+  "pytest-cov",
+  "matplotlib",
+  "numpy",
+  # "pytest-regressions",
+  # "pytest-param-files~=0.3.3",
+
+]
+dev = [
+  "pre-commit",
+  "ruff",
+  "coverage",
+  "pytest",
+  "pytest-cov",
+  "matplotlib",
+  "numpy",
+  ]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { attr = "myst_sphinx_gallery.__version__" }
+
+[tool.setuptools.packages.find]
+where = [
+  ".",
+] # list of folders that contain the packages (["."] by default)
+include = [
+  "myst_sphinx_gallery*",
+] # package names should match these glob patterns (["*"] by default)
+namespaces = true # allow scanning PEP 420 namespaces (true by default)
+
+[tool.pytest.ini_options]
+addopts = [
+  "--color=yes",
+  "--cov-report=",
+  "--cov=myst_sphinx_gallery",
+  "--durations=5",
+  "-r a",
+  "--tb=short",
+]
+testpaths = [
+    "tests",
+]
+norecursedirs = "build _build auto_examples"
+filterwarnings = [
+  # "ignore:node class .* is already registered.*:",
+  # "ignore:node.Node.* is obsoleted by Node.*:",
+  "ignore:.* Unknown directive type \"toctree\".",
+]
+
+markers = [
+  "add_conf: Configuration file.",
+  "add_rst: Add rst file to src.",
+  "slow: marks tests as slow",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "SIM", "B", "UP"]
+ignore = ["F401", "E501"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.doc8]
+ignore = ["D001"]
+allow-long-titles = true
+max-line-length=88
