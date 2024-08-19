@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy_monnify"
+version = "1.0.2"
+description = "A python library to seamlessly integrate Monnify payment gateway into your projects"
+license = {text = "MIT"}
+authors = [
+  { name="Rigan Tech", email="rigantech@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests>=2.25.0"
+]
+
+[project.urls]
+homepage = "https://github.com/Rigantech/easy_monnify"
+repository = "https://github.com/Rigantech/easy_monnify"
+Issues = "https://github.com/Rigantech/easy_monnify/issues"
