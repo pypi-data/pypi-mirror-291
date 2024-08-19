@@ -1,0 +1,10 @@
+ocr_translate_hugging_face/__init__.py,sha256=hjwZUOOy93hzPU76BTC9D16zQM7zCLtVHrzwY3KWl7M,7883
+ocr_translate_hugging_face/plugin/__init__.py,sha256=gFp-FKh9nE-ID9_J0Foecm3uhH8phn_b-4xudYvbZpA,1703
+ocr_translate_hugging_face/plugin/seq2seq.py,sha256=Ul9lQaPknPouSLDQnEN4T-aYayi_EsiLn379f9zFBsQ,6211
+ocr_translate_hugging_face/plugin/utils.py,sha256=rmyTyx2SLNyHy45LSMdXO7MMkmZ-BbgHWHK4rwx9l_4,5010
+ocr_translate_hugging_face/plugin/ved.py,sha256=Ce8oDyPbVt9CqyIqR5z4RPBb4al2YIlFmOZXXC2az7A,4644
+ocr_translate_hugging_face-0.3.0.dist-info/entry_points.txt,sha256=8IKeQXupP6Fx1t4IRCJrYNLQVVvqdmA3d6DbzBckApQ,1215
+ocr_translate_hugging_face-0.3.0.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ocr_translate_hugging_face-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ocr_translate_hugging_face-0.3.0.dist-info/METADATA,sha256=Wt_gh8wpJaNutFT9kVOZcRVZ8DuiFeJnTiwEMt5wfMI,1830
+ocr_translate_hugging_face-0.3.0.dist-info/RECORD,,
