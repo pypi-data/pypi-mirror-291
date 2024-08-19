@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: supMath
+Version: 0.0.2
+Summary: Provides vast amount of unique mathematical functions and operators
+Author: landee
+Author-email: ivankurd2007@gmail.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
