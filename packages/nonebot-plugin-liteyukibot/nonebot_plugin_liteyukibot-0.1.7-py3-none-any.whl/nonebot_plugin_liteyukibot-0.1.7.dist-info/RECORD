@@ -1,0 +1,8 @@
+nonebot_plugin_liteyukibot-0.1.7.dist-info/METADATA,sha256=oggtaKi8IyUiicdKwM41tqAKOG3BOOZHMtAzBVgEjp8,2937
+nonebot_plugin_liteyukibot-0.1.7.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+nonebot_plugin_liteyukibot-0.1.7.dist-info/licenses/LICENSE,sha256=QMvs_YwS2kFcECfF5X09F5jNmtNCCMLGaioDhSerXlI,1071
+nonebot_plugin_liteyukibot/__init__.py,sha256=D_Rt-5H5GMdO_5Ii-o769539Mv747nglr1Gt_9jfu8k,808
+nonebot_plugin_liteyukibot/manager.py,sha256=TrcE92c7nH9BTnNfZilaOy-AlqpjGOuEHps3VIne-XQ,380
+nonebot_plugin_liteyukibot/plugins/lifespan_monitor.py,sha256=jRWD9d4g6YZGqKZbhUOAIxzb3t7fIxLynLmaWSehq9I,811
+nonebot_plugin_liteyukibot/plugins/register_service.py,sha256=wlRbVo390-nYPf5bd8wUg5uIajE7-mptimGmdZrXtXc,2072
+nonebot_plugin_liteyukibot-0.1.7.dist-info/RECORD,,
