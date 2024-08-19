@@ -1,0 +1,81 @@
+Metadata-Version: 2.3
+Name: core_graph
+Version: 0.0.6
+Summary: A utility package for data science
+Project-URL: Homepage, https://github.com/kevinkhang2909/core_graph
+Project-URL: Bug Tracker, https://github.com/kevinkhang2909/core_graph/issues
+Author-email: Kevin Khang <kevinkhang2909@gmail.com>
+License: Copyright (c) 2024 Kevin Khang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: api, google, aws
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: igraph
+Requires-Dist: infomap
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: polars
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# Introduction
+Data tools to increase productivity in your workflow
+
+# How to setup
+Install with pip:
+```
+pip install core_graph
+```
+
+
+# Metrics in community finding:
+## 1. Modularity
+
+Modularity measures the strength of division of a network into communities. 
+It compares the density of connections inside communities to the density of connections between communities.
+
+Modularity values typically range from -1 to 1:
+- Positive values indicate more edges within communities than would be expected by random chance.
+- Negative values indicate fewer edges within communities than expected by random chance.
+
+In practice, modularity values for real networks with good community structure often fall in the range of 0.3 to 0.7.
+
+Using Modularity for Comparison:
+- Higher modularity generally indicates a better community structure.
+- You can compare the modularity scores of different community detection algorithms on the same network.
+- The algorithm that produces the highest modularity score is often considered to have found the best community 
+structure.
+
+## 2. Codelength
+
+Codelength is a central concept in Infomap's approach to community detection. 
+
+It's based on the principle of data compression and information theory:
+- Codelength represents the average number of bits needed to describe a random walk on the network.
+- A lower codelength indicates a better partition of the network into communities.
+- Infomap aims to minimize this codelength, which corresponds to finding the best community structure.
+
+The codelength consists of two parts:
+- The description length of movements between modules
+- The description length of movements within modules
