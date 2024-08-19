@@ -1,0 +1,39 @@
+import asyncio
+import logging
+from asyncio import Queue
+
+from ....sdk.contracts.dtos.tiles.chunk import Chunk
+from .abstract import AbstractEntityFactory
+
+logger = logging.getLogger()
+
+
+class EntityFactory(AbstractEntityFactory):
+    """ """
+
+    async def terrain_generate(self, tokens: dict, chunk: Chunk) -> None:
+        async def step_one():
+            async def consumer(queue: Queue):
+                while not queue.empty():
+                    local_tile_id: str = await queue.get()
+                    await self.generate(tokens={**tokens, "tile_id": local_tile_id})
+                    queue.task_done()
+
+            queue = asyncio.Queue()
+            await asyncio.gather(EntityFactory.producer(ids=chunk.ids, queue=queue), consumer(queue))
+
+        await step_one()
+
+    async def quantum(self, tokens: dict, chunk: Chunk):
+        # Entity Factory Quantum
+        async def step_six():
+            async def consumer(queue: Queue):
+                while not queue.empty():
+                    local_tile_id: str = await queue.get()
+                    await self.grow_entities(tokens={**tokens, "tile_id": local_tile_id})
+                    queue.task_done()
+
+            queue = asyncio.Queue()
+            await asyncio.gather(self.producer(ids=chunk.ids, queue=queue), consumer(queue))
+
+        await step_six()
