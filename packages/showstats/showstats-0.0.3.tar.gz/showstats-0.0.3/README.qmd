@@ -1,0 +1,50 @@
+---
+title: "showstats: quick and compact summary statistics"
+format: gfm
+jupyter: python3
+---
+
+**showstats** quickly produces compact summary statistic tables with vertical orientation.
+
+```{python}
+# | output: false
+# | echo: false
+import polars as pl
+import sys
+
+sys.path.append("src/")
+sys.path.append("tests/")
+from pathlib import Path
+from conftest import sample_df_
+import showstats
+from showstats import show_stats
+
+df = sample_df_(100)
+```
+
+```{python}
+from showstats import show_stats
+
+show_stats(df)
+```
+
+```{python}
+# Only one type
+show_stats(df, "cat")  # Other are num, time
+```
+
+
+```{python}
+# Importing **statsshow** adds the stats namespace
+df.select("U", "int_col").stats.show()
+```
+
+- Primarily built for polars data frames, **showstats** converts other inputs.
+  - For full compatibility with pandas.DataFrames install via ``pip install showstats[pandas]``.
+
+- Heavily inspired by the great R-packages [skimr](https://github.com/ropensci/skimr) and [modelsummary](https://modelsummary.com/vignettes/datasummary.html). 
+
+- Numbers with many digits are automatically converted to scientific notation.
+
+- Because **showstats** leverages polars efficiency, it`s fast: <1 second for a 1,000,000 &times; 1,000 data frame, running on a M1 MacBook.
+ 
