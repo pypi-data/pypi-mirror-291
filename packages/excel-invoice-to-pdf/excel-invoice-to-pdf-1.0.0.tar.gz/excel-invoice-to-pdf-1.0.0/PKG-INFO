@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: excel-invoice-to-pdf
+Version: 1.0.0
+Summary: Convert your Excel invoices into Pdf invoices.
+Home-page: https://github.com/Mahdi-Meyghani/Invoicing-Python-Package
+Author: Mahdi Meyghani
+Author-email: mahdimeyghani02@gmail.com
+License: MIT
+Keywords: invoice,excel,pdf
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fpdf
+Requires-Dist: openpyxl
+Requires-Dist: pandas
