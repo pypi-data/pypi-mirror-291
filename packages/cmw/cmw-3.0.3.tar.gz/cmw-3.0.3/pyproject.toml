@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cmw"
+version = "3.0.3"
+authors = [
+    { name="Mizu Hikaru", email="mizu@hikaru.org" },
+]
+description = "CommonMark Website (cmw): A command-line interface tool to recursively convert CommonMark .md files into HTML files then deploy to GitHub."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "mistletoe",
+]
+
+[project.urls]
+Homepage = "https://github.com/mizu-hikaru/cmw"
+Issues = "https://github.com/mizu-hikaru/cmw/issues"
+
+[project.scripts]
+cmw = "cmw:main"
