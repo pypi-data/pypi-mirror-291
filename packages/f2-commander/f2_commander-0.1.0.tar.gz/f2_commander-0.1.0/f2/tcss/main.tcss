@@ -1,0 +1,99 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * Copyright (c) 2024 Timur Rubeko
+ */
+
+Panel {
+  width: 1fr;
+  height: 1fr;
+  border: $accent double;
+  border-title-align: center;
+  border-title-style: bold;
+}
+
+FileList DataTable {
+  width: 100%;
+}
+
+FileList.focused {
+  border-title-color: $secondary;
+}
+
+FileList .datatable--cursor {
+  background: $primary;
+}
+
+FileList.focused .datatable--cursor {
+  background: $secondary;
+}
+
+
+/* Dialogs */
+
+StaticDialog { align: center middle; }
+InputDialog { align: center middle; }
+SelectDialog {  align: center middle; }
+
+#dialog {
+    height: 11;
+    width: 50%;
+    border: $accent panel;
+    background: $surface-lighten-1;
+}
+
+#dialog.small {
+    height: 9;
+    width: 30%;
+}
+
+#dialog.large {
+    height: 13;
+    width: 80%;
+}
+
+#dialog.info {
+    border: $accent panel;
+}
+
+#dialog.success {
+    border: $success panel;
+}
+
+#dialog.warning {
+    border: $warning panel;
+}
+
+#dialog.danger{
+    border: $error panel;
+}
+
+#dialog #title {
+    text-style: bold;
+    margin: 1 1 1 1;
+}
+
+#dialog #message {
+    margin: 1 1 1 1;
+    color: $text-muted;
+}
+
+#dialog #value {
+    margin: 1 0 1 0;
+}
+
+#dialog #select {
+    align: center middle;
+    margin: 1 1 1 1;
+}
+
+#dialog #buttons {
+    width: 100%;
+    align: center middle;
+}
+
+#dialog Button {
+    margin: 0 2;
+}
