@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "openbook-textbook-engine"
+version = "0.1.3"
+description = "A CLI toolkit for authoring Openbook textbooks"
+authors = ["William Herring <william.herring.au@gmail.com>"]
+readme = "README.md"
+include = [
+    { path = "sample_textbook", format = ["sdist", "wheel"] },
+    { path = "export_templates", format = ["sdist", "wheel"] }
+]
+
+[tool.poetry.scripts]
+ote = "openbook_textbook_engine.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.12.4"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
