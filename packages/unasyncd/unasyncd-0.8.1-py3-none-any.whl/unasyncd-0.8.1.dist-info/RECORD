@@ -1,0 +1,11 @@
+unasyncd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unasyncd/_version.py,sha256=X9zXBI_mQ-455DM8H_SQfgQlP0C_NCowWDcaZBIcVyo,183
+unasyncd/cli.py,sha256=Imayt85BXoHGPwuABEmnR0hT4VAbDTPf1BKGdqKG1cI,4407
+unasyncd/config.py,sha256=D-T0cG7zYYA3zWcpHZJ7hulmhXbs2lcgeA9C_yGex-A,2683
+unasyncd/main.py,sha256=gSL0Y9gIHt-76reaWqeF3v-38eRdxNh--lq2PI5LgkU,13487
+unasyncd/transformers.py,sha256=8zQS0sMOh4g4D8qk2_ZdN1LpDqzcxrX35F8KW2PVlT8,42012
+unasyncd-0.8.1.dist-info/LICENSE,sha256=8mm1xOtEtE596hxGxWriRZCeEAvJEZTIC1ySvDFn3W4,1073
+unasyncd-0.8.1.dist-info/METADATA,sha256=x6_PlhXFHvE4kTAEPPPMIUshJzADGQdytj9CStbu2yc,20111
+unasyncd-0.8.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+unasyncd-0.8.1.dist-info/entry_points.txt,sha256=DKwcdbKIalviWOXH6UZiRy31fTz8GAyRbGyRSOREeMs,46
+unasyncd-0.8.1.dist-info/RECORD,,
