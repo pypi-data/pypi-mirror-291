@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+catomatic.egg-info/PKG-INFO
+catomatic.egg-info/SOURCES.txt
+catomatic.egg-info/dependency_links.txt
+catomatic.egg-info/entry_points.txt
+catomatic.egg-info/not-zip-safe
+catomatic.egg-info/requires.txt
+catomatic.egg-info/top_level.txt
+tests/__init__.py
+tests/test_BuildCatalogue.py
