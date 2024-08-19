@@ -1,0 +1,8 @@
+kiln_ai/__init.__.py,sha256=4OOrqjKxMymEivpmr_q0UPol0N_zJhgurRwxxShFTfQ,38
+kiln_ai/coreadd.py,sha256=2VSwMUN89ewbmsn-uUUzRUNq1otD5DTjmM_Z_XG4Mc8,78
+kiln_ai/datamodel/__init__.py,sha256=EHMToTvBMGWp6vEbBpKICmDex77su8mLgbFBVqNJVGA,60
+kiln_ai/datamodel/project.py,sha256=IH_skMyfZ-ieeYTzdMc0IrA8MSKvfEQij9HLkYXuwsM,528
+kiln_ai-0.0.4.dist-info/LICENSE.txt,sha256=-AhuIX-CMdNGJNj74C29e9cKKmsh-1PBPINCsNvwAeg,82
+kiln_ai-0.0.4.dist-info/METADATA,sha256=IldGPZe9E1yAZB56xg12815PA1ebEPaLUdWvIi6HrjM,731
+kiln_ai-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+kiln_ai-0.0.4.dist-info/RECORD,,
