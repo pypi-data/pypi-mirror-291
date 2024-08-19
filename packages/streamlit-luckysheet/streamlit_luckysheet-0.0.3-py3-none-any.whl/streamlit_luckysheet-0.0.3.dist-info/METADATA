@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: streamlit_luckysheet
+Version: 0.0.3
+Home-page: 
+Author: TAN YI HAO
+Author-email: 
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=0.63
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest ==7.4.0 ; extra == 'devel'
+Requires-Dist: playwright ==1.39.0 ; extra == 'devel'
+Requires-Dist: requests ==2.31.0 ; extra == 'devel'
+Requires-Dist: pytest-playwright-snapshot ==1.0 ; extra == 'devel'
+Requires-Dist: pytest-rerunfailures ==12.0 ; extra == 'devel'
+
+# streamlit-luckysheet
+
+2024 Aug 18 First Ever Streamlit luckysheet. Credit To TAN YIHAO
+
+## Installation instructions
+
+```sh
+pip install streamlit-luckysheet
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+from streamlit_luckysheet import streamlit_luckysheet
+import base64
+import os
+
+st.set_page_config(layout="wide")
+st.subheader("Component with constant args")
+
+name = "streamlit_luckysheet"
+key = "excelsheet"
+height = 1000
+excel_path = r".\streamlit_luckysheet\excel\Employee Sample Data.xlsx"
+
+def excel_to_file(path):
+    try:
+        if not os.path.exists(path):
+            return ""
+
+        with open(path, 'rb') as file:
+            file_data = file.read()
+            if file_data:
+                return base64.b64encode(file_data).decode('utf-8')
+            else:
+                st.warning("File is empty or could not be read.")
+                return ""
+    except Exception as e:
+        st.warning(f"An error occurred while processing the file: {e}")
+        return ""
+
+encodedFile = excel_to_file(excel_path)
+
+resut = streamlit_luckysheet(name=name, height=height, encodedFile=encodedFile, key=key, default=0)
+
+```
