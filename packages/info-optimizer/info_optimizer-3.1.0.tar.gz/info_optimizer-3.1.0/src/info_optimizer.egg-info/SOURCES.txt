@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/info_optimizer/__init__.py
+src/info_optimizer/info_optimizer.py
+src/info_optimizer/solution.py
+src/info_optimizer.egg-info/PKG-INFO
+src/info_optimizer.egg-info/SOURCES.txt
+src/info_optimizer.egg-info/dependency_links.txt
+src/info_optimizer.egg-info/top_level.txt
