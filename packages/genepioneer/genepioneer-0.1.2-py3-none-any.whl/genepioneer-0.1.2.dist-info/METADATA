@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: genepioneer
+Version: 0.1.2
+Summary: A Python package for identifying essential genes in cancer.
+Home-page: https://github.com/amirhossein-haerian/GenePioneer
+Author: Amirhossein Haerian, Golnaz Taheri
+Author-email: haerian.amirhossein@gmail.com
+License: MIT
+Keywords: cancer,genomics,gene-analysis
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: openpyxl
+Requires-Dist: scikit-learn
+Requires-Dist: igraph
+Requires-Dist: leidenalg
+Requires-Dist: gprofiler
+Requires-Dist: matplotlib
+Requires-Dist: gprofiler-official
+
+To use the package in development phase, in the root path of the package we need to run this command:
+
+`pip install -e .`
+
+then scripts on tests folder or any other folders can be used.
