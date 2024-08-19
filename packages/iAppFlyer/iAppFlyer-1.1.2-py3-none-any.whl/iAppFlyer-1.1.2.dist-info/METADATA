@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: iAppFlyer
+Version: 1.1.2
+Requires-Dist: Pillow
+Requires-Dist: requests
+
