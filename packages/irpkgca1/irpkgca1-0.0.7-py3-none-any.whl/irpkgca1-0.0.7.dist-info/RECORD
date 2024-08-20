@@ -1,0 +1,10 @@
+ca/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ca/ash.py,sha256=c43bk6UWJFrFAXbw0gVI-j3BHdpTARtrisl89TAy1BU,3843
+ca/boolean.py,sha256=X9e_7qVUAeuFdxDW0wLuyOYDGwCmdOZsk2QdVqsYm9w,8933
+ca/inverted_index.py,sha256=kXhVc8s2MftqUKq12n-Gr7Y7t4vFbtREGHo2kbA4KXE,4113
+ca/ir_sys.py,sha256=POFof5MiyzthUq5xu6_CX-WQyb23lXVktTg_NAYeU_8,7195
+ca/tf_idf.py,sha256=Udp5KQmC_h8efNl-K9_kKTLNBu0dZmwQaAXiqXAxljk,3345
+irpkgca1-0.0.7.dist-info/METADATA,sha256=gmvlZ4prMPR55wVZcB3NEtexek-1HOy3nhWtUXWUbfc,327
+irpkgca1-0.0.7.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+irpkgca1-0.0.7.dist-info/top_level.txt,sha256=MUoBtnl51OzGZnZmBGJG5ybZhIkD4z0OY_qxFlrqnZQ,3
+irpkgca1-0.0.7.dist-info/RECORD,,
