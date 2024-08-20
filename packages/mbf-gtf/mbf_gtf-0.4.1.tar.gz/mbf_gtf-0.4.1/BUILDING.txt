@@ -1,0 +1,7 @@
+# development
+
+Use `nix develop`.
+
+Build Wheels using maturin and docker.
+
+`Use ./build.sh`
