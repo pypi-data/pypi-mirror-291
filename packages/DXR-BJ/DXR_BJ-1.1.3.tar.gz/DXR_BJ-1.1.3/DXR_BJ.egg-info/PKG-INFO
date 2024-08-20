@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: DXR-BJ
+Version: 1.1.3
+Summary: 增加pyyaml库,保证程序运行
+Author: zx
+Author-email: 450125770@qq.com
+License: apache 3.0
+Requires-Dist: freetype-py
+Requires-Dist: pyyaml
