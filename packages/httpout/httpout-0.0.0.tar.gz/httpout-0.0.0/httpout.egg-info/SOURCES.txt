@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+httpout/__init__.py
+httpout.egg-info/PKG-INFO
+httpout.egg-info/SOURCES.txt
+httpout.egg-info/dependency_links.txt
+httpout.egg-info/requires.txt
+httpout.egg-info/top_level.txt
