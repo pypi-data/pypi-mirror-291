@@ -1,0 +1,10 @@
+bitcaster_sdk-0.1.0.dist-info/METADATA,sha256=BuOxxGl8wFW94Cc9M-K6zW27rME-qZvtuPwr2U38v20,1304
+bitcaster_sdk-0.1.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+bitcaster_sdk-0.1.0.dist-info/entry_points.txt,sha256=p-D6Vv-96-EhyWC4UB2limJLLMBsWuEEl0cWn4o6qvY,58
+bitcaster_sdk/__init__.py,sha256=4UgcXmPDXq42WBirCpQ0qeomy4PRNwwsUYiGshbWtVU,1025
+bitcaster_sdk/__main__.py,sha256=5Krn_gPrxxaUbN5dttKPGbCJXi-uCv7BsSp2h3HMoW8,6833
+bitcaster_sdk/client.py,sha256=eS4og_59ga0siPO0gCOw6qW8I2YMMgraNN0c0Ik9uyk,5483
+bitcaster_sdk/exceptions.py,sha256=PvHJmIbZyxTMCvb1BRrspNCuGebHhN-utI256ObUlrI,378
+bitcaster_sdk/logging.py,sha256=sF4vxa5BZTAy4Vz_4m4Z676k5gR7QCN8p49-_MtbqNs,317
+bitcaster_sdk/transport.py,sha256=VcEqFrpaNHLd7hXo1gCwNG5KqDaBwhB8g9Y534imIms,1651
+bitcaster_sdk-0.1.0.dist-info/RECORD,,
