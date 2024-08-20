@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: jaxley
+Version: 0.1.0
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: jax[cpu]
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: tridiax
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+Requires-Dist: markdown-include; extra == "dev"
+Requires-Dist: mkdocs-redirects; extra == "dev"
+Requires-Dist: mkdocstrings[python]>=0.18; extra == "dev"
+Requires-Dist: neuron; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: optax; extra == "dev"
