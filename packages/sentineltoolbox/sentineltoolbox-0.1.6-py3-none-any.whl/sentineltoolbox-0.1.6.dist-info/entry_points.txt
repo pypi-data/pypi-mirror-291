@@ -1,0 +1,2 @@
+[console_scripts]
+stb_compare_products = sentineltoolbox.verification.cli_compare_products:compare
