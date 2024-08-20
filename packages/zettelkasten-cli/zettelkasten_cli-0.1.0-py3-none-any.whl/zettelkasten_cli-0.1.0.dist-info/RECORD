@@ -1,0 +1,10 @@
+zettelkasten_cli/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+zettelkasten_cli/config.py,sha256=Cx2IdoSBdxNH-eblM_yVjsRtd0SdQ-gOQpEP6mwQvYc,279
+zettelkasten_cli/daily_note.py,sha256=TUiMXLj8niJWnJ9Fy0hXfA8dYWHGfanSzvgRmJR34_A,2171
+zettelkasten_cli/main.py,sha256=_AT2Iqbb4fNSWsDkhacHrNFdEwQe5jecinN4la7-Yy4,648
+zettelkasten_cli/new_note.py,sha256=zH4Wpxet1blBdbCNaQ-btaZTXf94nGteu9P_kdLQmK8,2294
+zettelkasten_cli/utils.py,sha256=WVKRuP_DbFM0w7zCXoLEnOpFjN6tW8xUzuRJ9iNjG8E,691
+zettelkasten_cli-0.1.0.dist-info/METADATA,sha256=6pGkvPps8vDvdBdEfQFDTRdshYV0Cx00OB3GJNN-rL8,1349
+zettelkasten_cli-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+zettelkasten_cli-0.1.0.dist-info/entry_points.txt,sha256=nDRaMG3mloVoFGg-eeawpCO6G9QANU_UDzQv9vOKBac,48
+zettelkasten_cli-0.1.0.dist-info/RECORD,,
