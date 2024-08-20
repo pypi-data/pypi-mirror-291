@@ -1,0 +1,8 @@
+*.py[cod]
+.coverage
+.DS_Store
+.venv*
+doc/_build
+build/
+dist/
+/.vscode
