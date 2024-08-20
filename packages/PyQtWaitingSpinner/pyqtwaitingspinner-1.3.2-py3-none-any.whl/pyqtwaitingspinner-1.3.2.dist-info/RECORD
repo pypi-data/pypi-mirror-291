@@ -1,0 +1,17 @@
+pyqtwaitingspinner/__about__.py,sha256=uCv73rgSEXLv0WZ2fvJpwCpBCFcxOh94XqSDccIBrL8,23
+pyqtwaitingspinner/__init__.py,sha256=NQ1sSxl5tnGrnJ_HJ01CWoIZ2SGXx_uamYE87TRSh24,445
+pyqtwaitingspinner/_creds.py,sha256=I_Cnw3B1-DV5bhXYj1tYFSDpb1uLlkRyonz_PvkXI88,2339
+pyqtwaitingspinner/configurator.py,sha256=I47IjbDZBtERmN381SVH-BrZlPfsoBxxwq-sOTTUMh4,26459
+pyqtwaitingspinner/enum.py,sha256=yiddZ8ZQdNsSJJ2LTLgZq979sG8GfdNKrkD7cSudwx8,287
+pyqtwaitingspinner/func.py,sha256=40COcL_Ls_iwZNceX8-fO_gh2O-loTu6cJP8k7R6AEE,308
+pyqtwaitingspinner/msg.py,sha256=Tav-Grnauxjblh7eDxHU0tQo1IhqC1sBX0MOCzy2K7g,457
+pyqtwaitingspinner/parameters.py,sha256=CXywFw_V7Gvk33noeSto0Iy1mXR4GuoM_qUpUlIyf0Y,15270
+pyqtwaitingspinner/spinner.py,sha256=NceLe9XJGGJdUen2_bQWFfhWqtLOSdPaf4IZhFm_guQ,10358
+pyqtwaitingspinner/img/color-picker-default.16.png,sha256=lWLXlwq-mr9Wd5_bW5YJnKqTxVsxadll2__xjHrqTX4,476
+pyqtwaitingspinner/img/color-picker-transparent.16.png,sha256=P-jlZy640xORS5YjyyKaiOFF74wCjfFj7TkKaw9hDNQ,691
+pyqtwaitingspinner/img/question.16.png,sha256=b32X8PhXZajGkBfVTpBJGEYN-3nEdYklozHt7EDAuMg,765
+pyqtwaitingspinner-1.3.2.dist-info/METADATA,sha256=mbgC34ahg9_6WCmffHsPhDs6Nd4X5TKYhyR0rlKKxL0,8435
+pyqtwaitingspinner-1.3.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pyqtwaitingspinner-1.3.2.dist-info/entry_points.txt,sha256=bB70eonuZlWuC1nYiW9vwXCWVf6vtve6hnREdH44FFU,70
+pyqtwaitingspinner-1.3.2.dist-info/licenses/LICENSE,sha256=9kkXEkXe4CUaLk_6CUY3xEZ9kgfCm4uM5csnS86z224,1228
+pyqtwaitingspinner-1.3.2.dist-info/RECORD,,
