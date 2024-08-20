@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_appointments_dataprovider.cp312-win_arm64.pyd,sha256=c5Ugbn8cCPzRCpHJGQi_yUZvBSSFVrpaGwFnIAYnqyE,203264
+winrt/_winrt_windows_applicationmodel_appointments_dataprovider.pyi,sha256=IVdfDMYt7gSmpAEVZxP0T5NAe02kWni0w-Wz4QU4-lY,10240
+winrt/windows/applicationmodel/appointments/dataprovider/__init__.py,sha256=ucQ0efcc0-eqcaJo9aeg3NVUo-N5Cy-gdj7guXRqvyc,3153
+winrt/windows/applicationmodel/appointments/dataprovider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.Appointments.DataProvider-2.2.0.dist-info/METADATA,sha256=1Yj0YSAOozCYqGcThkYBPS4GXdYnFOzfgZ46VK81iVE,1324
+winrt_Windows.ApplicationModel.Appointments.DataProvider-2.2.0.dist-info/WHEEL,sha256=Zb7xxpKNk5G3g6-yXQ6qIO3l9uksanx1wwJuO1EjUdM,101
+winrt_Windows.ApplicationModel.Appointments.DataProvider-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Appointments.DataProvider-2.2.0.dist-info/RECORD,,
