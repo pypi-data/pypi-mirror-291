@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: consolellm
+Version: 0.1.1
+Summary: Access Llama in your terminal.  
+Home-page: https://github.com/thevoxium/consoleLLM
+Author: Anshul Sharma
+Author-email: thevoxium@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdown2 ==2.5.0
+Requires-Dist: openai ==1.41.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: toml ==0.10.2
+
+# ConsoleLLM
+
+Access Llama 3.1 405B model from your console
+## Installation
+```bash
+https://github.com/thevoxium/consoleLLM.git
+pip install -r requirements.txt
+python3 run app.py
+```
+
+Or use the package manager pip to install it
+```bash
+pip install consolellm
+```
+
+## Usage
+
+```bash
+consolellm
+```
+
+## Steps
+First time users will be prompted for configuration. Enter your Open Router API key and system prompt (if required). Visit this [page](https://openrouter.ai/settings/keys) to generate the key.
+
+Type the user prompt in the terminal, it can be multiple lines too. To end the prompt, type \end in a new line and press enter. 
+
+To exit the chat, type exit() and \end in a new line. User can also save the entire conversation in html format. 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
