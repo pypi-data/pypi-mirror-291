@@ -1,0 +1,10 @@
+metaflow_extensions/huggingface_dataset/plugins/mfextinit_huggingface_dataset.py,sha256=u_RrVC3sIf3QlTGw-6Dqe3ZJXs72jwhicxANdI4WOEU,113
+metaflow_extensions/huggingface_dataset/plugins/cards/huggingface_dataset/__init__.py,sha256=4kjnMI4DIRnwSg5s7P4InR7pruEAcRvd60PdikTmeJI,1504
+metaflow_extensions/huggingface_dataset/plugins/huggingface_dataset/deco.py,sha256=J-esoSv-AJ7eyMlch9gcjLsJPM8C7cHD-sHM8kx9BTY,3893
+metaflow_extensions/huggingface_dataset/toplevel/mfextinit_huggingface_dataset.py,sha256=ibUEtdYjVLGLONCkCirQlVmldJsV5gtgDeNRqwm8Los,22
+metaflow_extensions/huggingface_dataset/toplevel/toplevel.py,sha256=s4aXWar3MvXR5rM7nAHz9UnW2xmITOFzOteCthtkyXE,280
+metaflow_card_hf_dataset-0.0.6.dist-info/LICENSE,sha256=S5xOtU8_XnXdobniniuf8-xf2TRiOSY3b1uGcpL8udY,11352
+metaflow_card_hf_dataset-0.0.6.dist-info/METADATA,sha256=1kC4FIpigDQt51q1NqSjlq97TElKoAG1emOXlMPpIuQ,1607
+metaflow_card_hf_dataset-0.0.6.dist-info/WHEEL,sha256=OWYSMTYHNOLxNw0Mxija-Qn3HdviNLu4kabRWA1yLB4,109
+metaflow_card_hf_dataset-0.0.6.dist-info/top_level.txt,sha256=NwG0ukwjygtanDETyp_BUdtYtqIA_lOjzFFh1TsnxvI,20
+metaflow_card_hf_dataset-0.0.6.dist-info/RECORD,,
