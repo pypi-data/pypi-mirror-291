@@ -1,0 +1,17 @@
+[project]
+name = "logging-commons"
+version = "0.1.20"
+description = "Python Logging Tools"
+authors = [
+    {name = "Patricio Ascencio", email = "paascencio@gmail.com"},
+]
+requires-python = ">=3.12"
+readme = "README.md"
+[project.license]
+text = "Apache-2.0"
+[project.urls]
+Homepage = "https://github.com/KaribuLab/python-logging-commons"
+Issues = "https://github.com/KaribuLab/python-logging-commons/issues"
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
