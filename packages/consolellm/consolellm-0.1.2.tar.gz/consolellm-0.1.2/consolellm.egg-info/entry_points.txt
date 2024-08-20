@@ -1,0 +1,2 @@
+[console_scripts]
+consolellm = consolellm.app:main
