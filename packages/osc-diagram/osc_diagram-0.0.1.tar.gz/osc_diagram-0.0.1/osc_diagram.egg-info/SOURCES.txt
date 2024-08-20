@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+osc_diagram/VERSION
+osc_diagram/__init__.py
+osc_diagram/main.py
+osc_diagram.egg-info/PKG-INFO
+osc_diagram.egg-info/SOURCES.txt
+osc_diagram.egg-info/dependency_links.txt
+osc_diagram.egg-info/entry_points.txt
+osc_diagram.egg-info/requires.txt
+osc_diagram.egg-info/top_level.txt
