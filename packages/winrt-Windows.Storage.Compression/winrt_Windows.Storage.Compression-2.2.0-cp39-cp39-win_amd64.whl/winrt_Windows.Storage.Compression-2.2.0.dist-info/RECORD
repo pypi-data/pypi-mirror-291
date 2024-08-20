@@ -1,0 +1,8 @@
+winrt/_winrt_windows_storage_compression.cp39-win_amd64.pyd,sha256=eOfdrk1IR947zKYFXj0sZqlRuP2X0wYqEnu4vW7NkoU,83456
+winrt/_winrt_windows_storage_compression.pyi,sha256=J54zPp53cT2Qp_7Eo0pwN7lYL-TUG7Df09Z3uMC3d84,2285
+winrt/windows/storage/compression/__init__.py,sha256=QsRwDg2nbwNQO1X6PlCqpvNKgAL6dmg5nYpHMxSdWH8,519
+winrt/windows/storage/compression/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Storage.Compression-2.2.0.dist-info/METADATA,sha256=DLuXm_O3IB2mIX_mc1-zrmjxFItUWkRGoMA5DVmbANs,1135
+winrt_Windows.Storage.Compression-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.Storage.Compression-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.Compression-2.2.0.dist-info/RECORD,,
