@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: python3-log
+Version: 0.0.5
+Summary: used to print log for any app or platform
+Home-page: https://gitee.com/devops_dev/log
+Author: redrose2100
+Author-email: hitredrose@163.com
+Maintainer: redrose2100
+Maintainer-email: hitredrose@163.com
+License: MIT
+Project-URL: Documentation, https://gitee.com/devops_dev/log/README.md
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: concurrent_log_handler
+
+# log
+
+
+## useage
+### use directly without any config
+
+* install with pip
+```bash
+pip install python3_log
+```
+* useage directly
+
+```python
+from log import log
+
+log.info("info log")
+log.error("error log")
+```
+in this case, default console log level and file log level are info and
+log path is current path when os is windows while /etc/log/log/ when os
+is linux.
+
+### config by yourself
+* install with sh
+```bash
+bash install.sh
+```
+
+before use, you can edit config file /etc/log/config.ini in linux while
+lib path in windows. Then use it as below:
+```python
+from log import log
+
+log.info("info log")
+log.error("error log")
+```
