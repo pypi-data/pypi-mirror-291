@@ -1,0 +1,9 @@
+abarorm/__init__.py,sha256=ZIq8dJ-DuwrC8JHtlCt9C3IoQBT2QUupQM2vVcfBRuM,110
+abarorm/fields.py,sha256=aGw6-qk-I1S97A1baZMEWvdKzJTzmmOZG99FX268zMw,1283
+abarorm/mysql.py,sha256=U-eFj1a8TnKBUF7I8pAx8Gt0nzSn0gnLcX0ByZnY-yw,6754
+abarorm/orm.py,sha256=fPS_nKIvMLjpUuSFs1px2lLzL6H-cW4W5KsO7tBpxUc,6530
+abarorm-1.0.0.dist-info/LICENSE,sha256=BDVTIC80a5C5QzJzjx-L2PTVZLxpjsEHCi_h3p735Gw,11346
+abarorm-1.0.0.dist-info/METADATA,sha256=bGp-RRtkJoMY4VS1ZPJTjCWqfmMdaJWbSe6MM5eLvGM,3130
+abarorm-1.0.0.dist-info/WHEEL,sha256=Wyh-_nZ0DJYolHNn1_hMa4lM7uDedD_RGVwbmTjyItk,91
+abarorm-1.0.0.dist-info/top_level.txt,sha256=8E0E0xSfHM2ZmTjDdBc2kjnpOeimJogBIChiwqdYq1E,8
+abarorm-1.0.0.dist-info/RECORD,,
