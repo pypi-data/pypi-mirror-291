@@ -1,0 +1,223 @@
+{
+    "$schema": "http://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/ai4os/ai4-metadata/blob/master/src/ai4_metadata/schemata/ai4-apps-v2.0.0.json",
+    "type": "object",
+    "properties": {
+        "metadata_version": {
+            "description": "Version of the metadata schema.",
+            "pattern": "^[0-9]{1,}.[0-9]{1,}.[0-9]{1,}$",
+            "example": "2.0.0",
+            "type": "string"
+        },
+        "title": {
+            "description": "Name of the Data Science application.",
+            "type": "string",
+            "user_friendly": "Title"
+        },
+        "summary": {
+            "description": "Short text describing the value of the Data Science application.",
+            "type": "string",
+            "user_friendly": "Summary"
+        },
+        "description": {
+            "description": "Elaborated description of the Data Science application.",
+            "type": "string",
+            "user_friendly": "Description"
+        },
+        "doi" : {
+            "description": "DOI of the Data Science application.",
+            "type": "string",
+            "format": "doi",
+            "user_friendly": "Digital Object Identifier"
+        },
+        "links": {
+            "title": "links",
+            "type": "object",
+            "properties": {
+                "documentation": {
+                    "description": "URL pointing to the relevant documentation.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Documentation URL"
+                },
+                "source_code": {
+                    "description": "URL pointing to the relevant source code.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Source Code URL"
+                },
+                "docker_image": {
+                    "description": "URL pointing to the relevant Docker image.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Docker Image URL"
+                },
+                "zenodo_doi": {
+                    "description": "DOI of the Zenodo record.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Link to Zenodo DOI"
+                },
+                "dataset": {
+                    "description": "URL pointing to the relevant training dataset.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Traning Dataset URL"
+                },
+                "weights": {
+                    "description": "URL of file containing weights from training",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Weights URL"
+                },
+                "citation": {
+                    "description": "URL pointing to the relevant citation. Please use a Citation File Format (CFF) if possible.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Citation URL"
+                },
+                "base_model": {
+                    "description": "URL pointing to a base model if this model is a fine-tune, adaptation, etc. of another one.",
+                    "type": "string",
+                    "format": "uri",
+                    "user_friendly": "Base Model URL"
+                }
+            },
+            "required": [
+                "source_code"
+            ]   
+        },
+        "dates": {
+            "title": "dates",
+            "type": "object",
+            "properties": {
+                "created": {
+                    "description": "Creation date of the Data Science application.",
+                    "type": "string",
+                    "format": "date",
+                    "user_friendly": "Creation Date"
+                },
+                "updated": {
+                    "description": "Last update date of the Data Science application.",
+                    "type": "string",
+                    "format": "date",
+                    "user_friendly": "Last Update Date"
+                }
+            },
+            "required": [
+                "created",
+                "updated"
+            ]
+        },
+        "libraries": {
+            "description": "Libraries used in the Data Science application.",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "enum": [
+                    "TensorFlow",
+                    "PyTorch",
+                    "Keras",
+                    "Scikit-learn",
+                    "XGBoost",
+                    "LightGBM",
+                    "CatBoost",
+                    "Other"
+                ]
+            },
+            "user_friendly": "Libraries used"
+        },
+        "tasks": {
+            "description": "Topic/s for the tasks that categorize the Data Science application.",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Computer Vision",
+                    "Natural Language Processing",
+                    "Time Series",
+                    "Recommender Systems",
+                    "Anomaly Detection",
+                    "Regression",
+                    "Classification",
+                    "Clustering",
+                    "Dimensionality Reduction",
+                    "Generative Models",
+                    "Graph Neural Networks",
+                    "Optimization",
+                    "Reinforcement Learning",
+                    "Transfer Learning",
+                    "Uncertainty Estimation",
+                    "Other"
+                ]
+            },
+            "user_friendly": "Model Tasks"
+        },
+        "categories": {
+            "description": "Platform categories for the tasks that categorize the Data Science application.",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "enum": [
+                    "AI4 pre trained",
+                    "AI4 trainable",
+                    "AI4 inference",
+                    "AI4 tools"
+                ]
+            },
+            "user_friendly": "AI4 Platform Categories"
+        },
+        "tags": {
+            "description": "User provided tags to best describe the Data Science application.",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string"
+            }
+        },
+        "data-type": {
+            "description": "Data type used in the Data Science application.",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Image",
+                    "Text",
+                    "Time Series",
+                    "Tabular",
+                    "Graph",
+                    "Audio",
+                    "Video",
+                    "Other"
+                ]
+            },
+            "user_friendly": "Data Type"
+        }
+    },
+    "required": [
+        "metadata_version",
+        "title",
+        "summary",
+        "description",
+        "links",
+        "libraries",
+        "tasks",
+        "categories",
+        "tags"
+    ],
+    "not": { 
+        "anyOf": [
+            { "required": ["tosca"] },
+            { "required": ["sources"] },
+            { "required": ["dataset_url"] },
+            { "required": ["cite_url"] },
+            { "required": ["date_creation"] },
+            { "required": ["keywords"] },
+            { "required": ["license"] }   
+        ]
+    }
+}
