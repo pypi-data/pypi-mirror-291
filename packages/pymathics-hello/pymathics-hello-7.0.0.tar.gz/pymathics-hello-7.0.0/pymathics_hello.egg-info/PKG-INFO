@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pymathics-hello
+Version: 7.0.0
+Maintainer: Mathics Group
+Maintainer-email: mathics-devel@googlegroups.com
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Interpreters
+Description-Content-Type: text/x-rst
+License-File: COPYING.txt
+
+Test PyMathics module
+
+This is a Python module for Mathics that is an simple "Hello, World" example
+that is typically used as a minimal example for demonstration.
+
+You can also use this as a template to clone if you want to create your own Pymathics module.
+
+Here we are demonstrating how to write a PyMathics module.
+
+To install in development mode (run code from the source tree):
+
+::
+
+   $ make develop
+
+
+After installing inside Mathics you can load this using the
+``LoadModule[]`` function.
+
+Then the function ```Hello[]`` is available::
+
+      $ mathicsscript
+      In[1]:= LoadModule["pymathics.hello"]
+      Out[1]= pymathics.hello
+
+      In[2]:= Hello["World"]
+      Out[2]:= Hello, World!
+
+You can test with ``py.test``::
+
+     $ py.test test
+
+or simply::
+
+     $ make check
+
