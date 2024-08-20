@@ -1,0 +1,9 @@
+README.md
+setup.py
+QuickColab.egg-info/PKG-INFO
+QuickColab.egg-info/SOURCES.txt
+QuickColab.egg-info/dependency_links.txt
+QuickColab.egg-info/entry_points.txt
+QuickColab.egg-info/requires.txt
+QuickColab.egg-info/top_level.txt
+prompts/__init__.py
