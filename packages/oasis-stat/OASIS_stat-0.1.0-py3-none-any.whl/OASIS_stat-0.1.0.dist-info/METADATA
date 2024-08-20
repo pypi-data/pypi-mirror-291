@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: OASIS_stat
+Version: 0.1.0
+Summary: OASIS statistical test for interpretable analysis of contingency tables.
+Author-email: Tavor Z Baharav <tavorb@mit.edu>
+Maintainer-email: Tavor Z Baharav <tavorb@mit.edu>
+License: MIT license
+Project-URL: bugs, https://github.com/tavorb/OASIS/issues
+Project-URL: changelog, https://github.com/tavorb/OASIS/blob/master/changelog.md
+Project-URL: homepage, https://github.com/tavorb/OASIS
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: typer
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
+=====
+OASIS
+=====
+
+
+.. image:: https://img.shields.io/pypi/v/OASIS.svg
+        :target: https://pypi.python.org/pypi/OASIS
+
+.. image:: https://img.shields.io/travis/tavorb/OASIS.svg
+        :target: https://travis-ci.com/tavorb/OASIS
+
+.. image:: https://readthedocs.org/projects/OASIS/badge/?version=latest
+        :target: https://OASIS.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+OASIS statistical test for interpretable analysis of contingency tables.
+
+
+* Free software: MIT license
+* Documentation: https://OASIS.readthedocs.io.
+
+
+Features
+--------
+
+* OASIS statistical test from https://www.pnas.org/doi/10.1073/pnas.2304671121. Initial commit.
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
