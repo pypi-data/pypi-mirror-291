@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ha-remote-tts
+Version: 0.1.0
+Summary: API wrapper for the Remote TTS integration of Home Assistant
+Author: NicolasNewman
+Author-email: nnewman316@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.10.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+
