@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kBmc
+Version: 1.0
+Summary: Kage's Intelgent BMC handler
+Home-page: https://github.com/kagepark/kBmc
+Author: Kage Park
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
