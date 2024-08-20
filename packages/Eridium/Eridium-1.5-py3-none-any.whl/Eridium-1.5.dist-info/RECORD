@@ -1,0 +1,15 @@
+MANIFEST.in,sha256=RLLNflQC5H4DzZ-2-e6R2TNSrdkP9IHEAU7FzNjPUow,20
+main.py,sha256=4sPYyp2tDgCc9qh904NXCG03OpW7UEqZ7dXBTavL3z8,10704
+setup.cfg,sha256=hFVE-QVmqTKICODw6Ewcz78Kc9M6OMJHZ97smRMeLy8,38
+Eridium/MANIFEST.in,sha256=RLLNflQC5H4DzZ-2-e6R2TNSrdkP9IHEAU7FzNjPUow,20
+Eridium/__init__.py,sha256=Uj3UrynFnUw-3DNcXSIhmPt3T3dOOar15OmBAWxegVM,2159
+Eridium/setup.cfg,sha256=hFVE-QVmqTKICODw6Ewcz78Kc9M6OMJHZ97smRMeLy8,38
+Eridium/setup.py,sha256=u7S9Yt-TKiuMotj7ulQEImXJQ331PGauj0y5ANJtJ98,399
+Eridium.egg-info/PKG-INFO,sha256=LIGcLP0b8fSLNpeHRNb3jtCJ6vv3lmxxB_rD4WTlGg0,301
+Eridium.egg-info/SOURCES.txt,sha256=Yf8BSt9fWONrt-H_sWJI3TJ6akQHWc6KsxvdYDBfVt4,237
+Eridium.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Eridium.egg-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Eridium-1.5.dist-info/METADATA,sha256=iHPHrxiosc3WRNWH8Z06yjWutuZ0PHu6R7q5byrIHQE,305
+Eridium-1.5.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+Eridium-1.5.dist-info/top_level.txt,sha256=XTo1T6T0opbuARWacsRcToevtGddyx7jnDBhVzln_oA,8
+Eridium-1.5.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+MANIFEST.in
+main.py
+setup.cfg
+setup.py
+Eridium/MANIFEST.in
+Eridium/__init__.py
+Eridium/setup.cfg
+Eridium/setup.py
+Eridium.egg-info/PKG-INFO
+Eridium.egg-info/SOURCES.txt
+Eridium.egg-info/dependency_links.txt
+Eridium.egg-info/top_level.txt
