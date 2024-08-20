@@ -1,0 +1,4 @@
+exclude .venv
+exclude test
+exclude .gitignore
+exclude .github
