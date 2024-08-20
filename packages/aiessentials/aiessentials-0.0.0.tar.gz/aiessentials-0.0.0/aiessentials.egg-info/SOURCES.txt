@@ -1,0 +1,6 @@
+pyproject.toml
+aiessentials/__init__.py
+aiessentials.egg-info/PKG-INFO
+aiessentials.egg-info/SOURCES.txt
+aiessentials.egg-info/dependency_links.txt
+aiessentials.egg-info/top_level.txt
