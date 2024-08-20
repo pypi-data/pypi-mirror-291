@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyconfuser.egg-info/PKG-INFO
+pyconfuser.egg-info/SOURCES.txt
+pyconfuser.egg-info/dependency_links.txt
+pyconfuser.egg-info/top_level.txt
