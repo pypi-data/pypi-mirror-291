@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nusterai
+Version: 0.1.0
+Summary: A package for routing prompts to different LLMs based on difficulty.
+Home-page: https://github.com/shashidharnaiduboya-nusterAi/NusterAI
+Author: Shashidhar Naidu Boya
+Author-email: shashidharnaiduboya@nusterai.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: textstat>=0.7.0
+Requires-Dist: google-generativeai>=0.3.0
+Requires-Dist: openai>=0.27.0
