@@ -1,0 +1,15 @@
+cjapy/__init__.py,sha256=d8NP9El_3gJSBwe71G8zXodTB36Yve7ozsglxotP4_M,107
+cjapy/__version__.py,sha256=GwlE9vQt3WwY1oBgkhKZ56joCeyM9LEjpk9QCQmGsbU,25
+cjapy/cjapy.py,sha256=WqXlJtfT240SApMESI7n0YBB4coz4o_a4iJqOjLNfAA,127800
+cjapy/config.py,sha256=OPFA6SNpAl3Iyh8u6Z0zoVrEOytZjnB0EZB__AirtGE,566
+cjapy/configs.py,sha256=IfKWcnDBPyYdkLyZvAjzrqZZgnUaQYyqYjhDqlBWwrg,8877
+cjapy/connector.py,sha256=73WjGTvm_fm5GWpMy1xJQMClxGGncyVJlgBd52AIaIU,13368
+cjapy/projects.py,sha256=korlrFo5N6JGGOg-px_QKoKKVNdxcXNCaoDphUt-qW0,14181
+cjapy/requestCreator.py,sha256=uGEX5mNOXi1EdYgXERX68hs4xUjiuPBG5zxdmnciTkY,30006
+cjapy/token_provider.py,sha256=bXZlQ4s97-ERybyzNCf93uPrik97iFTcaN4d7BeaMEI,3463
+cjapy/workspace.py,sha256=I-xIg4HzQx7ty7jPqa3e1F8Dxu74VdTmMEI7b150494,9487
+cjapy-0.2.3.post2.dist-info/LICENSE,sha256=HjYTlfne3BbS5gNHzNqJ5COCiTQLUdf87QkzRyFbE4Y,10337
+cjapy-0.2.3.post2.dist-info/METADATA,sha256=Na-IYx8JE8iWDAKsik3qSyUaIoRJ5HyYjpyI5BymwAY,3788
+cjapy-0.2.3.post2.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+cjapy-0.2.3.post2.dist-info/top_level.txt,sha256=y2NPjqXrbB1ndCUxEhSasZ7rGdaTrVd9RZB15v01zZo,6
+cjapy-0.2.3.post2.dist-info/RECORD,,
