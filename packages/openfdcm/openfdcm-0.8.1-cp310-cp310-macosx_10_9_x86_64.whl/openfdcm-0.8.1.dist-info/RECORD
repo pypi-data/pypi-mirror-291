@@ -1,0 +1,12 @@
+libz.dylib,sha256=feFzPEzpNXSUn0GhfDq-41izSHJeOF1qPybfRrsF8zU,122032
+openfdcm.cpython-310-darwin.so,sha256=K6HC79O1HG1ls7NjlrYHPlj8xx7xWubAVn7ixx2T-xs,370208
+libz.1.3.1.dylib,sha256=feFzPEzpNXSUn0GhfDq-41izSHJeOF1qPybfRrsF8zU,122032
+libopenfdcm_matching.dylib,sha256=aOMs4urqYZW8s-dnWc7QVcBorJFPzZHc0Hgz3BOooyM,242672
+libz.1.dylib,sha256=feFzPEzpNXSUn0GhfDq-41izSHJeOF1qPybfRrsF8zU,122032
+openfdcm-0.8.1.dist-info/RECORD,,
+openfdcm-0.8.1.dist-info/LICENSE,sha256=ZPgDQwFknZbwRR3W_b_DZDU1yg4K1S7wBI6Yg5o0Sdk,1066
+openfdcm-0.8.1.dist-info/WHEEL,sha256=0jd1Csb346CdJBvnnYag9g3I-fAkwOuZ57kOO1eqnOc,110
+openfdcm-0.8.1.dist-info/top_level.txt,sha256=OV7AzwV40gFBx8n4vPg_wyiVTk3MN53oxEvKRZSZC4E,9
+openfdcm-0.8.1.dist-info/METADATA,sha256=dZ9xnvi0hRef-5EdXxZ4M7wfGUZWgcIbpBtLAH6lKZk,5811
+openfdcm.dylibs/libz.1.3.1.dylib,sha256=R7fIRQytVzFWdgXKklHrEzLcYJqBqU5LUho6ZXuz5vQ,141968
+openfdcm.dylibs/libopenfdcm_matching.dylib,sha256=BZf4g6mVP6v-xVt6fEJHsmdV2YcCPbdRP3qocYQWINw,242672
