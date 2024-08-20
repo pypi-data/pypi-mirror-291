@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: flexplan
+Version: 0.0.1
+Summary: Execute multiple tasks in an organized parallel manner
+Home-page: https://github.com/leavers/flexplan
+Author: Leavers
+Author-Email: Leavers <leavers930@gmail.com>
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Homepage, https://github.com/leavers/flexplan
+Requires-Python: >=3.8
+Requires-Dist: flexexecutor
+Requires-Dist: typing-extensions>=4.8.0
+Description-Content-Type: text/markdown
+
+# pipegram
+
+Pipegram is a simple workflow written in Python.
