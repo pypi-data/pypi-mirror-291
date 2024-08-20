@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_ui_xaml_controls_animatedvisuals.cp311-win_arm64.pyd,sha256=97LTor4bujMshM5VkHGWV2JrtJrAcVm79ANAGFkmn5g,116736
+winrt/_winrt_microsoft_ui_xaml_controls_animatedvisuals.pyi,sha256=xeuKmctyxw4thoXoutXNJtk7l5QIgl11CI6ycm-N7qQ,6448
+winrt/microsoft/ui/xaml/controls/animatedvisuals/__init__.py,sha256=ApYcRvl1d0Nhhj3sRiJ-tXHTUP9iAqUFx_wT_C6pEqI,1458
+winrt/microsoft/ui/xaml/controls/animatedvisuals/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.UI.Xaml.Controls.AnimatedVisuals-2.2.0.dist-info/METADATA,sha256=Zp_F_m1lZGMdBuSC8VFi32qjLjb0nAUARm8LOD7LZsU,1350
+winrt_Microsoft.UI.Xaml.Controls.AnimatedVisuals-2.2.0.dist-info/WHEEL,sha256=imqxcnzSVEea_wMxy-zLrikSl-8qAe4fLvU8moMvHqI,101
+winrt_Microsoft.UI.Xaml.Controls.AnimatedVisuals-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Xaml.Controls.AnimatedVisuals-2.2.0.dist-info/RECORD,,
