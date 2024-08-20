@@ -1,0 +1,11 @@
+inu/__init__.py,sha256=v_sEKVb_WRNdz_rprniarET1bfrDXe2HI1YXf1z9tHQ,50
+inu/inu.py,sha256=3vaR142ruOY58vsdTovDSQjGkZosM4KZyfrV-2r1UL4,45114
+inu/test_inu.py,sha256=dUwH8uXVPQ6_uFFyHRsAdsV-hDjIgOc8iGGLEx_EmKM,3548
+inu/analysis/jacobian.py,sha256=IxeFVw9m9q5xwT4ZvTDslyArs4jwDOsykE0nWFF2CdA,6416
+inu/analysis/trapezoidal.py,sha256=a5n7cv1ppxfcxZg10Q1h5ECCaJn2S6ZzucYPitzefKQ,886
+inu/examples/ekf.py,sha256=36W1ca39GEFnIE6QY3Gst1kELdOvEYVvUMQaYFoZ3YI,4771
+inu-1.1.1.dist-info/LICENSE.txt,sha256=rAdd6Fakfe5GbbAlzZjaHDRud9S2qseNZsWXpUQJ58c,1059
+inu-1.1.1.dist-info/METADATA,sha256=G3K0LeC3JsHJlSUy3oiylVYrSB2vG6u59cFgM4Qe_AA,9255
+inu-1.1.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+inu-1.1.1.dist-info/top_level.txt,sha256=klcVSlrQWujBsHgWr8k-UgvZyZUMQW9M2_zXJi2ptCM,4
+inu-1.1.1.dist-info/RECORD,,
