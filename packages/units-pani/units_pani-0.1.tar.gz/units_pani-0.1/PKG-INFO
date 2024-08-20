@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: units_pani
+Version: 0.1
+Summary: units
+Home-page: https://github.com/pani0815/units
+Download-URL: https://github.com/pani0815/units/archive/refs/tags/0.1.tar.gz
+Author: Dominik Panstingl
+Author-email: dominik.panstingl@gmx.at
+License: GNU GENERAL PUBLIC LICENSE
+Keywords: units,physics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
+Requires-Dist: numpy
