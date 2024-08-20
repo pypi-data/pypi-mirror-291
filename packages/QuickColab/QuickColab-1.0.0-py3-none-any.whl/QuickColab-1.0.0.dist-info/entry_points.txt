@@ -1,0 +1,2 @@
+[console_scripts]
+quickcolab = QuickColab.cli:main
