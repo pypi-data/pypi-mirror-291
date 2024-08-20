@@ -1,0 +1,14 @@
+tassistant_bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tassistant_bot/__main__.py,sha256=4WSk4g0D68zKN074R92MJlJqk3rZ7zaEOeF2Yq1rrOo,2252
+tassistant_bot/helpers/__init__.py,sha256=7A6ga0VW8Cf-G6n3EPRoRCuO_eJ_2j6SCI5MV7a4npA,250
+tassistant_bot/helpers/config.py,sha256=UyYO-vuNTkkGh5dSVfrKW9BOOSa3Q_hY3K_aPKIB3Ls,1757
+tassistant_bot/helpers/i18n/__init__.py,sha256=3DkPdGyOQFmFg8T0f1OBbAFz6aZCTRaDFUMiRWpBvhc,71
+tassistant_bot/helpers/i18n/base.py,sha256=QmVbUEyGjhmKJcmxoIkuyiIoQejZt9HYo5b3U9tDB0A,5072
+tassistant_bot/loader.py,sha256=DHRBv_YVEifwRuF9sz07ubdsH1gpJ7tdDQ-AMbauVlY,11929
+tassistant_bot/modules/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tassistant_bot/scenarios/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tassistant_bot/scenarios/base.py,sha256=eOUQzGz53nhKyU3UTB4fYgSa-3JOip3bTrwkx5eYnQU,3325
+tassistant_bot-0.2.4.dist-info/METADATA,sha256=9Kug8LJcn-9YQ1FHOUDyGlgKkkVH-OOt7CQxy5ILqRc,2063
+tassistant_bot-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tassistant_bot-0.2.4.dist-info/entry_points.txt,sha256=qHn-QqnCeAO1sqq4-JK9lxNYjnLwXXRqgOAIhdzQ-jE,59
+tassistant_bot-0.2.4.dist-info/RECORD,,
