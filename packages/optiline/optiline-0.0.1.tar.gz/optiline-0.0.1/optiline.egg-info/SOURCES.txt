@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+optiline/__init__.py
+optiline.egg-info/PKG-INFO
+optiline.egg-info/SOURCES.txt
+optiline.egg-info/dependency_links.txt
+optiline.egg-info/requires.txt
+optiline.egg-info/top_level.txt
+tests/test_version.py

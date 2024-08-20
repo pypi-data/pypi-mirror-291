@@ -1,0 +1,9 @@
+
+[dev]
+ruff
+pytest
+pre-commit
+pytest-cov
+tox
+reorder-python-imports
+mypy
