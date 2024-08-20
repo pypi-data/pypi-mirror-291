@@ -1,0 +1,10 @@
+napari_nifti/__init__.py,sha256=vGoaOkx4qA0ycv2ljVO-tvSeceWPV-hTEhy7bKxX7G4,173
+napari_nifti/_reader.py,sha256=xU_cDOncgRjMlwlmWEse0D31Gc85WhPqsOpg4GCTHRg,2367
+napari_nifti/_writer.py,sha256=k2qnXqaNkpVyxktdLF61F0GBV_VV3w_AxBNd3E8xXnM,742
+napari_nifti/napari.yaml,sha256=ke4_tgojhDUoHQVrSoq5p83p1a3zanlQhbEkdgihn7U,799
+napari_nifti-0.0.16.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+napari_nifti-0.0.16.dist-info/METADATA,sha256=eTfdTy9VfGS6kQ7CartcfCBq-QA9znp1sW28hifVUsM,4539
+napari_nifti-0.0.16.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+napari_nifti-0.0.16.dist-info/entry_points.txt,sha256=sCFl6D1mzFmGcozHz_L6IKJ-oUHoXv6WmeFhxvZTYt4,58
+napari_nifti-0.0.16.dist-info/top_level.txt,sha256=yPhu8t-vKZTV6i0r1G1l_0nsI5qm_S__xBxoFOnywd4,13
+napari_nifti-0.0.16.dist-info/RECORD,,
