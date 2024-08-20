@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reliable_finalizer/__init__.py
+reliable_finalizer.egg-info/PKG-INFO
+reliable_finalizer.egg-info/SOURCES.txt
+reliable_finalizer.egg-info/dependency_links.txt
+reliable_finalizer.egg-info/top_level.txt
