@@ -1,0 +1,2 @@
+[console_scripts]
+plugie = djangocms_plugie.setup_script:main
