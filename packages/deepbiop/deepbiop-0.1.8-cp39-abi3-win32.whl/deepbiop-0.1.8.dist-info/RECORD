@@ -1,0 +1,11 @@
+deepbiop-0.1.8.dist-info/METADATA,sha256=T760Ys70gx-sLFfCw15lIqZwRguxA4Zl_HTaWToinig,5297
+deepbiop-0.1.8.dist-info/WHEEL,sha256=qj4yvhBGGh-Da-TJURGo64L4UhlDv6jfjARoP6roUWU,90
+deepbiop-0.1.8.dist-info/license_files/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+deepbiop/bam.pyi,sha256=s8Ga4XWL6vQZlk7Awi5hpyAqNJLsz24aQrZ3f9S48bM,219
+deepbiop/fq.pyi,sha256=Sde2I28SiIdBoLvwwBgnCU6meo770IjZanRxCplgG4I,2664
+deepbiop/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepbiop/utils.pyi,sha256=0_fyBMo3IlqPeUasgqQaVYVT-79NQmOoCxZKIEioOrs,1326
+deepbiop/__init__.py,sha256=4WgygxsBX7rwY1hsQtn9be9BMlsKvrdHzDPXGwI3ky4,47
+deepbiop/__init__.pyi,sha256=OWPIvKT6fLsqb9i9cP6acjo2pN2Jwe7yjupEoijKtp0,152
+deepbiop/deepbiop.pyd,sha256=Yj9e8LRBkCrnMFMFpEJ7XT8XyQRtGOvqVkn3cQ6VLZU,9299456
+deepbiop-0.1.8.dist-info/RECORD,,
