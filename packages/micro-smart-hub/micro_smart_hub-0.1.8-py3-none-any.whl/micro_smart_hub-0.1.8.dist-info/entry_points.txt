@@ -1,0 +1,2 @@
+[console_scripts]
+micro-smart-server = micro_smart_server.micro_smart_server:main

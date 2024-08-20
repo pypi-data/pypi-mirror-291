@@ -1,0 +1,3 @@
+micro_smart_hub
+micro_smart_server
+tests
