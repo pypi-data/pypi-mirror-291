@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: LSQ-Analyzer
+Version: 1.1
+Summary: Библиотека для анализа спектров МНК с неотрицательными коэффициентами
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# LSQAnalyzer
+
+LSQAnalyzer - это библиотека для анализа рентгеновских спектров методом наименьших квадратов (LSQ). Она позволяет находить процентное соотношение комбинации одних спектров в другом.  
+Важно: до начала использования спектры должны быть приведены в один энергетический диапазон и отнормированы к интервалу [0, 1].
+В файлах должны отсутствовать заголовки, а разделителем должен быть пробел, в конце не должно быть пустых строк.  
+Ниже пример строки содержимого:  
+```
+98.04 0.34621
+```
+
+## Установка
+
+```
+pip install LSQ-Analyzer
+```
+
+## Использование
+
+Пример использования LSQAnalyzer:
+
+```python
+from lsq_analyzer import LSQAnalyzer
+
+# Установите диапазон значений энергии и шаг для анализа
+# это нужно, чтобы привести спектры к одной сетке через интерполяцию
+start = 72
+end = 106.1
+step = 0.1
+
+# Создайте экземпляр LSQAnalyzer
+analyzer = LSQAnalyzer((start, end, step))
+
+# Указываем теги и пути к файлам
+# файлов может быть сколько угодно
+data = {
+    'CoFe_exp': r"C:\Users\user\Desktop\folder\CoFe_exp.txt",
+    'Co_calc': r"C:\Users\user\Desktop\folder\Co_calc.txt",
+    'Fe_calc': r"C:\Users\user\Desktop\folder\Fe_calc.txt"
+}
+
+# Ввод данных
+analyzer.input_data(data)
+
+# Выполнение МНК анализа 
+# первым указываем тегом целевой спектр, дальше - остальные
+# указывать можно сколько угодно спектров
+analyzer.perform_lsq('CoFe_exp', 'Co_calc', 'Fe_calc')
+
+# Печать результатов
+analyzer.print_results()
+
+# Построение графиков результатов
+_ = analyzer.plot_results()
+```
+
