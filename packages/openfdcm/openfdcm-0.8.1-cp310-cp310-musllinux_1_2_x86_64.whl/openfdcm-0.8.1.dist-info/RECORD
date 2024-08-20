@@ -1,0 +1,13 @@
+openfdcm.cpython-310-x86_64-linux-gnu.so,sha256=5DocqJEk4Gysg7wloM6915Jf80tF8Doy7EbI_Nv3rCg,468121
+libz.so.1.3.1,sha256=4LjX0EXlx4e6x1T-javmwNMRgF2j06KCZYDs68CihgI,130000
+libopenfdcm_matching.so,sha256=T7KcWabOE8tlQ9ZMpyMzXpLU0VNsv2kqBF8s8sVy8yE,230457
+libz.so.1,sha256=4LjX0EXlx4e6x1T-javmwNMRgF2j06KCZYDs68CihgI,130000
+libz.so,sha256=4LjX0EXlx4e6x1T-javmwNMRgF2j06KCZYDs68CihgI,130000
+openfdcm.libs/libstdc++-496613c0.so.6.0.32,sha256=AwZhL5WFT99I2Q6vIxXOhW7qddfuOZ1xecxiP9QTVY4,3494361
+openfdcm.libs/libgcc_s-a3a07607.so.1,sha256=5ptIUeAzZweNZrFehN0_Bb5B0FcJgux7NbAFoU8vwwo,148041
+openfdcm.libs/libopenfdcm_matching-7612c4d0.so,sha256=yKlwd7DdUEXb3VsCKFuK7_RJ-cH2C-9hUizoMC8HPao,246297
+openfdcm-0.8.1.dist-info/RECORD,,
+openfdcm-0.8.1.dist-info/WHEEL,sha256=EPV59xpLLNX-669VxlLByhnqk482i7a2wyx1BrJz6z0,112
+openfdcm-0.8.1.dist-info/LICENSE,sha256=ZPgDQwFknZbwRR3W_b_DZDU1yg4K1S7wBI6Yg5o0Sdk,1066
+openfdcm-0.8.1.dist-info/top_level.txt,sha256=OV7AzwV40gFBx8n4vPg_wyiVTk3MN53oxEvKRZSZC4E,9
+openfdcm-0.8.1.dist-info/METADATA,sha256=dZ9xnvi0hRef-5EdXxZ4M7wfGUZWgcIbpBtLAH6lKZk,5811
