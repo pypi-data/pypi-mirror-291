@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: p5gen
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Sam Lavigne <splavigne@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# p5gen
+
+A small tool that creates a p5 sketch in a folder you specify.
