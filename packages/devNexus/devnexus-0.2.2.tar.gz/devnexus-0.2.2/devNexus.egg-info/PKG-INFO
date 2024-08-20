@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: devNexus
+Version: 0.2.2
+Summary: A package containing dev tools to make development easier.
+Home-page: https://github.com/2snufkin/developer_tools
+Author: PZ
+Author-email: rade.dvlp@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: openai
+Requires-Dist: pyperclip
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# DevTools
+
+`devNexus` is a Python package designed to simplify and streamline common development tasks. It includes utilities for working with OpenAI, managing directories and files, and performing string operations.
+
+## Features
+
+- **OpenAI Utilities**: Helpers for interacting with OpenAI's API.
+- **Directory Tools**: Functions for managing and inspecting directories.
+- **File Tools**: Utilities for handling and processing files.
+- **String Tools**: Functions for manipulating and analyzing strings.
+- **Static Scarping**: Function for static web scraping (not a JS based websites)
+
+## Installation
+
+You can install `devNexus` via pip:
+
+```sh
+pip install devNexus
+```
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.

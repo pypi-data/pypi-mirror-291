@@ -1,0 +1,14 @@
+LICENSE.txt
+setup.py
+devNexus.egg-info/PKG-INFO
+devNexus.egg-info/SOURCES.txt
+devNexus.egg-info/dependency_links.txt
+devNexus.egg-info/requires.txt
+devNexus.egg-info/top_level.txt
+dev_tools/__init__.py
+dev_tools/clipboard_tools.py
+dev_tools/dir_tools.py
+dev_tools/file_tools.py
+dev_tools/openai_tools.py
+dev_tools/static_scraping.py
+dev_tools/string_tools.py

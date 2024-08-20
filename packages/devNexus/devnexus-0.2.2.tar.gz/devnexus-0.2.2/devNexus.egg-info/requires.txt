@@ -1,0 +1,4 @@
+openai
+pyperclip
+requests
+bs4
