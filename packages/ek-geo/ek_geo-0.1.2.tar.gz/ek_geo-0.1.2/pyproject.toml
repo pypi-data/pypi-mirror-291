@@ -1,0 +1,26 @@
+[project]
+name = "ek-geo"
+version = "0.1.2"
+description = "Geographic utilities for EarthKit"
+authors = [{ name = "Jett Chen", email = "jettchen12345@gmail.com" }]
+dependencies = ["attrs>=24.2.0", "geopy>=2.4.1"]
+readme = "README.md"
+requires-python = ">= 3.8"
+license = "MIT"
+
+[project.optional-dependencies]
+graphing = ["pydeck"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ek_geo"]
