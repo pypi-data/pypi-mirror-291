@@ -1,0 +1,8 @@
+winrt/_winrt_windows_web_http.cp313-win_amd64.pyd,sha256=2cJ4Sr8taHTKKCB9c2vM66QYIEmEX9ftOJ2e5QgEvdM,455680
+winrt/_winrt_windows_web_http.pyi,sha256=slFL3eKjrkWnjsopeWnxx7Kr165jzBczecEuFUy7CxI,28327
+winrt/windows/web/http/__init__.py,sha256=54ubZqL2FCM0-MqNvbVaHu7eXZRPpil6HAqnjUJyYls,4278
+winrt/windows/web/http/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Web.Http-2.2.0.dist-info/METADATA,sha256=KD-5RN3qHESuQON-GAE2_Bw7QqJBXBaCf6uRdWb6ELA,1502
+winrt_Windows.Web.Http-2.2.0.dist-info/WHEEL,sha256=CdxowNJ2RPRCxUxJWAQ4R_o8uA51cjotGywc47Ht6wA,101
+winrt_Windows.Web.Http-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Web.Http-2.2.0.dist-info/RECORD,,
