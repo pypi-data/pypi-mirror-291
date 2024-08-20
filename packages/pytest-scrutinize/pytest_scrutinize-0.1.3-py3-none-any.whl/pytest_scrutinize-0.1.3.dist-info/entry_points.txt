@@ -1,0 +1,2 @@
+[pytest11]
+pytest-scrutinize = pytest_scrutinize.plugin
