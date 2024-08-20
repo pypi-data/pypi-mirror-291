@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pipelogger/__init__.py
+pipelogger/pipelogger.py
+pipelogger.egg-info/PKG-INFO
+pipelogger.egg-info/SOURCES.txt
+pipelogger.egg-info/dependency_links.txt
+pipelogger.egg-info/requires.txt
+pipelogger.egg-info/top_level.txt
