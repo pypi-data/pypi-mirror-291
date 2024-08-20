@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: logging-commons
+Version: 0.1.0
+Summary: Python Logging Tools
+Home-page: https://github.com/KaribuLab/python-logging-commons
+Author: Patricio Ascencio
+Author-email: Patricio Ascencio <paascencio@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/KaribuLab/python-logging-commons
+Project-URL: Issues, https://github.com/KaribuLab/python-logging-commons/issues
+Platform: MacOS X
+Platform: Linux
+Platform: Windows
+Requires-Python: >=3.12
+License-File: LICENSE
