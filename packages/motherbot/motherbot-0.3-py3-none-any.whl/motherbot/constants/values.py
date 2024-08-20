@@ -1,0 +1,18 @@
+"""
+Values constants module.
+"""
+
+ADDRESS_BOOK_PATH = "address_book.pkl"
+NOTES_BOOK_PATH = "notes_book.pkl"
+NAME_MIN_LENGTH = 1
+NAME_MAX_LENGTH = 30
+PHONE_LENGTH = 10
+PHONE_PATTERN = r"^\d{10}$"
+EMAIL_PATTERN = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+ADDRESS_MIN_LENGTH = 5
+ADDRESS_MAX_LENGTH = 100
+TITLE_MIN_LENGTH = 2
+TITLE_MAX_LENGTH = 100
+TAG_MIN_LENGTH = 2
+TAG_MAX_LENGTH = 16
+TEXT_MAX_LENGTH = 1000

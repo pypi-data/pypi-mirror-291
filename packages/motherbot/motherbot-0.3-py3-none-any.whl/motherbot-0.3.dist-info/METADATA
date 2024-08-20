@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: motherbot
+Version: 0.3
+Summary: Final project for Python course => MotherBot
+Home-page: https://github.com/Iryna-Holova/goit-pycore-final
+Author: Kateryna Tkachenko
+Author-email: tkachenko.city@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi
+Requires-Dist: cfgv
+Requires-Dist: charset-normalizer
+Requires-Dist: colorama
+Requires-Dist: distlib
+Requires-Dist: docutils
+Requires-Dist: Faker
+Requires-Dist: filelock
+Requires-Dist: fuzzywuzzy
+Requires-Dist: identify
+Requires-Dist: idna
+Requires-Dist: importlib-metadata
+Requires-Dist: jaraco.classes
+Requires-Dist: jaraco.context
+Requires-Dist: jaraco.functools
+Requires-Dist: keyring
+Requires-Dist: Levenshtein
+Requires-Dist: markdown-it-py
+Requires-Dist: mdurl
+Requires-Dist: more-itertools
+Requires-Dist: motherbot
+Requires-Dist: nh3
+Requires-Dist: nodeenv
+Requires-Dist: pip
+Requires-Dist: pkginfo
+Requires-Dist: platformdirs
+Requires-Dist: pre-commit
+Requires-Dist: prompt-toolkit
+Requires-Dist: pyfiglet
+Requires-Dist: Pygments
+Requires-Dist: python-dateutil
+Requires-Dist: python-Levenshtein
+Requires-Dist: PyYAML
+Requires-Dist: rapidfuzz
+Requires-Dist: readme-renderer
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: rfc3986
+Requires-Dist: rich
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: tabulate
+Requires-Dist: twine
+Requires-Dist: urllib3
+Requires-Dist: virtualenv
+Requires-Dist: wcwidth
+Requires-Dist: wheel
+Requires-Dist: zipp
+
+# Motherbot
+
+## Overview
+
+The project is a Python-based application that focuses on managing contacts and notes, offering features like adding, editing, and deleting contacts, creating and managing notes with tags, and interacting through a command-line interface. It also incorporates Python best practices and concepts, such as decorators, to enhance functionality.
+
+![WelcomeScreencapture](welcomeScreen.png)
+
+## Features
+
+- **Contacts Management:** Create, update, delete, and search contacts.
+- **Notes Management:** Manage notes with tagging and searching functionality.
+- **Custom Decorators:** Utility decorators for logging, validation, etc.
+- **Helper Functions:** Common utility functions used across the project.
+
+## Requirements
+
+- Python 3.x
+- See `requirements.txt` for the full list of dependencies.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Iryna-Holova/goit-pycore-final.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd goit-pycore-final
+   ```
+3. Create Python virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+4. Activate Python virtual environment:
+   ```bash
+   source .venv/Scripts/activate
+   ```
+5. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Run the main script to start the application:
+
+```bash
+python main.py
+```
+
+Enter the command `help` to see available commands.
+
+## Contributions
+
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+## Contributors
+
+- [Iryna Holova - Team Lead, developer](https://github.com/Iryna-Holova)
+- [Katerina Tkachenko - developer](https://github.com/TkachenkoKaterina)
+- [Yurii Filimonchuk - developer](https://github.com/filimon4uck)
+- [Anna Tsepilova - developer](https://github.com/AnnaTsepilova)
+- [Volodymyr Popov - developer](https://github.com/AppForceLab)
+- [Kostiantyn Baltakov - developer](https://github.com/Baltakov)
+
+## Contact
+
+For any questions, please contact [Iryna Holova](https://github.com/Iryna-Holova).

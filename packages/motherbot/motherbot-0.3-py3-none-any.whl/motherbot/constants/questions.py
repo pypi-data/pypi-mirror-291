@@ -1,0 +1,51 @@
+"""
+Questions constants module.
+"""
+
+questions_en = {
+    "command": "Enter a command: ",
+    "suggest": "Did you mean '{}'? (y/n): ",
+    "name": "Enter name: ",
+    "phone": "Enter phone number: ",
+    "birthday": "Enter birthday: ",
+    "email": "Enter email: ",
+    "address": "Enter address: ",
+    "title": "Enter title: ",
+    "text": "Enter text: ",
+    "tags": "Enter tags separated by spaces: ",
+    "tag": "Enter tag: ",
+    "reminder": "Enter reminder: ",
+    "days": "Enter number of days: ",
+    "contacts": "Enter number of contacts: ",
+    "notes": "Enter number of notes: ",
+    "search_contacts": "Enter search term (name or phone number): ",
+    "search_notes": "Enter search term (title or tag): ",
+    "skip": "(press Enter to skip) ",
+    "back": "[back to main menu CTRL+C] ",
+    "language": "Enter language ({}): ",
+    "date_format": "Enter date format ({}): ",
+}
+
+questions_ua = {
+    "command": "Введіть команду: ",
+    "suggest": "Можливо, ви мали на увазі '{}'? (т/н): ",
+    "name": "Введіть ім'я: ",
+    "phone": "Введіть номер телефону: ",
+    "birthday": "Введіть дату народження: ",
+    "email": "Введіть електронну пошту: ",
+    "address": "Введіть адресу: ",
+    "title": "Введіть назву: ",
+    "text": "Введіть текст: ",
+    "tags": "Введіть теги через пробіл: ",
+    "tag": "Введіть тег: ",
+    "reminder": "Введіть нагадування: ",
+    "days": "Введіть кількість днів: ",
+    "contacts": "Введіть кількість контактів: ",
+    "notes": "Введіть кількість нотаток: ",
+    "search_contacts": "Введіть пошуковий запит (ім'я або номер телефону): ",
+    "search_notes": "Введіть пошуковий запит (назву або тег): ",
+    "skip": "(натисніть Enter, щоб пропустити) ",
+    "back": "[повернутися до головного меню CTRL+C] ",
+    "language": "Введіть мову ({}): ",
+    "date_format": "Введіть формат дати ({}): ",
+}
