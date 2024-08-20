@@ -1,0 +1,58 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "livelogs"
+version = "0.1.5"
+description = "A live log streaming application"
+authors = ["Destiny Saturday <destiny@destinedcodes.com>"]
+license = "MIT"
+
+[project]
+readme = "README.md"
+long_description = """A live log streaming application that allows real-time monitoring and streaming of log files.
+Features include:
+- Real-time log updates
+- Configurable log file path
+- Easy integration with existing applications
+
+This package is designed to work with Flask and SocketIO, leveraging Eventlet for asynchronous processing.
+"""
+long_description_content_type = "text/markdown"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["logs", "livelogs"]
+requires-python = ">=3.8"
+
+[project.dependencies]
+python = "^3.8"
+flask = "^3.0.3"
+flask-socketio = "^5.3.6"
+eventlet = "^0.36.1"
+dnspython = "^2.6.1"
+bidict = "^0.23.1"
+blinker = "^1.8.2"
+greenlet = "^3.0.3"
+h11 = "^0.14.0"
+itsdangerous = "^2.2.0"
+jinja2 = "^3.1.4"
+markupSafe = "^2.1.5"
+python-engineio = "^4.9.1"
+python-socketio = "^5.11.3"
+simple-websocket = "^1.0.0"
+werkzeug = "^3.0.3"
+wsproto = "^1.2.0"
+pyopenssl = "^24.2.1"
+cryptography = "^43.0.0"
+
+[project.urls]
+Homepage = "https://github.com/destinedcodes/livelogs"
+Issues = "https://github.com/destinedcodes/livelogs/issues"
+
+[project.scripts]
+livelogs = "livelogs.app:main"
+
