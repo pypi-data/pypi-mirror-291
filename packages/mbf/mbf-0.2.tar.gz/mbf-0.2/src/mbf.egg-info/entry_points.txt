@@ -1,0 +1,3 @@
+[console_scripts]
+scb_submit = mbf.publish.scb_submit:main
+
