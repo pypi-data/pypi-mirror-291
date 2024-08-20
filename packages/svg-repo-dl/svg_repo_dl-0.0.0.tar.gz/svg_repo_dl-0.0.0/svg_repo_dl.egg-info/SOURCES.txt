@@ -1,0 +1,7 @@
+setup.py
+svg_repo_dl.egg-info/PKG-INFO
+svg_repo_dl.egg-info/SOURCES.txt
+svg_repo_dl.egg-info/dependency_links.txt
+svg_repo_dl.egg-info/top_level.txt
+svgrepo_dl/__init__.py
+svgrepo_dl/__main__.py
