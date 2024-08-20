@@ -1,0 +1,11 @@
+django_expr/__init__.py,sha256=AmKp-OlxBnvQyfN0Ux_5FG-1c071_i0LaDAaZ1ndTlw,76
+django_expr/apps.py,sha256=-I2Nilk0VF4v744X-09u_gi0A1S_BfOouI4cxFG7Ldc,293
+django_expr/expression.py,sha256=qHWXVIip10EsKuvtz6FcrDbSiE9SaNyHggWcU446QV8,6638
+django_expr/templatetags.py,sha256=-_nHhSj6Ska8EkOZ9e4_HRWkmZlsso_LPdc4RkJp4XY,926
+django_expr/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_expr/templatetags/expr.py,sha256=sA_9tnb9ilK5BXC7eJySs2e9B0Krs-iCqPajFNKWyMI,1591
+django_expr-0.0.1.dist-info/LICENSE,sha256=E9YGMoXeHP_DsExGB4Mr0RiabSsjwHJP-9CNfB7qqBE,1068
+django_expr-0.0.1.dist-info/METADATA,sha256=y-kTXSIdLXs1ypD76uOD22jAZQsUEoC8gnSJQQgSi_M,2432
+django_expr-0.0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+django_expr-0.0.1.dist-info/top_level.txt,sha256=_-e08wNU9JMj4UeR2QHFqspQRAG1WK9OS4i3TIYlKfw,12
+django_expr-0.0.1.dist-info/RECORD,,
