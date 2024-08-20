@@ -1,0 +1,7 @@
+# Include the README file and the LICENSE file
+include README.md
+include LICENSE.txt
+
+# Exclude all .git and .github files and directories
+global-exclude .git*
+global-exclude .github*

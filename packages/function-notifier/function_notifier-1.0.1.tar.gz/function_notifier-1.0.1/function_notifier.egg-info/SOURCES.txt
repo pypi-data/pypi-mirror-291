@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+function_notifier/__init__.py
+function_notifier/send_notification.py
+function_notifier.egg-info/PKG-INFO
+function_notifier.egg-info/SOURCES.txt
+function_notifier.egg-info/dependency_links.txt
+function_notifier.egg-info/requires.txt
+function_notifier.egg-info/top_level.txt
