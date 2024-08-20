@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_lockscreen.cp310-win_arm64.pyd,sha256=8r6q-6tCcPXts3RcQKmR0xvJsmfBJMf_V6KtF6T6HzU,111616
+winrt/_winrt_windows_applicationmodel_lockscreen.pyi,sha256=WmZpJMleBQqikOkDwd9a_1kEwYZzIjhWcfkATEDe8x4,3902
+winrt/windows/applicationmodel/lockscreen/__init__.py,sha256=ywq9HYO0ScBQbKvzHmK252RrG1LfwirRJW4chRMUvGc,762
+winrt/windows/applicationmodel/lockscreen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.LockScreen-2.2.0.dist-info/METADATA,sha256=SqOWDS4hxfgGHuMSo3nA1SMcpNcRrDxzUO0YAdRfILw,1250
+winrt_Windows.ApplicationModel.LockScreen-2.2.0.dist-info/WHEEL,sha256=OUR_6PdNqVNxYcSYXC3UBUAovf2K3Wwd-pjMeQ3_Flo,101
+winrt_Windows.ApplicationModel.LockScreen-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.LockScreen-2.2.0.dist-info/RECORD,,
