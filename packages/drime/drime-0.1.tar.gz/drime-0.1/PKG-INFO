@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: drime
+Version: 0.1
+Summary: Client Python pour l'API Drime
+Home-page: https://github.com/PainDe0Mie/drime
+Author: PainDe0Mie
+Author-email: painde0mie@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Drime API Client
+
+`drime` est un client Python pour l'API Drime. Il permet d'interagir avec les services Drime en utilisant une interface simple.
+
+## Installation
+
+```bash
+pip install drime

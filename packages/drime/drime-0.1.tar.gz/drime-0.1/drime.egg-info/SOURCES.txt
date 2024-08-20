@@ -1,0 +1,8 @@
+setup.py
+drime/__init__.py
+drime/drime.py
+drime.egg-info/PKG-INFO
+drime.egg-info/SOURCES.txt
+drime.egg-info/dependency_links.txt
+drime.egg-info/requires.txt
+drime.egg-info/top_level.txt
