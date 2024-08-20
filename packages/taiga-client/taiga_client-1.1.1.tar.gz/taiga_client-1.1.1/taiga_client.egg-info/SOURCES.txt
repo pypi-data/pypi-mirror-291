@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+taiga_client/__init__.py
+taiga_client/taiga_client.py
+taiga_client.egg-info/PKG-INFO
+taiga_client.egg-info/SOURCES.txt
+taiga_client.egg-info/dependency_links.txt
+taiga_client.egg-info/requires.txt
+taiga_client.egg-info/top_level.txt
