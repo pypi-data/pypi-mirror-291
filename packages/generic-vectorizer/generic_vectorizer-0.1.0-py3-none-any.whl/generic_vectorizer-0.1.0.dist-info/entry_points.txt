@@ -1,0 +1,2 @@
+[console_scripts]
+generic-vectorizer = generic_vectorizer.__main__:main
