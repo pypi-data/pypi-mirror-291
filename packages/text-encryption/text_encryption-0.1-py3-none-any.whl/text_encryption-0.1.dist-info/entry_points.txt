@@ -1,0 +1,2 @@
+[console_scripts]
+userinterface = text_encryption.userinterface:main
