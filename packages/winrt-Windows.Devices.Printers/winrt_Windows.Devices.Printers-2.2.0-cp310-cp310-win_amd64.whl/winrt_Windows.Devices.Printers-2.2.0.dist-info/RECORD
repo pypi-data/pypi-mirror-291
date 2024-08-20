@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_printers.cp310-win_amd64.pyd,sha256=WCmHT7QgQAkwdE5M5yfpFDFyGey3aLUbpYgD6tA6hek,547840
+winrt/_winrt_windows_devices_printers.pyi,sha256=9SEBhIfzz1tN79e4yBmFz516mrhTd3L1s_MU6fmPsT4,14387
+winrt/windows/devices/printers/__init__.py,sha256=K7G9f-mmpPndXmtU5xGumm0Aj3PZ49HaF46sWKLMSTw,2329
+winrt/windows/devices/printers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Printers-2.2.0.dist-info/METADATA,sha256=4jlAEBE6wQHELBDafj5aviaHMLF7xSxFXL2a4b79UlY,1284
+winrt_Windows.Devices.Printers-2.2.0.dist-info/WHEEL,sha256=zWneB6rvW-_BQDcNdIDobvp8AqetSHN6yeGec-LGca0,101
+winrt_Windows.Devices.Printers-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Printers-2.2.0.dist-info/RECORD,,
