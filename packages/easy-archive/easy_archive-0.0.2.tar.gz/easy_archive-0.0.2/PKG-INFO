@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: easy-archive
+Version: 0.0.2
+Summary: Easy Archive is a tool to archive and compress files and directories, especially for large a lot of files.
+Home-page: https://github.com/jdf-prog/easy-archive
+Author: Dongfu Jiang
+Author-email: dongfu.jiang@uwaterloo.ca
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: datasets
+Requires-Dist: fire
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+# easy-archive
+Quickly archive large media files
+
+## Installation
+```bash
+pip install easy-archive
+```
+
+## Usage
+```bash
+easy-archive [archive] {archive_dir} --save_dir {save_dir} --num_files_per_archive {num_files_per_archive} --delete_original --overwrite --remove_duplicates --num_proc {num_proc}
+easy-archive unarchive {archive_dir}
+```

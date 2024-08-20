@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+easy_archive.egg-info/PKG-INFO
+easy_archive.egg-info/SOURCES.txt
+easy_archive.egg-info/dependency_links.txt
+easy_archive.egg-info/entry_points.txt
+easy_archive.egg-info/requires.txt
+easy_archive.egg-info/top_level.txt
+src/__init__.py
+src/archive.py
+src/cli.py
+src/unarchive.py
