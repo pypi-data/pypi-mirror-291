@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "snews-data-formats"
+version = "1.0.0"
+description = "A unified collection of SNEWS data, models, and schema"
+authors = ["SNEWS Collaboration <snews2.0@lists.bnl.gov>"]
+maintainers = ["Justin Vasel <justin.vasel@gmail.com>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+repository = "https://github.com/SNEWS2/snews-data-formats"
+packages = [{include = "snews"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pydantic = "^2.4.2"
+single-version = "^1.6.0"
+pydantic-extra-types = "^2.1.0"
+pycountry = "^22.3.5"
+numpy = "^1.26.3"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.5.4"
+mkdocs-section-index = "^0.3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+hypothesis = {extras = ["cli"], version = "^6.88.1"}
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+hypothesis = {extras = ["cli"], version = "^6.88.1"}
+
+
+[tool.poetry.scripts]
+snews_data_formats = "snews.__main__:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning"
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]

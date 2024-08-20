@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: snews-data-formats
+Version: 1.0.0
+Summary: A unified collection of SNEWS data, models, and schema
+Home-page: https://github.com/SNEWS2/snews-data-formats
+License: BSD 3-Clause
+Author: SNEWS Collaboration
+Author-email: snews2.0@lists.bnl.gov
+Maintainer: Justin Vasel
+Maintainer-email: justin.vasel@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: pycountry (>=22.3.5,<23.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: pydantic-extra-types (>=2.1.0,<3.0.0)
+Requires-Dist: single-version (>=1.6.0,<2.0.0)
+Project-URL: Repository, https://github.com/SNEWS2/snews-data-formats
+Description-Content-Type: text/markdown
+
+# SNEWS Data Formats
+
+This package contains common data models and utilities for standardizing data formats across SNEWS packages.
+
+## Features
+
+- Data models for key SNEWS data types like messages and timestamps with validation via Pydantic
+- Message models for different tiers like heartbeat, retraction, timing, significance, and coincidence
+- Utilities for handling nanosecond timestamps and leap seconds
+- Static data for supported detectors
+- Generation of JSON schemas for data models
+- Comprehensive testing suite
+
+## Getting Started
+
+If you don't have [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer), install that first.
+
+Install the package:
+```bash
+poetry install
+```
+
+Use it in your code:
+```python
+from snews.models.messages import SignificanceTierMessage
+
+message = SignificanceTierMessage(
+    detector_name="Super-K",
+    p_values: [0.43, 0.32, 0.01],
+    t_bin_width_sec: 5e-3
+)
+
+print(message.model_dump())
+```
+
+See the [documentation](docs/index.md) for more details on the available data models and utilities.
+
+See `snews/examples` for ipython notebooks.
+
+## Contributing
+Contributions are welcome!
+

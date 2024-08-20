@@ -1,0 +1,1037 @@
+{
+  "HALO": {
+    "lon": -81.186667,
+    "lat": 46.471667,
+    "status": "current",
+    "aliases": "Helium and Lead Observatory",
+    "description": "The Helium and Lead Observatory looks for supernova neutrinos interacting with 79 tonnes of lead, which would produce neutrons detected by 128 3He “NCD” tubes borrowed from the SNO experiment. It is 2km underground in SNOLAB near Sudbury, Ontario.",
+    "website": "https://www.snolab.ca/halo/index.html",
+    "contact": "cjv@snolab.ca"
+  },
+  "NOvA": {
+    "lon": -92.833611,
+    "lat": 48.379167,
+    "status": "current",
+    "aliases": "NuMI Off-Axis Neutrino Experiment",
+    "description": "The NuMI Off-Axis Neutrino Experiment is a long-baseline neutrino oscillation experiment that observes the NuMI neutrino beam first at Fermilab with a 300kt near detector 100m underground then 810km later in Ash River, MN with a 14kt far detector on the surface in Ash River, MN. The liquid scintillator in each detector can see positrons from the interaction of supernova neutrinos within each detector. While waiting for a supernova, you can watch cosmic rays and beam neutrinos in NOvA.",
+    "website": "https://novaexperiment.fnal.gov/",
+    "contact": "https://www.fnal.gov/pub/contact/index.html"
+  },
+  "JUNO": {
+    "lon": 112.51867,
+    "lat": 22.11827,
+    "status": "future",
+    "aliases": "Jiangmen Underground Neutrino Observatory",
+    "description": "The Jiangmen Underground Neutrino Observatory (JUNO) is a multi-purpose neutrino experiment that will primarily detect reactor neutrinos at 53 km distance. It is under construction in China, located 700 m underground. With its large volume of liquid scintillator (20kton), it will be sensitive to all neutrino flavors from a core-collapse supernova. It will be a next-generation low-background supernova detector, able to provide the largest sample of neutral current interactions (~1000 proton elastic scattering events at 10 kpc above ~150 keV) from a CCSN. Its large statistics and good time and energy resolution are key for JUNO capabilities to perform CCSN physics. The commissioning of the experiment and the start of data taking will happen in 2024.",
+    "website": "http://juno.ihep.cas.cn/",
+    "contact": "liulei@ihep.ac.cn "
+  },
+  "KamLAND": {
+    "lon": 137.3153,
+    "lat": 36.4225,
+    "status": "current",
+    "aliases": "Kamioka Liquid Scintillator Antineutrino Detector",
+    "description": "KamLAND (Kamioka Liquid Scintillator Antineutrino Detector) is a kiloton scale detector designed to measure Japan’s reactor anti-neutrinos but can also detect solar and geo-neutrinos. KamLAND has made precision measurements of neutrino oscillation parameters and now also searches for neutrino-less-double-beta-decay in the KamLAND-Zen experiment.",
+    "website": "http://kamland.stanford.edu/",
+    "contact": "gratta@stanford.edu"
+  },
+  "SNO+": {
+    "lon": -81.186667,
+    "lat": 46.471667,
+    "status": "current",
+    "aliases": null,
+    "description": "The SNO+ experiment is located 2.1km underground at SNOLAB. near Sudbury, Ontario, making it one of the deepest neutrino detectors in the world. It consists of 780T of organic liquid scintillator surrounded by 2kT of ultra-pure water, itself surrounded by some 9300 photomultiplier tubes. Its main goal is to observe neutrinoless double-beta decay of the 130Te nucelus, but it is also an excellent detector of pre-supernova electron anti-neutrinos, and supernova neutrinos via inverse beta decay, neutrino-carbon interactions, and neutrino-proton elastic scattering.",
+    "website": "https://snoplus.phy.queensu.ca/",
+    "contact": "https://snoplus.phy.queensu.ca/collaboration.html"
+  },
+  "DarkSide-20k": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "future",
+    "aliases": null,
+    "description": "DarkSide-20k is designed to operate with zero backgrounds, meaning that all sources of instrumental background are reduced to <0.1 events over a 200 t yr exposure. All background from minimum-ionizing radiation sources will be completely removed thanks to the combined action of the Pulse Shape Discrimination (PSD) of the primary scintillation and comparison of the primary and secondary scintillation. This outstanding sensitivity to coherent nuclear recoils will enable DarkSide-20k to detect a supernova neutrino burst coming from anywhere in the Milky Way Galaxy and, for a majority of the galaxy, clearly identify the neutronization burst, thus performing a flavor-blind measurement of the total neutrino flux and average energy.",
+    "website": "https://darkside.lngs.infn.it",
+    "contact": "https://darkside.lngs.infn.it/?page_id=11"
+  },
+  "XENONnT": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "current",
+    "aliases": "XENONnT",
+    "description": "The newest member of the XENON family is XENONnT, employing a total of 8.6 tonnes of xenon. The infrastructure as well as subsystems of XENON1T were re-used, allowing for a fast upgrade by changing the heart of the detector system: the TPC with a new cryostat. The XENONnT TPC has a diameter of 134 cm, a height of 148 cm, and encloses 5.9 tonnes of liquid xenon. A total of 494 3-inch photomultiplier tubes are distributed with 253 in the top array and 241 in the bottom one to measure interaction signals. The water tank has been upgraded with gadolinium-loaded water. In addition to the Cherenkov muon veto, there is now a neutron veto volume around the cryostat optically separated from the surrounding muon veto. Signals coincident in the TPC and nVeto allows for a further reduction of neutrons that could potentially mimic a dark matter signature. Two new subsystems for the xenon purification during the detector operation have also been installed, namely a liquid xenon purification system and a radon distillation column. The XENONnT experiment started data taking in 2020. Extensive simulations project that the sensitivity to spin-independent interactions after five-years with a 4 tonne fiducial volume is 1.4 × 10-48 cm2 for a 50 GeV/c2 WIMP.",
+    "website": "https://xenonexperiment.org/",
+    "contact": "xe-pr@lngs.infn.it"
+  },
+  "DUNE(Fermilab)": {
+    "lon": -88.257222,
+    "lat": 41.831944,
+    "status": "future",
+    "aliases": "Deep Underground Neutrino Experiment",
+      "description": "The Deep Underground Neutrino Experiment (DUNE) is a leading-edge, international experiment for neutrino science. Discoveries over the past half-century have put neutrinos, the most abundant matter particles in the universe, in the spotlight for further research into several fundamental questions about the nature of matter and the evolution of the universe — questions that DUNE will seek to answer.  At Fermilab, a Near Detector close to the beam will study neutrino interactions and get a \"before\" picture of what the beam looks like before its trip to the Far Detector.",
+    "website": "https://www.dunescience.org/",
+    "contact": "https://www.fnal.gov/pub/contact/index.html"
+  },
+  "DUNE(Sanford Lab)": {
+    "lon": -103.751,
+    "lat": 44.352,
+    "status": "future",
+    "aliases": "Deep Underground Neutrino Experiment",
+      "description": "The Deep Underground Neutrino Experiment (DUNE) is a leading-edge, international experiment for neutrino science. Discoveries over the past half-century have put neutrinos, the most abundant matter particles in the universe, in the spotlight for further research into several fundamental questions about the nature of matter and the evolution of the universe — questions that DUNE will seek to answer.  The DUNE Far Detector is deep underground at SURF, and will observe the beam after its long trip as well as look for Supernova neutrinos.",
+    "website": "https://www.dunescience.org/",
+    "contact": "https://www.fnal.gov/pub/contact/index.html"
+  },
+  "LVD": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "soon offline",
+    "aliases": "Large Volume Detector",
+    "description": "The Large Volume Detector (LVD) at the INFN Gran Sasso National Laboratory (LNGS), Italy, is an underground neutrino observatory mainly designed to study neutrinos from core-collapse supernovae. It is in operation since 1992, under different larger configurations. The final upgrade took place in 2001, when LVD became fully operational, with an active mass M=1000 t. LVD consists of an array of 840 scintillator counters, arranged in a compact and modular geometry. The experiment has been monitoring our Galaxy since June 1992. No neutrino burst candidate has been found, the resulting 90% C.L. upper limit to the rate of gravitational stellar collapses being the most stringent among the existing limits.",
+    "website": "https://www.lngs.infn.it/en/lvd",
+    "contact": "zichichi@cern.ch"
+  },
+  "Baksan": {
+    "lon": 42.25,
+    "lat": 48.34,
+    "status": "current",
+      "aliases": "baksan, bust, BUST",
+    "description": "The Baksan Underground Scintillator Telescope (BUST) is the only active neutrino detector to have seen actual supernova neutrinos (from SN1987A), and continues to monitor the sky for neutrinos from supernovae and the atmosphere, as well as studying cosmic rays from deep underground.",
+    "website": "https://en.wikipedia.org/wiki/Baksan_Neutrino_Observatory",
+    "contact": null
+  },
+  "Borexino": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "soon offline",
+    "aliases": null,
+    "description": "Borexino is a particle physics experiment which has been performed by an international collaboration in the “Hall C” of the Laboratori Nazionali del Gran Sasso (LNGS). Its physics program was centered on solar neutrinos, but also included other relevant topics in low background neutrino detection (including geoneutrinos) and underground physics.",
+    "website": "https://borex.lngs.infn.it/",
+    "contact": null
+  },
+  "DarkSide-50": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "current",
+    "aliases": null,
+    "description": "DarkSide-50 is a dual-phase argon TPC. Thirty-eight 3\" Hamamatsu low-background R11065 PMTs (photomultiplier tubes), 19 each on the top and the bottom, view the active region through fused silica windows. The windows are coated on both sides with Indium Tin Oxide, ITO, a transparent conductor. This allows the inner window surfaces to serve as the grounded anode (top) and -60 KV cathode (bottom) of the TPC while maintaining their outer surfaces near the -1.5 KV PMT photocathode potential.",
+    "website": "https://darkside.lngs.infn.it",
+    "contact": "https://darkside.lngs.infn.it/?page_id=11"
+  },
+  "HALO-1kT": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "future",
+    "aliases": null,
+    "description": "The decommissioning of the OPERA experiment at LNGS has made available over 1000 tonnes of low activity lead, providing an opportunity to build a much larger lead-based, dedicated SN neutrino detector, HALO-1kT. It will use the HALO principles and be built at LNGS, co-located with the LVD liquid scintillator (LS) detector, to give multi-flavor neutrino sensitivity at one site, and negate the earth oscillation effects between the detectors. Lead-based supernova neutrino detectors have a unique flavour sensitivity that will help characterize the neutrino emission from the next galactic SN and unfold the complex physics hidden within. The greatly increased mass of HALO-1kT would enable it to detect SNe throughout our galaxy. With a dedicated role and a robust and stable design, HALO-1kT could potentially study multiple SNe over its lifetime.",
+    "website": null,
+    "contact": "cjv@snolab.ca"
+  },
+  "LZ": {
+    "lon": -103.751,
+    "lat": 44.352,
+    "status": "current",
+    "aliases": "LUX-ZEPLIN",
+    "description": "LUX-ZEPLIN (LZ) is a next generation dark matter experiment, selected by the US Department of Energy (DOE) as one of the three ‘G2’ (for Generation 2) dark matter experiments. Located at the 4850′ level of the Sanford Underground Research Facility in Lead, SD, the experiment utilizes a two-phase time projection chamber (TPC), containing seven active tonnes of liquid xenon, to search for dark matter particles.",
+    "website": "https://lz.lbl.gov/",
+    "contact": "c.ghag@ucl.ac.uk"
+  },
+  "Daya Bay Reactor Neutrino Experiment": {
+    "lon": 114.5431,
+    "lat": 22.5953,
+    "status": "soon offline",
+    "aliases": null,
+    "description": "Neutrinos come in three fundamental flavors: electron, muon, and tau. The particles actually oscillate between these three forms in a shape-shifting process that only becomes apparent when a given flavor seems to suddenly vanish. The most elusive of these flavor transformations—also called mixing angles—describes the way electron neutrinos transform, and it is essential to understanding the cosmos. The Daya Bay Neutrino Experiment exists to pin that parameter down.",
+    "website": "https://www.bnl.gov/science/dayabay.php",
+    "contact": "https://www.bnl.gov/contact-us/"
+  },
+  "PandaX": {
+    "lon": 101.7,
+    "lat": 28.2,
+    "status": "current",
+    "aliases": "Particle and Astrophysical Xenon Detector",
+    "description": "PandaX is an experimental program which employs a series of xenon detectors to search for elusive dark matter particles and to study the fundamental properties of neutrinos. PandaX was founded in 2009 by Prof. Xiangdong Ji, who also served as the first spokesperson of the collaboration until 2018. Up to now, the collaboration has constructed and operated three generation of experiments, PandaX-I, PandaX-II, and PandaX-4T, with active target masses of 120 kg, 580 kg, and 3.7 tonne, respectively. The collaboration is also preparing for the next generation multi-ten-tonne experiment, PandaX-xT, aimed to be an ultimate dark matter direct detection experiment and a leading project to test the Majorana nature of the neutrinos.",
+    "website": "https://pandax.sjtu.edu.cn/",
+    "contact": "webmaster@pandax.sjtu.edu.cn"
+  },
+  "DARWIN": {
+    "lon": 13.516389,
+    "lat": 42.421111,
+    "status": "future",
+    "aliases": null,
+    "description": "The DARWIN project aims at the realisation of a future astroparticle observatory in Europe as identified in the APPEC Roadmap. The goal is to design and construct the ultimate dark matter detector, using a multi-ton target of liquid xenon for the direct detection of particle dark matter in a sensitive time projection chamber.",
+    "website": "https://darwin.physik.uzh.ch/index.html",
+    "contact": "https://darwin.physik.uzh.ch/collaboration.html"
+  },
+  "Hat Creek Radio Observatory": {
+    "lon": -121.47333,
+    "lat": 40.8175,
+    "status": "professional observatory",
+    "aliases": "ATA, Allen Telescope Array, Hat Creek",
+    "description": "We are home to the Allen Telescope Array, the only instrument designed specifically for the purpose of conducting SETI research.",
+    "website": "https://www.seti.org/hcro",
+    "contact": "info@seti.org"
+  },
+  "Super-Kamiokande": {
+    "lon": 137.310306,
+    "lat": 36.425722,
+    "status": "current",
+    "aliases": "superk,Superk,superK",
+    "description": "Super-Kamiokande is the world’s largest water Cherenkov detector. Construction began in 1991, and after a five-year construction period, the observation started on April 1st, 1996. The Super-Kamiokande is operated by an international collaboration of about 230 people and about 50 institutes from Japan, the United States, Poland, Korea, China, Spain, Canada, UK, Italy, France and Vietnam.\n\nThe Super-Kamiokande detector consists of a stainless-steel tank, 39.3m diameter and 41.4m tall, filled with 50,000 tons of water. About 13,000 photo-multipliers are installed on the tank wall. The detector is located at 1,000 meter underground in the Kamioka-mine, Hida-city, Gifu, Japan.",
+    "website": "https://www-sk.icrr.u-tokyo.ac.jp/en/sk/",
+    "contact": "https://www-sk.icrr.u-tokyo.ac.jp/en/sk/contact/"
+  },
+  "Royal Observatory Greenwich": {
+    "lon": -0.001475,
+    "lat": 51.477811,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": "https://www.rmg.co.uk/royal-observatory",
+    "contact": "https://www.rmg.co.uk/contact"
+  },
+  "Observatorio Astronomico Nacional, Tonantzintla": {
+    "lon": 261.686111111111,
+    "lat": 19.0327777777777,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Lick Observatory": {
+    "lon": 238.363333333333,
+    "lat": 37.3433333333333,
+    "status": "professional observatory",
+    "aliases": "Lick Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Mount Wilson Observatory": {
+    "lon": -118.061684,
+    "lat": 34.2225798055555,
+    "status": "professional observatory",
+    "aliases": "CHARA",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "MDM Observatory": {
+    "lon": 248.383333333333,
+    "lat": 31.95,
+    "status": "professional observatory",
+    "aliases": "Michigan-Dartmouth-MIT Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Roque de los Muchachos, La Palma": {
+    "lon": 342.12,
+    "lat": 28.7583333333333,
+    "status": "professional observatory",
+    "aliases": "Roque de los Muchachos",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Cerro Tololo Interamerican Observatory": {
+    "lon": 289.185,
+    "lat": -30.1652777777777,
+    "status": "professional observatory",
+    "aliases": "Cerro Tololo Interamerican Observatory, Cerro Tololo",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Apache Point Observatory": {
+    "lon": 254.179999999999,
+    "lat": 32.78,
+    "status": "professional observatory",
+    "aliases": "Apache Point Observatory, Apache Point",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Catalina Observatory: 61 inch telescope": {
+    "lon": 249.268333333333,
+    "lat": 32.4166666666666,
+    "status": "professional observatory",
+    "aliases": "Catalina Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "McDonald Observatory": {
+    "lon": 255.978333305555,
+    "lat": 30.6716666944444,
+    "status": "professional observatory",
+    "aliases": "McDonald Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Beijing XingLong Observatory": {
+    "lon": 117.575,
+    "lat": 40.3933333333333,
+    "status": "professional observatory",
+    "aliases": "Beijing XingLong Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Paranal Observatory (ESO)": {
+    "lon": -70.40498688,
+    "lat": -24.62743941,
+    "status": "professional observatory",
+    "aliases": "Cerro Paranal, Paranal Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Mt. Stromlo Observatory": {
+    "lon": 149.024333333333,
+    "lat": -35.32065,
+    "status": "professional observatory",
+    "aliases": "Mt. Stromlo Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Canada-France-Hawaii Telescope": {
+    "lon": 204.528333333333,
+    "lat": 19.8266666666666,
+    "status": "professional observatory",
+    "aliases": "Canada-France-Hawaii Telescope",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Lowell Observatory - Anderson Mesa": {
+    "lon": 248.464999999999,
+    "lat": 35.0966666666666,
+    "status": "professional observatory",
+    "aliases": "Lowell Observatory, Anderson Mesa, lo-am, NPOI, Navy Precision Optical Interferometer, Perkins, PTO, pto",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "The Hale Telescope": {
+    "lon": 243.137,
+    "lat": 33.356,
+    "status": "professional observatory",
+    "aliases": "Hale Telescope",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "La Silla Observatory (ESO)": {
+    "lon": 289.27,
+    "lat": -29.2566666666666,
+    "status": "professional observatory",
+    "aliases": "La Silla Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "W. M. Keck Observatory": {
+    "lon": 204.521666666666,
+    "lat": 19.8283333333333,
+    "status": "professional observatory",
+    "aliases": "Keck Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Dominion Astrophysical Observatory": {
+    "lon": 236.583333333333,
+    "lat": 48.5216666666666,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Black Moshannon Observatory": {
+    "lon": 281.995,
+    "lat": 40.9216666666666,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Siding Spring Observatory": {
+    "lon": 149.061194444444,
+    "lat": -31.2733611111111,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Multiple Mirror Telescope": {
+    "lon": 249.114999999999,
+    "lat": 31.6883333333333,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Kitt Peak National Observatory": {
+    "lon": 248.4,
+    "lat": 31.9633333333333,
+    "status": "professional observatory",
+    "aliases": "Kitt Peak",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Anglo-Australian Observatory": {
+    "lon": 149.066086111111,
+    "lat": -31.2770388888888,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Whipple Observatory": {
+    "lon": 249.1225,
+    "lat": 31.6809444444444,
+    "status": "professional observatory",
+    "aliases": "Whipple",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Cima Ekar 182 cm Telescope": {
+    "lon": 11.5811333333333,
+    "lat": 45.8485888888888,
+    "status": "professional observatory",
+    "aliases": "Cima Ekar Observing Station, Mt. Ekar 182 cm Telescope",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Vainu Bappu Observatory": {
+    "lon": 78.8266,
+    "lat": 12.57666,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Las Campanas Observatory": {
+    "lon": 289.298333333333,
+    "lat": -29.0033333333333,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "National Observatory of Venezuela": {
+    "lon": 289.133333333333,
+    "lat": 8.79,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatorio Astronomico Nacional, San Pedro Martir": {
+    "lon": 244.513055555555,
+    "lat": 31.0291666666666,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Subaru Telescope": {
+    "lon": 204.523888888888,
+    "lat": 19.8255555555555,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Manastash Ridge Observatory": {
+    "lon": -120.7278,
+    "lat": 46.9528,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Gemini South": {
+    "lon": 289.263316666666,
+    "lat": -30.2407416666666,
+    "status": "professional observatory",
+    "aliases": "Cerro Pachon, gems",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Haleakala Observatories": {
+    "lon": 203.831,
+    "lat": 20.71552,
+    "status": "professional observatory",
+    "aliases": "Haleakala Observatories",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Rubin Observatory": {
+    "lon": -70.7494166666666,
+    "lat": -30.2446333333333,
+    "status": "professional observatory",
+    "aliases": "LSST, LSST 8.4m, Rubin",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Rubin AuxTel": {
+    "lon": -70.7477222222222,
+    "lat": -30.2447972222222,
+    "status": "professional observatory",
+    "aliases": "LSST 1.4m, LSST AuxTel",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Gemini North": {
+    "lon": -155.469046752777,
+    "lat": 19.8238014472222,
+    "status": "professional observatory",
+    "aliases": "gemn",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "NASA Infrared Telescope Facility": {
+    "lon": -155.471998788888,
+    "lat": 19.8262183166666,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Southern African Large Telescope": {
+    "lon": 20.810808,
+    "lat": -32.375823,
+    "status": "professional observatory",
+    "aliases": "SALT, SAAO, Sutherland",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Large Binocular Telescope": {
+    "lon": 250.1281,
+    "lat": 32.7016,
+    "status": "professional observatory",
+    "aliases": "Mount Graham International Observatory, Mt Graham",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Noto Radio Telescope": {
+    "lon": 14.9889,
+    "lat": 36.87585,
+    "status": "professional observatory",
+    "aliases": "Noto",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Sardinia Radio Telescope": {
+    "lon": 9.24515124,
+    "lat": 39.49307239,
+    "status": "professional observatory",
+    "aliases": "SRT",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatoire de Haute Provence": {
+    "lon": 5.71333333333333,
+    "lat": 43.9308333333333,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatoire SIRENE": {
+    "lon": 5.48694444444444,
+    "lat": 44,
+    "status": "professional observatory",
+    "aliases": null,
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Medicina Radio Telescope": {
+    "lon": 11.6469,
+    "lat": 44.5205,
+    "status": "professional observatory",
+    "aliases": "Medicina Dish, Medicina",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Lowell Discovery Telescope": {
+    "lon": 248.577485,
+    "lat": 34.744305,
+    "status": "professional observatory",
+    "aliases": "DCT, Discovery Channel Telescope, Happy Jack, LDT, ldt",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "alma": {
+    "lon": -67.755,
+    "lat": -23.029,
+    "status": "professional observatory",
+    "aliases": "Atacama Large Millimeter Array, ALMA",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "vla": {
+    "lon": -107.618283055555,
+    "lat": 34.0787491666666,
+    "status": "professional observatory",
+    "aliases": "Very Large Array, Jansky Very Large Array",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Arecibo Observatory": {
+    "lon": 293.24722222,
+    "lat": 18.34416667,
+    "status": "professional observatory",
+    "aliases": "AO, Arecibo, arecibo",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "gbt": {
+    "lon": -79.839722,
+    "lat": 38.433056,
+    "status": "professional observatory",
+    "aliases": "Green Bank Telescope, GBT, Green Bank Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "TUBITAK National Observatory": {
+    "lon": 30.335555,
+    "lat": 36.824166,
+    "status": "professional observatory",
+    "aliases": "TUG",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "James Clerk Maxwell Telescope": {
+    "lon": 204.523,
+    "lat": 19.8228,
+    "status": "professional observatory",
+    "aliases": "JCMT",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "United Kingdom Infrared Telescope": {
+    "lon": 204.529672,
+    "lat": 19.8224306,
+    "status": "professional observatory",
+    "aliases": "UKIRT",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Daniel K. Inouye Solar Telescope": {
+    "lon": 203.7436,
+    "lat": 20.7067,
+    "status": "professional observatory",
+    "aliases": "DKIST, ATST",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Murchison Widefield Array": {
+    "lon": 116.67081524,
+    "lat": -26.7033194,
+    "status": "professional observatory",
+    "aliases": "MWA",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Big Bear Solar Observatory": {
+    "lon": 243.0786,
+    "lat": 34.2583,
+    "status": "professional observatory",
+    "aliases": "BBSO, NST",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "WIYN Observatory": {
+    "lon": -111.600619,
+    "lat": 31.95805,
+    "status": "professional observatory",
+    "aliases": "WIYN, WIYN 3.5 m",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Hobby Eberly Telescope": {
+    "lon": 255.985278,
+    "lat": 30.681389,
+    "status": "professional observatory",
+    "aliases": "HET",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Indian Astronomical Observatory": {
+    "lon": 78.9641666666666,
+    "lat": 32.7794444444444,
+    "status": "professional observatory",
+    "aliases": "IAO",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatorio del Teide, Tenerife": {
+    "lon": 343.490278,
+    "lat": 28.3,
+    "status": "professional observatory",
+    "aliases": "Observatorio del Teide, OT",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Centro Astronomico Hispano-Aleman, Almeria": {
+    "lon": 357.453889,
+    "lat": 37.22361111,
+    "status": "professional observatory",
+    "aliases": "Observatorio de Calar Alto,CAHA",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatorio Astronomico Ramon Maria Aller, Santiago de Compostela": {
+    "lon": 351.44455,
+    "lat": 42.87594,
+    "status": "professional observatory",
+    "aliases": "Observatorio Ramon Maria Aller,OARMA",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatorio Astrofisico de Javalambre": {
+    "lon": 358.98391667,
+    "lat": 40.04201944,
+    "status": "professional observatory",
+    "aliases": "OAJ",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Sacramento Peak Observatory": {
+    "lon": 254.1795,
+    "lat": 32.7873,
+    "status": "professional observatory",
+    "aliases": "SPO, Sacramento Peak, Sac Peak, Sunspot",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "GEO600 Gravitational Wave Detector": {
+    "lon": 9.80719277777601,
+    "lat": 52.245146666628,
+    "status": "professional observatory",
+    "aliases": "GEO, GEO_600, G1",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Okayama Astrophysical Observatory": {
+    "lon": 133.5939556,
+    "lat": 34.577075,
+    "status": "professional observatory",
+    "aliases": "OAO",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Thai National Observatory": {
+    "lon": 98.48666667,
+    "lat": 18.59055556,
+    "status": "professional observatory",
+    "aliases": "TNO",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "LIGO Hanford Observatory": {
+    "lon": -119.407657139111,
+    "lat": 46.455146666655,
+    "status": "professional observatory",
+    "aliases": "LHO, LHO_4k, H1",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Kamioka Gravitational Wave Detector": {
+    "lon": 137.305956011547,
+    "lat": 36.4118603394647,
+    "status": "professional observatory",
+    "aliases": "KAGRA, K1",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "LIGO Livingston Observatory": {
+    "lon": -90.774240388721,
+    "lat": 30.5628943335748,
+    "status": "professional observatory",
+    "aliases": "LLO, LLO_4k, L1",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Hyper-Kamiokande": {
+    "lon": 137.313639,
+    "lat": 36.355583,
+    "status": "future",
+    "aliases": "hyperk, Hyperk, hyperK",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Astroparticle Research with Cosmics in the Abyss": {
+    "lon": 16.1,
+    "lat": 36.266667,
+    "status": "current",
+    "aliases": "arca, KM3NeT ARCA, km3net arca, KM3NeT arca",
+    "description": "KM3NeT is a research infrastructure housing the next generation neutrino telescopes. Once completed, the telescopes will have detector volumes between megaton and several cubic kilometres of clear sea water. Located in the deepest seas of the Mediterranean, KM3NeT will open a new window on our Universe, but also contribute to the research of the properties of the elusive neutrino particles. With the ARCA telescope, KM3NeT scientists will search for neutrinos from distant astrophysical sources such as supernovae, gamma ray bursters or colliding stars. The ORCA telescope is the instrument for KM3NeT scientists studying neutrino properties exploiting neutrinos generated in the Earth's atmosphere.",
+    "website": "https://www.km3net.org/",
+    "contact": "https://www.km3net.org/about-km3net/collaboration/contact/"
+  },
+  "Virgo Observatory": {
+    "lon": 10.5044966111984,
+    "lat": 43.6314144720743,
+    "status": "professional observatory",
+    "aliases": "Virgo, VIRGO, V1",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Oscillation Research with Cosmics in the Abyss": {
+    "lon": 6.033333,
+    "lat": 42.8,
+    "status": "current",
+    "aliases": "orca, KM3NeT ORCA, km3net orca, KM3NeT orca",
+    "description": "KM3NeT is a research infrastructure housing the next generation neutrino telescopes. Once completed, the telescopes will have detector volumes between megaton and several cubic kilometres of clear sea water. Located in the deepest seas of the Mediterranean, KM3NeT will open a new window on our Universe, but also contribute to the research of the properties of the elusive neutrino particles. With the ARCA telescope, KM3NeT scientists will search for neutrinos from distant astrophysical sources such as supernovae, gamma ray bursters or colliding stars. The ORCA telescope is the instrument for KM3NeT scientists studying neutrino properties exploiting neutrinos generated in the Earth's atmosphere.",
+    "website": "https://www.km3net.org/",
+    "contact": "https://www.km3net.org/about-km3net/collaboration/contact/"
+  },
+  "NuMI Off-axis νe Appearance": {
+    "lon": -92.831134543692,
+    "lat": 48.3786288287513,
+    "status": "current",
+    "aliases": "nova, NOVA",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Owens Valley Radio Observatory": {
+    "lon": -118.283405115,
+    "lat": 37.233386982,
+    "status": "professional observatory",
+    "aliases": "mma",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Canadian Hydrogen Intensity Mapping Experiment": {
+    "lon": -119.62367743,
+    "lat": 49.32070922,
+    "status": "professional observatory",
+    "aliases": "CHIME",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Dominion Radio Astrophysical Observatory": {
+    "lon": 240.3810197222,
+    "lat": 49.3210230556,
+    "status": "professional observatory",
+    "aliases": "Dominion Radio Astrophysical Observatory, DRAO, John Galt Telescope, DRAO 26m Telescope",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "MeerKAT": {
+    "lon": 21.4438888896978,
+    "lat": -30.7110555532918,
+    "status": "professional observatory",
+    "aliases": "MEERKAT",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Nancay Radio Telescope": {
+    "lon": 2.19747845066222,
+    "lat": 47.3736017082631,
+    "status": "professional observatory",
+    "aliases": "NANCAY, Nancay",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Giant Metrewave Radio Telescope": {
+    "lon": 74.0565611576975,
+    "lat": 19.0930027830705,
+    "status": "professional observatory",
+    "aliases": "GMRT",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Five-hundred-meter Aperture Spherical radio Telescope": {
+    "lon": 106.856666419263,
+    "lat": 25.6529461640909,
+    "status": "professional observatory",
+    "aliases": "FAST",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Long Wavelength Array 1": {
+    "lon": -107.627670021134,
+    "lat": 34.068899974626,
+    "status": "professional observatory",
+    "aliases": "LWA1",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Low-Frequency Array": {
+    "lon": 6.86983283620002,
+    "lat": 52.9151189679841,
+    "status": "professional observatory",
+    "aliases": "LOFAR",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatoire du Mont Mégantic": {
+    "lon": -71.1525,
+    "lat": 45.4557111111,
+    "status": "professional observatory",
+    "aliases": "OMM, Mont Mégantic Observatory, Observatoire du Mont Mégantic",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Effelsberg 100-m Radio Telescope": {
+    "lon": 6.88361646527098,
+    "lat": 50.524835880545,
+    "status": "professional observatory",
+    "aliases": "Effelsberg",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Lowell Observatory - Mars Hill": {
+    "lon": -111.664781,
+    "lat": 35.202875,
+    "status": "professional observatory",
+    "aliases": "Mars Hill, lo-mh, mh",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Parkes": {
+    "lon": 148.26351001321,
+    "lat": -32.9984063986513,
+    "status": "professional observatory",
+    "aliases": "Parkes, Murriyang",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Australian Square Kilometre Array Pathfinder": {
+    "lon": 116.631424,
+    "lat": -26.697,
+    "status": "professional observatory",
+    "aliases": "ASKAP, Australian Square Kilometre Array Pathfinder",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Otehiwai Observatory": {
+    "lon": 170.46506246,
+    "lat": -43.98574085,
+    "status": "professional observatory",
+    "aliases": "Mt John, MJO, MOA, Otehiwai",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Winer Observatory": {
+    "lon": -110.601783,
+    "lat": 31.665578,
+    "status": "professional observatory",
+    "aliases": "Winer, Winer Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Wise Observatory": {
+    "lon": 34.76218,
+    "lat": 30.59739,
+    "status": "professional observatory",
+    "aliases": "wise, Wise Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Observatorio Cerro Armazones": {
+    "lon": -70.20128,
+    "lat": -24.59867,
+    "status": "professional observatory",
+    "aliases": "OCA, Cerro Armazones Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "IceCube": {
+    "lon": -63.453056,
+    "lat": -81.99,
+    "status": "current",
+    "aliases": "IceCube Neutrino Observatory",
+    "description": null,
+    "website": null,
+    "contact": null
+  },
+  "Barry Pointon": {
+    "lon": -123.0034,
+    "lat": 49.2527,
+    "status": "private observatory",
+    "aliases": null,
+    "description": "BCIT Project Sponsor",
+    "website": null,
+    "contact": null
+  }
+}
