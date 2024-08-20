@@ -1,0 +1,2 @@
+[console_scripts]
+garaga=garaga.starknet.starknet_cli:app
