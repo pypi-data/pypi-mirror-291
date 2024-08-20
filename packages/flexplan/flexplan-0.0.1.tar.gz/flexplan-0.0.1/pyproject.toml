@@ -1,0 +1,105 @@
+[project]
+name = "flexplan"
+description = "Execute multiple tasks in an organized parallel manner"
+authors = [
+    { name = "Leavers" },
+    { name = "Leavers", email = "leavers930@gmail.com" },
+]
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Home Automation",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "flexexecutor",
+    "typing-extensions>=4.8.0",
+]
+dynamic = []
+version = "0.0.1"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/leavers/flexplan"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = [
+    "flexplan",
+]
+excludes = [
+    "examples",
+    "tests",
+]
+
+[tool.pdm.version]
+source = "file"
+path = "flexplan/__init__.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "autoflake>=2.3.1",
+    "mypy>=1.11.1",
+    "nox>=2024.4.15",
+    "pytest>=8.3.2",
+    "pytest-asyncio>=0.23.8",
+    "pytest-cov>=5.0.0",
+    "pytest-timeout>=2.3.1",
+    "rtoml>=0.11.0",
+    "ruff>=0.6.1",
+]
+
+[tool.autoflake]
+in-place = true
+recursive = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-duplicate-keys = true
+remove-unused-variables = true
+
+[tool.coverage.run]
+branch = true
+source = [
+    "flexplan",
+]
+parallel = true
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    "pragma: nocover",
+]
+
+[tool.mypy]
+check_untyped_defs = true
+ignore_missing_imports = true
+show_error_codes = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
