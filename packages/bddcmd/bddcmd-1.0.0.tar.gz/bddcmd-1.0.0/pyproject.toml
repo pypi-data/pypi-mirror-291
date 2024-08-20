@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bddcmd"
+version = "1.0.0"
+authors = [
+  { name="Casey Woolfolk", email="ccwoolfolk@gmail.com" },
+]
+description = "A CLI tool for completing boot.dev lessons"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "requests>=2.32",
+    "PyYAML>=6.0",
+    "websocket-client>=1.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest",
+    "pytest-cov",
+    "mypy-extensions",
+]
+
+[project.scripts]
+bdd = "bdd.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/ccwoolfolk/bdd"
+Issues = "https://github.com/ccwoolfolk/bdd/issues"
+
+[tool.setuptools]
+packages = ["bdd"]
+
+# The following sections are for development tools configuration
+# They're not strictly necessary for replicating setup.py, but are useful
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.pytest.ini_options]
+addopts = "--cov=bdd"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true

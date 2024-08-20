@@ -1,0 +1,10 @@
+click>=8.1
+requests>=2.32
+PyYAML>=6.0
+websocket-client>=1.8
+
+[dev]
+black
+pytest
+pytest-cov
+mypy-extensions
