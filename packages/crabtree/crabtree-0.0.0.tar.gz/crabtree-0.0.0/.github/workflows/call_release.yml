@@ -1,0 +1,57 @@
+name: Release package
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  workflow_call:
+    inputs:
+      tag:
+        type: string
+        required: true
+
+permissions:
+  contents: write  # read for checkout; write for creating a release
+
+jobs:
+  validate-version:
+    uses: ./.github/workflows/call_validate_version.yml
+    with:
+      expected-version: ${{ inputs.tag }}
+
+  build-wheels:
+    needs: validate-version
+    uses: ./.github/workflows/call_build_wheels.yml
+    with:
+      linux: true
+      macos: true
+      sdist: true
+      musllinux: true
+      windows: true
+
+  publish-wheels:
+    uses: ./.github/workflows/call_publish_wheels.yml
+    needs: build-wheels
+    secrets: inherit
+
+  test-wheels:
+    needs: [validate-version, publish-wheels]
+    uses: ./.github/workflows/call_test_wheels.yml
+    with:
+      version: ${{ needs.validate-version.outputs.version }}
+      linux: true
+      macos: true
+      sdist: true
+      musllinux: true
+      windows: true
+
+  create-github-release:
+    needs: test-wheels
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: gh release create ${{ inputs.tag }}
+        env:
+          GH_TOKEN: ${{ github.token }}

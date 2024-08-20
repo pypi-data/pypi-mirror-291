@@ -1,0 +1,54 @@
+name: Validate version
+
+on:
+  workflow_call:
+    inputs:
+      expected-version:
+        type: string
+        required: false
+    outputs: 
+      version: 
+        description: "The version specified in the project's sources"
+        value: ${{ jobs.parse-version.outputs.version }}
+
+jobs:
+  parse-version:
+    name: Validate version 
+    runs-on: ubuntu-latest
+    outputs: 
+      version: ${{ steps.parse.outputs.version }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+
+      - name: Compare versions in pyproject.toml and Cargo.toml
+        id: parse
+        shell: python
+        run: |
+          import tomllib
+
+          def parse_pyproject_version() -> str:
+              with open("./pyproject.toml", "rb") as fd:
+                  pyproject = tomllib.load(fd)
+              return pyproject["project"]["version"]
+
+          def parse_cargo_version() -> str:
+              with open("./Cargo.toml", "rb") as fd:
+                  cargo = tomllib.load(fd)
+              return cargo["package"]["version"]
+
+          pyproject_version = parse_pyproject_version()
+          cargo_version = parse_cargo_version()
+          assert pyproject_version == cargo_version
+
+          import os
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fd:
+              fd.write(f"version={pyproject_version}\n")
+
+      - name: Compare parsed version to expected
+        if: "${{ inputs.expected-version != '' }}"
+        run: test "${{ steps.parse.outputs.version }}" = "${{ inputs.expected-version }}"

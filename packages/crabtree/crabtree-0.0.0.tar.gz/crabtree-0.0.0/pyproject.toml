@@ -1,0 +1,23 @@
+[project]
+name = "crabtree"
+version = "0.0.0"
+description = "Add your description here"
+readme = "README.md"
+dependencies = []
+requires-python = ">=3.10"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "maturin",
+    "pip",
+    "pytest-benchmark",
+    "intervaltree",
+]
+
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]

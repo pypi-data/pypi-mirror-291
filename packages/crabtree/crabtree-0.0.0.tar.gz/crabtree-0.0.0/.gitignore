@@ -1,0 +1,8 @@
+# Python
+*.pyc
+
+# Rust
+debug/
+target/
+**/*.rs.bk
+Cargo.lock

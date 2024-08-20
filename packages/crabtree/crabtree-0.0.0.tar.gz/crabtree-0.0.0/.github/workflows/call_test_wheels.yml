@@ -1,0 +1,133 @@
+name: Build and publish wheels
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        type: string
+        required: true
+      linux: 
+        type: boolean
+        default: false
+        description: Build wheel for linux
+      musllinux: 
+        type: boolean
+        default: false
+        description: Build wheel for musllinux
+      macos: 
+        type: boolean
+        default: false
+        description: Build wheel for macos
+      windows: 
+        type: boolean
+        default: false
+        description: Build wheel for windows
+      sdist: 
+        type: boolean
+        default: false
+        description: Build sdist
+
+permissions:
+  contents: read
+
+jobs:
+  linux:
+    if: ${{ inputs.linux }}
+    runs-on: ${{ matrix.platform.runner }}
+    strategy:
+      matrix:
+        platform:
+          - runner: ubuntu-latest
+            target: x86_64
+          - runner: ubuntu-latest
+            target: x86
+          - runner: ubuntu-latest
+            target: aarch64
+          - runner: ubuntu-latest
+            target: armv7
+          - runner: ubuntu-latest
+            target: s390x
+          - runner: ubuntu-latest
+            target: ppc64le
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: |
+          pip install crabtree==${{ inputs.version }}
+          python -c "from crabtree import IntervalTree"
+
+  musllinux:
+    if: ${{ inputs.musllinux }}
+    runs-on: ${{ matrix.platform.runner }}
+    strategy:
+      matrix:
+        platform:
+          - runner: ubuntu-latest
+            target: x86_64
+          - runner: ubuntu-latest
+            target: x86
+          - runner: ubuntu-latest
+            target: aarch64
+          - runner: ubuntu-latest
+            target: armv7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: |
+          pip install crabtree==${{ inputs.version }}
+          python -c "from crabtree import IntervalTree"
+
+  windows:
+    if: ${{ inputs.windows }}
+    runs-on: ${{ matrix.platform.runner }}
+    strategy:
+      matrix:
+        platform:
+          - runner: windows-latest
+            target: x64
+          - runner: windows-latest
+            target: x86
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+          architecture: ${{ matrix.platform.target }}
+      - run: |
+          pip install crabtree==${{ inputs.version }}
+          python -c "from crabtree import IntervalTree"
+
+  macos:
+    if: ${{ inputs.macos }}
+    runs-on: ${{ matrix.platform.runner }}
+    strategy:
+      matrix:
+        platform:
+          - runner: macos-12
+            target: x86_64
+          - runner: macos-14
+            target: aarch64
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: |
+          pip install crabtree==${{ inputs.version }}
+          python -c "from crabtree import IntervalTree"
+
+  sdist:
+    if: ${{ inputs.sdist }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - uses: actions/checkout@v4
+      - run: |
+          pip install crabtree==${{ inputs.version }}
+          python -c "from crabtree import IntervalTree"

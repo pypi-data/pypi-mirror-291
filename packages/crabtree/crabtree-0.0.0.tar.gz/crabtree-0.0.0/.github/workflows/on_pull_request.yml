@@ -1,0 +1,19 @@
+name: On Pull Request
+
+concurrency:
+  group: pr-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-version:
+    uses: ./.github/workflows/call_validate_version.yml
+
+  run-tests:
+    uses: ./.github/workflows/call_run_tests.yml
