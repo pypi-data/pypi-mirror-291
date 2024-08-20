@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: eng_text_cleaner
+Version: 0.0.3
+Summary: This package is for clean the text as text processing
+Home-page: https://github.com/Al-Hasib/eng_text_cleaner
+Author: abdullah
+Author-email: alhasib.iu.cse@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: textblob
+
+# eng_text_cleaner
+
+It will clean your text more easily. 
+
+Install the package
+
+```bash
+pip install eng_text_cleaner
+```
