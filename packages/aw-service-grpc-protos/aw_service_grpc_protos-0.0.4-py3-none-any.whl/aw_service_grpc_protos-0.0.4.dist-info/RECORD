@@ -1,0 +1,9 @@
+protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protos/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protos/user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protos/user/user_pb2.py,sha256=1An_3Zo9_c_1DjvGIsYnswBV_ePv9gMZdacp5w4b2g4,1553
+protos/user/user_pb2_grpc.py,sha256=l-I8b_E_IEcQddmwX5b-0_8NpabrjOuPk5XdmhT_wgk,3618
+aw_service_grpc_protos-0.0.4.dist-info/METADATA,sha256=o-kBB3fQ5iea6yaFxF8eb4kkMPcy_oxPSZljCVsD0Ro,532
+aw_service_grpc_protos-0.0.4.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+aw_service_grpc_protos-0.0.4.dist-info/top_level.txt,sha256=QXmR7t-a32yRfgp6Ji4MshzVF2KF5sYVWG2qIYLxNXo,7
+aw_service_grpc_protos-0.0.4.dist-info/RECORD,,
