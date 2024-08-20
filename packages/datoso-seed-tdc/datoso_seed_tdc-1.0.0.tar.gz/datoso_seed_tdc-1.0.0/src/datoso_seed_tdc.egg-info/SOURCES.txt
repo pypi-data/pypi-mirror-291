@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/datoso_seed_tdc/__init__.py
+src/datoso_seed_tdc/actions.py
+src/datoso_seed_tdc/dats.py
+src/datoso_seed_tdc/fetch.py
+src/datoso_seed_tdc/rules.py
+src/datoso_seed_tdc.egg-info/PKG-INFO
+src/datoso_seed_tdc.egg-info/SOURCES.txt
+src/datoso_seed_tdc.egg-info/dependency_links.txt
+src/datoso_seed_tdc.egg-info/requires.txt
+src/datoso_seed_tdc.egg-info/top_level.txt
