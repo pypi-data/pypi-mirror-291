@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/main.py
+src/jtf.egg-info/PKG-INFO
+src/jtf.egg-info/SOURCES.txt
+src/jtf.egg-info/dependency_links.txt
+src/jtf.egg-info/top_level.txt
