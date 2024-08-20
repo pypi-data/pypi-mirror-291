@@ -1,0 +1,8 @@
+winrt/_winrt_windows_foundation_interop.cp310-win_arm64.pyd,sha256=O30-bCSJgOPwbGRyYqJPLfbu-alEhJv0GFQXvKSOnc4,9728
+winrt/_winrt_windows_foundation_interop.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt/windows/foundation/interop/__init__.py,sha256=GUVDOWjUPeK3NUtAhSXJsR7iOzFiYd53lFRH5Gx_PPA,7631
+winrt/windows/foundation/interop/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Foundation.Interop-2.2.0.dist-info/METADATA,sha256=zGKqipgdUD9DUmFSeMjfhqOoQ7kaX1EAoW-hEEA8pgQ,925
+winrt_Windows.Foundation.Interop-2.2.0.dist-info/WHEEL,sha256=OUR_6PdNqVNxYcSYXC3UBUAovf2K3Wwd-pjMeQ3_Flo,101
+winrt_Windows.Foundation.Interop-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Foundation.Interop-2.2.0.dist-info/RECORD,,
