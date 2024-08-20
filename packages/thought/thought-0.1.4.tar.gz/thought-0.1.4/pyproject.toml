@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "thought"
+version = "0.1.4"
+description = "Thought is a light wrapper for llama cpp, the building block for implementing and managing an efficient LLM integration"
+authors = ["Andre van Zuydam <andrevanzuydam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+llama-cpp-python = "0.2.88"
+gguf-modeldb = "^0.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.1.1"
+flake8 = "^7.1.1"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
