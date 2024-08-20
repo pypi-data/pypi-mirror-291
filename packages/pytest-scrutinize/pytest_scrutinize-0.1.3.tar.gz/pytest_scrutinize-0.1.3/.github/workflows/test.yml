@@ -1,0 +1,62 @@
+name: Test 🚀
+
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - uses: pre-commit/action@v3.0.1
+
+  test:
+    name: Test 🚀
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python: [ "3.9", "3.10", "3.11", "3.12" ]
+        pytest: [ "6", "7", "8" ]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          cache: pip
+          cache-dependency-path: requirements-dev.lock
+          python-version: ${{ matrix.python }}
+
+      - name: Install pip and wheel
+        run: python -m pip install --upgrade pip wheel
+
+      - name: Setup Rye
+        uses: eifinger/setup-rye@v4
+        with:
+          enable-cache: true
+
+      - name: Install deps
+        run: rye sync
+
+      - name: Setup Pytest
+        run: rye install --force "pytest~=${{ matrix.pytest }}.0"
+
+      - name: Run Pytest
+        run: rye test
+
+      - name: Upload test timings
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-timings-${{ matrix.python }}-${{ matrix.pytest }}
+          retention-days: 1
+          path: |
+            test-timings.jsonl.gz
