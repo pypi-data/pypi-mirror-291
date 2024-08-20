@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 50.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TfELM"
+version = "1.1"
+dependencies = [
+  "tensorflow>=2.10.0",
+  "keras>=2.10.0",
+  "numpy>=1.24.0",
+  "h5py>=3.7.0",
+  "scikit-learn>=1.2.0",
+  "tqdm>=4.66.0",
+  "mealpy==2.5.3",
+  "pandas",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Karol Struniawski", email = "struniawski.karol@gmail.com"},
+]
+maintainers = [
+  {name = "Karol Struniawski", email = "struniawski.karol@gmail.com"}
+]
+description = "This framework provides a comprehensive set of tools and utilities for implementing and experimenting with Extreme Learning Machines using Python and TensorFlow. ELMs are a type of machine learning algorithm known for their simplicity, efficiency, and scalability, making them ideal for various applications, including classification, regression, and feature learning tasks."
+readme = "README.md"
+license = {file = "LICENSE.md"}
+keywords = ["Extreme Learning Machine", "TensorFlow", "Python", "Neural networks", "Artificial intelligence", "Machine learning"]
+classifiers = [
+ # How mature is this project? Common values are
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Documentation = "https://kstruniawski.github.io/TfELM"
+Repository = "https://github.com/KStruniawski/TfELM"
