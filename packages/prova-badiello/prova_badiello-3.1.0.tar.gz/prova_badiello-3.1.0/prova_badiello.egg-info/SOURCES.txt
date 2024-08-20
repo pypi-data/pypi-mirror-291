@@ -1,0 +1,6 @@
+setup.py
+badiello/__init__.py
+prova_badiello.egg-info/PKG-INFO
+prova_badiello.egg-info/SOURCES.txt
+prova_badiello.egg-info/dependency_links.txt
+prova_badiello.egg-info/top_level.txt
