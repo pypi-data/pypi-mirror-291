@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: biwoco
+Version: 0.0.1
+Summary: A sample python package
+Home-page: https://github.com/dnt-austion/biwoco
+Author: Thanh Dao
+Author-email: dnthanh090108@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
