@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: m4811-spt-cli
+Version: 0.1.0
+Summary: The model4811 mfg test script..
+Home-page: https://gitlab-x.mcci.com/mcci/hardware/catena/mfg/test-proc-4811
+Author: MCCI Corporation
+Author-email: vinayn@mcci.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENCE
+Requires-Dist: modbus-tk
+Requires-Dist: pyserial
+
