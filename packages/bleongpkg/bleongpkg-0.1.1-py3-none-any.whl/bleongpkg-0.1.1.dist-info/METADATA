@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bleongpkg
+Version: 0.1.1
+Summary: 
+Author: benleong0
+Author-email: benleong@myurbanjungle.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: time
+Requires-Dist: arrow (>=1.3.0,<2.0.0) ; extra == "time"
+Description-Content-Type: text/markdown
+
+
