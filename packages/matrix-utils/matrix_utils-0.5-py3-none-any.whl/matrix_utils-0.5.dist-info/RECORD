@@ -1,0 +1,14 @@
+matrix_utils/__init__.py,sha256=e13gXWcouETfWuq2Ra681OkR81vlfOwqwUasthBPUOc,521
+matrix_utils/aggregation.py,sha256=LP7paH3NOdCCA9Xik3KJWoderimOy--yIq4g2GJD1Wo,627
+matrix_utils/array_mapper.py,sha256=ghETLAYBhmTlA1h0gw7oBzt3Z-I7mgpX2Jc7qmNXXSc,3010
+matrix_utils/errors.py,sha256=ZQEQGLQzic4fi1E6bA0HjnhKZXYkKJHZXjznlOC-DKQ,478
+matrix_utils/indexers.py,sha256=atDHoin1SYSZDaGsujMx5iEtcNN5IwgYcd3h--VD3X8,2180
+matrix_utils/mapped_matrix.py,sha256=mQQIcFiAJy1s7vtIqypRp80WQtiAGRdhcDjqJbWxdlI,13960
+matrix_utils/mapped_matrix_dict.py,sha256=huVN5ll3J24717wkZZUt7Sv5HcTAUba2VWRdGNt8frE,7472
+matrix_utils/resource_group.py,sha256=19JR0-hcE_dLhw2k35yS3OZngMYQ0Rzvd-3bWzVljFM,10831
+matrix_utils/utils.py,sha256=I_gJJly_xhD2tUvyBMKsyk3SaMqRFBafxCT8PE4ZfhY,2016
+matrix_utils-0.5.dist-info/LICENSE,sha256=2_r6CZgf22wtDYO1nDA27AM64X11rQQmgxArORh6ADo,1511
+matrix_utils-0.5.dist-info/METADATA,sha256=jKSn4WnZeez9JN7WX10NHx38KCp4hkKnC99OWvLkPlY,8730
+matrix_utils-0.5.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+matrix_utils-0.5.dist-info/top_level.txt,sha256=A1K3GmRv0joX7SHScST41vLtGLvqRx1AYAJueqMVY24,13
+matrix_utils-0.5.dist-info/RECORD,,
