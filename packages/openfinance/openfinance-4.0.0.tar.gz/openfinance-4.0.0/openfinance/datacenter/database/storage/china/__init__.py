@@ -1,0 +1,11 @@
+# 公告
+# https://search-api-web.eastmoney.com/search/jsonp?cb=jQuery35105429107774416391_1719658119595&param={"uid":"","keyword":"比亚迪  增持","type":["noticeWeb"],"client":"web","clientVersion":"curr","clientType":"web","param":{"noticeWeb":{"preTag":"<em class=\"red\">","postTag":"</em>","pageSize":10,"pageIndex":1}}}&_=1719658119596
+# 内容: https://np-cnotice-stock.eastmoney.com/api/content/ann?cb=jQuery1123007454483899515685_1719658298583&art_code=AN202406181636616091&client_source=web&page_index=1&_=1719658298584
+
+# 研报
+# https://search-api-web.eastmoney.com/search/jsonp?cb=jQuery35109474019086072063_1719659089014&param={"uid":"","keyword":"比亚迪","type":["researchReport"],"client":"web","clientVersion":"curr","clientType":"web","param":{"researchReport":{"client":"web","pageSize":10,"pageIndex":2}}}&_=1719659089018
+# 内容: https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202405301634938664   beautifulsoup
+
+# 机构座谈
+# 按照公司: https://datacenter-web.eastmoney.com/api/data/v1/get?callback=jQuery112308155018000744765_1719660861423&reportName=RPT_ORG_SURVEY&columns=SECUCODE,SECURITY_CODE,SECURITY_NAME_ABBR,NOTICE_DATE,RECEIVE_START_DATE,RECEIVE_END_DATE,RECEIVE_OBJECT,RECEIVE_PLACE,RECEIVE_WAY_EXPLAIN,INVESTIGATORS,RECEPTIONIST,NUM,CONTENT,ORG_TYPE&quoteColumns=&source=WEB&client=WEB&sortColumns=NUMBERNEW&sortTypes=1&filter=(IS_SOURCE="1")(SECURITY_CODE="601868")(RECEIVE_START_DATE='2024-06-28')&_=1719660861425
+# 按照时间：https://datacenter-web.eastmoney.com/api/data/v1/get?callback=jQuery112305530959513202225_1719661051642&sortColumns=NOTICE_DATE,RECEIVE_START_DATE,SECURITY_CODE,NUMBERNEW&sortTypes=-1,-1,1,-1&pageSize=50&pageNumber=1&reportName=RPT_ORG_SURVEY&columns=SECUCODE,SECURITY_CODE,SECURITY_NAME_ABBR,NOTICE_DATE,RECEIVE_START_DATE,RECEIVE_OBJECT,RECEIVE_PLACE,RECEIVE_WAY_EXPLAIN,INVESTIGATORS,RECEPTIONIST,ORG_TYPE&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE,f3~01~SECURITY_CODE~CHANGE_RATE&quoteType=0&source=WEB&client=WEB&filter=(IS_SOURCE="1")(RECEIVE_START_DATE>'2021-06-29')
