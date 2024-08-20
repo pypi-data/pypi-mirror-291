@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_startscreen.cp39-win_arm64.pyd,sha256=X5waDqsRpG0_CwJEB5xT3GuBU0ZectCRD1ECvy99olg,306688
+winrt/_winrt_windows_ui_startscreen.pyi,sha256=ToqpEawg9TkofQ-wp3q5BqRvM6gC91lACccTP-Vj4A0,14111
+winrt/windows/ui/startscreen/__init__.py,sha256=O8hNTrYDCQxX86Jy4iXNVsusPr_eIOhIYrT2HdQU7Hk,1909
+winrt/windows/ui/startscreen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.StartScreen-2.2.0.dist-info/METADATA,sha256=asue-QgD7z4UnVPCN-6H9iIGbyJ2DOEaY-goJiFxTdM,1483
+winrt_Windows.UI.StartScreen-2.2.0.dist-info/WHEEL,sha256=1X4SI6JzpFpIzSmBBTg0QwD-EmnM_r0em1bF5NQSYXw,99
+winrt_Windows.UI.StartScreen-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.StartScreen-2.2.0.dist-info/RECORD,,
