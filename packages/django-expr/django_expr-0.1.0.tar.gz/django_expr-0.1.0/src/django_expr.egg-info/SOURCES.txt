@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_expr/__init__.py
+src/django_expr/apps.py
+src/django_expr/expression.py
+src/django_expr.egg-info/PKG-INFO
+src/django_expr.egg-info/SOURCES.txt
+src/django_expr.egg-info/dependency_links.txt
+src/django_expr.egg-info/requires.txt
+src/django_expr.egg-info/top_level.txt
+src/django_expr/templatetags/__init__.py
+src/django_expr/templatetags/expr.py
+tests/test_expr.py
