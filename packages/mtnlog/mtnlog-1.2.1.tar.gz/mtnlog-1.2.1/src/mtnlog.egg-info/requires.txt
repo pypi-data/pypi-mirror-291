@@ -1,0 +1,5 @@
+nvitop
+pandas
+psutil
+matplotlib
+tqdm
