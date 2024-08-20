@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lameg
+Version: 0.0.3
+Summary: A toolbox for laminar inference with MEG
+Home-page: https://github.com/danclab/laMEG
+Author: DANC lab
+Author-email: James Bonaiuto <james.bonaiuto@isc.cnrs.fr>, DANC lab <danclab.info@gmail.com>
+Project-URL: homepage, https://github.com/danclab/laMEG
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
