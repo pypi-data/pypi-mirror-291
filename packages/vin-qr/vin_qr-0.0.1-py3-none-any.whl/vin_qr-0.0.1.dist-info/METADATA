@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vin_qr
+Version: 0.0.1
+Summary: Utility that generates QR code from the VIN number
+Home-page: https://gitlab.com/maksmikhalov/vin_qr.git
+Author: Maks Mikhalov
+Author-email: dn2tx.com@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pylibdmtx==0.1.10
+Requires-Dist: pillow==10.4.0
+
+# Generates date matrix QR codes for VIN (vehicle identification number)
+
+This script was created to simplify printing stickers for VIN numbers. The script is solving issue with incorrect VIN numbers by replacing control symbol (#9) with correct one, to make VIN scanners working with the sticker.
+
+### Usage
+```
+usage: vin_qr [-h] [--file file] [--vin vin] [--board board] [--generate-all]
+
+Generate QR codes from a JSON file or a given VIN.
+
+options:
+  -h, --help      show this help message and exit
+  --file file     the JSON file to read from
+  --vin vin       a VIN to generate a QR code for
+  --board board   a board from the JSON file to generate a QR code for
+  --generate-all  generate QR codes for all entries in the JSON file
+```

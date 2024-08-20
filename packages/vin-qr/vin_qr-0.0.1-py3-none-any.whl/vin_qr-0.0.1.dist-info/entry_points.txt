@@ -1,0 +1,2 @@
+[console_scripts]
+vin_qr = vin_qr.__init__:main
