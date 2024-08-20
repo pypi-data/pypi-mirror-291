@@ -1,0 +1,39 @@
+# image: python:3.11
+
+variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+    
+cache:
+    paths:
+        - .cache/pip
+        
+before_script:
+    - echo "🚨 Initializing test protocols...👁️"
+    - $Env:Path = "C:\Users\FatBat\AppData\Local\Programs\Python\Python311;C:\Users\FatBat\.local\bin;C:\Users\FatBat\AppData\Local\Programs\Python\Python311\Scripts;$($Env:Path)"
+    - echo "🟩 $(python --version)"
+    - echo "🟩 $(python -m pip --version)"
+    - echo "🟩 pipx $(pipx --version)"
+    - echo "🟩 $(hatch --version)"
+    - hatch clean
+    - hatch env prune
+
+lint:
+    stage: test
+    script:
+        - echo "Welcome to the 'Tests' 👤 Let's start by Ruffing it up a bit. 🥊"
+        - hatch fmt
+        - echo "Well done! 👏 You've survived. How do you feel about snakes? 🐍"
+
+versions:
+    stage: test 
+    script:
+        - echo "Get passed these five snakes 🐍 unscathed, and you're all but on your way 👍"
+        - hatch run python:all
+        - echo "Truly! A Marvel! 🕺 A rare feat indeed."
+        
+docs:
+    stage: test
+    script: 
+        - echo "Now! We're just going to make sure that your documents are all in order... 🧐"
+        - hatch run docs:build
+        - echo "Excellent! 🎉 All is indeed in order. Bye now 👋😈"
