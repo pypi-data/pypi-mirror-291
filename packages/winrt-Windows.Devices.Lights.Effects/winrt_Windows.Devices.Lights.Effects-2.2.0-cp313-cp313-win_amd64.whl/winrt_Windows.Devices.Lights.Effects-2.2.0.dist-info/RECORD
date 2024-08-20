@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_lights_effects.cp313-win_amd64.pyd,sha256=uD2ZXzCBseFb5W8KP3lv0LXuGiuJPkH-Npn7SwzRYyE,156160
+winrt/_winrt_windows_devices_lights_effects.pyi,sha256=TaCT83bQWiP2wjK9Xn8B9TdGV395dZ_mCzm6hEMEiAk,11025
+winrt/windows/devices/lights/effects/__init__.py,sha256=nwptSRZYxgUWObZY_x0U17iK5mYO_2jyglDWvf2CtHc,1691
+winrt/windows/devices/lights/effects/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Lights.Effects-2.2.0.dist-info/METADATA,sha256=PcCKDbi2_TRJhJQfaQg4z-mFUG7nB83nARHbomm70iE,1369
+winrt_Windows.Devices.Lights.Effects-2.2.0.dist-info/WHEEL,sha256=CdxowNJ2RPRCxUxJWAQ4R_o8uA51cjotGywc47Ht6wA,101
+winrt_Windows.Devices.Lights.Effects-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Lights.Effects-2.2.0.dist-info/RECORD,,
