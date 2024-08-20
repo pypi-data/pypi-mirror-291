@@ -1,0 +1,17 @@
+saltext/namecheap/__init__.py,sha256=D7LywTuuKOLBckMpBTKjqwuIS6PABYTo1qDO2n02Vus,863
+saltext/namecheap/version.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+saltext/namecheap/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+saltext/namecheap/modules/namecheap_domains.py,sha256=cEcSMAi1ujLa4x_Zb2rOIocpT7MPkIZdgYQZJf_KmCI,13217
+saltext/namecheap/modules/namecheap_domains_dns.py,sha256=s9roO9Aal-Cb3zv7NewTRmbc-0_bMB-jXfPTQvhQMng,5945
+saltext/namecheap/modules/namecheap_domains_ns.py,sha256=49oYTJEeEzcdWRJIRbW_QqoUKeJUc6DHui5XkXYnDoY,4469
+saltext/namecheap/modules/namecheap_ssl.py,sha256=YOIHkYFFx-h1xwJytLkdQbXx0EOqfpW_0l_LbmdhNVI,26351
+saltext/namecheap/modules/namecheap_users.py,sha256=-a9l8-DCHNV6sZ-_uxMr5iciUxF3eKPRKx6Pyhi3rFw,2377
+saltext/namecheap/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+saltext/namecheap/utils/namecheap.py,sha256=w8FdMA6MlRaXf5nuTyS-aDoATVqzC3i5ic5xCWlIfC0,3948
+saltext.namecheap-1.0.0.dist-info/LICENSE,sha256=7BjIFSFGEpw2jh55vCajLndiBInp0QweaTcuSh6Wdgw,11344
+saltext.namecheap-1.0.0.dist-info/METADATA,sha256=FZGqWuzJ1RTtxnAMxSHQOEA139515byXwBNuhfLmhOM,5176
+saltext.namecheap-1.0.0.dist-info/NOTICE,sha256=HEGayQpWzIC_o7uBu_ZWkR4lOcnTN8IA2QEbOCm_ckE,460
+saltext.namecheap-1.0.0.dist-info/WHEEL,sha256=M4n4zmFKzQZk4mLCcycNIzIXO7YPKE_b5Cw4PnhHEg8,109
+saltext.namecheap-1.0.0.dist-info/entry_points.txt,sha256=dyBj4En8zotU6uxNSM0pPszKSC_-BbC41TkEDfLQaLE,52
+saltext.namecheap-1.0.0.dist-info/top_level.txt,sha256=6cynQgWBWnAPoXMnUaVitGzM6k7PzacwjLBPgrjOfi4,8
+saltext.namecheap-1.0.0.dist-info/RECORD,,
