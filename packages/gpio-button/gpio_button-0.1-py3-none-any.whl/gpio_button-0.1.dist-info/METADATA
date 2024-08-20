@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gpio_button
+Version: 0.1
+Summary: A simple package to handle button input using RPi.GPIO
+Home-page: https://github.com/yourusername/gpio_button
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: RPi.GPIO
+
