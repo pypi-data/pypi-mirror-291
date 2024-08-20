@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: soft-comp
+Version: 0.0.1.dev19
+Summary: Soft-Computing algorithms and helpers for lecture and exercises - Intelligent Embedded Systems (IES), University of Kassel
+Home-page: https://ies.uni-kassel.de
+Author: Christian Gruhl
+Author-email: cgruhl@uni-kassel.de
+Keywords: Soft Computing,Evolutionary Algorithms,Fuzzy,Neural Networks
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: AUTHORS
+Requires-Dist: numpy >=1.21
+Requires-Dist: matplotlib >=3.5
+Requires-Dist: Cartopy >=0.23.0
+Requires-Dist: ipywidgets >=8.1.3
+Requires-Dist: networkx >=3.3
+
+# Soft-Computing - Python Package
+
+This python package contains python code used in the lectures and exercises of the IES Soft-Computing course.
+
+## virtual environment
+
+~~~bash
+python -m venv softcomp-py
+source ./softcomp-py/bin/activate
+~~~
+
+## install package
+
+~~~bash
+pip install -r requirements.txt
+python setup.py install --user
+~~~
+
