@@ -1,0 +1,3 @@
+composio_core==0.4.5
+composio_openai==0.4.5
+phidata
