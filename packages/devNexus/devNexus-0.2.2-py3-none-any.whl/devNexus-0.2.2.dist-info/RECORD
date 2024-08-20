@@ -1,0 +1,12 @@
+dev_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_tools/clipboard_tools.py,sha256=ZEWuzWCav6ruRx1Wf569syqo1jempjNmkPIRtt7GCqY,772
+dev_tools/dir_tools.py,sha256=8nM-u7luO0odxef7Z9wYi_VtatQNnXbnj1QZs432QFw,7043
+dev_tools/file_tools.py,sha256=kyQmurLxEU6Ux8_T1f3XUzqZ1LKRP1pFub87VpJcw6M,7413
+dev_tools/openai_tools.py,sha256=EPIsCZZNCmwQTnPSVmNawhR_GW3deEX9EGC7Tr2dCUc,2803
+dev_tools/static_scraping.py,sha256=6jl445fkIKj_cCehbIxVMw-rY_Qp4rQeNEatTTkiqcI,3047
+dev_tools/string_tools.py,sha256=CoN8FLA8gWrXTk-Psm03DOfJ35Q2KcccXmXhAOgV8NA,1444
+devNexus-0.2.2.dist-info/LICENSE.txt,sha256=D7pWnYZBoZ32DWzImWOHw9aDR0msp0px89ev4DXukQA,1080
+devNexus-0.2.2.dist-info/METADATA,sha256=tC55H2WGSBZ486Y-pt2miqmZ0KQ52F2-i_-I9tlWxoQ,1359
+devNexus-0.2.2.dist-info/WHEEL,sha256=Rp8gFpivVLXx-k3U95ozHnQw8yDcPxmhOpn_Gx8d5nc,91
+devNexus-0.2.2.dist-info/top_level.txt,sha256=tsxjO_LJuPHVecIaVfghuIfBKNNrerIV7OeVYuZ_Asc,10
+devNexus-0.2.2.dist-info/RECORD,,
