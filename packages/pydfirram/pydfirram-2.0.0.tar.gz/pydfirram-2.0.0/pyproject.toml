@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "pydfirram"
+version = "2.0.0"
+description = "A Python library for memory forensics tasks."
+authors = [
+    "Braguette <alexis.debrito@ecole2600.com>",
+    "std3 <67806187+standard3@users.noreply.github.com>",
+]
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3.10',
+]
+license = "AGPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+volatility3 = "^2.5.2"
+pandas = "^2.2.2"
+regex = "^2024.4.28"
+graphviz = "^0.20.3"
+loguru = "^0.7.2"
+jupyter = "^1.0.0"
+mike = { version="^1.1.2", optional=true}
+
+[tool.poetry.extras]
+test = [
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+    "flake8-docstrings",
+    "pytest-cov"
+    ]
+
+dev = [
+    "tox", "pre-commit", "virtualenv", "pip", "twine", "toml",
+    "pandas-stubs",
+]
+
+doc = [
+    "mkdocs",
+    "mkdocs-include-markdown-plugin",
+    "mkdocs-material",
+    "mkdocstrings",
+    "mkdocs-material-extension",
+    "mkdocs-autorefs",
+    "mike",
+    "setuptools"
+    ]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6"
+mkdocs-material = "^9.5"
+mkdocs-git-revision-date-localized-plugin = "^1.2"
+mkdocs-git-committers-plugin-2 = "^2.3"
+mkdocstrings = "^0.25"
+
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
