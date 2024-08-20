@@ -1,0 +1,8 @@
+pylich/__init__.py,sha256=o-1QOJkM2iOBQLmIGfo2TjHSNoyajfVcoW4CNU0A7FU,149
+pylich/checker.py,sha256=50bgxRl9uzUP7QYODjgfCIRTXIoO0bZev1WPWtE75c8,3614
+pylich/cli.py,sha256=W0l_slaNLCCSJMW76LuuS_rZfWSSO0Grf2Vne2WSo90,1050
+pylich-0.2.0.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+pylich-0.2.0.dist-info/METADATA,sha256=Vdmg_uDogpQHFFWSn7QtSR6PveHwMWgPg4FRr2fqxcA,2313
+pylich-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pylich-0.2.0.dist-info/entry_points.txt,sha256=PF90Qn03wTpjrvAL9ppmfXVEDYqQDWnlk-9bdxT0Clk,42
+pylich-0.2.0.dist-info/RECORD,,
