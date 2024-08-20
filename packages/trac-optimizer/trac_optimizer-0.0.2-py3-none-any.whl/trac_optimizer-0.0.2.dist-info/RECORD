@@ -1,0 +1,7 @@
+trac_optimizer/__init__.py,sha256=61du4Rpphsp96eBCXIPCElZGChky1Gqxk2QSuruQw8U,29
+trac_optimizer/trac.py,sha256=PwbG_y-Ax3gH_Tm6cWvzEd0j03-i8t9gMUS6qcA9ijo,9000
+trac_optimizer/experimental/jax/trac.py,sha256=pLiUPBBf0COUKbwYczWonP95ceh6fLSOXL5kKbnoonk,4512
+trac_optimizer-0.0.2.dist-info/METADATA,sha256=J1el-vMtCXbYbEhMGvRg5ASDDTdSiZdq-wIM9KQEvvo,3946
+trac_optimizer-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+trac_optimizer-0.0.2.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+trac_optimizer-0.0.2.dist-info/RECORD,,
