@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tabular-transformer
+Version: 0.1.0
+Summary: Transformer adapted for tabular data domain
+Home-page: https://github.com/echosprint/TabularTransformer
+Author: Qiao Qian
+Author-email: qiaoqianda@gmail.com
+License: MIT
+Keywords: artificial intelligence,transformers,attention mechanism,tabular data
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Requires-Dist: torch >=2.3.0
+Requires-Dist: wandb >=0.17.2
+Requires-Dist: tqdm >=4.66.4
+Requires-Dist: scikit-learn >=1.3.2
+Requires-Dist: pandas >=2.1.0
+Requires-Dist: numpy >=1.26.4
+
