@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+RoseAI.egg-info/PKG-INFO
+RoseAI.egg-info/SOURCES.txt
+RoseAI.egg-info/dependency_links.txt
+RoseAI.egg-info/requires.txt
+RoseAI.egg-info/top_level.txt
+rose_ai/__init__.py
+rose_ai/main.py
