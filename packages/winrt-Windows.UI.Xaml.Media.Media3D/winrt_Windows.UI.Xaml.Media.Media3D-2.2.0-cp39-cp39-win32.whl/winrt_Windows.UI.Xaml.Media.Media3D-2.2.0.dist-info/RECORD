@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_xaml_media_media3d.cp39-win32.pyd,sha256=0Hey2UaMAqU6PeS_8AYmewV5WG2JPoRb5yM3JxgJsIc,116736
+winrt/_winrt_windows_ui_xaml_media_media3d.pyi,sha256=CCOWiSnpNucvK_yj_I42MH1nMVIONCbn2Us6Bx-bY1A,10406
+winrt/windows/ui/xaml/media/media3d/__init__.py,sha256=xecp4j3aPLG1nVT0CMh_C_KQTgumfqFOJ-JaHxZaVI8,642
+winrt/windows/ui/xaml/media/media3d/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Xaml.Media.Media3D-2.2.0.dist-info/METADATA,sha256=1zqUDzuhHJJTDQmE3GPoLJB6aKFRivdwOCt3De1CYms,1132
+winrt_Windows.UI.Xaml.Media.Media3D-2.2.0.dist-info/WHEEL,sha256=oMVLYRxr_Mj2eBzR64CwhxuKNcwPdTLLcHPchJ-SPBU,95
+winrt_Windows.UI.Xaml.Media.Media3D-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Xaml.Media.Media3D-2.2.0.dist-info/RECORD,,
