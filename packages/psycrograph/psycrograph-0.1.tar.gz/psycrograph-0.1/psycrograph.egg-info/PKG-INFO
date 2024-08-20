@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: psycrograph
+Version: 0.1
+Summary: A toolkit for drawing psychrometric charts and evolutions
+Author-email: jose@azzamura.com
+License: MIT
