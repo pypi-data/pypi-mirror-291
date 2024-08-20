@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_ui_xaml_controls_primitives.cp313-win_amd64.pyd,sha256=FvsusmMsvWoGjDZ_gcwGhl_FbPTW9H0h32jP8xVKrMQ,8123392
+winrt/_winrt_microsoft_ui_xaml_controls_primitives.pyi,sha256=DnCEEbjDabY6x5JlSkT9tDbgBw5dd9LpcZi6qWrZomo,1329279
+winrt/microsoft/ui/xaml/controls/primitives/__init__.py,sha256=Fg4yWuFDtj3uTMLImrTEJVDMun0zs9jNaIsz0CfOYj8,14381
+winrt/microsoft/ui/xaml/controls/primitives/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.UI.Xaml.Controls.Primitives-2.2.0.dist-info/METADATA,sha256=Vz5TveOChIRmJ0LhPILOsjPwaqcEP1GJQ_JekigaXgI,2485
+winrt_Microsoft.UI.Xaml.Controls.Primitives-2.2.0.dist-info/WHEEL,sha256=CdxowNJ2RPRCxUxJWAQ4R_o8uA51cjotGywc47Ht6wA,101
+winrt_Microsoft.UI.Xaml.Controls.Primitives-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Xaml.Controls.Primitives-2.2.0.dist-info/RECORD,,
