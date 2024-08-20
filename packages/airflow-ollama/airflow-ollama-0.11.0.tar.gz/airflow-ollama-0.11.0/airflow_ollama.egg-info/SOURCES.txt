@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+airflow_ollama/__init__.py
+airflow_ollama.egg-info/PKG-INFO
+airflow_ollama.egg-info/SOURCES.txt
+airflow_ollama.egg-info/dependency_links.txt
+airflow_ollama.egg-info/requires.txt
+airflow_ollama.egg-info/top_level.txt
+airflow_ollama/operators/__init__.py
+airflow_ollama/operators/ngrok_exposer_operator.py
+airflow_ollama/operators/ollama_operator.py
+tests/test_ngrok_exposer_operator.py
+tests/test_ollama_operator.py
