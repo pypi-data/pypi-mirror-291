@@ -1,0 +1,11 @@
+soxr/soxr_ext.pyi,sha256=MPuhN4U18LyFZiHq3W2B_ognQK7R6svsahWrw16Pxsg,4625
+soxr/_version.py,sha256=4w6_3wOE-nSZ9uNoVIJz1SLUXMOqOSYPvY2ScbYLZdg,414
+soxr/__init__.py,sha256=iR7IScGcN56HwIvs6tnAFRnUsz1pgaIiCLKZKKVpijM,7257
+soxr/soxr_ext.abi3.so,sha256=sdzZ5AuJzzv0vxOusaAn8Zkhx47iv58ddpf-gJmol2c,465144
+soxr-0.5.0rc1.dist-info/RECORD,,
+soxr-0.5.0rc1.dist-info/WHEEL,sha256=GUcFwGJHkNH7m2kIAtZuIVGnMKT9SYgsrOZh3opCVcc,156
+soxr-0.5.0rc1.dist-info/METADATA,sha256=wg3HWSR_4Q9nCsnhJp9uQJ3vIIHWefwotIJsO2cXV0Q,5597
+soxr-0.5.0rc1.dist-info/licenses/COPYING.LGPL,sha256=8vEYuQKewYcblTY57MRmUbL8e2LilebPPvKsTJoFizM,26432
+soxr-0.5.0rc1.dist-info/licenses/LICENSE-libsoxr.txt,sha256=3JhnY0H9zSnZ8nnJZ51qdSiHhbF03tjRsuMWw2YWYTU,1024
+soxr-0.5.0rc1.dist-info/licenses/LICENSE-PFFFT.txt,sha256=qfPSNvPBSkGhKT8XbUx8RthUBEA0F_y4321slwcQTkI,2122
+soxr-0.5.0rc1.dist-info/licenses/LICENSE.txt,sha256=rut7zlmj3Me7CKSKLwEvNAxrKOxQzSLwrZMZSn0lRCA,713
