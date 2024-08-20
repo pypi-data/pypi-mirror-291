@@ -1,0 +1,7 @@
+urllib3<2.1.0,>=1.25.3
+python-dateutil
+pydantic<2,>=1.10.5
+aenum
+requests~=2.32
+boto3~=1.35
+botocore~=1.35
