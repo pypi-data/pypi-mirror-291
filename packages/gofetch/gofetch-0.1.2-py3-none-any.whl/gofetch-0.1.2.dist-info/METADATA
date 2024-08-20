@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gofetch
+Version: 0.1.2
+Summary: Fetch data from popular resources.
+Home-page: https://github.com/alba-analytics/gofetch
+Author: Alex Miller
+Author-email: info@alba-analytics.co.uk
+Platform: linux
+Platform: macOS
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: shopify
+Requires-Dist: ShopifyAPI ==12.6.0 ; extra == 'shopify'
+Requires-Dist: beautifulsoup4 ==4.12.3 ; extra == 'shopify'
+Requires-Dist: pandas ==2.1.2 ; extra == 'shopify'
+Requires-Dist: pytz ==2024.1 ; extra == 'shopify'
+
+# fetch
+Data retrieval package
