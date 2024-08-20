@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fastoranalysis/__init__.py
+fastoranalysis/factor_analysis.py
+fastoranalysis.egg-info/PKG-INFO
+fastoranalysis.egg-info/SOURCES.txt
+fastoranalysis.egg-info/dependency_links.txt
+fastoranalysis.egg-info/requires.txt
+fastoranalysis.egg-info/top_level.txt
+tests/__init__.py
+tests/test_factor_analysis.py
