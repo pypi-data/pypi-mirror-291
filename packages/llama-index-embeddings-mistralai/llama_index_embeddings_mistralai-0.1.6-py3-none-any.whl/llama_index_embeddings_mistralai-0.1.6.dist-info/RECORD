@@ -1,0 +1,5 @@
+llama_index/embeddings/mistralai/__init__.py,sha256=IGhIomA0iFtKjcWix-BjZwFsjb7PbxhxDsqaNKY0fzw,103
+llama_index/embeddings/mistralai/base.py,sha256=SXkE6Po9mglXybL7Q1qXgADf9I31bRXopGYCU403GNM,3486
+llama_index_embeddings_mistralai-0.1.6.dist-info/METADATA,sha256=dU2PpQOD3aCALr-mSviTv95HoMrTvv3QyaaS0skziiI,696
+llama_index_embeddings_mistralai-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_embeddings_mistralai-0.1.6.dist-info/RECORD,,
