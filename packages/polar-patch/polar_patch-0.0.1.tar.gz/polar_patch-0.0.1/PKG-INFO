@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: polar_patch
+Version: 0.0.1
+Summary: A tool that brings type safety and type checking enhancements to the Polars library.
+Author: Jeremy Meek, Stephen Oketch
+License-File: LICENSE
+Requires-Python: ==3.12.4
+Requires-Dist: aiofiles==24.1.0
+Requires-Dist: jinja2==3.1.4
+Requires-Dist: libcst==1.4.0
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: toml==0.10.2
+Requires-Dist: typer==0.12.4
+Description-Content-Type: text/markdown
+
+# polar-patch
+
+A tool that brings type safety and type checking enhancements to the Polars library.
+
+## Installation
+
+You can install the package using rye:
+
+```bash
+pip install polar-patch
+
+```
+
+## Usage
+
+To apply patches:
+
+```bash
+from polar_patch import apply_patches
+
+apply_patches()
+
+```
