@@ -1,0 +1,9 @@
+click
+pyzmq
+grpcio-tools
+FlagEmbedding
+pydantic
+peft
+
+[dev]
+pytest
