@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_serialcommunication.cp313-win32.pyd,sha256=LWpHbi9CRgzQRXxflnSDHGm_b2I3P9dFjRKcbFKLKWY,85504
+winrt/_winrt_windows_devices_serialcommunication.pyi,sha256=LqWgxgy9fUKlv8pW7_ECEMyFlKSpAhuAe06A8SOqY3o,4464
+winrt/windows/devices/serialcommunication/__init__.py,sha256=qbhrfh9cbZWLjapMd8ENqKNKcdyocoD1UH1qWjXMppA,1230
+winrt/windows/devices/serialcommunication/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.SerialCommunication-2.2.0.dist-info/METADATA,sha256=vCIa-XYf0fABon4jAoU5OElCTvcGDxQmf7Ikd8JUtYk,1167
+winrt_Windows.Devices.SerialCommunication-2.2.0.dist-info/WHEEL,sha256=rHSPOKLHVf857fDiba9Pzuf1iCvh9pcRQ5-VWQYz3ms,97
+winrt_Windows.Devices.SerialCommunication-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.SerialCommunication-2.2.0.dist-info/RECORD,,
