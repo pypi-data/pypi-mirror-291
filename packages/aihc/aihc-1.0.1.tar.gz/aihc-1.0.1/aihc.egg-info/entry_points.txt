@@ -1,0 +1,2 @@
+[console_scripts]
+aihc = aihc_cli_py.runner:main
