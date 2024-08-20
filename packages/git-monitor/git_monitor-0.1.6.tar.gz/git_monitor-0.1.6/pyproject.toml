@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "git-monitor"
+version = "0.1.6"
+description = "Automatic print the git status of the package your are developing."
+authors = ["bali <baliuzeger@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/baliuzeger/py_git_monitor"
+keywords = ["git", "log", "datascience"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+GitPython = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
