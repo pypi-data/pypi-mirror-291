@@ -1,0 +1,8 @@
+winrt/_winrt_windows_perception_spatial_surfaces.cp313-win_arm64.pyd,sha256=KOxZmizAOnoy5QKoo7V9RLxCgeSN-w97zgaFqywdW3I,174592
+winrt/_winrt_windows_perception_spatial_surfaces.pyi,sha256=NnH8HO5t4HTV-eifpXMg4qVttJJTshloAzIPrYOfrQ0,5764
+winrt/windows/perception/spatial/surfaces/__init__.py,sha256=vqRP5as_lBJN3F35EpdVBbXEGpT-8Df1KCm9vPagUCM,774
+winrt/windows/perception/spatial/surfaces/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Perception.Spatial.Surfaces-2.2.0.dist-info/METADATA,sha256=o0Hz60sVX5DIN8LOL8_7yDewmS1yPFZV5xPpPOuxmAk,1486
+winrt_Windows.Perception.Spatial.Surfaces-2.2.0.dist-info/WHEEL,sha256=Bc3zGnBzvnkuBaMd-KCqScACPFmA-93PSEDjeXqCzu8,101
+winrt_Windows.Perception.Spatial.Surfaces-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Perception.Spatial.Surfaces-2.2.0.dist-info/RECORD,,
