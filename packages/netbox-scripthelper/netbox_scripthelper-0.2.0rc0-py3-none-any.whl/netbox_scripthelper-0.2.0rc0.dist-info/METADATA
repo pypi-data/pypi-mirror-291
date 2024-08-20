@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: netbox_scripthelper
+Version: 0.2.0rc0
+Summary: Collections of utilities for Netbox custom scripts.
+Home-page: https://github.com/k1nky/netbox-scripthelper-plugin
+Author: Andrey Shalashov
+Author-email: avshalashov@yandex.ru
+License: Apache 2.0
+Keywords: netbox script custom helper plugin
+Requires-Dist: netaddr
+
