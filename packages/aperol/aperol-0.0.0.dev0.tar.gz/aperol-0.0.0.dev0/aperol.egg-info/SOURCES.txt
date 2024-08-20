@@ -1,0 +1,5 @@
+pyproject.toml
+aperol.egg-info/PKG-INFO
+aperol.egg-info/SOURCES.txt
+aperol.egg-info/dependency_links.txt
+aperol.egg-info/top_level.txt
