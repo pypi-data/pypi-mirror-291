@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: ek-geo
+Version: 0.1.2
+Summary: Geographic utilities for EarthKit
+Author-email: Jett Chen <jettchen12345@gmail.com>
+License-Expression: MIT
+Requires-Python: >=3.8
+Requires-Dist: attrs>=24.2.0
+Requires-Dist: geopy>=2.4.1
+Provides-Extra: graphing
+Requires-Dist: pydeck; extra == 'graphing'
+Description-Content-Type: text/markdown
+
+# ek-geo
+
+Describe your project here.
