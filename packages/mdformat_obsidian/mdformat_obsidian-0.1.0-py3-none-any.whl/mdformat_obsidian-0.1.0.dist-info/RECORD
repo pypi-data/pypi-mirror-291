@@ -1,0 +1,14 @@
+mdformat_obsidian/__init__.py,sha256=0a7ZWLQ3BN2Vpm5g4fWnWlnetupgXhLymE5BZHxUHB0,163
+mdformat_obsidian/plugin.py,sha256=KJYyN2lI-S5c0clCJ0zvDUYMGQescASRytaOjTBunfY,3314
+mdformat_obsidian/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdformat_obsidian/factories/__init__.py,sha256=oVWYwCMatlV8ZMbz_vpL5fvdkJej47Ilhi0qG3gkfIw,299
+mdformat_obsidian/factories/_obsidian_blockquote_factories.py,sha256=Ymp84maNQeb8hUbPZSMZaZpES8m9n6yHw9DAWwtHEHI,3252
+mdformat_obsidian/mdit_plugins/__init__.py,sha256=2oI909RaNPhdZEZNGokT205CYIG10RMzmnhie-XrrQ8,627
+mdformat_obsidian/mdit_plugins/_obsidian_callouts.py,sha256=TvVcP5QhBPb43aQ8JZehndtTVVXDF53VldVvVApHwk0,3535
+mdformat_obsidian/mdit_plugins/_obsidian_inline_footnotes.py,sha256=dxqRj4aC_0EOVxvbDbCopC1pjPdYYSl1wGQ75m8KwVY,1972
+mdformat_obsidian/mdit_plugins/_obsidian_task_lists.py,sha256=IsFo3Qpcfw8yVSAJ_uTKfSaGcCwjFpfUDhLno2ItcNM,2286
+mdformat_obsidian-0.1.0.dist-info/entry_points.txt,sha256=2VoUa5M29l69ugrY2KoAPpewFqAs35LeSK-p5a28VKw,56
+mdformat_obsidian-0.1.0.dist-info/LICENSE,sha256=-voxTd2luDRUXIFkSXQRQGL3cHzC9AnnJkv3LJrla3o,1073
+mdformat_obsidian-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mdformat_obsidian-0.1.0.dist-info/METADATA,sha256=ijtJdbEw6A0G43XlqUoK6liZv6UO0UbncPb2rVIY1D0,5249
+mdformat_obsidian-0.1.0.dist-info/RECORD,,
