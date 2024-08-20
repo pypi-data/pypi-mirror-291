@@ -1,0 +1,12 @@
+photoshoot/__init__.py,sha256=n-fg8ZF6Kl_Psgm_19rJMOpDSXjCA4-KwcaCD9TOAYA,63
+photoshoot/comp.py,sha256=OFkLIdNS1nUHAW0ilW_4ujvbHnRheALRQmtvuqbUDZw,1213
+photoshoot/core.py,sha256=3dVKSYGm6I4Hea7oIFtMmffL_i71vOOIFYrQj7FcH5A,3373
+photoshoot/plugin.py,sha256=CLc4ZAawDxqQpYrT8KgyF14wEd7vddJNKwT8q_GmFac,1830
+photoshoot/storage/__init__.py,sha256=FLFQuZ7FI5GpIll-V1resgz5CeaM6cBN0KXKUsULW1w,162
+photoshoot/storage/gcs.py,sha256=ZzsbTa-qGcZpZNqp26hDhDjeAlgOmlkct1zj-VHEQ4s,1864
+photoshoot/storage/local.py,sha256=oxQTxhHYdwUS5EbEZktX0fHYNjXWpHLYIhXIdWeDIUI,1671
+photoshoot-0.2.1.dist-info/METADATA,sha256=rt4YlKMlZHQAtqyKtagaAxvAbe-vXUqWmFzJVHC5QU8,1206
+photoshoot-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+photoshoot-0.2.1.dist-info/entry_points.txt,sha256=qvpkwAulBS6x_ouYGhrY58u4NcR6MHoYwDlZjOWzuXQ,43
+photoshoot-0.2.1.dist-info/licenses/LICENSE,sha256=gwF2vBxj1xLQkViNk5BjM9DFdoTsklYKXKhpn2EvLnI,1084
+photoshoot-0.2.1.dist-info/RECORD,,
