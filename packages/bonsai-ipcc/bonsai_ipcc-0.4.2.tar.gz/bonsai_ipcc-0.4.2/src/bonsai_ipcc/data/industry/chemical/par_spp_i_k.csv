@@ -1,0 +1,16 @@
+year,region,product,feedstocktype,property,value,unit
+2006,GB,methanol,natural_gas,def,1.0,t/t
+2006,GB,methanol,propylene,def,0.8,t/t
+2006,GB,methanol,naphta,def,1.0,t/t
+2006,GB,methanol,natural_gas,min,1.0,t/t
+2006,GB,methanol,propylene,min,0.8,t/t
+2006,GB,methanol,naphta,min,1.0,t/t
+2006,GB,methanol,natural_gas,max,1.0,t/t
+2006,GB,methanol,propylene,max,0.8,t/t
+2006,GB,methanol,naphta,max,1.0,t/t
+2006,GB,methanol,natural_gas,abs_min,0.0,t/t
+2006,GB,methanol,propylene,abs_min,0.0,t/t
+2006,GB,methanol,naphta,abs_min,0.0,t/t
+2006,GB,methanol,natural_gas,abs_max,1.0,t/t
+2006,GB,methanol,propylene,abs_max,1.0,t/t
+2006,GB,methanol,naphta,abs_max,1.0,t/t
