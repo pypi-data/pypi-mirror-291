@@ -1,0 +1,8 @@
+winrt/_winrt_windows_web_syndication.cp310-win_arm64.pyd,sha256=2txzvpvx6HQtwrC0y4UFs6vn1BICgAYGUGnmwIpSoB0,577024
+winrt/_winrt_windows_web_syndication.pyi,sha256=Nf5TFgCwieCtI9X2mE7sBYHQpI-N8zS6dDhDBq88tvI,30328
+winrt/windows/web/syndication/__init__.py,sha256=0I_caQvjqZ9kxIRaxHBGza2HKMFtV5uucK4DiEx97dc,2260
+winrt/windows/web/syndication/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Web.Syndication-2.2.0.dist-info/METADATA,sha256=5Z4h61emqY84bXaIS5GkpHem6wW5A8mB2NgFWmyRXPY,1280
+winrt_Windows.Web.Syndication-2.2.0.dist-info/WHEEL,sha256=OUR_6PdNqVNxYcSYXC3UBUAovf2K3Wwd-pjMeQ3_Flo,101
+winrt_Windows.Web.Syndication-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Web.Syndication-2.2.0.dist-info/RECORD,,
