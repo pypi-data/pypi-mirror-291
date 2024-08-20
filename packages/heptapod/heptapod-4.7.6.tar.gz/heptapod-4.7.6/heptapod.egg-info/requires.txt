@@ -1,0 +1,11 @@
+Mercurial>=6.1
+attrs~=23.2.0
+dulwich
+hg-configexpress~=0.4.0
+hg-evolve<11.2,>=11.0.1
+hg-git~=1.1.0
+hg-loggingmod>=0.2.1
+python_jwt~=4.0.0
+requests==2.31.0
+requests_unixsocket==0.2.0
+urllib3<2
