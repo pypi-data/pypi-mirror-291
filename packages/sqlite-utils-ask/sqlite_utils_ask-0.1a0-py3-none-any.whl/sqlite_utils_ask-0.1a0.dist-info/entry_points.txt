@@ -1,0 +1,2 @@
+[sqlite_utils]
+ask = sqlite_utils_ask
