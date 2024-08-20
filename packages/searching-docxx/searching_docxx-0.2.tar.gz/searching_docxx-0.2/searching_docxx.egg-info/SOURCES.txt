@@ -1,0 +1,10 @@
+README.md
+setup.py
+searching_docxx/__init__.py
+searching_docxx/api_client.py
+searching_docxx.egg-info/PKG-INFO
+searching_docxx.egg-info/SOURCES.txt
+searching_docxx.egg-info/dependency_links.txt
+searching_docxx.egg-info/entry_points.txt
+searching_docxx.egg-info/requires.txt
+searching_docxx.egg-info/top_level.txt

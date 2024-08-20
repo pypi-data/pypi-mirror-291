@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: searching_docxx
+Version: 0.2
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: docx2txt
+Requires-Dist: langchain
+Requires-Dist: langchain_community
+Requires-Dist: langchain_text_splitters
+Requires-Dist: faiss-cpu
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: pytesseract
+Requires-Dist: PyPDF2
+
+# My Package
+
+A Python package for document ingestion and text search.
+
+## Installation
+
+```bash
+pip install my_package

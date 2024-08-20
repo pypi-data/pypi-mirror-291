@@ -1,0 +1,2 @@
+[console_scripts]
+searching_docxx = searching_docxx.api_client:main
