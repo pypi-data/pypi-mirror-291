@@ -1,0 +1,2 @@
+[console_scripts]
+text_encrypt = encryption_package.userinterface:main
