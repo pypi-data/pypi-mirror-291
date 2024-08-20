@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fnllm
+Version: 0.0.1
+Summary: A function-based LLM utility.
+Home-page: https://github.com/microsoft/essex-toolkit
+Author: Chris Trevino
+Author-email: chtrevin@microsoft.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
