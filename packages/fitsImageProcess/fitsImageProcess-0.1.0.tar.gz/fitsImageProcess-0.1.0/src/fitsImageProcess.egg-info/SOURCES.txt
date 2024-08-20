@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/fitsImageProcess.egg-info/PKG-INFO
+src/fitsImageProcess.egg-info/SOURCES.txt
+src/fitsImageProcess.egg-info/dependency_links.txt
+src/fitsImageProcess.egg-info/requires.txt
+src/fitsImageProcess.egg-info/top_level.txt
+src/functions/__init__.py
+src/functions/breakIntoChuncks.py
+src/functions/deepLearningCNN.py
+src/functions/extraUtils.py
+src/functions/find_rectangle.py
+src/functions/functionsForAlignment.py
+src/functions/manageCatalog.py
+src/functions/manageSources.py
