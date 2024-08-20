@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/nudantic/__init__.py
+src/nudantic.egg-info/PKG-INFO
+src/nudantic.egg-info/SOURCES.txt
+src/nudantic.egg-info/dependency_links.txt
+src/nudantic.egg-info/requires.txt
+src/nudantic.egg-info/top_level.txt
