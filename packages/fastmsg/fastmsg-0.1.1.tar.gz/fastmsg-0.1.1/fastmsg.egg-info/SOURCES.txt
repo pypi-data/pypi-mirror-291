@@ -1,0 +1,8 @@
+setup.py
+fastmsg/__init__.py
+fastmsg/test_message.py
+fastmsg.egg-info/PKG-INFO
+fastmsg.egg-info/SOURCES.txt
+fastmsg.egg-info/dependency_links.txt
+fastmsg.egg-info/requires.txt
+fastmsg.egg-info/top_level.txt
