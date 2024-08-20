@@ -1,0 +1,8 @@
+winrt/_winrt_windows_phone_applicationmodel.cp39-win_amd64.pyd,sha256=SGSWi_b8MOm2LNNCWcn54ijr4bAZju5joEs_hnQJmoU,28672
+winrt/_winrt_windows_phone_applicationmodel.pyi,sha256=hX0dbjEfMlgYp8VVCa6kI8Fg3b286jGhU4HaPF0cAcs,574
+winrt/windows/phone/applicationmodel/__init__.py,sha256=jprlt1D6RYbqaXU-3P1MgP9IMHQ_O0AbMowawMXC1ZA,405
+winrt/windows/phone/applicationmodel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Phone.ApplicationModel-2.2.0.dist-info/METADATA,sha256=f1Tt8_tV5T1Vw-bBHvQ5qEw4NEKCSqRLRq0KKRYlUIw,979
+winrt_Windows.Phone.ApplicationModel-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.Phone.ApplicationModel-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.ApplicationModel-2.2.0.dist-info/RECORD,,
