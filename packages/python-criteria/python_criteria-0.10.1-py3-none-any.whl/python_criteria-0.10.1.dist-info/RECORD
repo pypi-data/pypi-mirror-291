@@ -1,0 +1,13 @@
+python_criteria/__init__.py,sha256=DSZHIbDtp3mcJZzyGVC3Ka3-WJmXXD9ux0uhhbP3HNw,227
+python_criteria/clauses.py,sha256=HoIdKT0TixDfTWtU4jf6zfIlFs-xOqfHOmpWtNk7cgU,2611
+python_criteria/entity.py,sha256=9KIeaiU_IVetbHU2Rk7SL7NCzoOP8bs8cQPlFL3XRIc,2829
+python_criteria/filter.py,sha256=ipE__8lM9W92gUGbWuv-6ztRZYlMvCPx-CKCh7Iwrls,2639
+python_criteria/label.py,sha256=5-XBJBG7vxkAsdiNYGcpt9Xs5RMaGmiZSnUhKVamHN4,1126
+python_criteria/memory.py,sha256=oG5ApTuWL4z2gezccCWFb1TE10-UA6gwYgFJgeKlMBQ,3358
+python_criteria/sqlalchemy.py,sha256=cjkJ93iEW9cTJqPsjkyMct_u6aY-LR3eum1GglEEPyM,2687
+python_criteria/visitor.py,sha256=s5tQT2J2-Mc5QPNlO788gDSnLFjim5d1tRLimRLMwYo,2086
+python_criteria-0.10.1.dist-info/LICENSE,sha256=CrfYJjJPzpMSueun1s09Nu7CE8HK2rgRVjdLOpYFi5A,1068
+python_criteria-0.10.1.dist-info/METADATA,sha256=EibUTA9obV0VF2L6MdF-sQL6RMrkXf-OmxDkzMBcmhw,924
+python_criteria-0.10.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+python_criteria-0.10.1.dist-info/top_level.txt,sha256=8Zq6V-_3oJdVcvyMT-_BS3A-wWWG7H20PMzHOb0g3D4,16
+python_criteria-0.10.1.dist-info/RECORD,,
