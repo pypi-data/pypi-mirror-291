@@ -1,0 +1,8 @@
+
+[gui]
+PySide6-Essentials==6.5.2
+
+[gui-with-update]
+PySide6-Essentials==6.5.2
+requests
+py7zr
