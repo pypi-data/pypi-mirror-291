@@ -1,0 +1,39 @@
+{% load i18n %}
+
+{% if not content_only %}
+    <div class="modal fade" tabindex="-1">
+        <div class="modal-dialog
+            {% block dialog_class %}{% endblock %}
+            ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+
+                        {% block title %}
+                        {% endblock %}
+
+                    </h5>
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+{% endif %}
+                    {% block body %}
+                    {% endblock %}
+{% if not content_only %}
+                </div>
+                <div class="modal-footer
+                    {% block footer_class %}{% endblock %}
+                    ">
+
+                    {% block footer %}
+                    {% endblock %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
