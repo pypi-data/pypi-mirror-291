@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "yellowbox-kind"
+version = "0.1.0"
+description = ""
+authors = ["biocatch ltd"]
+license = "MIT"
+repository = "https://github.com/biocatchltd/yellowbox-kind"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+yellowbox = "^0.8.8"
+kubernetes = "^30.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0.0"
+pytest-asyncio = ">=0.23.0"
+coverage = ">=6.3.2"
+ruff = ">=0.1"
+mypy = ">=1.11.1"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
+
+[tool.ruff]
+line-length = 120
+output-format = "full"
+target-version = "py38"
+[tool.ruff.lint]
+# https://beta.ruff.rs/docs/rules/
+select = ["I", "E", "W", "F", "N", "BLE", "COM", "C4", "ISC", "ICN", "G", "PIE", "T20", "PYI", "Q", "SLF", "SIM",
+          "ERA", "PGH", "PLC", "PLE", "PLR", "PLW", "RUF", "PT", "B"]
+# should be included later: UP, ANN, RET?, ARG, TRY, S
+ignore = [
+    "ISC001",  # irnored by linter because of formatter
+    "COM812",  # trailing comma, handled by black
+    "PLR0913",  # Too many arguments to function call
+    "PLR0912",  # too many branches
+    "PLR0911",  # Too many return statements
+    "PLR0915",  # too many statements
+    
+    "PT013",
+
+    "SIM105",
+]
+exclude = [
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports=true
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = [
+    "PT011",
+    "PT004",
+    "SLF001"
+]
+
+[tool.mypy]
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
