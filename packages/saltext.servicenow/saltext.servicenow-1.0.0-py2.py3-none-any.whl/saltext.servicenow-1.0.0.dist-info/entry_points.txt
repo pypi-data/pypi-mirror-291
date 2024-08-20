@@ -1,0 +1,2 @@
+[salt.loader]
+saltext.servicenow = saltext.servicenow
