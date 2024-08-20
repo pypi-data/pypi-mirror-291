@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pypolyhedron
+Version: 0.3.5
+Summary: Python interface to cdd library
+Home-page: https://github.com/rdeits/pypolyhedron/
+Author: Robin Deits
+Author-email: rdeits@csail.mit.edu
+Requires-Dist: numpy
