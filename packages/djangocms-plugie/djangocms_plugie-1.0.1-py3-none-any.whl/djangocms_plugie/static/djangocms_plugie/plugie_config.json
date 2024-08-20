@@ -1,0 +1,8 @@
+{
+    "dummy_plugins": {
+        "source": [],
+        "target": null
+    },
+    "skip_fields": [],
+    "custom_methods_path": "plugie/custom_methods"
+}
