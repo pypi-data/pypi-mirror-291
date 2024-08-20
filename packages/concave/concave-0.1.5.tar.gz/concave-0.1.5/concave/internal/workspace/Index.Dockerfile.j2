@@ -1,0 +1,5 @@
+FROM ghcr.io/concave-ai/base
+COPY --from=ghcr.io/concave-ai/zoket_base \
+    /usr/local/bin/zoekt-webserver \
+    /usr/local/bin/
+COPY --from={{ BASE_IMAGE }} /workspace/index /workspace/index/
