@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: photoshoot
+Version: 0.2.0
+Summary: A pytest plugin for snapshot testing polars dataframes.
+Project-URL: Repository, https://github.com/ngriffiths13/photoshoot
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: polars>=1.3.0
+Requires-Dist: pytest>=8.0.0
+Provides-Extra: gcs
+Requires-Dist: gcsfs>=2024.6.1; extra == 'gcs'
+Description-Content-Type: text/markdown
+
+# photoshoot
+
+Photoshoot is a pytest plugin libary for making snapshot testing with Polars DataFrames easy.
+
+## Installation
+
+```bash
+pip install photoshoot
+```
+
+## Usage
+
+On the first run of this test, it will fail. Because no previous snapshot has been created.
+```python
+import pytest
+import polars as pl
+
+def test_dataframe(pl_local_snapshot):
+    df = pl.DataFrame({
+        "a": [1, 2, 3],
+        "b": [4, 5, 6],
+    })
+    pl_local_snapshot(df)
+```
+
+Running the test like this, will create a snapshot of the dataframe. All future runs will compare the dataframe with the snapshot.
+```bash
+pytest --new-snapshot
+```
+
+## Features
+Currenty this library only supports Polars DataFrames, and only supports local snapshots. The plan is to support other storage backends in the future such as
+GCS & S3.
