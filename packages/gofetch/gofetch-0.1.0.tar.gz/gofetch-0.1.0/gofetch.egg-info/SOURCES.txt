@@ -1,0 +1,17 @@
+README.md
+setup.py
+fetchers/__init__.py
+fetchers/shopify/__init__.py
+fetchers/shopify/fetch_shopify.py
+gofetch.egg-info/PKG-INFO
+gofetch.egg-info/SOURCES.txt
+gofetch.egg-info/dependency_links.txt
+gofetch.egg-info/requires.txt
+gofetch.egg-info/top_level.txt
+parsers/__init__.py
+parsers/shopify/__init__.py
+parsers/shopify/parse_shopify.py
+utils/__init__.py
+utils/date_utils.py
+utils/decorator_utils.py
+utils/nlp_utils.py
