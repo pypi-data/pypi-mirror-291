@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+HMautogroup.egg-info/PKG-INFO
+HMautogroup.egg-info/SOURCES.txt
+HMautogroup.egg-info/dependency_links.txt
+HMautogroup.egg-info/entry_points.txt
+HMautogroup.egg-info/requires.txt
+HMautogroup.egg-info/top_level.txt
+lib/HMautogroup/__init__.py
+lib/HMautogroup/cleaning.py
+lib/HMautogroup/filter_list.py
+lib/HMautogroup/handler.py
+lib/HMautogroup/main.py
+lib/HMautogroup/similarity.py
+lib/HMautogroup/text_processing.py
