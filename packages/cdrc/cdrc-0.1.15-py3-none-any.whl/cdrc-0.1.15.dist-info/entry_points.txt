@@ -1,0 +1,3 @@
+[console_scripts]
+format=cdrc.dev.script:format
+
