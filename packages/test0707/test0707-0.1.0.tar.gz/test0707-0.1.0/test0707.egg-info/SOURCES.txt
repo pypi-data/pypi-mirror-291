@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+test/__init__.py
+test/num2word.py
+test0707.egg-info/PKG-INFO
+test0707.egg-info/SOURCES.txt
+test0707.egg-info/dependency_links.txt
+test0707.egg-info/top_level.txt
