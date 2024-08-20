@@ -1,0 +1,8 @@
+phoenix/otel/__init__.py,sha256=jMkQFOOX--GehuQxdvPCypmBxrr0C5Z4KksDdRg997Y,405
+phoenix/otel/otel.py,sha256=2DbhVbMOMl95pe41TaZFLjbWc-hWr5GcaXoU6WKJhs0,8389
+phoenix/otel/settings.py,sha256=WiYSnkCLSapYYpt0X7gFPaS_M7fm-en5-CgKALSaYfY,3066
+arize_phoenix_otel-0.1.0.dist-info/METADATA,sha256=Vs3qU3sCyHvQzvxEI_0xNz0k0u_ELu1UT5LAWefqMOI,4172
+arize_phoenix_otel-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+arize_phoenix_otel-0.1.0.dist-info/licenses/IP_NOTICE,sha256=maCFHeqUmGXk6F2n3oytQlG0xoHrSWuGZ233afI_TLU,469
+arize_phoenix_otel-0.1.0.dist-info/licenses/LICENSE,sha256=HFkW9REuMOkvKRACuwLPT0hRydHb3zNg-fdFt94td18,3794
+arize_phoenix_otel-0.1.0.dist-info/RECORD,,
