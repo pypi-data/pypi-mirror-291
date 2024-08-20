@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_bluetooth_genericattributeprofile.cp311-win_amd64.pyd,sha256=9PwAVF4b1dKzFTE8FC9KEr05zJlCcC_WL_-c5L_w0ck,662528
+winrt/_winrt_windows_devices_bluetooth_genericattributeprofile.pyi,sha256=FpCEi9cVhw-L22rAELnKoaKk2Bu_LdfbTYaqOhcblQk,42197
+winrt/windows/devices/bluetooth/genericattributeprofile/__init__.py,sha256=31GfcoxJtnjMOpKS3B-7GgEOVkA7kfnL87LdwmRO4hg,7232
+winrt/windows/devices/bluetooth/genericattributeprofile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Bluetooth.GenericAttributeProfile-2.2.0.dist-info/METADATA,sha256=YrXpZ93Qzqv_Q1HBkWfCywLJt7UAIozRpf89DDfZKA0,1464
+winrt_Windows.Devices.Bluetooth.GenericAttributeProfile-2.2.0.dist-info/WHEEL,sha256=hOAPNWbnB-LOXvjF1CytkzslAkcUu0x2KSUVu1K2paw,101
+winrt_Windows.Devices.Bluetooth.GenericAttributeProfile-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Bluetooth.GenericAttributeProfile-2.2.0.dist-info/RECORD,,
