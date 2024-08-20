@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: Mopidy-Qobuz-Hires
+Version: 0.1.1
+Summary: Mopidy extension for playing Hi-Res/Lossless music from Qobuz
+Home-page: https://github.com/vitiko98/mopidy-qobuz
+Author: Vitiko
+Author-email: vhnz98@gmail.com
+License: Apache License, Version 2.0
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Mopidy>=3.0.0
+Requires-Dist: Pykka>=2.0.1
+Requires-Dist: setuptools
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Provides-Extra: lint
+Requires-Dist: black; extra == "lint"
+Requires-Dist: check-manifest; extra == "lint"
+Requires-Dist: flake8; extra == "lint"
+Requires-Dist: flake8-black; extra == "lint"
+Requires-Dist: flake8-bugbear; extra == "lint"
+Requires-Dist: flake8-isort; extra == "lint"
+Requires-Dist: isort; extra == "lint"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: check-manifest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flake8-black; extra == "dev"
+Requires-Dist: flake8-bugbear; extra == "dev"
+Requires-Dist: flake8-isort; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+
+****************************
+Mopidy-Qobuz
+****************************
+
+`Mopidy <https://mopidy.com/>`_ extension for playing Hi-Res/Lossless music from Qobuz.
+
+Requires a non-free account.
+
+Features
+============
+* Up to 24b/196k playback
+* Artist, album and track search
+* Browse support
+* Playlists support
+* Featured lists support
+* Image support
+
+Installation
+============
+
+Install by running::
+
+    pip install mopidy-qobuz-hires
+
+or::
+
+    pip install git+https://github.com/vitiko98/mopidy-qobuz
+
+
+``pip install mopidy-qobuz`` **IS NOT RELATED to this repository/extension.**
+
+**This extension conflicts with** https://github.com/taschenb/mopidy-qobuz (https://pypi.org/project/Mopidy-Qobuz).
+You will need to uninstall it if it's in your system.
+
+Configuration
+=============
+
+Before starting Mopidy, you must add ``username``, ``password``, ``app_id`` and ``secret`` fields
+to the Mopidy configuration file::
+
+    [qobuz]
+    username = alice
+    password = secret
+    app_id = foo
+    secret = bar
+    quality = 6
+
+
+See this `gist <https://gist.github.com/vitiko98/bb89fd203d08e285d06abf40d96db592>`_ to get
+`app_id` and `secret` values yourself.
+
+The following configuration values are available:
+
+- ``qobuz/enabled``: If the Qobuz extension should be enabled or not.
+  Defaults to ``true``.
+
+- ``qobuz/username``: Qobuz username (or email). You *must* provide this.
+
+- ``qobuz/password``: Qobuz password. You *must* provide this.
+
+- ``qobuz/app_id``: Qobuz app id. You *must* provide this.
+
+- ``qobuz/secret``: Qobuz secret key. You *must* provide this.
+
+- ``qobuz/quality``: Quality code integer. 5 is 320 MP3; 6 is FLAC; 7 is FLAC 24
+  ≤ 96; 27 is FLAC 24 > 96. Defaults to 6.
+
+- ``qobuz/search_album_count``: Maximum number of albums returned in search
+  results. Defaults to 10.
+
+- ``qobuz/search_track_count``: Maximum number of tracks returned in search
+  results. Defaults to 10.
+
+- ``qobuz/search_artist_count``: Maximum number of artists returned in search
+  results. Defaults to 0.
+
+- ``qobuz/custom_libraries``: An optional directory containing custom YAML library files. 
+  See ``tests/data/library.yml`` for more info.
+
+Status
+=================
+This extension is in alpha development.
+
+
+Project resources
+=================
+
+- `Source code <https://github.com/vitiko98/mopidy-qobuz>`_
+- `Issue tracker <https://github.com/vitiko98/mopidy-qobuz/issues>`_
