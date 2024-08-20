@@ -1,0 +1,5 @@
+btype>=0.1.4
+libusb_package>=1.0.26.2
+pyelftools
+pyusb
+tgcurses>=0.9.5
