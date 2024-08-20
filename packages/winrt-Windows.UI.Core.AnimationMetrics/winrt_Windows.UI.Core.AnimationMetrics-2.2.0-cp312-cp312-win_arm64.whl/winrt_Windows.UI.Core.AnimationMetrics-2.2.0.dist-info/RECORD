@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_core_animationmetrics.cp312-win_arm64.pyd,sha256=OOE806AKNy_FAeUjMr406Av-emhhW_sBrmo-JPZ5moo,100352
+winrt/_winrt_windows_ui_core_animationmetrics.pyi,sha256=OJXS_vApO2no6cYhhIqjDZ8TCNcUZF4qLQ76CppW7Hs,4240
+winrt/windows/ui/core/animationmetrics/__init__.py,sha256=kB9b_nuBNOaOllohAp2ZPTfw5I5ysqQbV-58__MPzHM,2212
+winrt/windows/ui/core/animationmetrics/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Core.AnimationMetrics-2.2.0.dist-info/METADATA,sha256=xeCwhJ9WgTwLshPcrIMRGsSM-qvI7vjqQjvVLXoXqKQ,1162
+winrt_Windows.UI.Core.AnimationMetrics-2.2.0.dist-info/WHEEL,sha256=Zb7xxpKNk5G3g6-yXQ6qIO3l9uksanx1wwJuO1EjUdM,101
+winrt_Windows.UI.Core.AnimationMetrics-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Core.AnimationMetrics-2.2.0.dist-info/RECORD,,
