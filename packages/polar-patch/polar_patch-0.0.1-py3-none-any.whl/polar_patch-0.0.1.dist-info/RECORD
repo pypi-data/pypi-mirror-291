@@ -1,0 +1,13 @@
+polar_patch/__cli__.py,sha256=YKde9O0Xe7HOQxWr_BCqArFZbo272RshJReabTIdQ2c,278
+polar_patch/__init__.py,sha256=zO0c7Pua8aGCE5Mor8uEiEnQf0Sw82SKs2JA11wbPoc,508
+polar_patch/aggrid.py,sha256=LO3TW3XhY6Lp4eAzxoigho3JdT2etg-MKkODKYfz4O0,1849
+polar_patch/patcher.py,sha256=X8fsTdny7rIIQYxvfLjaC7Z0J0zutsfcwKx9lm1dDBo,2333
+polar_patch/plugin_imports.py.j2,sha256=dktsxMb-jbSBBh7C8LJW3JUQON00rNT5r7P-2dbI3xI,163
+polar_patch/polars_classes.py,sha256=jb1RVKwvX_2ApdAKPSWobXkaVxpa56sEilmOkq3ZgB8,344
+polar_patch/scanner.py,sha256=cpqcTRoM6xVmrT8bTXylCSj8D8cPJA1T5LwYmHk8aXs,2713
+polar_patch/toml_schema.py,sha256=RhZY2WI2STN-qQ6uvJlC0SVAdvtxAqYj8RfGpJGswMQ,205
+polar_patch-0.0.1.dist-info/METADATA,sha256=v4Bn62Tz4BVB974YVUSH-mJ51avS-8_Yxdu6oYos5ck,745
+polar_patch-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+polar_patch-0.0.1.dist-info/entry_points.txt,sha256=oTEgr9HioEniyx2tYayINa_H8q-zvCjBA8z32H3KlS4,47
+polar_patch-0.0.1.dist-info/licenses/LICENSE,sha256=AKlX5lOseRxuviy4F1KxYVdrSF3IkmRIyM4sVfPYZ1k,1075
+polar_patch-0.0.1.dist-info/RECORD,,
