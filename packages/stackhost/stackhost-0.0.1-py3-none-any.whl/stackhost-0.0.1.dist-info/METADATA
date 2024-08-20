@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: stackhost
+Version: 0.0.1
+Summary: A shared hosting platform for students and developers offering affordable and free plans for testing and deploying projects.
+Home-page: https://github.com/ishikki-akabane/stackhost
+Author: iShikki
+Author-email: ishikkiakabane@gmail.com
+License: GNU General Public License v3.0
+Keywords: server,docker,kubernet,database,free,code,hosting,development
+Classifier: Framework :: AsyncIO
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+
+# StackHost
+
+**StackHost** is a shared hosting platform tailored for students and passionate developers who require affordable hosting solutions for testing and deploying their projects. We offer both free and paid plans at highly competitive prices, ensuring that everyone can access the resources they need without breaking the bank.
+
+## Why StackHost?
+
+- **Cost-Effective**: Our platform is designed with affordability in mind, providing you with a range of plans that suit your budget.
+- **Student-Friendly**: We understand the challenges of being a student, which is why we offer a free tier for testing purposes.
+- **Developer-Focused**: Whether you're a seasoned developer or just starting out, StackHost provides the tools and resources to support your journey.
+
+## Who Should Use StackHost?
+
+- **Students**: Perfect for those in need of a reliable environment to test projects without the high costs.
+- **Passionate Developers**: If you're looking for a budget-friendly solution to host your apps, websites, or bots, StackHost has you covered.
+
+## About the Owner
+
+**Owner**: [ishikki-akabane](https://github.com/ishikki-akabane)
