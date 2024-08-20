@@ -1,0 +1,8 @@
+winrt/_winrt_windows_storage_provider.cp313-win32.pyd,sha256=_SrlNx0j0mcTzwPaYj019dl4z7_k7fnrsA374TRXiy0,337920
+winrt/_winrt_windows_storage_provider.pyi,sha256=SOPypu0juvc3CZ8eHNRuk5JS6TpYuy4EP9ks-hLWCh0,20136
+winrt/windows/storage/provider/__init__.py,sha256=Cfn5KUiDiJBlxjBJ8bS2l_2aTdAAK6flonS13fExfaQ,6768
+winrt/windows/storage/provider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Storage.Provider-2.2.0.dist-info/METADATA,sha256=x0X7ugQKywWoPxULgkZZ84pbUQCZqvKEgMsLbWr0ZFY,1337
+winrt_Windows.Storage.Provider-2.2.0.dist-info/WHEEL,sha256=rHSPOKLHVf857fDiba9Pzuf1iCvh9pcRQ5-VWQYz3ms,97
+winrt_Windows.Storage.Provider-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.Provider-2.2.0.dist-info/RECORD,,
