@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=6.0.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easymobile"
+dynamic = ["version"]
+description = "EASYMOBILE Python client library"
+authors = [{name = "Ephraim", email = "ephraimakolo2017@gmail.com"}]
+license = {text = "MIT"}
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.7,<4.0"
+keywords = ["EASYMOBILE", "easymobile"]
+classifiers = [
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+]
+
+dependencies = ["requests"]
+
+[project.urls]
+homepage = "https://github.com/jake-ephraim/EASYMOBILE"
+repository = "https://github.com/jake-ephraim/EASYMOBILE"
+
+[tool.setuptools_scm]
+write_to = "easymobile/version.py"
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+
+[tool.black]
+line-length = 127
+
+[tool.isort]
+profile = "black"
+line_length = 127
+
+[tool.mypy]
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+warn_return_any = true
+no_implicit_optional = true
+strict_optional = true
+ignore_missing_imports = true
+
+[tool.coverage.run]
+omit = [
+    "*__init__.py",
+    "tests/*",
+    "venv/*",
+    ".venv/*",
+    "env/*",
+    "setup.py",
+]
+
+[tool.coverage.report]
+show_missing = true
