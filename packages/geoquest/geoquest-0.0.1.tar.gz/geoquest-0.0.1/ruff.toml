@@ -1,0 +1,13 @@
+[format]
+preview = true
+quote-style = "double"
+
+[lint]
+preview = true
+extend-select = ["C901"]
+
+[lint.extend-per-file-ignores]
+"docs/.hooks/*" = ["INP001", "T201"]
+
+[lint.isort]
+known-first-party = ["foo", "bar"]

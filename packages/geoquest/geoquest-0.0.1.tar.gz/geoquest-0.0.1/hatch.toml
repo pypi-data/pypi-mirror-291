@@ -1,0 +1,39 @@
+[version]
+path = "src/geoquest/__version__.py"
+
+[envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+
+[envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/geoquest tests}"
+
+[envs.default]
+dependencies = [
+  "httpx",
+  "asyncio",
+  "rich",
+  "python-dotenv",
+  "polars",
+]
+
+[envs.default.scripts]
+run_main = "python ./src/geoquest/county_info.py"
+
+[envs.dev]
+template = "default"
+skip-install = false
+dependencies = [
+  "ruff",
+  "rich",
+]
+
+[build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+]
+
+[build.targets.wheel]
+packages = ["src/geoquest"]
