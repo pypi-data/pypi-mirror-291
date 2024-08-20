@@ -1,0 +1,68 @@
+Metadata-Version: 2.3
+Name: picamzero
+Version: 0.0.1
+Summary: A library to make it easy for beginners to use the Raspberry Pi camera
+Author-email: Geraint Ballinger <geraint.ballinger@raspberrypi.org>, Peter Bell <peter.bell@raspberrypi.org>, Laura Sach <laura.sach@raspberrypi.org>
+License: MIT License
+        
+        Copyright (c) 2024 Raspberry Pi Foundation
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: picamera2
+Description-Content-Type: text/markdown
+
+# Pi camera zero (picamzero)
+
+picamzero is a Python 3 library designed to allow beginners to control a Raspberry Pi camera with Python.
+
+## Installation
+
+1. Open a terminal window on your Raspberry Pi.
+
+![Open a terminal window](images/open-terminal.png)
+
+2. Install packages required from apt:
+
+    ```
+    sudo apt install -y libcap-dev python3-libcamera
+    ```
+
+3. Create a virtual environment (venv)
+
+    ```
+    python3 -m venv --system-site-packages venv
+    ```
+
+4. Start the virtual environment. You will need to do this each time you want to use picamzero.
+    ```
+    source venv/bin/activate
+    ```
+
+5. Install picamzero
+
+    ```
+    pip3 install picamzero
+    ```
+
+## Documentation
+
+Full, beginner-friendly documentation is provided at 
+[http://raspberrypifoundation.github.io/picamzero](http://raspberrypifoundation.github.io/picamzero).
