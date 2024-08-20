@@ -1,0 +1,2 @@
+[console_scripts]
+tmm = mod_manager:_main
