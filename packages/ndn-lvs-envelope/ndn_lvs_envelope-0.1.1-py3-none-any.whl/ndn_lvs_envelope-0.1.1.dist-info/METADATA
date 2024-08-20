@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ndn-lvs-envelope
+Version: 0.1.1
+Summary: A New API for NDN Trust Schema
+Author: Tianyuan Yu
+Author-email: tianyuan@cs.ucla.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-ndn (>=0.4.1,<0.5.0)
+Description-Content-Type: text/markdown
+
+# LVS-Envelope
+A New Trust Schema API Designed for LVS Trust Schema
+
