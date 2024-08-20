@@ -1,0 +1,10 @@
+bytewax/bytewax-azure-ai-search/__init__.py,sha256=Ao7DC1mUY-mzvHGDsbPQIWfoMrexVdQ85BJvk16BkN0,205
+bytewax/bytewax-azure-ai-search/connection.py,sha256=jvHlBS-0OHQAxUiYCF3ax-bFa0NV2zXY0fq9UDyXGiY,906
+bytewax/bytewax-azure-ai-search/partition.py,sha256=iJxoK4oclGqnxleF_bIenHksgYcDo0BgEcuKInTfDUc,1232
+bytewax/bytewax-azure-ai-search/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytewax/bytewax-azure-ai-search/sink.py,sha256=u6DtlKxQeR4SQv5AnKiCCxVtLXhbp4SdO43lgMNnq0A,365
+bytewax_azure_ai_search-0.1.dist-info/LICENSE.md,sha256=jqE69WxzwD5fFwKzlu5Ic6QlsvmhWKBqReH-My_9HW0,17081
+bytewax_azure_ai_search-0.1.dist-info/METADATA,sha256=CtlVYb_q3aNesyi-gcAg1vJUw83juPx4oADZtqkpLlQ,23364
+bytewax_azure_ai_search-0.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+bytewax_azure_ai_search-0.1.dist-info/top_level.txt,sha256=wVzJkBvuLPmbBqCRFQnoMGOcaj5bijborxj22uCXHzA,8
+bytewax_azure_ai_search-0.1.dist-info/RECORD,,
