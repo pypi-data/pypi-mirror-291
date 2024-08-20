@@ -1,0 +1,11 @@
+logging_http_client/__init__.py,sha256=QbbERBL9QTlCb3QIsEkjdsPf3v50kEPYX2-gZV4zTWc,4711
+logging_http_client/http_headers.py,sha256=xATUcEe0urI6AEDiwblkCdgxGAb_3FKIDaGvytvBRp0,175
+logging_http_client/http_log_record.py,sha256=KpCw3AQT3dUlfg0z1Lsy8n4HpLGruf9iNKPxhwxvkWA,2433
+logging_http_client/http_methods.py,sha256=0YS_TIAIGqUB_hgpQ-qVuvf3YdeLk3FeV-vg6OUc2N0,287
+logging_http_client/http_session.py,sha256=6aBg2awc82jwXCUMzuCbdboQQpQlJSaJApaSMHGlPi4,3158
+logging_http_client/logging_http_client_class.py,sha256=wIG5kvnTQYkt0BF_Rvm7wJOHeCdBPg72fPZLpR6sXWA,3575
+logging_http_client/logging_http_client_config.py,sha256=-3lRighiz_7Y0WnzcRy9qz8QouGiUNR-OELNsPk73Fk,2986
+logging_http_client-2.32.3.0.dist-info/LICENSE,sha256=d4ailw8Xsxqmf9K_MDuj1VvGoODXzF1JmGTQqwWha98,1063
+logging_http_client-2.32.3.0.dist-info/METADATA,sha256=IB9TSNZiWszZaYwEFauTooH5vdnWobW24-slcR3nRC0,9044
+logging_http_client-2.32.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+logging_http_client-2.32.3.0.dist-info/RECORD,,
