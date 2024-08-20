@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_xaml_media_animation.cp312-win_arm64.pyd,sha256=XMpwPbKlKCMmBUKVDwQsvjPPyC76aca0xMdX3-IAZn8,2121728
+winrt/_winrt_windows_ui_xaml_media_animation.pyi,sha256=HZjvt0bd_xaqJd1YGob7YMZLhB_px5KvF8KII6bQlB0,194140
+winrt/windows/ui/xaml/media/animation/__init__.py,sha256=2WESBZCp_8l4VyteAxVnrrHuP20-tsPWv5o4pz78X-Y,11192
+winrt/windows/ui/xaml/media/animation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Xaml.Media.Animation-2.2.0.dist-info/METADATA,sha256=W3nskufPGUTW7B7njXZG6a3XmQMJ9HVxiMFcR90EYdM,1597
+winrt_Windows.UI.Xaml.Media.Animation-2.2.0.dist-info/WHEEL,sha256=Zb7xxpKNk5G3g6-yXQ6qIO3l9uksanx1wwJuO1EjUdM,101
+winrt_Windows.UI.Xaml.Media.Animation-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Xaml.Media.Animation-2.2.0.dist-info/RECORD,,
