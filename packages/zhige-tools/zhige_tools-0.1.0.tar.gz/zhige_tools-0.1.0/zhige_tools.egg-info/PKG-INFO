@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zhige-tools
+Version: 0.1.0
+Summary: zhige office的个人工具箱
+Home-page: https://github.com/zhigeoffice/ZhigeTools/
+Author: Zhige office
+Author-email: zhigeoffice@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ZhigeTools
+纸鸽的工具箱
