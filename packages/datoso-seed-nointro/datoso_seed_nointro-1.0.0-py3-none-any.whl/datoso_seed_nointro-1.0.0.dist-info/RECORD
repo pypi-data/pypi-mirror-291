@@ -1,0 +1,12 @@
+datoso_seed_nointro/__init__.py,sha256=o_goOkPAhlD7wdZiEuufQFJUzECbh2WRoGFCkUr7N0s,391
+datoso_seed_nointro/actions.py,sha256=Ec6oHcLLecZEeeFuSYZQBue4Leqty14cVfjqbDAdL3o,878
+datoso_seed_nointro/args.py,sha256=7YuvY6yOwT34O1TQpTelYt8RcsuDQHlhjxOzLqYDn3g,1850
+datoso_seed_nointro/common.py,sha256=oWmTxw1HAOseJy1YfOEzppVz4aW69fAt2WMrLPRt51c,1400
+datoso_seed_nointro/dats.py,sha256=M_eb_V0b2sGFonreq5fK-3gtmCV_RfpZR1Rp4mdde2I,3231
+datoso_seed_nointro/fetch.py,sha256=QVYV7t_juvn89BSheYi1he7xrERGC-8I9rJfALTpKIM,6113
+datoso_seed_nointro/rules.py,sha256=QXWcfn2FXWdiJAw5HfsRYR9unvbQdkDi6ZcKO3bK5nE,600
+datoso_seed_nointro-1.0.0.dist-info/LICENSE,sha256=dJOagfIbefhWwjhYq57N6ooGj0uN8H2mV97TdLvANK8,1072
+datoso_seed_nointro-1.0.0.dist-info/METADATA,sha256=0Fo9HB2ld3RQQ3y8bcIFYe6AOGYfZaWpKEUZndC5lo4,1972
+datoso_seed_nointro-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+datoso_seed_nointro-1.0.0.dist-info/top_level.txt,sha256=YARzmC-8rJQatOQGnWDn831DYv_SiEbGgwqCpywkS4o,20
+datoso_seed_nointro-1.0.0.dist-info/RECORD,,
