@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: WSS-ToolKit
+Version: 0.0.4
+Summary: A small set of tools. Primarily intended for WoollySensed Software.
+Author-email: WoollySensed Software <woollysensed.software@gmail.com>
+Project-URL: Homepage, https://github.com/WoollySensed-Software/WSS-ToolKit
+Project-URL: Issues, https://github.com/WoollySensed-Software/WSS-ToolKit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: toml
+Requires-Dist: pyyaml
+
+soon... 👌

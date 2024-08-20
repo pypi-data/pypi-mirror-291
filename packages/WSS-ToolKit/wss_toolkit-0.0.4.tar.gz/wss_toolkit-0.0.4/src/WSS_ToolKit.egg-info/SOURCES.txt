@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+src/WSS_ToolKit/__init__.py
+src/WSS_ToolKit.egg-info/PKG-INFO
+src/WSS_ToolKit.egg-info/SOURCES.txt
+src/WSS_ToolKit.egg-info/dependency_links.txt
+src/WSS_ToolKit.egg-info/requires.txt
+src/WSS_ToolKit.egg-info/top_level.txt
+src/WSS_ToolKit/WConfigUtils/ConfigUtils.py
+src/WSS_ToolKit/WConfigUtils/__init__.py
+src/WSS_ToolKit/WGeometryUtils/GeometryUtils.py
+src/WSS_ToolKit/WGeometryUtils/__init__.py
+tests/test.py
