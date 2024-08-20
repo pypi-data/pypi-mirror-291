@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: pixeler
+Version: 0.0.1
+Summary: An automation framework for python using OpenCV
+Project-URL: Homepage, https://github.com/klobbix/Pixeler
+Project-URL: Issues, https://github.com/klobbix/Pixeler/issues
+Author-email: Klobbix <klobbix@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Pixeler
+
+An automation framework for Python using OpenCV.
