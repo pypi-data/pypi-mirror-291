@@ -1,0 +1,14 @@
+Clinton/__init__.py,sha256=aFOz9q11uudeC7tnE37dBxBs4-rGLjjU7r5Wyr7skmc,664
+Clinton/functions/__init__.py,sha256=FNjU7eokktGCq3GBHm7aR3mKgfhFw0bZ3aRgf0PDpcg,63
+Clinton/functions/collections.py,sha256=eo50a-KOBNL1e1J3T_rPtw40fT8LWKBTpHeVQa8mWaQ,150
+Clinton/functions/function01.py,sha256=y92rNuBi0Lq8gCCplm6y0xfNm7XykTAok-Hs2UZJ5wU,603
+Clinton/functions/function02.py,sha256=BLGuc7msv3LaWQoSbJx5qCS2AT87eg4LhFBKq0MRm7U,3190
+Clinton/scripts/__init__.py,sha256=DWqwMKhgX3PWQsCmCMVtKRWyjF9VceFuxBIv715-vwo,86
+Clinton/scripts/script01.py,sha256=iwPX2fQzeNIiJIPIfnG0q2sLLFfe5VOj2oszNeeyHpY,62
+Clinton/scripts/script02.py,sha256=e_wX4cCHrqf-d6EkGy3TWutEW5wtQXKfgDOcy51FKLM,1263
+Clinton/scripts/script05.py,sha256=L59fbeG3C1XIp-_VbcQBNj0QPLnt-DPUOPCsAEJ5oTQ,393
+clinton-0.0.5.dist-info/LICENSE,sha256=Rtp2epIBzMa8N-epJUiD2bJ0HfkRuds0NxA08BPoEdI,1071
+clinton-0.0.5.dist-info/METADATA,sha256=n-W0wA-fwYljNEP3s5iqSDyg6eA-plwkkqUeYmZ8L8I,1295
+clinton-0.0.5.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+clinton-0.0.5.dist-info/top_level.txt,sha256=As_wmlaTOhs-0Zp4bmzOixFiAXUe9eoRDaEYs0IRaRE,8
+clinton-0.0.5.dist-info/RECORD,,
