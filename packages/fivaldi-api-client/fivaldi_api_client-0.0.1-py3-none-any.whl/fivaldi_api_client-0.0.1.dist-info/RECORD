@@ -1,0 +1,9 @@
+fivaldi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fivaldi/client.py,sha256=CCU4nvK6kZWKr-ApbTvlpFRAAy0ipWQ8GL-d-toDU08,2254
+fivaldi/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fivaldi/api/auth.py,sha256=ZYKT7RZZElyU3CW1G-A1jMQvxKHKBOy_Qww8GsgwqJI,1708
+fivaldi/api/endpoint.py,sha256=nUdkg1nEItbrMITWfh9xn_eOP_-do3kVx2N4K3l_Itg,9000
+fivaldi_api_client-0.0.1.dist-info/METADATA,sha256=RsAZZeoJdLZh-ZspssSorQV1al3MHmGryGClZql5k1k,1199
+fivaldi_api_client-0.0.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+fivaldi_api_client-0.0.1.dist-info/top_level.txt,sha256=FWxoTMX4F3EwD8oWuN0RqBSXmwhWTnPsvsifYcE2mNU,8
+fivaldi_api_client-0.0.1.dist-info/RECORD,,
