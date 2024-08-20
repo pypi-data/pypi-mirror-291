@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_usb.cp311-win_amd64.pyd,sha256=UBkbqgEqk9eWt5QmaPzF6riklPWkstH5dmlsxu9Yra0,305664
+winrt/_winrt_windows_devices_usb.pyi,sha256=FrFWcHBMCkVlnimuNnrYBQ4-HF2uYzWulwmZnxOSbd8,17419
+winrt/windows/devices/usb/__init__.py,sha256=hhxGG4I4L5Jr3E43LEYg1PGDtV2PGGswt5cRdV_xrcA,3176
+winrt/windows/devices/usb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Usb-2.2.0.dist-info/METADATA,sha256=0RFN0i-O34d1PIPy0szn_jC7Czuyv2UuQyp33ZrxrSI,1186
+winrt_Windows.Devices.Usb-2.2.0.dist-info/WHEEL,sha256=hOAPNWbnB-LOXvjF1CytkzslAkcUu0x2KSUVu1K2paw,101
+winrt_Windows.Devices.Usb-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Usb-2.2.0.dist-info/RECORD,,
