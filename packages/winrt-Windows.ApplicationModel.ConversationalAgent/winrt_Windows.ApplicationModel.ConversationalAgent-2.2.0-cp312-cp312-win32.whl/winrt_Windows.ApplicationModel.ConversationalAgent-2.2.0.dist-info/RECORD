@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_conversationalagent.cp312-win32.pyd,sha256=_Q3YlSxRsigrs-wM0DBV2illVbGM0dprYWxPJ-PhG7o,428032
+winrt/_winrt_windows_applicationmodel_conversationalagent.pyi,sha256=ul1Ndjfkq5W-BirE8BjfBNZqp0RZUVEUi5deUyOVR0Y,17929
+winrt/windows/applicationmodel/conversationalagent/__init__.py,sha256=LU_GgNBr07RLE9Rir5eWcPWls6atoy4FQTOhqYcpbF8,6387
+winrt/windows/applicationmodel/conversationalagent/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.ConversationalAgent-2.2.0.dist-info/METADATA,sha256=72dZghyOds9SzBe6ACEHK3H5qOKaoGdt_i3D8_QVQj4,1358
+winrt_Windows.ApplicationModel.ConversationalAgent-2.2.0.dist-info/WHEEL,sha256=r6Fxzz0NXx_hD44EZGpbjgoscm0JJ3Dqmkx4CC_SuvA,97
+winrt_Windows.ApplicationModel.ConversationalAgent-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.ConversationalAgent-2.2.0.dist-info/RECORD,,
