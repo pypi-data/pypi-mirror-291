@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_servicediscovery_dnssd.cp39-win_amd64.pyd,sha256=xjqpNm-gOXYUif7sLJtJa1rmmW08LfKoFtnb_c-8ymg,125952
+winrt/_winrt_windows_networking_servicediscovery_dnssd.pyi,sha256=NEfiOYSkhNYUPn7mdhsTmGQl-1o0tq3swXNpwpvJm6Q,5810
+winrt/windows/networking/servicediscovery/dnssd/__init__.py,sha256=uyfU_e2v39tK6mb9uQAf9ujKoAlRkVSWCzDT5hukeXc,1136
+winrt/windows/networking/servicediscovery/dnssd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.ServiceDiscovery.Dnssd-2.2.0.dist-info/METADATA,sha256=kj3l8iy364g3-ho-0REkhtkfPMVGe8bAuL4N-Cm-Glo,1432
+winrt_Windows.Networking.ServiceDiscovery.Dnssd-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.Networking.ServiceDiscovery.Dnssd-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.ServiceDiscovery.Dnssd-2.2.0.dist-info/RECORD,,
