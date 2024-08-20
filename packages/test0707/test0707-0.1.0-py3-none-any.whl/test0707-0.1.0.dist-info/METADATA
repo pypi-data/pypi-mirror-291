@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: test0707
+Version: 0.1.0
+Summary: Convert any number to words in Uzbek
+Home-page: https://github.com/shoxa0707/num2word-uz
+Author: Shaxboz
+Author-email: shoxa0212@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
