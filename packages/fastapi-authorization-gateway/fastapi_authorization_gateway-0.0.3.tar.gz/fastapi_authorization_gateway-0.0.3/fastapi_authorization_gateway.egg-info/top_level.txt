@@ -1,0 +1,3 @@
+dist
+docs
+fastapi_authorization_gateway
