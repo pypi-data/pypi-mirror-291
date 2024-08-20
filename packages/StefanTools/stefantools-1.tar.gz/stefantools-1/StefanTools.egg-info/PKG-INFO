@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: StefanTools
+Version: 1
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: inputimeout
+
+# Maintaining
+
+This package is a package created for my personal use. You can use it too but don't expect any updating or maintaining unless I need it or feel like it.
