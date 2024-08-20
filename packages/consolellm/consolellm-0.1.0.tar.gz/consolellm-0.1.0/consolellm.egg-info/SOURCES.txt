@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+consolellm/__init__.py
+consolellm/app.py
+consolellm/config.py
+consolellm.egg-info/PKG-INFO
+consolellm.egg-info/SOURCES.txt
+consolellm.egg-info/dependency_links.txt
+consolellm.egg-info/requires.txt
+consolellm.egg-info/top_level.txt
