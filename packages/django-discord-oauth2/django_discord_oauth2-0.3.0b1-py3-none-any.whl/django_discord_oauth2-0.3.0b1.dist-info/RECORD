@@ -1,0 +1,12 @@
+django_discord_oauth2/__init__.py,sha256=rAl4d2F3UJfMnKjk9FYM9ZuA0IlN9QONPc2jkaMtPTw,591
+django_discord_oauth2/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_discord_oauth2/apps.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_discord_oauth2/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_discord_oauth2/urls.py,sha256=mrMCm0RjLfFMdFwi5PEAWke75aYEi-sL5nOuQNC5nTE,765
+django_discord_oauth2/views.py,sha256=ezUP78eBlE5e7r0j1BLTFySxYTAbZvzcof6HYCiJfdY,4064
+django_discord_oauth2/migrations/__init__.py,sha256=rAl4d2F3UJfMnKjk9FYM9ZuA0IlN9QONPc2jkaMtPTw,591
+django_discord_oauth2-0.3.0b1.dist-info/LICENSE,sha256=ck4_xMxk5S7CPSlda9oIF61HC9tbsZIdZnTYJGenMj4,11341
+django_discord_oauth2-0.3.0b1.dist-info/METADATA,sha256=M52go9g4mHzOjwaab7vr93AKpKP9PiXbx23kAgqgFX8,16109
+django_discord_oauth2-0.3.0b1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+django_discord_oauth2-0.3.0b1.dist-info/top_level.txt,sha256=UubVJ29tzaXP2i0z9lDxtCmkzNAN2cn3vIJFY1l-EfY,22
+django_discord_oauth2-0.3.0b1.dist-info/RECORD,,
