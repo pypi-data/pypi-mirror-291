@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+django_discord_oauth2/__init__.py
+django_discord_oauth2/admin.py
+django_discord_oauth2/apps.py
+django_discord_oauth2/models.py
+django_discord_oauth2/urls.py
+django_discord_oauth2/views.py
+django_discord_oauth2.egg-info/PKG-INFO
+django_discord_oauth2.egg-info/SOURCES.txt
+django_discord_oauth2.egg-info/dependency_links.txt
+django_discord_oauth2.egg-info/requires.txt
+django_discord_oauth2.egg-info/top_level.txt
+django_discord_oauth2/migrations/__init__.py
