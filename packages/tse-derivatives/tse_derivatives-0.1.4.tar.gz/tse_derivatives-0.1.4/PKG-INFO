@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: tse_derivatives
+Version: 0.1.4
+Summary: Gets the underlying asset ticker and the option type (either call or put) to fetch live option data.
+Author: Jalal Seifoddini
+Author-email: jalal.seifoddini@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Live TSE Options Data Fetcher
+
+## Description
+
+This Python package retrieves live data for options traded on Tehran Stock Exchange and Iran Farabourse Exchange based on the underlying asset's ticker and option type. It supports tickers such as "خودرو" and option types including "call" and "put".
+
+If  ticker is set to "all", then it gives the whole market watch for all of the underlying assets.
+
+## Features
+
+- Fetch live option data for specified tickers or the whole market.
+- Support for multiple option types: "call" and "put".
+- Easy integration with your existing applications.
+
+## Installation
+
+You can install the package via pip:
+
+```python
+pip install tse_derivatives
+```
+
+## Examples
+
+Live options data for a specific underlying asset:
+
+```python
+from tse_derivatives import tse_options
+
+ticker = "خودرو" # or "اهرم" ...
+type = "call"  # or "put"
+data = tse_options(ticker, type)
+print(data)
+```
+Live options data for all underlying assets:
+
+```python
+from tse_derivatives import tse_options
+
+ticker = "all"
+type = "call"  # or "put"
+data = tse_options(ticker, type)
+print(data)
+```

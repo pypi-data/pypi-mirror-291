@@ -1,0 +1,8 @@
+README.md
+setup.py
+tse_derivatives/__init__.py
+tse_derivatives.egg-info/PKG-INFO
+tse_derivatives.egg-info/SOURCES.txt
+tse_derivatives.egg-info/dependency_links.txt
+tse_derivatives.egg-info/requires.txt
+tse_derivatives.egg-info/top_level.txt
