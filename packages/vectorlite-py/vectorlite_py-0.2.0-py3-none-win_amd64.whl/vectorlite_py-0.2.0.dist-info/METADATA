@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vectorlite_py
+Version: 0.2.0
+Summary: Fast vector search for sqlite3
+Home-page: https://github.com/1yefuwang1/vectorlite
+Author: Yefu Wang
+Author-email: 1yefuwang1@gmail.com
+License: Apache License, Version 2.0
+License-File: LICENSE
+
+Fast vector search for sqlite3
