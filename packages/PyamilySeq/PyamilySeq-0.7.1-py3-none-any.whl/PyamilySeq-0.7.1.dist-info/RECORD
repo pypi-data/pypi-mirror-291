@@ -1,0 +1,14 @@
+PyamilySeq/Constants.py,sha256=4MNcQLwJguoC9fHBLbreAe-GNgNvtzYrF0MBM6BFY_s,31
+PyamilySeq/PyamilySeq.py,sha256=RbM6G1yU64jlb9r7QRry1vw5mQsxndM6TrvMvq3BVik,15466
+PyamilySeq/PyamilySeq_Genus.py,sha256=ZjD61mTW7NgmsfGfFVEXeIZoSCha9PaLtMPnqdTtacU,12413
+PyamilySeq/PyamilySeq_Species.py,sha256=WL6pu8hlGpnemcpu1tLFmlUlPd4vJpQSW4Om5Hclu_k,14438
+PyamilySeq/Seq_Combiner.py,sha256=dPDu6LlT3B-ZDn3wKZ3AeWraDgv2Tub_16l9CLc3tQ0,3353
+PyamilySeq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyamilySeq/clusterings.py,sha256=rcWFv0IiWoS4aUNRjDDwNEL86l1wIKa4vK4htAxy8Hg,18787
+PyamilySeq/utils.py,sha256=-0OZxmX96kOTzms8gnbFBvc5DL6NsqNHNpLpQ4UjNk8,15726
+PyamilySeq-0.7.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+PyamilySeq-0.7.1.dist-info/METADATA,sha256=IpbThlfEmO-S8Nl617eQB64Xzu9GJDz19L4Jhx7lwGY,13076
+PyamilySeq-0.7.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+PyamilySeq-0.7.1.dist-info/entry_points.txt,sha256=QtXD1tmnLvRAkIpGWZgXm1lfLH8GGeCwxmgoHZaTp98,102
+PyamilySeq-0.7.1.dist-info/top_level.txt,sha256=J6JhugUQTq4rq96yibAlQu3o4KCM9WuYfqr3w1r119M,11
+PyamilySeq-0.7.1.dist-info/RECORD,,
