@@ -1,0 +1,3 @@
+[console_scripts]
+deng=tatchiwiggers_de_toolkit.main:cli
+
