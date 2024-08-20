@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include THIRD_PARTY_LICENSES.txt
+include CHANGELOG.md
+include requirements.txt
+include requirements-macos.txt
+recursive-include src/telegramlib/templates *
+recursive-include src/telegramlib/static *
