@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batocera_manager"
+version = "0.9.7"
+authors = [
+  { name="zhbjsh", email="zhbjsh@outlook.com" },
+]
+description = "Control and monitor Batocera"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+keywords = [
+  "batocera",
+  "ssh",
+  "terminal",
+  "console",
+  "shell",
+  "bash",
+  "commands",
+  "command line"
+]
+dependencies = [
+  "aiohttp >= 3.8.5",
+  "ssh-terminal-manager >= 1.0.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zhbjsh/batocera-manager"
+"Bug Tracker" = "https://github.com/zhbjsh/batocera-manager/issues"
