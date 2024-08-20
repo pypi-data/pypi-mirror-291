@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_ui_xaml_xamltypeinfo.cp313-win_arm64.pyd,sha256=I3SzuWOA8zzYvuZPRsqZ_J4_N37lR2KWlsbMSABd5r8,44032
+winrt/_winrt_microsoft_ui_xaml_xamltypeinfo.pyi,sha256=Nswpt0I-1g09vFLfwHXGBhIMqY_MYwd0hBjaqc8HRR8,1081
+winrt/microsoft/ui/xaml/xamltypeinfo/__init__.py,sha256=539keb-dSOUjRYU5fwMIAhz0CBL5Fos7h23Za43PE1g,319
+winrt/microsoft/ui/xaml/xamltypeinfo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.UI.Xaml.XamlTypeInfo-2.2.0.dist-info/METADATA,sha256=gg949q5wVx-7RYSBZYg0sBzF8RWZqVMd68LNQYskB2Y,1153
+winrt_Microsoft.UI.Xaml.XamlTypeInfo-2.2.0.dist-info/WHEEL,sha256=Bc3zGnBzvnkuBaMd-KCqScACPFmA-93PSEDjeXqCzu8,101
+winrt_Microsoft.UI.Xaml.XamlTypeInfo-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Xaml.XamlTypeInfo-2.2.0.dist-info/RECORD,,
