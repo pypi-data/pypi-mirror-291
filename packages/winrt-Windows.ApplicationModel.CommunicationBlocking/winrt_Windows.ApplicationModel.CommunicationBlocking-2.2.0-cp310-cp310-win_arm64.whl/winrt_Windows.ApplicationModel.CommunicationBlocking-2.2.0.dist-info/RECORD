@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_communicationblocking.cp310-win_arm64.pyd,sha256=tZ0CBGLsTqXhhq4A___3ixczEW1zLctJOsQ8J2Ds8uQ,83968
+winrt/_winrt_windows_applicationmodel_communicationblocking.pyi,sha256=9GeX42O_5CjKwfqyr_2MRjLl9H3diKYT5YC_YF_ltPM,1504
+winrt/windows/applicationmodel/communicationblocking/__init__.py,sha256=aNA90PGj0hAIqNhIkkVahQbcolQ-h5t2NrZb_UypyME,516
+winrt/windows/applicationmodel/communicationblocking/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.CommunicationBlocking-2.2.0.dist-info/METADATA,sha256=7NG8NoGFmhhio37W_uqiVFQr48RPh4brYGwcBZIkP98,1218
+winrt_Windows.ApplicationModel.CommunicationBlocking-2.2.0.dist-info/WHEEL,sha256=OUR_6PdNqVNxYcSYXC3UBUAovf2K3Wwd-pjMeQ3_Flo,101
+winrt_Windows.ApplicationModel.CommunicationBlocking-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.CommunicationBlocking-2.2.0.dist-info/RECORD,,
