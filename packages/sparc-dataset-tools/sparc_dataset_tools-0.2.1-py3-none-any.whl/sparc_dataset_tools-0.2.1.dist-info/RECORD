@@ -1,0 +1,9 @@
+sparc/__init__.py,sha256=QDJyS5jtJnGFsSuOx43ZvLBCOrHImm8NrZk5f9URWdk,75
+sparc/dataset/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+sparc/dataset/scaffold.py,sha256=ah_mKDMn74VaSmXoL65m22fdao6UeCIMnQGo4f1Emjk,4023
+sparc_dataset_tools-0.2.1.dist-info/LICENSE,sha256=-e3Zfd0Ugau7XOQeAb2xKAkLXCVkPzjuQDHvQQbqAyM,594
+sparc_dataset_tools-0.2.1.dist-info/METADATA,sha256=IADHqSQFgfwl0umopg6RcOwusiC0bj7WUw4pWTNMk4A,2879
+sparc_dataset_tools-0.2.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+sparc_dataset_tools-0.2.1.dist-info/entry_points.txt,sha256=EMUg6YgGC5QnsbfVjmvAAplm4I3mmo0YDjkUaLDYnIU,72
+sparc_dataset_tools-0.2.1.dist-info/top_level.txt,sha256=0Rkt3aTPDJTiu4CYXIrK3J29ztJr3Fd8oBc_SwyDECs,6
+sparc_dataset_tools-0.2.1.dist-info/RECORD,,
