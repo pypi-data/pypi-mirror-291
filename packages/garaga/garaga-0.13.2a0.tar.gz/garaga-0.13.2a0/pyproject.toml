@@ -1,0 +1,53 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "garaga"
+version = "0.13.2a0"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "cairo-lang==0.13.2a0",
+  "fastecdsa",
+  "sympy",
+  "typer",
+  "web3==5.31.0"
+]
+
+[project.scripts]
+garaga = "garaga.starknet.starknet_cli:app"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+manifest-path = "tools/garaga_rs/Cargo.toml"
+# configures rust package as a module under garaga
+module-name = "garaga.garaga_rs"
+# python source root must be under <tool.maturin.python-source>/<project.name>
+python-source = "hydra"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+cache_dir = "build/.pytest_cache"
+testpaths = ["tests/hydra"]
+# addopts = "--tb=short --showlocals"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | \venv
+  | build
+  | dist
+)/
+'''
