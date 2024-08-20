@@ -1,0 +1,2 @@
+[console_scripts]
+calculate-mpn = bayesian_mpn_calculator.mpn_calculator:calculate_mpn
