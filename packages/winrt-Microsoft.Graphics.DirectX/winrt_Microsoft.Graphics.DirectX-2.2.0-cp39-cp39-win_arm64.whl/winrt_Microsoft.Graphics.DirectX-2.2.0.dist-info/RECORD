@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_graphics_directx.cp39-win_arm64.pyd,sha256=NFNZfEf6TMMll5k-7-LH_sBUduf2ULNunJc0zGAfJU0,10752
+winrt/_winrt_microsoft_graphics_directx.pyi,sha256=8YMs7ngzeAvsw4qc0QS3lSa6lNLM2XgD5Z9kAl7fiL4,400
+winrt/microsoft/graphics/directx/__init__.py,sha256=oTTe6mVlmfL79uVnqUEDkhaYeQS43HkMLZcxZt0uyw0,4809
+winrt/microsoft/graphics/directx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Graphics.DirectX-2.2.0.dist-info/METADATA,sha256=wq6l1XxWuwwXxyyTQU5oAPOPtGM_8jKfgcsydlsxRTc,963
+winrt_Microsoft.Graphics.DirectX-2.2.0.dist-info/WHEEL,sha256=1X4SI6JzpFpIzSmBBTg0QwD-EmnM_r0em1bF5NQSYXw,99
+winrt_Microsoft.Graphics.DirectX-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Graphics.DirectX-2.2.0.dist-info/RECORD,,
