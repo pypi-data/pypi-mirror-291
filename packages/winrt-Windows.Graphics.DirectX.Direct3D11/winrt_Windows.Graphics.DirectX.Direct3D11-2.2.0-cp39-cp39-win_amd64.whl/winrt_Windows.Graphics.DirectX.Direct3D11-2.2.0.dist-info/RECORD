@@ -1,0 +1,8 @@
+winrt/_winrt_windows_graphics_directx_direct3d11.cp39-win_amd64.pyd,sha256=mMftb2sq8Fomn0l1NyrHoYEShhoFy7vrHhhZsegxuCk,46080
+winrt/_winrt_windows_graphics_directx_direct3d11.pyi,sha256=qnoENH1DX5xHfF9qBpgNEW17Xe_3oGINn92zH5RDbYU,1695
+winrt/windows/graphics/directx/direct3d11/__init__.py,sha256=WDSf2gwvjxuD7WSv0QLDrVguMPyGVawloDkd5aL9cvI,1106
+winrt/windows/graphics/directx/direct3d11/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Graphics.DirectX.Direct3D11-2.2.0.dist-info/METADATA,sha256=j_9u7yredoBE5junDy6Vs8qshdrAr8BAzBt-UmaFXwE,1097
+winrt_Windows.Graphics.DirectX.Direct3D11-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.Graphics.DirectX.Direct3D11-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.DirectX.Direct3D11-2.2.0.dist-info/RECORD,,
