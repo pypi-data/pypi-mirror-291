@@ -1,0 +1,7 @@
+apache_airflow_provider_magento/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+apache_airflow_provider_magento/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apache_airflow_provider_magento/hooks/magento.py,sha256=Y-DhH4l5vtGn8qKAH3dNDDQQ7J1QooX49Plix1Eaam0,4028
+apache_airflow_provider_magento-0.1.dist-info/METADATA,sha256=RDAoOCvg-xZRgZiDdbwYn-UnEV4bLTnuCbiaml4jvug,356
+apache_airflow_provider_magento-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apache_airflow_provider_magento-0.1.dist-info/top_level.txt,sha256=vJAEj8I_8K9ksH7MxgLnI1S0E3JPVcpqi8508Dbh7HI,32
+apache_airflow_provider_magento-0.1.dist-info/RECORD,,

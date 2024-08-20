@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: apache-airflow-provider-magento
+Version: 0.1
+Summary: Apache Airflow provider for Magento 2
+Home-page: https://github.com/sivajik34/magento-airflow
+Author: Sivakumar Koduru
+Author-email: sivajik34@gmail.com
+Requires-Python: >=3.8
+Requires-Dist: apache-airflow (>=2.8.0)
+Requires-Dist: requests-oauthlib
+Requires-Dist: requests
+
