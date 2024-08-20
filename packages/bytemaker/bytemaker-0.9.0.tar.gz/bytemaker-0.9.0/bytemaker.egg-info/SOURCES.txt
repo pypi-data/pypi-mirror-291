@@ -1,0 +1,11 @@
+LICENCE.md
+README.md
+pyproject.toml
+bytemaker/__init__.py
+bytemaker/typing_redirect.py
+bytemaker/utils.py
+bytemaker.egg-info/PKG-INFO
+bytemaker.egg-info/SOURCES.txt
+bytemaker.egg-info/dependency_links.txt
+bytemaker.egg-info/requires.txt
+bytemaker.egg-info/top_level.txt
