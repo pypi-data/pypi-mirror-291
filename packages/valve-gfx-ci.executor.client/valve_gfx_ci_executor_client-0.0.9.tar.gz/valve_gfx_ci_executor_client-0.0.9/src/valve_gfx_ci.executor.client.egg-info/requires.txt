@@ -1,0 +1,6 @@
+requests<3,>=2
+requests-toolbelt<2,>=1
+tabulate<1,>=0.9
+
+[:python_version < "3.8"]
+backports.cached-property
