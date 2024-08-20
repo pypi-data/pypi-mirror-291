@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: text_encryption
+Version: 0.1.0
+Summary: A simple text and file encryption tool using Python
+Home-page: https://github.com/shivamthakur124756/fileencryption
+Author: shivam thaqkur , armaan singh , Ananya Verma , suraj singh 
+Author-email: shivamwork069@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography >=3.4.7
+
+# Text Encryption Project
+
+This is a Python package for encrypting and decrypting files using AES encryption.
+
+## Features
+- Encrypt files with a password.
+- Decrypt files using the correct password.
+
+## Installation
+You can install this package using `pip`:
+
+```bash
+pip install textencryption
