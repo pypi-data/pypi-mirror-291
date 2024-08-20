@@ -1,0 +1,8 @@
+README.md
+setup.py
+textencryption.egg-info/PKG-INFO
+textencryption.egg-info/SOURCES.txt
+textencryption.egg-info/dependency_links.txt
+textencryption.egg-info/entry_points.txt
+textencryption.egg-info/requires.txt
+textencryption.egg-info/top_level.txt
