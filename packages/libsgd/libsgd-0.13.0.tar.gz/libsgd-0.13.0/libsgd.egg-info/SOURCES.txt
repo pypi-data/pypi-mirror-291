@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+libsgd/__init__.py
+libsgd/_sgd.py
+libsgd/sgd.py
+libsgd.egg-info/PKG-INFO
+libsgd.egg-info/SOURCES.txt
+libsgd.egg-info/dependency_links.txt
+libsgd.egg-info/top_level.txt
+libsgd/libs/py310/_sgd.pyd
+libsgd/libs/py311/_sgd.pyd
+libsgd/libs/py38/_sgd.pyd
+libsgd/libs/py39/_sgd.pyd
