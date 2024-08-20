@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_appservice.cp39-win_amd64.pyd,sha256=3svO0QHi89fBUNQ0f4g8XbQjpV1yNNVg24j0DXo2pAM,160256
+winrt/_winrt_windows_applicationmodel_appservice.pyi,sha256=wxhoLumTvwb0skFPC0_BNiw2cUi5Udi6eB2CPSyFTQM,5902
+winrt/windows/applicationmodel/appservice/__init__.py,sha256=VsgZdEANmdKgXTAGnXfW26R_KEPHIzBANGcroVx7zKU,2744
+winrt/windows/applicationmodel/appservice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.AppService-2.2.0.dist-info/METADATA,sha256=C5jNB7X2q8N4cpU8A_Wfn4-F7aQb6gV87NiYC_Sypko,1399
+winrt_Windows.ApplicationModel.AppService-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.ApplicationModel.AppService-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.AppService-2.2.0.dist-info/RECORD,,
