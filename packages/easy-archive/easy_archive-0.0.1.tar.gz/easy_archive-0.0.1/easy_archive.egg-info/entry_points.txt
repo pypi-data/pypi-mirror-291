@@ -1,0 +1,3 @@
+[console_scripts]
+earc = src.cli:main
+easy-archive = src.cli:main
