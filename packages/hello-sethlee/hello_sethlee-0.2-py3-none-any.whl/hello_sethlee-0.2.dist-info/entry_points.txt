@@ -1,0 +1,2 @@
+[console_scripts]
+hello_sethlee = hello_sethlee.main:hello
