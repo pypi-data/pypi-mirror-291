@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: m4811-spt-cli
+Version: 0.2.0
+Summary: The model4811 mfg test script.
+Home-page: https://gitlab-x.mcci.com/mcci/hardware/catena/mfg/test-proc-4811
+Author: MCCI Corporation
+Author-email: vinayn@mcci.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: modbus-tk
+Requires-Dist: pyserial
+
+# Model4811 MFG Test Instruction
+
+This document covers the steps involved in the Model 4811 Remote Power Meter MFG testing using `m4811-spt-cli.py` script.
+
+## Table of Contents
+- [Requirements](#requirements)
+    - [Hardware](#hardware)
+    - [Software](#software)
+- [Test Setup](#test-setup)
+- [Steps to do Model4811 MFG Test](#steps-to-do-model4811-mfg-test)
+
+## Requirements
+
+### Hardware
+
+- Model4811.
+- 12V DC power supply.
+- Model4815 RS485 to USB converter (PDXpert # `123002278`).
+- Type-C Cable (PDXpert #`123001579`).
+
+### Software
+
+- The `m4811-spt-cli.py` script.
+- The BIN file to be loaded.
+
+## Test Setup
+
+- Make the Test Setup for MFG test by referring the following block diagram:
+![Model4811 MFG Test Setup Block Diagram](assets/Model4811-MFG-Test-Setup.png)
+
+- Connect the Model4811 with 12V DC power supply to power the board like shown in the block diagram.
+- Then connect the Model4815 to Model4811, and connect the Model4815 RS4815 to USB converter to laptop via a Type-C USB cable (for spt communication) as shown in the block diagram.
+- Open `Device Manager` and note down the COM port enumerated for Model4815 RS485 to USB converter.
+- Clone this repo using the command `git clone git@gitlab-x.mcci.com:mcci/hardware/catena/mfg/test-proc-4811.git` in a desired location.
+- Get and place the BIN file to be loaded in the `m4811-spt-cli.py` script folder location.
+- Open a command prompt window in the `m4811-spt-cli.py` folder location.
+
+## Steps to do Model4811 MFG Test
+
+- Make the test setup by referring the [Test Setup](#test-setup).
+- Open the command prompt window and type `python m4811-spt-cli.py COMxx`. Make sure to provide the enumerated COM port for Model4815 RS485 to USB converter that has been noted down earlier.
+- The following log will be printed in the command prompt:
+
+    ```
+    modbus_tk   : DEBUG    RtuServer COMxx is opened
+    modbus_tk   : INFO     m4811-spt-cli running...
+    modbus_tk   : INFO     enter 'quit' to exit
+    ```
+
+- Now there are two SPT CLI commands available to do a MFG test.
+    - mfg
+    - mfg <file_path>
+
+### `mfg`
+
+- This command is used when there is no need for a firmware change.
+- When using this command for the first time, a `mfg-test-log.csv` file will be created to log the test result.
+- Type the command `mfg` on command prompt window and the following test log is expected:
+
+    ```
+    mfg
+    GetWattNodeSerial request succeeded!
+    mfg: set deveui to 0002CC0200821265
+    SetDevEUI request succeeded!
+    mfg: set appeui to 0000000000000001
+    SetAppEUI request succeeded!
+    ReportNetworkParameters request succeeded!
+    SetAppKey request succeeded!
+    DevEUI:       00-02-cc-02-00-82-12-65
+    AppEUI:       00-00-00-00-00-00-00-01
+    AppKey:       13-f8-6f-0b-98-a8-fa-70-9d-35-88-dd-9d-96-bf-b8
+    rejoin request succeeded!
+    getFirmwareVersion request succeeded!
+    Version:     2.2.4
+    passed!
+    Data stored in'm4811-test-log.csv' successfully.
+    ```
+
+### `mfg <file_path>`
+
+- This command is used when there is a need of both firmware update and MFG test.
+- When using this command for the first time, a `mfg-test-log.csv` file will be created to log the test result.
+- Type the command `mfg <file_path>` on command prompt window. Where `<file_path>` is the path to the BIN file to be loaded.
+- The provided BIN file will be loaded and then the MFG test will be done. The following firmware download and MFG test log is expected:
+
+```
+mfg m4811-firmware-v2.2.4-in866-twohw-32clk.ino.bin
+Triggering download of 0x18a50 bytes
+....................................................................................................................................................................................................................................................................................................................................................................................................................Download succeeded!
+reboot request succeeded!
+GetWattNodeSerial request succeeded!
+mfg: set deveui to 0002CC0200821265
+SetDevEUI request succeeded!
+mfg: set appeui to 0000000000000001
+SetAppEUI request succeeded!
+ReportNetworkParameters request succeeded!
+SetAppKey request succeeded!
+DevEUI:       00-02-cc-02-00-82-12-65
+AppEUI:       00-00-00-00-00-00-00-01
+AppKey:       c0-ed-cc-d3-70-6e-30-46-78-3b-98-8a-86-4a-48-20
+rejoin request succeeded!
+getFirmwareVersion request succeeded!
+Version:     2.2.4
+passed!
+Data stored in'm4811-test-log.csv' successfully.
+```
+
+- By the end of the test, the device data such as `Serial Number`, `Data & Time`, `devEUI`, `AppEUI`, `AppKey` and `Test Result` will be updated in the `mfg-test-log.csv` file.
+
+- Now follow the [Steps to do Model4811 MFG Test](#steps-to-do-model4811-mfg-test) to test the next Model4811 board.
