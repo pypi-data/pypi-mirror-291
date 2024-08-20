@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pop-jetson
+Version: 0.0.9
+Summary: AIoT AI library for pop
+Author: c.h.min
+Author-email: lab2@hanback.co.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gdown
+Requires-Dist: numpy <=1.23.5,>=1.19.5
+Requires-Dist: onnx ==1.9.0 ; python_version == "3.6"
+Requires-Dist: onnx >=1.12.0 ; python_version == "3.8"
+
+# How to use
+
+<br>Install PyTorch from NVidia pre-built source files.
+If you already have pytorch, make sure it is same version as mentioned below.
+</br>If the version is different, reinstall with the following command or install torchvision matches your environment.
+
+``` 
+    #For python 3.8, pytorch==2.0.x 
+    pip install https://developer.download.nvidia.cn/compute/redist/jp/v511/pytorch/torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl
+
+    #For python 3.6, pytorch==1.11.x
+    pip install https://developer.download.nvidia.cn/compute/redist/jp/v461/pytorch/torch-1.11.0a0+17540c5+nv22.01-cp36-cp36m-linux_aarch64.whl
+```
+
+<br>Once you have done installing PyTorch, install the dependencies with the script provided below. 
+
+```
+    sudo pip install --force-reinstall --no-deps gdown
+
+    #For python 3.8 
+    gdown 1qyUnxLiLsrsFvldgQGjDZUisVH_ag93o
+    sudo chmod +x install_dependencies_cp38.sh
+    ./install_dependencies_cp38.sh
+
+    #For python 3.6
+    gdown 1b27FWdzBgzNJB371vjEw36ZsQnkJx8EI
+    sudo chmod +x install_dependencies_cp36.sh
+    ./install_dependencies_cp36.sh
+```
+
