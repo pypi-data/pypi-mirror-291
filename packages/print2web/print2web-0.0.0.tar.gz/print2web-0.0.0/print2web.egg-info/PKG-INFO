@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: print2web
+Version: 0.0.0
+Summary: Makes your blocking functions awaitable.
+Author-email: nggit <contact@anggit.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/nggit/print2web
+Project-URL: Source, https://github.com/nggit/print2web
+Project-URL: Funding, https://github.com/sponsors/nggit
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# print2web
