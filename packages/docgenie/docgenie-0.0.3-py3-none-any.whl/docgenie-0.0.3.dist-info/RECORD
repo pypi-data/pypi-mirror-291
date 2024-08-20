@@ -1,0 +1,16 @@
+docgenie/cli/__init__.py,sha256=rlWJV191kpLBGx34r8fcDjMgOYf1A3ipyymhhX9hwfY,3822
+docgenie/main.py,sha256=nQEgv4H7mUaV_01-2JFFIr8gcQk7TmGV1ucHrp-UdwY,4211
+docgenie/model.py,sha256=UK2QjBGfiKiqJYL-XGlsd4F9Oyou6QRViQNDow09WFo,1027
+docgenie/models/__init__.py,sha256=qm93NJsUZ5XEJx25qMCiwBpwxyt73gVE6JJCPeEggyw,260
+docgenie/models/custom_api.py,sha256=SDAWM42U9T-Ik8U8ZJymzLQhrgSr0-VX-fWmxWps-J8,2166
+docgenie/models/gemini.py,sha256=h6gc65vRSvpXRO7DMPEo7b8a1IUzFyS7assk1hwdWKk,1329
+docgenie/prompts.py,sha256=aUyG_KK5cTRJLlB-OrSb5K4A5WBtg13_iFI39YfCNaA,4983
+docgenie/utils/file.py,sha256=1yM_fZMe8Wq4qj7Ibtv3tK48_JWVcKYwpj-0lEmqkvc,729
+docgenie/utils/languages.py,sha256=Mpzu2i-LopQwS56tQQRvKSK513GXnNFjivE8s7TPPzk,5403
+docgenie/utils/patterns.py,sha256=RsvQ-jsOLqFXNARuvF8la8YVE0afEIFr8Wb1UJgkcvU,483
+docgenie/utils/terminal.py,sha256=I8N8gsBBpvGbpYuHGSPe_lZJNMoNFmzE3H9lezrE1EA,298
+docgenie-0.0.3.dist-info/entry_points.txt,sha256=oSQ5ibRsZkQeO721fz1elVRmqrGeKqE_B2jBZNC4LzY,45
+docgenie-0.0.3.dist-info/LICENSE,sha256=Es3Nc41hkkI6vovT8TpqBLZfZrBZyTguo_taHak8lDM,1091
+docgenie-0.0.3.dist-info/METADATA,sha256=Bm_DSv5oKJ4rx0CMlLQ2PRIyuejyQWzP5508PE5FW2c,8404
+docgenie-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+docgenie-0.0.3.dist-info/RECORD,,
