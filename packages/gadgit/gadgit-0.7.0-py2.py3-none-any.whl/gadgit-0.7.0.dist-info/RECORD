@@ -1,0 +1,13 @@
+gadgit/GAInfo.py,sha256=HoJUD12N0Q9q8kBCs3kelY2BF3ruiBiahUXFE-XD1k8,1537
+gadgit/GAOutput.py,sha256=MLXtd0nUbf-h325VyMZ26Ad6wTAoe0SawSzdOdOTED0,2561
+gadgit/GeneInfo.py,sha256=rJwM7rKOjzZ61DtQ0S0syCW-Ihvq0K_KsHssukQXkoM,1833
+gadgit/__init__.py,sha256=BWZQIyNyMAeIuxJnZbWCRKnBm8sjLY66tT74m2FqPiM,274
+gadgit/gadgit.py,sha256=jywdpFkPRGCBzZX_CaAZ5RsR1cS5vT2yYrUyHN6hj5A,12773
+gadgit/helpers/__init__.py,sha256=-cTqwMuuubyr_UN1sLJQm3bxGvhxIDP0LowFPAv0n8Y,57
+gadgit/helpers/make_centrality_frame.py,sha256=VDBZmbDLAvbG08QLVsp4MrvBEt5EyUHaZCyNUNtj8O8,1485
+gadgit-0.7.0.dist-info/AUTHORS.rst,sha256=n6VnoK6l4jlEd8KtO0Jfva-YPY3uEJWN8SD4BthXZTQ,173
+gadgit-0.7.0.dist-info/LICENSE,sha256=3WDKkeSlv-vIzhwk-S-e8utTR0_JoBpsyK8c4XMG3XY,1072
+gadgit-0.7.0.dist-info/METADATA,sha256=Wx1fM7Xbp3nM-grT7aIc6v1mFoA20E3O_mf5VJUWuhA,4146
+gadgit-0.7.0.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+gadgit-0.7.0.dist-info/top_level.txt,sha256=EP9f-OEQqfaVMkjBgqA9gWA2kXxs5GYYUIaMj_fLxCg,7
+gadgit-0.7.0.dist-info/RECORD,,
