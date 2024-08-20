@@ -1,0 +1,34 @@
+# Artifactory
+
+Artifactory — a service for managing blob resources with no sweat.
+
+[PyPI package](https://pypi.org/project/artifactory-vk/)
+
+## Installation
+
+```bash
+pip install artifactory-vk
+```
+
+## Quick Start
+
+```python
+import artifactory as art
+from artifactory.shortcuts import upload_resource, download_resource
+
+
+config = art.ClientConfig(
+    artifactory_endpoint = 'https://artifactory.domain',
+)
+client = art.Client(config)
+
+resource_id = upload_resource(
+    client,
+    'Hello, World!',
+    hard_ttl_s=30,
+)
+```
+
+## Examples
+
+* See [examples](examples) folder
