@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "dyndns"
+version = "2.0.0"
+description = "A simple dynamic DNS HTTP based update API using Python and the Flask web framework."
+authors = ["Josef Friedrich <josef@friedrich.rocks>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/Josef-Friedrich/dyndns"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dnspython = "^2"
+Flask = "^3"
+PyYAML = "^6"
+typing-extensions = "^4"
+types-PyYAML = "*"
+pydantic = "^2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0"
+beautifulsoup4 = "^4"
+readme-patcher = "^0"
+Sphinx = "^7"
+sphinx-rtd-theme = "^2"
+tox = "^4"
+pytest = "^8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+'dyndns' = "dyndns.cli:main"
+
+[tool.mypy]
+strict = true
