@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kgitest
+Version: 0.0.2
+Summary: Test project
+Author: KGI
+Author-email: Teste@kgi.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Test
