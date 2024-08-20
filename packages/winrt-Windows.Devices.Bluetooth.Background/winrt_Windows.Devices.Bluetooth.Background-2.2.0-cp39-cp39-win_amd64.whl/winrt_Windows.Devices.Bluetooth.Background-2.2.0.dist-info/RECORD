@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_bluetooth_background.cp39-win_amd64.pyd,sha256=j7DbOaC522_JXR_a1TtC1lR-4CwkFsipL8F0oGM93cs,107520
+winrt/_winrt_windows_devices_bluetooth_background.pyi,sha256=6Oxrhdxeiur5Xe6dWob9yKrVzkAIPSjO_ugJlz3OG_s,5671
+winrt/windows/devices/bluetooth/background/__init__.py,sha256=gT5OJb4UN6x6lzZZPYiJUbodPtOtzSKtZO6wQ5bGN48,1667
+winrt/windows/devices/bluetooth/background/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Bluetooth.Background-2.2.0.dist-info/METADATA,sha256=KzZSNfuiF7qOU6RXBmTy8Vge8GP7R9aWHrKEm_9gud8,1690
+winrt_Windows.Devices.Bluetooth.Background-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.Devices.Bluetooth.Background-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Bluetooth.Background-2.2.0.dist-info/RECORD,,
