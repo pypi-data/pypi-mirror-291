@@ -1,0 +1,15 @@
+# flake8: noqa
+
+# import apis into api package
+from dushibian_strapi_client.api.activity_api import ActivityApi
+from dushibian_strapi_client.api.article_api import ArticleApi
+from dushibian_strapi_client.api.book_api import BookApi
+from dushibian_strapi_client.api.home_api import HomeApi
+from dushibian_strapi_client.api.person_api import PersonApi
+from dushibian_strapi_client.api.recommend_api import RecommendApi
+from dushibian_strapi_client.api.siteconfig_api import SiteconfigApi
+from dushibian_strapi_client.api.tag_api import TagApi
+from dushibian_strapi_client.api.upload_file_api import UploadFileApi
+from dushibian_strapi_client.api.users_permissions_auth_api import UsersPermissionsAuthApi
+from dushibian_strapi_client.api.users_permissions_users_roles_api import UsersPermissionsUsersRolesApi
+
