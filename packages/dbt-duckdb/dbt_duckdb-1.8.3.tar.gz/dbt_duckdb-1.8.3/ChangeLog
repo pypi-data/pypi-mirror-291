@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+1.8.3
+-----
+
+* (chore) Use pbr for packaging for automated versioning with git tag, move to setup.cfg (#427)
