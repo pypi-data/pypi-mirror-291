@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pluglib/__init__.py
+pluglib.egg-info/PKG-INFO
+pluglib.egg-info/SOURCES.txt
+pluglib.egg-info/dependency_links.txt
+pluglib.egg-info/top_level.txt
