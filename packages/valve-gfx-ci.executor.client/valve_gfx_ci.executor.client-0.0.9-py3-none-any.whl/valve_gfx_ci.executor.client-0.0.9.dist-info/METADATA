@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: valve_gfx_ci.executor.client
+Version: 0.0.9
+Summary: Client for Valve GFX CI's executor
+Home-page: https://gitlab.freedesktop.org/gfx-ci/ci-tron/-/tree/master/executor/client
+Author: Martin Roukala
+Author-email: martin.roukala@mupuf.org
+Project-URL: Bug Tracker, https://gitlab.freedesktop.org/gfx-ci/ci-tron/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests<3,>=2
+Requires-Dist: requests-toolbelt<2,>=1
+Requires-Dist: tabulate<1,>=0.9
+Requires-Dist: backports.cached-property; python_version < "3.8"
+
+# CI-tron's executor client
+
+This client allow to interact with the ci-tron executor.
+
+Take a look to our full documentation at
+[https://gfx-ci.pages.freedesktop.org/ci-tron/](https://gfx-ci.pages.freedesktop.org/ci-tron/)
