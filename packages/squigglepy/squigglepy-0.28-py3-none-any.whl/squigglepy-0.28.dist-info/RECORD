@@ -1,0 +1,14 @@
+CHANGES.md,sha256=ppQCoy7ASwFslaHW0w9knaGHOseqH85l5dmTeuLoMCA,15969
+squigglepy/__init__.py,sha256=gYNlBCHwuOw30QjMyiQY82lLZ4F-YvEU9JRgM9dadyY,316
+squigglepy/bayes.py,sha256=msCpbK1dAOiXSxkhSVQnSqRgmY3UnKcT213no0XUp5U,14072
+squigglepy/correlation.py,sha256=x8Ia0GZIwOiDZPYYxFOsz7iMdUf8tri8pB5iReSM848,13763
+squigglepy/distributions.py,sha256=xy3ZENK0Nl0LPXDW_9KDZafoA3fFKOVqPI85QBF0_cg,50933
+squigglepy/numbers.py,sha256=Mdog-6HW6toaffZBWBErelUvZhtBJoCiUSqIjosCE94,266
+squigglepy/rng.py,sha256=MVGHOvSpCdO92Mv5Aelw0UnD0Z5vdR0x2uKrzuG7AEc,621
+squigglepy/samplers.py,sha256=o6K5moqHjrGv-GMa6ZaSqLwsiFRNSDNAr3D86nXCtaI,35291
+squigglepy/utils.py,sha256=hOIUAgleDqyNGGZpmAchdayKRm0rKhj63Odrs-_tqEo,38768
+squigglepy/version.py,sha256=DO2E2YiqJ8rCAM_2yKO6YZ7iDHsTzRP5mIjvvwNfb3I,21
+squigglepy-0.28.dist-info/LICENSE,sha256=AziQJqWmx7xphCeDtkEyShqyHOGaxHopblsBhvECt7k,1072
+squigglepy-0.28.dist-info/METADATA,sha256=Z62V5DetvjL16s8SeRxLB9vDZ4c5NTS9gB9xQUiHz7Q,17368
+squigglepy-0.28.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+squigglepy-0.28.dist-info/RECORD,,
