@@ -1,0 +1,14 @@
+ipykernel
+
+[dev]
+pytest
+pytest-cov
+pre-commit
+sphinx
+sphinx-rtd-theme
+sphinx-autoapi
+pylint
+nbconvert
+nbsphinx
+ipython
+asv==0.6.1
