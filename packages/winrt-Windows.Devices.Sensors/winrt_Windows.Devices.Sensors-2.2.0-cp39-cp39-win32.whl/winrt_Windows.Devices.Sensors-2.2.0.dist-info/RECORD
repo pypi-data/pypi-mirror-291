@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_sensors.cp39-win32.pyd,sha256=vNz3yjz5nf66OCJu313ZEBrSF7CxxdoZ0EiLMFlQjyo,808960
+winrt/_winrt_windows_devices_sensors.pyi,sha256=zKb7dLcEm6b79mR_o_GyYR7oVnmnwpe8bix0CJFaOXQ,51551
+winrt/windows/devices/sensors/__init__.py,sha256=I_SzFYTnsWZyXB6CwEQ3Dz6ejMh29IiYXy3JZCkIU30,9647
+winrt/windows/devices/sensors/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Sensors-2.2.0.dist-info/METADATA,sha256=TJpshjuhceSgZRix8Z59mLPNZHu0I3sIeU5gdkmNFkM,1203
+winrt_Windows.Devices.Sensors-2.2.0.dist-info/WHEEL,sha256=oMVLYRxr_Mj2eBzR64CwhxuKNcwPdTLLcHPchJ-SPBU,95
+winrt_Windows.Devices.Sensors-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Sensors-2.2.0.dist-info/RECORD,,
