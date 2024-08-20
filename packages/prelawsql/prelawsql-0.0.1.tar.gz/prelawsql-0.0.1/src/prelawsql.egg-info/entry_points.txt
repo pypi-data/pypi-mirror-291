@@ -1,0 +1,2 @@
+[console_scripts]
+reader = corpus_reader:cli
