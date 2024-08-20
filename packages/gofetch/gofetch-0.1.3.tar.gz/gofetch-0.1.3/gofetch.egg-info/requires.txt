@@ -1,0 +1,6 @@
+
+[shopify]
+ShopifyAPI==12.6.0
+beautifulsoup4==4.12.3
+pandas==2.1.2
+pytz==2024.1
