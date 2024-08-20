@@ -1,0 +1,12 @@
+QuickColab/Client.py,sha256=z4ZubUfov--DmqCdWyCyU0pV6V35uA4Bq2EvqxWToN0,1881
+QuickColab/Console.py,sha256=tEZv1X9RMO4JVlLQxLaskQbya5zqqH9NJTPPE4Jzdq4,7111
+QuickColab/Element.py,sha256=jgGYqXd1V2S3r5wj5eUZP91Gt26_w2q8s3N7sXztXGs,6338
+QuickColab/__init__.py,sha256=4rodjAX_Pqs72PnaALdwo_qE_Oa_Cjp8Kth86Yt2Ndg,319
+QuickColab/config.py,sha256=Ac2dcemA1KQKD9sBBH2rD14bPbXbNBf5nBGnjh_Y6IU,26
+QuickColab/struc.py,sha256=2-0eht5zN5_tytdNRuVPC6W0VPAYoOtpdzlxXPDk4lQ,389
+QuickColab/prompts/__init__.py,sha256=uZ7CgqmBaAO1lBNAS3OyadH2s-PXOy9WGQ6bnzxaO34,11406
+QuickColab-0.9.9.dist-info/METADATA,sha256=O8BgaGyLsuBjEIeEEu69EDsBjxKVP5MnQWD9dl5Z-X8,601
+QuickColab-0.9.9.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+QuickColab-0.9.9.dist-info/entry_points.txt,sha256=jQ7qCCUtWZ88QQLQ8owV82_und5CDpzKz8sg4Claxvk,51
+QuickColab-0.9.9.dist-info/top_level.txt,sha256=Py-yAyQgMPPM1qZOw2MqqI8oh2FusPtiiwuJdLu3oGU,11
+QuickColab-0.9.9.dist-info/RECORD,,
