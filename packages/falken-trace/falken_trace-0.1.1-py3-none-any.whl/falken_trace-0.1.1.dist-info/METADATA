@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: falken-trace
+Version: 0.1.1
+Summary: Enhances traces with code metadata
+Home-page: https://github.com/baz-scm/falken-trace-py
+License: Apache-2.0
+Keywords: observability,tracing
+Author: Baz
+Author-email: info@baz.co
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Dist: typing-extensions (>=4.6.0)
+Requires-Dist: wrapt (>=1.15.0)
+Project-URL: Repository, https://github.com/baz-scm/falken-trace-py
+Description-Content-Type: text/markdown
+
+# falken-trace-py
+
+[![PyPI](https://img.shields.io/pypi/v/falken-trace)](https://pypi.org/project/falken-trace/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/falken-trace)](https://github.com/baz-scm/falken-trace-py)
+![CodeQL](https://github.com/baz-scm/falken-trace-py/workflows/CodeQL/badge.svg)
+
+## Getting Started
+
+### Requirements
+
+- Python 3.8+
+- ddtrace 2.9+
+
+### Install
+
+```shell
+pip install --upgrade falken-trace
+```
+
+### Usage
+Add the `falken_trace` import at the beginning of the application entrypoint file
+
+```python
+import falken_trace  # noqa
+
+from ddtrace import patch_all
+
+...
+```
+
