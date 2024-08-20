@@ -1,0 +1,15 @@
+magic_codec.pth,sha256=0lbblfTtyPbyZRwqjU16c2wBweR3tOc-KeAjU-eEhg4,28
+magic_codec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_codec/codec.py,sha256=BAqq61n2F6mmRw0hXkJRNUl8MKTrc3HUmLTDNMOUnBg,2686
+magic_codec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_codec/register.py,sha256=qWvwKQHxinLn0KYy4OFA-30DnjuGB1FQOyeJnjddNPw,146
+magic_codec/builtin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_codec/builtin/braces.py,sha256=303-pvisIpArDQ8zQIopip5C7vd9tg05LtMsj0wRGA0,1466
+magic_codec/builtin/cpp.py,sha256=-91QjoXQyb-75XE9EUyya5usvSS8UrPcRrqQWF3pNxY,155
+magic_codec/builtin/incdec.py,sha256=NBrNQ3o8qEHRxb5KJVHts3cF8_oTCDNljNZsu9m4yAk,2955
+magic_codec/builtin/toml.py,sha256=RBn5ku5wyIKgXOUeTir3FBR_-8kFYHjP30r1zSfQCHc,802
+magic_codec-0.0.1.dist-info/LICENSE,sha256=e7W4sn39yIdBLoZZBKCmmV4agOUGVbolpMYYSAFCXoQ,1062
+magic_codec-0.0.1.dist-info/METADATA,sha256=TsS1CTrTp5WchbikZFnw6f1im3oj72tD-T3-TO68HGk,231
+magic_codec-0.0.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+magic_codec-0.0.1.dist-info/top_level.txt,sha256=fpbbOrKlYIgiHIx6Q7AKnBk6_p1gShbt42Aa8eDiRmM,12
+magic_codec-0.0.1.dist-info/RECORD,,

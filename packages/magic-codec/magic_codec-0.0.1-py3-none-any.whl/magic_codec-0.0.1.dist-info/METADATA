@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: magic_codec
+Version: 0.0.1
+Summary: Extensible codec that can be used to drastically change the behavior of the Python interpreter.
+Author: Tsche
+Author-email: contact@palliate.io
+License-File: LICENSE
+
