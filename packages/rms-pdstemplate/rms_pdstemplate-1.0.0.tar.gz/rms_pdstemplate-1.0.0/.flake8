@@ -1,0 +1,9 @@
+[flake8]
+max-line-length: 90
+extend-ignore =
+    # E202 Whitespace before ')'
+    E202
+
+per-file-ignores =
+    # E501 Line too long (82 > 79 characters)
+    test_pdstemplate.py: E501
