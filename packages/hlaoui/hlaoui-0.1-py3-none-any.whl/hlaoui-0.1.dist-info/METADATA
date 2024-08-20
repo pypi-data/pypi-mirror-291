@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hlaoui
+Version: 0.1
+Summary: A simple math operations library
+Author: mohamedtaher.hlaoui
+Author-email: mohamedtaher.hlaoui@allence-tunisie.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
