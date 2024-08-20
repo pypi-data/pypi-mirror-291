@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "draw_random_walks_meinersth"
+version = "0.1.0"
+authors = [
+  { name="meinersth", email="meiners.th@gmail.com" },
+]
+description = "A package to draw random walks"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "matplotlib",
+  "numpy",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tmeiners91/drawrandomwalks"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
