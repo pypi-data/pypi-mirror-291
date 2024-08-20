@@ -1,0 +1,10 @@
+/build
+/doxy/html
+/doxy/latex
+/ChebTools.egg-info
+/dist
+/msvc
+/bld
+/src/ChebToolsVersion.hpp
+/**/.DS_Store
+.ipynb_checkpoints/

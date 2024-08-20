@@ -1,0 +1,12 @@
+[submodule "externals/pybind11"]
+	path = externals/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "externals/Catch"]
+	path = externals/Catch
+	url = https://github.com/philsquared/Catch.git
+[submodule "externals/Eigen"]
+	path = externals/Eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "externals/nanobind"]
+	path = externals/nanobind
+	url = https://github.com/wjakob/nanobind

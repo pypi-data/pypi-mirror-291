@@ -1,0 +1,10 @@
+name: ChebTools
+dependencies:
+  - python=3.8
+  - matplotlib
+  - scipy
+  - pip
+  #- jupyter # for local testing, uncomment, for binder, not needed
+  #- notebook # for local testing, uncomment, for binder, not needed
+  - pip:
+    - "git+https://github.com/usnistgov/ChebTools.git"
