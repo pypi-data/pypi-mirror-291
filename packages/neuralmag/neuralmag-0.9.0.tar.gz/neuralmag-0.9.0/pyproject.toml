@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralmag"
+version = "0.9.0"
+description = "NeuralMag is a micromagnetic GPU code implementing the nodal FD discretization"
+requires-python = ">=3.8, <3.12"
+
+authors = [{ name = "Claas Abert", email = "claas.abert@univie.ac.at" }]
+
+dependencies = ["numpy", "sympy", "pyvista", "scipy", "torch", "torchdiffeq", "tqdm"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pre-commit", "nbsphinx", "pydata-sphinx-theme", "jupyterlab"]
+
+[tool.setuptools.packages.find]
+include = ["neuralmag*"]
+
+[tool.black]
+exclude = "/field_terms/neuralmag"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true  # ignores files listed in .gitignore
+skip_glob = ["/neuralmag/field_terms/code/*"]

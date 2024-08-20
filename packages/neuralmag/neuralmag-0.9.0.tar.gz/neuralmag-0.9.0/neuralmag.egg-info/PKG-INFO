@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: neuralmag
+Version: 0.9.0
+Summary: NeuralMag is a micromagnetic GPU code implementing the nodal FD discretization
+Author-email: Claas Abert <claas.abert@univie.ac.at>
+Requires-Python: <3.12,>=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: sympy
+Requires-Dist: pyvista
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: torchdiffeq
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: nbsphinx; extra == "dev"
+Requires-Dist: pydata-sphinx-theme; extra == "dev"
+Requires-Dist: jupyterlab; extra == "dev"
