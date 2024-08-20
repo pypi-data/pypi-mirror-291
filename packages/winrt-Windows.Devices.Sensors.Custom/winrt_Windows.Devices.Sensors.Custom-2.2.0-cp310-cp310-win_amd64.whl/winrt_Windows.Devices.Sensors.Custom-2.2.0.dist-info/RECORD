@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_sensors_custom.cp310-win_amd64.pyd,sha256=hMMpye3da9XJW-FkIDWnyINH8P2Wk9v7mMporcHantU,85504
+winrt/_winrt_windows_devices_sensors_custom.pyi,sha256=j5cRdT3TmTQHQb2UFa14vDrH8V4s9c7W_SCcAkLJZzA,2432
+winrt/windows/devices/sensors/custom/__init__.py,sha256=vIyxcXujagpSSl20JdpqQU9C2R0xBOE9Z2OdS5_xnaM,521
+winrt/windows/devices/sensors/custom/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Sensors.Custom-2.2.0.dist-info/METADATA,sha256=-AbtBlKh7gtxp072s2A092nkYUTHtyEX4Mg1r9RZriM,1154
+winrt_Windows.Devices.Sensors.Custom-2.2.0.dist-info/WHEEL,sha256=zWneB6rvW-_BQDcNdIDobvp8AqetSHN6yeGec-LGca0,101
+winrt_Windows.Devices.Sensors.Custom-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Sensors.Custom-2.2.0.dist-info/RECORD,,
