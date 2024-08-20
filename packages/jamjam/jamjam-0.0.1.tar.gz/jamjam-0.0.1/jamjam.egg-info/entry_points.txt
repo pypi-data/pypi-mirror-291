@@ -1,0 +1,2 @@
+[console_scripts]
+jj.info = jamjam._scripts.info:main

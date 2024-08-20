@@ -1,0 +1,95 @@
+# Guide: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "jamjam"
+version = "0.0.1"
+readme = 'README.md'
+license = { file = 'LICENSE' } # from https://choosealicense.com/licenses/gpl-3.0/
+
+requires-python = ">=3.11"
+dependencies = []
+
+
+[project.optional-dependencies]
+dev = ["mypy", "pre-commit", "pylint", "pytest"]
+
+
+[project.scripts]
+"jj.info" = "jamjam._scripts.info:main"
+
+
+[tool.mypy]
+# see: https://mypy.readthedocs.io/en/stable/config_file.html
+# TODO: This config can definately be simplified. Move stuff into error code lists._scripts
+# TODO: Rational should be added for each rule's enabling/disabling.
+allow_redefinition = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+extra_checks = true
+implicit_reexport = true
+show_column_numbers = true
+show_error_code_links = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
+enable_error_code = [
+    "ignore-without-code",
+    "mutable-override",
+    "narrowed-type-not-subtype",
+    "possibly-undefined",
+    "redundant-cast",
+    "redundant-expr",
+    "redundant-self",
+    "truthy-bool",
+    "truthy-iterable",
+    "type-arg",
+    "unimported-reveal",
+    "unused-awaitable",
+]
+disable_error_code = [
+    "comparison-overlap", # perfectly type-safe
+]
+
+
+[tool.ruff]
+# see: https://docs.astral.sh/ruff/rules/
+target-version = "py311"
+output-format = "concise"
+format.preview = true
+
+lint.select = ["ALL"]
+lint.ignore = [
+    "ANN401",  # any-type; genuine usecases for `Any` when the type-system fails
+    "COM812",  # missing-trailing-comma; inccompatable with auto-formatters
+    "D203",    # one-blank-line-before-class; incompatable with chosen docs style
+    "D213",    # multi-line-summary-second-line; incompatable with chosen docs style
+    "FIX002",  # line-contains-todo; currently use TODO's to track issues
+    "ISC001",  # single-line-implicit-string-concatenation; would like enabled but formatter warns
+    "PLR2004", # magic-value-comparison; fine for tests
+    "S101",    # assert; fine for tests
+    "T201",    # print; fine for scripts
+    "TCH003",  # typing-only-standard-library-import; `TYPE_CHECKING` as required; not as default
+    "TD002",   # missing-todo-author; I'm the only author!
+    "TD003",   # missing-todo-link; not currenty tracking issues externally
+]
+
+
+[tool.pylint.main]
+# see: https://pylint.pycqa.org/en/latest/user_guide/messages/messages_overview.html
+enable = ["all"]
+disable = [
+    "missing-class-docstring",    # TODO: may enable docstring checks later
+    "missing-function-docstring", # TODO: may enable docstring checks later
+    "missing-kwoa",               # conflicts with type-checkers
+    "missing-module-docstring",   # TODO: may enable docstring checks later
+    "too-few-public-methods",     # small classes are fine
+    "too-many-function-args",     # conflicts with type-checkers
+    "fixme",                      # currently use TODO's to track issues
+]

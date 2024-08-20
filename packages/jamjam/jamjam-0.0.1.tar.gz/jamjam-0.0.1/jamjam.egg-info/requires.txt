@@ -1,0 +1,6 @@
+
+[dev]
+mypy
+pre-commit
+pylint
+pytest
