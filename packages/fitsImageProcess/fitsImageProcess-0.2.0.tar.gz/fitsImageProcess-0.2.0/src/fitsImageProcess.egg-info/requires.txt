@@ -1,0 +1,15 @@
+numpy
+astropy
+matplotlib
+photutils
+sep
+astroquery
+numba
+reproject
+scipy
+setuptools
+opencv-python
+cmastro
+skimage
+os
+time
