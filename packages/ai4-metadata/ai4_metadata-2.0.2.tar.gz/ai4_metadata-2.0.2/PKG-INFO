@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: ai4-metadata
+Version: 2.0.2
+Summary: AI4OS Hub applications metadata utilities
+Home-page: https://github.com/ai4os/ai4-metadata
+License: Apache-2
+Author: Pablo Orviz
+Author-email: orviz@ifca.unican.es
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: jsonschema (>=4.23.0,<5.0.0)
+Requires-Dist: rfc3987 (>=1.3.8,<2.0.0)
+Requires-Dist: simplejson (>=3.19.2,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/ai4os/ai4-metadata/issues
+Project-URL: Repository, https://github.com/ai4os/ai4-metadata
+Description-Content-Type: text/markdown
+
+# AI4 Metadata utilities
+
+Metadata utilities for the AI4OS hub data science applications.
+
+The AI4OS hub data science applications use metadata to describe the data
+sources, models, and other resources. The metadata is used to validate the
+resources and to provide information to the users.
+
+## Installation
+
+The metadata utilities can be installed using pip:
+
+    $ pip install ai4-metadata
+
+## Usage
+
+### Metadata validation
+
+The metadata utilities provide a command-line interface (CLI) tool
+`ai4-metadata-validate` that can be used to validate the metadata files. The
+CLI tool accepts the metadata files as input parameters.
+
+    $ ai4-metadata-validate instances/sample-v2.mods.json
+
+Different metadata versions can be specified, either by using the
+`--metadata-version` or by providing the metadata schema file.
+
+    $ ai4-metadata-validate --metadata-version 2.0.0 instances/sample-v2.mods.json
+    $ ai4-metadata-validate --schema schemata/ai4-apps-v2.0.0.json instances/sample-v2.mods.json
+
+### Metadata migration
+
+The metadata utilities provide a command-line interface (CLI) tool
+`ai4-metadata-migrate` that can be used to migrate the metadata files from V1
+to latest V2.
+
+    $ ai4-metadata-migrate instances/sample-v1.mods.json
+
+To save the output, use the `--output` option.
+
+    $ ai4-metadata-migrate --output sample-v2.mods.json instances/sample-v1.mods.json
+
+Please review the changes, as the metadata migration is not complete, and
+manual steps are needed.
+
