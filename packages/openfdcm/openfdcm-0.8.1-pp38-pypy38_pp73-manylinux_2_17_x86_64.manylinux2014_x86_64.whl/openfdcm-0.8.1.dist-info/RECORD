@@ -1,0 +1,11 @@
+libz.so.1.3.1,sha256=_YGpxFb2FxLUhq07uZaYqVuA42u7ZpR3mEUEhEziYmU,125688
+openfdcm.pypy38-pp73-x86_64-linux-gnu.so,sha256=gJifFkzTbMI9jwNROqfxFuQQ1w18iU5JvjWu6jbJ1y0,477433
+libopenfdcm_matching.so,sha256=u9hqlgrmyF2BBeXY6GPdZg2_uBJN6ZHGpfFSqp88etA,323056
+libz.so.1,sha256=_YGpxFb2FxLUhq07uZaYqVuA42u7ZpR3mEUEhEziYmU,125688
+libz.so,sha256=_YGpxFb2FxLUhq07uZaYqVuA42u7ZpR3mEUEhEziYmU,125688
+openfdcm.libs/libopenfdcm_matching-bbd86a96.so,sha256=mkxiSsOqmnHk_59plf9wJxcXHE9sdnCejCQerFIXZ00,399105
+openfdcm-0.8.1.dist-info/RECORD,,
+openfdcm-0.8.1.dist-info/WHEEL,sha256=7kBRQ_Y2S34Qav0LVM7-cBWcPyweShcXz317ejp7gsg,161
+openfdcm-0.8.1.dist-info/LICENSE,sha256=ZPgDQwFknZbwRR3W_b_DZDU1yg4K1S7wBI6Yg5o0Sdk,1066
+openfdcm-0.8.1.dist-info/top_level.txt,sha256=OV7AzwV40gFBx8n4vPg_wyiVTk3MN53oxEvKRZSZC4E,9
+openfdcm-0.8.1.dist-info/METADATA,sha256=dZ9xnvi0hRef-5EdXxZ4M7wfGUZWgcIbpBtLAH6lKZk,5811
