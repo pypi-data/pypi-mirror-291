@@ -1,0 +1,7 @@
+llmio/__init__.py,sha256=JGJU-LVmRUGSl56DuDSJb-ScYs8SIzuAH6el8Oj0DGI,251
+llmio/assistant.py,sha256=mSo8XwsVKbpAKl1BTFdcKl8gMYgEskLvW3KOJa2Fd28,11103
+llmio/function_parser.py,sha256=Pv-Hlo8d1iy_iKfiuc9T9V06Er50EvevdazgEkEsr38,1336
+llmio-0.5.3.dist-info/LICENSE,sha256=QQpsve0-VHf467xw_343sMYyvurffTYPV7Mgh3Hmmoo,1064
+llmio-0.5.3.dist-info/METADATA,sha256=_HrC9YTdeKBFAD-vO4p7o6UhHxLXZ_lbCJ85s8pLvBI,7917
+llmio-0.5.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llmio-0.5.3.dist-info/RECORD,,
