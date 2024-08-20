@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: batocera_manager
+Version: 0.9.7
+Summary: Control and monitor Batocera
+Author-email: zhbjsh <zhbjsh@outlook.com>
+Project-URL: Homepage, https://github.com/zhbjsh/batocera-manager
+Project-URL: Bug Tracker, https://github.com/zhbjsh/batocera-manager/issues
+Keywords: batocera,ssh,terminal,console,shell,bash,commands,command line
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp >=3.8.5
+Requires-Dist: ssh-terminal-manager >=1.0.3
+
+# Batocera Manager
+
+## Initialize
+
+```python
+from batocera_manager import BatoceraManager
+
+manager = BatoceraManager("192.168.0.123")
+
+await manager.async_update_state(raise_errors=True)
+```

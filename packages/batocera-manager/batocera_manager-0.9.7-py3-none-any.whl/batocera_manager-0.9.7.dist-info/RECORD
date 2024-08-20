@@ -1,0 +1,12 @@
+batocera_manager/__init__.py,sha256=mRwmufo2tczY2it-t4Nqo7jgsUYwnMxRU4UkQUCIBZU,7574
+batocera_manager/errors.py,sha256=B2TT3pJcYTSRf62zO32funN4IxIR26oFRvts7-AE80k,83
+batocera_manager/game.py,sha256=wmpE7EIc8U5LS66j0P3gy78VkwGKR2o8-5BqNvv66og,593
+batocera_manager/system.py,sha256=UlG5BEdZw03sCQ735TjHyQ1BFY346tzTKEua4U96k9Y,799
+batocera_manager/default_collections/__init__.py,sha256=ygKFBf2gJZBRjC3zQh0ceOeR2QRPqDZ70ZXP34ZyqvI,95
+batocera_manager/default_collections/batocera.py,sha256=ApyS5i0pcnQTAQPAKF7AQCYnJfgJXn9epohhx2NeQas,1740
+batocera_manager/default_collections/const.py,sha256=ipw_atm1CKHJDgR6s0Xo5xrNwNtoJ7IPhlSflOIqCOk,485
+batocera_manager-0.9.7.dist-info/LICENSE,sha256=nCuHcr8DrEgBce-g7ZH3mJDMiB24m5T7anzcZ_F9Sts,1063
+batocera_manager-0.9.7.dist-info/METADATA,sha256=fCxJa9pT-aVuWgxae_t1Mk8Yz26Srj5RqjIxaB2M6Cc,857
+batocera_manager-0.9.7.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+batocera_manager-0.9.7.dist-info/top_level.txt,sha256=5lfzxkGA4gm8g-_68lffyj-qab7Irmm-xViJExpigw0,17
+batocera_manager-0.9.7.dist-info/RECORD,,
