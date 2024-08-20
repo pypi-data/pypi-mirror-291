@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: python-analytics-accelerator
+Version: 0.3.0
+Summary: Python analytics solution accelerator using composable data systems
+Project-URL: Homepage, https://github.com/lostmygithubaccount/python-analytics-accelerator
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/python-analytics-accelerator/issues
+Author-email: Cody <cody@dkdc.dev>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: gcsfs
+Requires-Dist: great-tables
+Requires-Dist: httpx
+Requires-Dist: ibis-framework[clickhouse,deltalake,duckdb,polars]
+Requires-Dist: plotly
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: shiny>=1.0.0
+Requires-Dist: shinyswatch>=0.7.0
+Requires-Dist: shinywidgets>=0.3.3
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# Python analytics accelerator
+
+***A composable data system in a Python package.***
+
+## contributing
+
+Work in progress, contributions welcome. Please consider asking before substantial changes in these early days.
