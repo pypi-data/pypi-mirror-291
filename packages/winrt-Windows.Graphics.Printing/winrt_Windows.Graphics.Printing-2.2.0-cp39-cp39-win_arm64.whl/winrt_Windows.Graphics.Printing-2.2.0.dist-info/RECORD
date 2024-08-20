@@ -1,0 +1,8 @@
+winrt/_winrt_windows_graphics_printing.cp39-win_arm64.pyd,sha256=oeG_BCaFoVucecUiZ533FdWtLjsEPWl9lW5iDWMTy48,320000
+winrt/_winrt_windows_graphics_printing.pyi,sha256=PhBtFAcM8lU0gFZpbWPfKhYJn3qgx7k-lzbxltXizJs,14316
+winrt/windows/graphics/printing/__init__.py,sha256=oxRVWnIaKX3vq3dHfzxyx6oLP9Igq84vaS_zXRbapds,10109
+winrt/windows/graphics/printing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Graphics.Printing-2.2.0.dist-info/METADATA,sha256=IBcLbEq4dvT0alxRqZI_ZsAC0VfHInNb6KfalyM7Eec,1300
+winrt_Windows.Graphics.Printing-2.2.0.dist-info/WHEEL,sha256=1X4SI6JzpFpIzSmBBTg0QwD-EmnM_r0em1bF5NQSYXw,99
+winrt_Windows.Graphics.Printing-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.Printing-2.2.0.dist-info/RECORD,,
