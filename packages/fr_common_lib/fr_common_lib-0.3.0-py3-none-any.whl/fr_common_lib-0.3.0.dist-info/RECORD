@@ -1,0 +1,17 @@
+fr_common_lib/connections/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fr_common_lib/connections/db/__init__.py,sha256=TQB5D8PBDCq80jPq6rsC2G939yYYKTh_bCcOWsZ-nA8,18
+fr_common_lib/connections/db/db_manager.py,sha256=QqYkQH6X5R7v6ZAbuqb5HyYpU2m5iefXIkrBrESvXP0,3162
+fr_common_lib/connections/db/settings.py,sha256=Zd-uO-1qL5b8ueRMmtSP-NQd5SYF0mcT9u7dlneMUJY,671
+fr_common_lib/connections/kafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fr_common_lib/connections/kafka/broker_settings.py,sha256=910eopbwEndGggKdsUuv4tx87wVLKZ48T6fNf8EdBmQ,328
+fr_common_lib/connections/kafka/client_settings.py,sha256=KNrf_7YO1eqZEczPZgKucTWxHWyIMisH7JgKmcBdWBI,303
+fr_common_lib/connections/kafka/faust.py,sha256=KfjFlLkXBGRfx3lafsAEKUsn34HdKI-UgJQkaQ22aj0,463
+fr_common_lib/connections/redis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fr_common_lib/connections/redis/client.py,sha256=5LXc1YPKENggjBd9NL9xU45uSzkxxRfKA_y0KnXjs3w,165
+fr_common_lib/connections/redis/settings.py,sha256=OTlJQD0jgkd86LNJEOs3aWWnJFk2nlHyim-KhESJXf4,285
+fr_common_lib/connections/smtp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fr_common_lib/connections/smtp/client.py,sha256=TLmhnmgi6qtrtCAtrKuV1FFmzoyRq5rYFioLo3Ga_8o,412
+fr_common_lib/connections/smtp/settings.py,sha256=-a18J4gkmTfVugZdyWKX17G0z24xD5ff_59O4Mwp5Vo,228
+fr_common_lib-0.3.0.dist-info/METADATA,sha256=iM49zG8K6iMZsj4EYH3hW23H-8Y5DGHT3xode4OIJpU,358
+fr_common_lib-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fr_common_lib-0.3.0.dist-info/RECORD,,
