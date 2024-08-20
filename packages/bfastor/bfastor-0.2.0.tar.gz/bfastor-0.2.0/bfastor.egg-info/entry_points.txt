@@ -1,0 +1,2 @@
+[console_scripts]
+bfastor-refine = bfastor.scripts.refine_bfactors:main

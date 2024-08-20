@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: bfastor
+Version: 0.2.0
+Summary: Fast cryo-EM B-factor refinement
+Author-email: Joseph Beton <joseph.beton@cssb-hamburg.de>
+Maintainer-email: Joseph Beton <joseph.beton@cssb-hamburg.de>
+Project-URL: Homepage, https://gitlab.com/topf-lab/jaxref
+Project-URL: Bug Reports, https://gitlab.com/topf-lab/jaxref/issues
+Project-URL: Source, https://gitlab.com/topf-lab/jaxref/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: chex>=0.1.85
+Requires-Dist: jax>=0.4.30
+Requires-Dist: optax>=0.1
+Requires-Dist: flax>=0.8
+Requires-Dist: numpy>=1.17
+Requires-Dist: pandas>=2.2
+Requires-Dist: gemmi>=0.5.8
+Requires-Dist: mrcfile>=1.5
+Requires-Dist: ratelimit>=2.2
+Requires-Dist: voxcov>=0.2.8
+Requires-Dist: matplotlib>=3.6
+Requires-Dist: tqdm>=4.0
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: cuda12
+Requires-Dist: jax[cuda12]; extra == "cuda12"
+
+# B-FASTor
+![pipeline_status](https://gitlab.com/JoeBeton/jaxref/badges/main/pipeline.svg)
+![coverage](https://gitlab.com/JoeBeton/jaxref/badges/main/coverage.svg)
+
+Rapid refinement of atomic B-factors for cryo-EM derived models using the [Jax](https://github.com/google/jax) library.
+
+## Installation
+
+To install the CPU only version of B-FASTor run:
+```
+pip install bfastor
+```
+
+To install B-FASTor configured to run on NVIDIA GPUs, run: 
+```
+pip install bfastor[cuda12]
+```
+
+If you have access to Google's TPU accelerators, it is possible to install a TPU compatible 
+version of B-FASTor with the commands:
+```
+pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+pip install bfastor
+```
+
+## Usage
+B-FASTor can be used a CLI application, via the `bfastor-refine` command. This 
+can be run on any map/model combination using the following command:
+
+``` 
+bfastor-refine --model path/to/file.pdb --map path/to/map.mrc
+```
+
+The output files, including plotting B-factors, and model with refined B-factors will be saved in a folder 
+with the name of the input model file, e.g. for the model `7kx7.pdb` the output will be saved in `7kx7/`.  
+
+## Support
+If you have any issues please raise them in the issues page. 
+
+## Authors and acknowledgment
+B-FASTor is developed and maintained by Joseph Beton, working within Professor Maya Topf's research group 
+at the CSSB/Leibniz Institute for virology in Hamburg, Germany. 
+
+## License
+B-fastor is licensed under the MIT-license. The full license is [here](LICENSE.txt)
