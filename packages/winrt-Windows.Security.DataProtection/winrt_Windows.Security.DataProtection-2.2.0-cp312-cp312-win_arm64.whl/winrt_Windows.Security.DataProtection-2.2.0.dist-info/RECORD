@@ -1,0 +1,8 @@
+winrt/_winrt_windows_security_dataprotection.cp312-win_arm64.pyd,sha256=SK685tqH_T81HvmvLhdEWR0E7KXn6pEZtjZC2Pbtu8M,118784
+winrt/_winrt_windows_security_dataprotection.pyi,sha256=CMTYCToOdRepp4_7En309L_QcAAhknP5CyIcvmJl7KY,3242
+winrt/windows/security/dataprotection/__init__.py,sha256=lH-MAYDulGym-jbQ90VVGac-nTprZrkaa6tPfCwPWYY,1206
+winrt/windows/security/dataprotection/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Security.DataProtection-2.2.0.dist-info/METADATA,sha256=EmxEloVsYCz1L8ODDzbHheweEydg4dP5GR6XMymANrc,1286
+winrt_Windows.Security.DataProtection-2.2.0.dist-info/WHEEL,sha256=Zb7xxpKNk5G3g6-yXQ6qIO3l9uksanx1wwJuO1EjUdM,101
+winrt_Windows.Security.DataProtection-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.DataProtection-2.2.0.dist-info/RECORD,,
