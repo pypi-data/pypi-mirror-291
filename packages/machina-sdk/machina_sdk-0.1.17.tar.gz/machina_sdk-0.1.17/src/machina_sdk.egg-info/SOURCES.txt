@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/machina_sdk/__init__.py
+src/machina_sdk/main.py
+src/machina_sdk.egg-info/PKG-INFO
+src/machina_sdk.egg-info/SOURCES.txt
+src/machina_sdk.egg-info/dependency_links.txt
+src/machina_sdk.egg-info/requires.txt
+src/machina_sdk.egg-info/top_level.txt
