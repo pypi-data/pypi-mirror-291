@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tibfgs
+Version: 0.0.2
+Summary: Hardware-accelerated nonlinear optimization in Taichi
+Author: Liam Robinson
+Author-email: liamers127@gmail.com
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: polars (>=0.0.1)
+Requires-Dist: taichi (>=0.0.1)
+Project-URL: Bug Tracker, https://github.com/ljrobins/tibfgs/issues
+Project-URL: Homepage, https://github.com/ljrobins/tibfgs
+Description-Content-Type: text/x-rst
+
+Taichi BFGS (TIBFGS)
