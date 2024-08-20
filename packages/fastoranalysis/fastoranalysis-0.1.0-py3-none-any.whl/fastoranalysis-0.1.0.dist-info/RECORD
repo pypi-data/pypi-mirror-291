@@ -1,0 +1,9 @@
+fastoranalysis/__init__.py,sha256=ZpUKfiIl-io7wA4-krE5l-cZK84bDd2sglatYpdxweQ,98
+fastoranalysis/factor_analysis.py,sha256=pBRqCkG3QWhlEJP4m-5bkn1XjurEOD5PgAoJZXx0uoQ,19031
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_factor_analysis.py,sha256=2wAF2XbBnyM8hrqvGAmz1R6w4goXxT2K6yf5Awjs8V0,15580
+fastoranalysis-0.1.0.dist-info/LICENSE,sha256=4mXXLg0XLow38EqPXLWz1Z9CbbtwJN1sdSkJBpApgkc,1088
+fastoranalysis-0.1.0.dist-info/METADATA,sha256=p2anbg_or6cp827dmBWXYW0KucJ6PlcdCxY0gUfshvA,4047
+fastoranalysis-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastoranalysis-0.1.0.dist-info/top_level.txt,sha256=soNTftXjSbLGj7pmFfRwBFSsWsvZnGFx9wws8BHn99k,21
+fastoranalysis-0.1.0.dist-info/RECORD,,
