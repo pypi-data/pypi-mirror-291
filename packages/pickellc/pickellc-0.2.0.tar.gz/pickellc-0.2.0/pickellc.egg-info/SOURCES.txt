@@ -1,0 +1,8 @@
+setup.py
+pickellc.egg-info/PKG-INFO
+pickellc.egg-info/SOURCES.txt
+pickellc.egg-info/dependency_links.txt
+pickellc.egg-info/requires.txt
+pickellc.egg-info/top_level.txt
+picklellc/__init__.py
+picklellc/picklellc.py
