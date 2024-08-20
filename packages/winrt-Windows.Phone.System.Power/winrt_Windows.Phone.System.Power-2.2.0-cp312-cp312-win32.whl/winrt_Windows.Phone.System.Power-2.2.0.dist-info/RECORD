@@ -1,0 +1,8 @@
+winrt/_winrt_windows_phone_system_power.cp312-win32.pyd,sha256=cx1oD8li5DZqGRjNHHsy22rHO_QilULYvUq-lTVpUUc,35328
+winrt/_winrt_windows_phone_system_power.pyi,sha256=DN8CIKrMuWmkIT-XKLTXv52fWZeMAy54ruf4ZqFYHzY,947
+winrt/windows/phone/system/power/__init__.py,sha256=elVfQ9sVQzcBKwqaXxaGAmy9mWssmbXTC-iwgtxEzYo,348
+winrt/windows/phone/system/power/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Phone.System.Power-2.2.0.dist-info/METADATA,sha256=RcECgQAs6jkfTOIThloxwNBNfA_K4WHsFRSIr9o2zEc,1055
+winrt_Windows.Phone.System.Power-2.2.0.dist-info/WHEEL,sha256=r6Fxzz0NXx_hD44EZGpbjgoscm0JJ3Dqmkx4CC_SuvA,97
+winrt_Windows.Phone.System.Power-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.System.Power-2.2.0.dist-info/RECORD,,
