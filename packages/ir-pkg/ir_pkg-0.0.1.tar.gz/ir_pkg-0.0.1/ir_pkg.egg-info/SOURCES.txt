@@ -1,0 +1,9 @@
+setup.py
+ca1/__init__.py
+ca1/boolean.py
+ca1/inverted_index.py
+ca1/tf_idf.py
+ir_pkg.egg-info/PKG-INFO
+ir_pkg.egg-info/SOURCES.txt
+ir_pkg.egg-info/dependency_links.txt
+ir_pkg.egg-info/top_level.txt
