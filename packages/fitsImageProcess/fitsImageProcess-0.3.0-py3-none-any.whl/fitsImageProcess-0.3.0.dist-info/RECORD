@@ -1,0 +1,12 @@
+functions/__init__.py,sha256=b88TIjdycxujiN0ErbgbYg74qb1VW0_jVvXH4TBq9FM,221
+functions/breakIntoChuncks.py,sha256=ncRxNvpOoS3Bm5OWxeD7a4eWitlRYSHL1d-x6XvKSK0,828
+functions/deepLearningCNN.py,sha256=tw3ECmUgFBxT8WbKzq0XhsA4yT4eJxbGHeTPuwkVAMU,4986
+functions/extraUtils.py,sha256=-HP2XOXhSeO0L2ZjMGNm_PuZixJmOe0upOyas6aZJmo,914
+functions/find_rectangle.py,sha256=qT1UqCkPTU5ISM-mKohtwugcJZCalm0CmXCIA1-9v7k,3495
+functions/functionsForAlignment.py,sha256=kXcqaFhNLPU4xcXpVhoOnhNMPxtiufx0_wHBF_JgoU0,7979
+functions/manageCatalog.py,sha256=XskOo2Zz8vhw3i9BpX11SPuD8Mk7m34e0X1ehtuyvkM,13130
+functions/manageSources.py,sha256=qnPv-jpPh3DeG4JRbHU6UDV8LH-xwyLm_hy5uCgrWEA,16265
+fitsImageProcess-0.3.0.dist-info/METADATA,sha256=ChHPBLQqEGBe6IVu7-L4Flaezy0EqsZyk7WFPFlBhxU,4985
+fitsImageProcess-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fitsImageProcess-0.3.0.dist-info/top_level.txt,sha256=qnt_HRG1Rfu6s5vMawiXaXA6ZJsnpyoDjI_Orz2YNHo,10
+fitsImageProcess-0.3.0.dist-info/RECORD,,
