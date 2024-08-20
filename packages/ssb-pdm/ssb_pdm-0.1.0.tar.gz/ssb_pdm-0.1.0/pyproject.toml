@@ -1,0 +1,24 @@
+[project]
+name = "ssb-pdm"
+version = "0.1.0"
+description = "Test pdm"
+authors = [
+    { name = "Sergey", email = "sbshab1969@gmail.com" },
+]
+dependencies = [
+    "requests>=2.32.3",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
