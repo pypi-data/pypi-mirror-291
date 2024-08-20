@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: database_setup
+Version: 0.1.2
+Summary: Database setup utilities with configuration handling
+Author: Komal
+Author-email: komal@neudeep.in
+Requires-Dist: pymysql
+Requires-Dist: dbutils
+Requires-Dist: PyYAML
+
