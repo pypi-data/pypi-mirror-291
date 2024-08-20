@@ -1,0 +1,13 @@
+pydfirram/__init__.py,sha256=R4fRYdgzffb2aMz-3nesZdSVUoDmugGgxHPaF6cgTO4,66
+pydfirram/core/__init__.py,sha256=5aOcQvncvc-P8LF7ZPY2g5dU4CVQcS_PYezJVAz588w,41
+pydfirram/core/base.py,sha256=bDZeRKsOPE1ulbE_ttNKU8DRQ_gONqOXHNBMVLEw3mk,15889
+pydfirram/core/handler.py,sha256=deb6R7XxTt9F8zo9zJt2c1iGlti34ztx4mWEchWZeJM,4149
+pydfirram/core/renderer.py,sha256=XArd-9KSM-jdfwERq_C9QDJm2DOqj18OCsiwuTDn5yg,7789
+pydfirram/core/utils.py,sha256=SpQQePTKsjs7x57xQJUC1GUrzO59mxiTwqNybxGXMMU,1059
+pydfirram/modules/__init__.py,sha256=GEtejrRaek5OnG7skKxKnolNJF5mywGrQYXX7quHgQg,56
+pydfirram/modules/windows.py,sha256=bMJ7KD-l5ExvY1PBBGrdpBa2Rs9KEM3oGPBgbMHgtkM,4452
+pydfirram/py.typed,sha256=kc51C1iPNLBz9o2521w9epphjDnPtW3tgD_7QsHUrWc,73
+pydfirram-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydfirram-2.0.0.dist-info/METADATA,sha256=xMw8lXSwF9O0Kqluz2jxY-AwFB1N-jlF-S6B0H2eouQ,3375
+pydfirram-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydfirram-2.0.0.dist-info/RECORD,,
