@@ -1,0 +1,10 @@
+fastapi_tortoise_crud/__init__.py,sha256=uNFb1_MILbRt4pDS-vmsUllHJ6-4oM_2xTcKBTIca8M,163
+fastapi_tortoise_crud/_base.py,sha256=fCUN0NWxLpCheSlq5sQms_D7aaQw1892N9gHRnrNDN4,9228
+fastapi_tortoise_crud/_type.py,sha256=kfFl1Vo_C82HPVTuhvF4IJDMaBVfwR7LxsSPSUwoP00,379
+fastapi_tortoise_crud/crud.py,sha256=UYLNJC-mOO3ncVymfDTo0Xjl7HMjyJPUWRW1Z18ZGxA,3782
+fastapi_tortoise_crud/model.py,sha256=M1yiWTKLXad_dZAe3pInJGPYfWmSbfetDFV_VNVibgU,4707
+fastapi_tortoise_crud/utils.py,sha256=_pZrFUefScTpZE-2AVKBZ321ygIf5wC9NOZa9R_DYSY,13738
+fastapi_tortoise_crud-0.2.6.dist-info/METADATA,sha256=xQmZLV_KZcvknpE4U1bKB3gIJhcQx9Vk9vW8O5IuE_M,1765
+fastapi_tortoise_crud-0.2.6.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+fastapi_tortoise_crud-0.2.6.dist-info/top_level.txt,sha256=Ubz74JAbAsIdDg8R41-DkC9bIsG7E8taqGOgBCOe39c,22
+fastapi_tortoise_crud-0.2.6.dist-info/RECORD,,
