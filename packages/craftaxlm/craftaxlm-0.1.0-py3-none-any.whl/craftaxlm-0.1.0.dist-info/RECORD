@@ -1,0 +1,10 @@
+craftaxlm/classic.py,sha256=eZ8cmeAzuQzr382ciZbl8qr6czBK-WDfvTylsH3I6v8,18381
+craftaxlm/craftax.py,sha256=I2cKLASvchRsiLECA6450UwK5HDTKAiD58_--qrwtKY,34673
+craftaxlm/src/__init__.py,sha256=CbBNMe9NCuWM9F427RA7rPQiPTojtAvuLWFlkWxBGSc,117
+craftaxlm/src/classic.py,sha256=eZ8cmeAzuQzr382ciZbl8qr6czBK-WDfvTylsH3I6v8,18381
+craftaxlm/src/craftax.py,sha256=I2cKLASvchRsiLECA6450UwK5HDTKAiD58_--qrwtKY,34673
+craftaxlm/src/shared.py,sha256=pAdPr6CYIac63CnB0tvRjjs3l_OmfS68RXmk5-M3OpE,2122
+craftaxlm-0.1.0.dist-info/LICENSE,sha256=ynhjRQUfqA_RdGRATApfFA_fBAy9cno04sLtLUqxVFM,1069
+craftaxlm-0.1.0.dist-info/METADATA,sha256=8HS8TgKbx5X15AIwDZi91of7_8H7U7pYQhTt6rU0vk8,2513
+craftaxlm-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+craftaxlm-0.1.0.dist-info/RECORD,,
