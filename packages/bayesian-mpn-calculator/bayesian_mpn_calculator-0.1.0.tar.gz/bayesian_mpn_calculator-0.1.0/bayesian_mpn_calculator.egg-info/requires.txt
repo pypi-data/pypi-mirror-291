@@ -1,0 +1,6 @@
+Click
+pymc
+numpy
+pandas
+matplotlib
+seaborn

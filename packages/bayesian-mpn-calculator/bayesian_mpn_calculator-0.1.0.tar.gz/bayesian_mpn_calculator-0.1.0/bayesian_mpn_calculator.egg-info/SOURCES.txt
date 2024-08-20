@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bayesian_mpn_calculator/__init__.py
+bayesian_mpn_calculator/mpn_calculator.py
+bayesian_mpn_calculator.egg-info/PKG-INFO
+bayesian_mpn_calculator.egg-info/SOURCES.txt
+bayesian_mpn_calculator.egg-info/dependency_links.txt
+bayesian_mpn_calculator.egg-info/entry_points.txt
+bayesian_mpn_calculator.egg-info/requires.txt
+bayesian_mpn_calculator.egg-info/top_level.txt
