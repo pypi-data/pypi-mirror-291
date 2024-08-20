@@ -1,0 +1,15 @@
+README.md
+setup.py
+QuickColab/Client.py
+QuickColab/Console.py
+QuickColab/Element.py
+QuickColab/__init__.py
+QuickColab/config.py
+QuickColab/struc.py
+QuickColab.egg-info/PKG-INFO
+QuickColab.egg-info/SOURCES.txt
+QuickColab.egg-info/dependency_links.txt
+QuickColab.egg-info/entry_points.txt
+QuickColab.egg-info/requires.txt
+QuickColab.egg-info/top_level.txt
+QuickColab/prompts/__init__.py

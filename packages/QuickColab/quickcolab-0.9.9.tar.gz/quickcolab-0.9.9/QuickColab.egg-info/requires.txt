@@ -1,0 +1,7 @@
+ipywidgets
+python-dotenv
+openai
+datasets
+transformers
+huggingsound
+pillow
