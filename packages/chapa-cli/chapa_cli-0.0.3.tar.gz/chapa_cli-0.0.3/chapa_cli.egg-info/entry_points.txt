@@ -1,0 +1,2 @@
+[console_scripts]
+chapa = chapa_cli.main:cli
