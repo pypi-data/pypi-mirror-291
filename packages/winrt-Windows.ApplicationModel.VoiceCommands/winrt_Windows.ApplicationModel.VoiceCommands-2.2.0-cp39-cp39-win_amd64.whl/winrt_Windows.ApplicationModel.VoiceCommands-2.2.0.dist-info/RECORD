@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_voicecommands.cp39-win_amd64.pyd,sha256=BND1jYz2N8UevZlX0sIcfkLRuqBARHwldE-Cdew_574,228352
+winrt/_winrt_windows_applicationmodel_voicecommands.pyi,sha256=uu7mMpXIDuHE421ojVJ5IkcxJ0Udz-CbW52ihu88RWQ,8668
+winrt/windows/applicationmodel/voicecommands/__init__.py,sha256=8-LBirLNVK6ED-5xgW-rGsEBfH437tWd2AbP5Cs7j2Q,2103
+winrt/windows/applicationmodel/voicecommands/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.VoiceCommands-2.2.0.dist-info/METADATA,sha256=IzciUB70GXuhHxUOKwSIFyA3qjUayxqwOJ6kT95UK1Y,1500
+winrt_Windows.ApplicationModel.VoiceCommands-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.ApplicationModel.VoiceCommands-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.VoiceCommands-2.2.0.dist-info/RECORD,,
