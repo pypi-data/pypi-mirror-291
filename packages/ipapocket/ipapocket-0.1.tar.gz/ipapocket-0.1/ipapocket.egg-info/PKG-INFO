@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ipapocket
+Version: 0.1
+Summary: Toolset for interaction with FreeIPA
+Home-page: https://github.com/c2micro/ipapocket
+Author: c2micro
+Maintainer: c2micro
+Platform: Unix
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types==0.7.0
+Requires-Dist: asn1crypto==1.5.1
+Requires-Dist: bitarray==2.9.2
+Requires-Dist: pycryptodomex==3.20.0
+Requires-Dist: setuptools==72.2.0
+Requires-Dist: typing_extensions==4.12.2
+
+# ipapocket
+Toolset for interaction with FreeIPA
+
+## Why
+Due to lack of support FreeIPA features in impacket.
+
+## Examples
+`get_tgt.py` - get AS-REP and save TGT to CCACHE
+
+`user_enum.py` - enumarate users via Kerberos
