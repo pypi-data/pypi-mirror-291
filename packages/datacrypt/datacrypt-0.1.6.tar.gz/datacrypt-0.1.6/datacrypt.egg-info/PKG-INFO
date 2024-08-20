@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: datacrypt
+Version: 0.1.6
+Summary: datacrypt Package
+Requires-Dist: utilum
+Requires-Dist: fastapi
+Requires-Dist: jinja2
+Requires-Dist: markdown
