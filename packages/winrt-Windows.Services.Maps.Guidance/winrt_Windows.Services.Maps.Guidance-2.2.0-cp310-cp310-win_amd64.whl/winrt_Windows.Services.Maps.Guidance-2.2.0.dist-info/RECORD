@@ -1,0 +1,8 @@
+winrt/_winrt_windows_services_maps_guidance.cp310-win_amd64.pyd,sha256=AJ91-vIDJACOFf8XG_kuKdrDgrb7D7i1n90DH0rk9tU,184320
+winrt/_winrt_windows_services_maps_guidance.pyi,sha256=_PaaRZMhk9a5fLMBK99sV5RqDXxZ7PBhvLsw9bqp8t4,11938
+winrt/windows/services/maps/guidance/__init__.py,sha256=yl8ZbJgRwMPYOVwEsj4UfNdllmGA5uvhYurq2sTDOpA,3816
+winrt/windows/services/maps/guidance/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Services.Maps.Guidance-2.2.0.dist-info/METADATA,sha256=AgobcRcLTPXNmW_K8CnxGJb_pKtjS_Kh5rBZ4ewVjvA,1371
+winrt_Windows.Services.Maps.Guidance-2.2.0.dist-info/WHEEL,sha256=zWneB6rvW-_BQDcNdIDobvp8AqetSHN6yeGec-LGca0,101
+winrt_Windows.Services.Maps.Guidance-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Services.Maps.Guidance-2.2.0.dist-info/RECORD,,
