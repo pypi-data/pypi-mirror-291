@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ha-remote-tts
+Version: 0.1.1
+Summary: API wrapper for the Remote TTS integration of Home Assistant
+Home-page: https://github.com/NicolasNewman/ha-remote-tts
+License: MIT
+Author: NicolasNewman
+Author-email: nanewman01@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.10.4,<4.0.0)
+Project-URL: Repository, https://github.com/NicolasNewman/ha-remote-tts
+Description-Content-Type: text/markdown
+
+# ha-remote-tts
+
+TODO
+
