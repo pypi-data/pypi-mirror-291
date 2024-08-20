@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_composition_interactions.cp311-win_amd64.pyd,sha256=xK3N6BhkJ6F7tw2jGJP5mGzxX8yvhaW4vWvbSmA1fUM,401408
+winrt/_winrt_windows_ui_composition_interactions.pyi,sha256=3X8kNoNfyL86X9yekVtW7xXRiWkhUZ-1RjhNFvTo6HQ,41380
+winrt/windows/ui/composition/interactions/__init__.py,sha256=TuQ6_8uRwlISTMe7OTH95oMADL1gme_S3WyKb5bhkeM,4274
+winrt/windows/ui/composition/interactions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Composition.Interactions-2.2.0.dist-info/METADATA,sha256=gvsf01AQjjNTgV32uXpzzAI1Vff_0RXbYQQ2OnDRF10,1533
+winrt_Windows.UI.Composition.Interactions-2.2.0.dist-info/WHEEL,sha256=hOAPNWbnB-LOXvjF1CytkzslAkcUu0x2KSUVu1K2paw,101
+winrt_Windows.UI.Composition.Interactions-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Composition.Interactions-2.2.0.dist-info/RECORD,,
