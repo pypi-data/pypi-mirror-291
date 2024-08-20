@@ -1,0 +1,10 @@
+scikit-image
+matplotlib
+colour-science
+scipy
+pandas
+requests
+tqdm
+openpyxl
+
+[dev]
