@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: function_notifier
+Version: 1.0.0
+Summary: This package contains the notify decorator, used to notify users when the wrapped function has finished execution.
+Author: Lewis Dean
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: plyer >=2.1.0
+
+# Function Notifier
+
+This package contains the notify decorator, used to notify users when the wrapped function has finished execution.
+Note, Plyer must be intalled for Function Notifier to work.
