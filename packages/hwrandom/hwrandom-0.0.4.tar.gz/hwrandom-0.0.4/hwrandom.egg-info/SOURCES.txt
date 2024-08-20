@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+hwrandom/__init__.py
+hwrandom/librdrand.so
+hwrandom/librdrand64.so
+hwrandom/rdrand32.dll
+hwrandom/rdrand64.dll
+hwrandom.egg-info/PKG-INFO
+hwrandom.egg-info/SOURCES.txt
+hwrandom.egg-info/dependency_links.txt
+hwrandom.egg-info/top_level.txt

@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: hwrandom
+Version: 0.0.4
+Summary: The hwrandom Python package uses Intel’s RDRAND instruction to generate high-entropy, cryptographically secure random numbers for various applications.
+Author: RaymonDev
+Author-email: ramongallinadcorti@gmail.com
+Keywords: random,hardware random,RDRAND,cryptographic randomness,random number generator,secure random,python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hwrandom
+
+**hwrandom** is a Python package that provides a high-performance random number generator using Intel's RDRAND instruction. By leveraging hardware-based randomness, **hwrandom** delivers cryptographically secure random numbers with superior entropy compared to traditional software-based methods.
+
+Its aim is to have all the same functionalities as the standard ```random``` package.
+
+## Index
+- [Features](#features)
+- [Usage](#usage)
+  - [Instalation](#instalation)
+  - [Examples](#examples)
+- [Functions](#functions)
+- [Tested](#tested)
+- [To Add](#to-add)
+
+## Features
+
+- **Hardware-Based Randomness**: Utilizes Intel's RDRAND instruction for generating true hardware-based random numbers.
+- **Cryptographic Security**: Provides cryptographically secure random numbers suitable for secure applications.
+- **Versatile Functionality**: Includes functions for generating random integers, floating-point numbers, and selections from sequences.
+
+## Usage
+
+### Instalation
+
+To install **hwrandom**, you can use pip. Simply run:
+
+```
+pip install hwrandom
+```
+
+### Examples
+
+Here are some examples of how to use the **hwrandom** package:
+
+#### Generating a Random Number
+```py
+from hwrandom import random
+
+# Generate a random number between 0 and 1
+print(random())
+```
+
+#### Generating a Random Integer
+```py
+from hwrandom import randint 
+
+# Generate a random integer between 1 and 10 
+print(randint(1, 10))
+```
+#### Choosing from a list
+```py
+from hwrandom import choice
+
+# Choose a random element from a list
+print(choice(['apple', 'banana', 'cherry', 'date']))
+```
+#### Shuffling a list
+```py
+from hwrandom import shuffle
+
+lst = [1, 2, 3, 4, 5]
+shuffle(lst)
+print(lst)
+```
+#### Generating Random Bits
+```py
+from rdrandom import getrandbits
+
+# Generate a random number with 8 bits
+print(getrandbits(8))
+```
+
+
+## Functions
+-   **`random()`**: Generates a random floating-point number between 0 and 1.
+-   **`randint(a, b)`**: Returns a random integer N such that `a <= N <= b`.
+-   **`randrange(start, stop, step)`**: Returns a randomly selected element from the range `start` to `stop` with the specified `step`.
+-   **`choice(seq)`**: Returns a random element from a non-empty sequence.
+-   **`shuffle(seq)`**: Shuffles the sequence in place.
+-   **`getrandbits(k)`**: Returns a Python integer with `k` random bits.
+-   **`choices(population, weights=None, cum_weights=None, k=1, repetitions=True)`**: Returns a list of `k` elements chosen from the population with optional weights.
+-   **`sample(population, k=1)`**: Returns a list of `k` unique elements chosen from the population.
+-   **`uniform(a, b)`**: Returns a random floating-point number between `a` and `b`.
+-   **`triangular(low, high, mode)`**: Returns a random number between `low` and `high` with the specified `mode`.
+
+
+## Tested
+
+**hwrandom** was tested in the following:
+
+- [x] Windows 64 bits (Intel)
+- [ ] Windows 32 bits (Intel)
+- [ ] Windows 64 bits (AMD)
+- [ ] Windows 32 bits (AMD)
+- [ ] Linux 64 bits (Intel)
+- [ ] Linux 32 bits (Intel)
+- [ ] Linux 64 bits (AMD)
+- [ ] Linux 32 bits (AMD)
+
+## To Add
+
+- [ ] **betavariate(alpha, beta)**: Beta distribution.
+- [ ] **expovariate(lambd)**: Exponential distribution.
+- [ ] **gammavariate(alpha, beta)**: Gamma distribution.
+- [ ] **gauss(mu, sigma)**: Gaussian distribution.
+- [ ] **lognormvariate(mu, sigma)**: Log-normal distribution.
+- [ ] **normalvariate(mu, sigma)**: Normal distribution.
+- [ ] **vonmisesvariate(mu, kappa)**: Von Mises distribution.
+- [ ] **paretovariate(alpha)**: Pareto distribution.
+- [ ] **weibullvariate(alpha, beta)**: Weibull distribution.
