@@ -1,0 +1,11 @@
+isbtchot/__init__.py,sha256=-zrgh8nsL76geKMe2fxRU-N0hdY5rrza5j0GKO4dcv8,206
+isbtchot/__main__.py,sha256=jPZQ3Ya2AjedoJsrHmxExPPwAdKCYUoY_zOBqIFsO18,1305
+isbtchot/controller.py,sha256=O1SYowrxo5SMxIZfiYaTM9rBIbZgfwQvVsz23EtNXak,2145
+isbtchot/model.py,sha256=Ht58zasyE8HbgF52E-BeOKJcHo_FZxmnzPhb6ExcWwo,4779
+isbtchot/view.py,sha256=Pb-bLIFctAW-sjmkAlW0Sp1SmLcr-YBOespVPATac0I,1256
+isbtchot/schemas/args.py,sha256=vx-ywxdKE35lpRPx-zrRbSiUhxlVePUTNsqurJPIFtw,75
+isbtchot-1.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+isbtchot-1.1.3.dist-info/METADATA,sha256=n-XGdJ_cPZ4JgXC27MmZ9HO6VOHrT6YRGpoOnxHUhUM,2854
+isbtchot-1.1.3.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+isbtchot-1.1.3.dist-info/top_level.txt,sha256=QyM8YTUBYp6C09CbQRcClcbXbyKuhUOL27qD57WZmA0,9
+isbtchot-1.1.3.dist-info/RECORD,,
