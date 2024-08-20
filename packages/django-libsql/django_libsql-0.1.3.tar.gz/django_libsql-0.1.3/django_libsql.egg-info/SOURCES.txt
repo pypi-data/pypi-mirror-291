@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+django_libsql.egg-info/PKG-INFO
+django_libsql.egg-info/SOURCES.txt
+django_libsql.egg-info/dependency_links.txt
+django_libsql.egg-info/requires.txt
+django_libsql.egg-info/top_level.txt
+libsql/db/backends/sqlite3/__init__.py
+libsql/db/backends/sqlite3/base.py
+libsql/db/backends/sqlite3/client.py
+libsql/db/backends/sqlite3/creation.py
+libsql/db/backends/sqlite3/features.py
+libsql/db/backends/sqlite3/introspection.py
+libsql/db/backends/sqlite3/operations.py
+libsql/db/backends/sqlite3/schema.py
