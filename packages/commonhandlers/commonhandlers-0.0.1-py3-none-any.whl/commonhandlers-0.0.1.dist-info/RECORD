@@ -1,0 +1,10 @@
+commonhandlers/__init__.py,sha256=BuhuczvlviBAdCh--CQUQxep6CWcIf3YVobud6YuLjM,192
+commonhandlers/call_with_handlers_decorator.py,sha256=tfflDU3AqLfazqms27Eul-KZlb4k8kjBAqy0E2a1xvI,2302
+commonhandlers/handler.py,sha256=YL-0GNRalK3oDUU43UZ4sFQEB2aoq-bHNwrx4jo7dOY,458
+commonhandlers/handler_kind.py,sha256=IFB7j4cyhi9pcR6EEswtV87y7Zh_rehE76nrcE5mxGU,531
+commonhandlers/handlers.py,sha256=A-Y3cMWUfu5CAA58oiX8TrDJ_zQylcXMbAgwjdgCsoM,897
+commonhandlers/iterate_with_handlers.py,sha256=PB9ZieE9olVplFi-QU1B1_dvyyjYebJjajzzd3RLRbg,1854
+commonhandlers-0.0.1.dist-info/METADATA,sha256=Y02LDfryknMvKdJZlFtxaZzszdLXQQFByL-233MfsoE,872
+commonhandlers-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+commonhandlers-0.0.1.dist-info/licenses/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+commonhandlers-0.0.1.dist-info/RECORD,,
