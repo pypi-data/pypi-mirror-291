@@ -1,0 +1,3 @@
+[console_scripts]
+snews_data_formats=snews.__main__:main
+
