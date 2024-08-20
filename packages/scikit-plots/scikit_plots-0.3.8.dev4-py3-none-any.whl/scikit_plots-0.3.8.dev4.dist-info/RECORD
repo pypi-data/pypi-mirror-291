@@ -1,0 +1,14 @@
+scikitplot/__init__.py,sha256=p34ae7qfk148-QD6s3d5bcRXH8FvxcUfLW95CcMI9lc,413
+scikitplot/classifiers.py,sha256=n7GIf17FumWsWl5tLBzHzOwX-HrRi3hhv8ddaIXInsM,25023
+scikitplot/cluster.py,sha256=Yyt29e5d_OJbOFZxDCtMyGl9fO9yP8v9cghLz_9s-OM,5162
+scikitplot/clustering.py,sha256=XyL4hEgudVy3SaLvTEQJt7UTYFoFC2dCj3v9QRupieo,1790
+scikitplot/deciles.py,sha256=XLb2dGT3-x2S8OMxEZzXb6q99X9nLko2nT5TyEw9cfA,36201
+scikitplot/decomposition.py,sha256=p85XO_MepSUUbyGkeDRWgBmcmho98lN4uo3ZaQ9NyYs,8757
+scikitplot/estimators.py,sha256=x8H5S7bQv8O8cyFieeisoWjfHJ38Z5IOY9ilHZlBzxU,14447
+scikitplot/metrics.py,sha256=oTe2X9l4ECIIDFwKKgsqj01paaM19SPM0GlOPJFwlcc,50287
+scikitplot/plotters.py,sha256=JB47fUjgxmPVD30GyABxGClHDjdIFVlpedmnxUaUocc,45210
+scikit_plots-0.3.8.dev4.dist-info/LICENSE,sha256=eJt5oFZEiESRNPc5jsVuHcPGHfzUL8tTvp_Ro7FE0fo,1096
+scikit_plots-0.3.8.dev4.dist-info/METADATA,sha256=9jjYDYkLjmNPTZ7TkaM2shivzR0LDh9vqtbY-2Ar48U,9391
+scikit_plots-0.3.8.dev4.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+scikit_plots-0.3.8.dev4.dist-info/top_level.txt,sha256=400vmLM4ZuSB8eJHopJP3tZyb4zQZphHO68vPn2RePM,11
+scikit_plots-0.3.8.dev4.dist-info/RECORD,,
