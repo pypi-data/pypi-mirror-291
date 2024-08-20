@@ -1,0 +1,9 @@
+sparc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparc/convert/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+sparc/convert/application.py,sha256=ZSKGr1TOAqBVefN1Ka-6wnzjOkDsexqT9zYqrENIJpg,1118
+sparc_converter-0.3.0.dist-info/LICENSE,sha256=ZFrXRJukIMNrsL7C3WxZriJX2KMCmbx9XrTq32yAUpY,594
+sparc_converter-0.3.0.dist-info/METADATA,sha256=V8I4tW8tjIkg8_ReUHN9svDVwsdtP1A62CtEBbv_KhY,1893
+sparc_converter-0.3.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+sparc_converter-0.3.0.dist-info/entry_points.txt,sha256=Mqs7kMHt1hSGFeAder6vCXJRfpamuOcAb28VjQf24sc,65
+sparc_converter-0.3.0.dist-info/top_level.txt,sha256=0Rkt3aTPDJTiu4CYXIrK3J29ztJr3Fd8oBc_SwyDECs,6
+sparc_converter-0.3.0.dist-info/RECORD,,
