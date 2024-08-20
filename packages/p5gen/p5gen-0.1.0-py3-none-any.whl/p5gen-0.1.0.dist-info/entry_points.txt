@@ -1,0 +1,2 @@
+[console_scripts]
+p5gen = p5gen:main
