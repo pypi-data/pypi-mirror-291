@@ -1,0 +1,10 @@
+sojourner/__init__.py,sha256=6jwdkxtbiA1qIk6CSc4M1aVhGC3ohGUbJjabXoNif8k,60
+sojourner/_modidx.py,sha256=PI6urn_rO1nZI5_wj3PTfiMQjFOuhFR-pTj8zv58jUo,2051
+sojourner/cli.py,sha256=zyGWA2izRsvh4a282R6D_0VwkDhiAy39zi5pJZb1pZI,1971
+sojourner/core.py,sha256=DVVj24wXMktM_Km-k_UT4CGLhuzouOfFq0kEJi7F8is,5133
+sojourner-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+sojourner-0.0.4.dist-info/METADATA,sha256=BHF8bsGWVZsnxX5DhD4BaVKUTKLN1Y68-546BE77_sE,2491
+sojourner-0.0.4.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+sojourner-0.0.4.dist-info/entry_points.txt,sha256=0AdnLPcnqNEB7OVdIhCYAgiIAGMri0-Zr8YMfgCZ5tw,82
+sojourner-0.0.4.dist-info/top_level.txt,sha256=6KuurRglt3BBewCl4GTYXj9fpKc3Tl-l3O4hkwouuLc,10
+sojourner-0.0.4.dist-info/RECORD,,
