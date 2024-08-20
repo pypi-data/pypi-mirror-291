@@ -1,0 +1,9 @@
+gitlab_discord_webhook/__init__.py,sha256=usZwKCAa4ZNoyjILR6871OuE1O3cDiE1fEYTaZMVQvg,333
+gitlab_discord_webhook/__main__.py,sha256=ACuBBpjkfQkYYbiPEzR190YEdeilBePmH-X1dTwIl4c,10720
+gitlab_discord_webhook/models.py,sha256=8GZlBz5xmbSzM5xD_Nll2AaXBZXFN8L7oGmklI66yR8,10010
+gitlab_discord_webhook-0.2.0.dist-info/LICENSE,sha256=LxC0n-mY-E49nRtoFiqbFQCzOAIBbU1JOooZY-mncLU,1070
+gitlab_discord_webhook-0.2.0.dist-info/METADATA,sha256=0t_SBZL3M7VNdyz4Erfe5UqxtfWBbI4VXPLpDZY8Ctk,3956
+gitlab_discord_webhook-0.2.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+gitlab_discord_webhook-0.2.0.dist-info/entry_points.txt,sha256=ke2SMEZYAvCuAoYuQLNcAk4cyplo7PrlJSjifAJQPcg,80
+gitlab_discord_webhook-0.2.0.dist-info/top_level.txt,sha256=ceHjsY1cuXOYuCqcZLM1r8CMAI1Z5OYIbq99bYHh98s,23
+gitlab_discord_webhook-0.2.0.dist-info/RECORD,,
