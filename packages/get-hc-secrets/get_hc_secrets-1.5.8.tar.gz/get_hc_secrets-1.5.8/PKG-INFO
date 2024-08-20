@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: get_hc_secrets
+Version: 1.5.8
+Summary: A package to read secrets from Hashicorp vault
+Author-email: Xavier Mayeur <xavier@mayeur.be>
+Project-URL: Homepage, https://github.com/xmayeur/getSecrets
+Project-URL: Bug Tracker, https://github.com/xmayeur/getSecrets/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: requests
+
+# getSecrets package
+
+getSecrets is a simple package that reads from the given engine ('secret' by default) of a Hashicorp vault
+
+usage:
+
+```
+from getSecrets import *
+
+data = get_secret(<id>, [<secret>])
+
+usr_pwd = get_user_pwd(<id>, <new k_v_dict> , [<secret>])
+
+list = list_secret([<secret>]
+
+```
+
+Vault parameters are stored in a config file ~/.config/.vault/.vault.yml
+
+```
+vault:
+  token: "<access token>"
+  vault_addr: "https://vault:8200"
+  certs: "<path>/bundle.pem"
+```
