@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: a7n-global-cli
+Version: 0.0.1
+Summary: cli
+Home-page: https://github.com/a7n-global/infra
+License: MIT
+Author: xxx AI Inc.
+Author-email: dev@xxx.ai
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click
+Requires-Dist: cloudpickle (==3.0.0)
+Requires-Dist: contextlib2
+Requires-Dist: exceptiongroup
+Requires-Dist: httpx[http2]
+Requires-Dist: loguru
+Requires-Dist: pillow
+Requires-Dist: pydantic (!=2.1.0)
+Requires-Dist: python-multipart
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: typing-extensions
+Project-URL: Repository, https://github.com/a7n-global/infra
+Description-Content-Type: text/markdown
+
+# AC cli

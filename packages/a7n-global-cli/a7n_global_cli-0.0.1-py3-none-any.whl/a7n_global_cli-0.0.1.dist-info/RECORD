@@ -1,0 +1,13 @@
+ac/.DS_Store,sha256=ZstsD_GwGgvlvA1tJ6V9Yd5OJsp5XS89kpt0tazObhQ,6148
+ac/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ac/api/connection.py,sha256=OYLa85k7_TderZMGrBvfebpMeLR4_dW6VRXIepj9pho,1735
+ac/cli/__init__.py,sha256=fb8qdnY-sSe7cf8yohr_U2Em-ZQ9PllTIGm4fMuOU_8,21
+ac/cli/cli.py,sha256=Hk8My33BApiuTX0_djn3-zUCeu3kMPVQkxGw5MJbgxw,368
+ac/cli/deployment.py,sha256=nlTQMBP8mf2UaBUJ1dDyP9DZDRvX2no-Src9jl2jLy8,409
+ac/cli/infer.py,sha256=Nq3D8FlQ1dC6hUet283bLaxS-EXTKKCgcJL2yVAM_fw,871
+ac/cli/util.py,sha256=rsVkv-BN2ijkKXrQ7LDAbCm0wD7goRSD1Pfu4PXuB8k,1256
+ac/version.py,sha256=D2l6N3z91I-ZfmEVnk0FtmeF_QYtx0ykkL7k3VVzgMo,263
+a7n_global_cli-0.0.1.dist-info/METADATA,sha256=FzwIAOEDTNoClfOAbK_2kT3-4bwGjf5iqqRTgJclRl4,1058
+a7n_global_cli-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+a7n_global_cli-0.0.1.dist-info/entry_points.txt,sha256=eAqLzScpqOghE-Mx5LNJ5p8F3dE-JGO0cJ_OYKicTCE,34
+a7n_global_cli-0.0.1.dist-info/RECORD,,
