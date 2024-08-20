@@ -1,0 +1,9 @@
+ipykernel
+jupyter-client
+astunparse
+dill
+itables
+matplotlib
+pandas
+ipywidgets
+pynvml
