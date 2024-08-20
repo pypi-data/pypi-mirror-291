@@ -1,0 +1,14 @@
+pylabnotebook-0.1.11.dist-info/METADATA,sha256=cfhmgcQYHk1HgVw_DhPeL4G-XktxASvdDH1JbMJTWlY,4399
+pylabnotebook-0.1.11.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+pylabnotebook-0.1.11.dist-info/entry_points.txt,sha256=qWrcIU-3KCOY-_ahKQ7HvtW_q99Q0T46FSxaUDQUi-A,57
+pylabnotebook/.DS_Store,sha256=O5MejKsw-hyXNu3bQynTAp5g-NBfGdrVNUJd_ovnFTU,6148
+pylabnotebook/LICENSE,sha256=Sx-dX1QyPDd3yHNnh20Ot7ZGSGI9Yo4y905zj42g5EM,1074
+pylabnotebook/__init__.py,sha256=2CfLpt3-dY7N9EBZ7QqmgbA8IOZlTodw0lZwSEHdtL0,87
+pylabnotebook/example.html,sha256=C1fb1vUYtAxei00TOk-PsTUxmoDV1RhPVt42JkE_kv8,1401
+pylabnotebook/main.py,sha256=46sgX5brKrGObrHI68M5JJJkY4pPlt2Xg8hCDfq2ues,22963
+pylabnotebook/templates/body.html,sha256=yz1Ls5UBsWo3KWPsly9rg9vsT7F-jLglr7XSxareoTM,249
+pylabnotebook/templates/footer.html,sha256=r9oMMFWh2nybAWjGAYgwmyomfmH5D52cFqOl8Ho9Qy0,64
+pylabnotebook/templates/head.html,sha256=o657x8D6ulqDFXog2WZTw2jU1ar5O_Sly91VO-HiRqM,273
+pylabnotebook/templates/style.css,sha256=fKK6YdYYWurzp2LG6nMppuYloZDLn4kwJEKK2I5T4hU,733
+pylabnotebook/version.py,sha256=nllDrH0jyChMuuYrK0CC55iTBKUNTUjejtcwxyUF2EQ,23
+pylabnotebook-0.1.11.dist-info/RECORD,,
