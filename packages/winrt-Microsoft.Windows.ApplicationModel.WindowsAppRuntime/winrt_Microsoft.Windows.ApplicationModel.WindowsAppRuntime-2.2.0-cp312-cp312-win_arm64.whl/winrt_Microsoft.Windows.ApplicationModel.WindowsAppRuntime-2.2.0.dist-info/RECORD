@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_windows_applicationmodel_windowsappruntime.cp312-win_arm64.pyd,sha256=369Ra7_4HO7hwNMvVhPI099AwT6wnEVqXqTfyUq77sg,53248
+winrt/_winrt_microsoft_windows_applicationmodel_windowsappruntime.pyi,sha256=Xok9Drd1m6lhxJ1C2vzB3312cNm3hqrRrt2YClXNEb0,1887
+winrt/microsoft/windows/applicationmodel/windowsappruntime/__init__.py,sha256=b3CaPlaWks2C2r9_1TBCMQwZ_86QXKdBQvAp7RPSSgU,758
+winrt/microsoft/windows/applicationmodel/windowsappruntime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Windows.ApplicationModel.WindowsAppRuntime-2.2.0.dist-info/METADATA,sha256=wVR3c3LUvUKWAwifgVeFfVStzt54g88zl5L4Zmd8JdU,1159
+winrt_Microsoft.Windows.ApplicationModel.WindowsAppRuntime-2.2.0.dist-info/WHEEL,sha256=Zb7xxpKNk5G3g6-yXQ6qIO3l9uksanx1wwJuO1EjUdM,101
+winrt_Microsoft.Windows.ApplicationModel.WindowsAppRuntime-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Windows.ApplicationModel.WindowsAppRuntime-2.2.0.dist-info/RECORD,,
