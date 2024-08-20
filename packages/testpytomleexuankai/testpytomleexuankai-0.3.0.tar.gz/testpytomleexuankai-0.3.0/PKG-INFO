@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: testpytomleexuankai
+Version: 0.3.0
+Summary: 
+Author: joshua.jr
+Author-email: joshua.jr@bytedance.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.1.0,<3.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+### Sample PYToml Project
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+Adding a new content to readme
