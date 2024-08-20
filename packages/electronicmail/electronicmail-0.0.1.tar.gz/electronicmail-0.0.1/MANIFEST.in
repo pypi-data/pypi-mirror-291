@@ -1,0 +1,2 @@
+include src/electronicmail/meta.sh
+include src/electronicmail/data/quote.txt

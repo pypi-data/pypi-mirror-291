@@ -1,0 +1,2 @@
+[console_scripts]
+electronicmail = electronicmail.__main__:main

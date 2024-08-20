@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/electronicmail/__init__.py
+src/electronicmail/__main__.py
+src/electronicmail/meta.py
+src/electronicmail/meta.sh
+src/electronicmail.egg-info/PKG-INFO
+src/electronicmail.egg-info/SOURCES.txt
+src/electronicmail.egg-info/dependency_links.txt
+src/electronicmail.egg-info/entry_points.txt
+src/electronicmail.egg-info/top_level.txt
+src/electronicmail/data/__init__.py
+src/electronicmail/data/quote.txt
