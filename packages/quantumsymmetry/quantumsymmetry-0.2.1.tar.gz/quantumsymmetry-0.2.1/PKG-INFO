@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: quantumsymmetry
+Version: 0.2.1
+Summary: Quantum computing research package
+License: GNU General Public License v3.0
+Author: Dario Picozzi
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ipython
+Requires-Dist: numpy
+Requires-Dist: openfermion
+Requires-Dist: pyscf (>=2.6,<3.0)
+Requires-Dist: qiskit (>=1.1,<2.0)
+Requires-Dist: qiskit_nature (>=0.7,<0.8)
+Requires-Dist: tabulate
+Description-Content-Type: text/markdown
+
+# quantumsymmetry
+
+Quantum computing research package
+
+## Installation
+
+```bash
+$ pip install quantumsymmetry
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`quantumsymmetry` was created by Dario Picozzi. It is licensed under the terms of the GNU General Public License v3.0 license.
+
