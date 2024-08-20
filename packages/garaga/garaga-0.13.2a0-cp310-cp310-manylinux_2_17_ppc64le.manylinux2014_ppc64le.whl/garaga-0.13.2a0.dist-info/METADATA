@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: garaga
+Version: 0.13.2a0
+Requires-Dist: cairo-lang ==0.13.2a0
+Requires-Dist: fastecdsa
+Requires-Dist: sympy
+Requires-Dist: typer
+Requires-Dist: web3 ==5.31.0
+License-File: LICENSE
+Requires-Python: >=3.10, <3.11
