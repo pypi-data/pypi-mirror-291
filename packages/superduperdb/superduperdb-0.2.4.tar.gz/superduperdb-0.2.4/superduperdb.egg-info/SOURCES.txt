@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+superduperdb/__init__.py
+superduperdb/py.typed
+superduperdb.egg-info/PKG-INFO
+superduperdb.egg-info/SOURCES.txt
+superduperdb.egg-info/dependency_links.txt
+superduperdb.egg-info/top_level.txt
