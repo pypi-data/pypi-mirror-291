@@ -1,0 +1,15 @@
+gofetch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/fetchers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/fetchers/shopify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/fetchers/shopify/fetch_shopify.py,sha256=Q1Q9fn0_cvOgg1MUaZUvZQ1OvwHz_gkSCMalnQHU-qE,12133
+gofetch/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/parsers/shopify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/parsers/shopify/parse_shopify.py,sha256=-Yz9a9sqrv0XMlm2xLQOW2zfqpbJdb_P6uvQIvMW1LE,19007
+gofetch/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/utils/date_utils.py,sha256=YOtSPzN_gLelZRSUN_3XsQGYSP6FMP7DURCp5qxULOI,763
+gofetch/utils/decorator_utils.py,sha256=U57qTM4U8ZY4s65iK9gJbaBhTjAkZ44yddeaA2CerdY,1405
+gofetch/utils/nlp_utils.py,sha256=r06l4EDlbxcG_LcGIRhc_2WwviIfYUwBotWsI08VCAo,371
+gofetch-0.1.1.dist-info/METADATA,sha256=L4NnyZN2h3w3uEWXljc5fbu59A6sybQ9aenajXwGWpM,713
+gofetch-0.1.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+gofetch-0.1.1.dist-info/top_level.txt,sha256=dgRrP7tSjEHwIZmK59eN3vOUW0dxr27XE36uT8mMH2g,8
+gofetch-0.1.1.dist-info/RECORD,,
