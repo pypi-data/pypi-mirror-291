@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: draw_random_walks_meinersth
+Version: 0.1.0
+Summary: A package to draw random walks
+Project-URL: Homepage, https://github.com/tmeiners91/drawrandomwalks
+Author-email: meinersth <meiners.th@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# Simple Random Walk Package
+
+This project lets you draw random walks.
