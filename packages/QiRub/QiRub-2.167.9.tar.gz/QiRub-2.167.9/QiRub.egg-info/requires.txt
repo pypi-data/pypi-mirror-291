@@ -1,0 +1,8 @@
+httpx
+pycryptodome
+fake_useragent
+rich
+Pillow
+aiortc
+mutagen
+urllib3
