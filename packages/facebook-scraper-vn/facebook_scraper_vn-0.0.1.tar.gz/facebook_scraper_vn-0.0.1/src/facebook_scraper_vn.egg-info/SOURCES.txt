@@ -1,0 +1,15 @@
+.gitignore
+MANIFEST.in
+README.md
+pyproject.toml
+src/facebook_scraper_vn/__init__.py
+src/facebook_scraper_vn/_jscode.py
+src/facebook_scraper_vn/_utils.py
+src/facebook_scraper_vn/facebook_scraper.py
+src/facebook_scraper_vn.egg-info/PKG-INFO
+src/facebook_scraper_vn.egg-info/SOURCES.txt
+src/facebook_scraper_vn.egg-info/dependency_links.txt
+src/facebook_scraper_vn.egg-info/requires.txt
+src/facebook_scraper_vn.egg-info/top_level.txt
+src/test/__init__.py
+src/test/main.py
