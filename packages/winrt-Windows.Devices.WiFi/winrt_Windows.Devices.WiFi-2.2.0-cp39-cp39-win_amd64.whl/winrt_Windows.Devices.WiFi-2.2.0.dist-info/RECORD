@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_wifi.cp39-win_amd64.pyd,sha256=z64kgwKbQ85x7rhVhgF2IqdH-6jocsB2957zmKLuxek,205824
+winrt/_winrt_windows_devices_wifi.pyi,sha256=ioLE0EOYm9FOOw02R8vcDgJr5i8jNr9Jt-mcHbkPJxI,8287
+winrt/windows/devices/wifi/__init__.py,sha256=ExazoAGJ_akLhQQcJm4f7RDcY28KuJljhcBhYbAwDD0,3478
+winrt/windows/devices/wifi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.WiFi-2.2.0.dist-info/METADATA,sha256=gqmfXvnTcPCCb-6wJtgGZ4gXzJhK15UTrpZv_rdIzZc,1279
+winrt_Windows.Devices.WiFi-2.2.0.dist-info/WHEEL,sha256=91kwSODnR8QSHQ2fBispYO_WoLg41rfdu8IKna3UpD0,99
+winrt_Windows.Devices.WiFi-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.WiFi-2.2.0.dist-info/RECORD,,
