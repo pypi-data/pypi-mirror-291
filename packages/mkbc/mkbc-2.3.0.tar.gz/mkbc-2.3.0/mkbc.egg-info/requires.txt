@@ -1,0 +1,6 @@
+EbookLib
+Pillow
+beautifulsoup4
+cairosvg
+httplib2
+langdetect

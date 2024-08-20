@@ -1,0 +1,16 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+latex/main.tex
+mkbc/__init__.py
+mkbc/__main__.py
+mkbc/formulas.py
+mkbc/images.py
+mkbc/macros.py
+mkbc.egg-info/PKG-INFO
+mkbc.egg-info/SOURCES.txt
+mkbc.egg-info/dependency_links.txt
+mkbc.egg-info/entry_points.txt
+mkbc.egg-info/requires.txt
+mkbc.egg-info/top_level.txt
