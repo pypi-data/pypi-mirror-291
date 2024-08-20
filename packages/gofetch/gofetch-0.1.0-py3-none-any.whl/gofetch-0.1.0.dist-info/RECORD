@@ -1,0 +1,14 @@
+fetchers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fetchers/shopify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fetchers/shopify/fetch_shopify.py,sha256=Q1Q9fn0_cvOgg1MUaZUvZQ1OvwHz_gkSCMalnQHU-qE,12133
+parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsers/shopify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsers/shopify/parse_shopify.py,sha256=-Yz9a9sqrv0XMlm2xLQOW2zfqpbJdb_P6uvQIvMW1LE,19007
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/date_utils.py,sha256=YOtSPzN_gLelZRSUN_3XsQGYSP6FMP7DURCp5qxULOI,763
+utils/decorator_utils.py,sha256=U57qTM4U8ZY4s65iK9gJbaBhTjAkZ44yddeaA2CerdY,1405
+utils/nlp_utils.py,sha256=r06l4EDlbxcG_LcGIRhc_2WwviIfYUwBotWsI08VCAo,371
+gofetch-0.1.0.dist-info/METADATA,sha256=ImnC_OKlfd7_b3p_F6nUg4V1aKiQ2ymF9r3H_MFHCRo,713
+gofetch-0.1.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+gofetch-0.1.0.dist-info/top_level.txt,sha256=4M7qU7vgAbjdaGf_TmK7dnJRtj0uTl2d6V-LTBPGO2o,23
+gofetch-0.1.0.dist-info/RECORD,,
