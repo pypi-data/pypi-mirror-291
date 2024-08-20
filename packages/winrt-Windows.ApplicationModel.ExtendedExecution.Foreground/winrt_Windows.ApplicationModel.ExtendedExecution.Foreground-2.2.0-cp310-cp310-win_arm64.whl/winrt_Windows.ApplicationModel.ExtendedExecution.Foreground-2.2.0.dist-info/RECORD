@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_extendedexecution_foreground.cp310-win_arm64.pyd,sha256=UvabD9sVViV3QLwAGm5xZhHeUR1RawogtohmcuQKRdA,75776
+winrt/_winrt_windows_applicationmodel_extendedexecution_foreground.pyi,sha256=xd_2B7dDbGquymgBaKUKTsaJyWndWlv5PCiyiUYuhGA,1913
+winrt/windows/applicationmodel/extendedexecution/foreground/__init__.py,sha256=8QdNlCQZcD8x8mqtl8j1B2NR9PrOzqAbLKUkRzbZdwQ,1047
+winrt/windows/applicationmodel/extendedexecution/foreground/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.2.0.dist-info/METADATA,sha256=G301Lc3CjcY0da3MFrshAfs-s4mDr0UKv-1UFFlO39w,1163
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.2.0.dist-info/WHEEL,sha256=OUR_6PdNqVNxYcSYXC3UBUAovf2K3Wwd-pjMeQ3_Flo,101
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.2.0.dist-info/RECORD,,
