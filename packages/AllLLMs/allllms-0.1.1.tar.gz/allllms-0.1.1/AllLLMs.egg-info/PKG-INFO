@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: AllLLMs
+Version: 0.1.1
+Summary: A wrapper for various large language models including GPT, Claude, and Gemini
+Home-page: https://github.com/yourusername/llm-wrapper
+Author: Jayam Gupta
+Author-email: guptajayam47@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: anthropic
+Requires-Dist: google-generativeai
+
+```markdown
+# LLM-Wrapper
+
+LLM-Wrapper is a Python package that provides a unified interface for interacting with multiple Large Language Models (LLMs) including ChatGPT, Claude, and Gemini.
+
+## Features
+
+- Easy initialization of LLM clients
+- Unified interface for generating outputs from different LLMs
+- Support for multiple models within each LLM platform
+- API key validation during initialization
+
+## Installation
+
+```bash
+pip install llm-wrapper
+```
+
+## Usage
+
+### Initializing LLMs
+
+You can initialize LLMs individually or all at once:
+
+```python
+from LLM import Initialize
+
+# Initialize ChatGPT
+Initialize.init_chatgpt("your_openai_api_key")
+
+# Initialize Claude
+Initialize.init_claude("your_anthropic_api_key")
+
+# Initialize Gemini
+Initialize.init_gemini("your_gemini_api_key")
+
+# Initialize all LLMs at once
+Initialize.init_all(
+    chatgpt_api_key="your_openai_api_key",
+    claude_api_key="your_anthropic_api_key",
+    gemini_api_key="your_gemini_api_key"
+)
+```
+
+Note: During initialization, a few tokens are used to verify that the provided API key is correct.
+
+### Generating Output
+
+```python
+from LLM import Output
+
+# Generate output using ChatGPT
+gpt_response = Output.GPT("Tell me a joke about programming.")
+
+# Generate output using Claude
+claude_response = Output.Claude("Explain quantum computing in simple terms.")
+
+# Generate output using Gemini
+gemini_response = Output.Gemini("What are the benefits of renewable energy?")
+```
+
+### Customizing Model Parameters
+
+You can customize model parameters when generating output:
+
+```python
+# Using a specific GPT model with custom temperature and max tokens
+gpt_response = Output.GPT(
+    "Summarize the history of artificial intelligence.",
+    model="gpt-4o-mini-2024-07-18",
+    temperature=0.7,
+    max_tokens=2048
+)
+
+# Using a specific Claude model with custom temperature and max tokens
+claude_response = Output.Claude(
+    "Describe the process of photosynthesis.",
+    model="claude-3-5-sonnet-20240620",
+    temperature=0.5,
+    max_tokens=1000
+)
+```
+
+## Available Models
+
+You can get information about available LLM models using the `get_llm_info()` function:
+
+```python
+from LLM.LLMModels import get_llm_info
+
+llm_info = get_llm_info()
+```
+
+To get just the list of available models, you can use the `LLM_MODELS` dictionary:
+
+```python
+from LLM.LLMModels import LLM_MODELS
+
+available_models = LLM_MODELS
+```
+
+Note: While the `get_llm_info()` function includes information about image upload support, this functionality is not currently implemented in the LLM-Wrapper.
+
+## Error Handling
+
+The package includes error handling for invalid API keys, unsupported models, and incorrect parameter values. Make sure to handle these exceptions in your code.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+```vhdl
+
+This README provides an overview of the LLM-Wrapper package, including installation  instructions, usage examples for initializing LLMs and generating output, and information about customizing model parameters. It also mentions the API key validation during initialization and how to access the list of available models.
+```
