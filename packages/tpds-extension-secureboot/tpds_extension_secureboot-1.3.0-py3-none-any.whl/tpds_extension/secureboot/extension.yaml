@@ -1,0 +1,36 @@
+name: secureboot
+
+backend:
+  path: "backend"
+  routers:
+    - router
+
+frontend:
+  path: frontend
+  entrypoints:
+    - name: ImmutableBoot_PIC32CXSG41
+      title: Immutable Boot
+      description: ""
+      entry: PIC32CXSG41-Immutable Boot.ipynb
+      icon:
+        name: Immutable_Boot_png
+        path: frontend/assets/images/immutable_boot.png
+      applications:
+        - Secure Boot
+      devices:
+        - PIC32CXSG41
+      boards:
+        - PIC32CXSG41 Curiosity ULTRA
+    - name: HSM-Secure Boot
+      title: Secure Boot
+      description: ""
+      entry: HSM-SecureBoot.ipynb
+      icon:
+        name: secure_boot_png
+        path: frontend/assets/images/secure_boot.png
+      applications:
+        - Secure Boot
+      devices:
+        - PIC32CZCA90/PIC32CKSG01(HSM)
+      boards:
+        - PIC32CZCA Curiosity ULTRA
