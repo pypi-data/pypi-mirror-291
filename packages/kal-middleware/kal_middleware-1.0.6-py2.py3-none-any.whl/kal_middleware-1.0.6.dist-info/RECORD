@@ -1,0 +1,11 @@
+kal_middleware/__init__.py,sha256=kkrq1XvbYwW0RduVO1ZK2diF9h1eekqfbV90NYJVcw0,306
+kal_middleware/firebaseApi.py,sha256=C2d-IOheyA32BGEWwqaZlAi3TV4pYyK4Fnm-ic16MUk,1904
+kal_middleware/jwt.py,sha256=bZtV0_IO4VIr6M9Gqye73pFhuUBGCgHa8mR3siECpT4,10557
+kal_middleware/kal_middleware.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+kal_middleware/sts.py,sha256=THFVB0eJVF_pPiYrv0ZH9Y4dzu7sqpTxAsoR7ogqmPk,1410
+kal_middleware-1.0.6.dist-info/LICENSE,sha256=AJjvjw0geLlbJ_736TdFcYZ9K9TRoCLUdfQsPsgUsCs,1069
+kal_middleware-1.0.6.dist-info/METADATA,sha256=B30sKeKzmFYEN-0YBYk1rJO4-GaA9_CiHbKfUwgoHMI,5256
+kal_middleware-1.0.6.dist-info/WHEEL,sha256=OWYSMTYHNOLxNw0Mxija-Qn3HdviNLu4kabRWA1yLB4,109
+kal_middleware-1.0.6.dist-info/entry_points.txt,sha256=hFWfFQcjXpB0ZXs8ReDyle89oOmPF9EwKpxUOOROBJ8,59
+kal_middleware-1.0.6.dist-info/top_level.txt,sha256=WwADJ2TFbbpqQ1uwniUCZrP9s0zfkNxyEMWUkL8YOtY,15
+kal_middleware-1.0.6.dist-info/RECORD,,
