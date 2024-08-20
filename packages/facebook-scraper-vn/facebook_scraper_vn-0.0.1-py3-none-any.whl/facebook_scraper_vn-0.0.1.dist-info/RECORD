@@ -1,0 +1,10 @@
+facebook_scraper_vn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facebook_scraper_vn/_jscode.py,sha256=hxt1NEyjaiX5wq3Db4cQupFlZHNjOKTc92bby-K68gA,2859
+facebook_scraper_vn/_utils.py,sha256=Eqj81jeiAogBUwfPp-2ZJgXa2k10IBqHGipF7NyWLQA,354
+facebook_scraper_vn/facebook_scraper.py,sha256=22NE6Cl558rH0-Voyj0HAys3hfrq_JsCGI_2NMbP1iI,9176
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main.py,sha256=arRschnoKkido5ceEpVblbaZeO62ru_B7UXqhbd-yjE,265
+facebook_scraper_vn-0.0.1.dist-info/METADATA,sha256=0paQ8HEaD37mn1MPLUQaN_nP5GobAIM2O2HYJZR75D4,1772
+facebook_scraper_vn-0.0.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+facebook_scraper_vn-0.0.1.dist-info/top_level.txt,sha256=iscMthEYM-AQBO2luvRQ59kkbpQ5YOYq2FEupuUPyd4,25
+facebook_scraper_vn-0.0.1.dist-info/RECORD,,
