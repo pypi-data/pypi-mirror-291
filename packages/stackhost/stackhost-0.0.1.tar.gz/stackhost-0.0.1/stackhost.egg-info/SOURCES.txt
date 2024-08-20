@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+stackhost/__init__.py
+stackhost/main.py
+stackhost.egg-info/PKG-INFO
+stackhost.egg-info/SOURCES.txt
+stackhost.egg-info/dependency_links.txt
+stackhost.egg-info/requires.txt
+stackhost.egg-info/top_level.txt
