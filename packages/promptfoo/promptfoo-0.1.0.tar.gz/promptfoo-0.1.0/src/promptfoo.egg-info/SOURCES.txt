@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/promptfoo.egg-info/PKG-INFO
+src/promptfoo.egg-info/SOURCES.txt
+src/promptfoo.egg-info/dependency_links.txt
+src/promptfoo.egg-info/entry_points.txt
+src/promptfoo.egg-info/top_level.txt
