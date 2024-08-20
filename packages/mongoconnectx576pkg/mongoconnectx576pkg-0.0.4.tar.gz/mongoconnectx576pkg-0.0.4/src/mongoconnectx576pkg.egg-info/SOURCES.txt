@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mongo_connect/__init__.py
+src/mongo_connect/mongo_crud.py
+src/mongoconnectx576pkg.egg-info/PKG-INFO
+src/mongoconnectx576pkg.egg-info/SOURCES.txt
+src/mongoconnectx576pkg.egg-info/dependency_links.txt
+src/mongoconnectx576pkg.egg-info/requires.txt
+src/mongoconnectx576pkg.egg-info/top_level.txt
