@@ -1,0 +1,10 @@
+nusterai/__init__.py,sha256=DAw-xS0wz_H5-TW97ti_K3r036GF-TlavGhHyIHcZdc,30
+nusterai/llm_wrappers.py,sha256=VVx4HisOkmCp9ssnWAUZMMYg5WsLEfVDmYBPGCfgwdU,2219
+nusterai/routing.py,sha256=-WuFmTBuc_Uh8b7PsPkEwxL4T6ImudjTDfdAi0nkd74,966
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_routing.py,sha256=onCYEKgatxmu1yatLa8Ho8Y5_U1tWe6PwzsrG2To9w4,1299
+nusterai-0.1.0.dist-info/LICENSE,sha256=S7R16aXk1JrpINw-BAMaYZJWwneQ2H8JCapNso9IihI,11355
+nusterai-0.1.0.dist-info/METADATA,sha256=Erp-TzzgA1pNp8Kuq6wkgvhFRUb3YcaknM04kFyq6bU,613
+nusterai-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nusterai-0.1.0.dist-info/top_level.txt,sha256=KLYrb3zSKYbv2NC3MkiSf4r7W_rC2wZQL8VLkZTV9Ak,15
+nusterai-0.1.0.dist-info/RECORD,,
