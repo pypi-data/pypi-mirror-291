@@ -1,0 +1,11 @@
+semantic_search_nollms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_search_nollms/data_loader.py,sha256=8qYhvUdRq69lyrHLMHqabtEwoF2uPKRSWsfpkowrY_Q,2471
+semantic_search_nollms/document_processor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_search_nollms/main.py,sha256=MsCyvUDmiaFDWtQxkJg_3eGeixz6ybBZB80uTh-Vm-M,3119
+semantic_search_nollms/utils.py,sha256=JObPhsDsREeo-9x42deyB6O1WH0DthQ6zFS5CcLRmEc,2122
+semantic_search_nollms/web_crawler.py,sha256=0R0jEw6yP7x3OgI2eYUySCJyt630sBr2UoGwaJ_QJG0,455
+semantic_search_nollms-0.2.dist-info/METADATA,sha256=XeKRdBWbSFmfjOiO5Sgt9uxwVjYi5QiiQbBXQsPh4rw,4542
+semantic_search_nollms-0.2.dist-info/WHEEL,sha256=Wyh-_nZ0DJYolHNn1_hMa4lM7uDedD_RGVwbmTjyItk,91
+semantic_search_nollms-0.2.dist-info/entry_points.txt,sha256=SAMQRhsURlXDReYGtRf5zC-uPFQB7fHs1s1vfc6UNTY,76
+semantic_search_nollms-0.2.dist-info/top_level.txt,sha256=wQAmiuNwNONnBB7iPT2ebIxIS_Qs543TNEtETAyUWkE,23
+semantic_search_nollms-0.2.dist-info/RECORD,,
