@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_store_licensemanagement.cp313-win32.pyd,sha256=DPkFB0M9Ul1IhFD2UVamSKqZ_N9TsTHH_dy-h7dwRjM,87040
+winrt/_winrt_windows_applicationmodel_store_licensemanagement.pyi,sha256=R8SwtwgIRGBielvYuVIJJgbTIeG5GRqL2_JuVGdNN_4,2137
+winrt/windows/applicationmodel/store/licensemanagement/__init__.py,sha256=M-JWD0FWFcgHeJzEnFvanL4wBWNWAK_gPt5EtWf5aGo,711
+winrt/windows/applicationmodel/store/licensemanagement/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.Store.LicenseManagement-2.2.0.dist-info/METADATA,sha256=6wUzh7lQFPq1ptYGH00vAX0pRAE3RL4oHM9CTnfcNMc,1302
+winrt_Windows.ApplicationModel.Store.LicenseManagement-2.2.0.dist-info/WHEEL,sha256=rHSPOKLHVf857fDiba9Pzuf1iCvh9pcRQ5-VWQYz3ms,97
+winrt_Windows.ApplicationModel.Store.LicenseManagement-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Store.LicenseManagement-2.2.0.dist-info/RECORD,,
