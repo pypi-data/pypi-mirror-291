@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nudantic
+Version: 0.1.3
+Summary: Numpy Array type compatible with Pydantic
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/marciclabas/tbd.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pydantic-core
+
+# Nudantic
+
+> Numpy Array type compatible with Pydantic
+
+```python
+from pydanctic import BaseModel
+from nudantic import NdArray
+
+class MyModel(BaseModel):
+  array: NdArray
+
+MyModel(array=np.array([1, 2, 3])).model_dump_json()
+# {'array': [1, 2, 3]}
+```
