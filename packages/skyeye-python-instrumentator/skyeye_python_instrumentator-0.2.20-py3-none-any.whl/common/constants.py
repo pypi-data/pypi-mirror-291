@@ -1,0 +1,5 @@
+WEB_SERVER_QPS = "web.server.qps"
+WEB_SERVER_LATENCY = "web.server.latency"
+METRICS_ATTR_RET_CODE = "retCode"
+METRICS_ATTR_APPLICATION_NAME = "application"
+METRICS_ATTR_CALLEE_ENDPOINT = "calleeEndpoint"
