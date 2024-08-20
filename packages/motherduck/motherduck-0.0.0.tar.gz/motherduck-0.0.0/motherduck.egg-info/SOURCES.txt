@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+motherduck.py
+pyproject.toml
+motherduck.egg-info/PKG-INFO
+motherduck.egg-info/SOURCES.txt
+motherduck.egg-info/dependency_links.txt
+motherduck.egg-info/top_level.txt
+tests/test_motherduck.py
