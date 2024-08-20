@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "instinct"
+version = "0.1.0a1"
+description = "A flexible agent framework."
+authors = ["Nikhil Rao <nikhil@reflex.dev>"]
+readme = "README.md"
+packages = [
+    { include = "flexai" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
