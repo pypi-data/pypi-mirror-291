@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=YMFe4SyVic4KN7GBEM_Gl_tEgnOzLkOoUcBGRnmgMjM,937
+wordpress_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordpress_py/client.py,sha256=EioH9RWqV7-sdUt7psoYVuhK_DAIvfy9mD-OP8dkMiU,1448
+wordpress_py/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordpress_client-0.1.0.dist-info/METADATA,sha256=DeDBBrndaDDdtRqGx6KbNiXRyw4fYSJcOTI2_g5vAaU,431
+wordpress_client-0.1.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+wordpress_client-0.1.0.dist-info/top_level.txt,sha256=_oZckb_JMdxMV-mYUUgqAHPX6FC1uZ48lagWBXqusPM,19
+wordpress_client-0.1.0.dist-info/RECORD,,
