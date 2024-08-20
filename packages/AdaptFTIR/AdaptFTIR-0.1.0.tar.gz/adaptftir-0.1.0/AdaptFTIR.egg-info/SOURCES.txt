@@ -1,0 +1,9 @@
+README.md
+setup.py
+AdaptFTIR/AdaptFTIR.py
+AdaptFTIR/__init__.py
+AdaptFTIR.egg-info/PKG-INFO
+AdaptFTIR.egg-info/SOURCES.txt
+AdaptFTIR.egg-info/dependency_links.txt
+AdaptFTIR.egg-info/requires.txt
+AdaptFTIR.egg-info/top_level.txt
