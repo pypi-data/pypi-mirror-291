@@ -1,0 +1,8 @@
+livelogs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+livelogs/app.py,sha256=4_UnuiiuajMMxOIAbrhuQtEUuTJ7u0MdQY3ugO6eGSY,2976
+livelogs/static/script.js,sha256=53FxiO6gOPwRARLwE1fRiXOexUikzrHMy2x4n7tMtRE,2721
+livelogs/static/style.css,sha256=zQFAd6OjkNRBovHW_JO_XMQOoHaFV_y0idthzG1EZJk,2145
+livelogs/templates/index.html,sha256=6aYwxPBxAJukxPOmsit0tBYC8Vpc6xVdiJ2JKS_QGnU,1434
+livelogs-0.1.5.dist-info/METADATA,sha256=q1fW2JVqZqgQ7JENVEq9RjrhULl4k47wVqZXjwI6CRY,822
+livelogs-0.1.5.dist-info/WHEEL,sha256=IrRNNNJ-uuL1ggO5qMvT1GGhQVdQU54d6ZpYqEZfEWo,92
+livelogs-0.1.5.dist-info/RECORD,,
