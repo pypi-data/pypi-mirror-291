@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=gP4SFZvWZ7IAtpII5pMNi3x2phQZbc9IQbhWc9orqoM,153
+dt_tools/cli/dt_misc_logging_demo.py,sha256=HaFfR74Bkzl5mDaaV6ZU1GS_Q_ZxlJJSVJFgbJ8iuCs,2066
+dt_tools/cli/dt_misc_os_demo.py,sha256=Wb7jzdQ3rtNWCeWUQIjAZ9nsjPigpHypaj5WiM2r50o,1879
+dt_tools/cli/dt_misc_project_helper_demo.py,sha256=8-7CqWOLRfcTFiiwjv0snRtZSvGkfxDBLgUd-z876-I,1049
+dt_tools/logger/logging_helper.py,sha256=xa9UqBC8oZ2hJGAiU9yf9X5kC2d6D-mMKDw75kMRmF4,4106
+dt_tools/logger/logging_helper_legacy.py,sha256=bGdvCljMksRQMNeq2gzm4HsN6cIMhtzxx9-iMyuyQrM,5387
+dt_tools/os/os_helper.py,sha256=H1YFInKQwACq1AcDbpxB0r3G3dbuazG8CL_c3my6NHQ,5889
+dt_tools/os/project_helper.py,sha256=Hh1Oi9E0NOJkqrWtENg9EF68nb0NrAl-hg_V5t4-Slw,7183
+dt_tools/os/sound.py,sha256=f06lcot5fwfYznoQ2taNH4vB6MHUiu85Yvcf82smO9M,5552
+dt_misc-0.1.3.dist-info/LICENSE,sha256=AVeIkO7I2fJdNKsSTtCtUnGlGrKAYmwl_966MoLAz8s,1078
+dt_misc-0.1.3.dist-info/METADATA,sha256=SzlFzSCD6-wzpcdO8JXb3jEmnIVESKLC75Tzw1m2zys,1750
+dt_misc-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dt_misc-0.1.3.dist-info/RECORD,,
