@@ -1,0 +1,8 @@
+ca/__init__.py,sha256=3Me2__6bCReVk9RG9OZzGd7U4ctDxdQIR0EyeQde8u0,29
+ca/boolean.py,sha256=X9e_7qVUAeuFdxDW0wLuyOYDGwCmdOZsk2QdVqsYm9w,8933
+ca/inverted_index.py,sha256=SdhGQ0s-3NBQLby_Zv9h1eHWPHuhFYeejIQtXVgQO6I,3717
+ca/tf_idf.py,sha256=qOIdmogTQJUBWZA2ZW6T-a6_1zbsCV2FKyC96UsFm0o,3021
+irpkgca1-0.0.4.dist-info/METADATA,sha256=AgJK5QNjysb5fO0FA0PX2MOp5cGdGnfblknfyPKgP7w,327
+irpkgca1-0.0.4.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+irpkgca1-0.0.4.dist-info/top_level.txt,sha256=MUoBtnl51OzGZnZmBGJG5ybZhIkD4z0OY_qxFlrqnZQ,3
+irpkgca1-0.0.4.dist-info/RECORD,,

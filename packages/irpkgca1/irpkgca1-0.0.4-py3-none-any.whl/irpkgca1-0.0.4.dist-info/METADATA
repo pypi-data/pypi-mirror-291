@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: irpkgca1
+Version: 0.0.4
+Summary: description
+Home-page: https://github.com/vsaravind01/ir_pkg
+Maintainer: Senapathy Veerasekaran
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+
