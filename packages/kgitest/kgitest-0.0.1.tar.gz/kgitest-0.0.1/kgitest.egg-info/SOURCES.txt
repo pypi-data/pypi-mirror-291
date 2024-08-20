@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+kgitest.egg-info/PKG-INFO
+kgitest.egg-info/SOURCES.txt
+kgitest.egg-info/dependency_links.txt
+kgitest.egg-info/top_level.txt
+superpy/__init__.py
