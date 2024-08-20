@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/lossrider/__init__.py
+src/lossrider/lossridersrc.py
+src/lossrider.egg-info/PKG-INFO
+src/lossrider.egg-info/SOURCES.txt
+src/lossrider.egg-info/dependency_links.txt
+src/lossrider.egg-info/top_level.txt
