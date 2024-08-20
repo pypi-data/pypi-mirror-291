@@ -1,0 +1,17 @@
+LICENSE
+README.md
+VERSION
+pyproject.toml
+requirements.txt
+scatter/__init__.py
+scatter/bench.py
+scatter/main.py
+scatter/sample_app.py
+scatter/scatter_function.py
+scatter/state_manager.py
+scatter/utils.py
+scatter.egg-info/PKG-INFO
+scatter.egg-info/SOURCES.txt
+scatter.egg-info/dependency_links.txt
+scatter.egg-info/requires.txt
+scatter.egg-info/top_level.txt
