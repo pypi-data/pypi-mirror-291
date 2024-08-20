@@ -1,0 +1,16 @@
+iscc_sct/__init__.py,sha256=ZSFQymcXzstgrX2Ypwo4YJpHQKMqvtT4r6Jc3X6If5k,182
+iscc_sct/cli.py,sha256=vGGOqctnMTIX1Io0VTY0uCvghOOmsoHGScqzY3jgR4k,2461
+iscc_sct/code_semantic_text.py,sha256=hj4nRePc2dDnde-RdPXM28ob8U43YeAwbcyGTf72qe8,12766
+iscc_sct/demo.py,sha256=GHZJUF_ahaR_ljrks6dDMiVNb2Qb4Hhd0FG9B0bCG_M,18058
+iscc_sct/dev.py,sha256=w51sRV49bq_V2D8uz3oBZKDASpTH7CWhRYjg62Y_yPg,1241
+iscc_sct/main.py,sha256=NLZ-rnsr-8ZYeQhKByrUXo-vcz5mYeYocS_xdhC6EAo,1094
+iscc_sct/models.py,sha256=kyw42-jjKdhSnmOr85AcUfAabfJ9Ywnrr0MRtFnSTWs,9048
+iscc_sct/options.py,sha256=2CVdrFubXdFbsnxm2-xY4DPqftFcMNuZ4wv06kZIClE,2531
+iscc_sct/samples.yml,sha256=GBJAdUSISk5KhBvxIztbMU2n2ZxJUfQTPcQ8-5dySsg,7919
+iscc_sct/tokenizer.json,sha256=WPl8S2oSNFHFI81lTf-CTXCNw63qRiBvZ7bB7jdpzqk,9081590
+iscc_sct/utils.py,sha256=N4BbABROGe1K2Q62jljPHxF3zvJrNxSW74ru8eVM9-A,7630
+iscc_sct-0.1.2.dist-info/entry_points.txt,sha256=qTQdagL7Flc7lsQDXiT07uZz3JVtCBrKMpIdkRq1sjc,41
+iscc_sct-0.1.2.dist-info/LICENSE,sha256=Wk3eDVVsObZuBIA26dDv5pYgG0voPOXhJuNsgmbm9Sk,347
+iscc_sct-0.1.2.dist-info/METADATA,sha256=AoVUFzPj3yA5YJG4Gx-KBTW1NAdP93Xh-Q1d8f0dOyg,12092
+iscc_sct-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+iscc_sct-0.1.2.dist-info/RECORD,,
