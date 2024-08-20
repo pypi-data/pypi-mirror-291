@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+gitlab_discord_webhook/__init__.py
+gitlab_discord_webhook/__main__.py
+gitlab_discord_webhook/models.py
+gitlab_discord_webhook.egg-info/PKG-INFO
+gitlab_discord_webhook.egg-info/SOURCES.txt
+gitlab_discord_webhook.egg-info/dependency_links.txt
+gitlab_discord_webhook.egg-info/entry_points.txt
+gitlab_discord_webhook.egg-info/requires.txt
+gitlab_discord_webhook.egg-info/top_level.txt
+tests/test_webhooks.py
