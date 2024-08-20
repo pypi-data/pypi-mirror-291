@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mac_imessage/__init__.py
+src/mac_imessage/__main__.py
+src/mac_imessage/custom_types.py
+src/mac_imessage/exceptions.py
+src/mac_imessage/utils.py
+src/mac_imessage.egg-info/PKG-INFO
+src/mac_imessage.egg-info/SOURCES.txt
+src/mac_imessage.egg-info/dependency_links.txt
+src/mac_imessage.egg-info/top_level.txt
