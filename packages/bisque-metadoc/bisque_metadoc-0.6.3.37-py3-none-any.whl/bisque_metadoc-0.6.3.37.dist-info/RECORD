@@ -1,0 +1,10 @@
+bq/metadoc/__init__.py,sha256=upV5BpjEEwqAWylzVTkdpcIhd9BpCqcBOcVUjqE-hXQ,169
+bq/metadoc/etree.py,sha256=CbHUMxNgs8tKYwaeV3yKjZLRZA82r2sfDPzk1mO_Nrg,2500
+bq/metadoc/formats.py,sha256=YJgr6oro1m-PcHjI03GDbYLDqBRxE8dEfHwXGZcaikE,28413
+bq/metadoc/logging.py,sha256=vYuf2-OuZFvIw-lAj1R_BWpRbud92vqUxiIFEMF8eOo,1020
+bq/metadoc/version.py,sha256=lJFl6zdBexGIpSX75Qrok30yfyNGDHqtD1XLrVrgcWU,418
+bq/metadoc/xmldict.py,sha256=K3kFwY9qAIA-sye0LIBAHrjXpb3FtUjnK2ZcY7fmcFc,6195
+bisque_metadoc-0.6.3.37.dist-info/METADATA,sha256=VpAKByiB-RznP-q6mcDs4didgb2g3js15kj8nCJN03E,764
+bisque_metadoc-0.6.3.37.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+bisque_metadoc-0.6.3.37.dist-info/top_level.txt,sha256=w5z7Un4-v3yqVMurNio-Srl-AUvtPOxZ3tZh4Eb8RHo,3
+bisque_metadoc-0.6.3.37.dist-info/RECORD,,
