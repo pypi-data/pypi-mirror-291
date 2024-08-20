@@ -1,0 +1,11 @@
+openpyxl
+numpy
+pandas
+regex
+konlpy
+setuptools
+mecab-python
+mecab-python3
+rapidfuzz
+jamo
+wheel
