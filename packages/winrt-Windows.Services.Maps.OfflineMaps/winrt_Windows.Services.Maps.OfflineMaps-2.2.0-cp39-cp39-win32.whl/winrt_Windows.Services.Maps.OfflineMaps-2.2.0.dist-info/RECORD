@@ -1,0 +1,8 @@
+winrt/_winrt_windows_services_maps_offlinemaps.cp39-win32.pyd,sha256=AXOrM4qgNIj1sq-6uJ7r1MxFpy-G8viA_pgzUl6YbYg,85504
+winrt/_winrt_windows_services_maps_offlinemaps.pyi,sha256=lcX41zWOlRUWmLj7XapeYB6t4D5IHoefv8YlZ-wW-kw,2731
+winrt/windows/services/maps/offlinemaps/__init__.py,sha256=y_QEo0sHInfkM6ntbXRbY6WnDVCixvvKS2mPG5swmXs,1127
+winrt/windows/services/maps/offlinemaps/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Services.Maps.OfflineMaps-2.2.0.dist-info/METADATA,sha256=trjE15ZHGQ4YZBkgolvWFJi6zaPpfGB7UZ2ppRwHvAY,1246
+winrt_Windows.Services.Maps.OfflineMaps-2.2.0.dist-info/WHEEL,sha256=oMVLYRxr_Mj2eBzR64CwhxuKNcwPdTLLcHPchJ-SPBU,95
+winrt_Windows.Services.Maps.OfflineMaps-2.2.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Services.Maps.OfflineMaps-2.2.0.dist-info/RECORD,,
