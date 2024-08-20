@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django-ministripe
+Version: 0.0.1
+Summary: A tiny Django package for managing Stripe subscriptions
+Home-page: https://github.com/kennell/django-ministripe
+Author: Kevin Kennell
+Author-email: kevin@kennell.de
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: stripe
