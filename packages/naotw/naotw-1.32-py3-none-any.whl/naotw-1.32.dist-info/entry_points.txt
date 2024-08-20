@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = naotw.gpt:設定環境
