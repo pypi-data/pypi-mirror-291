@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: benchmark-adv-ml
+Version: 0.1.0
+Summary: Advanced benchmarking for machine learning models.
+Author: VatsalPatel18
+Author-email: vatsal1804@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.7.0,<4.0.0)
+Requires-Dist: numpy (>=1.24.0,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Description-Content-Type: text/markdown
+
+
