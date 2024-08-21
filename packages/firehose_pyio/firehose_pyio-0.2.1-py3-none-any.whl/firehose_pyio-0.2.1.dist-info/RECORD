@@ -1,0 +1,8 @@
+firehose_pyio/__init__.py,sha256=iRNxXtBBBcpgD_wzwZ8-XANEkH9lt2iiuwjuQjg2wEk,900
+firehose_pyio/boto3_client.py,sha256=V7uSFPQBG0zRmwfPi_fRwAY3F7Hts9g0UDardFSMcSE,6491
+firehose_pyio/io.py,sha256=f0Q2sCw7QywswOmKvn_XVUymcZP1BUe2llw_s0uMah0,8298
+firehose_pyio/options.py,sha256=3m2KdiGmYY91iJxJr39Mktu4FjXGuJpPMCCK-Rrhi3c,2493
+firehose_pyio-0.2.1.dist-info/LICENSE,sha256=agt88pGY46O1g3HLqEK_4yzkFxO6gl3oFVLf0Sixaew,603
+firehose_pyio-0.2.1.dist-info/METADATA,sha256=G2rTCGRs4Xjzh544AJyav4pDVbd4JUZp7PKK89ifQNk,6333
+firehose_pyio-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+firehose_pyio-0.2.1.dist-info/RECORD,,
