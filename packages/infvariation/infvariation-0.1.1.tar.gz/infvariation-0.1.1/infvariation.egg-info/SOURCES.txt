@@ -1,0 +1,10 @@
+README.md
+setup.py
+infvariation/__init__.py
+infvariation/variations.py
+infvariation.egg-info/PKG-INFO
+infvariation.egg-info/SOURCES.txt
+infvariation.egg-info/dependency_links.txt
+infvariation.egg-info/requires.txt
+infvariation.egg-info/top_level.txt
+tests/test_infvariation.py
