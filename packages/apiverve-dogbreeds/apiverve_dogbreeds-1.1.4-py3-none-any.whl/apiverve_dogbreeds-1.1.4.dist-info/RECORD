@@ -1,0 +1,11 @@
+apiverve_dogbreeds/__init__.py,sha256=-JePFoz3aTfVskGG742REZX0IXrpXY5RqYYaZLAiU_Q,41
+apiverve_dogbreeds/apiClient.py,sha256=V_tHiaP8h3H6Ky_-DiaWADiu_cEAlRWvRQ_z4UuKMQQ,1217
+apiverve_dogbreeds/exceptions.py,sha256=EpTEsKRFnFtPis5fMqGoQqHzoYapF04w1nSuH8-PN7s,101
+apiverve_dogbreeds/setup.py,sha256=LcqKD-CX5Ge2vI4os1R87_B69P4ZPatin_fxQBe2Rw0,665
+apiverve_dogbreeds/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_dogbreeds/tests/test_api.py,sha256=WYLPWF9DgYSpbVF_TqgC-3QILyHGHuYTRjDgEcPMg8Y,611
+apiverve_dogbreeds-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_dogbreeds-1.1.4.dist-info/METADATA,sha256=Ah__cLiVGWTDQxb8VhhYVsf2M3axSapJnpDgzSi0Hi0,6036
+apiverve_dogbreeds-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_dogbreeds-1.1.4.dist-info/top_level.txt,sha256=Q0CLr8Qxn3cs3u7E2QGsShbpFnAdSUAq_jIDcMHw9LM,19
+apiverve_dogbreeds-1.1.4.dist-info/RECORD,,
