@@ -1,0 +1,19 @@
+[project]
+name = "seraph_clicker_hyaku"
+version = "0.0.3"
+authors = [
+  { name="Hyaku"},
+]
+description = "Just an autoclicker"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pyautogui",
+  "pynput",
+  "ttkthemes",
+]

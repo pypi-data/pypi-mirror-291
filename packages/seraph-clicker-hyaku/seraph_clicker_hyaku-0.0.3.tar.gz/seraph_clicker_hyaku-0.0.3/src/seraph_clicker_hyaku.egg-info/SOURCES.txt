@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/seraph_clicker_hyaku/__init__.py
+src/seraph_clicker_hyaku/main.py
+src/seraph_clicker_hyaku.egg-info/PKG-INFO
+src/seraph_clicker_hyaku.egg-info/SOURCES.txt
+src/seraph_clicker_hyaku.egg-info/dependency_links.txt
+src/seraph_clicker_hyaku.egg-info/requires.txt
+src/seraph_clicker_hyaku.egg-info/top_level.txt
