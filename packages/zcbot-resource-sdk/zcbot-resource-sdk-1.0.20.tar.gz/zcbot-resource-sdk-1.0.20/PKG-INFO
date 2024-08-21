@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: zcbot-resource-sdk
+Version: 1.0.20
+Summary: zcbot resource sdk for zsodata
+Home-page: http://www.zsodata.com
+Author: zsodata
+Author-email: team@zso.io
+License: BSD License
+Description: pip uninstall zcbot-resource-sdk
+        
+        pip install --upgrade zcbot-resource-sdk -i https://pypi.python.org/simple
+        pip show zcbot-resource-sdk
+        
+Platform: all
+Requires-Python: >=3.8
