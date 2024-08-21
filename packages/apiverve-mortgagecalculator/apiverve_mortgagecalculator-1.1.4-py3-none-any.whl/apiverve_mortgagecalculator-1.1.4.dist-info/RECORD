@@ -1,0 +1,11 @@
+apiverve_mortgagecalculator/__init__.py,sha256=r3Lx75jzlLGFe4v2dfDL4YhrClRtIwrE-aBJctC1gsA,50
+apiverve_mortgagecalculator/apiClient.py,sha256=IXgIrlbfBk7TNyREN6Q1g2XH1di_oGwU8NAi8K_X_0k,1245
+apiverve_mortgagecalculator/exceptions.py,sha256=_-JJ0zK1COFsh0ff_piut2JneyQlU_r3n1mTcfetTKk,119
+apiverve_mortgagecalculator/setup.py,sha256=dMhfGx-wPWdWy7J8UFSHXPLvTp4xQgXhZ0YUslWsdi8,658
+apiverve_mortgagecalculator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_mortgagecalculator/tests/test_api.py,sha256=nblNXgTJpzs-DXzhM4knpS9OH9S8EFPtVw0tjCEt2FU,638
+apiverve_mortgagecalculator-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_mortgagecalculator-1.1.4.dist-info/METADATA,sha256=FQ5nAgJLrwX68e_6AL5HhhirwDloReDO8hEOxpfj31A,62758
+apiverve_mortgagecalculator-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_mortgagecalculator-1.1.4.dist-info/top_level.txt,sha256=l_CAQas7IMSwf6J-D-XVU05oHAFmEDyRbcC-vjDgL1g,28
+apiverve_mortgagecalculator-1.1.4.dist-info/RECORD,,
