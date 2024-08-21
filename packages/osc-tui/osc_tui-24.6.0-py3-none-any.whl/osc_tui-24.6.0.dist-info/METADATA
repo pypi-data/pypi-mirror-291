@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: osc-tui
+Version: 24.6.0
+Summary: Outscale
+Home-page: http://www.outscale.com/
+Author: Outscale SAS
+Author-email: opensource@outscale.com
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: requests >=2.28.1
+Requires-Dist: osc-sdk-python >=0.26.0
+Requires-Dist: pyperclip >=1.8.0
+Requires-Dist: osc-diagram
+Requires-Dist: osc-npyscreen
+Requires-Dist: requests
+
