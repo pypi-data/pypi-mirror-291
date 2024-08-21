@@ -1,0 +1,16 @@
+# Exclude .github directory and all its contents
+recursive-exclude .github *
+
+# Exclude .vscode directory and all its contents
+recursive-exclude .vscode *
+
+# Exclude test directory and all its contents
+recursive-exclude tests *
+
+# Exclude any other specific files or directories you don't want in your distribution
+exclude .gitignore
+exclude LICENSE
+exclude .pylintrc
+
+# Include all other files that are generally needed
+include README.md
