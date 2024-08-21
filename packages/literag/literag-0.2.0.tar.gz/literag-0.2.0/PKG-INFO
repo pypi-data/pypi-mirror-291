@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: literag
+Version: 0.2.0
+Summary: Call all RAG APIs using thee same format, Use Azure Search, OpenAI, Pinecone, etc.
+License: MIT
+Author: Enrique
+Author-email: ebotiabarbera@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: azure-search-documents (>=11.5.0,<12.0.0)
+Requires-Dist: black (>=24.4.2,<25.0.0)
+Requires-Dist: flake8 (>=7.1.0,<8.0.0)
+Requires-Dist: isort (>=5.13.2,<6.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: mkdocs (>=1.6.0,<2.0.0)
+Requires-Dist: openai (>=1.35.14,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Requires-Dist: typer[all] (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+# LiteRAG
+
+[![CCDS-Project template](https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter)](https://cookiecutter-data-science.drivendata.org/)
+
+Call all RAG APIs using thee same format. Use Azure Search, OpenAI, Pinecone, etc.
+

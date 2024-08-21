@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "literag"
+version = "0.2.0"
+description = "Call all RAG APIs using thee same format, Use Azure Search, OpenAI, Pinecone, etc."
+authors = ["Enrique <ebotiabarbera@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+literag = "literag.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+azure-search-documents = "^11.5.0"
+black = "^24.4.2"
+flake8 = "^7.1.0"
+isort = "^5.13.2"
+loguru = "^0.7.2"
+mkdocs = "^1.6.0"
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+tqdm = "^4.66.4"
+typer = {extras = ["all"], version = "^0.12.3"}
+openai = "^1.35.14"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+jupyterlab = "^4.2.3"
+notebook = "^7.2.1"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known-first-party = ["literag"]
+force-sort-within-sections = true
