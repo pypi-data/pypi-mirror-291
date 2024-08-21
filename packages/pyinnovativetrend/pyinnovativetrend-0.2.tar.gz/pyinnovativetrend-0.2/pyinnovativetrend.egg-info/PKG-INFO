@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyinnovativetrend
+Version: 0.2
+Summary: An innovative trend analysis and visualization tool
+Author: Md Mehedi Hasan Prodhan
+Author-email: mehediprodhan1613@outlook.com
+Keywords: time series analysis,trend analysis,innovative trend,trend,ITA,ita
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# This project calculates and illustrates the trends of variables using innovative trend analysis method bys Sen (2012)
