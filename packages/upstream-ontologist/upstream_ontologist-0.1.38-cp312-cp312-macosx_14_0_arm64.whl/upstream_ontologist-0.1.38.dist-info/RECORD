@@ -1,0 +1,17 @@
+upstream_ontologist-0.1.38.dist-info/RECORD,,
+upstream_ontologist-0.1.38.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+upstream_ontologist-0.1.38.dist-info/AUTHORS,sha256=pUkJoIVWNIGQdC35njgLW7hRF81X492mpcKKHSpoxm4,35
+upstream_ontologist-0.1.38.dist-info/WHEEL,sha256=7JDuPzVOv4CZsKy48sNdyhB46r1YWjorSeGtQr_7vOg,110
+upstream_ontologist-0.1.38.dist-info/entry_points.txt,sha256=7Uphe8j2bKt7qD9x9IJTN5dOThf2MABzF69FuBsR7fI,78
+upstream_ontologist-0.1.38.dist-info/top_level.txt,sha256=fa5Xlxr1tTSQxUjMb4u9EauaOrypNSAyn_jtNOHaktE,20
+upstream_ontologist-0.1.38.dist-info/METADATA,sha256=eHPn9snDIj7WpD7qcXdMKW92jnk8mpJCVE9Ua2w35gk,5713
+upstream_ontologist/_upstream_ontologist.cpython-312-darwin.so,sha256=IenvdiwhgeIRqQr3QJjWZvh0dsuk7F6Mm0m8D1MY9ZE,12613984
+upstream_ontologist/guess.py,sha256=CS2zClwyfFQWQmsqT6-mpfDqiwfg87XAu2OyVj9N7O0,3236
+upstream_ontologist/__init__.py,sha256=Dbv6P1IMLEKLdjCz1d2SCPdkg0t69BE1IjhSi1FVKhk,4416
+upstream_ontologist/debian.py,sha256=3_qb4duGG5suQBf8nA2g7jpiY7aJY-TdWugkvgKeaU4,1406
+upstream_ontologist/vcs.py,sha256=NSZJqOALb40Gyy-rtIh7buFFaK2Wj5YPnlouYhnxJoI,1906
+upstream_ontologist/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upstream_ontologist/_upstream_ontologist.pyi,sha256=3Nm3lvERRlmyR2_MonjYzNP6MzWennUo71cV3KTmSD4,5079
+upstream_ontologist/.dylibs/libssl.3.dylib,sha256=a7dmogALPgyUsmQZlzyD-tojdAB19hzdAummpFc_0M0,838736
+upstream_ontologist/.dylibs/libcrypto.3.dylib,sha256=y5GPU0-yO1eHeiN8idtMwWdpbdyDp7KaCGpAJRxzYZU,4222928
+upstream_ontologist-0.1.38.data/data/share/man/man1/guess-upstream-metadata.1,sha256=83GTvKk7AJX0qR_AFRh-24uDP0Ovcc_CuY5Q9MdRU-Y,1243
