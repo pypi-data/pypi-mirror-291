@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: autonomous-agent
+Version: 0.0.1
+Summary: 数字风控智能体(神荼), 主要负责对用户提交资料进行KYC
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: langchain-core==0.2.33
+Requires-Dist: langchain==0.2.14
+Requires-Dist: langserve==0.2.2
+Requires-Dist: langgraph==0.2.3
+Requires-Dist: langchain-community
+Requires-Dist: langchain-openai
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic>=2
+Requires-Dist: requests
+Requires-Dist: tiktoken
+Requires-Dist: openai
+Requires-Dist: sse-starlette
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2-binary
+Requires-Dist: pydantic-settings
+Requires-Dist: python-dotenv
+Requires-Dist: json_repair>=0.28.3
+
+#autonomous_agent
