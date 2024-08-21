@@ -1,0 +1,15 @@
+requests_scitokens/__init__.py,sha256=zTvtZ9ppQ9ZeJHHcU1PI4JE9nY-AeIqLbZ127xxMebU,494
+requests_scitokens/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+requests_scitokens/auth.py,sha256=yqH5AjNAfMLslWVHxV2fcwMYKDlKuZZri2McF6pSLdw,7218
+requests_scitokens/requests.py,sha256=IXVI6jBr1t6fmfnEOxPlb0PLTfr13RQfM0bMNe0Amq8,1986
+requests_scitokens/sessions.py,sha256=0S8vb-3MuUcpFcGLflvzeVPFJCHfuQk1IEKWxVbnwro,540
+requests_scitokens/utils.py,sha256=wvco_dj2svEn5nV7JkbStYVHDempLVKVzvzJo35A7uw,1693
+requests_scitokens/tests/__init__.py,sha256=rRu8NRqGsVh_Xg3ayR_BU3pBIX4jkuI77b6SmaXZY70,189
+requests_scitokens/tests/conftest.py,sha256=BFsmNue4n9Lofl2GYZ9R-IH2tON7tCbz_7KyyMrAubE,3041
+requests_scitokens/tests/test_auth.py,sha256=v6ww9jCpWowxOICb4mhM73cnDxyJuT1HtlJwxfOK5bQ,4616
+requests_scitokens/tests/test_utils.py,sha256=SQi8PqW7rz5eXdP4UL8_9M7caOTqlHVqiqD9CZGwDeA,914
+requests_scitokens-0.1.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+requests_scitokens-0.1.0.dist-info/METADATA,sha256=Gjt57zp8jZhemVuC-zLRE31rl8_CFYenJg_GN9jHQro,2708
+requests_scitokens-0.1.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+requests_scitokens-0.1.0.dist-info/top_level.txt,sha256=45iufiqPumuCIYithF-uWrrYjwtfpGrIhU51qycMql8,19
+requests_scitokens-0.1.0.dist-info/RECORD,,
