@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ua-box-api
+Version: 1.0.1
+Summary: Provides easy interface for making REST requests to University of Arizona Box file storage.
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boxsdk (>=3.12.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# UA-EDS-API
+
+Provides easy interface for making REST requests to University of Arizona Box file storage.
+
+## Motivation
+
+To make a python API that could generically interact with the REST architecture of Box.
+
+## Code Example
+
+```python
+from ua_box_api import ua_box_api
+
+box_api = ua_eds_api.BoxApi(config)
+
+items = box_api.get_all_items(10)
+```
+
+## Installation
+
+pip install --user ua-box-api
+
+## Credits
+
+[RyanJohannesBland](https://github.com/RyanJohannesBland)
+[EtienneThompson](https://github.com/EtienneThompson)
+
+## License
+
+MIT
+
