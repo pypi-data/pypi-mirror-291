@@ -1,0 +1,11 @@
+epitaxy-0.1.0.dist-info/METADATA,sha256=_hcppqsL3bg4TXNd-6RGy9Q0qMxsPoO7LgFAPq2foGg,42893
+epitaxy-0.1.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+epitaxy-0.1.0.dist-info/entry_points.txt,sha256=f0jDcuL1ZgymmRg1SDvqfsiFfMU-6WSVy9ZmNc3Yxhc,60
+epitaxy-0.1.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+epitaxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epitaxy/__main__.py,sha256=FFAt2MzBfVEdOV2iczLZB1LC6HHvMYJWeWIUI0Vgpms,129
+epitaxy/filter.py,sha256=cj161OV3LV18w5CcfGmyD9kTaHHW7niF0TQrbFykG60,3600
+epitaxy/main.py,sha256=PYXd50Wo2vcNuXR5iHxWALWIQqoAs-KY2QphrPgw2TQ,6088
+epitaxy/py.typed,sha256=Yu_dVmLFU2A-fVqk6uU0PgPJfRYYncG7jkMQJvI2Yy4,147
+epitaxy/utilities.py,sha256=DLKZO1q1cD6lbzvXXmO6EbWzgDcBDlW55nYprwVd5IQ,4954
+epitaxy-0.1.0.dist-info/RECORD,,

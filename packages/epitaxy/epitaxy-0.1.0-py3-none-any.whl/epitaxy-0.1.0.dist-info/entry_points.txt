@@ -1,0 +1,3 @@
+[console_scripts]
+epitaxy = epitaxy.main:generate_markdown
+
