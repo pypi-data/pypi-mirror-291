@@ -1,0 +1,2 @@
+[console_scripts]
+color_palette = color_palette.color_palette:main
