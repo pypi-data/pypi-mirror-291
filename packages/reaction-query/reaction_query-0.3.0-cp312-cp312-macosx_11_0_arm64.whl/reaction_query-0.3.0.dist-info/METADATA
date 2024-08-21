@@ -1,0 +1,79 @@
+Metadata-Version: 2.3
+Name: reaction_query
+Version: 0.3.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Crate Reaction_Query
+
+A project to retrieve data from rrd file and use in Python code.
+
+## Install
+
+```bash
+pip install reaction-query
+```
+
+## Usage
+
+Use this package:
+
+```py
+import reaction_query
+
+
+def main():
+    print("Running Python example...")
+
+    # Define the file path and entity path you want to query
+    file_path = "../data/fftai_action.rrd"
+
+    # Call the list_entity_paths function
+    try:
+        data = reaction_query.list_entity_paths(file_path)
+        print("Query entity paths successful!")
+        for index, path in enumerate(data):
+            print(f"- Path {index + 1}: {path}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+    # Call the list_timelines function
+    try:
+        data = reaction_query.list_timelines(file_path)
+        print("Query timelines successful!")
+        for index, timeline in enumerate(data):
+            print(f"- Timeline {index + 1}: {timeline}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+    # Call the query_entities function
+    entity_path = ""  # filter by entity path, empty string to query all entities
+    try:
+        data = reaction_query.query_entities(file_path, entity_path)
+        print("Query data successful!")
+        for key, data_row in data.items():
+            print(f"Entity Path: {key}")
+            data_object = data_row.data
+            if len(data_object) > 10:
+                print(
+                    f"Only showing the first 10 items out of {len(data_object)} total data columns."
+                )
+            for index, data in enumerate(data_object[:10]):
+                print(f"- {index + 1} {data}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+    # Call the query_meta_entities function
+    meta_entity_path = ""  # You can set as "/meta"
+    try:
+        data = reaction_query.query_meta_entities(file_path, meta_entity_path)
+        print("Query meta successful!")
+        for index, row_meta in enumerate(data):
+            print(f"- Row {index + 1} {row_meta.entity_path} : {row_meta.text}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
