@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fluentmap
+Version: 0.0.2
+Summary: Drop-in replacement for Python map with concurrency support
+Author-Email: Leavers <leavers930@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Fluentmap
+
+Drop-in replacement for Python map with concurrency support.
+
