@@ -1,0 +1,3 @@
+[console_scripts]
+literag=literag.main:app
+
