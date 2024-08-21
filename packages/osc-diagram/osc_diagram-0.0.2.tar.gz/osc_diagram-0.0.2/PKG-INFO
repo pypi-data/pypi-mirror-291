@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: osc-diagram
+Version: 0.0.2
+Summary: Outscale Gateway python SDK
+Home-page: https://github.com/outscale-mgo/osc-diagram
+Author: Outscal SAS
+Author-email: opensource@outscale.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: osc-sdk-python>=0.22.0
+Requires-Dist: diagrams>=0.23.3
+
+
+[![Project Sandbox](https://docs.outscale.com/fr/userguide/_images/Project-Sandbox-yellow.svg)](https://docs.outscale.com/en/userguide/Open-Source-Projects.html)
+
+# Outscale Diagram
+
+This project serve as examples for diagram, and as a lib to show diagrams of your cloud.
+
+## usage
+just call
+```
+ osc-diagram
+ ```
+ 
+it will create an image `all-vms.png` and an `all-vms.dot`
+
+## Installing from sources
+
+It is a good practice to create a [dedicated virtualenv](https://virtualenv.pypa.io/en/latest/) first. Even if it usually won't harm to install Python libraries directly on the system, better to contain \
+dependencies in a virtual environment.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+macos require graphviz:
+```zsh
+brew install graphviz
+```
