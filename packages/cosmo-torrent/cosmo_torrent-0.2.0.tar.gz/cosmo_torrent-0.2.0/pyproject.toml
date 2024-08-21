@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling", "numpy"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cosmo-torrent"
+dynamic = ["version"]
+license = {text = "MIT License"}
+description = "Data downloader library for Cosmology related data"
+readme = {file = "README.md", content-type = "text/markdown"}
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+
+
+dependencies = [
+    "click",
+    "requests",
+    "tqdm",
+    "beautifulsoup4",
+]
+
+authors = [
+  {name = "Uwe Schmitt", email = "uwe.schmitt@id.ethz.ch"},
+]
+
+[project.urls]
+Repository = "https://cosmo-docs.phys.ethz.ch/cosmo-torrent"
+
+
+[project.scripts]
+cosmo-torrent = "cosmo_torrent.cli:cosmo_torrent"
+
+
+[project.optional-dependencies]
+dev = ["build", "twine", "pytest", "pytest-cov", "pytest-regtest", "isort", "ruff", "pre-commit"]
+docs = ["sphinx<7", "sphinx-pynpoint-theme", "myst-parser"]
+
+[tool.hatch.version]
+path = "src/cosmo_torrent/__init__.py"
+pattern = "__version__ = \"(?P<version>[^']+)\""
+
+
+[tool.pytest.ini_options]
+addopts = "-v -ra"
+testpaths = ["tests"]
+filterwarnings = ["ignore:invalid"]

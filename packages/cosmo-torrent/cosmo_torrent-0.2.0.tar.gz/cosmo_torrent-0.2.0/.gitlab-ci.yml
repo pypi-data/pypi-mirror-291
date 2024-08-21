@@ -1,0 +1,48 @@
+image: cosmo-gitlab.phys.ethz.ch:5005/cosmo/vcosmo-ci:python-cosmo-ci
+
+stages:
+    - test_code
+
+
+default:
+  services:
+    - name: cosmo-gitlab.phys.ethz.ch:5005/uweschmitt/openssh-server:latest
+      alias: ssh-server
+      variables:
+        SUDO_ACCESS: "true"
+        PUBLIC_KEY: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILu+IFUo3f2EWHcSQRP5Gm1dt5OkghepKUdq8U52IEnW uweschmitt@staff-net-vpn-dhcp-5382.intern.ethz.ch"
+        PASSWORD_ACCESS: "true"
+        USER_PASSWORD: password
+
+tests:
+  stage: test_code
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ['3.9', '3.10', '3.11', '3.12']
+  before_script:
+    - cp ${SSH_PRIVATE_KEY} ./id_ed25519   # SSH_PRIVATE_KEY is owned by root, not by container user
+    - chmod 0600 ./id_ed25519
+    - ssh -f -p 2222 -o "StrictHostKeyChecking=no" -i ./id_ed25519 linuxserver.io@ssh-server "cd; mkdir data; cd data; pwd; python -m http.server"
+    - python${PYTHON_VERSION} -m venv venv
+    - source venv/bin/activate
+    - pip install -U "pip<24" setuptools build
+  script:
+    - source venv/bin/activate
+    - python -m build -s
+    - ARCHIVE=$(ls dist/*)
+    - pip install ${ARCHIVE}[dev]
+    - mkdir data
+    - dd if=/dev/urandom of=data/data.txt bs=1M count=20
+    - mkdir -p $HOME/.ssh
+    - cp id_ed25519 $HOME/.ssh
+    - unset http_proxy
+    - unset https_proxy
+    - unset HTTP_PROXY
+    - unset HTTPS_PROXY
+    - export COSMO_TORRENT_SSH_SERVER=ssh-server
+    - export COSMO_TORRENT_SSH_PORT=2222
+    - export COSMO_TORRENT_REMOTE_FOLDER='/config/data'
+    - export COSMO_TORRENT_BASE_URL='http://ssh-server:8000'
+    - cosmo-torrent upload --user linuxserver.io --identifier test data/
+    - cosmo-torrent list | tee | grep -w ^test$
+    - cosmo-torrent download test
