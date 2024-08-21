@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hookio
+Version: 0.0.1
+Summary: the coding style of hook
+Author: ShangChien
+Author-email: hi@emm.sh
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python >=3.10
+Requires-Dist: asyncio
+
+# lifespan event hook
+- Inspired by the javascript framework vue
