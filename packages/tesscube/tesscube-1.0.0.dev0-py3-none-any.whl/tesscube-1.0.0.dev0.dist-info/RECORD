@@ -1,0 +1,11 @@
+tesscube/__init__.py,sha256=8pPwjs02ZV1r-ZN07HNdMIXfe4-t3dp1D8ID2xqf-QQ,1946
+tesscube/config.py,sha256=Ilcy-X55uPna-E9TkagPNpgy9BnVcjNPONhYNTWOZAI,1075
+tesscube/cube.py,sha256=Bxbads68VmB_XF4jCMM6vP_JJTXdju7O6P0cVXFagto,18821
+tesscube/fits.py,sha256=T8tPJrzcOYk8kKBSCHINIOeYvYK_6YIqIzpC0LBbIsg,12615
+tesscube/query.py,sha256=qOue0Hns9BfepvNGdf4F4OZ8deb7Wnml2TzLfnT3Wac,18501
+tesscube/utils.py,sha256=NTY605pe8HMG9QAO6cBgYlZijQq7LipGLWSXPFRMeUY,3018
+tesscube/wcs.py,sha256=WbXqzcAvMeJUp8a0MR0V8617uijX3Pro-yDoBanBqkw,5342
+tesscube-1.0.0.dev0.dist-info/LICENSE,sha256=neugW2hBFGxqR4y_gjvp6Sp_jzdPbK9zH_UFpjUQBus,1388
+tesscube-1.0.0.dev0.dist-info/METADATA,sha256=6gvLEZhNGlgZEUBL1B2VyvYNUiT-2HakNtC5xzU2aPU,6590
+tesscube-1.0.0.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tesscube-1.0.0.dev0.dist-info/RECORD,,
