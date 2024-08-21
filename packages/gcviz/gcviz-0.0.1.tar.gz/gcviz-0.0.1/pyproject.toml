@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "gcviz"
+version = "0.0.1"
+authors = [
+  { name="Constantin Lionel", email="lionel.constantin@empa.ch" },
+]
+description = "Gorgeous and Captivating Visualization of air measurements data."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "dash",
+  "dash-bootstrap-components",
+  "pandas",
+  "xarray",
+  "h5netcdf",
+  "pybaselines"
+]
+
+[project.urls]
+"Homepage" = "https://gcviz.empa.ch"
+"Bug Tracker" = "https://gitlab.com/empa503/atmospheric-measurements/gcviz/issues"
+
+
