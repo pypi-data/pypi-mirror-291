@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: rangel
+Version: 0.0.8
+Summary: Range data manipulations and operations
+Author-email: Tariq Shihadah <tariq.shihadah@gmail.com>
+License: MIT License
+        ===========
+        
+        *Copyright (c) 2024 Tariq Shihadah*
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/tariqshihadah/linref
+Keywords: python,range,numeric,interval,linear
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# Overview
+Module featuring `RangeCollection` object class for the management of range data and optimized performance of various simple and complex range operations, including range and point overlays, equitable and score-based separation of overlapping ranges, generation of random range data, and range data comparisons among others.
+
+# Release Notes
+## 0.0.8 (2024-08-20)
+- Add `round` method to the `RangeCollection` class for rounding to a select number of decimals and with a specified rounding factor.
+- Change `are_consecutive` `when_one` behavior to return a 1d array of the `when_one` value instead of the value itself.
+- Switch `RangeCollection` initialization to use default to `copy=None` to address necessary copy error with `numpy==2.x`. Also includes a fallback for `numpy==1.x` errors with optional copy behavior.
+
+## 0.0.7 (2022-12-14)
+- Improved performance of `intersecting` method by implementing new `_ArrayLogicManager` utility class to minimize superfluous array logic computations. Simplified logic flow for instances where one of the intersecting ranges has `closed='neither'`. Removed outdated `intersecting_old` method which was being retained for legacy applications.
+- Improved performance of new `union` method.
+- Various minor feature additions
+- Various bug fixes, performance improvements
+
+## 0.0.6 (2022-10-14)
+- Modified `intersecting` method to consider both collection `closed` parameter and input ranges `closed` parameter. Now, the `closed` parameter in the method refers to the edges of the input ranges, not as a call-time modifier to the class instance's `closed` parameter. Instead, if needed, this should be done prior to the intersection method call with the `set_closed` method.
+- Removed unused `get_...` methods based on the `is_...` methods for automatic selecting to clean namespace.
+- Change `RangeCollection` default sort value to `False`.
+- Added `closed` parameter visualization to `plot` method on `RangeCollection` class.
+- Various minor feature additions
+- Various bug fixes, performance improvements
+
+## 0.0.5 (2022-09-02)
+- Added balance option to `from_steps` method
+- Various minor feature additions
+- Various bug fixes, performance improvements
+
+## 0.0.4 (2022-04-11)
+- Added snapping to `set_centers` and `__init__` methods
+- Added `squeeze` parameter to `intersecting` method
+- Various bug fixes, performance improvements
+
+## 0.0.3 (2021-11-08)
+- Initial updated merging features
+- Various bug fixes, performance improvements
+
+## 0.0.2 (2021-09-27)
+- Various bug fixes, performance improvements
+
+## 0.0.1 (2021-09-13)
+- Initial release
