@@ -1,0 +1,41 @@
+Metadata-Version: 2.3
+Name: reaction_query
+Version: 0.2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Crate Reaction_Query
+
+A project to retrieve data from rrd file and use in Python code.
+
+## Build
+
+Maturin is specifically aimed at bridging Rust and Python, enabling you to easily create Python bindings for Rust code using PyO3 or rust-cpython.
+
+Comparing to Cargo, Maturin can handle pyo3 more properly.
+
+```bash
+brew install maturin
+```
+
+or
+
+```bash
+pip install maturin
+```
+
+Create a virtual environment and then build the project:
+
+```bash
+python3 -m venv ./.venv
+maturin develop
+```
+
+## Publish
+
+```bash
+maturin build
+maturin publish --username __token__ --password <api-token>
+```
+
+The API token can be fetched at https://pypi.org/manage/account/token/ .
+
