@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: DmpTools
+Version: 0.0.2
+Summary: IT数据中台小工具
+Home-page: https://alidocs.dingtalk.com/i/p/4oJRz0VRJyvmLZMydy0mV7WvjQn7MG89
+Author: likun
+Author-email: 17891967090@163.com
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+IT数据中台小工具
