@@ -1,0 +1,13 @@
+gofetch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/fetchers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/fetchers/fetch_shopify.py,sha256=F_Qed-8NDXsB1Tlj35WAnElhvwdLFOYNmTqgpz22S0A,11230
+gofetch/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/parsers/parse_shopify.py,sha256=w5Z3jqH3JblRmUPufYfbqwIZ0MtjdoXwIroKU0P7jD8,18760
+gofetch/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gofetch/utils/date_utils.py,sha256=YOtSPzN_gLelZRSUN_3XsQGYSP6FMP7DURCp5qxULOI,763
+gofetch/utils/decorator_utils.py,sha256=8cKBI2jUjDizc-sTY58eg6841NLLxEfo0aZQXPis03Y,1539
+gofetch/utils/nlp_utils.py,sha256=r06l4EDlbxcG_LcGIRhc_2WwviIfYUwBotWsI08VCAo,371
+gofetch-0.1.5.dist-info/METADATA,sha256=jkSep-z0mbBoHLmz1BZFLxByLi-taDaTyVl_f4pT1QI,1859
+gofetch-0.1.5.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+gofetch-0.1.5.dist-info/top_level.txt,sha256=dgRrP7tSjEHwIZmK59eN3vOUW0dxr27XE36uT8mMH2g,8
+gofetch-0.1.5.dist-info/RECORD,,
