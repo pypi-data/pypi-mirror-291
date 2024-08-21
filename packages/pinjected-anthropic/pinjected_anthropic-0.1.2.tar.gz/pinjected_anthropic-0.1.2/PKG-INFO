@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: pinjected-anthropic
+Version: 0.1.2
+Summary: Add your description here
+Author-email: proboscis <nameissoap@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: anthropic>=0.34.1
+Requires-Dist: pillow>=10.4.0
+Requires-Dist: pinjected>=0.2.189
+Description-Content-Type: text/markdown
+
+# pinjected-anthopic
+
+Describe your project here.
