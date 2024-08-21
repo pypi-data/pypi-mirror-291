@@ -1,0 +1,11 @@
+apiverve_goldprice/__init__.py,sha256=6KVNZfcuvqKYtLDGzq3_SBNKbmgzr3ZF3tV4yXVEZ9U,41
+apiverve_goldprice/apiClient.py,sha256=Z_7djLkUrrtKh-BBlHuJmWduS1834MdDhPKQzVSEVjE,1217
+apiverve_goldprice/exceptions.py,sha256=6bjOHjxHK_IZeEKjlmm7wFKtNyexqlxCbsBTLOpzUSk,101
+apiverve_goldprice/setup.py,sha256=Oub_AIqxAU5Y2rfH-UMMGpcWzvbOHmYUEoWE1NVRoX0,652
+apiverve_goldprice/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_goldprice/tests/test_api.py,sha256=NYfbxS4kSPUhRYE5F24V7pdwuTdyuGnwfU1QxZ66hU4,611
+apiverve_goldprice-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_goldprice-1.1.4.dist-info/METADATA,sha256=eu0B2KbmpdzXEPlnZMgau3wvD1qE-jUlTHoJY9pG8PY,5494
+apiverve_goldprice-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_goldprice-1.1.4.dist-info/top_level.txt,sha256=TfUDimNXwyU0lnM5QxQFe6ggqblq4x0kxa7w-Rz9FHo,19
+apiverve_goldprice-1.1.4.dist-info/RECORD,,
