@@ -1,0 +1,3 @@
+[console_scripts]
+sudoku_solver=reader.__main__:main
+
