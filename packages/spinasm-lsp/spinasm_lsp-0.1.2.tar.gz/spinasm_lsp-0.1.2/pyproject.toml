@@ -1,0 +1,80 @@
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project]
+name = "spinasm-lsp"
+dynamic = [ "version",]
+description = "A Language Server Protocol implementation for SPINAsm"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["spinasm", "lsp"]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Typing :: Typed",
+]
+
+dependencies = [ 
+    "pygls", 
+    "lsprotocol", 
+    "asfv1==1.2.7",
+]
+
+[[project.authors]]
+name = "Aaron Zuspan"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/aazuspan/spinasm-lsp"
+
+[project.scripts]
+spinasm-lsp = "spinasm_lsp.server:start"
+
+[tool.ruff]
+fix = true
+show-fixes = true
+
+[tool.hatch.version]
+path = "src/spinasm_lsp/__init__.py"
+
+[tool.ruff.lint]
+select = [ "E", "I", "F", "B", "FA", "UP", "PT", "Q", "RET", "SIM", "PERF", "ERA"]
+
+[tool.hatch.envs.default]
+dependencies = [ "pre-commit",]
+
+[tool.hatch.envs.test]
+dependencies = [ 
+    "pytest", 
+    "pytest-cov", 
+    "mistletoe", 
+    "pytest-lsp", 
+    "pytest-regressions", 
+    "jsonpickle"
+]
+
+[tool.hatch.envs.test_matrix]
+template = "test"
+
+[[tool.hatch.envs.test_matrix.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.ruff.lint.isort]
+known-first-party = [ "spinasm_lsp",]
+
+[tool.hatch.build.targets.wheel]
+packages = [ "src/spinasm_lsp",]
+
+[tool.hatch.build.targets.sdist]
+include = [ "/src",]
+
+[tool.hatch.envs.test.scripts]
+all = "pytest . {args}"
+cov = "pytest . --cov=src/spinasm_lsp {args}"
