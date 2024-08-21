@@ -1,0 +1,13 @@
+.env
+.cache
+**/*.cache
+**/*.cache.db
+.ruff_cache
+*.png
+*.txt
+*.json
+
+*.pyc
+*.DS_Store
+
+apropos/src/bench/web_arena/webarena
