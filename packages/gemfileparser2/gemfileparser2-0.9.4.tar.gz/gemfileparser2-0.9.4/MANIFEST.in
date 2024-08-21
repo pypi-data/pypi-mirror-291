@@ -1,0 +1,19 @@
+graft src
+graft tests
+
+include AUTHORS
+include LICENSE
+include LICENSE.GPLv3
+include LICENSE.MIT
+include MANIFEST.in
+include NOTICE
+include *.ABOUT
+include *.toml
+include *.yml
+include *.rst
+include setup.*
+include configure*
+include requirements*
+include .git*
+
+global-exclude *.py[co] __pycache__ *.*~
