@@ -1,0 +1,10 @@
+TPLParser/__init__.py,sha256=cgk208Dn1Rnjto2ZoGJagiqS4BasuEtb0SWh9CiLVd4,62
+TPLParser/cli.py,sha256=431aLVOsXtCGoIGetPcAEX-1Rb_SlYKbOCAdtQmSt2U,717
+TPLParser/tpl_reader.py,sha256=_-IuDw8P2hSQjJ0GUEErr2CSdwpFiIbhauXxLLdGEQk,2613
+TPLParser/utils.py,sha256=3xxfC2HnDTc2_hlPW7A9SzLA6wRRL64xACx6m7q5Zyk,15589
+tpl_parser-1.0.1.dist-info/LICENSE,sha256=fyD9n_WozSnRLW_tmfzH__H3RKZOuODUBjLHL1Y1h1w,1598
+tpl_parser-1.0.1.dist-info/METADATA,sha256=05SULPXiHzl1M8ESDQk-A_3OxA7sPGXKkVqWny9GcUk,2831
+tpl_parser-1.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+tpl_parser-1.0.1.dist-info/entry_points.txt,sha256=rJhM8Muh53g2UjtXoK_FFBrcOs5EYGXqyKPoT7bxm04,50
+tpl_parser-1.0.1.dist-info/top_level.txt,sha256=l39c7w_quThNmlG8bBE6PDyxvEUdrGl1izd1U68_60E,10
+tpl_parser-1.0.1.dist-info/RECORD,,
