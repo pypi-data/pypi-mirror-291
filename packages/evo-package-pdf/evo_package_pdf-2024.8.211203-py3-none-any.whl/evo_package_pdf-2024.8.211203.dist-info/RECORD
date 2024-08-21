@@ -1,0 +1,17 @@
+LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_pdf/__init__.py,sha256=VsoFd54Xk2ynMsdIoy8vnSVrq9ZPZ7ltW7yahNuRc2U,112
+evo_package_pdf/automation/api.yaml,sha256=kqE6SbdOYq_3_KQX_XZnwNIqyr9NgIGYydFPMxXqviw,976
+evo_package_pdf/automation/entity.yaml,sha256=Y_Hra_gk0y-zzr70j7GYpxHw2LHPUB4b6atvPKNbpO8,1157
+evo_package_pdf/control/CPdfApi.py,sha256=b2pVyH7EkRadmZoWIqvwx6AoYuWgTybqYZ1yEE_ffx4,3253
+evo_package_pdf/control/__init__.py,sha256=qwqT6vb5R-j-N8o0727OQIsHdcdmx01QDzFj9ObNClY,52
+evo_package_pdf/entity/EPdfInput.py,sha256=ypMyohWdbIg8bZd8WZCWF9vIDpllvxPjvGTlY2SkEGE,1495
+evo_package_pdf/entity/EPdfOutput.py,sha256=BBzKE4ya9BY0ZMAVFlGOsSRlDLffXzJjLAu7YDjdMnE,1516
+evo_package_pdf/entity/EPdfPage.py,sha256=lZIrNV1OT1Nh7rmxXVG_6OSbBycAjFRcKwYoX__zlY8,2278
+evo_package_pdf/entity/__init__.py,sha256=_Uy5zHbuJz8d3LGGEXloy6kH-Uy69R34SUuUieQPkUY,165
+evo_package_pdf/utility/IuPdf.py,sha256=7ALNWShN9JuQAV9PLHOvIk51KOJwzrH5KVJLmde9WzU,918
+evo_package_pdf/utility/UPdfApi.py,sha256=2GGJmPHI4RNbLzlvV-cTbPw_6lKhiYNMketiZG72dnk,6383
+evo_package_pdf/utility/__init__.py,sha256=GFi2TFusTKoFvt2Q5TNUhi395jNZeX9OKbG-7NtddVc,107
+evo_package_pdf-2024.8.211203.dist-info/LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_pdf-2024.8.211203.dist-info/METADATA,sha256=p3sjOqoZNJePS8lGhjUKqe3IC4keg8mVkflsVwV_-8k,1443
+evo_package_pdf-2024.8.211203.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evo_package_pdf-2024.8.211203.dist-info/RECORD,,
