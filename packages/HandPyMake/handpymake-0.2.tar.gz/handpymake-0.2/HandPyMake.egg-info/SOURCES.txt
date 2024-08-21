@@ -1,0 +1,11 @@
+pyproject.toml
+HandPyMake.egg-info/PKG-INFO
+HandPyMake.egg-info/SOURCES.txt
+HandPyMake.egg-info/dependency_links.txt
+HandPyMake.egg-info/entry_points.txt
+HandPyMake.egg-info/requires.txt
+HandPyMake.egg-info/top_level.txt
+handpymake/__init__.py
+handpymake/main.py
+handpymake/process.py
+handpymake/test.py
