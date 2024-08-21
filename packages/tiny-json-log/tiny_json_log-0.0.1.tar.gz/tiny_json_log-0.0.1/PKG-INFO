@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tiny-json-log
+Version: 0.0.1
+Summary: Compact/easy to use json formatter
+Home-page: https://github.com/ggramal/tiny-json-log
+License: MIT
+Author: gramal
+Requires-Python: >=3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/ggramal/tiny-json-log
+Description-Content-Type: text/markdown
+
+
