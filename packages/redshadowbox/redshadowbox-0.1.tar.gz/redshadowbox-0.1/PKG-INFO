@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: redshadowbox
+Version: 0.1
+Summary: simple message box you can use it in CTK > ctkbox(msg)
+Author: RedShadow
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Simple Dark Messagebox
+
+## about
+just simple dark Messagebox :p
+
+## Usage Example :0
+```python
+redshadowbox('download complated! :0')
+```
+## images Example :p
+![Dark Messagebox](https://k.top4top.io/p_3154jg9iw1.png)
+
+### Installation -_0
+```cmd
+pip install redshadowbox
+```
