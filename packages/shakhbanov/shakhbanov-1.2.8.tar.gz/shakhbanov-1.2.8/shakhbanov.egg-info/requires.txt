@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+tqdm
+typing
+joblib
+prophet
+lightgbm
+holidays
+scikit-learn
+pykalman
+scipy
+statsmodels
+tslearn
+optuna
