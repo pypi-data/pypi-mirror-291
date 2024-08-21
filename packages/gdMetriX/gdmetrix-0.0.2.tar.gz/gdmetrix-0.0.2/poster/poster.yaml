@@ -1,0 +1,83 @@
+pageSetup:
+  firstTemplate: threeColumns
+  height: null
+  margin-bottom: 37.5pt
+  margin-gutter: 0cm
+  margin-left: 37.5pt
+  margin-right: 37.5pt
+  margin-top: 608pt
+  size: A0
+  spacing-footer: 5mm
+  spacing-header: 5mm
+  width: null
+
+pageTemplates:
+  threeColumns:
+    frames:
+      - - 0cm
+        - 0cm
+        - 32%
+        - 100%
+      - - 34%
+        - 0cm
+        - 32%
+        - 100%
+      - - 68%
+        - 0cm
+        - 32%
+        - 100%
+    showFooter: true
+    showHeader: true
+
+
+styles:
+  normal:
+    fontSize: 255%
+  heading:
+    fontName: fontSansBold
+  code:
+    backColor: '#F3F4F5'
+    borderColor: '#D1D5DA'
+    borderRadius: 5
+    spaceAfter: 18
+    spaceBefore: 18
+    borderPadding: 15
+  table:
+    commands:
+      - - ROWBACKGROUNDS
+        - - 0
+          - 0
+        - - -1
+          - -1
+        - - white
+          - '#F3F4F5'
+      - - VALIGN
+        - - 0
+          - 0
+        - - -1
+          - -1
+        - TOP
+    borderColor: '#D1D5DA'
+    borderWidth: 1
+    spaceAfter: 36
+    spaceBefore: 0
+    colWidths: ["6.2cm",null, "4.2cm", "2cm", "4cm"]
+  table-body:
+    borderWidth: 0
+    borderColor: null
+  table-heading:
+    fontSize: 255%
+    alignment: LEFT
+    borderWidth: 0
+    borderColor: null
+  endnote:
+    spaceBefore: 0
+    fontSize: 45%
+    colWidths:
+      - 1.2cm
+      - null
+
+  qrtable:
+    parent: table
+    spaceAfter: 0
+    colWidths: [ "17cm",null ]
