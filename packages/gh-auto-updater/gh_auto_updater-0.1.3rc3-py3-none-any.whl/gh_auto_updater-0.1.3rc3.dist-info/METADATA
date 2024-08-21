@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: gh_auto_updater
+Version: 0.1.3rc3
+Summary: Find, download and apply latest release from a GitHub repo.
+Project-URL: GitHub, https://github.com/HexChap/ImagesManip
+Project-URL: Issues, https://github.com/HexChap/ImagesManip/issues
+Author-email: Kirill Ibragimov <hexchap@gmail.com>
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: aiofiles~=24.1.0
+Requires-Dist: aiohttp~=3.10.3
+Requires-Dist: dacite~=1.8.1
+Requires-Dist: loguru~=0.7.2
+Requires-Dist: packaging~=24.1
+Requires-Dist: tqdm~=4.66.5
+Description-Content-Type: text/markdown
+
+Find, download and apply latest release from a GitHub repo. Currently working only on Windows and tested only with .exe bundles. 
