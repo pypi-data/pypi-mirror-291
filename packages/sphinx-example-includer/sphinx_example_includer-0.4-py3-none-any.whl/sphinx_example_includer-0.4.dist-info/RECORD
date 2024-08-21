@@ -1,0 +1,10 @@
+sphinx_example_includer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_example_includer/__main__.py,sha256=1xE3PWRxLImXjYFSQj9gR3Xss156oGZVgKVoq7UcxmU,3566
+sphinx_example_includer/common.py,sha256=yA-lpbkfThPkDT-7mmOJ1bDZ9fQMdA_Mi18H-dvmijA,1022
+sphinx_example_includer/includer.py,sha256=x5AR48y7E189fpfrJ9byNBM_F1SxqDLzkiMXvKGWCY0,2784
+sphinx_example_includer/sphinxgen.py,sha256=PtTd0SeofzV9bA8QHy0kBPe6bDwgloV9BlqNCRtl51c,5873
+sphinx_example_includer-0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sphinx_example_includer-0.4.dist-info/METADATA,sha256=CUVEkTuGyJiGZF9wJq0IkgpMd_cgrf6gLXbUT4t5S-4,3318
+sphinx_example_includer-0.4.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+sphinx_example_includer-0.4.dist-info/top_level.txt,sha256=wS_gDVjU0ISK6xTR6P_pYgv1SrqdU5YAIYzFtCJLC3U,24
+sphinx_example_includer-0.4.dist-info/RECORD,,
