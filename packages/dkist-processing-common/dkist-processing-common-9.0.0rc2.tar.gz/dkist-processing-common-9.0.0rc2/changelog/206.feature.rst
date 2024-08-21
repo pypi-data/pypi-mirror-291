@@ -1,0 +1,3 @@
+Allow language in polcal metrics to support binning schemes that aren't 2 dimensional.
+For example, we can now have "...spanning 4 spatial bins." or "...spanning 2 spectral, 4 spatial, and 5 mosaic bins.".
+Any dimensionality is supported (except zero).

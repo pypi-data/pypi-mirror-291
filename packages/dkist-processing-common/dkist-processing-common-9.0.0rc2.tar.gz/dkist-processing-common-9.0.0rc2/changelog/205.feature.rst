@@ -1,0 +1,2 @@
+Greatly improve performance of `QualityL0Metrics` task by eliminating calls to tag database to determine the TASK type
+of *every* file. Instead we now explicitly loop over the TASKs we want and read only those files.
