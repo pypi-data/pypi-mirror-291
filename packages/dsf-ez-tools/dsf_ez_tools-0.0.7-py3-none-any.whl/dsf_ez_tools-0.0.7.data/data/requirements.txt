@@ -1,0 +1,5 @@
+rocketmq-client-python>=2.0.0
+python-logstash-async>=3.0.0
+redis>=5.0.8
+PyMySQL
+DBUtils>=1.3
