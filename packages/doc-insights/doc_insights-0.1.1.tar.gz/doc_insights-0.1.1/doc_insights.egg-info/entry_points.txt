@@ -1,0 +1,2 @@
+[console_scripts]
+doc_insights_post_install = doc_insights.post_install:post_install_message
