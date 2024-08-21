@@ -1,0 +1,65 @@
+[project]
+name = "blank-template"
+dynamic = []
+description = "blank python project"
+readme = "README.md"
+keywords = [
+    "template",
+]
+homepage = "https://github.com/CCedricYoung/blank-template"
+repository = "https://github.com/CCedricYoung/blank-template"
+authors = [
+    { name = "Cedric Young", email = "ccedricyoung+pypi.blank-template@gmail.com" },
+]
+requires-python = ">= 3.11"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "typer~=0.12.3",
+]
+version = "0.0.8"
+
+[project.license]
+file = "LICENSE"
+
+[project.scripts]
+blank-template = "blank_template:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest~=8.3.2",
+]
+
+[tool.rye.scripts]
+fmt = "rye fmt"
+lint = "rye lint --fix"
+test = "rye test"
+
+[tool.rye.scripts.all]
+chain = [
+    "fmt",
+    "lint",
+    "test",
+]
