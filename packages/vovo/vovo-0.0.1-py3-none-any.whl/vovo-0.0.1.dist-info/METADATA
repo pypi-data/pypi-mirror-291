@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vovo
+Version: 0.0.1
+Summary: A small library package
+Home-page: 
+Author: ark
+Author-email: ark.wu@outlook.com
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+vovo library
