@@ -1,0 +1,11 @@
+apiverve_worldnews/__init__.py,sha256=AxEMA7LQAqF0CElYV07nD7iMkTrG2lUQTT1FrutTOsM,36
+apiverve_worldnews/apiClient.py,sha256=R2mJodyglzHf4QYja8H0omaN6YGw3xNjU-P12bZnWM8,1202
+apiverve_worldnews/exceptions.py,sha256=ZfwKDixuQ7Z-NoosM60EuL6OMISu1C6qgXnw6gUTInM,96
+apiverve_worldnews/setup.py,sha256=qd0Y86BkWmtHIXVnfXlvDdL_AbQpmcuuAx1PqV1U8ek,619
+apiverve_worldnews/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_worldnews/tests/test_api.py,sha256=rpGfDiZylvpmxtcTU76BI0r9L2As3KW2B7oluHw9HB4,601
+apiverve_worldnews-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_worldnews-1.1.4.dist-info/METADATA,sha256=jtmkNBkYpQlRz79sTv802P9jNdc5f2TJlIbwPZ6qI1E,46235
+apiverve_worldnews-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_worldnews-1.1.4.dist-info/top_level.txt,sha256=6P5z_CspmXZR_qB_1hu7ecOgBVaK0nBCwGmeUOnIjoA,19
+apiverve_worldnews-1.1.4.dist-info/RECORD,,
