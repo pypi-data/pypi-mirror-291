@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: hydraflow
+Version: 0.1.0
+Summary: Hydra with MLflow
+Project-URL: Source, https://github.com/daizutabi/hydraflow
+Project-URL: Issues, https://github.com/daizutabi/hydraflow/issues
+Author-email: daizutabi <daizutabi@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.10
+Requires-Dist: hydra-core
+Requires-Dist: mlflow
+Requires-Dist: watchdog
+Provides-Extra: dev
+Requires-Dist: pytest-clarity; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-randomly; extra == 'dev'
+Requires-Dist: pytest-xdist; extra == 'dev'
+Requires-Dist: setuptools; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# hydraflow
