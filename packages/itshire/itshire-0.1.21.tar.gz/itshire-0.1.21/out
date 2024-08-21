@@ -1,0 +1,77 @@
+diff --git a/.bumpversion.cfg b/.bumpversion.cfg
+index 35cfd01..a1cb291 100644
+--- a/.bumpversion.cfg
++++ b/.bumpversion.cfg
+@@ -1,7 +1,7 @@
+ [bumpversion]
+ tag = True
+ commit = True
+-current_version = 0.1.14
++current_version = 0.1.11
+ 
+ [bumpversion:file:pyproject.toml]
+ parse = (?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)
+diff --git a/pyproject.toml b/pyproject.toml
+index 3a0b5a0..feb04c1 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,6 +1,6 @@
+ [project]
+ name = "itshire"
+-version = "0.1.14"
++version = "0.1.11"
+ description = "Add your description here"
+ authors = [
+     { name = "Taylor Monacelli", email = "taylormonacelli@gmail.com" }
+diff --git a/src/itshire/add_sections.py b/src/itshire/add_sections.py
+index 7489caf..033a6eb 100644
+--- a/src/itshire/add_sections.py
++++ b/src/itshire/add_sections.py
+@@ -36,10 +36,8 @@ def add_sections(file_path, section_names):
+ 
+     original_content = markdown_content
+ 
+-    print(f"section_names: {section_names}")
+-
+     for section_name in section_names:
+-        if section_name not in section_names:
++        if section_name not in markdown_content:
+             markdown_content += f"\n## [[{section_name}]]\n- [x] shopping\n"
+ 
+     if markdown_content != original_content:
+@@ -48,7 +46,7 @@ def add_sections(file_path, section_names):
+ 
+ 
+ def find_markdown_files(directory):
+-    return list(pathlib.Path(directory).rglob("Anchor*.md"))
++    return list(pathlib.Path(directory).rglob("*.md"))
+ 
+ 
+ def filter_markdown_files(files):
+@@ -74,8 +72,6 @@ def main(directory):
+         "Central Co-op",
+         "Grocery Outlet",
+         "Hau Hau Market",
+-        "H Mart",
+-        "Lam's Seafood Asian Market",
+         "M2M",
+         "PCC",
+         "QFC",
+@@ -88,17 +84,9 @@ def main(directory):
+     for file_path in filtered_files:
+         logging.info(f"Processing file: {file_path}")
+         existing_headers = extract_headers(file_path)
+-
+         missing_sections = [
+             store_name for store_name in stores if store_name not in existing_headers
+         ]
+-
+-        for e in existing_headers:
+-            print(f"existing_header: {e}")
+-
+-        for e in missing_sections:
+-            print(f"missing_section: {e}")
+-
+         if missing_sections:
+             add_sections(file_path, missing_sections)
+ 
