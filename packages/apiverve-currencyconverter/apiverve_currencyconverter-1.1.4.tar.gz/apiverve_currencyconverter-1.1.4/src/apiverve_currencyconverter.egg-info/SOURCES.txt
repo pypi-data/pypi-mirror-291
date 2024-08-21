@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_currencyconverter/__init__.py
+src/apiverve_currencyconverter/apiClient.py
+src/apiverve_currencyconverter/exceptions.py
+src/apiverve_currencyconverter/setup.py
+src/apiverve_currencyconverter.egg-info/PKG-INFO
+src/apiverve_currencyconverter.egg-info/SOURCES.txt
+src/apiverve_currencyconverter.egg-info/dependency_links.txt
+src/apiverve_currencyconverter.egg-info/top_level.txt
+src/apiverve_currencyconverter/tests/__init__.py
+src/apiverve_currencyconverter/tests/test_api.py
+tests/test_api.py
