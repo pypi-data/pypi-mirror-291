@@ -1,0 +1,4 @@
+[console_scripts]
+gmsg = gptcomet.cli:cli
+gptcomet = gptcomet.cli:cli
+
