@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dtu-adn
+Version: 0.0.1
+Summary: A library of realistic multi-voltage distribution network dataset
+Home-page: https://gitlab.windenergy.dtu.dk/aeish/DTU_ADN_Base_Directory.git
+Author: Aeishwarya Baviskar
+Author-email: aeish@dtu.dk
+License: MIT
+License-File: LICENSE

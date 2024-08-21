@@ -1,0 +1,5 @@
+pypower
+numpy
+pandas
+openpyxl
+scipy
