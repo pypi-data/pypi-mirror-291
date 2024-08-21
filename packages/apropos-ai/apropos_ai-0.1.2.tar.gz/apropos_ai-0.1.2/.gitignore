@@ -1,0 +1,11 @@
+.env
+.cache
+**/*.cache
+**/*.cache.db
+.ruff_cache
+*.png
+*.txt
+*.json
+
+*.pyc
+*.DS_Store
