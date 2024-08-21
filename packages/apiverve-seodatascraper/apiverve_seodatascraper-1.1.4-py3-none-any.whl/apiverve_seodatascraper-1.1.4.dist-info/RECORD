@@ -1,0 +1,11 @@
+apiverve_seodatascraper/__init__.py,sha256=Y04j5SwA-FAmjbEJmOCh4uGYy0nn4Nj0WM3NGYpoCnY,42
+apiverve_seodatascraper/apiClient.py,sha256=juBR5qsCAeXIcnztOeFc9PzEUeYAtU8t_0OanMj8Lyo,1221
+apiverve_seodatascraper/exceptions.py,sha256=jgIyuAyyWFFILOi9UGeii4Nq4YDp5Vg_UQV_PAxiJg4,107
+apiverve_seodatascraper/setup.py,sha256=4ShK11ptchtPFWC5C_q6049SEwDaWWoGyZH3CckibAI,631
+apiverve_seodatascraper/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_seodatascraper/tests/test_api.py,sha256=mHPMIPYL-SQw1kExIqBcrfw1B8AZzecQki-xHYwgsCY,618
+apiverve_seodatascraper-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_seodatascraper-1.1.4.dist-info/METADATA,sha256=CUpeQDDY1RxvpWYh1jA_nEFmClhomHSHL8MukdJWwm0,37408
+apiverve_seodatascraper-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_seodatascraper-1.1.4.dist-info/top_level.txt,sha256=A41trolzVbYODdA_qv0Jc27pUzUbpoxmA8Ocmu5lBco,24
+apiverve_seodatascraper-1.1.4.dist-info/RECORD,,
