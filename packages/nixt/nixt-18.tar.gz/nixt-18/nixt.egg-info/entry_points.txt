@@ -1,0 +1,4 @@
+[console_scripts]
+nixt = nixt.__main__:wrapped
+nixtc = nixt.prompt:wrapped
+nixtd = nixt.daemon:wrapped
