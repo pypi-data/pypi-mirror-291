@@ -1,0 +1,9 @@
+spectres/__init__.py,sha256=-MhJD--N5C-8e2cIeX4r0YQ6_ZaV4-2oA6MGgXr9SdA,153
+spectres/spectral_resampling.py,sha256=41sVmthkmMVuCCDp1O1t4e2BOhk9QrF0qnVfze4XNpI,5642
+spectres/spectral_resampling_numba.py,sha256=UZITGDCfLoiq7z-sHr1sShxxqIr3e7lscEyoJ4a5Qns,6345
+spectres/spectres_numba_speed_tests.py,sha256=QWxSVzVri7O1D5rc5q1YvuY_f7SyDD4SaizEygNvlic,2202
+spectres-2.2.1.dist-info/LICENSE.txt,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+spectres-2.2.1.dist-info/METADATA,sha256=coF_hBhyohvExFtcx2mFlgcnDdid8qcGU2uxcuzHhCI,1361
+spectres-2.2.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+spectres-2.2.1.dist-info/top_level.txt,sha256=BU9AJUx35TybgMlEDyjfSA88yRMTe8kXAMn08DbXzK8,9
+spectres-2.2.1.dist-info/RECORD,,
