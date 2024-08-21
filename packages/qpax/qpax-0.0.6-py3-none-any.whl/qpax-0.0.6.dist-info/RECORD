@@ -1,0 +1,10 @@
+qpax/__init__.py,sha256=S953yeReKeAKD0_LfG1PsOhWfigtEWFl-XE-sqFSAlA,130
+qpax/diff_qp.py,sha256=jGjIa5HioZ8wpEhvKCgiZDOqnW8z3tW_KL7a_qtYp6A,2365
+qpax/elastic_qp.py,sha256=W2vuG0EmhAYPDfWPmEW0u5Qlxk1VHsdI1zBkk96Tji0,12371
+qpax/pdip.py,sha256=NaJpTsFj4vj42FLlbpdklum4McvYu9YlyZ6d74ugSYk,6224
+qpax/pdip_relaxed.py,sha256=UiAknwd1EFhEnCw-x3sbLKlMfBRwlX2cpJEfi9W-Ywg,2237
+qpax-0.0.6.dist-info/LICENSE,sha256=EZeHcHDziAPT_fd4nsZhytJHKfDoxw-_rMV3qAGqSV8,1068
+qpax-0.0.6.dist-info/METADATA,sha256=f7YH_N8F57YarQKJFokzH5Bs4T5zJMbroPoYywafgP4,4354
+qpax-0.0.6.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+qpax-0.0.6.dist-info/top_level.txt,sha256=0_Sku_c_gJ6o2bchuevbYFqhMGk0dbzogVoDKdccgpY,5
+qpax-0.0.6.dist-info/RECORD,,
