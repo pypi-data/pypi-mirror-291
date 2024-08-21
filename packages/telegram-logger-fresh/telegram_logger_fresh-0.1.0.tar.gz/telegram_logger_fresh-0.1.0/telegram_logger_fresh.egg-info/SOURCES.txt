@@ -1,0 +1,9 @@
+README.md
+setup.py
+telegram_logger_fresh/__init__.py
+telegram_logger_fresh/telegram_logger_fresh.py
+telegram_logger_fresh.egg-info/PKG-INFO
+telegram_logger_fresh.egg-info/SOURCES.txt
+telegram_logger_fresh.egg-info/dependency_links.txt
+telegram_logger_fresh.egg-info/requires.txt
+telegram_logger_fresh.egg-info/top_level.txt
