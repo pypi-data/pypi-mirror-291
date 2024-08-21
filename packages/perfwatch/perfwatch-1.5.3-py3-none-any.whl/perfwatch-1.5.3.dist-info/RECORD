@@ -1,0 +1,17 @@
+perfwatch/__init__.py,sha256=jnSeeyoAXPd5Ny1hTAMnIZSoMm8J6o0jVAD93HhClkA,96
+perfwatch/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perfwatch/src/__init__.py,sha256=WY-ZRvVkNX6aym-dZQtiGf3w9hSPhmtqM7tfv5yJkzM,35
+perfwatch/src/cache/__init__.py,sha256=Bye6Dx6M928CyoguZFPV8VfWzui8YFjCzBVkdECs9_o,44
+perfwatch/src/cache/profiler.py,sha256=IjN4sFo9mu_CNb_bBJgdvHItlXeGWbJ9dKe7CQs9z2o,2101
+perfwatch/src/cpu/__init__.py,sha256=s96h15pp3M3l1e6gPr4qmdkD8XM6VH-nLE54Jh3t6g4,42
+perfwatch/src/cpu/profiler.py,sha256=gTpwy1N6jUFG7hWA6w89lqU94D3IVE3bFpv3ljHP15c,481
+perfwatch/src/gpu/__init__.py,sha256=oTVPtz8xglnHTQ50O3f6c32IHBEjm0u9LtwAJqdwjhI,42
+perfwatch/src/gpu/profiler.py,sha256=LlWWYJSc1en0z__LR9oX9BsIVmDXLaXwWaaE6ZSzJyI,2150
+perfwatch/src/network/__init__.py,sha256=t59lWja9hSjKWJu4LXqjwobWkRh2bCdEbsYA4qgHJ04,46
+perfwatch/src/network/profiler.py,sha256=2Ebk1jRn3i0dFeB7LjiGxOBPb7LrsxiOOPxYVnt7gqI,2016
+perfwatch/src/watcher.py,sha256=9rSMB9N6SGihceAWCdmrasV96s3UrnB10JL_ukfX-H0,5834
+perfwatch/utils/__init__.py,sha256=KUgTj2YTXtbI5nD83PuRdshFyORNlXHn-omwMr6ML8g,35
+perfwatch/utils/logger.py,sha256=DEjbJnIzt2WM2cO9MT7TlJNQX1AtKrn4KJhhN66zjxk,1282
+perfwatch-1.5.3.dist-info/METADATA,sha256=hS5eLYzziH4uoTdXfWTFGlyJFMZxHW2n9tc_pfg_zQs,3293
+perfwatch-1.5.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+perfwatch-1.5.3.dist-info/RECORD,,
