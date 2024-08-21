@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: RoboBricks
+Version: 0.2.3
+Summary: A Python module for accessing the RoboBricks.
+Home-page: UNKNOWN
+Author: k.s.corp
+Author-email: 
+License: UNKNOWN
+Description: # RoboBricks library
+        
+        ## Introduction
+        RoboBricks is a full-fledged ecosystem for rapid prototyping of various entry-level robotic systems.
+        Thanks to the ready-made modules, you can quickly create various machines to test your ideas.
+        This library is designed to interact with the hardware modules "RoboBricks", which can be made independently.
+        
+        ## Hardware
+        The following hardware is supported:
+        * RoboBricks Button
+Keywords: RoboBricks
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
