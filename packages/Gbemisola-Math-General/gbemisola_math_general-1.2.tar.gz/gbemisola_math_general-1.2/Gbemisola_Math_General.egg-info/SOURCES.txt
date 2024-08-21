@@ -1,0 +1,11 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+Gbemisola_Math_General/Gbemisola_Math_General.py
+Gbemisola_Math_General/__init__.py
+Gbemisola_Math_General.egg-info/PKG-INFO
+Gbemisola_Math_General.egg-info/SOURCES.txt
+Gbemisola_Math_General.egg-info/dependency_links.txt
+Gbemisola_Math_General.egg-info/not-zip-safe
+Gbemisola_Math_General.egg-info/top_level.txt
