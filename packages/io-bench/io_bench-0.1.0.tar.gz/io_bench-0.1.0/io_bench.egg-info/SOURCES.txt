@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+io_bench/__init__.py
+io_bench/io_bench.py
+io_bench.egg-info/PKG-INFO
+io_bench.egg-info/SOURCES.txt
+io_bench.egg-info/dependency_links.txt
+io_bench.egg-info/requires.txt
+io_bench.egg-info/top_level.txt
+io_bench/utilities/__init__.py
+io_bench/utilities/bench.py
+io_bench/utilities/explain.py
+io_bench/utilities/parsing.py
+tests/test_io_bench.py
+tests/test_utilities.py

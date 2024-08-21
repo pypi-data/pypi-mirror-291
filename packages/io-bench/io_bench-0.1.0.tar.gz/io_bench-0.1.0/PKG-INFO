@@ -1,0 +1,141 @@
+Metadata-Version: 2.1
+Name: io_bench
+Version: 0.1.0
+Summary: IO Bench is a library designed to benchmark the performance of standard flat file formats and partitioning schemes.
+Author: Aaron Stopher
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/aastopher/io_bench
+Project-URL: Documentation, https://aastopher.github.io/io_bench/
+Project-URL: Bug Reports, https://github.com/aastopher/io_bench/issues
+Keywords: arrow,avro,feather,parquet,polars,utils,performance counter,benchmark
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: fastavro==1.9.5
+Requires-Dist: fastparquet==2024.5.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: plotly==5.23.0
+Requires-Dist: polars==1.4.0
+Requires-Dist: psutil==6.0.0
+Requires-Dist: pyarrow==17.0.0
+Requires-Dist: rich==13.7.1
+Provides-Extra: dev
+Requires-Dist: virtualenv==20.26.3; extra == "dev"
+Requires-Dist: mkdocs==1.6.0; extra == "dev"
+Requires-Dist: mkdocstrings==0.25.2; extra == "dev"
+Requires-Dist: mike==2.1.3; extra == "dev"
+Provides-Extra: test
+Requires-Dist: tox==4.16.0; extra == "test"
+Requires-Dist: codecov==2.1.13; extra == "test"
+Requires-Dist: pytest==8.3.2; extra == "test"
+Requires-Dist: pytest-cov==5.0.0; extra == "test"
+
+<!-- [![PyPI version](https://badge.fury.io/py/io_bench.svg)](https://badge.fury.io/py/io_bench) -->
+[![Documentation Status](https://img.shields.io/badge/docs-online-brightgreen)](https://aastopher.github.io/io_bench/)
+[![codecov](https://codecov.io/gh/aastopher/io_bench/graph/badge.svg?token=79V7VRZWV0)](https://codecov.io/gh/aastopher/io_bench)
+[![DeepSource](https://app.deepsource.com/gh/aastopher/io_bench.svg/?label=active+issues&show_trend=true&token=3NT8mR1AQRLW9zDNKWQ8vgFl)](https://app.deepsource.com/gh/aastopher/io_bench/)
+
+# IOBench Quick Start Guide
+
+## Generating Sample Data
+To generate sample data, initialize the `IOBench` object with the path to the source CSV file and call the `generate_sample` method:
+
+```python
+from io_bench import IOBench
+
+bench = IOBench(source_file='./data/source_100K.csv', runs=20, parsers=['avro', 'parquet_polars', 'parquet_arrow', 'parquet_fast', 'feather', 'feather_arrow'])
+bench.generate_sample(records=100000) # default value
+```
+**NOTE:** `source_file` behavior is contextual; providing a desired name for a sample file then calling `generate_sample` will create the file. Otherwise a valid path to an existing file must be provided.
+
+## Converting Data to Partitioned Formats
+Convert the generated CSV data to partitioned formats (Avro, Parquet, Feather) will automatically partition on default column selection chunks if not defined.
+
+```python
+bench.partition(rows={'avro': 500000, 'parquet': 3000000, 'feather': 1600000})
+```
+
+## Running Benchmarks
+NOTE: Partition is stateful per bench object. If partition is not called manually it will automatically be called on the first run only assuming a valid source file exists.
+### Without Column Selection
+Run benchmarks without column selection:
+
+```python
+benchmarks_no_select = bench.run(suffix='_no_select')
+```
+
+### With Column Selection
+Run benchmarks with column selection:
+
+```python
+columns = ['Region', 'Country', 'Total Cost']
+benchmarks_column_select = bench.run(columns=columns, suffix='_column_select')
+```
+
+## Generating Reports
+Combine results and generate the final report:
+
+```python
+all_benchmarks = benchmarks_no_select + benchmarks_column_select
+io_bench.report(all_benchmarks, report_dir='./result')
+```
+
+## Full Example
+
+Here is a full example of using `IOBench`:
+
+```python
+from io_bench import IOBench
+
+def main() -> None:
+    # Initialize the IOBench object with runs and parsers
+    bench = IOBench(source_file='./data/source_100K.csv', runs=20, parsers=['avro', 'parquet_polars'])
+
+    # Generate sample data - (optional)
+    bench.generate_sample()
+
+    # Convert the source file to partitioned formats - (optional)
+    bench.partition(rows={'avro': 500000, 'parquet': 3000000, 'feather': 1600000})
+
+    # Run benchmarks without column selection
+    benchmarks_no_select = bench.run(suffix='_no_select')
+
+    # Run benchmarks with column selection
+    columns = ['Region', 'Country', 'Total Cost']
+    benchmarks_column_select = bench.run(columns=columns, suffix='_column_select')
+
+    # Combine results and generate the final report
+    all_benchmarks = benchmarks_no_select + benchmarks_column_select
+    bench.report(all_benchmarks, report_dir='./result')
+
+if __name__ == "__main__":
+    main()
+```
