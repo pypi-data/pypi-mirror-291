@@ -1,0 +1,15 @@
+numpy>=1.20.0
+rich
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[all]
+netCDF4
+h5py
+
+[test]
+pytest
+pytest-codeblocks>=0.12.1
+pytest-cov
+meshio2[all]

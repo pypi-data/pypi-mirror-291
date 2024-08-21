@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshio2"
+version = "5.3.6"
+description = "I/O for many mesh formats"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+keywords = [
+  "mesh",
+  "file formats",
+  "scientific",
+  "engineering",
+  "fem",
+  "finite elements"
+]
+authors = [
+  {email = "nico.schloemer@gmail.com"},
+  {name = "Nico Schlömer"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Utilities",
+]
+dependencies = [
+  "importlib_metadata; python_version<'3.8'",
+  "numpy>=1.20.0",
+  "rich",
+]
+
+[project.optional-dependencies]
+all = [
+    "netCDF4",
+    "h5py"  # CGNS, H5M, MED, XDMF formats
+]
+test = [
+  "pytest",
+  "pytest-codeblocks >= 0.12.1",
+  "pytest-cov",
+  "meshio2[all]",
+]
+
+[project.urls]
+homepage = "https://github.com/finsberg/meshio"
+code = "https://github.com/finsberg/meshio"
+issues = "https://github.com/finsberg/meshio/issues"
+
+[project.entry-points.console_scripts]
+meshio = "meshio._cli:main"
+
+[tool.isort]
+profile = "black"
+
+# [options.data_files]
+# share/paraview-5.9/plugins =
+#     tools/paraview-meshio-plugin.py
+
+[tool.bumpversion]
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+current_version = "5.3.6"
+
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
