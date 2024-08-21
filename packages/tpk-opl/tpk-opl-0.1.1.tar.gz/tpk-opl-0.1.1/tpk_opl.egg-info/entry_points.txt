@@ -1,0 +1,2 @@
+[console_scripts]
+tpk-opl = tpk.tpk_module:run
