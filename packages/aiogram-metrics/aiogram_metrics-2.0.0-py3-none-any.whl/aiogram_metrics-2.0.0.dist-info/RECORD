@@ -1,0 +1,9 @@
+aiogram_metrics-2.0.0.dist-info/METADATA,sha256=-fke_liBNMluCLBlufjmcS_8Tmy1rvZlvfv5bghyf1A,396
+aiogram_metrics-2.0.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+aiogram_metrics-2.0.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+aiogram_metrics/__init__.py,sha256=JR0gJYMJWiyBxTzefmEgDil3KYLAUIBEmtNi2Lyp4SE,152
+aiogram_metrics/api.py,sha256=dnaGk3sW-fFJGOym8HeNb6rBZhMoJEO5yfNXL9fV1zc,3114
+aiogram_metrics/hub.py,sha256=aSRgo-dgJM3JhpRvY-rTyEWVreSuRNXk4_NJD3yuVCE,203
+aiogram_metrics/public.py,sha256=J-mD6PFVwU9U0FpUPIkZyMm6lH4aBwWgpbWg3xNi8XM,2220
+aiogram_metrics/sql.py,sha256=HCzZxjMikVoKx-7ch8Y0TarcphCwqx19_H2Io5qim2A,1057
+aiogram_metrics-2.0.0.dist-info/RECORD,,
