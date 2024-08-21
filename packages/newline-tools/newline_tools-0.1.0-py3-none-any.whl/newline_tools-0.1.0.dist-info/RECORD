@@ -1,0 +1,13 @@
+newline_tools/__init__.py,sha256=Bx0NYbuDQBZ1O9jc_7wvYxLoma883zMFZdiftr9GuQg,427
+newline_tools/__main__.py,sha256=vpjqovsF-Bd6gqJJj16Fm8b4JS6NRz7l9Da3w35mgHU,4844
+newline_tools/dedupe.py,sha256=v8f0yzdkWeZsE2A3qyB3ZrBHyickyufQvDRISHmmics,2654
+newline_tools/sample.py,sha256=UoVPit-ETdRc30TEWwAlWZC64YlJkeqxjgL9rMblvl0,3598
+newline_tools/shuffle.py,sha256=cHOhIKDSfCsaacke7jfKPe7flQEnQuLVi0CBSExctsQ,5929
+newline_tools/split.py,sha256=nZvHsWv__I4pS4JKyvy-qy1oByiIUy7fX3m9HvFu6c8,2243
+newline_tools/utils.py,sha256=Ud-M8dlAkYXrf6qZEH07S0HigSc8Eog1KVRHzZDsHi0,112
+newline_tools-0.1.0.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+newline_tools-0.1.0.dist-info/METADATA,sha256=EUuQFOg8ILz3WPPOwrl01jLUQak0nS6D8SYHrJk698Q,2978
+newline_tools-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+newline_tools-0.1.0.dist-info/entry_points.txt,sha256=qfM5EU_igXXFmRJ7LKbyT-eNwWFsL7TvTYZkxCH5Rsg,57
+newline_tools-0.1.0.dist-info/top_level.txt,sha256=u6sJu_jqk955grkXjnK7uVPymz_HSUICE2-kENeDhPE,14
+newline_tools-0.1.0.dist-info/RECORD,,
