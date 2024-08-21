@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: wiring
+Version: 0.1.2
+Summary: package for building bots that run on multiple platforms, like discord and telegram
+Home-page: https://github.com/crucials/wiring
+License: MIT
+Keywords: wiring,discord.py,bot,python-telegram-bot,twitchio
+Requires-Python: >=3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Provides-Extra: discord
+Provides-Extra: telegram
+Provides-Extra: twitch
+Requires-Dist: discord-py (>=2.4.0,<3.0.0) ; extra == "discord"
+Requires-Dist: python-telegram-bot (>=21.4,<22.0) ; extra == "telegram"
+Requires-Dist: twitchio (>=2.10.0,<3.0.0) ; extra == "twitch"
+Project-URL: Documentation, https://github.com/crucials/wiring/wiki
+Project-URL: Repository, https://github.com/crucials/wiring
+Project-URL: report an issues, https://github.com/crucials/wiring/issues
+Description-Content-Type: text/markdown
+
+![logo with a label 'one bot codebase - multiple platforms'](https://i.ibb.co/1QGmCQx/343200157-4b987f42-1718-4a83-83b1-dc5556da28af.png)
+
+seamless api for developing bots that run on multiple platforms.
+**discord**, **telegram** and **twitch** are supported
+
+works with asyncio
+
+learn more in the sections below or **[docs](https://github.com/crucials/wiring/wiki)**
+
+## install
+
+install the base library:
+
+```sh
+pip install wiring
+```
+
+then choose extra dependencies for platforms that you want your bot to run on
+
+```sh
+pip install wiring[discord] wiring[telegram]
+```
+
+## usage example
+
+```python
+import asyncio
+
+from wiring import (Bot, MultiPlatformMessage, MultiPlatformBot, MultiPlatformUser,
+                    Command)
+from wiring.platforms.discord import DiscordBot
+from wiring.platforms.telegram import TelegramBot
+
+
+DISCORD_TOKEN = 'place your token here or better load it from enviroment variables'
+TELEGRAM_TOKEN = 'place your token here or better load it from enviroment variables'
+
+async def send_commands_list(bot: Bot, message: MultiPlatformMessage,
+                             args: list[str]):
+    commands_list = '\n'.join(['/' + str(command.name) for command
+                               in bot.commands])
+
+    await bot.send_message(
+        message.chat.id,
+        'available commands:\n' + commands_list,
+        reply_message_id=message.id
+    )
+
+
+async def start_bots():
+    bot = MultiPlatformBot()
+
+    bot.platform_bots = [
+        DiscordBot(DISCORD_TOKEN),
+        TelegramBot(TELEGRAM_TOKEN)
+    ]
+
+    async with bot:
+        await bot.setup_commands([
+            Command('help', send_commands_list)
+        ])
+
+        # blocks the execution
+        await bot.listen_to_events()
+
+
+asyncio.run(start_bots())
+```
+
