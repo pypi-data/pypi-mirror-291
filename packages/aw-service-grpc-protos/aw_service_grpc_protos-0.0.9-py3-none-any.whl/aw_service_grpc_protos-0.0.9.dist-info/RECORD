@@ -1,0 +1,11 @@
+protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protos/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protos/auth/auth_pb2.py,sha256=Qm4xObhC2GBXAwq_ROFlIaQunVKtE3SCpgi2M1J7GZA,2699
+protos/auth/auth_pb2_grpc.py,sha256=cAHGc5admia7XWzz8v2QRuth7dZm66Vnp5p1Qsm73qU,6980
+protos/user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protos/user/user_pb2.py,sha256=-J_gjx9Piag-Y7llbCrzlMuhCeitXkqmf3v4d2v_xzM,2064
+protos/user/user_pb2_grpc.py,sha256=OYT8DDL7nAa3Kc8aVcAMYiPqn1_Zv_m-8NggfmF_wJ8,5324
+aw_service_grpc_protos-0.0.9.dist-info/METADATA,sha256=K05qBnrTdOpfl7o-XEAp2Ls-1JwRCE2SJ6HQSCGaI8o,532
+aw_service_grpc_protos-0.0.9.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+aw_service_grpc_protos-0.0.9.dist-info/top_level.txt,sha256=QXmR7t-a32yRfgp6Ji4MshzVF2KF5sYVWG2qIYLxNXo,7
+aw_service_grpc_protos-0.0.9.dist-info/RECORD,,
