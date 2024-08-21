@@ -1,0 +1,8 @@
+Manage resources related to training task
+
+Subcommands:
+submit    Create training task
+list      Display a list of training tasks for a resourcepool 
+get       Get detail information about training task
+stop      Stop training tasks
+delete    Delete training tasks by id

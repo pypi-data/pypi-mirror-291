@@ -1,0 +1,5 @@
+Manage resources related to queue
+
+Subcommands:
+list    Display a list of queues
+get     Get detail information about queue
