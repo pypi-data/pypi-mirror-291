@@ -1,0 +1,2 @@
+[console_scripts]
+barwex-startapp = barwex_startapp.main:main
