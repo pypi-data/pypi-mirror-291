@@ -1,0 +1,11 @@
+better_optimize/__init__.py,sha256=W_H01tso8TNZfvX4NOLr48QdCysW9xIUU-5TCKTkLQM,429
+better_optimize/_version.py,sha256=0bU3NmiPxqm2Cch_OtgxedUPSBHAgs9mnuNW4u7Rtqo,497
+better_optimize/constants.py,sha256=h-zZsU0-6yM0F5kW_PdtEvNTYMyf9YZ3tV8VqEnM4pk,9140
+better_optimize/minimize.py,sha256=BqCKtPbkYq4q1kMg30nx-LTRBKY_ytYrBG_1F_bbK-U,3498
+better_optimize/root.py,sha256=roo_TICMLUIZBQ4AaFUkSBLFEQz4zKLXM9zs471JqiI,2940
+better_optimize/utilities.py,sha256=rk2s8AuKryvkyqUjQbRNoFay232kSwubLy8flREq9E0,6999
+better_optimize/wrapper.py,sha256=sgsnhnmxvIZeOQVwT-9MGD4u47XBV_ZiZxBvaWTvk9Y,5858
+better_optimize-0.0.5.dist-info/METADATA,sha256=Vuni7_Zbg_ByyaU9dRZwYhJivSLA6xXpXpXhDcHtBV0,1332
+better_optimize-0.0.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+better_optimize-0.0.5.dist-info/top_level.txt,sha256=MLTmpa3RXTV6_Fj-8bAA2XF4z3UEFA2gOFHVA7LdREo,16
+better_optimize-0.0.5.dist-info/RECORD,,
