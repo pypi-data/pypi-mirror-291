@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: poetry-demo_skatecode31
+Version: 0.1.2
+Summary: 
+Author: skatecode31
+Author-email: skatecode31@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
