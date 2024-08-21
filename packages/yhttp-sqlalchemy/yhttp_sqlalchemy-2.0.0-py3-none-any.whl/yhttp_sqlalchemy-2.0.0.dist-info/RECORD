@@ -1,0 +1,9 @@
+yhttp/ext/sqlalchemy/__init__.py,sha256=WHrQEIfwt1BoZPlS75dj-GRoUeQC6KWY2eIlCOAQpCg,53
+yhttp/ext/sqlalchemy/cli.py,sha256=vtcd9YXze_Otw_XmvylgCqEMZLLl1yuIzUa_91ewaDI,929
+yhttp/ext/sqlalchemy/install.py,sha256=dYtk_ZoOE-2TTHr49O5wHFt5E6NF2GwplE4luimf_zk,569
+yhttp/ext/sqlalchemy/orm.py,sha256=QL63xQtohQvnODg9OXCrjecQv6klXqAiJi2PMicGOks,1662
+yhttp_sqlalchemy-2.0.0.dist-info/LICENSE,sha256=ZOujSscLASymVja1CyrtFAAchBfPxmguX50ZxOMBFak,1062
+yhttp_sqlalchemy-2.0.0.dist-info/METADATA,sha256=dpV2gxizI2hE3BReJrsWcH9vM4Q9F5-KDmimLTkiGBg,1556
+yhttp_sqlalchemy-2.0.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+yhttp_sqlalchemy-2.0.0.dist-info/top_level.txt,sha256=efaJ4DfUOs7MO3pjIEyRhnQASGVyD6vH-SL3ogQxkeU,6
+yhttp_sqlalchemy-2.0.0.dist-info/RECORD,,
