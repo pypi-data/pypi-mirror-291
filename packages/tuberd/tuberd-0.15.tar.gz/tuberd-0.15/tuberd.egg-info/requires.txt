@@ -1,0 +1,7 @@
+numpy
+orjson
+pytest
+requests
+aiohttp
+pytest-asyncio
+cbor2
