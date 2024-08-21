@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: blank-template
+Version: 0.0.9
+Summary: blank python project
+Keywords: template
+Author-Email: Cedric Young <ccedricyoung+pypi.blank-template@gmail.com>
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Project-URL: Homepage, https://github.com/CCedricYoung/blank-template
+Project-URL: Documentation, https://github.com/CCedricYoung/blank-template
+Project-URL: Repository, https://github.com/CCedricYoung/blank-template.git
+Project-URL: Bug tracker, https://github.com/CCedricYoung/blank-template/issues
+Project-URL: Changelog, https://github.com/CCedricYoung/blank-template/releases
+Requires-Python: >=3.11
+Requires-Dist: typer~=0.12.3
+Description-Content-Type: text/markdown
+
+# blank-template
+[![build](https://github.com/CCedricYoung/blank-template/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/CCedricYoung/blank-template/actions/workflows/build.yml)
+
+some blank template for creating a python project with rye and publish as a library
