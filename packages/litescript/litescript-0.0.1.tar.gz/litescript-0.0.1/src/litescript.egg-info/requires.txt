@@ -1,0 +1,14 @@
+tqdm
+colorlog
+pyyaml
+rich
+numpy
+pandas
+plotly
+matplotlib
+
+[dev]
+coverage
+mypy
+pytest
+ruff
