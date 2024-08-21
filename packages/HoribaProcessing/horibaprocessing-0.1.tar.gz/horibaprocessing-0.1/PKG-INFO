@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: HoribaProcessing
+Version: 0.1
+Summary: Python package for processing Horiba files at hobre instruments
+Home-page: https://github.com/tree-man-scp/HoribaProcessing
+Download-URL: https://github.com/tree-man-scp/HoribaProcessing/archive/refs/tags/0.1.tar.gz
+Author: Rico Koster
+License: MIT
+Keywords: Processing tool
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.TXT
+Requires-Dist: numpy
+Requires-Dist: matplotlib.pyplot
+Requires-Dist: pandas
+Requires-Dist: os
+Requires-Dist: sys
+Requires-Dist: json
+Requires-Dist: scipy
+Requires-Dist: termcolor

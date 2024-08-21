@@ -1,0 +1,8 @@
+numpy
+matplotlib.pyplot
+pandas
+os
+sys
+json
+scipy
+termcolor

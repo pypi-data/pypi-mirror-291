@@ -1,0 +1,12 @@
+LICENSE.TXT
+README.md
+setup.cfg
+setup.py
+HoribaProcessing/HoribaProcessing.py
+HoribaProcessing/__init__.py
+HoribaProcessing/myfunctions.py
+HoribaProcessing.egg-info/PKG-INFO
+HoribaProcessing.egg-info/SOURCES.txt
+HoribaProcessing.egg-info/dependency_links.txt
+HoribaProcessing.egg-info/requires.txt
+HoribaProcessing.egg-info/top_level.txt
