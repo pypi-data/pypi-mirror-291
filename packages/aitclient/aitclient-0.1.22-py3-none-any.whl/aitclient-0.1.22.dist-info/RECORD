@@ -1,0 +1,10 @@
+aitclient/__init__.py,sha256=wMQTD_pKVnF-UzWqekvID9aqB-fwvItlchgaM5LgDWE,56
+aitclient/auth.py,sha256=A0FHd5EY7dOBCQlQgV1CROkbxl8CPnVb9SMaVeWiGWc,3925
+aitclient/upload.py,sha256=zT0Jk2plZAAu2u8KfwHx3WlWQgYsh2BPG9D-mFu91BM,12822
+aitclient/certs/SAP_Global_Root.pem,sha256=hAzpPiyOPhX_nEizYPqHrHJvHrbSXLH8JxFzlRW6wTk,2280
+aitclient-0.1.22.dist-info/LICENSE,sha256=ZVo899N9J3OCdYC-Fm0R5iX0Eql87llZav0zIbtFGaI,1091
+aitclient-0.1.22.dist-info/METADATA,sha256=aR60bx0HQB0mODP4yzSMvghs1IijdP4de6QcYQv-IRU,504
+aitclient-0.1.22.dist-info/WHEEL,sha256=Wyh-_nZ0DJYolHNn1_hMa4lM7uDedD_RGVwbmTjyItk,91
+aitclient-0.1.22.dist-info/entry_points.txt,sha256=c0kSKF627k19VGqEyCU2NWWuacxR52XqDIxbuWy6cSE,45
+aitclient-0.1.22.dist-info/top_level.txt,sha256=kWPfMivEo7p-euqn_sk4iKJ1bj6nuzyWEADYLHKX-KI,10
+aitclient-0.1.22.dist-info/RECORD,,
