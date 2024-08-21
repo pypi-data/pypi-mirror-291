@@ -1,0 +1,11 @@
+apiverve_numbertowords/__init__.py,sha256=7i03uVHJYhve6FFIDbyVEPk8OGKQInx103sQ9-bMjuo,45
+apiverve_numbertowords/apiClient.py,sha256=G_1-FCEBONBsj8lMoP0yjV7-CWYv_bmbEmgk4yjhFSE,1229
+apiverve_numbertowords/exceptions.py,sha256=4ArOt3QT54oFWrQdDHL9rA9fb6RXozXJcRZw41nE8TY,109
+apiverve_numbertowords/setup.py,sha256=eBX297tcoaJiHF4HYSnTRk90KiXVGs_3Ha-loG-HOI4,621
+apiverve_numbertowords/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_numbertowords/tests/test_api.py,sha256=jMx8TShbr9zAamEQZJvkWs8XTR2xXY4huBezXYJhMBk,623
+apiverve_numbertowords-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_numbertowords-1.1.4.dist-info/METADATA,sha256=CeMz174SixPTb1vAMpUR9rrM7IxJHTegcyJC0vvIeP0,5628
+apiverve_numbertowords-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_numbertowords-1.1.4.dist-info/top_level.txt,sha256=h8ayq_sZxkwa6UK8pR_gLw8euSxKbD71hbEP3mthWf4,23
+apiverve_numbertowords-1.1.4.dist-info/RECORD,,
