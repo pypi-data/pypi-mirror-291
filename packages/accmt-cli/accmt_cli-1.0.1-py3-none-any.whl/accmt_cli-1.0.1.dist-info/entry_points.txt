@@ -1,0 +1,3 @@
+[console_scripts]
+accmt = accmtcli.accmt:main
+accmth = accmtcli.accmth:main
