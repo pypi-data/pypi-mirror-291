@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: HandPyMake
+Version: 0.3
+Summary: The PyPI package of hpymake command
+Author-email: CycleBai <iscyclebai@outlook.com>
+Requires-Dist: keyboard
+Requires-Dist: mpremote
+Requires-Dist: toml
+Requires-Dist: requests
