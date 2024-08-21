@@ -1,0 +1,11 @@
+apiverve_qrcodegenerator/__init__.py,sha256=Ohl0yaR609TnuzZdqgL1skvDvD0YVwifxnMyFlJ-6mA,47
+apiverve_qrcodegenerator/apiClient.py,sha256=wZo6c_f-S9HC9G81DAPq2OneJSYjPZ9Ed5cl7XuSwkM,1236
+apiverve_qrcodegenerator/exceptions.py,sha256=gndOWhux-WtFyad6l_umjBA3roVDTqDapAzeT3K88Ak,113
+apiverve_qrcodegenerator/setup.py,sha256=m23GrDofgxZmUjwpJdKo-c5NfshVMvfelk2TviM3WkQ,624
+apiverve_qrcodegenerator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_qrcodegenerator/tests/test_api.py,sha256=qSuvCLbxesClYRnRlc-hKV-Nb_fflJWVnj74cxF537A,629
+apiverve_qrcodegenerator-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_qrcodegenerator-1.1.4.dist-info/METADATA,sha256=qIfAlGJhPcercs0aGx95on6uUlE4AN2-azTC6A6JVJM,6266
+apiverve_qrcodegenerator-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_qrcodegenerator-1.1.4.dist-info/top_level.txt,sha256=4rqxH7kFf_i9P7XX0hVpz1MLspPPTJUSRTrdvenfO2E,25
+apiverve_qrcodegenerator-1.1.4.dist-info/RECORD,,
