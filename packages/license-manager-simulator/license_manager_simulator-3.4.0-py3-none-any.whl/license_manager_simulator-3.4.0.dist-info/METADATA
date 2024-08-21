@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: license-manager-simulator
+Version: 3.4.0
+Summary: The License Manager Simulator is an application that simulates output from 5 license servers for use in the development of applications which interface to the license servers.
+License: MIT
+Author: OmniVector Solutions
+Author-email: info@omnivector.solutions
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
