@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: compone
+Version: 0.3.0
+Summary: Component framework for Python
+License: MIT
+Author: György Kiss
+Author-email: gyorgy@duck.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: markupsafe
+Description-Content-Type: text/markdown
+
+# Compone
+
+Compone is a **Python component framework** inspired by React, that allows for
+type-safe HTML generation. It is an alternative to Python template engines,
+using Python objects instead of strings. This way you get Exception tracebacks
+for mistyped HTML tags and attributes instead of malformed HTML!
+
