@@ -1,0 +1,4 @@
+pydantic
+tensorflow
+tf-tools
+fs-tools
