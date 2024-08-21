@@ -1,0 +1,11 @@
+apiverve_salestaxlookup/__init__.py,sha256=csHL28VVE7z8m5HMC4qpUUa69QRk-TTiHtHXnV3bBg0,40
+apiverve_salestaxlookup/apiClient.py,sha256=gwhEp78tTl0VQczcuoUXIeE6c8TvgTUUS2_ahyXe1y4,1214
+apiverve_salestaxlookup/exceptions.py,sha256=jeJVmhWDr4lboElP3LaOV_jeLEB7uJv1yO9-oI7ugJI,105
+apiverve_salestaxlookup/setup.py,sha256=Def63ZH2hd_wGS7csRal42wntsgNRrMbSxS7vFbmcTI,638
+apiverve_salestaxlookup/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_salestaxlookup/tests/test_api.py,sha256=n0SEOximmQUAG7SRijEN9j-RxcKnTi8qwiLFWaFUW8g,614
+apiverve_salestaxlookup-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_salestaxlookup-1.1.4.dist-info/METADATA,sha256=RUs0oKnnIzCCygVyyrlWJrYgcMQjBJVzG3TEaDjxp6U,5538
+apiverve_salestaxlookup-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_salestaxlookup-1.1.4.dist-info/top_level.txt,sha256=1gR8LJtxLGvcRirl3alVECL3ymRDbejTrc7vyiCBUvU,24
+apiverve_salestaxlookup-1.1.4.dist-info/RECORD,,
