@@ -1,0 +1,10 @@
+fast_sudoku_solver/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+fast_sudoku_solver/__main__.py,sha256=xLkIsTT-jbtxKCalYR54J2D9eFz6NJi2XMx7Juwj8YE,1768
+fast_sudoku_solver/services.py,sha256=f9zDTW2aLh-WH7eK-cnl5ad30v0P_JHN-s99oa_LPfc,9356
+fast_sudoku_solver/sudoku_solver.py,sha256=Yzd_EZr873vC7gi1iuQTWnB8bzueHtwL8zrtthMNMC4,5085
+fast_sudoku_solver/techniques.py,sha256=SUX2Xy_u2gi1ccyej0cWBwdcUb0eQ8XC7jo8j0cRnPs,16740
+fast_sudoku_solver-1.0.0.dist-info/LICENSE,sha256=y6CdsuPJaRtIOoyc_VomCWi8qUl-aoIIjRnp4bsvXH4,1083
+fast_sudoku_solver-1.0.0.dist-info/METADATA,sha256=1A8DskuAnVMwq2Lr5DUIBiyHFimYYrp-J_0j9uhfOx0,4708
+fast_sudoku_solver-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fast_sudoku_solver-1.0.0.dist-info/entry_points.txt,sha256=iWxR4ip8gPDLZhf4sMy9dJOkpSbE-cjeRkh3fnBdsUo,54
+fast_sudoku_solver-1.0.0.dist-info/RECORD,,
