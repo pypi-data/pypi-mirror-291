@@ -1,0 +1,3 @@
+[console_scripts]
+aftconvertor = aftpy.cmdtools:aftconvertor
+aftview = aftpy.cmdtools:aftview

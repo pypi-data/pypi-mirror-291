@@ -1,0 +1,13 @@
+aftpy/__init__.py,sha256=qW8k9WyHgmq84M9imdTSjQW83ngBdFl1mBuBMEnqaNY,957
+aftpy/aftmap.py,sha256=NYABG9yOFG28qzOLVUyQIrMcK_cSDHHu6N89bLwct8k,19326
+aftpy/aftmaps.py,sha256=Jw7-y8aV_fjnKquru24q1e7Cu8tAH_ME4YLGn-5QVC8,12399
+aftpy/cmdtools.py,sha256=iQinadc9unDCcPnz-bWEih3ApDfBJ-2uKuAFRwIWTDk,3985
+aftpy/getaftdata.py,sha256=4vj3pWyOTohtjAr2QrVryy4hOjApRbM5GuRoGrU2Pno,6611
+aftpy/utilities.py,sha256=mDsDNCCuUX0WpS7aPXbnrNyeBwd35Y3WzxH0qJhLqdg,1732
+aftpy/visulalization.py,sha256=3_O42v7Vg71e3_pP8FiBAla1Wts3yA-DEcdOyN8xAiM,1625
+aftpy-2.0.2.dist-info/LICENSE,sha256=PtDe96MJ-CbRzuqoV9Tj37SnpnHwf0g7L5Z2vZoDIRE,1074
+aftpy-2.0.2.dist-info/METADATA,sha256=S0pXyERj0-kzE9S5hdMmeXQ0ss6RwbV_nV-wo7O8-Jk,1346
+aftpy-2.0.2.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+aftpy-2.0.2.dist-info/entry_points.txt,sha256=sxy46fW896d5N0HQg2KdycgbTDORprZ7qiMcUSi-Ukg,94
+aftpy-2.0.2.dist-info/top_level.txt,sha256=fyo2Gc2z0BkRW0GJTlLSyrVU9TfDSfi6MbS9_Viyk48,6
+aftpy-2.0.2.dist-info/RECORD,,

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: aftpy
+Version: 2.0.2
+Summary: Python package to Read, Visualize and download AFTmap data.
+Author-email: Bibhuti Kumar Jha <bibhuraushan1@gmail.com>
+License: MIT
+Project-URL: Homepage, https://bibhuraushan.github.io/aftpy
+Project-URL: Repository, https://github.com/me/spam.git
+Keywords: Sun,Dataloader,AFT,SFT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: h5py
+Requires-Dist: sunpy
+Requires-Dist: pandas
+
+
+![Python](https://skillicons.dev/icons?i=py)
+
+# AFTpy
+![aftlogo](https://github.com/bibhuraushan/aftpy/blob/main/aftpy_logo.png)
+
+`AFTPy` offers a comprehensive solution for
+analyzing and downloading Advective Flux Transport (AFT) data,
+streamlining the process of data downloading in parallel and
+also facilitating the conversion of H5 files into the most popular
+FITS file format or various other formats with ease.
+
+## Installation
+
+### From PyPI (Pip)
+
+```shell
+pip install aftpy
+```
+
+### From source
+
+```shell
+git clone git@github.com:bibhuraushan/aftpy.git
+cd aftpy
+python -m build
+pip install dist/*.whl
+```
+
+## Documentation
+[AFTpy Documentation](https://bibhuraushan.github.io/aftpy/)
