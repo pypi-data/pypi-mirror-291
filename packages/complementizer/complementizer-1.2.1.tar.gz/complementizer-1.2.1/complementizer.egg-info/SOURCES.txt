@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+complementizer/__init__.py
+complementizer/complementizer.py
+complementizer/form.py
+complementizer/type.py
+complementizer.egg-info/PKG-INFO
+complementizer.egg-info/SOURCES.txt
+complementizer.egg-info/dependency_links.txt
+complementizer.egg-info/requires.txt
+complementizer.egg-info/top_level.txt
