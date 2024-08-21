@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+aperol/__init__.py
+aperol/config.py
+aperol/tree_utils.py
+aperol.egg-info/PKG-INFO
+aperol.egg-info/SOURCES.txt
+aperol.egg-info/dependency_links.txt
+aperol.egg-info/requires.txt
+aperol.egg-info/top_level.txt
