@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+augustsampdf.egg-info/PKG-INFO
+augustsampdf.egg-info/SOURCES.txt
+augustsampdf.egg-info/dependency_links.txt
+augustsampdf.egg-info/top_level.txt
