@@ -1,0 +1,11 @@
+README.md
+license.tet
+setup.cfg
+setup.py
+BABAIJEBU/BABAIJEBU.py
+BABAIJEBU/__init__.py
+BABAIJEBU.egg-info/PKG-INFO
+BABAIJEBU.egg-info/SOURCES.txt
+BABAIJEBU.egg-info/dependency_links.txt
+BABAIJEBU.egg-info/not-zip-safe
+BABAIJEBU.egg-info/top_level.txt
