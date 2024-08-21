@@ -1,0 +1,63 @@
+Metadata-Version: 2.3
+Name: spinasm-lsp
+Version: 0.1.2
+Summary: A Language Server Protocol implementation for SPINAsm
+Project-URL: Homepage, https://github.com/aazuspan/spinasm-lsp
+Author: Aaron Zuspan
+License: MIT License
+        
+        Copyright (c) 2024 Aaron Zuspan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: lsp,spinasm
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: asfv1==1.2.7
+Requires-Dist: lsprotocol
+Requires-Dist: pygls
+Description-Content-Type: text/markdown
+
+# SPINAsm LSP Server
+
+[![Build status](https://github.com/aazuspan/spinasm-lsp/actions/workflows/ci.yaml/badge.svg)](https://github.com/aazuspan/spinasm-lsp/actions/workflows/ci.yaml)
+[![PyPI version](https://img.shields.io/pypi/v/spinasm-lsp)](https://pypi.python.org/pypi/spinasm-lsp)
+[![Python versions](https://img.shields.io/pypi/pyversions/spinasm-lsp.svg)](https://pypi.python.org/pypi/spinasm-lsp)
+
+A Language Server Protocol (LSP) server to provide language support for the [SPINAsm assembly language](http://www.spinsemi.com/Products/datasheets/spn1001-dev/SPINAsmUserManual.pdf). The LSP is built on an extended version of the [asfv1](https://github.com/ndf-zz/asfv1) parser.
+
+## Features
+
+- **Diagnostics**: Reports the location of syntax errors and warnings.
+- **Signature help**: Shows parameter hints as instructions are entered.
+- **Hover**: Shows documentation and assigned values on hover.
+- **Completion**: Provides suggestions for opcodes, labels, and variables.
+- **Renaming**: Renames matching labels or variables.
+- **Go to definition**: Jumps to the definition of a label, memory address, or variable.
+- **Semantic highlighting**: Color codes variables, constants, instructions, etc. based on program semantics.
+
+------
+
+*This project is unaffiliated with Spin Semiconductor. Included documentation is Copyright © 2018 Spin Semiconductor.*

@@ -1,0 +1,13 @@
+spinasm_lsp/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+spinasm_lsp/parser.py,sha256=vHiGvgjEeiz1xMFuU4r6LYGUrvEfV5djeCwBNTL417A,8463
+spinasm_lsp/server.py,sha256=aVVaMNVvSuNTnOJVIzgxWukg3gGnr2ebsO7lAsahiSU,12018
+spinasm_lsp/tokens.py,sha256=KnGR2I3fXjqW-X6MZtzxMx-aMC5jFqmzUzy0dihEx2U,13453
+spinasm_lsp/docs/__init__.py,sha256=HgUuhmseVDxFMZd0E_UKGs1d9fXWibeGA_iueRo74Gs,1158
+spinasm_lsp/docs/assemblers.py,sha256=gZDndd2nEFViTQpmLVX9I23uX-66NVyBNdnbh9ScyF4,7615
+spinasm_lsp/docs/instructions.py,sha256=VmQHGCgpNmkosMF1Hq8p579nym8rP7Qk4So2uv9lnuM,34439
+spinasm_lsp/docs/markdown.py,sha256=p6SELNWxje6FerSqbvbe5bmZsNVs-e1nbrZZN3x48cA,5150
+spinasm_lsp-0.1.2.dist-info/METADATA,sha256=SuW6oVEd-SmmAvpbuw0iLnxWK1fliizf9c8fUQS9kME,3320
+spinasm_lsp-0.1.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+spinasm_lsp-0.1.2.dist-info/entry_points.txt,sha256=cveliflkhkir4ylwrEMWxzAxts6pGHVCUOxPDykgBfw,57
+spinasm_lsp-0.1.2.dist-info/licenses/LICENSE,sha256=pqCoG4bdZYFnYlcFQlgfc--a1qJ_UD8KKsDBpc0Tq6Q,1068
+spinasm_lsp-0.1.2.dist-info/RECORD,,
