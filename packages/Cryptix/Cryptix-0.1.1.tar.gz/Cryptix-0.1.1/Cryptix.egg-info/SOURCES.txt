@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Cryptix/__init__.py
+Cryptix/cryptix.py
+Cryptix.egg-info/PKG-INFO
+Cryptix.egg-info/SOURCES.txt
+Cryptix.egg-info/dependency_links.txt
+Cryptix.egg-info/requires.txt
+Cryptix.egg-info/top_level.txt
