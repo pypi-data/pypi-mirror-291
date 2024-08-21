@@ -1,0 +1,20 @@
+[project]
+
+name = "check-cuda"
+version = "0.0.3"
+authors = [
+  { name="wangruihua", email="wangruihua@163.com" },
+]
+description = "检查CUDA版本"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
