@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cli_package_bjgomes"
+version = "0.0.1"
+authors = [
+  { name="Brian Gomes", email="brian.james.gomes@gmail.com" },
+]
+description = "A small cli package"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bdgomey/cli.git"
+Issues = "https://github.com/bdgomey/cli.git/issues"

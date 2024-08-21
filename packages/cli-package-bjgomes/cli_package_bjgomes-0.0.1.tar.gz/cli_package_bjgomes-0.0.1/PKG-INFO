@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: cli_package_bjgomes
+Version: 0.0.1
+Summary: A small cli package
+Project-URL: Homepage, https://github.com/bdgomey/cli.git
+Project-URL: Issues, https://github.com/bdgomey/cli.git/issues
+Author-email: Brian Gomes <brian.james.gomes@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
