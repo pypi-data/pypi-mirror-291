@@ -1,0 +1,13 @@
+rasqal-0.1.6.dist-info/METADATA,sha256=4EASlKd7dhLV5xSFGLcmdnXgI3K9DnYWoZsTlsZBwlw,4503
+rasqal-0.1.6.dist-info/WHEEL,sha256=keLBtIOE7ZgLyd8Cijw37iqv72a2jhfxMdDu8Unr7zo,96
+rasqal-0.1.6.dist-info/license_files/LICENSE,sha256=19UTMv-aZQcjRAZC4TlKdYaoVlQ51HM383amcCN3yz0,1530
+rasqal/adaptors.py,sha256=L-ANEqgRwv7xmh1Y2IhK_GjfS3Em6w6hZEBtHC5th3A,2116
+rasqal/logger.py,sha256=dD10eIkvF_oQPLcCJBodxecBT-hr-2JIHdRnMCBbwjE,22482
+rasqal/routing.py,sha256=bgzdoNu_BHThr3hHHbm1E2HAT8gEDrrJxDxkXsH_E0k,7008
+rasqal/runtime.py,sha256=7yAIO4zYdDWfDk0de3OeoI7JpLWr5z6Cm672ZHIsPWs,3349
+rasqal/simulators.py,sha256=4GU_aNa4k9lZ79_4U6C3u8Tt57qNN6_WQFBKeEtMnHk,3166
+rasqal/utils.py,sha256=HQd-LphFJCtxfe8Wv1SismLkHzxvXOyj7Tu141nuEYI,653
+rasqal/_native.pyi,sha256=6Tv5Z0daWiHLtWkUlx2tkCQaBfDCwOOT0A-IVJH95Jk,1239
+rasqal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rasqal/_native.cp310-win_amd64.pyd,sha256=W1jwl_FL3zpTaz2qegpddvk4sUv7_YQ-E4q59Vqkhc0,27210240
+rasqal-0.1.6.dist-info/RECORD,,
