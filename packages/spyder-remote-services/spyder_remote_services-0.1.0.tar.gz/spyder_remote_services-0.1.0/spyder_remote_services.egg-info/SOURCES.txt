@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+spyder_remote_services/__init__.py
+spyder_remote_services/__main__.py
+spyder_remote_services/utils.py
+spyder_remote_services.egg-info/PKG-INFO
+spyder_remote_services.egg-info/SOURCES.txt
+spyder_remote_services.egg-info/dependency_links.txt
+spyder_remote_services.egg-info/entry_points.txt
+spyder_remote_services.egg-info/requires.txt
+spyder_remote_services.egg-info/top_level.txt
+spyder_remote_services/jupyter_client/__init__.py
+spyder_remote_services/jupyter_client/manager.py
+spyder_remote_services/jupyter_server/__init__.py
+spyder_remote_services/jupyter_server/kernelmanager.py
+spyder_remote_services/jupyter_server/serverapp.py
+tests/test.py
