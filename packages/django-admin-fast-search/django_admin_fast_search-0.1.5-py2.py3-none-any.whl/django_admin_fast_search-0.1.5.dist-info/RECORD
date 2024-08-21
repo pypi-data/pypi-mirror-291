@@ -1,0 +1,17 @@
+django_admin_fast_search/__init__.py,sha256=DQiXHqQ3C29f_--ye7aVMDPnITrl9M0zMU42LYY48zE,22
+django_admin_fast_search/admin.py,sha256=cabUxfrL2lhVzz682LaYZ6x8mvCnYeFdBpk5dNFWtiw,5840
+django_admin_fast_search/apps.py,sha256=-jHp6VZvXpHNuPov8OjzEhTyDeXJp_7enBOcyrpB_lI,140
+django_admin_fast_search/models.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+django_admin_fast_search/urls.py,sha256=PVsbftqvYqJOnX8p2eNa3ucgDA9ZrQseYOz2aq7Nqlk,189
+django_admin_fast_search/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_fast_search/static/css/django_admin_fast_search.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_fast_search/static/js/django_admin_fast_search.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_fast_search/templates/admin/custom_change_list.html,sha256=XYHbAnVXT2fxH4Ff9T7oN7tV0GksgJZUog6_y6jhOTI,412
+django_admin_fast_search/templates/admin/custom_search_field.html,sha256=onRRAj0haGaykp_EAXsYeDDcXp5_M0D6TB3f0vdfYQ8,215
+django_admin_fast_search/templates/django_admin_fast_search/base.html,sha256=zzaUPjEgvwxg-Gn2rZ6gIMWphucmEGvAU_skUXJIcDA,661
+django_admin_fast_search-0.1.5.dist-info/AUTHORS.rst,sha256=OgYAOUSvGdeuWs2F8UZ7U3lnyXkM1tQw41NvHfWPN-0,161
+django_admin_fast_search-0.1.5.dist-info/LICENSE,sha256=eXmMhW8e0XKC0KzSoEu1-FEs_kkDYFeqojdbNZ2MVCY,1077
+django_admin_fast_search-0.1.5.dist-info/METADATA,sha256=Z8gphqA0UBk5roqXY99PZaIJi9rZw_XEMsLB5q93C2Y,2812
+django_admin_fast_search-0.1.5.dist-info/WHEEL,sha256=OWYSMTYHNOLxNw0Mxija-Qn3HdviNLu4kabRWA1yLB4,109
+django_admin_fast_search-0.1.5.dist-info/top_level.txt,sha256=yala80DGYMeZaSCqxr54NAFwPTgvNsUDqembXEQd-lE,25
+django_admin_fast_search-0.1.5.dist-info/RECORD,,
