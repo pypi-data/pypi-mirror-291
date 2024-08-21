@@ -1,0 +1,6 @@
+{
+  "resource": true,
+  "name": "junipermist",
+  "version": "0.0.6-alpha.1724168236",
+  "server": "github://api.github.com/pulumi/pulumi-junipermist"
+}
