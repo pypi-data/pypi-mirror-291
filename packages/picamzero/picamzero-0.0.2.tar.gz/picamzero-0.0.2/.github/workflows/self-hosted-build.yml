@@ -1,0 +1,17 @@
+name: Raspberry Pi 4 with High Quality Camera Build Workflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - '**/**'
+    tags:
+      - '**/**'
+
+jobs:
+  build_on_rp4_with_hqc:
+    runs-on: [self-hosted,picamera2]
+    steps:
+      - uses: actions/checkout@v4
+      - run:
+          ./scripts/ci --build
