@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/newline_tools/__init__.py
+src/newline_tools/__main__.py
+src/newline_tools/dedupe.py
+src/newline_tools/sample.py
+src/newline_tools/shuffle.py
+src/newline_tools/split.py
+src/newline_tools/utils.py
+src/newline_tools.egg-info/PKG-INFO
+src/newline_tools.egg-info/SOURCES.txt
+src/newline_tools.egg-info/dependency_links.txt
+src/newline_tools.egg-info/entry_points.txt
+src/newline_tools.egg-info/requires.txt
+src/newline_tools.egg-info/top_level.txt
