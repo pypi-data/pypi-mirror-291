@@ -1,0 +1,11 @@
+apiverve_profanityfilter/__init__.py,sha256=dQkZILV45_nme1ktVNp5avWHB4uaOn12jOB9YJaEH7M,47
+apiverve_profanityfilter/apiClient.py,sha256=uZgBC4mT4Sx06_cfZXXSkr6Uv_vr7LkHjqqahz8-6zs,1236
+apiverve_profanityfilter/exceptions.py,sha256=Lq4XY7_1aNHE9nuhmVK7SDrlys_shRxv4ahBzSPqdzs,113
+apiverve_profanityfilter/setup.py,sha256=zK5ZaozilGcy6MUCYRJAw6AhhtTkWbJyaWxvo_x3X4o,677
+apiverve_profanityfilter/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_profanityfilter/tests/test_api.py,sha256=NK-z4JiMszbC_2uEAJpbVhkE0SAsNAB6my-0lPgIlTI,629
+apiverve_profanityfilter-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_profanityfilter-1.1.4.dist-info/METADATA,sha256=rYoeQGKRTTCLGBQBbPnuBIOYa3HfkmzBr_AM2VWOzzg,5762
+apiverve_profanityfilter-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_profanityfilter-1.1.4.dist-info/top_level.txt,sha256=3L-XN2oya3o-QEsSJ9qTBLekyyHhibZMyxmRnF5mfJc,25
+apiverve_profanityfilter-1.1.4.dist-info/RECORD,,
