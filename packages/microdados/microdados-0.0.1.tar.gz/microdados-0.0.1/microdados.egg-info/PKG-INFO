@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: microdados
+Version: 0.0.1
+Summary: A Python library designed to simplify the acquisition and analysis of public microdata. This library streamlines the process of downloading, organizing, and preparing microdata, allowing users to focus on insights and analysis rather than data wrangling.
+Home-page: UNKNOWN
+Author: Cleomar Felipe Rabelo Antoszczyszyn
+Author-email: cleomarfelipe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
