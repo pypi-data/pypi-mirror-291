@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/notemodule/__init__.py
+src/notemodule/notemodule.py
+src/notemodule.egg-info/PKG-INFO
+src/notemodule.egg-info/SOURCES.txt
+src/notemodule.egg-info/dependency_links.txt
+src/notemodule.egg-info/requires.txt
+src/notemodule.egg-info/top_level.txt
