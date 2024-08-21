@@ -1,0 +1,3 @@
+[flake8.extension]
+FIN=flake8_no_json.entry:Plugin
+
