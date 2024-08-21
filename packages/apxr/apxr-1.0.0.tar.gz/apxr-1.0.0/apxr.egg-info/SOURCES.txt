@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+apxr/__init__.py
+apxr/asyncproxier.py
+apxr.egg-info/PKG-INFO
+apxr.egg-info/SOURCES.txt
+apxr.egg-info/dependency_links.txt
+apxr.egg-info/requires.txt
+apxr.egg-info/top_level.txt
