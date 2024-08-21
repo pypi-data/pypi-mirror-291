@@ -1,0 +1,10 @@
+vulcan_annotation/__init__.py,sha256=VyT0776b3pSOHq3dGj82xDvT67afjYeQ8oqEZlbqZms,548
+vulcan_annotation/annotation.py,sha256=AIiD26ktkrkC9z1nEoRnw_VspfQvbW_33GR5jgVDz84,16783
+vulcan_annotation/utilities.py,sha256=lXEGDbJOHAEFLL2yKBuNxwXsDRap5hMtFLIAz5MHtNU,2882
+vulcan_annotation/js/va_dom.js,sha256=2jh3sN4AL6C4ysUdPrjE5zi0aH9tZJULsfflkGjMppQ,7567
+vulcan_annotation/js/vulcan_annotation.js,sha256=AZ1bZwpQotWXE34Gh-HAWnEGCCebc9LBFpI0JExAjbU,13841
+vulcan_annotation-3.1.6.dist-info/LICENSE,sha256=IMNy-mduorz40ykODftiVsjxATCAH98258kOedplEZE,1073
+vulcan_annotation-3.1.6.dist-info/METADATA,sha256=z5f-wmuPzRcbRy487yzy3LbrmfredzfWnsc-MArqpao,858
+vulcan_annotation-3.1.6.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+vulcan_annotation-3.1.6.dist-info/top_level.txt,sha256=Q5ZGXIeOaqrPijmgm57oxm8xrTIsVKIelIaTvFq-R08,18
+vulcan_annotation-3.1.6.dist-info/RECORD,,
