@@ -1,0 +1,11 @@
+hestcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hestcore/datasets.py,sha256=iP5cgV0kGS-cxS-wyzs8U2o93610Bq4hl5P8zyVl5qM,1662
+hestcore/segmentation.py,sha256=76jwWkcV5v0-tD0MHUQew-kofsucRwTGZfSL1XRdtcY,16245
+hestcore/singletons.py,sha256=XPsGnGRRtxNn1JjSK-RWUYF56DjhDU71yVZoHKbUhfs,1981
+hestcore/vst_save_utils.py,sha256=KYWHY4aqDszYCSdWbMSErFTWXCh4UDSCu9PsBgZVpGI,2172
+hestcore/wsi.py,sha256=tAS5TW7PZLDHsx4r6KBO9MqYBNcvC4MJaQsq0XlUPfI,22030
+hestcore-1.0.3.dist-info/LICENSE.md,sha256=MrgFZnK8QVu9OCmppzfXdnlfa3OvYc4JNBB-2B7op6A,19173
+hestcore-1.0.3.dist-info/METADATA,sha256=drde5q3XHsNB8UOMmE57ErlxeYUh56Zm0zJ4Qnu8Mrw,426
+hestcore-1.0.3.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+hestcore-1.0.3.dist-info/top_level.txt,sha256=oWmuRy_88FfFI1Xwje_z6tUnQbpXOibvDzIdzyoulMA,9
+hestcore-1.0.3.dist-info/RECORD,,
