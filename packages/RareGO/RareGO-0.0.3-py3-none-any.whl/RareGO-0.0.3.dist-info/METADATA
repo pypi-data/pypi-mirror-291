@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RareGO
+Version: 0.0.3
+Summary: A link prediction biomedical discovery package
+Author-email: Bradford Patton <bradfordpatton72@gmail.com>
+Project-URL: Homepage, https://github.com/baseballtrout/RareGO-Capestone
+Project-URL: Issues, https://github.com/baseballtrout/RareGO-Capestone/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+"RareGO Package" 
+>The latest stable version of RareGO requires Python 3.8+. It can be downloaded and installed from PyPI with:
+
+```
+pip install RareGO
