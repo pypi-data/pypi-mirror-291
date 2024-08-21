@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_imagetotext/__init__.py
+src/apiverve_imagetotext/apiClient.py
+src/apiverve_imagetotext/exceptions.py
+src/apiverve_imagetotext/setup.py
+src/apiverve_imagetotext.egg-info/PKG-INFO
+src/apiverve_imagetotext.egg-info/SOURCES.txt
+src/apiverve_imagetotext.egg-info/dependency_links.txt
+src/apiverve_imagetotext.egg-info/top_level.txt
+src/apiverve_imagetotext/tests/__init__.py
+src/apiverve_imagetotext/tests/test_api.py
+tests/test_api.py
