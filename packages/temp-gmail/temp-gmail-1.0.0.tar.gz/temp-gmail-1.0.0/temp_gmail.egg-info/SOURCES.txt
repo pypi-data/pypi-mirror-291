@@ -1,0 +1,9 @@
+README.md
+setup.py
+temp-gmail/GMail.py
+temp-gmail/__init__.py
+temp_gmail.egg-info/PKG-INFO
+temp_gmail.egg-info/SOURCES.txt
+temp_gmail.egg-info/dependency_links.txt
+temp_gmail.egg-info/requires.txt
+temp_gmail.egg-info/top_level.txt
