@@ -1,0 +1,15 @@
+openai==1.40.6
+opencv-python==4.10.0.84
+paddleocr==2.8.1
+paddlepaddle==2.6.1
+pre-commit==3.7.1
+setuptools==72.2.0
+srt==3.5.3
+tiktoken==0.7.0
+
+[dev]
+black==24.8.0
+build==1.2.1
+flake8-bugbear==24.4.26
+flake8==7.1.1
+twine==5.1.1

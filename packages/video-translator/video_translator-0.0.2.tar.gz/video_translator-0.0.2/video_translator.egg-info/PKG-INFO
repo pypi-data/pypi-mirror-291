@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: video-translator
+Version: 0.0.2
+Summary: The collection of command-line utils to translate videos
+Author-email: Andrey Pudov <mail@andreypudov.com>
+Project-URL: Homepage, https://github.com/andreypudov/video-translator
+Project-URL: Issues, https://github.com/andreypudov/video-translator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: openai==1.40.6
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: paddleocr==2.8.1
+Requires-Dist: paddlepaddle==2.6.1
+Requires-Dist: pre-commit==3.7.1
+Requires-Dist: setuptools==72.2.0
+Requires-Dist: srt==3.5.3
+Requires-Dist: tiktoken==0.7.0
+Provides-Extra: dev
+Requires-Dist: black==24.8.0; extra == "dev"
+Requires-Dist: build==1.2.1; extra == "dev"
+Requires-Dist: flake8-bugbear==24.4.26; extra == "dev"
+Requires-Dist: flake8==7.1.1; extra == "dev"
+Requires-Dist: twine==5.1.1; extra == "dev"

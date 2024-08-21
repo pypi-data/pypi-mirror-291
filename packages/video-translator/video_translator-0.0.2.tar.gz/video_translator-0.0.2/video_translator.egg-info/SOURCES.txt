@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+extract_subtitles/__init__.py
+extract_subtitles/extract_subtitles.py
+transcribe_subtitles/transcribe_subtitles.py
+translate_subtitles/__init__.py
+translate_subtitles/translate_subtitles.py
+video_translator.egg-info/PKG-INFO
+video_translator.egg-info/SOURCES.txt
+video_translator.egg-info/dependency_links.txt
+video_translator.egg-info/entry_points.txt
+video_translator.egg-info/requires.txt
+video_translator.egg-info/top_level.txt

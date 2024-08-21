@@ -1,0 +1,4 @@
+[console_scripts]
+extract_subtitles = extract_subtitles.extract_subtitles:main
+transcribe_subtitles = transcribe_subtitles.transcribe_subtitles:main
+translate_subtitles = translate_subtitles.translate_subtitles:main
