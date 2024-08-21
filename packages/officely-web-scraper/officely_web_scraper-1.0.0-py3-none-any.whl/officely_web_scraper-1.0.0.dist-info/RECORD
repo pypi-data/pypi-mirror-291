@@ -1,0 +1,10 @@
+officely_web_scraper/__init__.py,sha256=DW50v3MQdPxIkstBKxjqHj0OgRcKPBYLAAcLdnLm4s0,40
+officely_web_scraper/config.py,sha256=ScTwCGOSlx6uxm_axf7qO88I8pCilDdN6ov3l_aIiSU,1027
+officely_web_scraper/scan.py,sha256=jIrX6fOree116rihJcJsTX7oI-J9795JSSl1fMbezqE,10097
+officely_web_scraper-1.0.0.data/scripts/officely-scraper,sha256=mt0zwBfCUgZr_19SXDeCx13nP857fSJcox5oQPWjpsY,53
+officely_web_scraper-1.0.0.dist-info/LICENSE,sha256=IllcweT39TKlD3ZwS10FdTaYzS6D9sM5xMGpVUrwQDo,1060
+officely_web_scraper-1.0.0.dist-info/METADATA,sha256=IHvrBokcil1V1BzHDxGK15pTO668NqM-y8jEXOUQlv8,6108
+officely_web_scraper-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+officely_web_scraper-1.0.0.dist-info/entry_points.txt,sha256=UCCicJ-TwwB-AX3WgOSvJqg0-cXt3Phkkvz6JyXHySE,68
+officely_web_scraper-1.0.0.dist-info/top_level.txt,sha256=qJBjXaACmGGhb4qeQv45jD7-qMjY8VH91Zerk7mhkMs,21
+officely_web_scraper-1.0.0.dist-info/RECORD,,
