@@ -1,0 +1,4 @@
+[console_scripts]
+compound-interest = pyfinops.scripts:compound_interest_calculator
+sip-calculator = pyfinops.scripts:sip_calculator
+

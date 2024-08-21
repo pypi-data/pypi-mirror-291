@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: PyFinOps
+Version: 0.1.0
+Summary: A comprehensive toolkit for various financial calculations and tools.
+Home-page: https://github.com/anubhav9287/PyFinOps
+Author: Anubhav Sharma
+Author-email: anubhav9287@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyFinOps
+
+FinToolkit is a comprehensive Python package for various financial calculations and tools. It includes:
+
+- **SIP Calculator**: Calculate the future value of Systematic Investment Plan (SIP) investments.
+- **Compound Interest Calculator**: Calculate the future value of investments with compound interest.
+
+## Installation
+
+You can install PyFinOps via pip:
+
+```bash
+pip install PyFinOps
+
+
