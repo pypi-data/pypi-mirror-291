@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: ns-django-custom-auth
+Version: 0.1
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
