@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ntwk_pro
+Version: 0.2.2
+Author: CVN
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
