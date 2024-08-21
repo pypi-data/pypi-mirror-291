@@ -1,0 +1,13 @@
+README.md
+setup.py
+fab_addon_client/__init__.py
+fab_addon_client/manager.py
+fab_addon_client/models.py
+fab_addon_client/version.py
+fab_addon_client/views.py
+fab_addon_client.egg-info/PKG-INFO
+fab_addon_client.egg-info/SOURCES.txt
+fab_addon_client.egg-info/dependency_links.txt
+fab_addon_client.egg-info/not-zip-safe
+fab_addon_client.egg-info/requires.txt
+fab_addon_client.egg-info/top_level.txt

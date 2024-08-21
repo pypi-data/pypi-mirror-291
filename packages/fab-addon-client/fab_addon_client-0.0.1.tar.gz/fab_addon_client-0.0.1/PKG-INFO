@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fab_addon_client
+Version: 0.0.1
+Summary: Small text to resume your addon
+Home-page: https://github.com/dpgaspar/flask-appbuilder/
+Author: You name goes here
+Author-email: youiremail@somewhere.com
+License: BSD
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask-AppBuilder>=1.5.0
+
+# README
