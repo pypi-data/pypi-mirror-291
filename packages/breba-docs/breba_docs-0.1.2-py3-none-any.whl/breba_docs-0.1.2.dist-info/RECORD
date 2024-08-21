@@ -1,0 +1,13 @@
+breba_docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+breba_docs/analyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+breba_docs/analyzer/service.py,sha256=BpcsNu5TiiFOBVv_t5wFHbElRqHgCnwnpT8tIc8Qx68,897
+breba_docs/cli.py,sha256=8Syn5XU6kOd_VY4ry3aMy2nxFlq-_AZKF-FxCvta39I,1687
+breba_docs/sample_doc.md,sha256=pmL0rGazW9LWKqBN2MGV4TqWSUG_lDQAx4U2E3ouh24,1870
+breba_docs/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+breba_docs/services/mock_agent.py,sha256=JzmfLNiRAvBjZGNJjZI6P_5TxLgDYlEuDFmfDnyO7Vw,433
+breba_docs/services/openai_agent.py,sha256=BqkP6wkj-zveMloiwdIcaOIq2562BCgiHE0gqLywqyc,3149
+breba_docs-0.1.2.dist-info/LICENSE,sha256=JCJ2sWX4sVIcZqtNJNUdEtqficKCo3g570hkzR9A7dY,1067
+breba_docs-0.1.2.dist-info/METADATA,sha256=6mFY4oSZBxInryELlrpkcF-iAW-V0kuDyDOo0X7oiME,1652
+breba_docs-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+breba_docs-0.1.2.dist-info/entry_points.txt,sha256=r4ILNPo9FiFOFMv8naKRS6qOZk6ONzUr530ZuMVeuhI,49
+breba_docs-0.1.2.dist-info/RECORD,,
