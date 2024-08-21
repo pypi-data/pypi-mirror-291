@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: AFQ-Browser
+Version: 0.4.6
+Home-page: https://yeatmanlab.github.io/AFQ-Browser
+Download-URL: https://github.com/yeatmanlab/AFQ-Browser
+Author: AFQ-Browser
+Author-email: arokem@gmail.com
+Maintainer: Ariel Rokem
+Maintainer-email: arokem@gmail.com
+License: BSD License
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE.txt
+
+AFQ-browser is a software library for visualization of results from
+automated fiber quantification of human brain tractography.
+
+The software takes as input the results of analysis from the ``AFQ`` or
+``pyAFQ`` software and produces a browser-based visualization of the data.
+Command-line tools allow users to create these visualizations from their data
+and upload them to share with others as a website.
+
+See [https://tractometry.github.io/AFQ-Browser/](https://tractometry.github.io/AFQ-Browser/) for documentation
+
+See: [https://yeatmanlab.github.io/AFQBrowser-demo/](https://yeatmanlab.github.io/AFQBrowser-demo/) for a working example
+
+[![DOI](https://zenodo.org/badge/61830890.svg)](https://zenodo.org/badge/latestdoi/61830890)
