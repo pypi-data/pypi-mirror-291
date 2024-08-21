@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+vovo.egg-info/PKG-INFO
+vovo.egg-info/SOURCES.txt
+vovo.egg-info/dependency_links.txt
+vovo.egg-info/not-zip-safe
+vovo.egg-info/requires.txt
+vovo.egg-info/top_level.txt
