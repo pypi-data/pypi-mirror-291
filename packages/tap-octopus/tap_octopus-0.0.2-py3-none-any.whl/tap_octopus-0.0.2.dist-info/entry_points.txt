@@ -1,0 +1,3 @@
+[console_scripts]
+tap-octopus=tap_octopus.tap:TapOctopus.cli
+

@@ -1,0 +1,11 @@
+tap_octopus/__init__.py,sha256=WQNJ-MXUuGbIkr8gVYmXYJ8T_XRYyhZ6AQR7KYDlrUM,24
+tap_octopus/__main__.py,sha256=6D8I2cjuzn1i-6rDSh3BS23YVVqsvV1McHXnPmiDkLY,128
+tap_octopus/client.py,sha256=AQm25_Co89y2Hg8eWKL56S7QMrKwXqXtOHpMas2imi8,5306
+tap_octopus/schemas/__init__.py,sha256=8EbDuBdT6_s-dRD1VRFa256ZH_W4wQeW3hSfTzSVp9Q,43
+tap_octopus/streams.py,sha256=aMbXXzUprMJNpoyZFZaBjbMPLhfPkIFlLfJS56DS1Tc,2565
+tap_octopus/tap.py,sha256=4tTYaYFelMdFxpTZsUvF-OLIu4nF4CT7A5SA_OII00M,1653
+tap_octopus-0.0.2.dist-info/entry_points.txt,sha256=rSpBfMkXYSpSf5tLY8JO8ZYcX6LzDWAnHcdf9LnzPIQ,62
+tap_octopus-0.0.2.dist-info/LICENSE,sha256=v81fy8JKD2oVShPJBT-ebwPGHpM0Zlv_Ub2hFXCM0p4,11546
+tap_octopus-0.0.2.dist-info/METADATA,sha256=e-TBPqXmj3NS8uOVOf0VhEZHX8D8fChbUxIbrmsbBVE,4042
+tap_octopus-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tap_octopus-0.0.2.dist-info/RECORD,,
