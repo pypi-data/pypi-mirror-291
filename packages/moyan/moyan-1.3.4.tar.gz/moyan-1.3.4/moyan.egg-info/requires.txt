@@ -1,0 +1,6 @@
+lxml
+six>=1.5.2
+pillow
+matplotlib
+opencv-python
+numpy
