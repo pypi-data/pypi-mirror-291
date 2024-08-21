@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xot
+Version: 0.1.0
+Summary: a package with modular components for building X of Thought (XoT) systems
+Home-page: https://github.com/PrimeIntellect-ai/openthought
+Author: Jack Min Ong
+Author-email: jackmin@primeintellect.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# openthought
+Think Mark! Think!
