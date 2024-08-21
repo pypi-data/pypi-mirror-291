@@ -1,0 +1,2 @@
+[napari.plugin]
+napari-napari_allencell_annotator = napari_allencell_annotator
