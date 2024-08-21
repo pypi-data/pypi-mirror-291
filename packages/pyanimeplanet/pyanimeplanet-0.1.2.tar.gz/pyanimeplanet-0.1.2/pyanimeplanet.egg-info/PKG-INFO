@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyanimeplanet
+Version: 0.1.2
+Summary: A python module to extract information from anime-planet website
+Home-page: UNKNOWN
+Author: Vishal Rashmika
+Author-email: <vishal.rashmika.perera@gmail.com>
+License: UNKNOWN
+Description: A package that allows to extract information from anime planet website without logging.
+Keywords: python,web-scraping,animeplanet,anime
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
