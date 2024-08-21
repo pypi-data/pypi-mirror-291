@@ -1,0 +1,6 @@
+include src/spotriver/data/*.rst
+include src/spotriver/data/*.tar
+include src/spotriver/data/*.c
+include src/spotriver/data/*.csv
+include src/spotriver/data/*.json
+include src/spotriver/hyperdict/*.json
