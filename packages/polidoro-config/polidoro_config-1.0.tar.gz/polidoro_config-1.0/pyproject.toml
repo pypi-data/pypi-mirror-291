@@ -1,0 +1,41 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=61",
+    "setuptools-scm[toml]>=6.2.3",
+]
+
+[project]
+name = "polidoro-config"
+description = "Package to manage configuration for you project."
+authors = [
+    { name="Heitor Luis Polidoro" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = []
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/heitorpolidoro/polidoro-config"
+"Documentation" = "https://polidoro-config.readthedocs.io/"
+
+[tool.setuptools.dynamic]
+version = {attr = "pconfig.__version__"}
+dependencies = {file = ["requirements.txt"]}
+
+[tool.coverage.run]
+source = ["."]
+omit = ["tests/*"]
+relative_files = true
+
+[tool.black]
+max_line_length = 120
