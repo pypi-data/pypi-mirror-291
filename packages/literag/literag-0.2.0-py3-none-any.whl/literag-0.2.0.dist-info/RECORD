@@ -1,0 +1,12 @@
+literag/__init__.py,sha256=uS8iZaDRppGB1gJ5OjYNiPYL8uD2hLXkS5YvN2UtmW0,325
+literag/__main__.py,sha256=2Dqi6azR7pBTGnkC9JDbSsDJnyJgS3wfTwm560jPdJ0,48
+literag/azure_retriever.py,sha256=xJtzPtGu1Cb8_Brf-YA4ZPi7QwwzN6YflcJD-0nt748,3161
+literag/main.py,sha256=cHiN6Wshtf7V7jXST0a0qPTCQz134cT8jn664ll4x3g,8217
+literag/openai_vectorizer.py,sha256=gDSVBkcDulo7IGvARvk_wuVUV1P69P-ebqf5wtqaF7w,2659
+literag/pinecone_retriever.py,sha256=ID37VKns4YWea8BS_oHznMSEciSDc7JvDUQYIwX301c,5275
+literag/retrieval_service.py,sha256=SU4W4qs_j3kIIv7Dodm6TCijfj-kABjVn_rvvlo-L3w,1871
+literag/text_vectorizer.py,sha256=ZKzoymzeGDHRAMQy4XxVEJEN8BamqZ1BZ0Ln2zYUpVE,169
+literag-0.2.0.dist-info/METADATA,sha256=L40XAtCZcjGZpkExlm5atJ3ADJXXUwB1nRgmUTBgnuM,1145
+literag-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+literag-0.2.0.dist-info/entry_points.txt,sha256=RxyJJNYJ_WbMBUaWXinRm0yEpKF7VugvIE2oWjXolDc,44
+literag-0.2.0.dist-info/RECORD,,
