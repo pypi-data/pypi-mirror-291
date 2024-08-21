@@ -1,0 +1,5 @@
+[console_scripts]
+nerfus-setup = nerfus.download_nerfus_dataset:nerfus_setup
+
+[nerfstudio.method_configs]
+nerfus = nerfus.nerf.nerfus_config:nerfus_config

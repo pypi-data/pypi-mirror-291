@@ -1,0 +1,7 @@
+diffusers==0.12.1
+dotmap
+trimesh
+pysdf
+pytorch-lightning==1.8.6
+scipy
+GPUtil
