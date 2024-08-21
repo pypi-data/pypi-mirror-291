@@ -1,0 +1,11 @@
+apiverve_imagetotext/__init__.py,sha256=ok-XdfQJ-XPwuqfyAPScsIhs3kR5xB3E-nDuuGprAnI,43
+apiverve_imagetotext/apiClient.py,sha256=S8jXTBb7uSx0cLjjw_qLX3YMUG5-S21Q0_HIhjObk_E,1224
+apiverve_imagetotext/exceptions.py,sha256=WSvLZpdbGwQnWoi83aqH8mtIM6s_y5gm-HQJ3_Aqc2Q,105
+apiverve_imagetotext/setup.py,sha256=tfVvmAxIq3u57aYKmdvWN9usEcpUzvaVcL8fkxoEpE0,616
+apiverve_imagetotext/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_imagetotext/tests/test_api.py,sha256=oLuN7TQUXGy63_TVLd-_tHpjR_S2jh0IriGw8oeRusM,617
+apiverve_imagetotext-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_imagetotext-1.1.4.dist-info/METADATA,sha256=_Y59gSiO-FDHiOQLhdo_2G9W37n1wZRvSsTWQWwn6VU,5688
+apiverve_imagetotext-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_imagetotext-1.1.4.dist-info/top_level.txt,sha256=4oceGSM9gTFoL-53CrrdQiQNVEwvJRkidLfAXEetyEU,21
+apiverve_imagetotext-1.1.4.dist-info/RECORD,,
