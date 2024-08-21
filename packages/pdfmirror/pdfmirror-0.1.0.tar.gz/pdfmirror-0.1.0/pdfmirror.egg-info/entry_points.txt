@@ -1,0 +1,2 @@
+[console_scripts]
+my_tool = my_tool:main

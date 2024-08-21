@@ -1,0 +1,8 @@
+README.md
+main_threaded.py
+setup.py
+pdfmirror.egg-info/PKG-INFO
+pdfmirror.egg-info/SOURCES.txt
+pdfmirror.egg-info/dependency_links.txt
+pdfmirror.egg-info/entry_points.txt
+pdfmirror.egg-info/top_level.txt
