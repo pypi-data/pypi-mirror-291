@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_phonenumbervalidator/__init__.py
+src/apiverve_phonenumbervalidator/apiClient.py
+src/apiverve_phonenumbervalidator/exceptions.py
+src/apiverve_phonenumbervalidator/setup.py
+src/apiverve_phonenumbervalidator.egg-info/PKG-INFO
+src/apiverve_phonenumbervalidator.egg-info/SOURCES.txt
+src/apiverve_phonenumbervalidator.egg-info/dependency_links.txt
+src/apiverve_phonenumbervalidator.egg-info/top_level.txt
+src/apiverve_phonenumbervalidator/tests/__init__.py
+src/apiverve_phonenumbervalidator/tests/test_api.py
+tests/test_api.py
