@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: allennlp-datalawyer
+Version: 0.3.18
+Author: Datalawyer
+Requires-Dist: tqdm
+Requires-Dist: fire
+Requires-Dist: requests
+Requires-Dist: transformers
+Requires-Dist: elasticsearch
+Requires-Dist: opt-einsum
+Requires-Dist: numpy
+Requires-Dist: sacremoses
+Requires-Dist: streamlit
+Requires-Dist: pylint (==1.8.1)
+
