@@ -1,0 +1,12 @@
+.vscode
+.eggs
+.env*
+.gitlab-ci-local
+.mypy_cache
+*.pyc
+.DS_Store
+.pytest_cache
+tests/tmp
+public
+__pycache__
+*.egg-info
