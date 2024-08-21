@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+ArrayPartition.egg-info/PKG-INFO
+ArrayPartition.egg-info/SOURCES.txt
+ArrayPartition.egg-info/dependency_links.txt
+ArrayPartition.egg-info/top_level.txt
+arraypartition/__init__.py
+arraypartition/partition.py

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ArrayPartition
+Version: 1.0
+Author-email: Daniel Westwood <daniel.westwood@stfc.ac.uk>
+Requires-Python: >=3.7
+License-File: LICENSE
