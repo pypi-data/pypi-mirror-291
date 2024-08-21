@@ -1,0 +1,41 @@
+## Description
+
+The `progkids` library is a Python package designed for seamless communication with Minecraft: ProgKids edition. This library enables developers to interact with the game programmatically, making it an excellent tool for educational purposes.
+
+## Features
+
+- Easy installation with pip, automatically handling dependencies.
+- Suitable for both educational use and creating custom Minecraft projects.
+
+## Installation Instructions
+
+The installation process has been simplified to eliminate the need for manually managing dependencies. The updated installation and setup process is as follows:
+
+### Step 1: Install the Library
+
+To install the `progkids` library, run the following command:
+
+```bash
+pip install progkids
+```
+
+### Step 2: Obtain Your Access Token
+
+You will need an access token to connect to Minecraft: ProgKids edition. Follow these steps to retrieve your token:
+
+1. Log in to your account on [app.progkids.com](https://app.progkids.com).
+2. Navigate to the settings page.
+3. Press `F5` to refresh the page, and the token will be generated and displayed in the settings.
+
+### Step 3: Test the Example Code
+
+Try out the following test example to ensure everything is set up correctly. Replace `'nick'` with your nickname and `'your_token'` with your access token:
+
+```python
+from progkids import mc
+
+mc.connect(nick='nick', token='your_token')
+r1 = mc.player.getDirection()
+print(r1)
+mc.disconnect()
+```
