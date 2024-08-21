@@ -1,0 +1,5 @@
+setup.py
+schiblib.egg-info/PKG-INFO
+schiblib.egg-info/SOURCES.txt
+schiblib.egg-info/dependency_links.txt
+schiblib.egg-info/top_level.txt
