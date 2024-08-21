@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: license-manager-simulator-api
+Version: 3.4.0
+Summary: Provides an API for interfacing with License Manager Simulator
+License: MIT
+Author: OmniVector Solutions
+Author-email: info@omnivector.solutions
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: SQLAlchemy[mypy] (>=2.0.22,<3.0.0)
+Requires-Dist: asyncpg (>=0.28,<0.29)
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: psycopg2 (==2.9.5)
+Requires-Dist: py-buzz (>=4.1.0,<5.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.3.4,<3.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: uvicorn (>=0.30.1,<0.31.0)
+Requires-Dist: yarl (>=1.9.2,<2.0.0)
