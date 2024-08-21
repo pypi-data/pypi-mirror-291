@@ -1,0 +1,9 @@
+fab_addon_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fab_addon_client/manager.py,sha256=f8jWN6VebY3m0rY2ocUhNA_4pmXrI4MtzUZjwV5Ld_c,1249
+fab_addon_client/models.py,sha256=JtugdDurgK-axUydhIQcSL6EIgKWwykSO6qdnqkLEMk,2571
+fab_addon_client/version.py,sha256=AaSIxZIrwooXblFv-ObIAX4yFOvOfcLvKbcHH-98TN8,312
+fab_addon_client/views.py,sha256=xDH4gPuWaHD3Fi49nPd-0cU-NtHmL8AxfOXivt-TgjY,981
+fab_addon_client-0.0.1.dist-info/METADATA,sha256=B16NkTVRhQ6xHkvtuhz66cdQs5H_mbhaMsEzpOiAspA,657
+fab_addon_client-0.0.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+fab_addon_client-0.0.1.dist-info/top_level.txt,sha256=g22gByuICIr7soqR-klza3-7ZqGj3y7tcNlUuB1dp8Y,17
+fab_addon_client-0.0.1.dist-info/RECORD,,
