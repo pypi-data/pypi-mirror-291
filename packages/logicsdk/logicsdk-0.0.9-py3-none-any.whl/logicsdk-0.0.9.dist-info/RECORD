@@ -1,0 +1,11 @@
+logicsdk/__init__.py,sha256=cbn5OrJwMN562lfDZSTj6Hk8fu-LheW5etl_FSndEYw,69
+logicsdk/data_masking.py,sha256=KnhxIFXygNzNG9htiAZbwgSkPt7s8zUzQZ99vVJeIbs,10555
+logicsdk/main.py,sha256=bgWTSN-X7F1RY5cWmdh8mDGtqMVyB4RQE1VqLzkBRGg,9252
+logicsdk/nl2sql.py,sha256=p8sksztQJJjbZJd6kO6YkLfytk1m9y1fce8yupjkKqQ,6809
+logicsdk/structredExtraction.py,sha256=XDQ6pll3X6L8dh8a5Il9aCZSDd24H5encdSeR1nqm0M,10044
+logicsdk/summarizer.py,sha256=nU0X3mDZ2yt3S1CUObmCmWuB3qi99UakaQEaW55_Rkk,9733
+logicsdk-0.0.9.dist-info/LICENSE,sha256=HopDXC16OpgKSca_BawBM3lLBJewYT1oFo82jXJe_Lc,1066
+logicsdk-0.0.9.dist-info/METADATA,sha256=ZaOy6mIJPmw4iPN38Rs1puMc5ON3cONCOeySpGIHR0s,9970
+logicsdk-0.0.9.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+logicsdk-0.0.9.dist-info/top_level.txt,sha256=_uQ8aWZaLUImsgug53jiVchh4EO57lF9rC6npitEezk,9
+logicsdk-0.0.9.dist-info/RECORD,,
