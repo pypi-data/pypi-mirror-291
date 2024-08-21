@@ -1,0 +1,15 @@
+sciris
+decorator
+redis
+mpld3
+werkzeug
+flask
+flask-login
+flask-session
+flask-cors
+celery
+twisted
+service_identity
+pyasn1
+pyparsing
+sqlalchemy
