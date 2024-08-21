@@ -1,0 +1,9 @@
+jwatchsync/__init__.py,sha256=rSGL7aejZsLzU239sfvYN32kU4w6Bkl1SJNaWKqDZlU,34
+jwatchsync/jwatchsync.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jwatchsync/event/__init__.py,sha256=k0D7iu7OnEU-VW2u6A-TB_8gyZuWAAgbVhzSiNPUHZI,2705
+jwatchsync/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jwatchsync/utils/config.py,sha256=kzIQmtEdZPWW7SZ1gd7U_-m_LLZcAvQuVXKHd3tPgFs,266
+jwatchsync-0.0.4.dist-info/METADATA,sha256=-mLYbWZ_n8xD8rpnl3s1tUclR3X5V5FvsimRCUvgweI,801
+jwatchsync-0.0.4.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+jwatchsync-0.0.4.dist-info/top_level.txt,sha256=iBgWxTPjZOyrxkUGxciujHdAXjX9XqsRSD9xtgDswuQ,11
+jwatchsync-0.0.4.dist-info/RECORD,,
