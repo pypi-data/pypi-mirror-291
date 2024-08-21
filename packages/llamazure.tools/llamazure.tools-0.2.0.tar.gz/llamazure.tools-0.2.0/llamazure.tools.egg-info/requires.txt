@@ -1,0 +1,4 @@
+azure-identity<2.0.0,>=1.4.0
+click~=8.0
+llamazure.azrest~=0.3.0
+llamazure.rid~=0.1.0
