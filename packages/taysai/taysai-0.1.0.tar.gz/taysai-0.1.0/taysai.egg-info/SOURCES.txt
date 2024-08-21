@@ -1,0 +1,9 @@
+README.md
+setup.py
+taysai/__init__.py
+taysai/model_utils.py
+taysai.egg-info/PKG-INFO
+taysai.egg-info/SOURCES.txt
+taysai.egg-info/dependency_links.txt
+taysai.egg-info/requires.txt
+taysai.egg-info/top_level.txt
