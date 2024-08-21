@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: RoboBricks
+Version: 0.2.2
+Summary: A Python module for accessing the RoboBricks.
+Home-page: UNKNOWN
+Author: k.s.corp
+Author-email: 
+License: UNKNOWN
+Description: A Python module for accessing the RoboBricks.
+        How to use:
+Keywords: RoboBricks
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
