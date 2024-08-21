@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: codefeedback
+Version: 0.3.0
+Summary: na
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: openai==0.28
+Requires-Dist: python-dotenv
