@@ -1,0 +1,8 @@
+blended_dataset_loop-0.1.0.dist-info/METADATA,sha256=6jW-R9cQBNjYDSZgemQJt7Ng057YAEKSsXcJGnEl4Fk,1483
+blended_dataset_loop-0.1.0.dist-info/WHEEL,sha256=lKeqBMWxlN_Xo68xbBSTSGinkRwA-Dc4-M4MfrxSdns,128
+blended_dataset_loop-0.1.0.dist-info/license_files/LICENSE,sha256=g5unJ8CE8jrcvurTcrnoL6gsNDjqlInfcDNYOCBHBRw,1721
+blended_dataset_loop/__init__.py,sha256=ZmXERKLpISHO50yXp4s6HpeWUEdZCtPnunB55NdkNJI,1049
+blended_dataset_loop/blended_dataset_loop/__init__.py,sha256=s7jXijFv1lUNOqFcejJEiof_0AoWiHJuszqoH27RFQE,150
+blended_dataset_loop/blended_dataset_loop/ffi.py,sha256=xNd7Zd1VunUYxw72jJXPa3_znn5ASSoI_xXiewWzM-g,309
+blended_dataset_loop/blended_dataset_loop/blended_dataset_loop.so,sha256=tqa5FRqShfF79ySUvJLTyqGay8ykvIdBqT5OzdSBmPw,4169704
+blended_dataset_loop-0.1.0.dist-info/RECORD,,
