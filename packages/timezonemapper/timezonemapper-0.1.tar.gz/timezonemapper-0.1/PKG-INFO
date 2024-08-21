@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: timezonemapper
+Version: 0.1
+Summary: A Python library to map descriptive time zone names to their respective time zone identifiers.
+Home-page: https://github.com/tellsiddh/timezonemapper
+Author: Siddharth Rohit Jain
+Author-email: tellsiddh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pytz

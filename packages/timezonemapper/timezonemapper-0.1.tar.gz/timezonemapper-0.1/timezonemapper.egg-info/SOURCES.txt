@@ -1,0 +1,9 @@
+README.md
+setup.py
+timezonemapper/__init__.py
+timezonemapper/mapper.py
+timezonemapper.egg-info/PKG-INFO
+timezonemapper.egg-info/SOURCES.txt
+timezonemapper.egg-info/dependency_links.txt
+timezonemapper.egg-info/requires.txt
+timezonemapper.egg-info/top_level.txt
