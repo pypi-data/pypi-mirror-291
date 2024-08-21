@@ -1,0 +1,69 @@
+Metadata-Version: 2.3
+Name: mriqc-learn
+Version: 0.0.3
+Summary: Learning on MRIQC-generated image quality metrics (IQMs).
+Project-URL: Home, https://github.com/nipreps/mriqc-learn
+Author-email: The NiPreps Developers <nipreps@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.8
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Provides-Extra: all
+Requires-Dist: codecov; extra == 'all'
+Requires-Dist: coverage; extra == 'all'
+Requires-Dist: furo>=2024.01.29; extra == 'all'
+Requires-Dist: psutil; extra == 'all'
+Requires-Dist: pydot>=1.2.3; extra == 'all'
+Requires-Dist: pydotplus; extra == 'all'
+Requires-Dist: pytest; extra == 'all'
+Requires-Dist: pytest-cov; extra == 'all'
+Requires-Dist: pytest-env; extra == 'all'
+Requires-Dist: pytest-xdist; extra == 'all'
+Requires-Dist: sphinx>=4.5; extra == 'all'
+Requires-Dist: sphinxcontrib-apidoc; extra == 'all'
+Requires-Dist: sphinxcontrib-napoleon; extra == 'all'
+Provides-Extra: doc
+Requires-Dist: furo>=2024.01.29; extra == 'doc'
+Requires-Dist: pydot>=1.2.3; extra == 'doc'
+Requires-Dist: pydotplus; extra == 'doc'
+Requires-Dist: sphinx>=4.5; extra == 'doc'
+Requires-Dist: sphinxcontrib-apidoc; extra == 'doc'
+Requires-Dist: sphinxcontrib-napoleon; extra == 'doc'
+Provides-Extra: docs
+Requires-Dist: furo>=2024.01.29; extra == 'docs'
+Requires-Dist: pydot>=1.2.3; extra == 'docs'
+Requires-Dist: pydotplus; extra == 'docs'
+Requires-Dist: sphinx>=4.5; extra == 'docs'
+Requires-Dist: sphinxcontrib-apidoc; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon; extra == 'docs'
+Provides-Extra: mem
+Requires-Dist: psutil; extra == 'mem'
+Provides-Extra: test
+Requires-Dist: codecov; extra == 'test'
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-env; extra == 'test'
+Requires-Dist: pytest-xdist; extra == 'test'
+Provides-Extra: tests
+Requires-Dist: codecov; extra == 'tests'
+Requires-Dist: coverage; extra == 'tests'
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-cov; extra == 'tests'
+Requires-Dist: pytest-env; extra == 'tests'
+Requires-Dist: pytest-xdist; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# mriqc-learn
+Spin-off of the MRIQC Automatic Rater
