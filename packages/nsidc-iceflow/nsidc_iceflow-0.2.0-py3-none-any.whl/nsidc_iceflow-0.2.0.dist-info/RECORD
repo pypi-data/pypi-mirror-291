@@ -1,0 +1,15 @@
+nsidc/iceflow/__init__.py,sha256=ZR1L4q29m4DPsHhEgE2g-3zHEILUOBiTAIqxqbEwke8,300
+nsidc/iceflow/api.py,sha256=wKvOcHCu-g5KDm-7pILOAUICJ8RWYU0n5ChxPKjM_aE,1308
+nsidc/iceflow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsidc/iceflow/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsidc/iceflow/data/atm1b.py,sha256=VeB-Rs5CWUkcHlQQoZOOUHcLzAt6WZhZNb0MyOscbeA,12479
+nsidc/iceflow/data/fetch.py,sha256=psL63ZWkXwjUc83_6wFU2y4_1rZlSROoEuGGTRGb2JI,1084
+nsidc/iceflow/data/models.py,sha256=9CTbIZK_nCm1TKUy3sLjLfTvCYX1lusiBNihHMD3WZs,2118
+nsidc/iceflow/data/read.py,sha256=NUyDpYLLH-1IovxmBpXdAIrJyrMN2ikmx_RDRbJCchA,544
+nsidc/iceflow/itrf/__init__.py,sha256=NeyfFuQlVm30ABrvvNx01g-_NpnlO4KZJXQev_fwrgI,491
+nsidc/iceflow/itrf/converter.py,sha256=RY7udWNQ0TRR__DdJWjwrvStioGRJM9lLA8WMKUupYk,3607
+nsidc/iceflow/itrf/plate_boundaries.py,sha256=mw_en0slQCGlWI_tqnoRV6iFftd5OVuhSaWNDoeyRQU,65743
+nsidc_iceflow-0.2.0.dist-info/METADATA,sha256=BErjubuR9cQS7EWsXBYq3cNLSJzMgwdXKzuFcJ1gxgk,4400
+nsidc_iceflow-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+nsidc_iceflow-0.2.0.dist-info/licenses/LICENSE,sha256=KIQ2hUChptFThRMT2FDyl7mXoOJZHBMBXGmplEYxHKc,1169
+nsidc_iceflow-0.2.0.dist-info/RECORD,,
