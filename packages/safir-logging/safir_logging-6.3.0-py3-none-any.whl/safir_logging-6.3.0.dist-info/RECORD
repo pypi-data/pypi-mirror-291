@@ -1,0 +1,10 @@
+safir/logging/__init__.py,sha256=smjSr7gdR0iCKte9_yGnDayaAYmYlljXapQJT8s8dXM,333
+safir/logging/_models.py,sha256=d8lKWvHp8akYII_PKdw9cZIKzNxkTnCvibJeNp5_Ens,1036
+safir/logging/_structlog.py,sha256=QXMPcN8010dDUnBqpQ0t60vwQgpWjFHhUc2Xe4oICBw,5060
+safir/logging/_uvicorn.py,sha256=jCd71SrMG2QsyWn0-XJB0bAUV-9yrqJX1YJlW061AhU,4884
+safir/logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safir_logging-6.3.0.dist-info/LICENSE,sha256=wAf1w8A5pNsiLR_twtBCM9MfBJmPwRrW5_-UvRNclhs,1123
+safir_logging-6.3.0.dist-info/METADATA,sha256=MlWtBM1Ssr22p_8xmfz4zPJMB0R2yrTn4HoB2Oi6Lok,3039
+safir_logging-6.3.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+safir_logging-6.3.0.dist-info/top_level.txt,sha256=lHdGSQXhWE7XvxLJiAquZeJePeRHD-PnjwJ8Nsr3CJE,6
+safir_logging-6.3.0.dist-info/RECORD,,
