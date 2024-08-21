@@ -1,0 +1,78 @@
+[build-system]
+requires = [
+    "setuptools>=40.8.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subprocessed"
+version = "0.0"
+authors = [
+    {name="Yohann PIPEAU", email="yohann.pipeau@proton.me"},
+]
+description = "Execute a function in a Python subprocess instead of using the Python main process."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6",
+    "coverage>=5.3",
+    "pytest-cov",
+    "pytest-profiling",
+]
+format = [
+    "isort",
+    "black==23.*",
+]
+type = [
+    "pytest>=6",
+    "mypy",
+]
+lint = [
+    "pytest>=6",
+    "pylint>=2",
+    "pydocstyle>=2",
+]
+build = [
+    "build",
+]
+dev = ["tox>=4", "subprocessed[test,format,type,lint,build]"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/gorgh/subprocessed"
+"Bug Tracker" = "https://gitlab.com/gorgh/subprocessed/issues"
+
+[tool.isort]
+line_length = 100
+
+[tool.black]
+line_length = 100
+
+[tool.pylint]
+max-line-length = 100
+
+[tool.pydocstyle]
+convention = "numpy"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--verbose --profile --cov --cov-config=pyproject.toml --cov-report=term --cov-report=html"
+testpaths = [
+    "tests",
+]
+
+[tool.coverage.run]
+source_pkgs = [
+    "subprocessed",
+]
+concurrency = [
+    "multiprocessing",
+]

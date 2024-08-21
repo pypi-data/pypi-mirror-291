@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/subprocessed/__init__.py
+src/subprocessed/subprocessed.py
+src/subprocessed.egg-info/PKG-INFO
+src/subprocessed.egg-info/SOURCES.txt
+src/subprocessed.egg-info/dependency_links.txt
+src/subprocessed.egg-info/requires.txt
+src/subprocessed.egg-info/top_level.txt
+tests/test_subprocessed.py
