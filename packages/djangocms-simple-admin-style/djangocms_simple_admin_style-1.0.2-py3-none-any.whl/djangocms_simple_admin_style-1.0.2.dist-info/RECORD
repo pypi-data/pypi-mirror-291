@@ -1,0 +1,8 @@
+djangocms_simple_admin_style/__init__.py,sha256=Y3LSfRioSl2xch70pq_ULlvyECXyEtN3krVaWeGyaxk,22
+djangocms_simple_admin_style/static/djangocms_simple_admin_style/css/djangocms-simple-admin.min.css,sha256=wIPag1BWOF_eg_EYJAfpKkyzj6ePu5v___nuMqPwMzI,9725
+djangocms_simple_admin_style/templates/admin/base_site.html,sha256=8VLlfDa2OZjg17LLu3_L5HjRm0nTRgy-ad0vp-AZynE,625
+djangocms_simple_admin_style/templates/admin/inc/extrastyle.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_simple_admin_style-1.0.2.dist-info/METADATA,sha256=cTHJ2B5LSpeTeJgjxn53JAMnvUi5CNpCNBA_FDoYdX4,3823
+djangocms_simple_admin_style-1.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+djangocms_simple_admin_style-1.0.2.dist-info/licenses/LICENSE,sha256=jkaQG15AaBcoGhv3KMuXv7uVfeGU6CmL7ru5hUhVztQ,1479
+djangocms_simple_admin_style-1.0.2.dist-info/RECORD,,
