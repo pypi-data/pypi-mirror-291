@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: moconut
+Version: 0.0.1
+Summary: Model Construction Utils
+Author-email: Danzel Serrano <danzel.serrano@gmail.com>
+Project-URL: Homepage, https://github.com/dependanz/moconut
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Model Construction Utils (moconut)
