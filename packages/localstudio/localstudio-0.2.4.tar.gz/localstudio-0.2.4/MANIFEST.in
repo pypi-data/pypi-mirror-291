@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include localstudio/migrations
+iclude localstudio/migrations/versions
+include localstudio/migrations/alembic.ini
+include localstudio/migrations/script.py.mako
