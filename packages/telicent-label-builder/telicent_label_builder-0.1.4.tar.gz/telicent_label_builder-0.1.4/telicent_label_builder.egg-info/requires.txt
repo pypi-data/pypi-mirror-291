@@ -1,0 +1,7 @@
+pydantic
+telicent-label-builder-service>=0.1.2
+
+[dev]
+pre-commit==3.7.0
+ruff==0.4.2
+mypy==1.10.0
