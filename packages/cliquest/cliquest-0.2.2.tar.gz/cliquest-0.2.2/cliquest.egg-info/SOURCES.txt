@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+cliquest/__init__.py
+cliquest/cli.c
+cliquest.egg-info/PKG-INFO
+cliquest.egg-info/SOURCES.txt
+cliquest.egg-info/dependency_links.txt
+cliquest.egg-info/top_level.txt
