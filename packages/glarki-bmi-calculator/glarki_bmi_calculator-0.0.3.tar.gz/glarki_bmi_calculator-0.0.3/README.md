@@ -1,0 +1,36 @@
+# BMICalculator
+**BMICalculator** is a Python package that allows users to calculate their Body Mass Index (BMI) based on their weight, height, and unit system (metric or imperial). It also categorizes the BMI into standard categories such as Underweight, Normal weight, Overweight, and Obesity.
+
+## Installation
+You can install the package using pip:
+```bash
+pip install BMICalculator
+```
+
+## Usage
+**Import**
+``` python
+from BMICalculator import BMICalculator as bmi
+```
+
+**Example with metric units**
+```Python
+person1 = BMICalculator(gender="female", weight=68, height=1.65)
+print(person1.get_bmi_info())  # Output: Gender: Female, BMI: 24.98, Category: Normal weight
+```
+**Example with imperial units**
+``` Python
+person2 = BMICalculator(gender="male", weight=150, height=65, unit="imperial")
+print(person2.get_bmi_info())  # Output: Gender: Male, BMI: 24.96, Category: Normal weight
+```
+
+## Help
+```Python
+print(BMICalculator.__doc__)
+print(BMICalculator.{method}.__doc__)
+```
+```Bash
+BMICalculator.py -h or --help
+```
+
+<!-- <p> Some text that explains stuff </p>  -->
