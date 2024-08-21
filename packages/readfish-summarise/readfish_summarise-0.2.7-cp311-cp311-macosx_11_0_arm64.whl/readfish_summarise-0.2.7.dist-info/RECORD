@@ -1,0 +1,9 @@
+readfish_summarise-0.2.7.dist-info/METADATA,sha256=bMa4jkTOTVY5FaLToiY19YzGeD8qgHZ46U7c2w2idsY,1250
+readfish_summarise-0.2.7.dist-info/WHEEL,sha256=vsSBRuwR2DUvLPUbLK43LSeO5FrIW6nhsEcOb_g30SU,104
+readfish_summarise-0.2.7.dist-info/entry_points.txt,sha256=5T5oRpBiG-EVW_jma745MKVpKTQ0HBmO09PewNUqi0E,64
+readfish_summarise/fastq_utils.py,sha256=tUKhKZaRqJ3fVUEjG0vWK-dCGFWUQLd67Idy8KiwQrw,5677
+readfish_summarise/__init__.py,sha256=Q0PH1yB_bq-ccSiheDdmxyMnjSRNiSH20SmOy7yc7ao,155
+readfish_summarise/cli.py,sha256=4qc94vUVyJ-KkRFU-77--7bvjavLfcsa-Bc_UDe9Sw4,198
+readfish_summarise/summarise.py,sha256=m0b8qhRbp67RvrbbbkjpUDF3yj3AYtyBA9SsbJwanX0,10340
+readfish_summarise/readfish_summarise.cpython-311-darwin.so,sha256=l6dOWaXXUHxguA6X7gs6lFUVMNpadYe9Eiu7DX6_UgY,966376
+readfish_summarise-0.2.7.dist-info/RECORD,,
