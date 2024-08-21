@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dsf_ez_tools
+Version: 0.0.8
+Summary: python简易系列库--dsf_ez_tools
+Home-page: https://pypi.org/project/dsf_ez_tools/
+Author: dengshengfeng
+Author-email: 2226893225@qq.com
+Keywords: easy tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.5
+Description-Content-Type: text/markdown
+Requires-Dist: rocketmq-client-python >=2.0.0
+Requires-Dist: python-logstash-async >=3.0.0
+Requires-Dist: redis >=5.0.8
+Requires-Dist: PyMySQL
+Requires-Dist: DBUtils >=1.3
+
+## 这是easy系列库
+
