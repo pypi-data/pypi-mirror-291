@@ -1,0 +1,33 @@
+<div class="modal fade" id="modal-form">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="mt-0 modal-title" id="modal-heading">Modal Heading</h6>
+        <button type="button" class="btn-close" aria-label="Close">×</button>
+      </div>
+      <div class="leading-relaxed modal-body" id="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button"
+                id="modal-close"
+                class="py-2 px-3 mr-2 text-sm font-medium text-white bg-red-500 rounded dark:bg-red-500 hover:bg-red-600 focus:outline-none close dark:hover:bg-red-600">
+          Fermer
+        </button>
+        <button type="submit"
+                form="modal-inner-form"
+                class="py-2 px-3 my-auto text-sm font-medium text-white bg-blue-500 rounded dark:bg-blue-500 hover:bg-blue-600 focus:outline-none dark:hover:bg-blue-600">
+          Enregistrer
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  let closeModal = () => {
+    let closeBtn = document.getElementById("modal-close")
+    closeBtn.click()
+  }
+  document.addEventListener("{{ events.stock.entry.NEW }}", closeModal)
+  document.addEventListener("{{ events.customers.customer.NEW }}", closeModal)
+  document.addEventListener("{{ events.suppliers.supplier.NEW }}", closeModal)
+  document.addEventListener("{{ events.clients.client.NEW }}", closeModal)
+</script>
