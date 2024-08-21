@@ -1,0 +1,8 @@
+numpy
+torch
+torchvision
+torcheval
+tqdm
+tensorboard
+einops
+axial_positional_embedding
