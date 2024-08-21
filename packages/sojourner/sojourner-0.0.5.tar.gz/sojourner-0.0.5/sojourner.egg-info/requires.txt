@@ -1,0 +1,9 @@
+click
+google-cloud-storage
+pydantic
+python-dotenv
+
+[dev]
+nbdev
+pre-commit
+setuptools

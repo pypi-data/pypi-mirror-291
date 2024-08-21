@@ -1,0 +1,5 @@
+[console_scripts]
+sj = sojourner.cli:cli
+
+[nbdev]
+sojourner = sojourner._modidx:d
