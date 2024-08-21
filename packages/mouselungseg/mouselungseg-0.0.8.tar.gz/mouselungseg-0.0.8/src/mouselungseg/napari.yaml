@@ -1,0 +1,19 @@
+name: mouselungseg
+display_name: Mouse lungs segmentation
+contributions:
+  commands:
+    - id: mouselungseg.predict
+      title: Lungs segmentation
+      python_name: mouselungseg.napari_plugin:LungsSegmentationWidget
+    - id: mouselungseg.roi
+      title: ROI detection
+      python_name: mouselungseg.napari_plugin:RoiWidget
+  widgets:
+    - command: mouselungseg.predict
+      display_name: Lungs segmentation
+    - command: mouselungseg.roi
+      display_name: ROI detection
+  sample_data:
+  - key: lung_ct
+    display_name: Mouse lung CT scan
+    uri: https://zenodo.org/records/13268683/files/ct_example_image.tif
