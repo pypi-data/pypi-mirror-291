@@ -1,0 +1,2 @@
+[console_scripts]
+asso = asso:main

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+asso.egg-info/PKG-INFO
+asso.egg-info/SOURCES.txt
+asso.egg-info/dependency_links.txt
+asso.egg-info/entry_points.txt
+asso.egg-info/requires.txt
+asso.egg-info/top_level.txt

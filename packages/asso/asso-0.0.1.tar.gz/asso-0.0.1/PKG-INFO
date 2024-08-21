@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: asso
+Version: 0.0.1
+Summary: AWS command wrapper script
+Home-page: https://github.com/lynnpen58/asso.git
+Author: Penny Han
+Author-email: lynnpen@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AWS command wrapper script
+
+## Setup  ##
+
+- Install awscli version 2.0+
+
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+- Install the Session Manager plugin for the AWS CLI
+
+https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html
+
+- add this line to `~/.bashrc`
+    
+  eval "$(register-python-argcomplete asso)"
+    
+Then you use asso to login aws, switch AWS accounts/roles, login ec2 instance, search or update secretsmanager or ssm
