@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: location_processor
+Version: 0.2.3
+Summary: A package for processing location data
+Author: Hank
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
