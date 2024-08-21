@@ -1,0 +1,6 @@
+setup.py
+caplibproto.egg-info/PKG-INFO
+caplibproto.egg-info/SOURCES.txt
+caplibproto.egg-info/dependency_links.txt
+caplibproto.egg-info/requires.txt
+caplibproto.egg-info/top_level.txt
