@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jain"
+version = "8.24"
+authors = [
+  { name="Rajeev Jain", email="rajeeja@gmail.com" },
+]
+description = "A package"
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["jain"]
