@@ -1,0 +1,64 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "thoughtwrapper"
+description = "A Static Site Generator for Tinkerers"
+authors = [
+    { name = "Lucas Hinderberger", email = "mail@lucas-hinderberger.de" },
+]
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+dynamic = []
+version = "0.3.0"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.license-files]
+paths = [
+    "LICENSE.txt",
+]
+
+[project.optional-dependencies]
+md = [
+    "marko>=2.1.2",
+]
+syntax = [
+    "Pygments>=2.18.0",
+]
+template = [
+    "Jinja2>=3.1.4",
+]
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/thoughtwrapper/__init__.py"
+
+[tool.pdm.build]
+excludes = [
+    "**/.ruff_cache",
+    "**/ruff.toml",
+]
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=8.3.2",
+]
+
+[tool.pdm.scripts.docpreview]
+cmd = "python3 site.py serve"
+working_dir = "doc"
+
+[tool.pdm.scripts.docpreview.env]
+TW_IMPRINT_URL = "omit"
+TW_PRIVACY_URL = "omit"

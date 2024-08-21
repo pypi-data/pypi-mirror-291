@@ -1,0 +1,3 @@
+Test Nr. 3 for thoughtwrapper
+
+A plain text file - hello thoughtwrapper!
