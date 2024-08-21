@@ -1,0 +1,6 @@
+python-kv
+pipeteer
+chess-pairings
+lazy-loader
+fastapi
+pure-cv
