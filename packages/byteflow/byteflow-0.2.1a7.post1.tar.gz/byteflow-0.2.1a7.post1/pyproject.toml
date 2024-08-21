@@ -1,0 +1,92 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "byteflow"
+description = "Simple scrape as SELECT * FROM ANYTHING in network"
+requires-python = ">=3.11"
+authors = [
+    { name = "Danchuk Ivan", email = "ivan.s.danchuk@gmail.com" },
+]
+maintainers = [
+    { name = "Danchuk Ivan", email = "ivan.s.danchuk@gmail.com" },
+]
+keywords = [
+    "scraping",
+    "web scraping",
+    "asyncio",
+    "web crawler",
+    "api crawler",
+    "api scraping",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: Microsoft",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+]
+version = "0.2.1a7.post1"
+dependencies = [
+    "aiohttp<4.0.0,>=3.8",
+    "aioitertools<1.0.0,>=0.11.0",
+    "asyncio",
+    "fsspec<2024.0.0,>=2023.12.2",
+    "more-itertools",
+    "regex<2024.0.0,>=2023.12.25",
+    "uvloop; platform_system == \"Linux\"",
+    "yarl<2.0.0,>=1.9.4",
+    "dateparser>=1.2.0",
+]
+readme = "README.md"
+
+[project.license]
+text = "Apache 2.0"
+
+[project.urls]
+Documentation = "https://danchukivan.github.io/byteflow/"
+Repository = "https://github.com/DanchukIvan/byteflow.git"
+
+[project.optional-dependencies]
+log = [
+    "loguru>=0.7.2",
+    "loguru-config>=0.1.0",
+]
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev_tools = [
+    "s3fs<2024.0.0,>=2023.12.2",
+    "openpyxl<4.0.0,>=3.1.2",
+    "pandas[pyarrow]>=2.2.0",
+    "polars[pyarrow]<1.0.0,>=0.19.0",
+    "morefs[asynclocal]<1.0.0,>=0.1.2",
+    "orjson>=3.10.0",
+]
+hook = [
+    "pre-commit<4.0.0,>=3.6.0",
+]
+doc = [
+    "mkdocs-material>=9.5.27",
+    "mkdocstrings[python]>=0.24.0",
+    "mkdocs-autorefs>=1.0.1",
+    "mkdocs>=1.6.0",
+    "mkdocs-embed-external-markdown>=3.0.2",
+    "mkdocs-exclude>=1.0.2",
+    "mkdocs-redirects>=1.2.1",
+    "mkdocs-simple-hooks>=0.1.5",
+    "mkdocstrings-python>=1.10.5",
+    "markdown-version-annotations>=1.0.1",
+    "git-cliff>=2.3.0",
+    "mike>=2.1.2",
+    "black>=24.4.2",
+]
+
+[tool.pdm.build]
+includes = []
