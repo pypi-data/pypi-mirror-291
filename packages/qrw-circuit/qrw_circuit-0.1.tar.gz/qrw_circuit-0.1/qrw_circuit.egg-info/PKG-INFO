@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: qrw_circuit
+Version: 0.1
+Summary: A simple Python library for generating quantum random walk circuits
+Author: 2024-qiskit-hackathon-taiwan-group5
