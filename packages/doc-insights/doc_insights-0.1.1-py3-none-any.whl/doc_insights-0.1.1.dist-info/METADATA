@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: doc-insights
+Version: 0.1.1
+Summary: A tool for validating documentation and related resources
+Home-page: https://github.com/ChrisMahlke/doc-insights
+Author: Chris Mahlke
+Author-email: Chris.Mahlke@c3.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: ipython
+Requires-Dist: jupyter
+
+## Documentation Validation
+
+### Overview
+
+This Jupyter Notebook is designed to automate the validation process for documentation and Type files within one or more projects. It performs a series of checks across specified cloned repositories, ensuring that all documentation links, Type references, and image paths are correctly fformatted and that the necessary files are present.
+
+### Key Functions
+
+- **File Scanning and Counting:** The Notebook scans specified local directories, counting files with particular extensions (e.g., `.c3doc.md`, `.c3typ`) and aggregating metadata.
+
+- **Link Extraction and Validation:** It extracts links from documentation files, including references to other documents, Types, and images. These links are then validated to ensure they point to existing, correctly named files.
+
+- **Error Reporting:** Any broken links, missing files, or other issues identified during the validation process are logged and can be outputted to the console and/or saved to a CSV file for further review.
+
+### Configuration
+
+The Notebook is highly configurable, allowing users to:
+
+- Specify directories containing application files and dependencies.
+- Define which file extensions should be included in the validation process.
+- Set custom regex patterns for extracting links.
+- Exclude specific Types from validation.
+- Choose whether to print results to the console and/or save them to a file.
+- Ignore certain subdirectories that do not need to be scanned.
+- Control logging behavior and output locations.
+
+### Execution
+
+After configuring the Notebook with the desired settings, the run_validation function is executed. This function orchestrates the entire validation process, ensuring that all documentation and Type files are correctly linked and that the project is free of broken references.
+
+## Installation
+
+To install the project, you can use `pip`:
+
+```bash
+pip install doc-insights
+```
+
+## Example notobook
+
+```py
+from doc_insights.main import run_validation
+
+# Call a function from your package to verify it works
+run_validation(
+    dependency_dirs=['/Users/chrismahlke/Documents/c3server-feature-devx-studio-doc-8.4'],
+    app_dirs=['/Users/chrismahlke/Documents/c3server-feature-devx-studio-doc-8.4'],
+    file_exts_to_include=['.c3doc.md', '.c3typ'],
+    exclude_types=["Jsn", "Bin", "Str"],
+    subdirs_to_ignore=[".git"],
+    should_print_counts=True,
+    should_print_broken_links=True,
+    should_print_documents=False,
+    should_save_to_csv=False,
+    csv_file_path='output.csv',
+    doc_file_ext='.c3doc.md',
+    type_file_ext='.c3typ',
+    log_file_path='log.txt'
+)
+```
+

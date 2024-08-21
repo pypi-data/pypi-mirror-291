@@ -1,0 +1,16 @@
+doc_insights/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doc_insights/file_processing.py,sha256=wi1ByxcG8ODtHlSGWgyEN-QSvSlV5wAV_XWyCYxDcRM,11233
+doc_insights/link_validation.py,sha256=SdWp1E2LAzgAsJCP3pbiy2B9FiCLGnbfN85zBgEydh8,8365
+doc_insights/logging_utils.py,sha256=wlJOQDRb9RuyBx9KP1-N2LBu7K6y9HKRqAKsxdLXH8k,758
+doc_insights/main.py,sha256=U5v9Qy4Hc5bMrHpGjEGsEYJP78ckF40D4Frp-SgL9NY,2668
+doc_insights/post_install.py,sha256=CGDbpF5kuIxXMkE2_P--ageH2KiCNe1EbvCJ7HpFaWM,485
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_file_processing.py,sha256=Hcme4hIjItSesG-ljaf2I8BUXqpP06WTzrQVQkcZBbs,2843
+tests/test_link_validation.py,sha256=eZ4YnykLBMH9rO4l9zhnf8PP7MYkOg0K7f9BqNG6u6A,1774
+tests/test_logging_utils.py,sha256=xfwvnVFTeVJB2MNiP0UKZ_OtbSBdOdAWKoFDTEtpWf8,635
+doc_insights-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doc_insights-0.1.1.dist-info/METADATA,sha256=nLawexOTHWntSxW9vFycZOLs9MYUdLJLHubj2CD4MMs,3168
+doc_insights-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+doc_insights-0.1.1.dist-info/entry_points.txt,sha256=6x1MbGjwsGkS6O_uH13xZZHZYrKQ_AGKsyVpuuSP4wo,93
+doc_insights-0.1.1.dist-info/top_level.txt,sha256=ngvz0Z0YLHBrNV-sMKEEn5LtR5FdxucTdcwaLFeqdOg,19
+doc_insights-0.1.1.dist-info/RECORD,,
