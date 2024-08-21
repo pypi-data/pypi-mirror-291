@@ -1,0 +1,70 @@
+# Audit Ninja
+
+## Overview
+
+Audit Ninja is a middleware package designed to provide comprehensive auditing for your Django applications. It monitors and records changes across network data and Django models, ensuring that all relevant information, such as IP addresses and user details, is logged and stored securely.
+
+## Features
+
+- **Network Data Monitoring**: Tracks network data including IP addresses and user details.
+- **Model Change Detection**: Automatically checks for any changes in the Django models where the package is imported.
+- **Authorization Checks**: Ensures that all actions are authorized before recording them.
+- **Data Storage**: Stores all audit data in a MongoDB database. Requires credentials for the Django database instance.
+
+## Installation
+
+To install Audit Ninja, use `pip`:
+
+```bash
+pip install audit_ninja
+```
+
+## Configuration
+
+- **Django Settings**: Add the middleware to your MIDDLEWARE setting in settings.py:
+```python
+MIDDLEWARE = [
+    # other middleware
+    'audit_ninja.middleware.AuditMiddleware',
+]
+```
+- **MongoDB Settings**: Configure the MongoDB connection in your settings.py:
+```python
+AUDIT_MONGO_DB = {
+    'host': 'your-mongodb-host',
+    'port': 27017,
+    'db_name': 'your-database-name',
+    'user': 'your-username',
+    'password': 'your-password',
+}
+```
+- **Database Credentials**: Ensure that the package has access to the Django database credentials for authorization checks.
+
+## Usage
+Once installed and configured, Audit Ninja will automatically start monitoring network data and changes in your Django models. You can customize the behavior by adjusting the settings in your settings.py file.
+
+## Contributing
+
+## Contributing
+
+Contributions are welcome! To contribute to this project, please follow these steps:
+
+1. **Fork the repository**: Click on the "Fork" button at the top-right corner of the repository page on GitHub to create a copy of the repository under your own GitHub account.
+
+2. **Create a new branch**: Switch to your forked repository and create a new branch for your changes. This keeps your work separate from the main codebase. You can create a new branch using the following command:
+
+   ```bash
+   git checkout -b your-branch-name
+   ```
+3. **Make your changes**: Make the necessary changes or additions to the codebase on your new branch.
+4. **Submit a pull request**: Once your changes are ready, push your branch to your forked repository and navigate to the original repository on GitHub. Click on the “Pull Requests” tab, then click on the “New Pull Request” button. Follow the instructions to submit your pull request for review.
+
+
+## License
+
+Audit Ninja is licensed under the MIT License.
+
+## Contact
+
+For any issues or queries, please contact learning.with.anand@gmail.com.
+Feel free to adjust any specific details or add more sections as needed!
