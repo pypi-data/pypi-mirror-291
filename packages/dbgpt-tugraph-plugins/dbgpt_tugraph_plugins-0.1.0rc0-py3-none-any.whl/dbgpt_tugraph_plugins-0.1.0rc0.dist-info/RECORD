@@ -1,0 +1,7 @@
+dbgpt_tugraph_plugins/__init__.py,sha256=CC_nnWHZskf6TRUKb5bne5iQWKqJqrirkZaDKc_5wEM,1263
+dbgpt_tugraph_plugins/_version.py,sha256=18dxYP5S21zboY990dd5qqWddUXZmKPMGxJ9CAyWgLs,19
+dbgpt_tugraph_plugins/libs/leiden.so,sha256=JTUXSCN9Ksv2FBddjoyw-Vco_l_6_eNt-z6fRm2p1uw,9326096
+dbgpt_tugraph_plugins-0.1.0rc0.dist-info/METADATA,sha256=FVUIlJrEfa_5k519TDja0EknKKyHcUHDCiIMpXIhzBU,588
+dbgpt_tugraph_plugins-0.1.0rc0.dist-info/WHEEL,sha256=jkyzK-PMDGe6NpviSR1tpgon24csQEXDXqxhDgOHeYM,105
+dbgpt_tugraph_plugins-0.1.0rc0.dist-info/top_level.txt,sha256=AzZ1ArbXVb6BC25gAGCdyPNgAxt-a6OiLey2WulxmeM,22
+dbgpt_tugraph_plugins-0.1.0rc0.dist-info/RECORD,,
