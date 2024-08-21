@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_silverprice/__init__.py
+src/apiverve_silverprice/apiClient.py
+src/apiverve_silverprice/exceptions.py
+src/apiverve_silverprice/setup.py
+src/apiverve_silverprice.egg-info/PKG-INFO
+src/apiverve_silverprice.egg-info/SOURCES.txt
+src/apiverve_silverprice.egg-info/dependency_links.txt
+src/apiverve_silverprice.egg-info/top_level.txt
+src/apiverve_silverprice/tests/__init__.py
+src/apiverve_silverprice/tests/test_api.py
+tests/test_api.py
