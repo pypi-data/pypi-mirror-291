@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vovo"
+version = "0.0.4"
+description = "vovo base package"
+authors = ["Ark <ark.wu@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests="~2.32.3"
+tqdm = "~4.66.4"
+sentry-sdk = "~2.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "~7.1.1"
