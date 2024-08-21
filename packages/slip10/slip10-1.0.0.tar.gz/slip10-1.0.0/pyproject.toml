@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "slip10"
+version = "1.0.0"
+description = "A reference implementation of the SLIP-0010 specification, which generalizes the BIP-0032 derivation scheme for private and public key pairs in hierarchical deterministic wallets for the curves secp256k1, NIST P-256, ed25519 and curve25519."
+authors = ["Andrew R. Kozlik <andrew.kozlik@satoshilabs.com>"]
+license = "MIT"
+readme = [
+    "README.md",
+    "CHANGELOG.md",
+]
+
+[tool.poetry.dependencies]
+cryptography = "*"
+ecdsa = "*"
+base58 = "^2"
+python = ">=3.9,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+black = ">=20"
+isort = "^5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
