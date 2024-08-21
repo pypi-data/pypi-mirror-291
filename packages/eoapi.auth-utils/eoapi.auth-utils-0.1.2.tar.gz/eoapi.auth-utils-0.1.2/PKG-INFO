@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: eoapi.auth_utils
+Version: 0.1.2
+Summary: Authentication & authorization helpers for eoAPI
+License: MIT
+Author-email: Anthony Lukach <anthony@developmentseed.org>
+Requires-Python: >=3.8
+Provides-Extra: testing
+Description-Content-Type: text/markdown
+
+# eoAPI Auth Utils
+
+Helpers for authentication & authorization patterns for [eoAPI applications](https://eoapi.dev).
+
+## Development
+
+### Releases
+
+Releases are managed via CICD workflow. To issue a new release, push a tagged commit to `main`.
