@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: riyazi
+Version: 0.17.1
+Summary: riyazi is a mathematics library
+Home-page: https:github.com/Mdslauddin/riyazi-main
+Author: Md Slauddin
+Author-email: mdslauddin285@gmail.com
+Maintainer: Md Slauddin
+Maintainer-email: mdslauddin285@gmail.com
+License: MIT
+Keywords: Advance Math,Math,Engineering Math
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+
+
+# riyazi
+- The fundamental package for scientific computing with Python.
+
+**About**
+- riyazi is a free and open-source Python library used for scientific computing and technical computing. riyazi contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering
+# Features Adding
+
+- precision
+- faster
+- large number suppor
+- all data type accept
