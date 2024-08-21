@@ -1,0 +1,17 @@
+
+data: ???         # path to paralex.package.json paradigms, segments
+patterns: null    # patterns, for the scripts using them
+verbose: False    # Activate logs
+debug: False      # Even more logs; extra debug steps
+
+
+entropy:
+  n:              # Compute entropy for prediction from with n predictors.
+    - 1
+  bipartite: null # Add a second dataset, for bipartite systems.
+  features: null  # Feature file. Features will be considered known in conditional probabilities: P(X~Y|X,f1,f2...)
+  import: null    # Import entropy file with n-1 predictors (allows for acceleration on nPreds entropy computation).
+  merged: False   # Whether identical columns are merged in the input.
+  cells: None     # List of cells to use. Defaults to all.
+  comp: False     # Thorough comparison for bipartite systems: Logs H(c1->c2), H(c1'->c2'), I(c1'->c2';c1->c2) and  NMI(c1'->c2';c1->c2)
+
