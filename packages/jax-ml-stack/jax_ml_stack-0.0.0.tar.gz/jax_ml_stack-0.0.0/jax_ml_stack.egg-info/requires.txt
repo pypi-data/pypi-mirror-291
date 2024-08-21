@@ -1,0 +1,8 @@
+jax==0.4.31
+flax==0.8.5
+optax==0.2.3
+orbax==0.1.9
+
+[dev]
+pytest
+pytest-xdist
