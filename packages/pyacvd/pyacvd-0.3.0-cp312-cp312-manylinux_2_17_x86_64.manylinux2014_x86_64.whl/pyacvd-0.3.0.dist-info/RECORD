@@ -1,0 +1,9 @@
+pyacvd.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+pyacvd-0.3.0.dist-info/RECORD,,
+pyacvd-0.3.0.dist-info/WHEEL,sha256=SdYYpyJ0X3O5_rZlIsINRlg-c7Nq830R_Lim3f-d_hM,156
+pyacvd-0.3.0.dist-info/METADATA,sha256=DQtVoxTTd39LRgQmuv4jWGVgP-95U6z6c6rUWY7-NDo,2240
+pyacvd-0.3.0.dist-info/licenses/LICENSE,sha256=Bkyxj_pIVdsAvd7Vid4AiDABr5-2WndlkeXMi8njnMM,1084
+pyacvd/__init__.py,sha256=cJZ18UCVliGdbpyXLLROJ-wchlAoIVwv9cTKFCufSoc,244
+pyacvd/_clustering.pyi,sha256=LgChfbaT-liGjJDZt3R7YtQ-GKEvs5jQXAFHEBk_wPA,1899
+pyacvd/clustering.py,sha256=aUhy6BoYEBOBdiHuO8AE6HJ5t4wOC1-SEYESxSMY17U,21233
+pyacvd/_clustering.abi3.so,sha256=CPo6P814vlbJgDeDp4L14m0H_4aqkzBXzQJxVspZ07Y,281161
