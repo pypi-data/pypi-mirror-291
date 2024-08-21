@@ -1,0 +1,7 @@
+README.md
+setup.py
+microdados/__init__.py
+microdados.egg-info/PKG-INFO
+microdados.egg-info/SOURCES.txt
+microdados.egg-info/dependency_links.txt
+microdados.egg-info/top_level.txt
