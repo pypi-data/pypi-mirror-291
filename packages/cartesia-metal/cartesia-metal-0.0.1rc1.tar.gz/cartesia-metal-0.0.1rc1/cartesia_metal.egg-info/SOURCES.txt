@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+cartesia_metal/__init__.py
+cartesia_metal/interface.py
+cartesia_metal/version.py
+cartesia_metal.egg-info/PKG-INFO
+cartesia_metal.egg-info/SOURCES.txt
+cartesia_metal.egg-info/dependency_links.txt
+cartesia_metal.egg-info/not-zip-safe
+cartesia_metal.egg-info/requires.txt
+cartesia_metal.egg-info/top_level.txt
