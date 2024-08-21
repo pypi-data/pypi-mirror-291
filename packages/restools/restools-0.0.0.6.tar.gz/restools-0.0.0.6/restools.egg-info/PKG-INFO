@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: restools
+Version: 0.0.0.6
+Summary: Collection of useful tools for research paper
+Home-page: https://gitee.com/FutureAGI/ResearchTools
+Author: WorldSimulator
+Author-email: 
+License: Apache
+Description: # Collection of Useful Tools For Research Paper
+        
+        - [Plotting Tools](./restools/plotting)
+        - [Serving Tools](./restools/serving)
+        - [Logging Tools](./restools/logging)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
