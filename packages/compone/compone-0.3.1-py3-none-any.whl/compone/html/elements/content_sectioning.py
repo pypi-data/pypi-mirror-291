@@ -1,0 +1,16 @@
+from ..component import _Elem
+
+Address = _Elem("address")
+Article = _Elem("article")
+Aside = _Elem("aside")
+Footer = _Elem("footer")
+Header = _Elem("header")
+H1 = _Elem("h1")
+H2 = _Elem("h2")
+H3 = _Elem("h3")
+H4 = _Elem("h4")
+H5 = _Elem("h5")
+H6 = _Elem("h6")
+Main = _Elem("main")
+Nav = _Elem("nav")
+Section = _Elem("section")
