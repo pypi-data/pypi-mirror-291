@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: quirklefizzler
+Version: 0.1.8
+Summary: A
+Author: xio
+Author-email: xiosc2@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
