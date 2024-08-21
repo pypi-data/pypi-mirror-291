@@ -1,0 +1,11 @@
+io_bench/__init__.py,sha256=SRCwW_GpJscx4s2OiwlkoF5QuvnclN6gCJyBaYSDKGU,52
+io_bench/io_bench.py,sha256=1rM118h9wKvyRCepdlOuad5v1VJzVKeFkY_wUaSzYxg,11242
+io_bench/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+io_bench/utilities/bench.py,sha256=CghCqOa1iWq2SFtI0Gz7Vo9o7OPHeNqaGD9s7_ylxqw,5727
+io_bench/utilities/explain.py,sha256=qNKlqgUyNGWGem-wN-ox9_gjfIwhCc1dysLw8RT9I4Y,3087
+io_bench/utilities/parsing.py,sha256=uopc5hOf5JT4j2cJPMyWj4I6XK65JYFAQrPGXC6T4HI,5611
+io_bench-0.1.0.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+io_bench-0.1.0.dist-info/METADATA,sha256=QcdB4RnVe7NEdL5uN6-Ic4b21mmwswtG1Qnl2yhOplw,6195
+io_bench-0.1.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+io_bench-0.1.0.dist-info/top_level.txt,sha256=unb_k4XdGBgt8wthRrCRZjVMbmeBKBggVaaJDkcj01A,9
+io_bench-0.1.0.dist-info/RECORD,,
