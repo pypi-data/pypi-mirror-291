@@ -1,0 +1,12 @@
+pybox/__about__.py,sha256=omCtxnNvYVTQyCV_UY1WDbHJPY5Rhqe8Iymts2AkAxE,142
+pybox/__init__.py,sha256=LF46Kiih7D6zTyhWKmH2oPwoLAzjKf6VHsLBSP-WAtM,430
+pybox/base.py,sha256=46h-gsb3QkauBtt7YqpdMTgVxHDFR5MumN4Le9rcgco,2281
+pybox/kube.py,sha256=5ukwHxrYRoX3HH-rXSB7CUJ_Mqbh9BeMXBeySNLWpHs,3316
+pybox/local.py,sha256=Rz0-dEW8btbh4b56VP6q-ktk5ZNeiT1X9jv0e8uioNw,12278
+pybox/remote.py,sha256=7As86hiYZHAQI5r_1cboA3VsnQyAsseh1Tbx_DGZO9g,17098
+pybox/schema.py,sha256=KcMezPLDpix2FVzUSjCICYVY-ybP-ICoNFu_vrctOfY,5423
+pybox/utils.py,sha256=xG0hO1AJ9qotEjOnAQAYV3pxa91Th2XfKSxj5n9W5J0,218
+pppybox-0.0.10.dist-info/METADATA,sha256=VoNNHXs0buptjb6-f6Z98nsvUULlPoVXR3SpkmltN60,1784
+pppybox-0.0.10.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pppybox-0.0.10.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pppybox-0.0.10.dist-info/RECORD,,
