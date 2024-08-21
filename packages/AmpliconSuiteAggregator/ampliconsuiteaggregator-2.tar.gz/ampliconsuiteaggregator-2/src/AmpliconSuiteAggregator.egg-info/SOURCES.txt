@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/ASA_POST.py
+src/AmpliconSuiteAggregator.py
+src/AmpliconSuiteAggregatorFunctions.py
+src/AmpliconSuiteAggregator/ASA_POST.py
+src/AmpliconSuiteAggregator/AmpliconSuiteAggregator.py
+src/AmpliconSuiteAggregator/AmpliconSuiteAggregatorFunctions.py
+src/AmpliconSuiteAggregator.egg-info/PKG-INFO
+src/AmpliconSuiteAggregator.egg-info/SOURCES.txt
+src/AmpliconSuiteAggregator.egg-info/dependency_links.txt
+src/AmpliconSuiteAggregator.egg-info/top_level.txt
