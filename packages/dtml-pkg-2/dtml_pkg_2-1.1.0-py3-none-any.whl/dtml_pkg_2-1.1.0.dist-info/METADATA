@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dtml-pkg-2
+Version: 1.1.0
+Summary: 
+Author: Jan Lukány
+Author-email: jan.lukany@datamole.cz
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
