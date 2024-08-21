@@ -1,0 +1,10 @@
+cgen2gmx.py,sha256=t2ioJpGhQc5t0qLsIe_LGb-nfFq_Nmy2L9wHi3Hv8SQ,3950
+src/classes.py,sha256=t4G1vskBF1-CcVQHO3WhSvca7kBqoyBKNOqeUIPMB1M,9722
+src/get_uniques.py,sha256=p7OFa94m_AaXwhAjgPqIDFDRoK_LU8s-IeozK19blFs,7310
+src/parse_files.py,sha256=8H-omGBm9vBfTiTE8F2DZVz9B32CrItqdnFfP_r2gro,8311
+cgen2gmx-1.0.2.dist-info/LICENSE,sha256=n7XvaAOmGAL90BRsAqJSv8VYyD1LAAPmum7l7v8AxhE,1075
+cgen2gmx-1.0.2.dist-info/METADATA,sha256=mZPKi1PFcKVIAKIdEMIfk1cufMOq5uoODydZrPVacCA,8133
+cgen2gmx-1.0.2.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+cgen2gmx-1.0.2.dist-info/entry_points.txt,sha256=d5cFPluz8f6fGJ3fHbKGF9D_qUY8wyIxrtdnBOfusmw,43
+cgen2gmx-1.0.2.dist-info/top_level.txt,sha256=ZjUA-s4DZMdhKxOkvbe-3BXVQcltnvqQ_lg0zDd530A,18
+cgen2gmx-1.0.2.dist-info/RECORD,,
