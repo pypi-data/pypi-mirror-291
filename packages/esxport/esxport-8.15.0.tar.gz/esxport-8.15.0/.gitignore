@@ -1,0 +1,15 @@
+dist
+build
+*.egg-info
+*.pyc
+*.*~
+.DS_Store
+*.sublime-*
+*.csv
+*.crt
+.venv
+*.tmp
+*query.json
+**coverage**
+**version
+**scannerwork**
