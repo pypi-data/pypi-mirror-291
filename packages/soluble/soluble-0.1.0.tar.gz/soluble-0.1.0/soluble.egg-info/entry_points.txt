@@ -1,0 +1,3 @@
+[console_scripts]
+soluble = soluble.scripts:start
+
