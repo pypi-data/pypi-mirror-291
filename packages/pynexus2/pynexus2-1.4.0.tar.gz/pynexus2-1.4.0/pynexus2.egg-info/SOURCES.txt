@@ -1,0 +1,14 @@
+COPYING
+README.rst
+setup.cfg
+setup.py
+pynexus/__init__.py
+pynexus/jsocket.py
+pynexus/net.py
+pynexus/pynexus.py
+pynexus/version.py
+pynexus2.egg-info/PKG-INFO
+pynexus2.egg-info/SOURCES.txt
+pynexus2.egg-info/dependency_links.txt
+pynexus2.egg-info/requires.txt
+pynexus2.egg-info/top_level.txt
