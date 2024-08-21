@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: bdcp
+Version: 1.0.4
+Summary: 一个大数据竞赛辅助包
+Author: yiluohan1234
+Author-email: XX@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: paramiko ==3.0.0
+Requires-Dist: cryptography ==36.0.2
+Requires-Dist: pymysql
+
+## 简介
+
+bdc是一个竞赛辅助工具
+
+## 使用方法
+
+1、引入包
+
+```
+import bdcp
+```
+
+2、获取数据
+
+```
+bc = bdcp.connect(username, password, module_id)
+```
+
+3、基本内容设置
+
+```
+bc.setbasic()
+```
+
+4、获取check
+
+```
+bc.get_check(hostname)
+```
+
+5、获取文档
+
+```
+bc.get_element_detail(element_id)
+```
+
+6、获取abcd
+
+```
+bc.get_abcd("")
+```
+
