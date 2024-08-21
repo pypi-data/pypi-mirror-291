@@ -1,0 +1,9 @@
+bluesky
+ophyd-async[ca]
+
+[dev]
+ruff>=0.6
+pyright
+pytest
+pytest-asyncio
+pytest-cov
