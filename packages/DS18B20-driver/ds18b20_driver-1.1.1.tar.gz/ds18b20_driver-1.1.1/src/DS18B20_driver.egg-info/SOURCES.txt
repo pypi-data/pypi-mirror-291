@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/DS18B20_driver/DS18B20.py
+src/DS18B20_driver/__init__.py
+src/DS18B20_driver.egg-info/PKG-INFO
+src/DS18B20_driver.egg-info/SOURCES.txt
+src/DS18B20_driver.egg-info/dependency_links.txt
+src/DS18B20_driver.egg-info/entry_points.txt
+src/DS18B20_driver.egg-info/top_level.txt
