@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: finmc
+Version: 0.0.2
+Summary: finmc is a Python library for Monte Carlo Simulation.
+Home-page: https://github.com/somdipdatta/finmc/
+Author: somdipdatta
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: isort; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: gitchangelog; extra == "test"
+Requires-Dist: mkdocs; extra == "test"
+Requires-Dist: mkdocstrings; extra == "test"
+Requires-Dist: mkdocstrings-python; extra == "test"
+Requires-Dist: mkdocs-material; extra == "test"
+Requires-Dist: line-profiler; extra == "test"
+Requires-Dist: matplotlib; extra == "test"
+Requires-Dist: nbformat; extra == "test"
+Requires-Dist: nbmake; extra == "test"
+Requires-Dist: nb-clean; extra == "test"
+Requires-Dist: pandas; extra == "test"
+Requires-Dist: numpy; extra == "test"
+Requires-Dist: scipy; extra == "test"
+Requires-Dist: ruff; extra == "test"
+
+# finmc
+
+[![CI](https://github.com/somdipdatta/finmc/actions/workflows/main.yml/badge.svg)](https://github.com/somdipdatta/finmc/actions/workflows/main.yml)
+
+This package contains Monte-Carlo implementations of many financial models derived from a common interface class. This interface allows computation of instruments with european, and american payoffs, as well as path dependent calculations.
+
+More details coming soon.
+
+<table>
+<tr>
+<td> <img src="https://raw.githubusercontent.com/somdipdatta/finmc/main/images/impliedvol.png" alt="implied vol"/> </td>
+<td> <img src="https://raw.githubusercontent.com/somdipdatta/finmc/main/images/rate_mc.png" alt="rate mc"/> </td>
+</tr>
+</table>
+
+## Install it from PyPI
+
+```bash
+pip install finmc
+```
