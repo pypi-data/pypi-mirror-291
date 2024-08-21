@@ -1,0 +1,7 @@
+setup.py
+basicindex/__init__.py
+basicindex/basic_index.c
+basicindex.egg-info/PKG-INFO
+basicindex.egg-info/SOURCES.txt
+basicindex.egg-info/dependency_links.txt
+basicindex.egg-info/top_level.txt
