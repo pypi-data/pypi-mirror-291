@@ -1,0 +1,14 @@
+syngular/__init__.py,sha256=EhZW3jxXGxptJJqO3VQ35yiy7zd2p4Jy9KvPafEeXow,312
+syngular/field.py,sha256=HH-tnZpo4kNj6k0h3U9AkkbBdOTi2RYb_AFw8eoSQ1A,5808
+syngular/ideal.py,sha256=z78U-B-AkrRESHvjSBBkspUXdFzkBXNY7ujighuPen8,15525
+syngular/ideal_algorithms.py,sha256=qIAHo85raG5L7kA9ClR5XjldPPPVLdTWc9pfExAXFOk,11958
+syngular/polynomial.py,sha256=QefoY_TtTkEf566iiC6gmUjXy6ghNA5_M2XtPZtY4ks,13084
+syngular/qring.py,sha256=idrLvpBzkaYiBVkJaNojI4A4y2BnRyDTpxVwBgUd0uc,567
+syngular/ring.py,sha256=1izNEr1fLZ233FMVALpYPEv_j4ojKNb_bLdgul9qCZo,1983
+syngular/tools.py,sha256=lo6pZ5x_b9rR48KMPu_Nr2hSiSDMTdm4HT964-1R-aQ,2899
+syngular/variety.py,sha256=IYdDjEA2f4UVtNhlq2EWuWh0qpz3pX1nEiMV5EfV-Pk,19100
+syngular-0.2.3.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+syngular-0.2.3.dist-info/METADATA,sha256=l0EDUDg3C6e8HHsed-n3GdoZcAb7wtYMnoNh-u7Bm5c,6842
+syngular-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+syngular-0.2.3.dist-info/top_level.txt,sha256=EAxQn18fD9BMMA9NoiMwsd46aYKjcbbjHQxwAHQmlVw,9
+syngular-0.2.3.dist-info/RECORD,,
