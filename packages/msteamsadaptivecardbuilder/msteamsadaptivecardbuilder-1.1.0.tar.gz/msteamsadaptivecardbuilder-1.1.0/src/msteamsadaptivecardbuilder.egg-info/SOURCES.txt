@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/msteamsadaptivecardbuilder.py
+src/msteamsadaptivecardbuilder.egg-info/PKG-INFO
+src/msteamsadaptivecardbuilder.egg-info/SOURCES.txt
+src/msteamsadaptivecardbuilder.egg-info/dependency_links.txt
+src/msteamsadaptivecardbuilder.egg-info/requires.txt
+src/msteamsadaptivecardbuilder.egg-info/top_level.txt
