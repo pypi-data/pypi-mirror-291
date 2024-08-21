@@ -1,0 +1,6 @@
+README.md
+setup.py
+spotify_billboard_playlist.egg-info/PKG-INFO
+spotify_billboard_playlist.egg-info/SOURCES.txt
+spotify_billboard_playlist.egg-info/dependency_links.txt
+spotify_billboard_playlist.egg-info/top_level.txt
