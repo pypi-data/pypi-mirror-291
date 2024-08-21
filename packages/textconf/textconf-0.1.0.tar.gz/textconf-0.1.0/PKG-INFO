@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: textconf
+Version: 0.1.0
+Summary: Config from plain text
+Project-URL: Documentation, https://github.com/daizutabi/textconf
+Project-URL: Source, https://github.com/daizutabi/textconf
+Project-URL: Issues, https://github.com/daizutabi/textconf/issues
+Author-email: daizutabi <daizutabi@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest-clarity; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-randomly; extra == 'dev'
+Requires-Dist: pytest-xdist; extra == 'dev'
