@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+ruby = mkdocs_ruby_plugin.plugin:RubyPlugin
+
