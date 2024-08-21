@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: FE_workflow
+Version: 0.0.1
+Summary: Free Energy workflow
+Home-page: https://github.com/jnutyj/FreeEnergy_workflow
+License: UNKNOWN
+Keywords: python,free energy,gromacs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+License-File: LICENSE
+
+Free Energy workflow for Gromacs using BioSimSpace
+
