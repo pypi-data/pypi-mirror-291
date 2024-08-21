@@ -1,0 +1,97 @@
+version: 2.1
+orbs:
+  docker: circleci/docker@1.6.0
+
+jobs:
+  test_package:
+    docker:
+      - image: cimg/python:3.11
+        auth:
+          username: $DOCKER_USER
+          password: $DOCKER_PAT
+    working_directory: /tmp/src/mriqc_learn
+    steps:
+      - checkout
+      - run:
+          name: Prepare environment & build
+          command: |
+            python3 -m venv /tmp/buildenv
+            source /tmp/buildenv/bin/activate
+            python -m pip install -U build hatch pip twine
+
+            # Build and test package
+            python -m build -s -w
+            python -m twine check dist/mriqc_learn-*
+      - store_artifacts:
+          path: /tmp/src/mriqc_learn/dist
+      - persist_to_workspace:
+          root: /tmp/src/mriqc_learn
+          paths: dist
+      - run:
+          name: Install on separate environment and check version [sdist]
+          command: |
+            python3 -m venv /tmp/install_sdist
+            source /tmp/install_sdist/bin/activate
+            python -m pip install -U build hatch pip twine
+
+            THISVERSION=$( python -m hatch version | tail -n1 | xargs )
+            THISVERSION=${CIRCLE_TAG:-$THISVERSION}
+
+            python -m pip install /tmp/src/mriqc_learn/dist/mriqc_learn*.tar.gz
+            INSTALLED_VERSION=$(python -c 'import mriqc_learn as ml; print(ml.__version__, end="")')
+            echo "VERSION: \"${THISVERSION}\""
+            echo "INSTALLED: \"${INSTALLED_VERSION}\""
+            test "${INSTALLED_VERSION}" = "${THISVERSION}"
+      - run:
+          name: Install on separate environment and check version [wheel]
+          command: |
+            python3 -m venv /tmp/install_wheel
+            source /tmp/install_wheel/bin/activate
+            python -m pip install -U build hatch pip twine
+
+            THISVERSION=$( python -m hatch version | tail -n1 | xargs )
+            THISVERSION=${CIRCLE_TAG:-$THISVERSION}
+
+            python -m pip install /tmp/src/mriqc_learn/dist/mriqc_learn*.whl
+            INSTALLED_VERSION=$(python -c 'import mriqc_learn as ml; print(ml.__version__, end="")')
+            echo "VERSION: \"${THISVERSION}\""
+            echo "INSTALLED: \"${INSTALLED_VERSION}\""
+            test "${INSTALLED_VERSION}" = "${THISVERSION}"
+
+  deploy_pypi:
+    docker:
+      - image: cimg/python:3.11
+    working_directory: /tmp/src/mriqc_learn
+    steps:
+      - attach_workspace:
+          at: /tmp/src/mriqc_learn
+      - run:
+          name: Upload to Pypi
+          command: |
+            python3 -m venv /tmp/upload
+            source /tmp/upload/bin/activate
+            python -m pip install twine
+            python -m twine check dist/*
+            python -m twine upload dist/* --non-interactive
+
+workflows:
+  version: 2
+  build_deploy:
+    jobs:
+      - test_package:
+          context:
+            - nipreps-common
+          filters:
+            tags:
+              only: /.*/
+
+      - deploy_pypi:
+          context:
+            - nipreps-common
+          requires:
+            - test_package
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /.*/
