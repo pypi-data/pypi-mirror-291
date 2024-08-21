@@ -1,0 +1,14 @@
+scirisweb/__init__.py,sha256=lj8h9rZhU6q_jMFA7zO9_SrlcjZtClHo737UHWGYo_o,585
+scirisweb/sw_app.py,sha256=2vQK8vzR1JH900oslp67mZJL3fwu6lb_v64lKocQz80,31476
+scirisweb/sw_config.py,sha256=CL7B-aMVP-YNdkX3FD_toDvaBBwZ5hCvQ97LfPFzfHY,863
+scirisweb/sw_datastore.py,sha256=SIgiY9UcHxYlH5UGDYoFgou1gnYMU2C7x0MrxRyi82s,31809
+scirisweb/sw_rpcs.py,sha256=6euTf1EkETW2CL8w1Yi_9wLanmaKSOFEu4rIz_v0Vfw,1511
+scirisweb/sw_server.py,sha256=ZSk9u8Gj4oYjI58kwtAZbEl-pbItyZDNT3Ck7ng62MM,6588
+scirisweb/sw_tasks.py,sha256=1n2iNt9mwZa2Q5Qv2lMheM_VPpbDivvbG-sHLtSqnUY,18606
+scirisweb/sw_users.py,sha256=z9hU5iDXiHvf3CMdgeH1xI8Tn5GNjs2yC3nY5I1lYeI,13658
+scirisweb/sw_version.py,sha256=zQNPFnUi-dks0blUmJoHzzB_Oq2Zb1Yfj2tQiReVh88,210
+scirisweb-1.0.1.dist-info/LICENSE,sha256=YhD40k26csj0zLVi3WxlwhCQMJ5SyLy_2j-RhhlTvls,1087
+scirisweb-1.0.1.dist-info/METADATA,sha256=nTJk9cGy7katp0uBqJzRwihlIAr6pxFZ9fo6LE7Hwkc,15023
+scirisweb-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scirisweb-1.0.1.dist-info/top_level.txt,sha256=up6HPrYzFyTQRH6g0qc9o2cY-oD9NjRhsguCdcQgv0o,10
+scirisweb-1.0.1.dist-info/RECORD,,
