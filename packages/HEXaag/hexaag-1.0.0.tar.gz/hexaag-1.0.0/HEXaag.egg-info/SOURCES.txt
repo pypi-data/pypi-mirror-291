@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+HEXaag.egg-info/PKG-INFO
+HEXaag.egg-info/SOURCES.txt
+HEXaag.egg-info/dependency_links.txt
+HEXaag.egg-info/top_level.txt
+Hex/__init__.py
+Hex/base.py
+Hex/funcoes.py
+Hex/hex.py
