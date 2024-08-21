@@ -1,0 +1,10 @@
+cosmo_torrent/__init__.py,sha256=4OunHKflpHVlmk3XCJGLj-WR2oS-5lxUdF4iv-mUDwM,215
+cosmo_torrent/cli.py,sha256=LNvqtc3cDWVozq3J8Dq7KSR7Oxz8ffXmeRjPoFwfk_Y,3120
+cosmo_torrent/cosmo_torrent.py,sha256=0n4eb4o6dvGZnbqfJfW1iInGAwgyfSM_5BzufxEeigE,3237
+cosmo_torrent/vars.py,sha256=-xiNGPynawr54oVpGX4XPP_J9uC8AdR1sMasRk-uPQ0,482
+cosmo_torrent-0.2.0.dist-info/METADATA,sha256=LQmjNNp7DqTXKE5RNKxMxZlHaN9TZDdeI9nK3Exl6R8,2799
+cosmo_torrent-0.2.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+cosmo_torrent-0.2.0.dist-info/entry_points.txt,sha256=c_TcfnADqkQnUiJeC-Bf-JZ12C1CJiaz-4JZhtbBD98,66
+cosmo_torrent-0.2.0.dist-info/licenses/AUTHORS.rst,sha256=UqmvxSmRMsMGmDx8Zg0gsOO8_5791velTLIfp__x1Jc,159
+cosmo_torrent-0.2.0.dist-info/licenses/LICENSE,sha256=MNUG2Frplsve15vOsD26PR0OwzIBvhYcAv7Cn9g8Crw,1116
+cosmo_torrent-0.2.0.dist-info/RECORD,,
