@@ -1,0 +1,11 @@
+apiverve_randomjoke/__init__.py,sha256=oIMeodv-H4tqPIfH6QrRuzg_MItOQGbfQMhs8WhgqnI,42
+apiverve_randomjoke/apiClient.py,sha256=lkrhEXvtPwFAUAQBJ9Y487dyRRem8SHk1GYlAyEwnnk,1220
+apiverve_randomjoke/exceptions.py,sha256=bwlnaOJczogX6AxS_NZ3dDbY8P_X6qsOtU_9OwX1GX0,103
+apiverve_randomjoke/setup.py,sha256=kZ_9rg4NvHe0c3702SzsHfCOH-TTPuYp_ZloK-k4YyE,628
+apiverve_randomjoke/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_randomjoke/tests/test_api.py,sha256=hp_p8XPVJCK5SqhN90fWp_PCMvYVgyze1myoGrbRgHw,614
+apiverve_randomjoke-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_randomjoke-1.1.4.dist-info/METADATA,sha256=v0idxMhRDRPCJlCkUtDWzBjYIP4emeWI74vaD8yuJks,5515
+apiverve_randomjoke-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_randomjoke-1.1.4.dist-info/top_level.txt,sha256=N5XlL34z5-yIU-k9ZkXOQKDcTQDObp9X45Q99X17JxU,20
+apiverve_randomjoke-1.1.4.dist-info/RECORD,,
