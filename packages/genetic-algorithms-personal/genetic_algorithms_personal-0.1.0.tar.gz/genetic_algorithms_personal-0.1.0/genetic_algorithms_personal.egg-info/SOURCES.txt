@@ -1,0 +1,11 @@
+README.md
+setup.py
+genetic_algorithms_personal/__init__.py
+genetic_algorithms_personal/genetic_algorithm.py
+genetic_algorithms_personal/pygame_visualization.py
+genetic_algorithms_personal/utilities.py
+genetic_algorithms_personal.egg-info/PKG-INFO
+genetic_algorithms_personal.egg-info/SOURCES.txt
+genetic_algorithms_personal.egg-info/dependency_links.txt
+genetic_algorithms_personal.egg-info/requires.txt
+genetic_algorithms_personal.egg-info/top_level.txt
