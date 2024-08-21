@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pkcegen/__init__.py
+pkcegen.egg-info/PKG-INFO
+pkcegen.egg-info/SOURCES.txt
+pkcegen.egg-info/dependency_links.txt
+pkcegen.egg-info/top_level.txt
