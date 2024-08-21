@@ -1,0 +1,14 @@
+github_random_star/__init__.py,sha256=eMtVZ0y-Y5W4rRaS7ZDaXHw1i7wIS2_nQ8g1xC5dT6E,109
+github_random_star/api.py,sha256=nOHl1v-rxaQ95HHMipzJfyHBQ814eFYCDdiv9R7wkcs,6971
+github_random_star/commands/__init__.py,sha256=PhSm1TiuhbfimMfRTIjTuijH-rbVhlRnoCz3hy8bqMk,102
+github_random_star/commands/meta.py,sha256=tohvfhtG_Jt7g2OBe2dLNbkmAhqVx1l2QEslTCMA0m4,6477
+github_random_star/commands/repo.py,sha256=lEpHWD5tLdmiKivazw_WnaIitndBBDdtVNd4hsYJ3Ec,210
+github_random_star/commands/star.py,sha256=gCrkYNIs4tJSBja6XsMBj1J5g4b9RraTSPexLBZGioM,393
+github_random_star/extension.py,sha256=kqkKeAQ0qsIaot7EPN8x_FuGGJZjLeWdKU-OPZpNTs4,784
+github_random_star/utility.py,sha256=CEZJbMVuwcr57pAC9U7WTDwi2J6tJW3MibrX3zW0yjY,988
+github_random_star/version.py,sha256=Wtf8rTIR8ESefL1Pd8BuIGAoVuFTS0yNoV6yGRSlSoY,1267
+github_random_star-1.1.2.dist-info/LICENSE.md,sha256=SBb-rT3tg2yL8OdBL4451cmEJ0HW4BbiuRdOpxIP9aA,1060
+github_random_star-1.1.2.dist-info/METADATA,sha256=d1b_tzY3qu9R3QaTb6lP0Z0jxeWp1T2SJ80oVnnJqZ4,4138
+github_random_star-1.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+github_random_star-1.1.2.dist-info/entry_points.txt,sha256=ZZFbnvkQnQUcWpRtwCmNWm4aCZaVlp9Ck85TwShPBYk,60
+github_random_star-1.1.2.dist-info/RECORD,,
