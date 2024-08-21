@@ -1,0 +1,11 @@
+apiverve_htmltopdf/__init__.py,sha256=8UFtQjcY5Tni3nV8gq__waCAVXegqpuHW_iSnEAk_Cc,41
+apiverve_htmltopdf/apiClient.py,sha256=zmoeotJ-FAbn5zuptuoEtzHs5pyXvg8j6ShxPPjSu5Q,1218
+apiverve_htmltopdf/exceptions.py,sha256=PeXVhzlB0UUQ8W9HbT1GQukA7AthtpXPbLDZp3OeBaI,101
+apiverve_htmltopdf/setup.py,sha256=N5Wt9-QI8QJxrPYpMlITtRnaEOqH97iCwp5adyGGnYk,625
+apiverve_htmltopdf/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_htmltopdf/tests/test_api.py,sha256=awG7x4x8v-zC8ncMgo_07KqQ8iLZSRNHaklwlw9Z_cY,611
+apiverve_htmltopdf-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_htmltopdf-1.1.4.dist-info/METADATA,sha256=ysy9rz96nuwO8yLCk7pJaHgAMgMrAmEZKF5L83D1kIE,6521
+apiverve_htmltopdf-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_htmltopdf-1.1.4.dist-info/top_level.txt,sha256=KgyjpYHFP1S7Tm49Au9qB4vWoULUBZqJupUTIqRsIJ4,19
+apiverve_htmltopdf-1.1.4.dist-info/RECORD,,
