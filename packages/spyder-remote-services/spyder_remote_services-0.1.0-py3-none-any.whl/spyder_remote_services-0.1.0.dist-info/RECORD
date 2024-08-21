@@ -1,0 +1,13 @@
+spyder_remote_services/__init__.py,sha256=gQIx0UrWwFCllcA3FhLhVucagxdBMrFlqe_6ziaDHNY,23
+spyder_remote_services/__main__.py,sha256=9H-OOy1yaDQ7BaSxIDikbRO0SGWHv4jh_hdP-S5Y0EE,747
+spyder_remote_services/utils.py,sha256=K6uvd_ugKnjJhAe_i22MFVz-qj0lhZ64roLevOoarXo,420
+spyder_remote_services/jupyter_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spyder_remote_services/jupyter_client/manager.py,sha256=zvXfSmtOo7ial1l0IRFPI7Z3BcziavqDQKUpudyBb40,635
+spyder_remote_services/jupyter_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spyder_remote_services/jupyter_server/kernelmanager.py,sha256=4Xkx5qKjElSQBaJW9tIqOpP9xV6Uw_4XxaZG6y06_C8,1136
+spyder_remote_services/jupyter_server/serverapp.py,sha256=vbqkNn1V60cYcHqUo4O3_reKRAz0Igv5ihVqqis7Ysw,2435
+spyder_remote_services-0.1.0.dist-info/METADATA,sha256=sqyvcm87H-CfP8bC6ZKxNMyuFV_um3OVsKub4rynoIg,427
+spyder_remote_services-0.1.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+spyder_remote_services-0.1.0.dist-info/entry_points.txt,sha256=0ZqyexivvoNfNy7BrB17slnSLiG0X_Ev7ca8eo4UKX4,71
+spyder_remote_services-0.1.0.dist-info/top_level.txt,sha256=HdiIqhxO5Bqa6VIG2pEKjARigJaSmGnEaiLNLBO5jKQ,23
+spyder_remote_services-0.1.0.dist-info/RECORD,,
