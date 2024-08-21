@@ -1,0 +1,16 @@
+chardet
+typing_extensions
+openpyxl
+pytest
+numpy
+scipy
+sympy
+pandas
+matplotlib
+statsmodels
+lmfit
+findiff
+numdifftools
+nmrglue
+ampdLib
+pybaselines
