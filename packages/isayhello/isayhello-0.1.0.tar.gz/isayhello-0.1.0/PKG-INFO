@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: isayhello
+Version: 0.1.0
+Summary: Hello
+Author: 侯杰
+Author-email: bqdove@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Say Hello
+
+Say Hello is a simple Python package that provides a CLI tool to say hello.
+
+## Installation
+
+```bash
+pip install say-hello

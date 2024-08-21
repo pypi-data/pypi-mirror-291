@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "isayhello"
+version = "0.1.0"
+description = "Hello"
+authors = ["侯杰 <bqdove@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sayhello="isayhello.say:cli"
