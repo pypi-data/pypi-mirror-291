@@ -1,0 +1,9 @@
+mlx==0.16.1
+transformers
+setuptools>=42
+ai2-olmo
+datasets
+torch
+numpy<2
+requests
+huggingface_hub
