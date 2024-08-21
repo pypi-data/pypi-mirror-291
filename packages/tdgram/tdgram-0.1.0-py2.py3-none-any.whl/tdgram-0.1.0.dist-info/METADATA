@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: tdgram
+Version: 0.1.0
+Summary: TDGram
+Author: sheldy
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+### A tool that helps you perform migrations to Nats Jetstream
