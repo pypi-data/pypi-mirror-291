@@ -1,0 +1,32 @@
+pfazuredb.tools.postgresqlpgvector.vectorsearch:
+  function: vectorsearch
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    table_name:
+      type:
+      - string
+    search_type:
+      type:
+      - string
+    num_results:
+      type:
+      - int
+    question:
+      type:
+      - str
+    embeddings:
+      type:
+      - list
+    vectorsearch_method:
+      type:
+      - string
+    filter_text:
+      type:
+      - string
+      
+  module: pfazuredb.tools.postgresqlpgvector
+  name: Azure postgreSQL Vector Search  
+  description: This is a vector search tool for postgreSQL single and flexible server via pgvector extension
+  type: python
