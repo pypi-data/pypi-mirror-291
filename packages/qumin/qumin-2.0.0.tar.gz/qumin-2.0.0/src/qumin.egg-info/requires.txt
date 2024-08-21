@@ -1,0 +1,15 @@
+pandas
+numpy
+frictionless
+scipy
+matplotlib
+networkx
+pydot
+tqdm
+seaborn
+tabulate
+concepts
+hydra-core
+
+[test]
+hypothesis
