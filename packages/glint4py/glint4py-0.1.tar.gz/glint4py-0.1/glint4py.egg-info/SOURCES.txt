@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+glint4py.egg-info/PKG-INFO
+glint4py.egg-info/SOURCES.txt
+glint4py.egg-info/dependency_links.txt
+glint4py.egg-info/entry_points.txt
+glint4py.egg-info/top_level.txt
