@@ -1,0 +1,11 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
+pyepisim/PyEpiSIM.py
+pyepisim/PyEpiSIM_funcAsse.py
+pyepisim/_init_.py
+pyepisim.egg-info/PKG-INFO
+pyepisim.egg-info/SOURCES.txt
+pyepisim.egg-info/dependency_links.txt
+pyepisim.egg-info/top_level.txt
