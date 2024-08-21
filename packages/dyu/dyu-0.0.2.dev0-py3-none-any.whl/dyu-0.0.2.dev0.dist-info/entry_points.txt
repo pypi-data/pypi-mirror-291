@@ -1,0 +1,2 @@
+[console_scripts]
+dyu = dyu.cli:app
