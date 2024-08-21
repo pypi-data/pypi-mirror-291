@@ -1,0 +1,83 @@
+Metadata-Version: 2.3
+Name: reaction_query
+Version: 0.3.1
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Reaction Query
+
+A project to retrieve data from [Rerun](https://rerun.io) data file and use in Python code.
+
+This project is only compatible with Rerun 0.16.1. Please make sure the source rrd file is created with this version of Rerun SDK.
+
+## Install
+
+This project depends on `numpy`, so please make sure install it with this package together.
+
+```bash
+pip install numpy reaction-query
+```
+
+## Usage
+
+Use this package (assumed a sample.rrd created with Rerun 0.16.1 and under folder data):
+
+```py
+import reaction_query
+
+
+def main():
+    print("Running Python example...")
+
+    # Define the file path and entity path you want to query
+    file_path = "./data/sample.rrd"
+
+    # Call the list_entity_paths function
+    try:
+        data = reaction_query.list_entity_paths(file_path)
+        print("Query entity paths successful!")
+        for index, path in enumerate(data):
+            print(f"- Path {index + 1}: {path}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+    # Call the list_timelines function
+    try:
+        data = reaction_query.list_timelines(file_path)
+        print("Query timelines successful!")
+        for index, timeline in enumerate(data):
+            print(f"- Timeline {index + 1}: {timeline}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+    # Call the query_entities function
+    entity_path = ""  # filter by entity path, empty string to query all entities
+    try:
+        data = reaction_query.query_entities(file_path, entity_path)
+        print("Query data successful!")
+        for key, data_row in data.items():
+            print(f"Entity Path: {key}")
+            data_object = data_row.data
+            if len(data_object) > 10:
+                print(
+                    f"Only showing the first 10 items out of {len(data_object)} total data columns."
+                )
+            for index, data in enumerate(data_object[:10]):
+                print(f"- {index + 1} {data}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+    # Call the query_meta_entities function
+    meta_entity_path = ""  # You can set as "/meta"
+    try:
+        data = reaction_query.query_meta_entities(file_path, meta_entity_path)
+        print("Query meta successful!")
+        for index, row_meta in enumerate(data):
+            print(f"- Row {index + 1} {row_meta.entity_path} : {row_meta.text}")
+    except Exception as err:
+        print(f"Error: {err}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
