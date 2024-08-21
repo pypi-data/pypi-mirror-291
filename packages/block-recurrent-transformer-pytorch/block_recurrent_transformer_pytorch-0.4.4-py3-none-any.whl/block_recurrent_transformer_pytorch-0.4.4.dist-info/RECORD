@@ -1,0 +1,7 @@
+block_recurrent_transformer_pytorch/__init__.py,sha256=0ZBJNQelFFSKGli7c7Qf24XOOyB9Wr0VCF-X_ThXyr0,344
+block_recurrent_transformer_pytorch/block_recurrent_transformer_pytorch.py,sha256=x6XHmoL_C37jMyyz5OV2Sr7R4uD2v5dtP1U3kRpMuCU,37555
+block_recurrent_transformer_pytorch-0.4.4.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+block_recurrent_transformer_pytorch-0.4.4.dist-info/METADATA,sha256=_OpI_DybwXrrhVlIlJQhqvERKO5JumXQ-AAbeJGTm_Y,819
+block_recurrent_transformer_pytorch-0.4.4.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+block_recurrent_transformer_pytorch-0.4.4.dist-info/top_level.txt,sha256=kkutUMrwEuo5qL2WYFl9yZgvDj8mcd3PS0iWzBX9ZSg,36
+block_recurrent_transformer_pytorch-0.4.4.dist-info/RECORD,,
