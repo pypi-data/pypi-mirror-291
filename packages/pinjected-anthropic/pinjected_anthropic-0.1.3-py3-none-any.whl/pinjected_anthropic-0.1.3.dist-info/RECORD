@@ -1,0 +1,5 @@
+pinjected_anthropic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinjected_anthropic/llm.py,sha256=PIt4TlcoO36l8m2QUQevEQG7gEj65tZGZ0jKWB8qVk8,4608
+pinjected_anthropic-0.1.3.dist-info/METADATA,sha256=uUQXLEiIPZNsFWXfTFk1YuA8MExdO00e-powoMbRQRw,356
+pinjected_anthropic-0.1.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pinjected_anthropic-0.1.3.dist-info/RECORD,,
