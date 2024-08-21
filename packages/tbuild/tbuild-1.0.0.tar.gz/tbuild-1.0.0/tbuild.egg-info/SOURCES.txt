@@ -1,0 +1,8 @@
+pyproject.toml
+tbuild/__init__.py
+tbuild.egg-info/PKG-INFO
+tbuild.egg-info/SOURCES.txt
+tbuild.egg-info/dependency_links.txt
+tbuild.egg-info/entry_points.txt
+tbuild.egg-info/requires.txt
+tbuild.egg-info/top_level.txt

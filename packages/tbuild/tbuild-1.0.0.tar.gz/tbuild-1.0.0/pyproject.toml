@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tbuild"
+version = "1.0.0"
+authors = [{name = "Zhiguo.Zhu", email = "294966@qq.com"}]
+
+description = "It is the build system of SafeOS, which is based on Conan"
+requires-python = ">=3.8, <3.12"
+dependencies = [
+    "conan >= 1.59.0, < 2.0.0",
+    "dockerpty == 0.4.1",
+    "docker == 7.1.0",
+    "intervaltree == 3.1.0",
+    "pyelftools == 0.29",
+    "ruamel.yaml == 0.17.21",
+    "psutil == 5.9.4",
+    "pyserial == 3.5",
+    "fbtftp == 0.5",
+    "dohq-artifactory == 0.8.4",
+    "aiohttp == 3.8.4",
+    "easy_enum == 0.3.0",
+]
+
+[project.scripts]
+tbuild = "tbuild:niobuild_main"
+tb = "tbuild:tb_main"
+sel4run = "tbuild:sel4run_main"
+sel4flash = "tbuild:sel4flash_main"
+nrun = "tbuild:sel4run_main"
+nflash = "tbuild:sel4flash_main"
+ndb = "tbuild:ndb_main"
+tapnet = "tbuild:tapnet_main"
+mkuenv = "tbuild:mkimg_main"
+board = "tbuild:board_main"
+buildserver = "tbuild:buildserver_main"
+mainserver = "tbuild:mainserver_main"
