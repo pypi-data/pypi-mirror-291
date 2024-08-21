@@ -1,0 +1,16 @@
+simplests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplests/model_args.py,sha256=fnTPF0RGejpHOEIrkbe1FyoITz_gzxMOdmm-kjJExas,400
+simplests/util.py,sha256=6BZbHXBd3IZgmvyKApmSHawSf47M7Hw5FI_FNcMbTyI,124
+simplests/algo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplests/algo/cls.py,sha256=ogwCE5FJeIccEUPnu4s341tdBY_Kw2RB94y-jxt47DA,1990
+simplests/algo/labse.py,sha256=nNNCaa52ZfH6XJh-jqbXh5Ho805xx4ZMfSlpCzFgbD4,2172
+simplests/algo/sbert.py,sha256=F1wYGSHrS7zwSjZyBpvPA2JK0CKNjviS--YUbpY6MjM,1202
+simplests/algo/sif.py,sha256=ebNEhoB18rJA1r1mbDZvx112uilAXN2FrOz8K3yOV3g,4635
+simplests/algo/use.py,sha256=fkw3kX9cZGxq0NZFjdIxUZxpFrDIj7idpinDQukdXaA,1565
+simplests/algo/wmd.py,sha256=a9dbsgp4RSqEorrg0Ib8VHUFbvgYMAQl_SNYhjiE7Fo,6694
+simplests/algo/word_avg.py,sha256=obQPri0hZ2Cr7gWTREiiF_qlgXz5HN2J8i_FHPhqqgw,3784
+simplests-2.3.0.dist-info/LICENSE,sha256=XgTh3MzQactJf4mIkT_04u9X5bbipxViAFAgsvGYuxM,11352
+simplests-2.3.0.dist-info/METADATA,sha256=GkiTBH1rCav543vcZcwDt_c15F-C7r3eGZ5gg2NiMOk,2563
+simplests-2.3.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+simplests-2.3.0.dist-info/top_level.txt,sha256=GqdpS3VcAtLV5cK_OXeuA3xFMEzEctR0l9YREGCHV7k,10
+simplests-2.3.0.dist-info/RECORD,,
