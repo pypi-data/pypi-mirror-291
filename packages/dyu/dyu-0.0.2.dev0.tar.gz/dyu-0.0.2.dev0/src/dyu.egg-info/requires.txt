@@ -1,0 +1,3 @@
+pydantic-settings
+typer[all]
+copier>=9.3.1
