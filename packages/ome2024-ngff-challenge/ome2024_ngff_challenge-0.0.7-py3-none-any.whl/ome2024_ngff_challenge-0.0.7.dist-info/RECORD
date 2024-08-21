@@ -1,0 +1,11 @@
+ome2024_ngff_challenge/__init__.py,sha256=MUsb3Vs6S8lCD8fFStHJ0ICjWFfNrqKgG3MegnMEd_s,300
+ome2024_ngff_challenge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ome2024_ngff_challenge/resave.py,sha256=rpcSS0d75BdxN6uCxDJ-3KIK4TXHsb5clbpSOV7hSk8,29940
+ome2024_ngff_challenge/zarr_crate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ome2024_ngff_challenge/zarr_crate/rembi_extension.py,sha256=9BPoyIbFzSkEcfW7WKpiBIUp_VxuSfG9lFetwGb3WOE,3837
+ome2024_ngff_challenge/zarr_crate/zarr_extension.py,sha256=Y1gpM4LFzx6TO02cJqxhJ6TA70OqWYhdG6Vf3auou7Q,1110
+ome2024_ngff_challenge-0.0.7.dist-info/LICENSE,sha256=ORGfQkiGfbxAYOtK00RdkDxV_CSPA4HRfrd1pM-Wqzc,1520
+ome2024_ngff_challenge-0.0.7.dist-info/METADATA,sha256=bCo0pVUkjAi-ocKpFWQvWKNywdEVwUobJMWnJZErOeY,12484
+ome2024_ngff_challenge-0.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ome2024_ngff_challenge-0.0.7.dist-info/entry_points.txt,sha256=SX0FSeisezwJYcrx-gQyN1FKkKW7M3s5QpHCA8if2IA,76
+ome2024_ngff_challenge-0.0.7.dist-info/RECORD,,
