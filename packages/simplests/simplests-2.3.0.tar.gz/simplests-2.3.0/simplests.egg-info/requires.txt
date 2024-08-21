@@ -1,0 +1,9 @@
+pandas
+numpy
+flair
+tqdm
+pyemd
+stop_words
+tensorflow_text
+tensorflow_hub
+sentence_transformers
