@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dtml-pkg-1"
+version = "1.0.0"
+description = ""
+authors = ["Jan Lukány <jan.lukany@datamole.cz>"]
+classifiers = [
+    "Private :: Do Not Upload"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
