@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: adiskreader
+Version: 0.0.1
+Home-page: https://github.com/skelsec/adiskreader
+Author: Tamas Jos
+Author-email: info@skelsec.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.md
+Requires-Dist: cachetools
+Requires-Dist: winacl (>=0.1.8)
+Requires-Dist: aiosmb (>=0.4.10)
+Requires-Dist: amurex (>=0.0.4)
+Requires-Dist: prompt-toolkit (>=3.0.2)
+Requires-Dist: tqdm
+
