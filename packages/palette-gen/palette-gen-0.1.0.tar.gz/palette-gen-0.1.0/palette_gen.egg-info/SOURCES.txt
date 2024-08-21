@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+color_palette/__init__.py
+color_palette/color_palette.py
+palette_gen.egg-info/PKG-INFO
+palette_gen.egg-info/SOURCES.txt
+palette_gen.egg-info/dependency_links.txt
+palette_gen.egg-info/entry_points.txt
+palette_gen.egg-info/requires.txt
+palette_gen.egg-info/top_level.txt
