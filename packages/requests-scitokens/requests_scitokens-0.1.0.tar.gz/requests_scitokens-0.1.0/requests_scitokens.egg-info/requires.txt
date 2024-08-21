@@ -1,0 +1,12 @@
+requests>=2.20.0
+scitokens>=1.7.4
+
+[docs]
+furo
+sphinx
+sphinx-automodapi
+
+[test]
+pytest>=3.9.1
+pytest-cov>=2.4.0
+requests-mock

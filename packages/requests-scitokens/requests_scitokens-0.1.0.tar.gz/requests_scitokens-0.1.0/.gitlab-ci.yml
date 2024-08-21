@@ -1,0 +1,64 @@
+include:
+  # -- Python -------------------------
+
+  # https://computing.docs.ligo.org/guide/gitlab/components/python/all/
+  - component: $CI_SERVER_FQDN/computing/gitlab/components/python/all@1
+    inputs:
+      install_extra: "test"
+
+  # -- Debian packaging ---------------
+
+  # https://computing.docs.ligo.org/guide/gitlab/components/debian/all/
+  - component: $CI_SERVER_FQDN/computing/gitlab/components/debian/all@1
+    inputs:
+      needs: [sdist]
+      debian_versions:
+        - bullseye-backports
+        - bookworm
+      test_install: &system_test_install >-
+        python3-pytest
+        python3-pytest-cov
+        python3-requests-mock
+      test_script: &system_test_script
+        # run the test suite
+        - python3 -m pytest
+            --junit-xml=junit.xml
+            --cov=${CI_PROJECT_NAME/-/_}
+            --pyargs
+            ${CI_PROJECT_NAME/-/_}
+        # write a cobertura report
+        - python3 -m coverage xml -o coverage.xml
+
+  # -- Red Hat packaging --------------
+
+  # https://computing.docs.ligo.org/guide/gitlab/components/redhat/all/
+  - component: $CI_SERVER_FQDN/computing/gitlab/components/redhat/all@1
+    inputs:
+      needs: [sdist]
+      redhat_versions:
+        - 8
+        - 9
+      test_install: *system_test_install
+      test_script: *system_test_script
+
+  # -- Documentation ------------------
+
+  # https://computing.docs.ligo.org/guide/gitlab/components/sphinx/build/
+  - component: $CI_SERVER_FQDN/computing/gitlab/components/sphinx/build@1
+    inputs:
+      requirements: ".[docs]"
+
+# -- customisations
+
+# configure the platform tests to upload the same test/coverage reports
+# as the other Python tests
+
+debian_test:
+  variables:
+    GIT_STRATEGY: none
+  artifacts: !reference [python_test, artifacts]
+
+redhat_test:
+  variables:
+    GIT_STRATEGY: none
+  artifacts: !reference [python_test, artifacts]
