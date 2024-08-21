@@ -1,0 +1,12 @@
+ontouml_models_lib/__init__.py,sha256=x-Yj5LvM-VOsJ2pvIk2FEvCkKI7aRTG5hPSndpua2Ak,3173
+ontouml_models_lib/catalog.py,sha256=lSa8-ecZv8n2q6dmld-gwRfYlGcMT_lnKZMhOMn8OKw,25499
+ontouml_models_lib/enumerations.py,sha256=LFXDVEdIdszyBagZFSQkHo4j2C9-T6L-tAewMTeq5Z8,5109
+ontouml_models_lib/model.py,sha256=3OLG-2v1Yu4Vx3Yug0X0cu1fT-hsvB5PObOUroKU_4s,14868
+ontouml_models_lib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ontouml_models_lib/query.py,sha256=quCph5D94XM5qaoQAp7DSTRB3g3-LW2LhoyA6My5i7k,6873
+ontouml_models_lib/utils/__init__.py,sha256=9diUnK3ceAlwuHl45FY88pglC9QQwf2AA3S0H1KTGYs,572
+ontouml_models_lib/utils/queryable_element.py,sha256=YVoeQIP0pX0nznZl5XQV1J9pYZtksnL0k6W5zcZM1S4,13922
+ontouml_models_lib-1.0.0b2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ontouml_models_lib-1.0.0b2.dist-info/METADATA,sha256=gX9RHXdwjcaJqEH8rN6cDQrIscTFbspJCNFt9xZS_H8,10633
+ontouml_models_lib-1.0.0b2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ontouml_models_lib-1.0.0b2.dist-info/RECORD,,
