@@ -1,0 +1,7 @@
+llama-index
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+llama-index-graph-stores-neo4j
+sentence-transformers
+python-dotenv
+setuptools
