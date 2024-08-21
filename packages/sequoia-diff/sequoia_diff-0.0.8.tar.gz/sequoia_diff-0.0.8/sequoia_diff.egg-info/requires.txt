@@ -1,0 +1,9 @@
+tree-sitter==0.22.3
+pydantic==2.8.2
+
+[dev]
+PyYAML==6.0.1
+coverage
+mypy[mypyc]
+types-PyYAML
+tree-sitter-java==0.21.0
