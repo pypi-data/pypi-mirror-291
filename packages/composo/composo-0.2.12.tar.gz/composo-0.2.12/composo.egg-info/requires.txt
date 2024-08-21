@@ -1,0 +1,4 @@
+requests>=2.25.1
+colorama>=0.4.4
+psutil>=5.9.8
+dill>=0.3.4
