@@ -1,0 +1,11 @@
+apiverve_phonenumbervalidator/__init__.py,sha256=rveF1v-NHB2VcC4S0WnRANHAEk46ji7f4B7t7VyXJbY,52
+apiverve_phonenumbervalidator/apiClient.py,sha256=pXrTZtHhz-33fneULnuZAEdm39rEPwhT9-5JBPqhKoM,1250
+apiverve_phonenumbervalidator/exceptions.py,sha256=vKD4uTLhwPFEZDpwrSFOeiZ7DUUxJ1d7lY0O-ZYbGYI,123
+apiverve_phonenumbervalidator/setup.py,sha256=R-NBOHHV3qXMHxQ4q269X-0wpfQg_bbhiCWdlX2SLYI,712
+apiverve_phonenumbervalidator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_phonenumbervalidator/tests/test_api.py,sha256=Dy_hUKWv_PQI9mq2CDYsDoQH-SrLodhlTKeAGhiZtB0,644
+apiverve_phonenumbervalidator-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_phonenumbervalidator-1.1.4.dist-info/METADATA,sha256=0AXfgSIiNlQ77e1NuBL-v7dpuGsqsDb1MmTmONHgeow,6055
+apiverve_phonenumbervalidator-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_phonenumbervalidator-1.1.4.dist-info/top_level.txt,sha256=YEFq3ZX6g9Wdvi2Qne8h_tNYUPCmwLY5tPDc6XFXbU0,30
+apiverve_phonenumbervalidator-1.1.4.dist-info/RECORD,,
