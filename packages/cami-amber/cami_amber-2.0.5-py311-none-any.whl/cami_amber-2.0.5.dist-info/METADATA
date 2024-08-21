@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cami-amber
+Version: 2.0.5
+Summary: AMBER: Assessment of Metagenome BinnERs
+Home-page: http://cami-challenge.org
+Author: CAMI
+Author-email: support@cami-challenge.org
+License: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX
+License-File: LICENSE
+Requires-Dist: numpy (==2.0.1)
+Requires-Dist: biopython (==1.84.0)
+Requires-Dist: matplotlib (==3.8.4)
+Requires-Dist: bokeh (==3.5.1)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: seaborn (==0.13.2)
+Requires-Dist: jinja2 (==3.1.4)
+Requires-Dist: pyarrow (==17.0.0)
+
