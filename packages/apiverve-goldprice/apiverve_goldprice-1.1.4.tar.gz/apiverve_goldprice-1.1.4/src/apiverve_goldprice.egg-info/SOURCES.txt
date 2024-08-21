@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_goldprice/__init__.py
+src/apiverve_goldprice/apiClient.py
+src/apiverve_goldprice/exceptions.py
+src/apiverve_goldprice/setup.py
+src/apiverve_goldprice.egg-info/PKG-INFO
+src/apiverve_goldprice.egg-info/SOURCES.txt
+src/apiverve_goldprice.egg-info/dependency_links.txt
+src/apiverve_goldprice.egg-info/top_level.txt
+src/apiverve_goldprice/tests/__init__.py
+src/apiverve_goldprice/tests/test_api.py
+tests/test_api.py
