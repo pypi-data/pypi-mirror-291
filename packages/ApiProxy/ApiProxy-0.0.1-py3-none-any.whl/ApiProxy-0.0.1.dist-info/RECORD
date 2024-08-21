@@ -1,0 +1,10 @@
+ApiProxy/__init__.py,sha256=k_6sI3FnDX57xb6CwrKD94RFp-DSSr8DyhnLL-qy5Ck,28
+ApiProxy/proxy.py,sha256=JsgCxv7ao4ektn045SJShZxzeokv055Svw_TWMzm2wo,5167
+ApiProxy/dependencies/apiproxy-linux,sha256=kOpuhG8EYuIZKWHMnYsS7HjaYes6u3XFj-Mles_ONLk,50321579
+ApiProxy/dependencies/apiproxy-macos,sha256=5nfYf1E8IVxQS1aihTlC7gslIng8tuqsjrkl01UN8NQ,55308499
+ApiProxy/dependencies/apiproxy.exe,sha256=5PCdz7aFWxFHwLubzOS3FSaZGDlX8NiMqn5SeJtKkoo,41697588
+ApiProxy-0.0.1.dist-info/LICENSE,sha256=qouIo33iB1f5n7CgZZ5WfnP5S5lqHvUvIrwuV2ON13Y,1088
+ApiProxy-0.0.1.dist-info/METADATA,sha256=D9Pn9mMDWtgPwNfAmqNcNJv5AwRXqgf08mDEjsY8cfM,855
+ApiProxy-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ApiProxy-0.0.1.dist-info/top_level.txt,sha256=qjrxSBfKRFkfKCUt8zoRoshlcZx3KopcyeLywHauqDc,9
+ApiProxy-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ApiProxy
+Version: 0.0.1
+Summary: Proxy server, used for browser proxy access, supports dynamic proxy switching
+Home-page: http://github.com/yourname/proxylib
+Author: hesheng
+Author-email: 1296602221@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.28.1
+
+# 快捷使用
+## 安装库
+pip install ApiProxy
+## 编译库
+python ./setup.py sdist bdist_wheel 
+pip install .\ApiProxy-1.0-py3-none-any.whl
+
+## 卸载库
+pip uninstall ApiProxy
