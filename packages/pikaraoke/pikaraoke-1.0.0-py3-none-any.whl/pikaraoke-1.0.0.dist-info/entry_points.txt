@@ -1,0 +1,3 @@
+[console_scripts]
+pikaraoke=pikaraoke.app:main
+
