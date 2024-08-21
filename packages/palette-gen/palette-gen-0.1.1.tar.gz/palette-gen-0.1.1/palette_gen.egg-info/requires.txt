@@ -1,0 +1,4 @@
+Pillow
+rich
+scikit-learn
+numpy
