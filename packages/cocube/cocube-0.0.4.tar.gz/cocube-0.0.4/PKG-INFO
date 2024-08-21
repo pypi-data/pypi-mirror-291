@@ -1,0 +1,91 @@
+Metadata-Version: 2.3
+Name: cocube
+Version: 0.0.4
+Project-URL: Documentation, https://github.com/wwj718/cocube#readme
+Project-URL: Issues, https://github.com/wwj718/cocube/issues
+Project-URL: Source, https://github.com/wwj718/cocube
+Author-email: wwj718 <wuwenjie718@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: microblocks==0.9.1
+Description-Content-Type: text/markdown
+
+# cocube
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#Usage)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cocube
+```
+
+## Usage
+
+Save [this project(same as Snap!)](https://microblocksfun.cn/run/microblocks.html#project=https://wwj718.github.io/post/img/CoCube-server-dynatalk-v1.ubp) to your MicroBlocks device.
+
+```py
+# pip install -U cocube
+from cocube import CoCube
+
+client = CoCube()
+found_devices = client.discover(timeout=3) # timeout=5 in windows
+print("found devices:", found_devices)
+client.connect("MicroBlocks QCQ", timeout=3)
+
+client.display_character("c")
+
+while True:
+    position_x = client.position_x
+    print(position_x)
+```
+
+ref: [Snap! 中的 CoCube 库](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/snap-cocube/)
+
+### Connect multiple devices
+
+```py
+from cocube import CoCube
+
+client = CoCube()
+found_devices = client.discover(timeout=5)
+print("found devices:", found_devices)
+# connect all discovered devices
+devices = [CoCube(i) for i in found_devices]
+
+for index, device in enumerate(devices):
+    device.display_character(index)
+```
+
+### Parallel Control
+
+```py
+from concurrent.futures import ThreadPoolExecutor
+
+# Launching parallel tasks: https://docs.python.org/3/library/concurrent.futures.html
+with ThreadPoolExecutor() as executor:
+    for client in devices:
+        executor.submit(client.scroll_text, "hello")
+```
+
+## demo
+
+ref: [notebooks](./notebooks)
+
+## License
+
+`cocube` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
