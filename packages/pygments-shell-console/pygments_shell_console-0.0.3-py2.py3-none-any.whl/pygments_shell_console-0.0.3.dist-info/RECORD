@@ -1,0 +1,13 @@
+./.gitignore,sha256=FnSsjtdIivYFvoDB86ILwfTCtHuFSTRnIpSDhf_Ifow,3139
+./README.md,sha256=IrkXvrrghtMChBymM5qUPNCi2tBpMDiv5VelQyvRT88,655
+./git_lexer.py,sha256=BaVUZuYeVTmf2U1mY3thc_1Zqw0w8XWgW4eaMSbyG4g,3541
+./pyproject.toml,sha256=DCoUjEJZSMaWBK-fEvhGgVCdndLyyoC2svDF9KMN4BU,690
+./shellconsole_lexer.py,sha256=zShkq2UhUj6C6mTzmQUKmYnmvnlCerHvnsRIQmb-Kyo,6443
+./shellconsole_style.py,sha256=A_x_80I1HbkdG4EkdiHBHiepHgqReZ8knwTvKTodewg,924
+./test.exmpl,sha256=uz3JuF1zRFfXxoineD4JkjiXrYxj8Bb59clswOlUAOg,2083
+./test.sh,sha256=j5F4voanbL1qSwhJICAmkShRecd85Ufn52RtUPu6EhE,89
+./.github/workflows/publish-to-pypi.yml,sha256=ThN4HbYli1GH7sOrPf7Kd-9XTndPgQYsSSESs8QHHvI,991
+pygments_shell_console-0.0.3.dist-info/METADATA,sha256=cQhyaJNJOwJ2-U4E79hFH0Ye-GFAf1t8vRFpVIorthA,786
+pygments_shell_console-0.0.3.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+pygments_shell_console-0.0.3.dist-info/entry_points.txt,sha256=YhT-iEUMlBV6glNjSpToxkIJFD0ptSSW_3N5uVTospY,153
+pygments_shell_console-0.0.3.dist-info/RECORD,,
