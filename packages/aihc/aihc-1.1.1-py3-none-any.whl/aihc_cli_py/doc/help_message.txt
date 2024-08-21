@@ -1,0 +1,17 @@
+aihc provide baige training task management capabilities.
+
+ Find more information at: xxxxxxxx
+ 
+Resources Management Commands:
+  pool       Manage resources related to resourcepools 
+  queue      Manage resources related to queue
+  job        Manage resources related to training tasks
+  logs       Print logs of training task
+
+Other Commands:
+  config     Modify the configuration file
+  version    Display the version information
+  help       Help imformation
+  
+Usage:
+  aihc [commands] [flags]
