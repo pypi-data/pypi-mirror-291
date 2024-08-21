@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+quickstatandeda/.DS_Store
+quickstatandeda/__init__.py
+quickstatandeda/autoregression.py
+quickstatandeda/dataframepreparation.py
+quickstatandeda/htmlpreparation.py
+quickstatandeda/quickstatandeda.py
+quickstatandeda.egg-info/PKG-INFO
+quickstatandeda.egg-info/SOURCES.txt
+quickstatandeda.egg-info/dependency_links.txt
+quickstatandeda.egg-info/top_level.txt
+test/test_quickstatandeda.py
