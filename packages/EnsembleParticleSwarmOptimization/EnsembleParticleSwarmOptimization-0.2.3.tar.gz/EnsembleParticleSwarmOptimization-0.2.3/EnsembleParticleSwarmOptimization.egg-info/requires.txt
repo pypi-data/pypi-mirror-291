@@ -1,0 +1,10 @@
+numpy>=1.15.0
+scipy
+pandas
+matplotlib
+scikit-learn
+pathos
+dill
+kneed
+seaborn
+pillow
