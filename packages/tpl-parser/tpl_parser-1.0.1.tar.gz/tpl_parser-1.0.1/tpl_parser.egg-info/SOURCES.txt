@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+TPLParser/__init__.py
+TPLParser/cli.py
+TPLParser/tpl_reader.py
+TPLParser/utils.py
+tpl_parser.egg-info/PKG-INFO
+tpl_parser.egg-info/SOURCES.txt
+tpl_parser.egg-info/dependency_links.txt
+tpl_parser.egg-info/entry_points.txt
+tpl_parser.egg-info/not-zip-safe
+tpl_parser.egg-info/top_level.txt
