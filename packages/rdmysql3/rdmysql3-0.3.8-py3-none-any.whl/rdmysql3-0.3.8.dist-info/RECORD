@@ -1,0 +1,12 @@
+rdmysql3/__init__.py,sha256=WurOhKrvPisUWRbZsDv2NN1mh9yciu5A3CS5ZA1ZC2I,246
+rdmysql3/archive.py,sha256=v5B3I9w63gJAzFIQtFQeI0twdHp-7rAYLUsNRakOqnM,3758
+rdmysql3/daily.py,sha256=BExqtJWOT4VyBrZL15-EW1vYvDQW_1k10T0dWOl49Iw,4391
+rdmysql3/database.py,sha256=LrIHkPJag7Xlm06uxsadtYWn5d2giqt8FbPWGZTjh_c,7371
+rdmysql3/expr.py,sha256=xuoz3t6ilqo5Pj9BHg0i-IGIltV9q9yfWqyzygJOZ3E,4898
+rdmysql3/row.py,sha256=rxfTdRyunHSLHPFJ8Hx3LqNaHV1Or2I2VNKMViSJGoI,1593
+rdmysql3/table.py,sha256=Y1x4IdqEFPbfF7DYKWsuANSE0q9Y63UQD4OG8KxH6b8,10984
+rdmysql3/utils.py,sha256=pBM2oj254ltCuwFRtD_iuAf5XyMyl4oDrSoiLmo7Vv8,1491
+rdmysql3-0.3.8.dist-info/LICENSE,sha256=-_iQ9ADUlM55Dj87ysZSPJPxahzWE1XmtviQBocQkGI,1125
+rdmysql3-0.3.8.dist-info/METADATA,sha256=iNuZTun45wkPLY-MeR1CSha3P7IZe_PJqMhd2oKzN9s,3398
+rdmysql3-0.3.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rdmysql3-0.3.8.dist-info/RECORD,,
