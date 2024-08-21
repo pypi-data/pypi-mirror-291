@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+m4811_spt_cli.egg-info/PKG-INFO
+m4811_spt_cli.egg-info/SOURCES.txt
+m4811_spt_cli.egg-info/dependency_links.txt
+m4811_spt_cli.egg-info/requires.txt
+m4811_spt_cli.egg-info/top_level.txt
