@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: sansmic
+Version: 1.0.0b1
+Summary: Sandia solution mining modeling software
+Author: SANSMIC authors
+Maintainer-email: David Hart <dbhart+sansmic@sandia.gov>
+License: # BSD 3-Clause "New" or "Revised" License
+        
+        Copyright 2024 National Technology & Engineering Solutions of Sandia, LLC 
+        (NTESS). Under the terms of Contract DE-NA0003525 with NTESS, the U.S. 
+        Government retains certain rights in this software.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Issues, https://github.com/sandialabs/sansmic/issues
+Project-URL: Repository, https://github.com/sandialabs/sansmic.git
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+
+![Lines of code](https://sloc.xyz/github/sandialabs/sansmic/?category=code)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+## SANSMIC
+
+SANSMIC (or sansmic) is research software developed to simulate the 
+leaching of salt caverns.
+Its primary use has been modeling the leaching for the caverns at the 
+U.S. Strategic Petroleum Reserve (SPR). 
+SANSMIC differs from other leaching software as it implements a 
+simultaneous leach+fill simulation which was used in the 1980s during the
+construction and original fill of the SPR Bryan Mound site. The primary 
+use for SANSMIC is for modeling liquid petroleum product storage caverns
+that use raw water for product withdrawals, and as a comparison point for
+newer salt disolution models.
+
+All lower-case 'sansmic' is used as the repository name and remaining
+documentation to differentiate this package from the older SANSMIC
+program written in FORTRAN - and because all-caps feels very loud. 
+The sansmic package provided here is a re-write of the original program 
+using the C++ and Python programming languages.
+
+
+### Installation
+The sansmic package requires Python 3.9 or greater and at least the 
+numpy and pandas packages.
+
+Installation can be accomplished most easily by using the PyPI. 
+It can also be installed by downloading a wheel from the [releases] 
+in this repository, or by cloning this repository and building it
+yourself. (Because there is C++ code at its core, building it from
+scratch requires a C++ compiler and the pybind11 package - but 
+if you are building this from scratch, you're probably okay with that
+:grin: )
+
+
+#### PyPI
+To install a pre-compiled version of sansmic, use the pip command
+
+    python -m pip install sansmic
+
+
+#### Download a wheel
+
+
+#### Build from source
+
+
+### Usage
+
+Once installed, you can use
+
+    sansmic --help
+
+to get help on how to run sansmic from the command line.
+For more detailed usage and API information, please see
+[our documentation][docs].
+
+
+### License & Copyright
+See [LICENSE.md](LICENSE.md) and [COPYRIGHT.md](COPYRIGHT.md).
+
