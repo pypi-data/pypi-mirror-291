@@ -1,0 +1,13 @@
+[console_scripts]
+board = tbuild:board_main
+buildserver = tbuild:buildserver_main
+mainserver = tbuild:mainserver_main
+mkuenv = tbuild:mkimg_main
+ndb = tbuild:ndb_main
+nflash = tbuild:sel4flash_main
+nrun = tbuild:sel4run_main
+sel4flash = tbuild:sel4flash_main
+sel4run = tbuild:sel4run_main
+tapnet = tbuild:tapnet_main
+tb = tbuild:tb_main
+tbuild = tbuild:niobuild_main
