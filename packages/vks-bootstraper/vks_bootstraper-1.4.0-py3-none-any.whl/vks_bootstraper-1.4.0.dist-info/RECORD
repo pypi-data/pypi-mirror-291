@@ -1,0 +1,10 @@
+vks_bootstraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vks_bootstraper/__main__.py,sha256=vX7Bd_s_LjB78BCr3Cd4m0mQliKJTbt_bxc957R1Vng,674
+vks_bootstraper/metadata.py,sha256=EokLcrDI9yeN44jR4Cd61Olob2DgEpihhsMf8EraCiM,6945
+vks_bootstraper/ssh_utils.py,sha256=k1PHHKdjsa7nHznKBXkVhHPNctVFLa23yVCXs6HVlZE,1568
+vks_bootstraper-1.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vks_bootstraper-1.4.0.dist-info/METADATA,sha256=uli-yHe8hH4Un4O5j_gwOYw16ozsPjHFlniq1GrcFaM,2423
+vks_bootstraper-1.4.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+vks_bootstraper-1.4.0.dist-info/entry_points.txt,sha256=TH8yPWKGlK48Yl6nLWK_Z4dncrNSniFkYNuxnM9F5dY,65
+vks_bootstraper-1.4.0.dist-info/top_level.txt,sha256=dT9C5h17N1EyNaZhLk9kH8UUG9JBSbktU6AHuh9WS2c,16
+vks_bootstraper-1.4.0.dist-info/RECORD,,
