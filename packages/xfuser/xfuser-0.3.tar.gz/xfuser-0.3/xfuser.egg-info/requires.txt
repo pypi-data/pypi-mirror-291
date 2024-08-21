@@ -1,0 +1,8 @@
+torch>=2.3.0
+diffusers>=0.30.0
+transformers>=4.39.1
+sentencepiece>=0.1.99
+accelerate==0.33.0
+beautifulsoup4>=4.12.3
+distvae
+ftfy>=6.2.0
