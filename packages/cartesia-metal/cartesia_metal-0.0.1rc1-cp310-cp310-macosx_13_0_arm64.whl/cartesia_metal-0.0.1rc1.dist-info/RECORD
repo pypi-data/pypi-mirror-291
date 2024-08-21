@@ -1,0 +1,10 @@
+cartesia_metal/__init__.py,sha256=648bZ-99oFaLJKGQXOE7Dha4Ve-DX-gQAmR7qGJRY5Q,225
+cartesia_metal/_ext.cpython-310-darwin.so,sha256=sjiZaGrKrsCNtquijTIE6atv75PPh3tnq7EdAoNuBP8,168103
+cartesia_metal/interface.py,sha256=iDCCVuAp3Q3kPa-fDtmQDhxxNxs7KGMopml6FlZpzw0,3633
+cartesia_metal/libmlx_ext.dylib,sha256=h-wcJHk4eITHYKIznblmYKRtNEKIXmWivqO-9MZlj6o,113373
+cartesia_metal/mlx_ext.metallib,sha256=r2q47PIkf1INvRn2A8UMSzmjUQXno8XDhfSRj2BXTKQ,54940
+cartesia_metal/version.py,sha256=7AZwZxkjjjoWQxlnMCvA3N9rUqnb9seSRQAk_iLxjjg,25
+cartesia_metal-0.0.1rc1.dist-info/METADATA,sha256=DiX9dqjL1OjGx51jY4FhnGtCVTnyDFYGBbFRt1HsVKI,566
+cartesia_metal-0.0.1rc1.dist-info/WHEEL,sha256=CXdofqqwJXOO9y9uMGwQfbassWObOBNdPJZK3UPlcIM,110
+cartesia_metal-0.0.1rc1.dist-info/top_level.txt,sha256=PMqyL6z29dCutWCmBLv_UocBE28Bj2QZD_V44ysU6O8,15
+cartesia_metal-0.0.1rc1.dist-info/RECORD,,

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cartesia-metal
+Version: 0.0.1rc1
+Summary: The official Cartesia metal bindings.
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+
+# Cartesia Metal
+
+This package contains Metal kernels for fast on-device SSM inference on Apple silicon. 
+
+## Installation
+To install this package, first install Xcode which can be downloaded from https://developer.apple.com/xcode/.
+Accept the license agreement with:
+
+```shell 
+sudo xcodebuild -license
+```
+
+Install the package:
+```shell 
+pip install cartesia-metal
+```
