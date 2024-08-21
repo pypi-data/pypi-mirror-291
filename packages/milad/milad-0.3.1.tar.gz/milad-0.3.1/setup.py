@@ -1,0 +1,73 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+__author__ = "Martin Uhrin"
+__contributors__ = "Sonia Collaud"
+__license__ = "GPLv3"
+
+about = {}
+with open("milad/version.py") as f:
+    exec(f.read(), about)  # nosec
+
+setup(
+    name="milad",
+    version=about["__version__"],
+    description="Moment Invariants Local Atomic Descriptor",
+    long_description=open("README.rst").read(),
+    url="https://github.com/muhrin/milad.git",
+    author="Martin Uhrin",
+    author_email="martin.uhrin.10@ucl.ac.uk",
+    license=__license__,
+    classifiers=[
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+    ],
+    keywords="machine learning, atomic descriptor, moment invariants",
+    python_requires=">=3.6",
+    install_requires=[
+        "dscribe",
+        "matplotlib",
+        "miniball",
+        "numba",
+        "numpy",
+        "rmsd",
+        "torch",
+        "scipy",
+        "sympy",
+        "scikit-learn",
+        "scikit-image",
+        "typing-extensions",
+    ],
+    extras_require={
+        "dev": [
+            "ipython",
+            "pip",
+            "pytest~=7.2",
+            "pytest-cov",
+            "pre-commit~=2.2",
+            "twine",
+        ],
+        #        'functorch':
+        #        ['torch==1.9.0.dev20210604', 'functorch @ git+https://github.com/zou3519/functorch.git#egg=functorch']
+    },
+    dependency_links=[
+        "https://download.pytorch.org/whl/nightly/cu102/torch_nightly.html"
+    ],
+    packages=[
+        "milad",
+        "milad.dat",
+        "milad.descriptors",
+        "milad.models",
+        "milad.optimisers",
+        "milad.play",
+        "milad.invariants",
+    ],
+    include_package_data=True,
+    test_suite="test",
+    entry_points={
+        "mincepy.plugins.types": ["milad_types = milad.provides:get_mince_types"],
+    },
+)
