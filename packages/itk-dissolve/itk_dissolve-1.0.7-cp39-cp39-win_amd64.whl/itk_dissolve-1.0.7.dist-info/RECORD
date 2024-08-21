@@ -1,0 +1,14 @@
+itk/DissolvePython.py,sha256=yn-hJnXNEJo1SL3SUhiZbwG7xnWiGf5-d1UUGaZEGhM,2207
+itk/_DissolvePython.pyd,sha256=bLlrwFT-WpVA0sv3IZdp_rhGn8xE7UvFjVp2wcSC1Jg,1163264
+itk/__init_dissolve__.py,sha256=o72K9MZd_rs-tv2c2VqHAnw3kaRrYtu5axbtGhMwUFI,1384
+itk/itkDissolveMaskImageFilterPython.py,sha256=BwOPwGmtOfp3UrR5FlFoPVnQ3UT-z0bhpsW_C5VK1ps,131293
+itk/Configuration/DissolveConfig.py,sha256=RCZ-JN8_Foj9dRun4UeV_hyE0RaXdCkJk7M_R9EHjKE,5143
+itk/Configuration/Dissolve_snake_case.py,sha256=_Q8RW6TJi6XOk6pu-iOqNvuykSuQ4GVm2reCms71BL4,57
+itk_dissolve-1.0.7.dist-info/licenses/LICENSE,sha256=ElXTxn8mkXPrambDtwUL2ylMi0hBTdr5gYp2Zg82tBk,1092
+itk_dissolve.libs/.load-order-itk_dissolve-1.0.7,sha256=KPQ4liKDd3FKH5bk1FSwWY5X1xJ5X_7v2znxVTKFvlk,23
+itk_dissolve.libs/msvcp140.dll,sha256=4W5GO3c_QW_WWjJfUJOQyDLlV4Q3BEo3GE2JsmVwSQI,575056
+itk_dissolve.libs/tbb12.dll,sha256=uAYeUFrGU4BfPGbeEDcO5SoBUd0xLQeYCBIUMYGAUwA,313344
+itk_dissolve-1.0.7.dist-info/DELVEWHEEL,sha256=uWy83Zl950d832Xv63izwpyaPFRc8EaZiRwlpI4_yjw,273
+itk_dissolve-1.0.7.dist-info/METADATA,sha256=skxWwq-Bto48gJ6-9vbshQEWIvIi2AnYWY2w2T7ePSc,4562
+itk_dissolve-1.0.7.dist-info/WHEEL,sha256=O59OH6HWS0qEo99zZuNwlIOExDvwOargVbzIZ_RDhfs,104
+itk_dissolve-1.0.7.dist-info/RECORD,,
