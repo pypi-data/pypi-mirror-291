@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pypi_dic/__init__.py
+pypi_dic/pdf2image.py
+pypi_dic/pdf2text.py
+pypi_dic.egg-info/PKG-INFO
+pypi_dic.egg-info/SOURCES.txt
+pypi_dic.egg-info/dependency_links.txt
+pypi_dic.egg-info/top_level.txt
