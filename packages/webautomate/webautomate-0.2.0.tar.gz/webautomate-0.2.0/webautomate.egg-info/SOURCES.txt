@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+webautomate/__init__.py
+webautomate/browser_controller.py
+webautomate/test.py
+webautomate.egg-info/PKG-INFO
+webautomate.egg-info/SOURCES.txt
+webautomate.egg-info/dependency_links.txt
+webautomate.egg-info/requires.txt
+webautomate.egg-info/top_level.txt
