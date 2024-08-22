@@ -1,0 +1,10 @@
+open_radar_data/__init__.py,sha256=3faSn89FByIUdFwahl0jaS2KGY2a0aYBccc3JVlWPW0,390
+open_radar_data/dataset.py,sha256=dUAJFTIjwEvyrFA5bq2qAwAwmiYtiEBwI4gpaMTfXec,937
+open_radar_data/registry.txt,sha256=7ky1nLngeS7XjrWjlAcsmfDMT4KwE0Ro_mgOGuMdcgI,10039
+open_radar_data/version.py,sha256=HzPz9rq3s1AiZXregKlqKaJJ2wGMtvH_a3V9la9CnpM,411
+open_radar_data/tests/test_dataset.py,sha256=7cT-y0SDrHTI3m4gNjAArDGpQ5pWJpRBbjgEkPtZH4w,245
+open_radar_data-0.3.1.dist-info/LICENSE,sha256=N-g9AEymfpoCrc_-sA80mejhALyIFMK3C___l7aJVEM,1071
+open_radar_data-0.3.1.dist-info/METADATA,sha256=nU-PKlZcpDCRr6ddBLPD2Uh7iSyvpulvj_3iLGgoHJc,8476
+open_radar_data-0.3.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+open_radar_data-0.3.1.dist-info/top_level.txt,sha256=I_HBfu4eK4CkwqBVnh0_7D97zhWGtYncUADtFSsmDKk,16
+open_radar_data-0.3.1.dist-info/RECORD,,
