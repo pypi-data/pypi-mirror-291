@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: flask-mongo-crud
+Version: 0.0.25
+Summary: Automatically generates CRUD endpoints from defined models
+Home-page: 
+Author: Valentine Sean Chanengeta
+Author-email: 
+License: MIT
+Keywords: flask-crud,flask-mongo-crud
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: blinker==1.6.2
+Requires-Dist: click==8.1.7
+Requires-Dist: colorama==0.4.6
+Requires-Dist: dnspython==2.4.2
+Requires-Dist: executing==2.0.0
+Requires-Dist: Flask==3.0.0
+Requires-Dist: Flask-PyMongo==2.3.0
+Requires-Dist: itsdangerous==2.1.2
+Requires-Dist: Jinja2==3.1.2
+Requires-Dist: MarkupSafe==2.1.3
+Requires-Dist: pymongo==4.5.0
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: varname==0.12.0
+Requires-Dist: Werkzeug==3.0.0
+
+=================================
+Flask-Mongo-CRUD
+=================================
+flask-mongo-crud is a Flask extension which generates CRUD endpoints out of the box from defined models of the mongo database. This initiative was driven by the tedious nature of manually writing CRUD logic for every application entity in Flask applications.
+
+Features
+===============
+- Automatically generates CRUD endpoints from defined model.
+- Allows to specify custom MongoDB collection name of each model.
+- Allows to customize app base URL as well as each model's url prefix.
+- Allows to paginate when getting many documents from collection. ***TO BE IMPROVED***
+- Allows documents sorting (Ascending or Descending order). ***COMING SOON***
+
+Installation
+===============
+You can install flask-mongo-crud via Python Package Index:
+
+.. code:: bash
+
+    pip install flask-mongo-crud
+
+Documentation
+===============
+
+`See Flask Mongo CRUD's Documentation. <https://github.com/ValentineSean/flask-mongo-crud>`_
