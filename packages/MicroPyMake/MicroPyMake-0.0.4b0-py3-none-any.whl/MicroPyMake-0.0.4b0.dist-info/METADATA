@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: MicroPyMake
+Version: 0.0.4b0
+Summary: The PyPI package of mpymake command
+Author-email: CycleBai <iscyclebai@outlook.com>
+Requires-Dist: keyboard
+Requires-Dist: mpremote
+Requires-Dist: toml
+Requires-Dist: requests
+Requires-Dist: esptool
+
