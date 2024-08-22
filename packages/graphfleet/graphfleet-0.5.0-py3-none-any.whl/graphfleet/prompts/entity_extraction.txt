@@ -1,0 +1,276 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity, first identify all entities needed from the text in order to capture the information and ideas in the text.
+Next, report all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: Suggest several labels or categories for the entity. The categories should not be specific, but should be as general as possible.
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in The primary language of the provided text is "English." as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into The primary language of the provided text is "English.", just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+text:
+<<<<<<< HEAD
+ he tasks studied in the lab thus far have tended to 
+be those for which researchers hypothesized generative AI would 
+perform well . This was, in fact, the focus of most of the studies 
+presented in the first AI and Productivity report we published  
+(Cambon et al. 2023) . Actual information work , however, often 
+includes a huge variety of tasks  and much of the unstructured and 
+informal work in people’s jobs is not yet directly supported by the 
+first-generation of generative AI tools.  Software developer 
+workflows , for example,  involve far more than the hands-on coding supported by GitHub Copilot (Meyer et al. 2017). The ability to 
+shed light on generative AI's productivity dynamics in the natural 
+complexity of entire workflows is a key advantage of field studies 
+of generative AI’s productivity impacts , and a major reason we 
+hope to see many more field studies emerging in the literature
+------------------------
+output:
+("entity"{tuple_delimiter}LAB{tuple_delimiter}LOCATION, RESEARCH ENVIRONMENT{tuple_delimiter}The lab is where tasks are studied to hypothesize the performance of generative AI)
+{record_delimiter}
+("entity"{tuple_delimiter}GENERATIVE AI{tuple_delimiter}TECHNOLOGY, TOOL{tuple_delimiter}Generative AI refers to artificial intelligence systems that can generate content, such as text, based on input data)
+{record_delimiter}
+("entity"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}DOCUMENT, PUBLICATION{tuple_delimiter}A report published by Cambon et al. in 2023 focusing on the performance of generative AI in various tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}INFORMATION WORK{tuple_delimiter}ACTIVITY, TASK{tuple_delimiter}Information work includes a variety of tasks, often unstructured and informal, that are part of people's jobs)
+{record_delimiter}
+("entity"{tuple_delimiter}FIRST-GENERATION GENERATIVE AI TOOLS{tuple_delimiter}TECHNOLOGY, TOOL{tuple_delimiter}The initial versions of generative AI tools that support specific tasks but not the full range of unstructured work)
+{record_delimiter}
+("entity"{tuple_delimiter}SOFTWARE DEVELOPER WORKFLOWS{tuple_delimiter}ACTIVITY, TASK{tuple_delimiter}The comprehensive set of activities involved in software development, beyond just coding)
+{record_delimiter}
+("entity"{tuple_delimiter}GITHUB COPILOT{tuple_delimiter}TECHNOLOGY, TOOL{tuple_delimiter}A generative AI tool that assists with hands-on coding tasks for software developers)
+{record_delimiter}
+("entity"{tuple_delimiter}FIELD STUDIES{tuple_delimiter}RESEARCH METHOD, STUDY TYPE{tuple_delimiter}Studies conducted in natural settings to observe the real-world impacts of generative AI on productivity)
+{record_delimiter}
+("entity"{tuple_delimiter}PRODUCTIVITY DYNAMICS{tuple_delimiter}CONCEPT, PHENOMENON{tuple_delimiter}The various factors and interactions that affect productivity when using generative AI in real-world workflows)
+{record_delimiter}
+("entity"{tuple_delimiter}LITERATURE{tuple_delimiter}BODY OF WORK, RESEARCH{tuple_delimiter}The collection of academic and professional studies and publications on a given topic)
+{record_delimiter}
+("relationship"{tuple_delimiter}LAB{tuple_delimiter}GENERATIVE AI{tuple_delimiter}The lab is where tasks are studied to hypothesize the performance of generative AI{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}GENERATIVE AI{tuple_delimiter}The report focuses on the performance of generative AI in various tasks{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}INFORMATION WORK{tuple_delimiter}FIRST-GENERATION GENERATIVE AI TOOLS{tuple_delimiter}First-generation generative AI tools do not yet directly support much of the unstructured and informal information work{tuple_delimiter}6)
+{record_delimiter}
+("relationship"{tuple_delimiter}SOFTWARE DEVELOPER WORKFLOWS{tuple_delimiter}GITHUB COPILOT{tuple_delimiter}GitHub Copilot supports hands-on coding, which is a part of software developer workflows{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}FIELD STUDIES{tuple_delimiter}PRODUCTIVITY DYNAMICS{tuple_delimiter}Field studies help shed light on the productivity dynamics of generative AI in real-world settings{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}FIELD STUDIES{tuple_delimiter}LITERATURE{tuple_delimiter}The hope is to see more field studies emerging in the literature to understand generative AI's productivity impacts{tuple_delimiter}7)
+=======
+ (2024). The 
+Use of Generative Search Engines for Knowledge Work and Complex 
+Tasks. arXiv preprint. https://doi.org/10.48550/arXiv.2404.04268 . 
+Tankelevitch *, L., Kewenig *, V., Simkute, A., Scott, A. E., Sarkar, A., Sellen, A., & 
+Rintel, S. (2024). The Metacognitive Demands and Opportunities of Generative 
+AI. In Proceedings of the CHI Conference on Human Factors in Computing 
+Systems (pp. 1-24). https://doi.org/10.1145/3613904.3642902 . 
+Taraborelli, D.  (2015). The Sum of All Human Knowledge in the Age of Machines: A 
+New Research Agenda for Wikimedia. ICWSM -15 Workshop on Wikipedia, a 
+Social Pedia: Research Challenges and Opportunities .
+------------------------
+output:
+("entity"{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}TECHNOLOGY{tuple_delimiter}Generative search engines are AI-driven tools used for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}KNOWLEDGE WORK{tuple_delimiter}ACTIVITY{tuple_delimiter}Knowledge work involves tasks that require significant cognitive effort and expertise)
+{record_delimiter}
+("entity"{tuple_delimiter}COMPLEX TASKS{tuple_delimiter}ACTIVITY{tuple_delimiter}Complex tasks are activities that require advanced problem-solving and critical thinking skills)
+{record_delimiter}
+("entity"{tuple_delimiter}ARXIV{tuple_delimiter}PLATFORM{tuple_delimiter}arXiv is an open-access repository for research papers)
+{record_delimiter}
+("entity"{tuple_delimiter}CHI CONFERENCE{tuple_delimiter}EVENT{tuple_delimiter}The CHI Conference on Human Factors in Computing Systems is an annual event focusing on human-computer interaction)
+{record_delimiter}
+("entity"{tuple_delimiter}WIKIMEDIA{tuple_delimiter}ORGANIZATION{tuple_delimiter}Wikimedia is a non-profit organization that supports Wikipedia and other free knowledge projects)
+{record_delimiter}
+("entity"{tuple_delimiter}TANKELEVITCH, L.{tuple_delimiter}PERSON{tuple_delimiter}L. Tankelevitch is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}KEWENIG, V.{tuple_delimiter}PERSON{tuple_delimiter}V. Kewenig is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}SIMKUTE, A.{tuple_delimiter}PERSON{tuple_delimiter}A. Simkute is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}SCOTT, A. E.{tuple_delimiter}PERSON{tuple_delimiter}A. E. Scott is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}SARKAR, A.{tuple_delimiter}PERSON{tuple_delimiter}A. Sarkar is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}SELLEN, A.{tuple_delimiter}PERSON{tuple_delimiter}A. Sellen is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}RINTEL, S.{tuple_delimiter}PERSON{tuple_delimiter}S. Rintel is an author of a paper on generative search engines for knowledge work and complex tasks)
+{record_delimiter}
+("entity"{tuple_delimiter}TARABORELLI, D.{tuple_delimiter}PERSON{tuple_delimiter}D. Taraborelli is an author of a paper on the impact of machines on human knowledge)
+{record_delimiter}
+("entity"{tuple_delimiter}ICWSM{tuple_delimiter}EVENT{tuple_delimiter}ICWSM is a conference focusing on social media research)
+{record_delimiter}
+("relationship"{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}KNOWLEDGE WORK{tuple_delimiter}Generative search engines are used for knowledge work{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}COMPLEX TASKS{tuple_delimiter}Generative search engines are used for complex tasks{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}TANKELEVITCH, L.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}L. Tankelevitch authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}KEWENIG, V.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}V. Kewenig authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}SIMKUTE, A.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}A. Simkute authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}SCOTT, A. E.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}A. E. Scott authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}SARKAR, A.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}A. Sarkar authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}SELLEN, A.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}A. Sellen authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}RINTEL, S.{tuple_delimiter}GENERATIVE SEARCH ENGINES{tuple_delimiter}S. Rintel authored a paper on generative search engines{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}TARABORELLI, D.{tuple_delimiter}WIKIMEDIA{tuple_delimiter}D. Taraborelli authored a paper on Wikimedia's research agenda{tuple_delimiter}6)
+{record_delimiter}
+("relationship"{tuple_delimiter}ICWSM{tuple_delimiter}WIKIMEDIA{tuple_delimiter}Wikimedia's research agenda was presented at the ICWSM conference{tuple_delimiter}5)
+>>>>>>> origin/main
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+text:
+<<<<<<< HEAD
+Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., and Liang, P. (2023). Lost
+in the middle: How language models use long contexts. arXiv:2307.03172.
+Liu, Y . and Lapata, M. (2019). Hierarchical transformers for multi-document summarization. arXiv
+preprint arXiv:1905.13164 .
+LlamaIndex (2024). LlamaIndex Knowledge Graph Index. https://docs .llamaindex .ai/en/stable/
+examples/index structs/knowledge graph/KnowledgeGraphDemo .html.
+Manakul, P., Liusie, A., and Gales, M. J. (2023). Selfcheckgpt: Zero-resource black-box hallucina-
+tion detection for generative large language models. arXiv preprint ar
+------------------------
+output:
+("entity"{tuple_delimiter}LIU, N. F.{tuple_delimiter}PERSON{tuple_delimiter}Liu, N. F. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}LIN, K.{tuple_delimiter}PERSON{tuple_delimiter}Lin, K. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}HEWITT, J.{tuple_delimiter}PERSON{tuple_delimiter}Hewitt, J. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}PARANJAPE, A.{tuple_delimiter}PERSON{tuple_delimiter}Paranjape, A. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}BEVILACQUA, M.{tuple_delimiter}PERSON{tuple_delimiter}Bevilacqua, M. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}PETRONI, F.{tuple_delimiter}PERSON{tuple_delimiter}Petroni, F. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}LIANG, P.{tuple_delimiter}PERSON{tuple_delimiter}Liang, P. is an author of the paper "Lost in the middle: How language models use long contexts" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}LIU, Y.{tuple_delimiter}PERSON{tuple_delimiter}Liu, Y. is an author of the paper "Hierarchical transformers for multi-document summarization" published in 2019)
+{record_delimiter}
+("entity"{tuple_delimiter}LAPATA, M.{tuple_delimiter}PERSON{tuple_delimiter}Lapata, M. is an author of the paper "Hierarchical transformers for multi-document summarization" published in 2019)
+{record_delimiter}
+("entity"{tuple_delimiter}LLAMAINDEX{tuple_delimiter}ORGANIZATION{tuple_delimiter}LlamaIndex is an organization that developed the LlamaIndex Knowledge Graph Index, with documentation available online)
+{record_delimiter}
+("entity"{tuple_delimiter}MANAKUL, P.{tuple_delimiter}PERSON{tuple_delimiter}Manakul, P. is an author of the paper "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}LIUSIE, A.{tuple_delimiter}PERSON{tuple_delimiter}Liusie, A. is an author of the paper "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}GALES, M. J.{tuple_delimiter}PERSON{tuple_delimiter}Gales, M. J. is an author of the paper "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models" published in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}DOCUMENT{tuple_delimiter}A paper published in 2023 by Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., and Liang, P.)
+{record_delimiter}
+("entity"{tuple_delimiter}HIERARCHICAL TRANSFORMERS FOR MULTI-DOCUMENT SUMMARIZATION{tuple_delimiter}DOCUMENT{tuple_delimiter}A paper published in 2019 by Liu, Y. and Lapata, M.)
+{record_delimiter}
+("entity"{tuple_delimiter}SELFCHECKGPT: ZERO-RESOURCE BLACK-BOX HALLUCINATION DETECTION FOR GENERATIVE LARGE LANGUAGE MODELS{tuple_delimiter}DOCUMENT{tuple_delimiter}A paper published in 2023 by Manakul, P., Liusie, A., and Gales, M. J.)
+{record_delimiter}
+("relationship"{tuple_delimiter}LIU, N. F.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Liu, N. F. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LIN, K.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Lin, K. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}HEWITT, J.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Hewitt, J. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}PARANJAPE, A.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Paranjape, A. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}BEVILACQUA, M.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Bevilacqua, M. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}PETRONI, F.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Petroni, F. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LIANG, P.{tuple_delimiter}LOST IN THE MIDDLE: HOW LANGUAGE MODELS USE LONG CONTEXTS{tuple_delimiter}Liang, P. is an author of the paper "Lost in the middle: How language models use long contexts"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LIU, Y.{tuple_delimiter}HIERARCHICAL TRANSFORMERS FOR MULTI-DOCUMENT SUMMARIZATION{tuple_delimiter}Liu, Y. is an author of the paper "Hierarchical transformers for multi-document summarization"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LAPATA, M.{tuple_delimiter}HIERARCHICAL TRANSFORMERS FOR MULTI-DOCUMENT SUMMARIZATION{tuple_delimiter}Lapata, M. is an author of the paper "Hierarchical transformers for multi-document summarization"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}MANAKUL, P.{tuple_delimiter}SELFCHECKGPT: ZERO-RESOURCE BLACK-BOX HALLUCINATION DETECTION FOR GENERATIVE LARGE LANGUAGE MODELS{tuple_delimiter}Manakul, P. is an author of the paper "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LIUSIE, A.{tuple_delimiter}SELFCHECKGPT: ZERO-RESOURCE BLACK-BOX HALLUCINATION DETECTION FOR GENERATIVE LARGE LANGUAGE MODELS{tuple_delimiter}Liusie, A. is an author of the paper "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}GALES, M. J.{tuple_delimiter}SELFCHECKGPT: ZERO-RESOURCE BLACK-BOX HALLUCINATION DETECTION FOR GENERATIVE LARGE LANGUAGE MODELS{tuple_delimiter}Gales, M. J. is an author of the paper "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models"{tuple_delimiter}9)
+=======
+: The Second Microsoft Report on AI and Productivity 
+Research. Microsoft.  
+1 INTRODUCTION  
+There is tremendous  interest in how AI can increase people’s 
+productivity at work. To help meet this interest, in December 2023, 
+Microsoft released a first AI and Productivity Report  (Cambon et 
+al. 2023) synthesizing the results of many Microsoft studies on AI 
+and productivity. These studies contributed to a large and growing 
+literature from around the world and a wide variety of disciplines. 
+Although there are exceptions, this literature largely points to a 
+broad conclusion: Generative AI tools have the potential to 
+introduce  a substantial step -function increase in productivity for tasks performed by information workers (e.g. , Noy and Zhang 
+2023; Dell’Acqua et al. 2023; Brynjolfsson et al. 2023; Peng et al. 
+2023). 
+ 
+However, much of this
+------------------------
+output:
+("entity"{tuple_delimiter}MICROSOFT{tuple_delimiter}ORGANIZATION{tuple_delimiter}Microsoft is a technology company that released the AI and Productivity Report)
+{record_delimiter}
+("entity"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}DOCUMENT{tuple_delimiter}The AI and Productivity Report is a document released by Microsoft in December 2023, synthesizing results of studies on AI and productivity)
+{record_delimiter}
+("entity"{tuple_delimiter}CAMBON ET AL. 2023{tuple_delimiter}STUDY{tuple_delimiter}A study included in the AI and Productivity Report, authored by Cambon and others in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}NOY AND ZHANG 2023{tuple_delimiter}STUDY{tuple_delimiter}A study referenced in the AI and Productivity Report, authored by Noy and Zhang in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}DELL’ACQUA ET AL. 2023{tuple_delimiter}STUDY{tuple_delimiter}A study referenced in the AI and Productivity Report, authored by Dell’Acqua and others in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}BRYNJOLFSSON ET AL. 2023{tuple_delimiter}STUDY{tuple_delimiter}A study referenced in the AI and Productivity Report, authored by Brynjolfsson and others in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}PENG ET AL. 2023{tuple_delimiter}STUDY{tuple_delimiter}A study referenced in the AI and Productivity Report, authored by Peng and others in 2023)
+{record_delimiter}
+("entity"{tuple_delimiter}GENERATIVE AI TOOLS{tuple_delimiter}TECHNOLOGY{tuple_delimiter}Generative AI tools are technologies that have the potential to significantly increase productivity for information workers)
+{record_delimiter}
+("relationship"{tuple_delimiter}MICROSOFT{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}Microsoft released the AI and Productivity Report in December 2023{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}CAMBON ET AL. 2023{tuple_delimiter}The AI and Productivity Report includes the study by Cambon et al. 2023{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}NOY AND ZHANG 2023{tuple_delimiter}The AI and Productivity Report references the study by Noy and Zhang 2023{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}DELL’ACQUA ET AL. 2023{tuple_delimiter}The AI and Productivity Report references the study by Dell’Acqua et al. 2023{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}BRYNJOLFSSON ET AL. 2023{tuple_delimiter}The AI and Productivity Report references the study by Brynjolfsson et al. 2023{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}AI AND PRODUCTIVITY REPORT{tuple_delimiter}PENG ET AL. 2023{tuple_delimiter}The AI and Productivity Report references the study by Peng et al. 2023{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}GENERATIVE AI TOOLS{tuple_delimiter}INFORMATION WORKERS{tuple_delimiter}Generative AI tools have the potential to significantly increase productivity for information workers{tuple_delimiter}7)
+>>>>>>> origin/main
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+text: {input_text}
+######################
+output:
