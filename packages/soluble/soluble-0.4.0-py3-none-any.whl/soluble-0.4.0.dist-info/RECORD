@@ -1,0 +1,13 @@
+soluble/conf.py,sha256=26PdNR3V3kDMxfZwxRUwciJB8lQf5_4sI7VZ-jjfefg,3085
+soluble/scripts.py,sha256=NtsUBnAY59QmHkGfa8AZBvqTobnfmMqIeOKKpdfKB7E,145
+soluble/version.py,sha256=yhiWOz0HoJGRRI9-JQ2eh_0AbByy-6psK08-kpTSHJw,18
+soluble/soluble/init.py,sha256=qdTWSLBxmqhpKK5rAGMJGnI4wXygVYpNjI1AyJi_ulc,2164
+soluble/soluble/master.py,sha256=CP-0FbiDt-e9Wr49kP_lMGZRC9Gv292mXYSsoPXhfoc,1679
+soluble/soluble/minion.py,sha256=hrDwI5by-A8rd_Mkg3UljTfu1DF61aSBrXuPtsIHohU,3097
+soluble/soluble/ssh.py,sha256=Szh9G0IzKrNCqxh8elAK0DMPZ8QwhmOcmeECWXbQLUA,2145
+soluble-0.4.0.dist-info/LICENSE,sha256=Ck3yLk6pO2mdFhKzbRQ3DxnPTcm7DA6bKhzrAXOqBtw,11346
+soluble-0.4.0.dist-info/METADATA,sha256=z9Yt1ZWhjq0jvoB7zDDU-sDpv6pE_Fsqclp-GKiuF9Q,4664
+soluble-0.4.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+soluble-0.4.0.dist-info/entry_points.txt,sha256=0pziOZu16J1a1nHDietuC5ZQPSYYwHrJ4DhEouGnCjM,50
+soluble-0.4.0.dist-info/top_level.txt,sha256=De7gUcByN4gI_cfq3fmfOJOMkosFq0G81sfO1zgHNDo,8
+soluble-0.4.0.dist-info/RECORD,,
