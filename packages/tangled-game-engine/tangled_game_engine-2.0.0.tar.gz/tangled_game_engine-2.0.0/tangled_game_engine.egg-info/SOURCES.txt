@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+tangled_game_engine/__init__.py
+tangled_game_engine.egg-info/PKG-INFO
+tangled_game_engine.egg-info/SOURCES.txt
+tangled_game_engine.egg-info/dependency_links.txt
+tangled_game_engine.egg-info/requires.txt
+tangled_game_engine.egg-info/top_level.txt
+tangled_game_engine/tangled_game/__init__.py
+tangled_game_engine/tangled_game/game.py
+tangled_game_engine/tangled_game/game_types.py
+tangled_game_engine/tangled_game_agent/__init__.py
+tangled_game_engine/tangled_game_agent/base_agent.py
+tangled_game_engine/tangled_game_client/__init__.py
+tangled_game_engine/tangled_game_client/base_game_player.py
+tangled_game_engine/tangled_game_client/local_game_player.py
