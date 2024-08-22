@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: webautomate
+Version: 0.2.0
+Summary: A Python library for browser automation using Selenium
+Author: devcodes
+Author-email: devcodesjos@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium (==4.23.1)
+
+# BrowserController
+
+`BrowserController` is a Python library that simplifies browser automation using Selenium. It provides a set of utility methods for common web automation tasks, such as navigating to URLs, interacting with elements, handling iframes and windows, executing JavaScript, and more.
+
+## Installation
+
+To use `BrowserController`, you need to have the following installed:
+
+- Python 3.x
+- Selenium (`pip install selenium`)
+- ChromeDriver (Download the version compatible with your Chrome browser)
+
+## Usage
+
+### Initialization
+
+To get started, initialize the `BrowserController` class with the path to your ChromeDriver:
+
+```python
+from webautomate import BrowserController
+
+# Initialize the browser
+browser =  BrowserController(path_chrome_driver='/path/to/chromedriver.exe')
