@@ -1,0 +1,32 @@
+# OpenAI Utils
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openai-utils)
+![PyPI - License](https://img.shields.io/pypi/l/openai-utils)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/openai-utils)
+
+**OpenAI Utils** is a simple, reusable Python module that makes it easy to interact with the OpenAI API. It provides utility functions for generating text completions, listing available models, and more. This package is designed for developers who want to integrate OpenAI's powerful language models into their applications with minimal setup.
+
+## Features
+
+- **Text Completion**: Generate text based on a prompt using various OpenAI models.
+- **Model Listing**: Easily retrieve a list of available OpenAI models.
+- **Customizable**: Adjust parameters like temperature, max tokens, and more to fit your needs.
+
+## Installation
+
+You can install the package directly from PyPI:
+
+```bash
+pip install mahul-openai-utils
+
+## Usage
+
+```python
+from mahul_openai_utils import OpenAIUtils
+
+api_key = "your-openai-api-key"
+openai_client = OpenAIUtils(api_key=api_key)
+
+prompt = "Tell me a joke."
+response = openai_client.generate_response(prompt)
+print("Joke:", response)
