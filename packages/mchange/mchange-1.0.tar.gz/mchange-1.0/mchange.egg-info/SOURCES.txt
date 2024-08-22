@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mchange/__init__.py
+mchange.egg-info/PKG-INFO
+mchange.egg-info/SOURCES.txt
+mchange.egg-info/dependency_links.txt
+mchange.egg-info/requires.txt
+mchange.egg-info/top_level.txt
