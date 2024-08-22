@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: certbot-dns-he-ddns
+Version: 0.1.0
+Summary: Hurricane Electric dynamic DNS Authenticator plugin for Certbot
+Home-page: https://github.com/mafredri/certbot-dns-he-ddns
+Author: Mathias Fredriksson
+Author-email: mafredri@gmail.com
+License: MIT
+Keywords: certbot dns hurricane-electric dns-01
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: acme>=0.29.0
+Requires-Dist: certbot>=0.34.0
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: zope.interface
+
+cerbot-dns-he-ddns
+======================================
+
+`Hurricane Electric dynamic DNS <https://dns.he.net>`_ Authenticator
+plugin for `Certbot <https://certbot.eff.org>`_.
+
+This plugin automates the process of completing a ``dns-01`` challenge
+by updating, and subsequently clearing, TXT records using the
+`Hurricane Electric dynamic DNS API <https://dns.he.net/docs.html>`_.
+
+This method allows limiting access to specific records.
+
+----
+
+Installation
+------------
+
+::
+
+    pip install certbot-dns-he-ddns
+
+Alternatively, you can use
+``git+https://github.com/mafredri/certbot-dns-he-ddns.git``.
+
+Preparation
+-----------
+
+This plugin can only complete challenges for pre-existing
+``_acme-challenge.*`` DNS records that are of the ``TXT`` type and have
+the dynamic DNS feature enabled. To configure multiple domains they must
+share the same password.
+
+1. Add a new ``TXT`` record:
+
+   - Name: ``_acme-challenge.example.com``
+   - Text data: ``empty``
+   - TTL: 300
+   - *Enable entry for dynamic DNS* must be checked.
+
+2. Set the dynamic DNS key for the new record by pressing 🔃, it should
+   match the password configured for this plugin.
+
+Credentials
+-----------
+
+An example ``credentials.ini`` file:
+
+.. code-block:: ini
+
+   dns_he_ddns_password = verysecurepassword
+
+Examples
+--------
+
+To acquire a single certificate for both ``example.com`` and
+``*.example.com``, waiting 60 seconds for DNS propagation:
+
+.. code-block:: bash
+
+   certbot certonly \
+     --authenticator dns-he-ddns \
+     --dns-he-ddns-credentials /etc/letsencrypt/.secrets/dns-he-ddns.ini \
+     --dns-he-ddns-propagation-seconds 60 \
+     --server https://acme-v02.api.letsencrypt.org/directory \
+     --preferred-challenges dns \
+     --agree-tos \
+     --rsa-key-size 4096 \
+     -d 'example.com' \
+     -d '*.example.com'

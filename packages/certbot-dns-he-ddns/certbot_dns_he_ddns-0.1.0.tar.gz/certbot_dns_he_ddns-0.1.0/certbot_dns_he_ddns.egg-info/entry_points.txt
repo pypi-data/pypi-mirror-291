@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-he-ddns = certbot_dns_he_ddns.dns_he_ddns:Authenticator
