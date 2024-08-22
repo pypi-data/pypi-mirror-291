@@ -1,0 +1,12 @@
+# config.yaml
+
+# Paths
+data_path: "dataset/car_prices.csv"
+model_save_path: "trained/model/car_rent_predictor.pkl"
+encoders_path: "trained/encoders/"
+scaler_path: "trained/scaler/"
+
+# Model Parameters
+random_state: 42
+test_size: 0.2
+max_depth: 13

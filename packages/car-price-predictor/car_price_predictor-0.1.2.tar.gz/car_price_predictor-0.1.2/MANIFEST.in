@@ -1,0 +1,13 @@
+include *.txt
+include *.md
+include *.yaml
+
+recursive-include car_price_predictor *.py
+recursive-include dataset *.csv
+recursive-include trained *
+
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
