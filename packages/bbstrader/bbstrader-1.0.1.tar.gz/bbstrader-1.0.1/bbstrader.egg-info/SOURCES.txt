@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bbstrader/__ini__.py
+bbstrader/strategies.py
+bbstrader/tseries.py
+bbstrader.egg-info/PKG-INFO
+bbstrader.egg-info/SOURCES.txt
+bbstrader.egg-info/dependency_links.txt
+bbstrader.egg-info/requires.txt
+bbstrader.egg-info/top_level.txt
