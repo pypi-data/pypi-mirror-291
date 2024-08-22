@@ -1,0 +1,8 @@
+getscraping/__init__.py,sha256=24UqsUKD3tPtHT7xs9dwYwRec2K6y0JVS3ztT16QqIo,55
+getscraping/client.py,sha256=umWCG9uFp6qwsNjrDFuFOPIGNchgYap1AafqJVeqEiE,3572
+getscraping/models.py,sha256=rSMRZEORN02iuxpOxnRobu-4KhYrgGUcPgNmBxF9SrQ,3929
+getscraping-1.0.0.dist-info/LICENSE,sha256=0b_Hp0mVCSS9XSfe5hCsiTP5a63BSndL55bphrnc06o,32423
+getscraping-1.0.0.dist-info/METADATA,sha256=mYXTLrn9VOANXjKhco_U7ursFd3Z6hA-ArPFM8mlDtk,45460
+getscraping-1.0.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+getscraping-1.0.0.dist-info/top_level.txt,sha256=XJN5FtZixXd0ZO7MjMmMtAaNQbv6iwpNDRjba3X4oXo,12
+getscraping-1.0.0.dist-info/RECORD,,
