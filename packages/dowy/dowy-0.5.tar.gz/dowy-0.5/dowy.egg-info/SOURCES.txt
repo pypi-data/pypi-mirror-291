@@ -1,0 +1,10 @@
+README.md
+setup.py
+dowy/__init__.py
+dowy/command_line.py
+dowy.egg-info/PKG-INFO
+dowy.egg-info/SOURCES.txt
+dowy.egg-info/dependency_links.txt
+dowy.egg-info/entry_points.txt
+dowy.egg-info/requires.txt
+dowy.egg-info/top_level.txt
