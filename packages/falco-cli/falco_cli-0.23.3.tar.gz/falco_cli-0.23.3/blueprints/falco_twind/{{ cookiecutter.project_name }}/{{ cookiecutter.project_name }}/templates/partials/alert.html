@@ -1,0 +1,16 @@
+{% if messages %}
+  {% for message in messages %}
+    <div x-data="{ open: true }" x-show="open">
+      <div class="flex p-4 mb-4 bg-{{ message.tags }}-100 border-t-4 border-{{ message.tags }}-500 dark:bg-{{ message.tags }}-200"
+           role="alert">
+        {% heroicon_outline "exclamation-triangle" class="flex-shrink-0 text-{{ message.tags }}-700" %}
+        <div class="ml-3 text-sm font-medium text-{{ message.tags }}-700">{{ message }}</div>
+        <button @click="open = false"
+                type="button"
+                class="justify-center items-center ml-auto -mx-1.5 -my-1.5 bg-{{ message.tags }}-100 dark:bg-{{ message.tags }}-200 text-{{ message.tags }}-500 rounded-lg focus:ring-2 focus:ring-{{ message.tags }}-400 p-1.5 hover:bg-{{ message.tags }}-200 dark:hover:bg-{{ message.tags }}-300 inline-flex h-8 w-8 alert-hidden">
+          {% heroicon_outline "x-mark" %}
+        </button>
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}
