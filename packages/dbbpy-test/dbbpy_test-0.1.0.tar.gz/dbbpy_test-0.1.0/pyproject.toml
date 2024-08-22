@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dbbpy-test"
+version = "0.1.0"
+description = ""
+authors = ["luca-donatelli <luca.donatelli1990@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21"
+pybind11 = "^2.6"
+
+[tool.poetry.scripts]
+compile_bindings = "dbbpy_test.compile:compile_bindings"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
