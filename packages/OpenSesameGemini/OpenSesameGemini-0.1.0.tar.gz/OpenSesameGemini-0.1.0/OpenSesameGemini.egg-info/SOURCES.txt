@@ -1,0 +1,9 @@
+README.md
+setup.py
+OpenSesameGemini.egg-info/PKG-INFO
+OpenSesameGemini.egg-info/SOURCES.txt
+OpenSesameGemini.egg-info/dependency_links.txt
+OpenSesameGemini.egg-info/requires.txt
+OpenSesameGemini.egg-info/top_level.txt
+opensesame_gemini/__init__.py
+opensesame_gemini/opensesame.py
