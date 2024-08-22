@@ -1,0 +1,9 @@
+click==7.1.2
+pyyaml
+requests
+workalendar
+pandas
+openpyxl
+bs4
+python-dateutil
+pyjsparser
