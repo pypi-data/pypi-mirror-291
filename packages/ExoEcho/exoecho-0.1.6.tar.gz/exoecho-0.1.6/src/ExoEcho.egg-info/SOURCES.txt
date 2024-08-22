@@ -1,0 +1,356 @@
+.gitattributes
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+src/ExoEcho/Analysis.ipynb
+src/ExoEcho/Ariel.py
+src/ExoEcho/Ariel_Target_Comparison_List.csv
+src/ExoEcho/Ariel_Target_List.csv
+src/ExoEcho/Billy_Edwards_Comparison.ipynb
+src/ExoEcho/EfficiencyTesting.ipynb
+src/ExoEcho/Functions.py
+src/ExoEcho/PlotPrecisionPlots.ipynb
+src/ExoEcho/Telescope.py
+src/ExoEcho/__init__.py
+src/ExoEcho/addTelescopes.ipynb
+src/ExoEcho/plotSNRProfiles.ipynb
+src/ExoEcho/plotTieredProfiles.ipynb
+src/ExoEcho/test_exoecho.ipynb
+src/ExoEcho.egg-info/PKG-INFO
+src/ExoEcho.egg-info/SOURCES.txt
+src/ExoEcho.egg-info/dependency_links.txt
+src/ExoEcho.egg-info/requires.txt
+src/ExoEcho.egg-info/top_level.txt
+src/ExoEcho/Ariel Observations/Ariel_MCS_Known_2024-03-27_ObservationTable.parquet
+src/ExoEcho/Ariel Observations/Ariel_MCS_TPCs_2024-03-27_ObservationTable.parquet
+src/ExoEcho/Billy Edwards Comparisons/Cumulative_Time_vs_Targets.png
+src/ExoEcho/Billy Edwards Comparisons/ESM_TSM_Observations_SNR.png
+src/ExoEcho/Billy Edwards Comparisons/ESM_TSM_Observations_diff.png
+src/ExoEcho/Billy Edwards Comparisons/ESM_TSM_SNR.png
+src/ExoEcho/Billy Edwards Comparisons/ExoEcho_Edwards_Observation_Diff.png
+src/ExoEcho/Results Plots/Cumulative_Time_vs_Targets Tier 1.png
+src/ExoEcho/Results Plots/Cumulative_Time_vs_Targets all Tiers.png
+src/ExoEcho/Results Plots/Cumulative_Time_vs_Targets.png
+src/ExoEcho/Results Plots/Number of Phase Curve Obsevations for Each Target.png
+src/ExoEcho/Results Plots/num_obs_snr.png
+src/ExoEcho/Results Plots/num_obs_snr_LimitedMethods_Tier1.png
+src/ExoEcho/Results Plots/num_obs_snr_LimitedMethods_Tier2.png
+src/ExoEcho/Results Plots/num_obs_snr_LimitedMethods_Tier3.png
+src/ExoEcho/Results Plots/num_obs_snr_lowestObservations.png
+src/ExoEcho/TelescopeNoiseEstimates.egg-info/PKG-INFO
+src/ExoEcho/TelescopeNoiseEstimates.egg-info/SOURCES.txt
+src/ExoEcho/TelescopeNoiseEstimates.egg-info/dependency_links.txt
+src/ExoEcho/TelescopeNoiseEstimates.egg-info/requires.txt
+src/ExoEcho/TelescopeNoiseEstimates.egg-info/top_level.txt
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Target List.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Transit FLux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/ESM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Noise.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/RSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/TSM.parquet
+src/ExoEcho/Telescopes/Ariel/Ariel_MCS_TPCs_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Transit FLux.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/ESM.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Eclipse Flux.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Full Phase Curve Noise.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Full Phase Curve SNR.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Noise.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/RSM.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Reflected Light Flux.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/TSM.parquet
+src/ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Transit FLux.parquet
+src/ExoEcho/__pycache__/Ariel.cpython-311.pyc
+src/ExoEcho/__pycache__/Functions.cpython-311.pyc
+src/ExoEcho/__pycache__/Functions.cpython-39.pyc
+src/ExoEcho/__pycache__/Telescope.cpython-311.pyc
+src/ExoEcho/__pycache__/addTelescopes.cpython-311.pyc
+src/ExoEcho/target_lists/Ariel_MCS_Known_2024-03-27.csv
+src/ExoEcho/target_lists/Ariel_MCS_TPCs_2024-03-27.csv
