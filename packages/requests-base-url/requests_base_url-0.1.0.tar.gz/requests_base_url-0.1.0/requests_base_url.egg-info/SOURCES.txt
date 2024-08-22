@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+requests_base_url/__init__.py
+requests_base_url.egg-info/PKG-INFO
+requests_base_url.egg-info/SOURCES.txt
+requests_base_url.egg-info/dependency_links.txt
+requests_base_url.egg-info/requires.txt
+requests_base_url.egg-info/top_level.txt
+requests_base_url.egg-info/zip-safe
+tests/test_requests_base_url.py
