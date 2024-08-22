@@ -1,0 +1,10 @@
+pdm_una/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdm_una/hook.py,sha256=y4SL3Kr9leKKMdkA9KaD1-er6mQRmaL_WGxAwjS5ZR8,226
+pdm_una/include.py,sha256=uEBnhCVOoLScsR1FuDzJQ2LhYD6-x1qDrvRbHH9xZJI,2489
+pdm_una/meta.py,sha256=wCya5ccBhu1wlvHMHHy9Pydg-m1XPaBQAx7b4PfIaCM,2323
+pdm_una/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdm_una/util.py,sha256=4D52H0-34e00vUphp64q9egJZFKGoY5dMcKa2P-sOXM,1905
+pdm_una-0.2.3.dist-info/METADATA,sha256=i_p1wpPNsA_UdwbsiFZdrKDOQ_NDXQJofnoNq0r_si0,836
+pdm_una-0.2.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pdm_una-0.2.3.dist-info/entry_points.txt,sha256=_grqhBGZAYCllLjNbprSwgxyQJGzQEk0DQrLWL_wmeY,36
+pdm_una-0.2.3.dist-info/RECORD,,
