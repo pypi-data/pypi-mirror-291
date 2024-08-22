@@ -1,0 +1,6 @@
+llama_index/llms/modelscope/__init__.py,sha256=9xKPr3B1zsQEZ0meukpJRpmOFW6BLRIzqaUPsqZZcwU,88
+llama_index/llms/modelscope/base.py,sha256=a6zqJ_LS_frsB0shXml3GGMVn4LcfltCZUvGfOfAT5o,5983
+llama_index/llms/modelscope/utils.py,sha256=PZ0V-hFW7FCkJfM6Ine-jyS5xwsgS4tt0pbiTNWcFx4,845
+llama_index_llms_modelscope-0.2.0.dist-info/METADATA,sha256=AHu5zfScrslr-Lcbi3-FlGqACa8R_lmKDEUvWmmD-zc,743
+llama_index_llms_modelscope-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_llms_modelscope-0.2.0.dist-info/RECORD,,
