@@ -1,0 +1,2 @@
+[console_scripts]
+dave_data = dave_data.cli:run

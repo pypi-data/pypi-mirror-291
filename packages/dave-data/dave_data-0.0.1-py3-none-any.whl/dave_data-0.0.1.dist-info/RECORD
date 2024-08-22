@@ -1,0 +1,13 @@
+dave_data/__init__.py,sha256=hB4WlynePQWtaquqpgEP2ttPH5buYCMSvt2jGe8NzsU,180
+dave_data/__main__.py,sha256=mS5s91NSDtqXMLJrIntfvv6iWxG6XsHzEtej-UY_jQ0,379
+dave_data/cli.py,sha256=dz1lszGON50LWYVdVI5baO7Q0B9PmOJOderAtUY-5PM,892
+dave_data/core.py,sha256=Yg9pQqV3NG22GdUYRyJb0mj91iPOZ33uAQ1dPNmoNyA,1980
+dave_data/datapool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dave_data/datapool/osm_request.py,sha256=SdeEhX3XaJphle4cNgkm1JQzR_X83NI825xqHMH1f1s,21205
+dave_data-0.0.1.dist-info/AUTHORS.rst,sha256=0YE2x8JZiuFaWQFiHbTBvnRWEvjtm_dkV-uzHyIKE5E,112
+dave_data-0.0.1.dist-info/LICENSE,sha256=lNnTr-xGGGo03Rg-GE51IJHFdz5tAXRVbL4tp7gdKrU,1275
+dave_data-0.0.1.dist-info/METADATA,sha256=_ECCb1_LWTl5DwA4jpefeOmNAjtE9-CjSI91FVBWlz0,2961
+dave_data-0.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+dave_data-0.0.1.dist-info/entry_points.txt,sha256=SDPGamzBxcy8-xDs--HAwxNFAhDmRVyCFdSBDt2douc,48
+dave_data-0.0.1.dist-info/top_level.txt,sha256=PRFnOkdYNK11wqVnQNx9nm9JXxxUAS_H1nf5L0WMjN4,10
+dave_data-0.0.1.dist-info/RECORD,,
