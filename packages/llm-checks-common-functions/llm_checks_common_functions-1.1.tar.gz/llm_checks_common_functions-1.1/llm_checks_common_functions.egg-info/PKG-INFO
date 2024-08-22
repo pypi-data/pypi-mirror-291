@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: llm_checks_common_functions
+Version: 1.1
+Summary: common functions, utilities using multiple DB and LLM options.
+Home-page: https://pactera1us.visualstudio.com/DefaultCollection/LLM_CoE/_git/redteaming_service
+Author: Karthik M
+Author-email: karthik.manne@centific.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: langchain==0.2.11
+Requires-Dist: langchain-community
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: pandas==2.2.1
+Requires-Dist: PyYAML
+Requires-Dist: tqdm==4.66.2
+Requires-Dist: azure-cosmos
+Requires-Dist: azure-storage-blob
+Requires-Dist: python-dotenv
+Requires-Dist: openai==0.28
+Requires-Dist: langchain-nvidia-ai-endpoints
+Requires-Dist: google-generativeai
+Requires-Dist: boto3
+Requires-Dist: SQLAlchemy==2.0.29
+Requires-Dist: mysql-connector
+Requires-Dist: xlsxwriter
+Requires-Dist: tiktoken
+
+# Introduction 
+TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+
+# Getting Started
+TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+1.	Installation process
+2.	Software dependencies
+3.	Latest releases
+4.	API references
+
+# Build and Test
+TODO: Describe and show how to build your code and run the tests. 
+
+# Contribute
+TODO: Explain how other users and developers can contribute to make your code better. 
+
+If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
+- [ASP.NET Core](https://github.com/aspnet/Home)
+- [Visual Studio Code](https://github.com/Microsoft/vscode)
+- [Chakra Core](https://github.com/Microsoft/ChakraCore)

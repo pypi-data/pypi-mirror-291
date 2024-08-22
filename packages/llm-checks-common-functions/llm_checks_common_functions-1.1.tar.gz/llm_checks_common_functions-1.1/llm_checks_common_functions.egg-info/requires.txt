@@ -1,0 +1,17 @@
+langchain==0.2.11
+langchain-community
+openpyxl==3.1.2
+pandas==2.2.1
+PyYAML
+tqdm==4.66.2
+azure-cosmos
+azure-storage-blob
+python-dotenv
+openai==0.28
+langchain-nvidia-ai-endpoints
+google-generativeai
+boto3
+SQLAlchemy==2.0.29
+mysql-connector
+xlsxwriter
+tiktoken
