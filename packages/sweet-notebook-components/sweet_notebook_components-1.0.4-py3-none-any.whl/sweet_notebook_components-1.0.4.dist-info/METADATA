@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: sweet-notebook-components
+Version: 1.0.4
+Summary: A Streamlit-like component library for Notebooks.
+Home-page: https://github.com/artmann/sweet_components
+Author: Christoffer Artmann
+Author-email: Artgaard@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: IPython
+
+# Sweet Components
+
+A Streamlit-like component library for Notebooks.
+
+Show a text:
+
+```python
+from sweet_notebook_components import st
+
+
+st.text("Hello, World!")
+
+```
+
+## Development
+
+Install the dependencies:
+
+```sh
+pip install -r requirements.txt
+
+```
+
+Activate the environment:
+
+On Windows:
+
+```bash
+venv\Scripts\activate
+
+```
+
+On macOS/Linux:
+
+```bash
+source venv/bin/activate
+
+```
+
+Run the test suite:
+
+```sh
+pytest
+
+
+```
+
+
