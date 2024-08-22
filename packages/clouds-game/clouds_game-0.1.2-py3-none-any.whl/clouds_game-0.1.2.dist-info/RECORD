@@ -1,0 +1,14 @@
+README.md,sha256=LpdwU2j3Dj2e2ihqrQl8kv7Wo6ruqed1nHv0vQsy_LQ,423
+clouds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clouds/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clouds/base/model.py,sha256=KBKuSqHbs27mrwmnqpnoRPV1b93u_jSC5JJ6izz3_GM,4501
+clouds/base/player.py,sha256=25__W-ktjfpCYKVxZsOWHUQAicb3L_QtvkECMqLRBgk,2389
+clouds/game.py,sha256=FdR0evrU7skCNHZ92lYnt_BMk0yAQ6JHe_nZ9LK_ZCI,8691
+clouds/main.py,sha256=Ielsdz8OKmf__T8RBm2KJZPwLNjd94Z3tgsQL1uoavc,7723
+clouds/sample_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clouds/sample_ai/basic.py,sha256=QH3wmArno3KXCayYR5ZxS7Do1Ajunia21qxIJvXp-0U,1527
+clouds/samples.py,sha256=RyFpR5zbX_V8G9sU8hjKOlfqFY1do3w24IWD9HpoHqY,10759
+clouds/visualization.py,sha256=mJN14SgVKbTBb2KaUx9u1B69CqpJ3lpakVEavwryk-c,19657
+clouds_game-0.1.2.dist-info/METADATA,sha256=8BPWu7rBYC7_HZboKogSnoRg3hk0XtWJ8-bmQ7afpTk,1004
+clouds_game-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clouds_game-0.1.2.dist-info/RECORD,,
