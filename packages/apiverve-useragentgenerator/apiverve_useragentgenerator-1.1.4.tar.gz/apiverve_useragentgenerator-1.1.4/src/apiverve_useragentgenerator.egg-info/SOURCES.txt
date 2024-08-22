@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_useragentgenerator/__init__.py
+src/apiverve_useragentgenerator/apiClient.py
+src/apiverve_useragentgenerator/exceptions.py
+src/apiverve_useragentgenerator/setup.py
+src/apiverve_useragentgenerator.egg-info/PKG-INFO
+src/apiverve_useragentgenerator.egg-info/SOURCES.txt
+src/apiverve_useragentgenerator.egg-info/dependency_links.txt
+src/apiverve_useragentgenerator.egg-info/top_level.txt
+src/apiverve_useragentgenerator/tests/__init__.py
+src/apiverve_useragentgenerator/tests/test_api.py
+tests/test_api.py
