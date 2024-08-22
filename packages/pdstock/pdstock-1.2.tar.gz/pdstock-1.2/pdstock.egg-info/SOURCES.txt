@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pdstock/__init__.py
+pdstock/stock.py
+pdstock.egg-info/PKG-INFO
+pdstock.egg-info/SOURCES.txt
+pdstock.egg-info/dependency_links.txt
+pdstock.egg-info/requires.txt
+pdstock.egg-info/top_level.txt
