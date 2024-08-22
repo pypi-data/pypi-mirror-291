@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: streamlit_imagegrid
+Version: 0.0.5
+Summary: Streamlit component that allows you to do image/video grid
+Home-page: 
+Author: Midhun Harikumar
+Author-email: midhunharikumar@outlook.com.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit>=0.63
+
+# streamlit-imagegrid
+Streamlit plugin for visualizing images in a pretty grid.
