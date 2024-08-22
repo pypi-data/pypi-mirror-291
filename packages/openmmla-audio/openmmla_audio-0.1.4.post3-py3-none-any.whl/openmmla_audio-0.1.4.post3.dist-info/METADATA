@@ -1,0 +1,272 @@
+Metadata-Version: 2.1
+Name: openmmla-audio
+Version: 0.1.4.post3
+Summary: Audio module for the OpenMMLA platform
+Author-email: Zaibei Li <lizaibeim@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/ucph-ccs/mbox-audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Education :: Computer Aided Instruction (CAI)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyAudio>=0.2.14
+Requires-Dist: influxdb-client==1.44.0
+Requires-Dist: jiwer==3.0.4
+Requires-Dist: librosa==0.10.2.post1
+Requires-Dist: llvmlite==0.43.0
+Requires-Dist: matplotlib==3.9.1
+Requires-Dist: networkx==3.3
+Requires-Dist: paho-mqtt==2.1.0
+Requires-Dist: pydub==0.25.1
+Requires-Dist: pyecharts==2.0.6
+Requires-Dist: redis==5.0.7
+Provides-Extra: server
+Requires-Dist: nemo-toolkit[asr]<=1.23.0; extra == "server"
+Requires-Dist: modelscope[framework]==1.16.1; extra == "server"
+Requires-Dist: denoiser-compat==0.1.5.dev0; extra == "server"
+Requires-Dist: silero-vad==5.1; extra == "server"
+Requires-Dist: googletrans==3.0.0; extra == "server"
+Requires-Dist: onnxruntime==1.18.1; extra == "server"
+Requires-Dist: openai-whisper==20231117; extra == "server"
+Requires-Dist: transformers==4.33.3; extra == "server"
+Requires-Dist: speechbrain==1.0.0; extra == "server"
+Requires-Dist: rotary-embedding-torch==0.6.4; extra == "server"
+Requires-Dist: gunicorn==22.0.0; extra == "server"
+Requires-Dist: flask==3.0.3; extra == "server"
+Requires-Dist: pandas==2.2.2; extra == "server"
+Requires-Dist: gevent==24.2.1; extra == "server"
+Requires-Dist: huggingface-hub==0.23.5; extra == "server"
+
+# OpenMMLA Audio
+
+[![PyPI version](https://img.shields.io/pypi/v/openmmla-audio.svg)](https://pypi.org/project/openmmla-audio/)
+
+Audio module of the mBox - an open multimodal learning analytic platform. For more details, please refer
+to [mBox System Design](https://github.com/ucph-ccs/mbox-uber/blob/main/docs/mbox_system.md).
+
+Other modules of the mBox:
+
+- [mbox-uber](https://github.com/ucph-ccs/mbox-uber)
+- [mbox-video](https://github.com/ucph-ccs/mbox-video)
+
+## Uber Server Setup
+
+Before setting up the audio base, you need to set up a server hosting the InfluxDB, Redis, and Mosquitto services.
+Please refer to [mbox-uber](https://github.com/ucph-ccs/mbox-uber/blob/main/README.md) module.
+
+## Audio Base & Server Setup
+
+Downloading and Setting up the mbox-audio module is accomplished in four steps:  
+(1) Clone the repository from GitHub to your local home directory.  
+(2) Install required system dependencies.  
+(3) Install openmmla-audio.  
+(4) Set up folder structure.
+
+1. Clone the repository from GitHub
+    ```
+    git clone https://github.com/ucph-ccs/mbox-audio.git
+    ```
+
+2. Install the required dependencies
+    - <details>
+      <summary> Mac </summary>
+
+         ```sh
+         # Install ffmpeg, portaudio-19.7.0, mecab-0.996(required for sacrebleu for NLP collection), llvm-16.0.6
+         brew install ffmpeg
+         brew install portaudio
+         brew install mecab
+         brew install llvm
+         
+         # Export llvm to your PATH, run:
+         echo 'export PATH="/opt/homebrew/opt/llvm/bin:$PATH"' >> ~/.zshrc
+         echo 'export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"' >> ~/.zshrc
+         echo 'export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"' >> ~/.zshrc
+         source ~/.zshrc
+         ```
+      </details>
+
+    - <details>
+      <summary> Ubuntu 24.04 </summary>
+
+         ```sh
+         sudo apt update && sudo apt upgrade
+         sudo apt install build-essential
+         sudo apt install git
+         sudo apt install ffmpeg
+         sudo apt install python3-pyaudio
+         sudo apt update && sudo apt install -y libsndfile1
+ 
+         # Install portaudio
+         sudo apt install libasound-dev
+         # Download the portaudio archive from: http://files.portaudio.com/download.html
+         wget https://files.portaudio.com/archives/pa_stable_v190700_20210406.tgz
+         # Unzip the archive
+         tar -zxvf pa_stable_v190700_20210406.tgz
+         # Enter the directory and compile
+         cd portaudio
+         ./configure && make
+         sudo make install
+         ```
+      </details>
+
+    - <details>
+      <summary> Raspberry Pi Bullseye or later </summary>
+
+         ```sh
+         # Install pyaudio
+         sudo apt-get install portaudio19-dev
+         ```
+      </details>
+
+3. Install openmmla-audio with [conda environment](https://docs.anaconda.com/free/miniconda/index.html)
+    - <details>
+      <summary> Conda </summary>
+
+        ```sh
+        # For Raspberry Pi
+        wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+        bash Miniforge3-$(uname)-$(uname -m).sh
+        
+        # For Mac and Linux
+        wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-$(uname)-$(uname -m).sh"
+        bash Miniconda3-latest-$(uname)-$(uname -m).sh
+        ```
+      </details>
+
+    - <details>
+      <summary> Audio Base </summary>
+
+        ```sh
+        conda create -c conda-forge -n audio-base python==3.10.12 -y
+        conda activate audio-base
+      
+        # Approach 1: install openmmla-audio
+        pip install openmmla-audio
+      
+        # Approach 2: install the audio module in development mode
+        pip install -e .
+        ```  
+      </details>
+
+    - <details>
+      <summary> Audio Server </summary>
+
+        ```sh
+        conda create -c conda-forge -n audio-server python==3.10.12 -y
+        conda activate audio-server
+        
+        # Approach 1: install openmmla-audio with server dependencies 
+        pip install openmmla-audio[server] # for linux and raspberry pi
+        pip install 'openmmla-audio[server]' # for mac
+        
+        # Approach 2: install the audio module with server dependencies in development mode
+        pip install -e .[server] # for linux and raspberry pi
+        pip install -e '.[server]' # for mac
+        ```  
+      </details>
+
+4. Set up folder structure
+    ```sh
+    cd mbox-audio
+    ./reset.sh
+    ```
+   
+## Usage
+
+After successfully installing all required libraries, you can run the audio module on terminal.
+
+1. Run real-time audio analyzer
+    + Audio services
+
+      Optionally, run server scripts `./server.sh` on your application servers for audio services. To set up your audio
+      server cluster,
+      configure the file ***mbox-uber/conf/nginx.sh*** and specify your audio upstream services in
+      ***mbox-uber/conf/nginx.conf***.
+      For example, by default, we run audio services on three servers: server-01.local, server-02.local, and
+      server-03.local.
+      In the nginx.conf file, we define five audio services for these servers: transcribe, separate, infer, enhance, and
+      vad.
+
+    + Audio base
+
+      ```sh
+      # :param -b the number of audio base needed to run, default to 3. 
+      # :param -s the number of audio base synchronizer need to run, default to 1.
+      # :param -l whether to run the audio bases standalone or with application servers, default to false. 
+      # :param -p whether to do the speech separation when recognizing, default to false. 
+      
+      # e.g. for running 3 audio bases and 1 audio base synchronizer in distributed mode with audio services
+      ./run.sh 
+      
+      # e.g. for running 3 audio bases and 1 audio base synchronizer in standalone mode
+      ./run.sh -l true
+      ```
+
+    + Control base
+
+      Run the control base with `./control.sh` to control the audio bases and audio base synchronizer.
+
+2. Run post-time audio analyzer
+    1. Create a speaker corpus folder under ***/audio_db/post-time/*** folder, the folder name should be aligned with
+       the
+       name of the audio file to be processed **[audio_file_name.wav]** without the extension,
+       e.g. ***/audio_db/post-time/[audio_file_name]/***.
+    2. Copy the speaker audio files to the speaker corpus folder, the audio files should be named as **[speaker_name]
+       .wav**.
+    3. Run **audio_post_analyzer.py**
+       ```sh
+       cd examples/
+          
+       # process a single audio file, supported audio file format: wav, m4a, mp3
+       python3 run_audio_post_analyzer.py -f [audio_file_name.wav]
+          
+       # process all audio files under the ***/audio/post-time/origin/*** folder
+       python3 run_audio_post_analyzer.py
+       ```
+
+3. Run audio analyzer in mixed mode
+
+   You can switch the operating mode of the audio dock to “Record”, “Recognize” or “Full”. The “Record” mode will
+   continuously record audio in segments without recognizing them. After recording, you can switch to 'Recognize' mode
+   to recognize pre-recorded audio segments and synchronize the results via the Synchronizer. The “Full” mode is the
+   default mode set in real-time audio analyzer i.e. recording and recognizing at the same time.
+
+## Visualization
+
+After running, the logs and visualizations are stored in the ***/logs/*** and ***/visualizations/*** folders.
+
+## [FAQ](https://github.com/ucph-ccs/mbox-uber/blob/main/docs/FAQ.md)
+
+## Citation
+
+If you use this code in your research, please cite the following paper:
+
+```
+@inproceedings{inproceedings,
+author = {Li, Zaibei and Jensen, Martin and Nolte, Alexander and Spikol, Daniel},
+year = {2024},
+month = {03},
+pages = {785-791},
+title = {Field report for Platform mBox: Designing an Open MMLA Platform},
+doi = {10.1145/3636555.3636872}
+}
+```
+
+## References
+
+- [NeMo](https://github.com/NVIDIA/NeMo)
+- [Silero VAD](https://github.com/snakers4/silero-vad)
+- [Denoiser](https://github.com/facebookresearch/denoiser)
+- [MossFormer](https://github.com/alibabasglab/MossFormer)
+- [Whisper](https://github.com/openai/whisper)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
