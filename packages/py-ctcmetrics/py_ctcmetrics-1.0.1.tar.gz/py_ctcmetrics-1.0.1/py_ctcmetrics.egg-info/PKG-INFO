@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-ctcmetrics
+Version: 1.0.1
+Summary: Metrics for Cell Tracking Challenges
+Author: Timo Kaiser
+Author-email: kaiser@tnt.uni-hannover.de
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tifffile
+Requires-Dist: imagecodecs
+Requires-Dist: pandas
+
+Metrics for Cell Tracking Challenges
