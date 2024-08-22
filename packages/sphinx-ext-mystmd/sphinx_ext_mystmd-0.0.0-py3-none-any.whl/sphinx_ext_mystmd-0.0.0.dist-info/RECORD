@@ -1,0 +1,8 @@
+sphinx_ext_mystmd/__about__.py,sha256=AyPfNb7fM8mOMxvEg1gJ8sQggKMU-w224KBkcbjAwuE,18
+sphinx_ext_mystmd/__init__.py,sha256=fGF0usX0Bd--QwL9kbbrbk-rb-icErz61M2UVo5WtzA,84
+sphinx_ext_mystmd/builder.py,sha256=EcP09hTJgdsTE9KwTVlQh6dyna2vRTqk41p_hz11luI,6577
+sphinx_ext_mystmd/transform.py,sha256=wSnz_0yV0aOAqjN8lS3ZJSsAjBVFqDkH_rfJLWit7T0,19515
+sphinx_ext_mystmd/utils.py,sha256=E0mRyEH_4i8giZYKAVy1xfN5ECAxQpWVFPXkgEzL2L8,2082
+sphinx_ext_mystmd-0.0.0.dist-info/METADATA,sha256=Hz24Yw94M0TJZ-NXqnbtyciIBGe3zO2720uohVKjX5E,2150
+sphinx_ext_mystmd-0.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sphinx_ext_mystmd-0.0.0.dist-info/RECORD,,
