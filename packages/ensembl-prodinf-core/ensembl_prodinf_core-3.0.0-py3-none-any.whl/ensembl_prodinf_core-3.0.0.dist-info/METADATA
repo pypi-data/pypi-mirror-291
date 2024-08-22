@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ensembl-prodinf-core
+Version: 3.0.0
+Summary: # Ensembl Production Shared libraries used across other production python packages
+Home-page: https://github.com/Ensembl/ensembl-prodinf-core
+Author: Marc Chakiachvili,James Allen,Luca Da Rin Fioretto,Vinay Kaikala
+Author-email: Ensembl <ensembl-production@ebi.ac.uk>
+Maintainer: Ensembl Production Team
+Maintainer-email: ensembl-production@ebi.ac.uk
+License: Apache License 2.0
+Project-URL: Homepage, https://www.ensembl.org
+Project-URL: Repository, https://github.com/Ensembl/ensembl-prodinf-core
+Project-URL: Issues, https://github.com/Ensembl/ensembl-prodinf-core/issues
+Keywords: ensembl,production,core,sqlalchemy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi>=2020.12.5
+Requires-Dist: deprecation~=2.1.0
+Requires-Dist: kombu~=5.0.2
+Requires-Dist: PyYAML~=6.0
+Requires-Dist: requests<3,>=2.25
+Requires-Dist: six
+Requires-Dist: SQLAlchemy~=1.4.34
+Requires-Dist: SQLAlchemy-Utils~=0.38.2
+Requires-Dist: urllib3~=1.26.15
+Requires-Dist: elasticsearch~=6.8.2
+
+ENSEMBL PRODUCTION INFRASTRUCTURE CORE PACKAGE 
+ =============================================
+[![Build Status](https://app.travis-ci.com/Ensembl/ensembl-prodinf-core.svg&branch=main)](https://app.travis-ci.com/Ensembl/ensembl-prodinf-core)
+![Coverage Status](https://coveralls.io/repos/github/Ensembl/ensembl-prodinf-core/badge.svg?branch=main)
+
+Contain shared libraries used across other production team manages python packages
+
+
+
+
+
