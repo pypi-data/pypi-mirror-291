@@ -1,0 +1,5 @@
+bilby_rust-0.1.0.dist-info/METADATA,sha256=_wEl760O8YXq2ZffH-Bs7QW2b4hcuDsFTbW49iIr0Zs,2686
+bilby_rust-0.1.0.dist-info/WHEEL,sha256=-guPU4lo10KD1AzVI_4ZU9dzpXKpVXntHq12iPmG5yE,94
+bilby_rust/__init__.py,sha256=chfeK6WstiRTcDwJCicXPB5Y9dhd5BqCSSHzV_xBfAU,123
+bilby_rust/bilby_rust.cp38-win_amd64.pyd,sha256=4UZSczPvXi3r5MQQj9xss5gjj8GPeHCNbtaKxYZ-ZkM,397312
+bilby_rust-0.1.0.dist-info/RECORD,,
