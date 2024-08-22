@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: trixelserviceclient
+Version: 0.0.0
+Summary: Simple Python client for participating in privacy aware environmental monitoring.
+Author-email: Till <till@fleisch.dev>
+Project-URL: Homepage, https://github.com/TillFleisch/TrixelServiceClient
+Project-URL: Repository, https://github.com/TillFleisch/TrixelServiceClient.git
+Project-URL: Issues, https://github.com/TillFleisch/TrixelServiceClient/issues
+Keywords: trixel,private,privacy focused,environmental monitoring,sensor network
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: tomli; python_version < "3.11"
+Requires-Dist: pydantic
+Requires-Dist: pydantic-extra-types
+Requires-Dist: packaging
+Requires-Dist: pynyhtm
+Requires-Dist: trixellookupclient
+Requires-Dist: trixelmanagementclient
+Requires-Dist: colorlog
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+
+# Trixel Service Client
+
+The *Trixel Service Client (TSC)* is a single unified python module which is used to participate in privacy aware environmental monitoring.
+This module is responsible for interacting with the *Trixel Lookup Service (TLS)* and the *Trixel Management Service (TMS)* to provides updates to the trixel-based sensor network.

@@ -1,0 +1,14 @@
+pydantic
+pydantic-extra-types
+packaging
+pynyhtm
+trixellookupclient
+trixelmanagementclient
+colorlog
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+black
+isort
