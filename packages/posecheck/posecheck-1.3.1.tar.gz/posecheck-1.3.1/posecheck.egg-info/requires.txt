@@ -1,0 +1,9 @@
+rdkit
+prolif
+datamol
+hydride
+biopython
+pandas==2.0.0
+seaborn
+matplotlib
+numpy

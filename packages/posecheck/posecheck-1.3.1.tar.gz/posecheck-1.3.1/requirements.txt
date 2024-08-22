@@ -1,0 +1,12 @@
+# Cheminformatics
+rdkit 
+prolif # For working with protein-ligand interactions
+datamol # For working with molecules
+hydride # For adding hydrogens to molecules
+biopython # For fixing broken PDBs
+
+# Data
+pandas==2.0.0
+seaborn
+matplotlib
+numpy
