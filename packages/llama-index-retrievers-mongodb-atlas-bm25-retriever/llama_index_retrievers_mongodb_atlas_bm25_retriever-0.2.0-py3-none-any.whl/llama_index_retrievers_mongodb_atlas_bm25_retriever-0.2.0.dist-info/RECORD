@@ -1,0 +1,5 @@
+llama_index/retrievers/mongodb_atlas_bm25_retriever/__init__.py,sha256=46-AThOgTSR6KPHlV4kYPkv8rt7UoZKOsrVkffZM31E,145
+llama_index/retrievers/mongodb_atlas_bm25_retriever/base.py,sha256=s6RE-2OuYUppVnehvYJR03nSCV8gpuDW3Dg6JEwTMA8,4045
+llama_index_retrievers_mongodb_atlas_bm25_retriever-0.2.0.dist-info/METADATA,sha256=tAvGNHcKmjIUA8KGAGNTyTsT_7j_WPDOp3M_zTca924,1508
+llama_index_retrievers_mongodb_atlas_bm25_retriever-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_retrievers_mongodb_atlas_bm25_retriever-0.2.0.dist-info/RECORD,,
