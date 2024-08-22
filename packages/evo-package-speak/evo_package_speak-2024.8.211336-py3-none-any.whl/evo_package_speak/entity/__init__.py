@@ -1,0 +1,6 @@
+
+from evo_package_speak.entity.EnumSpeakGender import EnumSpeakGender
+from evo_package_speak.entity.ESpeakInput import ESpeakInput
+from evo_package_speak.entity.ESpeakOutput import ESpeakOutput
+from evo_package_speak.entity.ESpeakModel import ESpeakModel
+from evo_package_speak.entity.ESpeakMapModel import ESpeakMapModel
