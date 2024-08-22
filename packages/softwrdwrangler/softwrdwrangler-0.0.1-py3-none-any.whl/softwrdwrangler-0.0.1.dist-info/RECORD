@@ -1,0 +1,7 @@
+softwrdwrangler/__init__.py,sha256=Be6p87VpIMNZMOdeypNrd7otrNcdfmULTqhAz_0IXTk,41
+softwrdwrangler/s3/__init__.py,sha256=f97veLv7P2reFYVjcV0gLjdoxS1W08XM0aHeyhB4-CU,55
+softwrdwrangler/s3/pickle_operation.py,sha256=3Fr83rm34ZgQA1fKKcQLuiOvLnwlVsGwR3dvdVMrFV8,1987
+softwrdwrangler-0.0.1.dist-info/METADATA,sha256=ZUWn9snAt_NQVrLJWzmBfqbCBox0d_bhgu3kqmvgxQM,741
+softwrdwrangler-0.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+softwrdwrangler-0.0.1.dist-info/top_level.txt,sha256=AKCj_zFMHIhfjwJ1ukqsjFsJy0HyVbzppam4Cy_MZzQ,16
+softwrdwrangler-0.0.1.dist-info/RECORD,,
