@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_rhymingwords/__init__.py
+src/apiverve_rhymingwords/apiClient.py
+src/apiverve_rhymingwords/exceptions.py
+src/apiverve_rhymingwords/setup.py
+src/apiverve_rhymingwords.egg-info/PKG-INFO
+src/apiverve_rhymingwords.egg-info/SOURCES.txt
+src/apiverve_rhymingwords.egg-info/dependency_links.txt
+src/apiverve_rhymingwords.egg-info/top_level.txt
+src/apiverve_rhymingwords/tests/__init__.py
+src/apiverve_rhymingwords/tests/test_api.py
+tests/test_api.py
