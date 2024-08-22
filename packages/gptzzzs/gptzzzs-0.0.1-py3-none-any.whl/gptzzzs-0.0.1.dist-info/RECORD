@@ -1,0 +1,11 @@
+gptzzzs/__init__.py,sha256=5zr8XujnROuutjENP0oPQsz3JdiZ9CbrHvwf8iC5vBg,4794
+gptzzzs/normal_change.py,sha256=vzaoolQKc47Idgz_k9P9KM4GLpyORMiLwa1sy5xd8XU,2487
+gptzzzs/data/adjectives.json,sha256=qDII6L68_pAoZTXYu0iDcIciZzywkx0lhzs5Ab-oBAY,12161
+gptzzzs/data/common_words.json,sha256=1s7Y5N9nXnH4N89QLSFhO_YSBdNeGqD7iSmPRW_LrZQ,215422
+gptzzzs/data/finnlp-separate.json,sha256=hObiRjQYzIuAV4HskOL2i51IpRbJR9cwZqJTaLVn6R8,821202
+gptzzzs/data/finnlp-together.json,sha256=vE9HY63vynmCygI9un8XK3drcVCmmJWUJTPmMvwiEvU,527067
+gptzzzs/data/zaibacu.json,sha256=Nlf8xgJhye-l_9GxL6PoViOdxw7eXk4bjDY-8cp6b_E,2843624
+gptzzzs-0.0.1.dist-info/METADATA,sha256=tM0E_d4GqRKbDlN4krmfhKcpOnYibnbSQ6i5v4rHJNg,3326
+gptzzzs-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gptzzzs-0.0.1.dist-info/top_level.txt,sha256=eLD5w0ZdtBMUBuFj93c_Ks2fQy-XSqnedbQB_sTnZ_0,8
+gptzzzs-0.0.1.dist-info/RECORD,,
