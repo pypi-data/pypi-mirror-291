@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: PyScrub
+Version: 0.0.1
+Summary: PyScrub is a powerful Python library designed to streamline data preprocessing and pipeline automation. It provides efficient tools for data cleaning, transformation, feature engineering, and visualization, all integrated into a reproducible and scalable pipeline framework.
+Author: Fasugba Ayomide
+Author-email: Ayomide Fasugba <fasugbapaul@gmail.com>
+Project-URL: Homepage, https://github.com/fashjr/PyScrub
+Project-URL: Issues, https://github.com/fashjr/PyScrub/issues
+Project-URL: Documentation, https://github.com/fashjr/PyScrub/docs
+Project-URL: Source, https://github.com/fashjr/PyScrub/source
+Keywords: python,data cleaning,data transformation,data pipeline,machine learning,data preprocessing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+
+# PyScrub
+PyScrub is a powerful and flexible library designed to simplify data preprocessing, transformation, and visualization workflows. It allows you to seamlessly integrate data cleaning, feature engineering, and visualization into a single automated pipeline, saving time and ensuring consistent results. PyScrub is ideal for machine learning, data analysis, and research projects.
+
+# Features:
+- Automated data preprocessing pipeline for handling missing values, removing duplicates, correcting data types, and more.
+- Data normalization, standardization, and feature engineering built into the pipeline.
+- Powerful visualization tools for quickly understanding your data.
+- Customizable and modular design, allowing you to extend the pipeline with your own functions.
+- Focus on automation and reproducibility to streamline your data workflow.
+
+# Installation
+
+You can install the PyScrub package using pip:
+
+```bash
+pip install PyScrub
+```
+
+# Usage
+### Pipeline Setup
+Set up a data processing pipeline with PyScrub to clean, transform, and visualize your dataset.
+
+
+```python
+from PyScrub.pipeline_integration import DataPipeline, PipelineMonitor
+import PyScrub.data_cleaning as dc
+import PyScrub.data_transformation as dt
+import PyScrub.feature_engineering as fe
+import PyScrub.visualization as viz
+
+# Create your pipeline and add steps
+pipeline = DataPipeline()
+pipeline.add_step(dc.handle_missing_values, method='ffill')
+pipeline.add_step(dc.remove_duplicates)
+pipeline.add_step(dc.correct_data_types)
+pipeline.add_step(dc.strip_whitespace, columns=['Gender'])
+pipeline.add_step(dt.normalize)
+pipeline.add_step(fe.create_polynomial_features, degree=2)
+pipeline.add_step(fe.apply_pca, n_components=2)
+
+# Monitor and execute the pipeline
+monitor = PipelineMonitor()
+cleaned_data = monitor.monitor(pipeline, data)
+
+# Visualize the results
+viz.histogram(cleaned_data)
+viz.boxplot(cleaned_data, num_features=['Age', 'MonthlyIncome'], target='Occupation')
+```
+
+
+### Data Cleaning
+Use PyScrub's data cleaning functions to handle missing values, remove duplicates, and ensure your data types are correct.
+
+
+```python
+import PyScrub.data_cleaning as dc
+
+# Handling missing values
+cleaned_data = dc.handle_missing_values(data, method='mean')
+
+# Removing duplicates
+cleaned_data = dc.remove_duplicates(cleaned_data)
+
+# Correcting data types
+cleaned_data = dc.correct_data_types(cleaned_data)
+```
+
+
+### Feature Engineering
+Enhance your dataset with polynomial features, interactions, and dimensionality reduction using PyScrub's feature engineering tools.
+
+
+```python
+import PyScrub.feature_engineering as fe
+
+# Create polynomial features
+poly_features = fe.create_polynomial_features(data, degree=3)
+
+# Apply PCA for dimensionality reduction
+pca_features = fe.apply_pca(data, n_components=3)
+```
+
+
+### Data Visualization
+Generate visual insights into your dataset using PyScrub's visualization tools.
+
+
+```python
+import PyScrub.visualization as viz
+
+# Plot missing data
+viz.plot_missing(data)
+
+# Create histograms and boxplots
+viz.histogram(data)
+viz.boxplot(data, num_features=['Age', 'MonthlyIncome'], target='Occupation')
+```
+
+### License
+This project is licensed under the MIT License. 
