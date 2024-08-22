@@ -1,0 +1,3 @@
+[console_scripts]
+tetris-game = tetris:main.main
+tetris-game-cli = tetris:main_cli.main
