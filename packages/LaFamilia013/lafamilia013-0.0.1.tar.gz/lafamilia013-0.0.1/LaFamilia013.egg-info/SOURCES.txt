@@ -1,0 +1,9 @@
+LICENCE
+setup.py
+LaFamilia/__init__.py
+LaFamilia/teste.py
+LaFamilia013.egg-info/PKG-INFO
+LaFamilia013.egg-info/SOURCES.txt
+LaFamilia013.egg-info/dependency_links.txt
+LaFamilia013.egg-info/requires.txt
+LaFamilia013.egg-info/top_level.txt
