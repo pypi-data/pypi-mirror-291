@@ -1,0 +1,2 @@
+[console_scripts]
+testlib = process_assistant.process_assistant.main:main

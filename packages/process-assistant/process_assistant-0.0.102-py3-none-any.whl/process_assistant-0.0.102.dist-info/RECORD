@@ -1,0 +1,10 @@
+process_assistant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+process_assistant/main.py,sha256=5Xmg3uWDo6zCxfsK8zFCfhpglNXp_PRqgUdc4Wj9uNU,49
+process_assistant/enviroment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+process_assistant/enviroment/command.py,sha256=oFzzm6DYqubsq5yhal2FIqjegF27gKOMvvM9-ZJ-26U,84
+process_assistant/enviroment/create.py,sha256=jZqgYMHv0LXqoUj8lIKYvkE6jt8uVH0JgnCVVjZq5kk,498
+process_assistant-0.0.102.dist-info/METADATA,sha256=wGD4nuaEU1xInc_r7EdSkQEofoTeBdcfUIvGSu59ZV0,276
+process_assistant-0.0.102.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+process_assistant-0.0.102.dist-info/entry_points.txt,sha256=CZvEpLz0MK4fK2B38CdAOm2Sdc6gNQ7m7HpntFfQNiY,74
+process_assistant-0.0.102.dist-info/top_level.txt,sha256=cCePHB8CymvCJ42UQQeOXhZHL3EeNNVXoUeypfUwN5I,18
+process_assistant-0.0.102.dist-info/RECORD,,
