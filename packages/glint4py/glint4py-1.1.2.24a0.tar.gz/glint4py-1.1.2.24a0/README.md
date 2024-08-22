@@ -1,0 +1,27 @@
+# About Glint
+[![Docker Image CI](https://github.com/AcariusTV/Glint/actions/workflows/docker-image.yml/badge.svg)](https://github.com/AcariusTV/Glint/actions/workflows/docker-image.yml)
+[![Upload Python Package](https://github.com/AcariusTV/Glint/actions/workflows/python-publish.yml/badge.svg)](https://github.com/AcariusTV/Glint/actions/workflows/python-publish.yml)
+[![Pylint](https://github.com/AcariusTV/Glint/actions/workflows/pylint.yml/badge.svg)](https://github.com/AcariusTV/Glint/actions/workflows/pylint.yml)
+![Docker Pulls](https://img.shields.io/docker/pulls/acariustv/glint)
+![Contribution Frequency](https://img.shields.io/badge/contributions%20per%20week-10%2B-brightgreen)
+![GitHub license](https://img.shields.io/github/license/acariustv/Glint)
+![Version](https://img.shields.io/badge/glintversion-1.0.8.24-blue)
+[![Discord Widget](https://img.shields.io/badge/Discord-Join%20us-blue)](https://discord.com/widget?id=1275549667882438681&theme=dark)
+
+Glint is an open-source Python framework designed for creating lightweight, fast, and efficient server applications. It provides a streamlined structure that helps developers build high-performance and resource-efficient server solutions. With a focus on simplicity and speed, Glint strikes an optimal balance between functionality and performance.
+
+## Install Glint
+The [ufos Project](https://ufos-project.com), which is responsible for Glint, offers some ways to install Glint onto your machine, so you can use it for your python programs! On the official website of the project, you'll find the downloads for the latest versions of Glint (`glintversion 1.1..24-alpha`).
+
+- Old releases, you'll find here: https://ufos-project.com/glint/old-releases
+- New releases, you'll find here: https://ufos-project.com/glint/latest-releases (Currently here: [docs/releases](./docs/releases/README.md))
+
+For every relevant platform, we have installers ready. Just pick the right one and then you directly start coding your first Glint project!
+
+## Docker repository
+You'll find the Glint docker repository [here](https://hub.docker.com/r/acariustv/glint). New version are released with the github repository.
+
+## License
+Glint, and the whole [ufos Project](https://ufos-project.com) is licensed under the [MIT License](https://github.com/AcariusTV/Glint/blob/main/LICENSE).
+
+For more documentation, look at [docs](./docs/README.md) folder!
