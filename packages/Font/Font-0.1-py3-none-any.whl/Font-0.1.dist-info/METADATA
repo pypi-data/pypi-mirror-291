@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Font
+Version: 0.1
+Summary: A custom text rendering library using custom fonts for opencv
+Home-page: https://github.com/ivanrj7j/Font
+Author: Ivan Raphel Jaison
+Author-email: ivanrj7j@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: freetype-py==2.4.0
+Requires-Dist: numpy==2.1.0
+Requires-Dist: opencv-python==4.10.0.84
+
