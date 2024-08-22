@@ -1,0 +1,10 @@
+numpy<2.0
+pandas<2.0
+geopandas<0.13,>=0.10.2
+pint>=0.18
+dataretrieval<1.0.5,>=1.0
+descartes>=1.1.0
+mapclassify>=2.4.0
+requests
+
+[dev]
