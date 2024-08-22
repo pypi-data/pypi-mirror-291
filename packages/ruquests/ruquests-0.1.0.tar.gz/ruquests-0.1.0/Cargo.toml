@@ -1,0 +1,13 @@
+[package]
+name = "ruquests"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ruquests"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19.0", features = [] }
+reqwest = { version = "0.12.7", features = ["blocking", "json", "multipart"] }
+serde_json = { version = "1.0.125" }

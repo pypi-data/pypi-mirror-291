@@ -1,0 +1,20 @@
+[project]
+name = "ruquests"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "João Severo", email = "joaovbsevero@gmail.com" }]
+dependencies = ["patchelf>=0.17.2.1"]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["maturin>=1.2,<2.0"]
+build-backend = "maturin"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["pip>=24.2"]
+
+[tool.maturin]
+module-name = "ruquests.bindings"
+features = ["pyo3/extension-module"]
