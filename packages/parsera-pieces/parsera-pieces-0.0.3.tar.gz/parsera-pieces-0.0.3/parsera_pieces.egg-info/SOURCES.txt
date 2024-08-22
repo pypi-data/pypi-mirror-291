@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+parsera_pieces/__init__.py
+parsera_pieces/main.py
+parsera_pieces/page.py
+parsera_pieces/utils.py
+parsera_pieces.egg-info/PKG-INFO
+parsera_pieces.egg-info/SOURCES.txt
+parsera_pieces.egg-info/dependency_links.txt
+parsera_pieces.egg-info/requires.txt
+parsera_pieces.egg-info/top_level.txt
