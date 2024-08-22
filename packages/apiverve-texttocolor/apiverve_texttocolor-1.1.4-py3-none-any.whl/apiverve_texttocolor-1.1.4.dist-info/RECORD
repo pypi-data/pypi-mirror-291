@@ -1,0 +1,11 @@
+apiverve_texttocolor/__init__.py,sha256=rXBRGDprY62YPaJp98yuWbCcxEBQ1QFp6qitfPc2opU,43
+apiverve_texttocolor/apiClient.py,sha256=wIrJCQUUrHjcp6r5EkcgSuUljEds3eZj2on0Z2ilGBI,1223
+apiverve_texttocolor/exceptions.py,sha256=reBVaDnRbF4-F1v8Xb8OCZJjZo8qKLT5EzSCoNpwSDs,105
+apiverve_texttocolor/setup.py,sha256=9mnxC_dnLHoSAQLNocNb8nc98vZwNYb9ornmUrD_MqM,664
+apiverve_texttocolor/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_texttocolor/tests/test_api.py,sha256=AasV7dkV3dirKoAju_Dkzcelp5bQWy4VMntYm5tPNQc,617
+apiverve_texttocolor-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_texttocolor-1.1.4.dist-info/METADATA,sha256=F5YgYBNgWiAk2yFZ7t96nV1Tnue6GLRMLfekgEJhqKI,5745
+apiverve_texttocolor-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_texttocolor-1.1.4.dist-info/top_level.txt,sha256=mnWikm6WH0aTmU-GJvsX8YvI8i8l0B-QKLUms3fgxBU,21
+apiverve_texttocolor-1.1.4.dist-info/RECORD,,
