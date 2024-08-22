@@ -1,0 +1,3 @@
+[console_scripts]
+lca=llm_change_agent.cli:main
+
