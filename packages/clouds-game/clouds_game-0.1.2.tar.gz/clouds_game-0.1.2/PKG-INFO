@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: clouds-game
+Version: 0.1.2
+Summary: Mission planning simulation game to reduce cloud coverage of Earth observation satellite missions
+Author: Sven Prüfer
+Author-email: sven.pruefer@dlr.de
+Requires-Python: >=3.11,<4
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7)
+Requires-Dist: immutables (>=0.20)
+Requires-Dist: pygame (>=2.6.0)
+Description-Content-Type: text/markdown
+
+# Clouds
+
+_Clouds_ is a turn-based _serious game_ simulating planning of an Earth observation satellite trying to gain maximum
+points while reducing cloud covered pictures.
+
+As it is intended to be played among others in the [Mathecamp 2024](https://www.mathezirkel-augsburg.de/veranstaltung/mathecamp/),
+classes, variables and methods as well as docstrings for those objects that are relevant to the player are in German.
+
