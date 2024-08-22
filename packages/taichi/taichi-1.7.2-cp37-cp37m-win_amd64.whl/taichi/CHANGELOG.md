@@ -1,0 +1,32 @@
+Highlights:
+   - **Bug fixes**
+      - Fix Loop-Invariant-Cache for dynamic indexed pointers (#8577) (by **Zhanlue Yang**)
+      - Fix bug to disable taichi header print (#8517) (by **Yong-Chao Wu**)
+   - **Build system**
+      - Lift macOS min compat version to Big Sur (#8583) (by **Proton**)
+      - Drop manylinux2014 wheel support (#8581) (by **Proton**)
+   - **Language and syntax**
+      - Migrate irpass::force_scalarize_matrix() beforehand (#8532) (by **Zhanlue Yang**)
+      - Add config.force_scalarize_matrix to avoid perf-regression in certain scenario (#8509) (by **Zhanlue Yang**)
+
+Full changelog:
+   - [misc] Bump version to v1.7.2 (by **Proton**)
+   - [aot] Add stream_ variable for CUDAContext to use a specific CUDA stream to launch CUDA kernel (#8579) (by **Sichao He**)
+   - [Build] Lift macOS min compat version to Big Sur (#8583) (by **Proton**)
+   - [ci] Drop nvidia driver 510 support (already EOL'd) (#8582) (by **Proton**)
+   - [Build] Drop manylinux2014 wheel support (#8581) (by **Proton**)
+   - [Bug] Fix Loop-Invariant-Cache for dynamic indexed pointers (#8577) (by **Zhanlue Yang**)
+   - [bug] Fix assign may lose precision warning & improve related logging (#8553) (by **Bob Cao**)
+   - [bug] Fixes for numpy 2.0 (unblocking python 3.12 release build on mac) (#8552) (by **Bob Cao**)
+   - [doc] Fix typo: 'inheritence' -> 'inheritance' (#8551) (by **3n3l**)
+   - [misc] Ensure succeeded variable is properly initialized in matrix-free solvers (#8484) (by **liblaf**)
+   - [Bug] Fix bug to disable taichi header print (#8517) (by **Yong-Chao Wu**)
+   - [misc] Add conversions for unsigned types, torch > 2.3.0 (#8528) (by **Oliver Batchelor**)
+   - [doc] Fix typo & missing typedef in math/math_module.md (#8541) (by **Jingwei Xu**)
+   - [ci] Remove driver470, add driver 550 (#8546) (by **Proton**)
+   - [misc] Bump spdlog version and fix unformattable error (#8543) (by **Bob Cao**)
+   - [build] Fix build.py bootstrap corner cases (#8544) (by **Proton**)
+   - [ci] Force TI_USE_GIT_CACHE on (#8545) (by **Proton**)
+   - [Lang] Migrate irpass::force_scalarize_matrix() beforehand (#8532) (by **Zhanlue Yang**)
+   - [bug] Fix offline cache emit dependencies (#8510) (by **Mingrui Zhang**)
+   - [Lang] Add config.force_scalarize_matrix to avoid perf-regression in certain scenario (#8509) (by **Zhanlue Yang**)
