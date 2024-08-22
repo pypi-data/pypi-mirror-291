@@ -1,0 +1,11 @@
+apiverve_websitereadability/__init__.py,sha256=YHhaysbFqhg10gSQNMfTLlbxCgGe58EblQhbjcck9fY,50
+apiverve_websitereadability/apiClient.py,sha256=wrOstvp5_kAq6PZBk_-gAox8kcR73M8z8HEceqCqOiU,1245
+apiverve_websitereadability/exceptions.py,sha256=0CRymBfqpuId-XOxW2xfQaZBK8IFQ3cl2BKU8AtTVBY,119
+apiverve_websitereadability/setup.py,sha256=6ZsquF_c_TDsplk-VU4Asc890a9B4xQTrv2piVHhY5Q,667
+apiverve_websitereadability/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_websitereadability/tests/test_api.py,sha256=YdQwkqGoS5MkpOWQjcmeGbCVpR_4KVUw6PpdlEgCmvw,638
+apiverve_websitereadability-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_websitereadability-1.1.4.dist-info/METADATA,sha256=Dwb-SDgnkOs9_u46AkSMyOPYc52dzECqUxVRxk44V3c,6044
+apiverve_websitereadability-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_websitereadability-1.1.4.dist-info/top_level.txt,sha256=AByGoHbKMC56XVRce32wVwby9dvdrNdcR46d0OSEZyo,28
+apiverve_websitereadability-1.1.4.dist-info/RECORD,,
