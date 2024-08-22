@@ -1,0 +1,7 @@
+fxkk-0.1.1.dist-info/METADATA,sha256=VfXQI3-n7aagH2m6TfkTLy9vKa7mDdebBZjIUvX7ahk,253
+fxkk-0.1.1.dist-info/WHEEL,sha256=LQs7zt7tAsGW23buDJPdTn81N5RatuEAWNVBtGgR4ag,108
+fxkk/__init__.py,sha256=Mvel9dSnfd9_xdgqaUBRiNE2SFBzVG2licv64LGwCvs,61
+fxkk/_levenshtein.py,sha256=NgdZkjdE7x_kmf8IHUmDm67jPoiyKRW30JOHVaeAEzA,5485
+fxkk/levenshtein_cy.pyx,sha256=E7FCM6CYxZBHJZ26c0FIVKahKbUqgdVf1gY6exNgzWg,1195
+fxkk/fxkk.cpython-312-x86_64-linux-gnu.so,sha256=Kbly6JfEHHd1ABc7tEDIn4th-9htfhwFjXBccIJnTJ0,420136
+fxkk-0.1.1.dist-info/RECORD,,
