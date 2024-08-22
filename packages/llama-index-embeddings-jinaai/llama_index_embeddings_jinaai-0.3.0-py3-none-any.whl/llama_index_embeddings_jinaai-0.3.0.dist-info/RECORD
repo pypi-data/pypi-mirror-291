@@ -1,0 +1,5 @@
+llama_index/embeddings/jinaai/__init__.py,sha256=rYGC0osxXAuCHMA7rIcuS68aS4S8zZ98FrcjHI6XdSY,90
+llama_index/embeddings/jinaai/base.py,sha256=14wTekxjRPfcsDRwbdhjh_bKnWa-7DKlmdBPql8uSOw,8914
+llama_index_embeddings_jinaai-0.3.0.dist-info/METADATA,sha256=tB3DZqwemeT-0KRLR90efXYBOE0vMFwixdDPhosi5iU,654
+llama_index_embeddings_jinaai-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_embeddings_jinaai-0.3.0.dist-info/RECORD,,
