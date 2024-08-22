@@ -1,0 +1,9 @@
+juchats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+juchats/chat.py,sha256=2vE9oUHhBfMhzkoLwktmnYfAnhcXjFWEl1qa1Q4lyfc,6636
+juchats/configs.py,sha256=xqDBRYSLHDZ7kpiD3vfbBMkNim0QMC65girhpMtkd2Q,1058
+juchats/models.py,sha256=oyEhiDpZY09nf3TSTD-RqxDFo9Uas-iy8Ru6Evmt0I8,3156
+juchats/openai.py,sha256=r_N5ePfze09F5mewrcgkIW0boQ9SPyM05ME_h7-Ypok,25
+juchats/types.py,sha256=RwUlpOfGEljdiUB7oiasXY95EIkIsJrWTOL78RCkRGA,192
+juchats-0.0.3.dist-info/METADATA,sha256=Pta2FhldGKahoxcLqto0GsPzTtIJzgwQE2KdVh6btmc,5633
+juchats-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+juchats-0.0.3.dist-info/RECORD,,
