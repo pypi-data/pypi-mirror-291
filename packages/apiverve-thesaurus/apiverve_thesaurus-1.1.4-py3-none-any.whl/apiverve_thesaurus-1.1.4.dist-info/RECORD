@@ -1,0 +1,11 @@
+apiverve_thesaurus/__init__.py,sha256=x38In_tHVxeCYsn4RW5EEpuKUGlq4RtSPERR9KjRp-s,41
+apiverve_thesaurus/apiClient.py,sha256=v3rlvE9RITLh96GH-mzIOQ9stgMSeZE9_WVgkKFRehQ,1217
+apiverve_thesaurus/exceptions.py,sha256=INvYNOKYh2EVfzLT3NfLvXWnXybsJF2KUajGaVsDr-c,101
+apiverve_thesaurus/setup.py,sha256=9dPfyyEC_xhc8UVHkB1Bwz4JpVmBSvGxtYbJNuLLD8I,604
+apiverve_thesaurus/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_thesaurus/tests/test_api.py,sha256=Wwu9QfUS4oFgd5V_GgqdKxz_rcoiHY30JnKxeoQYtWg,611
+apiverve_thesaurus-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_thesaurus-1.1.4.dist-info/METADATA,sha256=YYZDdE8h_d4TWxKKLtfsruuA7Y1yCEhzyVRxTKRXtvk,6262
+apiverve_thesaurus-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_thesaurus-1.1.4.dist-info/top_level.txt,sha256=gJu4uCRUbtYOHhZN4h3XbhBnOsZ0G1RVl8cOyJMWKWk,19
+apiverve_thesaurus-1.1.4.dist-info/RECORD,,
