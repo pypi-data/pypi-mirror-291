@@ -1,0 +1,11 @@
+apiverve_websitetotext/__init__.py,sha256=grztyfl-VDoONMHBdxMsLk84gE53PEbdOA7G9MRqlqw,45
+apiverve_websitetotext/apiClient.py,sha256=SJuC5KWrjoRmPrLY8wL9CiHV5G4KgIYNBmlJxfHa4xw,1230
+apiverve_websitetotext/exceptions.py,sha256=fmHcbQjOj2ZQQI1IDJ80UW-dwDeVQz7VgcXP92WYkwY,109
+apiverve_websitetotext/setup.py,sha256=2jGSF9cfdBbvC-PrndDkyXqzVH9EaOx7aKs2hmFpYzw,638
+apiverve_websitetotext/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_websitetotext/tests/test_api.py,sha256=etsWYNciV24gkZGNkMVYZljDkk6ScQsUlish5IXD5-g,623
+apiverve_websitetotext-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_websitetotext-1.1.4.dist-info/METADATA,sha256=9wSLB56ayeZDG1UmkbXZeUkxpF-ciZ-HT6iQMV3_auA,8831
+apiverve_websitetotext-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_websitetotext-1.1.4.dist-info/top_level.txt,sha256=mRhRaHjXumbjlDCpOABiTfm2M7uo4_iZKjM4bfJussY,23
+apiverve_websitetotext-1.1.4.dist-info/RECORD,,
