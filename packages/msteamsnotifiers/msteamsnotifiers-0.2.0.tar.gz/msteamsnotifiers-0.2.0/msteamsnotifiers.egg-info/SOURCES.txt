@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+msteamsnotifiers.py
+setup.py
+msteamsnotifiers.egg-info/PKG-INFO
+msteamsnotifiers.egg-info/SOURCES.txt
+msteamsnotifiers.egg-info/dependency_links.txt
+msteamsnotifiers.egg-info/requires.txt
+msteamsnotifiers.egg-info/top_level.txt
