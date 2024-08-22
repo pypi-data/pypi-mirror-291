@@ -1,0 +1,41 @@
+[tool.poetry]
+authors = ["CCAI group"]
+description = "Pydantic classes"
+maintainers = ["Luke Dorney <luke.dorney@wolterskluwer.com>", "Harshit Parekh <harshit.parekh@wolterskluwer.com>"]
+name = "ava-shared-resources"
+readme = "README.md"
+repository = "https://bitbucket.wolterskluwer.io/projects/CCAI/repos/ava-shared-resources/"
+version = "0.0.40"
+packages = [
+    { include = "ava_shared_resources" },
+]
+
+[tool.poetry.dependencies]
+pydantic = "^2.5.0"
+pydantic-settings = "^2.3.4"
+python = ">=3.10,<3.11"
+setuptools = "^70.0.0"
+pandas = "^2.0.0"
+openpyxl = "^3.1.2"
+tomlkit = "^0.12.1"
+ftfy = "^6.1.1"
+beautifulsoup4 = "^4.11.2"
+requests = "2.32.2"
+tomli = "2.0.1"
+lxml = "^4.9.2"
+boto3 = "^1.26.78"
+fastapi = "0.109.2"
+json-logging-py = "^0.2"
+gunicorn = "22.0.0"
+numpy = "^1.23.5"
+
+[tool.poetry.group.dev.dependencies]
+gitpython = "^3.1.31"
+requests-toolbelt = "^1.0.0"
+flake8 = "^6.1.0"
+pre-commit = "^3.4.0"
+black = "^23.7.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0", "pip>=20.0.0"]
