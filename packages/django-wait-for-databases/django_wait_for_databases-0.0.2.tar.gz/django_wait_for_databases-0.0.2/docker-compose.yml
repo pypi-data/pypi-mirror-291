@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  dev:
+    container_name: django_wait_for_databases
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - RUFF_CACHE_DIR=/tmp/.ruff_cache
+      - TWINE_USERNAME=${TWINE_USERNAME}
+      - TWINE_PASSWORD=${TWINE_PASSWORD}
+    volumes:
+      - .:/workspaces
+    working_dir: /workspaces
+    entrypoint: /workspaces/.devcontainer/entrypoint.sh
+    command: sleep infinity
+
+  postgres:
+    container_name: dwfd_postgres
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_USER=test
+      - POSTGRES_DB=test
+    healthcheck:
+      test: "pg_isready --host=postgres --username=test"
+      interval: 1s
+      timeout: 30s
+      start_period: 10s
