@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: crackpy
+Version: 1.2.3
+Summary: Crack Analysis Tool in Python - CrackPy
+Author: DLR
+License: MIT
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.5.3
+Requires-Dist: numpy>=1.23.2
+Requires-Dist: opencv-python>=4.5.4.60
+Requires-Dist: pandas>=1.4.3
+Requires-Dist: pyvista>=0.37.0
+Requires-Dist: scikit-image>=0.19.3
+Requires-Dist: scikit-learn>=1.1.2
+Requires-Dist: scipy>=1.9.0
+Requires-Dist: torch>=1.13.1
+Requires-Dist: torchvision>=0.13.1
+Requires-Dist: rich>=12.5.1
+
