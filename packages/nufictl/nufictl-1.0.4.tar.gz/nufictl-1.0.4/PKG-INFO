@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: nufictl
+Version: 1.0.4
+Summary: Nufictl is a command-line tool for managing CRD Npu Deployments.
+Author: dudaji-inc
+Author-email: dudajiinc2018@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fire (>=0.6.0,<0.7.0)
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: setuptools (>=72.1.0,<73.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+### Python CLI (name : nufictl) for CRD npudeploy 
+
+```bash
+poetry shell
+poetry install
+```
+
+* nufictl exmaple
+```bash
+nufictl ls
++---------------------------+---------------------------+----------+---------------------+------------------+-------------------+---------------------------------------+
+|           Name            |         Namespace         | Replicas |       Created       | Accelerator Type | Accelerator Count |               Endpoint URL            |
++---------------------------+---------------------------+----------+---------------------+------------------+-------------------+---------------------------------------+
+|      example-foo-002      | kubeflow-user-example-com |   2/2    | 2024-08-08 06:09:46 |       none       |         1         |      https://example-foo-002-kube     |
+|      example-foo-003      | kubeflow-user-example-com |   1/1    | 2024-08-09 04:24:25 |       none       |         1         |      https://example-foo-003-kube     |
+| npu-deploy-nginx-hxyvjbwr | kubeflow-user-example-com |   1/1    | 2024-08-05 06:48:04 |  skt.com/aix_v1  |         1         | https://npu-deploy-nginx-hxyvjbwr-    |
++---------------------------+---------------------------+----------+---------------------+------------------+-------------------+---------------------------------------+
+
+nufictl create
+
+Name [npu-deploy-example]: nufictl-test
+Image [nginx]: 
+CPU [1]: 
+Memory [1]: 
+Replicas [1]: 
+Accelerator Type [npu]: 
+Accelerator Count [1]: 
+Successfully created nufictl-test with image: nginx
+
+
+nufictl run --image=nginx                                                        
+Successfully created npu-deploy-nginx-70w2c8yt with image: nginx
+
+
+nufictl delete npu-deploy-example                                           
+Successfully deleted npu-deploy-example
+```
