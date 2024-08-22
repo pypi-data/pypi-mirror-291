@@ -1,0 +1,9 @@
+pretty_id/__init__.py,sha256=y2o_5ECJKw-vTtRfv4EVLeukDkxp9ri5JmEKNQcZihY,103
+pretty_id/encoding.py,sha256=pdaTyleZ340MB0AIFlkZ68QEdpGDazu50O1T85PDWbw,2631
+pretty_id/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretty_id/ext/sqlalchemy.py,sha256=NQWNcS7sSAVJLBFS3GJWRWagupo7NGvnR2kb3w3Ryqg,1397
+pretty_id/type.py,sha256=gap13rUDYRa2gi0FgoSQR9WTn4stGD2a8w1BU7uTWIw,2648
+prettyid-0.3.1.dist-info/LICENSE.md,sha256=szW5IGnyw3xMNdc2Oy_tNV5bUXW1o-5JHE1iIbTUJSE,10480
+prettyid-0.3.1.dist-info/METADATA,sha256=N49OecYho-gFDH-b20LMv2fGcyiXppSHuesvW-6YJUE,3361
+prettyid-0.3.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+prettyid-0.3.1.dist-info/RECORD,,
