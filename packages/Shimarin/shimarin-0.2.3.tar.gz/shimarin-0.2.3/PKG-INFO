@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: Shimarin
+Version: 0.2.3
+Summary: asynchronous event-based communication between client and server
+Project-URL: Homepage, https://github.com/kamuridesu/Shimarin
+Project-URL: Repository, https://github.com/kamuridesu/Shimarin.git
+Project-URL: Issues, https://github.com/kamuridesu/Shimarin/issues
+Author-email: Kamuri Amorim <myk.gata14@gmail.com>
+Maintainer-email: Kamuri Amorim <myk.gata14@gmail.com>
+License: MIT License
+Keywords: asynchronous,client,events,python,server
+Requires-Dist: aiohttp==3.9.5
+Provides-Extra: flask
+Requires-Dist: flask[async]==2.3.2; extra == 'flask'
+Description-Content-Type: text/markdown
+
+# Shimarin
+
+Asynchronous event-based communication between client and server.
+
+
+# How to use
+
+Examples are in the example folder
+
+# Install
+
+```
+pip install Shimarin
+```
+<p align="center">
+<img src="https://count.kamuridesu.com?username=shimarin" alt="count"/>
+</p>
