@@ -1,0 +1,11 @@
+README.md
+setup.py
+AsperaSRAgetter/__init__.py
+AsperaSRAgetter/getparser.py
+AsperaSRAgetter/getsra.py
+AsperaSRAgetter.egg-info/PKG-INFO
+AsperaSRAgetter.egg-info/SOURCES.txt
+AsperaSRAgetter.egg-info/dependency_links.txt
+AsperaSRAgetter.egg-info/entry_points.txt
+AsperaSRAgetter.egg-info/requires.txt
+AsperaSRAgetter.egg-info/top_level.txt
