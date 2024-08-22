@@ -1,0 +1,11 @@
+trixelserviceclient/__init__.py,sha256=ualIYIcQnEtqYNvNkcO5XlAk7OJcKdZzOeAdo9IvuI8,30389
+trixelserviceclient/exception.py,sha256=ZUCOLLzrzzCv9YroR9fQyjy5xcSpsJPOW226AvZuQ3o,756
+trixelserviceclient/logging_helper.py,sha256=qq2nyuUSFwXWnxI2CR5uMi1nkO1x7xFcgs3kw3CE-40,705
+trixelserviceclient/schema.py,sha256=6CaskL9q-D_c1x4rdtRp54F1nFsjZTVV8faIo_sjitU,2244
+trixelserviceclient/extended_clients/pickle_client.py,sha256=ijTL38fGXe53Oj7X_zYflg12VC4CHUtUaHsFSEJZ_ps,1643
+trixelserviceclient/extended_clients/polling_client.py,sha256=2bSdg6e6CKjr1ZCx2syFwLYwVgfq4tpXTMU5tbCHoWo,3784
+trixelserviceclient-0.0.0.dist-info/LICENCE,sha256=25k89XYJWV6SBtzMQm3lnb0_6_9Jtx--9IGNUX6DkAs,1075
+trixelserviceclient-0.0.0.dist-info/METADATA,sha256=Jz_iCZoCI4u0jmHpmE8Ajx_DcNPfQRruwI-eRhdY984,1261
+trixelserviceclient-0.0.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+trixelserviceclient-0.0.0.dist-info/top_level.txt,sha256=_Ho_0QNiSannl_Ao6nNnt1WUtjRIL7K9BZhI9xDkjAg,20
+trixelserviceclient-0.0.0.dist-info/RECORD,,
