@@ -1,0 +1,14 @@
+README.md,sha256=953ynM6A6vyc_DUfbEdk_xBu0KmGRDratiutkfO08U8,1803
+nufictl/__init__.py,sha256=EeK3kwmhRdFtcJ_dB4yrxRYcdI8nFRG3HwjVmLJT3-c,367
+nufictl/config.yaml,sha256=3uB0ntcwpbX6FrvGMOiRcMAHc-iasma8rw7rq8-AzTg,180
+nufictl/config_manager.py,sha256=qhKI7n7PH9_6_af_znNOpg6BgvXaZ4Ac3w26PFP4tE0,5141
+nufictl/help_texts.py,sha256=-DBgYSOLgKg26m0Bjbkms12iWvFy7fZOApUfJ8Ii6p0,1657
+nufictl/model.py,sha256=wFHGDlvMl0PpqSEP87KWo5QMvursBfaS2MgSeh5r0LA,1605
+nufictl/nufictl.py,sha256=nn5kSY32lvlJXdP54SBOOBG9Zgj18sV0sL9CZ3C_rGk,7859
+nufictl/stream_tester.py,sha256=PJnsllc_5u7rRW6F-O9nC1cI167QMgJxXCYWYMcoPZo,8840
+nufictl/utils.py,sha256=FXqZJE0pbPsByd2K1ljNUR8PvwLly3ZsHZ4VP5mRKRs,151
+nufictl/yoga.mp4,sha256=gXcK_wEpNwuCC9zzwMpSzUQO6RjbqHrQV50guVsdFfY,93399577
+nufictl-1.0.4.dist-info/METADATA,sha256=z_MNbf03sLLs7NYse_mvobuEGHhQ2AOOpeMUNhUKrxA,2761
+nufictl-1.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nufictl-1.0.4.dist-info/entry_points.txt,sha256=8NgDib57g8RI76F3BSUrg6CZlhN3bac7hBjg3w5ZNf0,48
+nufictl-1.0.4.dist-info/RECORD,,
