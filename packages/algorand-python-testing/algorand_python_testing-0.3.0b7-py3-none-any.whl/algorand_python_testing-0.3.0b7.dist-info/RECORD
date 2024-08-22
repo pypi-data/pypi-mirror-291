@@ -1,0 +1,12 @@
+algopy/__init__.py,sha256=mFa0KNHyBEmcx6fRh09IDQzeQONBnKURMXElIZc_igM,1682
+algopy/arc4.py,sha256=B5jrz0jt5Lutuu13j5dUNu8oqvXHfxelMYmic8f9_DQ,141
+algopy/gtxn.py,sha256=H7T5zvTqx2yfcparN0tsuv_RjVx2tJdoe-E9E9my7TU,35
+algopy/itxn.py,sha256=ITHrzhxt_m8yFmVb4XUIsu5ioaCfByrjQMJd3M8c62k,35
+algopy/op.py,sha256=ppqr4lIGd72Pdfe9pXEitE5Y8spxzfTz5wDIAJyarZE,33
+algopy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algopy_testing/__init__.py,sha256=Mn7m8lHQj5IpOxoVnW_nLEbtApmgnAij-3PD5t-jLI8,923
+algopy_testing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorand_python_testing-0.3.0b7.dist-info/METADATA,sha256=Agb_Zt4Ga53i07hDkxqpPT2HFn9ANxRep95e0Hyy2R8,4345
+algorand_python_testing-0.3.0b7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+algorand_python_testing-0.3.0b7.dist-info/licenses/LICENSE,sha256=jRyAzzkz3HPr-knS8XWyDY8CyuU-L4RtydPP8uGWsUw,657
+algorand_python_testing-0.3.0b7.dist-info/RECORD,,
