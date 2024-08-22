@@ -1,0 +1,7 @@
+boto3==1.33.*
+moto==4.2.*
+pytest==7.4.*
+rich[all]==13.7.*
+pytest-mock
+pytest-cov
+pyparsing
