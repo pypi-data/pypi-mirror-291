@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: bored-charts
+Version: 0.1.0
+Summary: Easy, minimal, PDF-able data reports with python and markdown.
+Project-URL: Repository, https://github.com/oliverlambson/bored-charts.git
+Project-URL: Issues, https://github.com/oliverlambson/bored-charts/issues
+Author-email: Oliver Lambson <oliverlambson@gmail.com>
+License-Expression: MIT
+Requires-Python: >=3.12
+Requires-Dist: fastapi>=0.112.0
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: markdown>=3.6
+Requires-Dist: markupsafe>=2.1.5
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: mpld3>=0.5.10
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: plotly>=5.23.0
+Description-Content-Type: text/markdown
+
+# bored-charts
+
+Build easy, minimal, PDF-able data reports with markdown and python.
