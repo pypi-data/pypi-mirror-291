@@ -1,0 +1,8 @@
+MANIFEST.in
+readme.md
+setup.py
+memoryte/__init__.py
+memoryte.egg-info/PKG-INFO
+memoryte.egg-info/SOURCES.txt
+memoryte.egg-info/dependency_links.txt
+memoryte.egg-info/top_level.txt
