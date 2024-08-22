@@ -1,0 +1,29 @@
+input_int=<@q>{min}</>과 <@q>{max}</> 사이의 숫자를 입력하세요:
+select_edit=<@t>{group_name}</>에 대한 옵션 선택:
+input_int_default=<@q>{min}</>과 <@q>{max}</> 사이의 숫자를 입력하세요 (기본값 <@q>{default}</>):
+input_many=<@q>{min}</>과 <@q>{max}</> 사이의 숫자를 공백으로 구분하여 입력하세요:
+input_single=<@q>{min}</>과 <@q>{max}</> 사이의 숫자를 입력하세요:
+input=<@t>{name}</>에 대한 값을 입력하세요 (현재 값: <@q>{value}</>) (최대값: <@q>{max}</>):
+input_min=<@t>{name}</>에 대한 값을 입력하세요 (현재 값: <@q>{value}</>) (범위: <@q>{min}</> - <@q>{max}</>):
+input_non_max=<@t>{name}</>에 대한 값을 입력하세요(현재 값: <@q>{value}</>):
+input_all=모든 <@t>{name}</>에 대한 값을 입력하세요 (최대값: <@q>{max}</>):
+value_changed=<@su>성공적으로 <@s>{name}</>을 <@s>{value}</>로 변경했습니다.
+value_gave=<@su>성공적으로 <@s>{name}을(를) 부여했습니다.</>
+all_at_once=모든 옵션을 한 번에 선택
+invalid_input=<@e>잘못된 입력입니다. 다시 시도하세요.</>
+invalid_input_int=<@e>잘못된 입력입니다. <@s>{min}</>과 <@s>{max}</> 사이의 숫자를 입력하세요.></>
+features=특징:
+go_back=뒤로가기
+yes_key=y
+quit_key=q
+range_input=공백으로 구분하여 입력(예: <@t>1 2 3 192</>)하거나, 범위를 입력(예: <@t>1-43</>)하거나 <@t>all</>을 입력:
+선택_특징=
+>기능을 선택하려면 다음을 입력하세요.
+>- 왼쪽의 숫자에 해당하는 <@q>숫자</>
+>- <@t>text</>를 사용하여 기능을 검색합니다.
+<@t>enter</>를 눌러 모든 기능을 볼 수 있습니다.
+>일부 기능은 <@t>카테고리</>이므로 선택하면 해당 <@t>하위 기능</>이 모두 표시됩니다.
+>입력:
+
+individual=개인
+edit_all_at_once=한꺼번에 모두
