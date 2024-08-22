@@ -1,0 +1,12 @@
+PS_Validation/ConnectOracledb.py,sha256=vQlQIFcL86syd1QAj0NZm102JizcCv1pBu2t46AzGUM,2063
+PS_Validation/FinalDecision.py,sha256=b2Ijd37IO2waGnMCLOgL-cq-EVARXqHo00PU0HcKOH0,1365
+PS_Validation/ParsePDF.py,sha256=QUHmglAeGyJGzVu54XojumPoxaoYbxxX2gxmJzzJ-cY,1195
+PS_Validation/TablesData.py,sha256=1N9OYu7qBwYF3WtWC3ZLJepaDnYj1kuMPDmTjdPSopc,8682
+PS_Validation/TablesQuery.py,sha256=iqXwG8Bsqi2O-HxzdavyyhpHT4r1eNnYsJXzv_zukqA,2787
+PS_Validation/Validation.py,sha256=FcT14D2oyYFq7KpxFj3TdzoxGdQ24eIzz3d9fTYv-YI,7717
+PS_Validation/__init__.py,sha256=-Xo6VeOEnLyrCP3lPYB-RCX138CG45o4ae_duHAnpw8,2489
+PS_Validation/read_file.py,sha256=PgcxJ2AeJwhXOd18ndVdCj0RGB1fZIrp-on_j7a_sas,499
+PS_Validation-1.0.1.dist-info/METADATA,sha256=qFMwTre7bDdhDrGUkyRtiwtBKW_ffDQnsQSApG61eHE,238
+PS_Validation-1.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+PS_Validation-1.0.1.dist-info/top_level.txt,sha256=fGLbIkze6sJ0WvRLJnenIHWIgq_l7WFgVzj4mc_spU4,14
+PS_Validation-1.0.1.dist-info/RECORD,,
