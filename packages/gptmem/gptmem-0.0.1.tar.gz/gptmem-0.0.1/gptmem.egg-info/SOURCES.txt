@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gptmem/__init__.py
+gptmem/memory.py
+gptmem.egg-info/PKG-INFO
+gptmem.egg-info/SOURCES.txt
+gptmem.egg-info/dependency_links.txt
+gptmem.egg-info/requires.txt
+gptmem.egg-info/top_level.txt
