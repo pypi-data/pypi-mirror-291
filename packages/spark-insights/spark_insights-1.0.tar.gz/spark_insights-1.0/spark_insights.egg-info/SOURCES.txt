@@ -1,0 +1,11 @@
+README.md
+setup.py
+spark_insights/__init__.py
+spark_insights/report_generator.py
+spark_insights/utils.py
+spark_insights.egg-info/PKG-INFO
+spark_insights.egg-info/SOURCES.txt
+spark_insights.egg-info/dependency_links.txt
+spark_insights.egg-info/requires.txt
+spark_insights.egg-info/top_level.txt
+tests/test_report_generator.py
