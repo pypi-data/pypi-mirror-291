@@ -1,0 +1,5 @@
+llama_index/storage/kvstore/mongodb/__init__.py,sha256=rDaLkbNNweWUZf2OWzi3m0BDNVKX8kaQsjjDQIgH7QA,98
+llama_index/storage/kvstore/mongodb/base.py,sha256=dr6Ayk7o_Tz-ZeshHFeYQmPD_D2iVHGwH8p5vS63nqc,8061
+llama_index_storage_kvstore_mongodb-0.2.0.dist-info/METADATA,sha256=nIaHKmLx5FYYfBaa7xzdWI5KKNndQHyVvaB23081u4c,704
+llama_index_storage_kvstore_mongodb-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_storage_kvstore_mongodb-0.2.0.dist-info/RECORD,,
