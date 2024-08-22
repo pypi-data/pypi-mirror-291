@@ -1,0 +1,32 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+PyGame_Platformer_Fin.egg-info/PKG-INFO
+PyGame_Platformer_Fin.egg-info/SOURCES.txt
+PyGame_Platformer_Fin.egg-info/dependency_links.txt
+PyGame_Platformer_Fin.egg-info/entry_points.txt
+PyGame_Platformer_Fin.egg-info/requires.txt
+PyGame_Platformer_Fin.egg-info/top_level.txt
+platformer/__init__.py
+platformer/game.py
+platformer/assets/Background/Blue.png
+platformer/assets/Background/Brown.png
+platformer/assets/Background/Gray.png
+platformer/assets/Background/Green.png
+platformer/assets/Background/Pink.png
+platformer/assets/Background/Purple.png
+platformer/assets/Background/Yellow.png
+platformer/assets/Items/Checkpoints/End/End (Idle).png
+platformer/assets/Items/Checkpoints/End/End (Pressed) (64x64).png
+platformer/assets/MainCharacters/MaskDude/double_jump.png
+platformer/assets/MainCharacters/MaskDude/fall.png
+platformer/assets/MainCharacters/MaskDude/hit.png
+platformer/assets/MainCharacters/MaskDude/idle.png
+platformer/assets/MainCharacters/MaskDude/jump.png
+platformer/assets/MainCharacters/MaskDude/run.png
+platformer/assets/MainCharacters/MaskDude/wall_jump.png
+platformer/assets/Terrain/Terrain.png
+platformer/assets/Traps/Fire/hit.png
+platformer/assets/Traps/Fire/off.png
+platformer/assets/Traps/Fire/on.png
