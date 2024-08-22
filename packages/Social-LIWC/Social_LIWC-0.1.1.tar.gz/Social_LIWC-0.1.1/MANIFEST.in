@@ -1,0 +1,4 @@
+include Social_LIWC/dados/v2_LIWC2007_Portugues_win.dic
+include Social_LIWC/dados/v2_LIWC2007_Portugues_win_utf8.dic
+include Social_LIWC/dados/LIWC2007_Portugues_win.dic
+include Social_LIWC/dados/LIWC2007_Portugues_win_utf8.dic
