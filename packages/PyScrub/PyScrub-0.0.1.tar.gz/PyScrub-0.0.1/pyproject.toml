@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyScrub"
+version = "0.0.1"
+authors = [
+  { name="Ayomide Fasugba", email="fasugbapaul@gmail.com" },
+]
+description = "PyScrub is a powerful Python library designed to streamline data preprocessing and pipeline automation. It provides efficient tools for data cleaning, transformation, feature engineering, and visualization, all integrated into a reproducible and scalable pipeline framework."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+keywords = [
+    "python", 
+    "data cleaning", 
+    "data transformation", 
+    "data pipeline", 
+    "machine learning", 
+    "data preprocessing"
+]
+
+dependencies = [
+    "pandas", 
+    "numpy", 
+    "matplotlib", 
+    "seaborn", 
+    "scikit-learn"
+]
+
+[project.urls]
+Homepage = "https://github.com/fashjr/PyScrub"
+Issues = "https://github.com/fashjr/PyScrub/issues"
+Documentation = "https://github.com/fashjr/PyScrub/docs"
+Source = "https://github.com/fashjr/PyScrub/source"
