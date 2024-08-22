@@ -1,0 +1,9 @@
+jsonlt/__init__.py,sha256=cwcccEXMcjYJ2fe7hf5LNg14dFRFh5VdDC7_XJJZSmo,49
+jsonlt/cli.py,sha256=wZtzwhzutpk5qJ9TBp6v-xNXWX-BERdCOyoTfDwA6tk,2011
+jsonlt/schema_gen.py,sha256=neAapUBneNEERI1fB8OLMVdMeIfSMni5uczpevYw2qc,4120
+jsonlt/xform.py,sha256=tHdkfC6E1Llm2XwJ6NCVTH9RvnBzkQrycHIsINtrCZU,14463
+jsonlt-0.1.0.dist-info/METADATA,sha256=2s_O2CN5OpWzdBJzR7EHwchAD6bqsJ3SP2vtFaX_s1M,465
+jsonlt-0.1.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+jsonlt-0.1.0.dist-info/entry_points.txt,sha256=Y57KZFnsDCNa-VvFCio2UyZA4ML5lBl0dxWeStp-bZk,43
+jsonlt-0.1.0.dist-info/top_level.txt,sha256=oON9pmKwoV_5d_5I9aNdy2CaNs47Mo0p5mDn0BuWGD0,7
+jsonlt-0.1.0.dist-info/RECORD,,
