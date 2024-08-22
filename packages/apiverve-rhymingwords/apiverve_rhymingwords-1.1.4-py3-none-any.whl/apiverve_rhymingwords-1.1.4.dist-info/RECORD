@@ -1,0 +1,11 @@
+apiverve_rhymingwords/__init__.py,sha256=RgLAOAoIUX6ueVnMoJMz6aclHNWO8Np79OCIEUHmqvc,42
+apiverve_rhymingwords/apiClient.py,sha256=PC0CEKz33JPq4lCHDUq0hZ9iLMEdl6Q8mMAt4L-jT7Y,1220
+apiverve_rhymingwords/exceptions.py,sha256=qfwqDE24Ab_7AAv9GH-UPnbxacc8d5F1duHCfE1JKV0,105
+apiverve_rhymingwords/setup.py,sha256=CxmHjYYcFiUHkK-C-o1iwLe2fbmOig4AKmR08gVANyI,612
+apiverve_rhymingwords/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_rhymingwords/tests/test_api.py,sha256=fQxt-mizpClT1Gez8OON-lqEDvNhGIvjZifL_MBSRi4,616
+apiverve_rhymingwords-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_rhymingwords-1.1.4.dist-info/METADATA,sha256=M284hev8sJYXe9KANrHXpG903lHivukEfNOnpLs9gRM,7267
+apiverve_rhymingwords-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_rhymingwords-1.1.4.dist-info/top_level.txt,sha256=oP8GlTBjAmj6vPsH_ae48NoSGPgIPNhXBmxfpIPp04c,22
+apiverve_rhymingwords-1.1.4.dist-info/RECORD,,
