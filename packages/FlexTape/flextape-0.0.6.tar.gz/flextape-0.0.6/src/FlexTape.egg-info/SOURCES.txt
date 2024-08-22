@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/FlexTape.egg-info/PKG-INFO
+src/FlexTape.egg-info/SOURCES.txt
+src/FlexTape.egg-info/dependency_links.txt
+src/FlexTape.egg-info/requires.txt
+src/FlexTape.egg-info/top_level.txt
+src/flextape/__init__.py
+src/flextape/ready_request.py
+src/flextape/pools/__init__.py
+src/flextape/pools/assert_values.py
+src/flextape/pools/core_pool.py
+src/flextape/pools/img_pool.py
+src/flextape/toolkit/__init__.py
+src/flextape/toolkit/name.py
