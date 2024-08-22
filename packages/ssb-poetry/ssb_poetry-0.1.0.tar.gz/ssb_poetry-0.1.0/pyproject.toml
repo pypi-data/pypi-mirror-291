@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ssb-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Sergey <sbshab1969@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = {version = "^2.32.3", source = "pypi-proxy"}
+
+[[tool.poetry.source]]
+name = "pypi-proxy"
+url = "http://localhost:8081/repository/pypi-proxy/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
