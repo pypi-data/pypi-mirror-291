@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: FlexTape
+Version: 0.0.5
+Summary: Python library to download multiple images at once with a request limit.
+Author: Duckling Dean
+Author-email: duckling.dean@proton.me
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests <3.0.0,>=2.32.2
+Requires-Dist: fake-useragent ==1.5.1
+
+# FlexTape
+**This library contains some helpful tools that will make your programming journey easier, Specially with `online requests`.**
+***
+## Installation
+```bash
+pip install FlexTape
+```
+---
+
+## Tools:
+
+|Type     |Tool|About|Module|
+|---------|----|-----|--------|
+|Class    |[**ImagePool**](docs/tools/ImagePool.md)            |_Download Multiple Images Simultaneously_|`flextape.pools`|
+|Class    |[**NamingFunctions**](docs/tools/NamingFunctions.md)|_Functions Will Allow You Name Files With A Pattern(img_hashsum, url_hashsum, by_order, ...)_|`flextape.toolkit`|
+|Class    |[**ReadyRequest**](docs/tools/ReadyRequest.md)      |_..._|`flextape`|
+
