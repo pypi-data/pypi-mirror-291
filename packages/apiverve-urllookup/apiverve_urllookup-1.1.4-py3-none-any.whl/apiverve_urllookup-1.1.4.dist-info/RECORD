@@ -1,0 +1,11 @@
+apiverve_urllookup/__init__.py,sha256=UoF5a5qUuMU_LAH_Tkbqcl3z6lZl8kCcUwiKT9Io5P4,41
+apiverve_urllookup/apiClient.py,sha256=9XG5igqoeEXs9OC2_qCia3KqD7GZdgOHL6eI80dRFKQ,1218
+apiverve_urllookup/exceptions.py,sha256=hgXwP1gFid3jeJWu-bCPlhrDOxhczL7Vck0rKrtAZS8,101
+apiverve_urllookup/setup.py,sha256=8Pxkzn0kZrEiA_BEsYX-HUTtURrE6QGIOkV4OZB2o54,630
+apiverve_urllookup/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_urllookup/tests/test_api.py,sha256=pSvP1KZwPPtqlGFqbHFhirdhjshgcdNwd0j3kuS87Lo,611
+apiverve_urllookup-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_urllookup-1.1.4.dist-info/METADATA,sha256=JGjWsmvjv2dErjK2H3DShlvaTNpXuRMyXK9wCePZH8A,5716
+apiverve_urllookup-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_urllookup-1.1.4.dist-info/top_level.txt,sha256=Fi9Uaznpb4kcIbND8i5ngRop44t69QkVzPdN2Wy6ozU,19
+apiverve_urllookup-1.1.4.dist-info/RECORD,,
