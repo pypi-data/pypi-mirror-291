@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_texttocolor/__init__.py
+src/apiverve_texttocolor/apiClient.py
+src/apiverve_texttocolor/exceptions.py
+src/apiverve_texttocolor/setup.py
+src/apiverve_texttocolor.egg-info/PKG-INFO
+src/apiverve_texttocolor.egg-info/SOURCES.txt
+src/apiverve_texttocolor.egg-info/dependency_links.txt
+src/apiverve_texttocolor.egg-info/top_level.txt
+src/apiverve_texttocolor/tests/__init__.py
+src/apiverve_texttocolor/tests/test_api.py
+tests/test_api.py
