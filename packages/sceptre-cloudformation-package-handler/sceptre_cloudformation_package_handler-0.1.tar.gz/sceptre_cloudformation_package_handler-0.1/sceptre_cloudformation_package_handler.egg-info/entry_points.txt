@@ -1,0 +1,2 @@
+[sceptre.template_handlers]
+cloudformation_package = sceptre_cloudformation_package_handler:PackagedTemplate

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sceptre_cloudformation_package_handler.egg-info/PKG-INFO
+sceptre_cloudformation_package_handler.egg-info/SOURCES.txt
+sceptre_cloudformation_package_handler.egg-info/dependency_links.txt
+sceptre_cloudformation_package_handler.egg-info/entry_points.txt
+sceptre_cloudformation_package_handler.egg-info/top_level.txt
