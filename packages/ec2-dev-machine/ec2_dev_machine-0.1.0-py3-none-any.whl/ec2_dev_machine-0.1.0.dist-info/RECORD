@@ -1,0 +1,10 @@
+ec2_dev_machine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ec2_dev_machine/cdk/ec2_stack.py,sha256=FGdjFEz8_dlVPAfS-OVU3i-MYiqqPAoK7kDE35TNPy8,4209
+ec2_dev_machine/config.py,sha256=PaCk_GXunax6r6HdvnZzgW1sd9NDuv0IXQB7jTO_qBI,1096
+ec2_dev_machine/core.py,sha256=yNpz-HYH_VjScWklMrJHEBqejx3KNeDSYU6_IIb3sxU,1080
+ec2_dev_machine/user_data/setup.sh.template,sha256=XxI49-mKGbm4Jz8ld6otc2shphSuWuvoa8gWu6llp7Y,811
+ec2_dev_machine/user_data/user_data.py,sha256=obpYJLXImOJiXwqydkTh3f-cpcIsbX6mmwZkHz7rpdA,497
+ec2_dev_machine-0.1.0.dist-info/LICENSE,sha256=-X_syEpchNOLrY-rTODwqYiTtjQ3fESBZJuCj8sJp9E,1066
+ec2_dev_machine-0.1.0.dist-info/METADATA,sha256=oKmHK49ePqXRB4vy4QAtngSbl35ldd4LCapmH7nhq9c,773
+ec2_dev_machine-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ec2_dev_machine-0.1.0.dist-info/RECORD,,

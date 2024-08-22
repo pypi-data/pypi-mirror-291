@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ec2-dev-machine
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/Will282/ec2-dev-machine
+License: MIT
+Author: Will Parr
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: aws-cdk-lib (>=2.152.0,<3.0.0)
+Requires-Dist: constructs (>=10.0.0,<11.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.0,<7.0.0)
+Project-URL: Repository, https://github.com/Will282/ec2-dev-machine
+Description-Content-Type: text/markdown
+
+# ec2-dev-machine
+
