@@ -1,0 +1,5 @@
+llama_index/postprocessor/presidio/__init__.py,sha256=e0Gijh5Y2RHCbjo7FkUQ1E3piBZl59EhGNB3YuD5wdI,126
+llama_index/postprocessor/presidio/base.py,sha256=l4Bn5MUs3ZSjuOnY9RPsuxQ0NV6aqkqgG6OzhKRpG6I,4019
+llama_index_postprocessor_presidio-0.2.0.dist-info/METADATA,sha256=woUNPQAZVW6o3CQfzPyNF9gVOys3KffTjpKMpQZXYsA,794
+llama_index_postprocessor_presidio-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_postprocessor_presidio-0.2.0.dist-info/RECORD,,
