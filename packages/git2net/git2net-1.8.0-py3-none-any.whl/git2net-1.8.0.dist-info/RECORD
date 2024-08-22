@@ -1,0 +1,15 @@
+git2net/__init__.py,sha256=OQp9s579cpsYkbTbKoQ1Im5tX5DGjiY_E80VtJ5NZOU,1257
+git2net/command_line.py,sha256=JF9mkr_-y3b5QYCv6WP5ZVO6SDD7UcDO5NKNJK4esOE,13555
+git2net/complexity.py,sha256=1rQaj_OIJy4Fhkzrd9LvG5Idz4Zy39c4yWAS9JLu8d8,14448
+git2net/disambiguation.py,sha256=elM_B6rL7zvtZfz9I-IFOYcpPCqiE2oegRy9tJPbIeQ,2257
+git2net/extraction.py,sha256=_OA9yybS3A13GmgfkWuzpb9WFENMCXqnvRCuQ-sCPtk,83440
+git2net/visualisation.py,sha256=vWxlWBOGUGWbemWRT2ucxkpJjqpsSECA7OvrvWVNkmA,26365
+git2net/helpers/binary-extensions/binary-extensions.json,sha256=vGjy5_yTTkIVaOCmAnPMCH1zahS-cZvuPkrzKQ05Zpk,2084
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functions.py,sha256=IuzkPxyX_djzxwQ8fsbFg_WhAFeRpA45VWHhN1in07Q,34382
+git2net-1.8.0.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+git2net-1.8.0.dist-info/METADATA,sha256=xlW-W0pfat9EKlBZKlsIV3quBoLExVdZBaK1N9F1TMU,8642
+git2net-1.8.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+git2net-1.8.0.dist-info/entry_points.txt,sha256=35dj-mINDc8_T4H1KJ6PJzGS0XcKNmsV9EzVr5PX7mI,54
+git2net-1.8.0.dist-info/top_level.txt,sha256=YaSA9i-0VhdiiJXn-kwLJ6r2chUUcsGW3ylpgBv0188,14
+git2net-1.8.0.dist-info/RECORD,,
