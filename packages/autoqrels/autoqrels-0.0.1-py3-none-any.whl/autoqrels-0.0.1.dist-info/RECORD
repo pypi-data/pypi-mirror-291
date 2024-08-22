@@ -1,0 +1,16 @@
+autoqrels/__init__.py,sha256=YHDEMQUTHdVldLIz6e7mz-XQfcwdGfwEfFShdGsKHkU,107
+autoqrels/labeler.py,sha256=VS5lQcSAir5Q_pPCjtSLjWkcOei6_hA10d3XjKlUoS4,1501
+autoqrels/text.py,sha256=Pgp6DehAjjMeYzhQlVCxGSTBG8ezlBcDWeRV-WiXyCk,678
+autoqrels/oneshot/__init__.py,sha256=LU4ZPQHYhuzxjKJtPSrA1PW7eDvbo7FSBbwKIBeMydY,129
+autoqrels/oneshot/duoprompt.py,sha256=TeSGso8mth7Ihf7GavXxZ8fAJ9cDP8sqZxNZ4IoZHVQ,5738
+autoqrels/oneshot/duot5.py,sha256=RqPw1a1L_z9j3iqBswl4-hpBgIEKkAFym4tuaiXDp2s,2841
+autoqrels/oneshot/maxrep.py,sha256=9YvINPyfD5YlogxvIDZuTFLzeROUCtnQA3xR0vuu7mo,1027
+autoqrels/oneshot/oneshot_labeler.py,sha256=PPeetyuKFN1ELUi9yZoed4zOsvgo8HjZdJSBgcbT-Zo,3371
+autoqrels/zeroshot/__init__.py,sha256=_UeYg57gm4hFZfzL4t-9JqsHGXOjbonbqmI1bPX_xh0,93
+autoqrels/zeroshot/gradedmonoprompt.py,sha256=07dty66OWLXRz2X8fY967yBNSdBKCQecQ_w1uaOMxCg,7303
+autoqrels/zeroshot/zeroshot_labeler.py,sha256=P3tLW2ZyqsUcydso2erBu9y9cuus3Mju9kN4hvzUVeo,2808
+autoqrels-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autoqrels-0.0.1.dist-info/METADATA,sha256=ppqLGxQEeT4-7Y4iC7Fy5feAyduFPx22fQJQPsqFDvA,3237
+autoqrels-0.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+autoqrels-0.0.1.dist-info/top_level.txt,sha256=AVqXbeRq8MHyQsrb1d0PTdj28-i3uHYdIKkSNUcT63c,10
+autoqrels-0.0.1.dist-info/RECORD,,
