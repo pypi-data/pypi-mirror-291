@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: palanystorage
+Version: 0.1.7
+Summary: A storage lib
+Author-email: Tiny Twist <tiny.mahua@gmail.com>
+Maintainer-email: Tiny Twist <tiny.mahua@gmail.com>
+Requires-Python: >= 3.6
+Requires-Dist: oss2==2.17.0
+Requires-Dist: qiniu==7.10.0
+Requires-Dist: cos-python-sdk-v5==1.9.24
+Requires-Dist: loguru==0.6.0
+Requires-Dist: typer==0.9.0
+Requires-Dist: anyconfig==0.13.0
+Requires-Dist: dataclasses==0.8
+Project-URL: Home, https://github.com/bambipig/palanystorage
