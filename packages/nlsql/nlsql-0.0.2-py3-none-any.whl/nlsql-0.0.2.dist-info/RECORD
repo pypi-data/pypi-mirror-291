@@ -1,0 +1,12 @@
+nlsql/ai_assistant/groq.py,sha256=8BLTaTWvLVRaCerPwW1D8sK_hoMVbNAzm9K4md8vTUs,486
+nlsql/ai_assistant/local_llm.py,sha256=TKIh_DPnRblT-4HdcgTwh07Ye4AtMqZA9ZgvZp_NfQU,789
+nlsql/api/server.py,sha256=d6w0yH4C1hUrV4-yU31DDtOnIC_napTg0LeQY0ycgi4,1314
+nlsql/db/psql.py,sha256=V06TfTtaYtrjYaP3adUw5j-IvNBMSauRGXdvQ8jPVfI,2310
+nlsql/helpers.py,sha256=2FFUC9K-PGojvQLkdlc4f04WVzAu6IPEuWAjXAbnmcI,478
+nlsql/main.py,sha256=-r7YCSEJSckWn1wFDwCCZIBmhp5aKn5jZHXQGR9kZuY,1517
+nlsql/prompts/text_to_sql_prompt.py,sha256=s5GSEqGu5N7Jxa_jzjH_-dhL5DRbhvd8raQf9fhu2Wo,1337
+nlsql-0.0.2.dist-info/LICENSE,sha256=un4tGYhCYV0gmT9mKR66EdRZE7udduhW8wi3CNYDPMs,1073
+nlsql-0.0.2.dist-info/METADATA,sha256=zyAhqicZJcJOQxgxAdtgypmvqgAtEmY8-MLAEiqcP8U,3720
+nlsql-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nlsql-0.0.2.dist-info/entry_points.txt,sha256=I0s2ktqPqReGRxXeECLIViWiJR9aLoD3u4EJSmvE5ik,41
+nlsql-0.0.2.dist-info/RECORD,,
