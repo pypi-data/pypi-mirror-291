@@ -1,0 +1,5 @@
+llama_index/llms/clarifai/__init__.py,sha256=hYRbty3c8wvFkiHkpe_4fujpTIPrXSifO3ZTi5kziow,76
+llama_index/llms/clarifai/base.py,sha256=ds6YjP4WHOdylYnCc1SVj6wjbj48DQ_grUvFGVSkFWU,7742
+llama_index_llms_clarifai-0.2.0.dist-info/METADATA,sha256=Utt6tesj5IN53euQmVDwY68OlcpFNW8onNWRV-KgYWw,685
+llama_index_llms_clarifai-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_llms_clarifai-0.2.0.dist-info/RECORD,,
