@@ -1,0 +1,47 @@
+name: Mac_arm_Fullinstall
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        python-version: [3.11.5]
+        os: [macos-13-xlarge]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: actions/cache@v3
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/setup.py') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - uses: actions/cache@v3
+      name: Install Cache
+      with:
+        path: ./.downloads
+        key: install-${{ hashFiles('.downloads') }}
+        restore-keys: install-
+    - name: Install Xcode Deps
+      run: brew install coreutils &&
+           echo "$CERTIFICATES_P12" > cert.txt &&
+           echo "$CERTIFICATES_PROFILE" > profile.txt &&
+           gbase64 -di cert.txt > cert.p12 &&
+           gbase64 -di profile.txt > profile.mobileprovision &&
+           KEYCHAIN_PATH=$RUNNER_TEMP/login.keychain
+
+    - name: Install dependencies
+      run: |
+        pip install -e '.[test]'
+
+    - name: install all
+      run: pyflutterinstall -y
+
+    - name: Test Install
+      run: pytest tests

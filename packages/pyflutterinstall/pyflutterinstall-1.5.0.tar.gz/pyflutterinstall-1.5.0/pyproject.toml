@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyflutterinstall"
+description = "Installs Android studio and everything using the flutter doctor command."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["android", "install", "flutter", "android sdk"]
+license = { text = "BSD 3-Clause License" }
+classifiers = ["Programming Language :: Python :: 3"]
+dynamic = ["dependencies"]
+version = "1.5.0"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[project.scripts]
+pyflutterinstall = "pyflutterinstall.cli:main"
+
+
+[tool.pylint.messages_control]
+disable = [
+    "R0801",
+    "too-many-branches",
+    "too-many-statements",
+    "too-many-arguments",
+    "too-many-locals",
+    "line-too-long",
+]
+
+[tool.mypy]
+disable_error_code = ["import-untyped"]
