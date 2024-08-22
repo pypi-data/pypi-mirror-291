@@ -1,0 +1,5 @@
+llama_index/postprocessor/longllmlingua/__init__.py,sha256=b0aVU0haYBcC_OBTJPSLOiL9bgqZhYXfpxfRqz41scc,126
+llama_index/postprocessor/longllmlingua/base.py,sha256=s34HVbAeHZywa3tAWaUFqg11hri5xAW5DirndJHgJcM,4010
+llama_index_postprocessor_longllmlingua-0.2.0.dist-info/METADATA,sha256=ke1abQcT5r9a_hsseyfnd209TfR49lNijqXdDUk7U3I,684
+llama_index_postprocessor_longllmlingua-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_postprocessor_longllmlingua-0.2.0.dist-info/RECORD,,
