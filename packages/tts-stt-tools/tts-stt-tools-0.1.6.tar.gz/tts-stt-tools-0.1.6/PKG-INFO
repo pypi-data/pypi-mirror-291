@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: tts-stt-tools
+Version: 0.1.6
+Summary: A package for text-to-speech and speech-to-text tools
+Home-page: https://github.com/Sainag2473/tts-stt-tools
+Author: Sainag
+Author-email: sainag268@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+
+# TTS-STT Tools
+
+`tts-stt-tools` is a Python package designed to simplify the process of text-to-speech (TTS) and speech-to-text (STT) conversions. With this package, you can easily convert text into speech using various TTS systems and manage audio files efficiently.
+
+## Features
+
+- **Text-to-Speech (TTS)**: Convert text into speech with customizable voice models.
+- **Speech-to-Text (STT)**: Convert speech into text (if STT functionalities are included in future updates).
+
+## Installation
+
+To install `tts-stt-tools`, you can use `pip`. The package can be installed from PyPI using the following command:
+
+```bash
+pip install --upgrade tts-stt-tools
+```
+
+## Usage
+
+Here's a quick guide on how to use the `tts-stt-tools` package.
+
+### Example
+
+1. **Import the package and initialize the TTS system:**
+
+    ```python
+    from tts_stt_tools import process_text_to_speech
+
+    text = """
+    Part three
+
+    November 10–Present
+
+    CHAPTER 14
+    • Monday, November 10
+    On Monday morning, Maxine is startled...
+    """
+
+    process_text_to_speech(text, voice_model='en_US/hifi-tts_low', filename='output.wav')
+    ```
+
+2. **The `process_text_to_speech` function will:**
+
+    - Initialize the TTS system with the specified voice model.
+    - Generate audio data from the given text.
+    - Save the audio to a file.
+    - Play the audio file using the appropriate system command.
+
+
+## Contributing
+
+We welcome contributions to improve `tts-stt-tools`. If you want to contribute
+
+
