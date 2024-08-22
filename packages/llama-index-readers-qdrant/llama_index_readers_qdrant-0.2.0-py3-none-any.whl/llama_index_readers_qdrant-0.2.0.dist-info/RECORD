@@ -1,0 +1,5 @@
+llama_index/readers/qdrant/__init__.py,sha256=GSYLjj-j10sH3h0jCWdSTiO-HkQNL7KHQ_Jr20-Mc1w,85
+llama_index/readers/qdrant/base.py,sha256=WRh62wTWFaNC3she-rOOryg43yIWBfQbvXsfteZWZoo,6897
+llama_index_readers_qdrant-0.2.0.dist-info/METADATA,sha256=bBRhagvAOf-Ray9Bg132E9jTelUD53f7nHdJE6gAFoE,2137
+llama_index_readers_qdrant-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_qdrant-0.2.0.dist-info/RECORD,,
