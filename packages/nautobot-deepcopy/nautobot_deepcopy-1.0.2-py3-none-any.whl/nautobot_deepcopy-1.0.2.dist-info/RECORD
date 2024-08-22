@@ -1,0 +1,10 @@
+nautobot_deepcopy/__init__.py,sha256=kvj6VYYnXt_gnPgsCR5wokhoe7BXztfOEUFLcBwXcxQ,576
+nautobot_deepcopy/forms.py,sha256=_Pz3oS-g2-EPXb4Y-5n-VizAdJM51_AjMUO7odKXFnU,6197
+nautobot_deepcopy/template_content.py,sha256=y9fEKUv8JpEFWLdeBwRL5AXtODOF0iNV3qRuh-g4RcM,396
+nautobot_deepcopy/templates/nautobot_deepcopy/copy.html,sha256=phFYKNVPcfULqHYvh7QIiCLFpm6FsThF4sN5pfWqWNU,1420
+nautobot_deepcopy/templates/nautobot_deepcopy/inc/buttons.html,sha256=zSoI5doOSEASl0k4sEuKSxGBSb7ER2voDOcE0E_Fsns,228
+nautobot_deepcopy/urls.py,sha256=ZQopVm5qj9RTsimAJ_h1O5IP5NnfDCg3QhsMR9Xu8wM,214
+nautobot_deepcopy/views.py,sha256=f6NcWa6Nhcbj_KnhAZOtnsVB69bqCXg8tG4bX2lhq44,2374
+nautobot_deepcopy-1.0.2.dist-info/METADATA,sha256=qCf2Lqo9ZtQ7tUUhMuW2kwn3QKR0eE5uQ3kwHUffGAI,1641
+nautobot_deepcopy-1.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nautobot_deepcopy-1.0.2.dist-info/RECORD,,
