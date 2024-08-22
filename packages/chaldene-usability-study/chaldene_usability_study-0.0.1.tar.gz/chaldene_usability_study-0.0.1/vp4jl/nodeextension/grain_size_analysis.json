@@ -1,0 +1,481 @@
+{
+  "enable": true,
+  "nodes": {
+    "read_image": {
+      "type": "read_image",
+      "category": "function",
+      "title": "read_image",
+      "tooltip": "Reads a JPEG or PNG image into a 3 dimensional RGB or grayscale Tensor. Optionally converts the image to the desired format. The values of the output tensor are uint8 in [0, 255].",
+      "externalImports": "from skimage import io\nfrom im2im import Image as IM\nfrom im2im import get_possible_metadata",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  if (inputs[2] === 'RGB')\r\n    return `${outputs[1]} = Image(io.imread(${inputs[1]}, as_gray=False), 'numpy.rgb_uint8')\r\n${outputs[0]}`;\r\n return `${outputs[1]} = IM(io.imread(${inputs[1]}, as_gray=True), 'numpy.gray_float64(0to1)')\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "tooltip": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "path": {
+          "title": "path",
+          "dataType": "string",
+          "tooltip": "path(str) - path of the JPEG or PNG image."
+        },
+        "mode": {
+          "title": "mode",
+          "dataType": "grain_size_analysis.ImageReadMode",
+          "defaultValue": "ImageReadMode.RGB",
+          "tooltip": "mode(ImageReadMode) - The read mode used for optionally converting the image. Default: ImageReadMode.UNCHANGED."
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "tooltip": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },
+    "crop": {
+      "type": "crop",
+      "category": "function",
+      "title": "crop",
+      "externalImports": "",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n return `${outputs[1]} = IM(${inputs[1]}.raw_image[${inputs[2]}:${inputs[3]}, ${inputs[4]}:${inputs[5]}], ${inputs[1]}.metadata)\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        },
+        "x_start": {
+          "title": "x_start",
+          "dataType": "float",
+          "defaultValue": "0",
+          "tooltip": "start point of the returned image in the x-axis."
+        },
+        "x_end": {
+          "title": "x_end",
+          "dataType": "float",
+          "defaultValue": "474",
+          "tooltip": "end point of the returned image in the x-axis."
+        },
+        "y_start": {
+          "title": "y_start",
+          "dataType": "float",
+          "defaultValue": "0",
+          "tooltip": "start point of the returned image in the y-axis."
+        },
+        "y_end": {
+          "title": "y_end",
+          "dataType": "float",
+          "defaultValue": "698",
+          "tooltip": "end point of the returned image in the y-axis."
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "outputImage": {
+          "title": "image",
+          "dataType": "image",
+          "tooltip": "Cropped image in the specified region."
+        }
+      }
+    },
+    "threshold": {
+      "type": "threshold",
+      "category": "function",
+      "title": "threshold",
+      "externalImports": "import numpy as np",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n return `${outputs[1]} = IM(np.clip(${inputs[1]}.raw_image, ${inputs[3]}, ${inputs[2]}), ${inputs[1]}.metadata)\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image",
+          "tooltip": "Input image."
+        },
+        "upper(0to1)": {
+          "title": "upper(0to1)",
+          "dataType": "float",
+          "defaultValue": "1"
+        },
+        "lower(0to1)": {
+          "title": "lower(0to1)",
+          "dataType": "float",
+          "defaultValue": "0"
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "outputImage": {
+          "title": "image",
+          "dataType": "image",
+          "tooltip": "Cropped image in the specified region."
+        }
+      }
+    },
+    "dilation": {
+      "type": "dilation",
+      "category": "function",
+      "title": "dilation",
+      "tooltip": "Return the dilated image applying the same kernel in each channel.",
+      "externalImports": "from skimage import morphology",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  const radius = inputs[2] === '' ? 0 : inputs[2]\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)');\r\n${outputs[1]} = IM(morphology.dilation(in_im.raw_image, morphology.square(${radius})), in_im.metadata);\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        },
+        "width": {
+          "title": "width of square-shaped footprint",
+          "dataType": "integer"        
+      }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },
+    "erosion": {
+      "type": "erosion",
+      "category": "function",
+      "title": "erosion",
+      "tooltip": "Return the eroded image applying the same kernel in each channel.",
+      "externalImports": "from skimage import morphology",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  const radius = inputs[2] === '' ? 0 : inputs[2]\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)');\r\n${outputs[1]} = IM(morphology.erosion(in_im.raw_image, morphology.square(${radius})), in_im.metadata);\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        },
+       "width": {
+          "title": "width of square-shaped footprint",
+          "dataType": "integer"  }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },
+    "opening": {
+      "type": "opening",
+      "category": "function",
+      "title": "opening",
+      "tooltip": "Return the opened image, (that means, dilation after an erosion) applying the same kernel in each channel.",
+      "externalImports": "from skimage import morphology",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  const radius = inputs[2] === '' ? 0 : inputs[2]\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)');\r\n${outputs[1]} = IM(morphology.opening(in_im.raw_image, morphology.square(${radius})), in_im.metadata);\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image",
+          "tooltip": "input image tensor with shape (B, C, H, W) and intensity from [0, 1]."
+        },
+        "width": {
+          "title": "width of square-shaped footprint",
+          "dataType": "integer"
+              }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },
+    "closing": {
+      "type": "closing",
+      "category": "function",
+      "title": "closing",
+      "tooltip": "Return the closed image, (that means, erosion after a dilation) applying the same kernel in each channel.",
+      "externalImports": "from skimage import morphology",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  const radius = inputs[2] === '' ? 0 : inputs[2]\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)');\r\n${outputs[1]} = IM(morphology.closing(in_im.raw_image, morphology.square(${radius})), in_im.metadata);\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        },
+        "width": {
+          "title": "width of square-shaped footprint",
+          "dataType": "integer",
+          "tooltip": "Positions of non-infinite elements of a flat structuring element with shape (kx,ky), must be a 2-dim tensor with odd sides, i.e. 3x3."
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },
+    "denoise_bilateral": {
+      "type": "denoise_bilateral",
+      "category": "function",
+      "title": "denoise_bilateral",
+      "externalImports": "from skimage import restoration",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)');\r\n${outputs[1]} = IM(restoration.denoise_bilateral(in_im.raw_image, sigma_color=${inputs[2]}, sigma_spatial=${inputs[3]}), in_im.metadata)\r\n${outputs[0]};`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image",
+          "tooltip": "Input image."
+        },
+        "sigma_color": {
+          "title": "sigma_color",
+          "dataType": "float",
+          "defaultValue": "0.2"
+        },
+        "sigma_spatial": {
+          "title": "sigma_spatial",
+          "dataType": "integer",
+          "defaultValue": "20"
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "outputImage": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },    
+    "Invert": {
+      "type": "Invert",
+      "category": "function",
+      "title": "invert",
+      "tooltip": "Invert the values of an input image tensor by its maximum value.",
+      "externalImports": "from skimage import util",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)');\r\n${outputs[1]} = IM(util.invert(in_im.raw_image), in_im.metadata);\r\n${outputs[0]};`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "outputImage": {
+          "title": "image",
+          "dataType": "image"
+        }
+      }
+    },
+"watersheed": {
+      "type": "watersheed",
+      "category": "function",
+      "title": "watersheed_segmentation",
+      "externalImports": "from skimage import segmentation, filters\nfrom scipy import ndimage as ndi",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\r\n  return `in_im = im2im(${inputs[1]}, 'numpy.gray_float64(0to1)')\r\ngradient = filters.sobel(in_im.raw_image)\r\nmarkers = ndi.label(gradient < ${inputs[2]})[0]\r\n${outputs[1]} = segmentation.watershed(gradient, markers)\r\n${outputs[2]} = IM(segmentation.mark_boundaries(in_im.raw_image, ${outputs[1]}), {**${inputs[1]}.metadata, 'color_channel': 'rgb', 'channel_order': 'channel last'})\r\n${outputs[0]}`\r\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "image": {
+          "title": "image",
+          "dataType": "image"
+        }
+        ,
+        "granularity": {
+          "title": "granularity",
+          "dataType": "float",
+          "defaultValue": "0.1"
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "label": {
+          "title": "labels",
+          "dataType": "anyDataType"
+        },
+        "outputImage": {
+          "title": "preview",
+          "dataType": "image"
+        }
+      }
+    },
+    "regionprops": {
+      "type": "regionprops",
+      "category": "function",
+      "title": "regionprops",
+      "externalImports": "from skimage import measure",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\n    return `${outputs[1]} = measure.regionprops_table(${inputs[1]}, properties=['area'])\n${outputs[0]}`\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "labels": {
+          "title": "labels",
+          "dataType": "anyDataType"
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "props": {
+          "title": "props",
+          "dataType": "anyDataType"
+        }
+      }
+    },
+    "save_to_csv": {
+      "type": "save_to_csv",
+      "category": "function",
+      "title": "save_to_csv",
+      "externalImports": "import pandas as pd",
+      "codeGenerator": "function code(inputs, outputs, node, generator) {\n    return `pd.DataFrame(${inputs[1]}).to_csv(${inputs[2]}, index=False)\n${outputs[0]}`\n}",
+      "inputs": {
+        "execIn": {
+          "title": "execIn",
+          "tooltip": "execIn",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        },
+        "data": {
+          "title": "data",
+          "dataType": "anyDataType"
+        },
+        "filename": {
+          "title": "filename",
+          "dataType": "string",
+          "defaultValue": "",
+          "tooltip": "filename(str) - Path to save the image."
+        }
+      },
+      "outputs": {
+        "execOut": {
+          "title": "execOut",
+          "tooltip": "execOut",
+          "dataType": "exec",
+          "showWidget": false,
+          "showTitle": false
+        }
+      }
+    }
+  },
+  "types": {
+    "ImageReadMode": {
+      "options": {
+        "GRAY": "ImageReadMode.GRAY",
+        "RGB": "ImageReadMode.RGB"
+      },
+      "default": "RGB",
+      "widget": "EnumSelect"
+    }
+  }
+}
