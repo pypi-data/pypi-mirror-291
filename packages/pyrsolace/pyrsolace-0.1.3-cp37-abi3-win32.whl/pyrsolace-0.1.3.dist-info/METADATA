@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: pyrsolace
+Version: 0.1.3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Python bindings for rsolace
+Keywords: solace,python,rsolace,rust
+Author-email: yvictor <yvictor3141@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyrsolace
+
+Python bindings for rsolace.
+
