@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_websitereadability/__init__.py
+src/apiverve_websitereadability/apiClient.py
+src/apiverve_websitereadability/exceptions.py
+src/apiverve_websitereadability/setup.py
+src/apiverve_websitereadability.egg-info/PKG-INFO
+src/apiverve_websitereadability.egg-info/SOURCES.txt
+src/apiverve_websitereadability.egg-info/dependency_links.txt
+src/apiverve_websitereadability.egg-info/top_level.txt
+src/apiverve_websitereadability/tests/__init__.py
+src/apiverve_websitereadability/tests/test_api.py
+tests/test_api.py
