@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dops-test/__init__.py
+dops_test.egg-info/PKG-INFO
+dops_test.egg-info/SOURCES.txt
+dops_test.egg-info/dependency_links.txt
+dops_test.egg-info/top_level.txt
