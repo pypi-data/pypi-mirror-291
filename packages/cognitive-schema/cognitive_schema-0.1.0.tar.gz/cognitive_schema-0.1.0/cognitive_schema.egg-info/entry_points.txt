@@ -1,0 +1,2 @@
+[console_scripts]
+cognitive_schema = cognitive_schema.cli:cli
