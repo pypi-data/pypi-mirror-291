@@ -1,0 +1,3 @@
+[console_scripts]
+spotify-downloader = your_module.your_script:main
+
