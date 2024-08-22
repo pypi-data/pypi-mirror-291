@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/photonix.egg-info/PKG-INFO
+src/photonix.egg-info/SOURCES.txt
+src/photonix.egg-info/dependency_links.txt
+src/photonix.egg-info/top_level.txt
