@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pywatch-tracker
+Version: 0.1
+Author: Gabriel Remiszewski
+Requires-Dist: eventlet~=0.36.1
+Requires-Dist: quart~=0.19.6
+Requires-Dist: pyserial>=3.5
+Requires-Dist: pyserial-asyncio>=0.6
+Requires-Dist: numpy
