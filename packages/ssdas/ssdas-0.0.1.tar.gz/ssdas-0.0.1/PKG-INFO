@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ssdas
+Version: 0.0.1
+Summary: smart and speedy data analysis and statistics
+Home-page: https://github.com/StarryNight82/ssdas
+Author: StarryNight82
+Author-email: rie82sm@naver.com
+Keywords: StarryNight82,financial data handling,pypi
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6

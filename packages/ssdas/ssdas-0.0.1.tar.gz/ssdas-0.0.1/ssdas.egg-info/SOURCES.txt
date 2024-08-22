@@ -1,0 +1,8 @@
+setup.py
+ssdas/__init__.py
+ssdas.egg-info/PKG-INFO
+ssdas.egg-info/SOURCES.txt
+ssdas.egg-info/dependency_links.txt
+ssdas.egg-info/not-zip-safe
+ssdas.egg-info/requires.txt
+ssdas.egg-info/top_level.txt
