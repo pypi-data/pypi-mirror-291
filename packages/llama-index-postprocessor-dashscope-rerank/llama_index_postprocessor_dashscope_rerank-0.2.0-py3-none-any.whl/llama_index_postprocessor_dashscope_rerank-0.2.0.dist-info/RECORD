@@ -1,0 +1,5 @@
+llama_index/postprocessor/dashscope_rerank/__init__.py,sha256=g76MDN2q43iB1DP2Lsg96Q-N1Plu7xUuRIrQxZDZ3Tw,108
+llama_index/postprocessor/dashscope_rerank/base.py,sha256=4bKLsoy7ODfMGMmFoDgqhKOeLfLqf8zEd1wuWL-J5bA,3127
+llama_index_postprocessor_dashscope_rerank-0.2.0.dist-info/METADATA,sha256=b_yv4KZnqNiB4cjuzBG2DT4HDJWmb3knBemrHy2c6tk,3602
+llama_index_postprocessor_dashscope_rerank-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_postprocessor_dashscope_rerank-0.2.0.dist-info/RECORD,,
