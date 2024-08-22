@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: dave_data
+Version: 0.0.1
+Summary: Short Discription
+Home-page: https://github.com/DaveFoss/DAVE_data
+Author: DAVE_data Developers
+Author-email: EMAIL@IS.MISSING.DE
+License: MIT
+Project-URL: Documentation, https://dave_data.readthedocs.io
+Project-URL: Changelog, https://dave_data.readthedocs.ioen/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/DaveFoss/DAVE_data/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: defusedxml
+Requires-Dist: six
+Provides-Extra: examples
+Requires-Dist: contextily; extra == "examples"
+Requires-Dist: shapely; extra == "examples"
+Requires-Dist: matplotlib; extra == "examples"
+
+========
+Overview
+========
+
+
+
+Short Discription
+
+DAVE is an softwaretool for a automatic generation of region-specific energy grid models. The resulting grid models are based on open data from different sources.
+
+
+This code ist based on and explained in the following publicationat :
+
+- `Banze, T., Kneiske, T.M. Open data for energy networks: introducing DAVE—a data fusion tool for automated network generation. Sci Rep 14, 1938 (2024). <https://doi.org/10.1038/s41598-024-52199-w>`_
+
+More on DAVE is published on the webside http://databutler.energy
+
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install dave_data
+
+You can also install the in-development version with::
+
+    pip install https://github.com/DaveFoss/DAVE_data/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://dave-data.readthedocs.io
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2024-08-08)
+------------------
+
+Rebase code from DAVE_core as a base for the upcoming development

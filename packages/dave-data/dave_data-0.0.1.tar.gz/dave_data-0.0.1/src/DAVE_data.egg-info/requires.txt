@@ -1,0 +1,9 @@
+pandas
+geopandas
+defusedxml
+six
+
+[examples]
+contextily
+shapely
+matplotlib
