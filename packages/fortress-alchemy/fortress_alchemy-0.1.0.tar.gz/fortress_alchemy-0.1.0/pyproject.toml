@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fortress_alchemy"
+version = "0.1.0"
+description = "Sqlalchemy ORM for Fortress"
+authors = ["Fortress <founders@fortress.build>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.32"
+fortress-sdk-python = "^0.1.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
