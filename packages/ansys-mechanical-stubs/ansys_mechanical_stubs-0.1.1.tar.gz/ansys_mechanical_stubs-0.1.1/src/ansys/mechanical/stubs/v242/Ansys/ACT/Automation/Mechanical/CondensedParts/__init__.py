@@ -1,0 +1,19 @@
+"""CondensedParts subpackage."""
+import typing
+
+class ExportSettings(object):
+    """
+    ExportSettings class.
+    """
+
+    @property
+    def ForExpansion(self) -> typing.Optional["System.Boolean"]:
+        """
+        
+            Specifies whether to prepare the export for expansion. That allows for postprocessing results on physical nodes of an imported condensed part. 
+            Default: false. 
+            
+        """
+        return None
+
+
