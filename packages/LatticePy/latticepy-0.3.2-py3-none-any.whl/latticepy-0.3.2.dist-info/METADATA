@@ -1,0 +1,132 @@
+Metadata-Version: 2.3
+Name: LatticePy
+Version: 0.3.2
+Summary: A package for simulating biomolecules on a lattice.
+Project-URL: Source, https://github.com/sohitmiglani/LatticePy
+Project-URL: Issues, https://github.com/sohitmiglani/LatticePy/issues
+Author-email: Sohit Miglani <sohitmiglani@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Sohit Miglani
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE.md
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: matplotlib<=3.9.2
+Requires-Dist: networkx<=3.3
+Requires-Dist: numpy<=2.1.0
+Requires-Dist: pandas<=2.2.2
+Requires-Dist: plotly<=5.23.0
+Requires-Dist: seaborn<=0.13.2
+Description-Content-Type: text/markdown
+
+# LatticePy
+A python package for MCMC simulations of folding and phase separation in biomolecules on a lattice. LatticePy currently supports the simulation of amino acids and protein polymers on a lattice with any given number of units.
+
+## Installation
+
+### Stable Release
+Run the following command in bash:
+
+```bash
+pip3 install LatticePy
+```
+
+### Developers Release
+Run the following command in bash:
+
+```bash
+pip3 install git+https://github.com/sohitmiglani/LatticePy#egg=LatticePy
+```
+
+## Tutorial
+
+### - Import the package and initialize the lattice. You can customize the bounds of the lattice, the compactness energy, the beta (1/Temperature), and the lattice type.
+```python
+from LatticePy import lattice
+mylattice = lattice(bound=50, E_c=1.5, beta=0, lattice_type='simple_cubic')
+```
+
+### - Add your polymer
+
+- By a list of polarities
+```python
+polymer = [-1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, -1, 1, -1, 1, 1, 1, -1, 1, -1, 1, -1, 1, 1, 1, -1, -1]
+mylattice.add_polymer(polymer, n_polymers=1, placement='straight') # to add it in a straight line
+mylattice.add_polymer(polymer, n_polymers=1, placement='randomly') # to add it in a random fashion which may cause knots
+```
+
+- By sequence
+```python
+sequence = 'MTKSHSEEVIVPEFNSSAKELPRPLAEKCPSIIKKFISAYDAKPDFVARSPGRVNLIGEH'
+mylattice.add_protein(sequence, type='straight', n_polymers=1)
+```
+### - Simulate your polymers with annealing
+
+Change the parameters as you see fit
+```python
+mylattice.simulate(n_mcmc=200000, 
+                   interval=1000, 
+                   record_intervals = True, 
+                   anneal=True, 
+                   beta_lower_bound=0, 
+                   beta_upper_bound=2, 
+                   beta_interval=0.05)
+```
+
+### - Visualize the energy variation over all the MCMC steps
+
+```python
+mylattice.energy_variation_graph()
+```
+![](static/energy_variation_graph.png)
+
+### - Visualize in an interactive 3-D lattice
+
+```python
+mylattice.visualize()
+```
+
+You can see the interactive 3-D lattice for this run <a href="https://www.sohitmiglani.com/LatticePy_figure" 
+                                                        target="_blank" rel="noopener noreferrer">here.<a/>
+
+### - Get important statistics
+
+```python
+mylattice.native_contacts
+```
+20
+
+```python
+mylattice.energy
+```
+-58.7
+
+```python
+mylattice.non_covalent_hydrophobic_contacts
+```
+9
