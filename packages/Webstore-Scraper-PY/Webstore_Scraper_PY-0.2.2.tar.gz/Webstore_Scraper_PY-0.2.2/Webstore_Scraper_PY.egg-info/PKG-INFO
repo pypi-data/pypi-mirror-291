@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Webstore-Scraper-PY
+Version: 0.2.2
+Summary: A Python library for scraping data from Goodwill and Ebay.
+Home-page: https://github.com/Scottyboi1/Webstore_Scraper
+Author: Scott Avery
+Author-email: scottavery2001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Library
+
+A scraper that scrapes listings from Goodwill and Ebay. When ran the scraper will grab the first 10 pages of a listing. The api will give a output.csv file with all the scraped listings.
+
+## Installation
+
+```bash
+pip install Webstore-Scraper-PY
