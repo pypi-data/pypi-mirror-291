@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tts-stt-tools
+Version: 0.1.4
+Summary: A package for text-to-speech and speech-to-text tools
+Home-page: https://github.com/Sainag2473/tts-stt-tools
+Author: Your Name
+Author-email: sainag268@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# tts-stt-tools
+
+# My Project
+
+A simple Python project that returns "Hello, world!".
+
+
