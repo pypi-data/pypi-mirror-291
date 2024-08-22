@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+blksprs/blocksparse.py
+blksprs.egg-info/PKG-INFO
+blksprs.egg-info/SOURCES.txt
+blksprs.egg-info/dependency_links.txt
+blksprs.egg-info/requires.txt
+blksprs.egg-info/top_level.txt
