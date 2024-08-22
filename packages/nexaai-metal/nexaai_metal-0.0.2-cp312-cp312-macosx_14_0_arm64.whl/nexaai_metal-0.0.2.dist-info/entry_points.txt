@@ -1,0 +1,6 @@
+[console_scripts]
+nexa-cli = nexa.cli.entry:main
+nexa = nexa.cli.entry:main
+nexaai = nexa.cli.entry:main
+nexai = nexa.cli.entry:main
+
