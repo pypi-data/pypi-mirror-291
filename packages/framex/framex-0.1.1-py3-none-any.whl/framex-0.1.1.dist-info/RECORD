@@ -1,0 +1,12 @@
+framex/__init__.py,sha256=rO73T5fJxhs0t6Qzc_WMgKQx3fj0Fd9cubHPEgqH6h0,77
+framex/_dicts/__init__.py,sha256=3-mDSMDeUVURj1BDtY67Er7jaDo05NSnrQHMOSWq5KQ,400
+framex/_dicts/_all.py,sha256=LjU72VHGfNvi7S1qNp402Vmf5thgU5OH_RnwjsHswm4,238
+framex/_dicts/_constants.py,sha256=tdvnL2qOD41QbfELs18hYtDk9CUuO5YL7Wh7im7lhqE,175
+framex/_dicts/_github.py,sha256=42Gn5ugBgFT2V87nTOBTtUfHjpgj2rcrGK_oDTeWlaI,814
+framex/_dicts/_local.py,sha256=maqfttO_kE2fz78MS02_p1t7dNhorslPS7Xp2x-Fr34,211
+framex/datasets/__init__.py,sha256=oTlZpDyeAnANn5mIZzrPN2vf9PNCOt_f6li-qQT-vuU,83
+framex/datasets/_core.py,sha256=5N9vRrwl_7Po3nDXLW-FA3TczbRrIhDcKAgwsvIJ2D4,2531
+framex-0.1.1.dist-info/LICENSE,sha256=_lLk_jL2x0SoWTOqFXAHyjiTsMi0qd2QWukZcpqC56w,1058
+framex-0.1.1.dist-info/METADATA,sha256=8x4MmhDpU20F91muosZAWYPinX3J8Fq6tVcTSUEN1h0,1531
+framex-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+framex-0.1.1.dist-info/RECORD,,
