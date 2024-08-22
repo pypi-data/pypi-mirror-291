@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pywebinfo
+Version: 1.0
+Summary: A Python package to simply extract metadata (title, description, image, favicon) of a webpage
+Author: Kaustubh Prabhu
+Keywords: python,webpage,website,metadata
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
