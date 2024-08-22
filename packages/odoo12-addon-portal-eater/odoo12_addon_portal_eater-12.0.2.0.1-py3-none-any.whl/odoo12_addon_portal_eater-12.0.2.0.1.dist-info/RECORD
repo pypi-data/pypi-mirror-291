@@ -1,0 +1,14 @@
+odoo/addons/portal_eater/README.rst,sha256=Jl7krLcetIqrquIv1SnQ9m7Fm9I09sJ4MQNWNLXa3pE,1829
+odoo/addons/portal_eater/__init__.py,sha256=kSWYuO-PxZ84nc6BjSWeVUfsZm6WHS036w3uy09DqBA,26
+odoo/addons/portal_eater/__manifest__.py,sha256=TTdOUs3i12exFuwL5Itao_lU17gbyj7ygz3gIJDmI1o,526
+odoo/addons/portal_eater/controllers/__init__.py,sha256=4KFqEP2QHFbPN66eQJMdGsmNz2v7ywWv_FR1pW_kkLk,19
+odoo/addons/portal_eater/controllers/main.py,sha256=jFfWoyntEY_f8wPG4PoJMF1TOk25t0Bee7DfaT80gxo,505
+odoo/addons/portal_eater/i18n/portal_eater.pot,sha256=qqa2aCuXbi5vEripvihmLd_VpIrIkNWU9ZYfZ9XmO3M,626
+odoo/addons/portal_eater/readme/CONTRIBUTORS.rst,sha256=D4x8F23did8pNDYQqzs7WlCALV8wCLTvIopg1SCQeIQ,43
+odoo/addons/portal_eater/readme/DESCRIPTION.rst,sha256=y5PZ7QlKfX7pdH1X8BGxzAcCmYfQXtTZfOpvJ8GPNB8,55
+odoo/addons/portal_eater/static/description/index.html,sha256=UvBwk7dcqRcJqEVuJyayTppga5LM5DFmRYFDGtTtXPI,10746
+odoo/addons/portal_eater/views/portal_eater_templates.xml,sha256=oU5jxTcfOxTuGSoiSYwefe0nvx64iim8Kb2ZFYAKBBQ,1037
+odoo12_addon_portal_eater-12.0.2.0.1.dist-info/METADATA,sha256=14s3L5LmhwT6630sjuVbsjiwjrDTTdrVCQZzTsIku2E,2351
+odoo12_addon_portal_eater-12.0.2.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+odoo12_addon_portal_eater-12.0.2.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_portal_eater-12.0.2.0.1.dist-info/RECORD,,
