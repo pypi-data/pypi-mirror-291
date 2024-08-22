@@ -1,0 +1,28 @@
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+
+[workspace]
+members = ["ruhvro"]
+
+[package]
+name = "pyruhvro"
+version = "0.2.0"
+edition = "2021"
+keywords = ["avro", "arrow", "kafka"]
+description = "Fast, multi-threaded deserialization of schema-less avro encoded messages"
+repository = "https://github.com/Tyler-Sch/pyruhvro"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pyruhvro"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.2"
+ruhvro = {path = "ruhvro", version = "0.2.0"}
+apache-avro = {version = "0.16.0" }
+arrow = {version = "52.0.0", features = ["pyarrow"]}
+
