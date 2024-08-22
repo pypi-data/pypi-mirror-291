@@ -1,0 +1,10 @@
+webstack_django_sorting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webstack_django_sorting/common.py,sha256=n_1ebeCJaGzv3e-peiQMOuT5Jacu15VTWgPnsxaoEcc,3669
+webstack_django_sorting/jinja2_globals.py,sha256=zmktTAAGKyYMVbTUE-X3DzUGO4ol8gotPdlz96GbgFA,480
+webstack_django_sorting/settings.py,sha256=ZwTycRl3uZKpenbf61enoQUnEz4pGvoFlil1CPb4M3Y,257
+webstack_django_sorting/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webstack_django_sorting/templatetags/sorting_tags.py,sha256=9IaMMck0oTOpaLlrsYBUG5_z3hIEibX-mayZTFrN_kE,4692
+webstack_django_sorting-3.0.1.dist-info/METADATA,sha256=i4HYwn39nRWx-TNAiNAmC8DtaC2urkcp3TtABNrLLEA,6506
+webstack_django_sorting-3.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+webstack_django_sorting-3.0.1.dist-info/licenses/LICENSE.txt,sha256=7H9K-HsM_jruHn5ReYAUEgeumzW6aSYOHjzpKkiBx-I,1569
+webstack_django_sorting-3.0.1.dist-info/RECORD,,
