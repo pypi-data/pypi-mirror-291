@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: CorrectCvss
+Version: 1.1
+Summary: Verify the CVSS vector specification and receive JSON data to generate a CVSS vector.
+Home-page: https://github.com/bobolehe/CorrectCvss
+Author: bole
+Author-email: bobolehe@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: cvss (==3.1)
+
+# CorrectCvss 
+
+## Function Introduction
+
+
+
+Correct the order of CVSS2 vectors and check for validity.
+
+case:
+
+```
+from CorrectCvss.correct_cvss import correct_cvss2_vector
+
+correct_cvss2_vector(cvss2_vector)
+```
+
+
+
+Correct the order of CVSS3 vectors and check for validity.
+
+case:
+
+```
+from CorrectCvss.correct_cvss import correct_cvss3_vector
+
+correct_cvss3_vector(cvss3_vector, 3.0)
+correct_cvss3_vector(cvss3_vector, 3.1)
+```
+
+
+
+Corrected the order of CVSS4.0 vectors and checked validity.
+
+case:
+
+```
+from CorrectCvss.correct_cvss import correct_cvss4_vector
+
+correct_cvss4_vector(cvss4_vector)
+```
+
