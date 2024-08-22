@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jstream/__init__.py
+jstream/collectors.py
+jstream/jstream.py
+jstream.egg-info/PKG-INFO
+jstream.egg-info/SOURCES.txt
+jstream.egg-info/dependency_links.txt
+jstream.egg-info/top_level.txt
