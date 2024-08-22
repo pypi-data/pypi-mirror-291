@@ -1,0 +1,2 @@
+[console_scripts]
+glaider-fuzzer = glaider_fuzz.cli:main
