@@ -1,0 +1,5 @@
+llama_index/extractors/entity/__init__.py,sha256=Sez26chEK_uvE3tpJclfKzqlMqehTmUXkkcl2T1MSqA,94
+llama_index/extractors/entity/base.py,sha256=aAnCNl_TI0Ihiw_VfJKZ_3_3JnW-aNFQWxajZDUuxK0,5399
+llama_index_extractors_entity-0.2.0.dist-info/METADATA,sha256=ahi87L0DoCExjgdzRGQG_eFxnldJtGVkWZtjfZi65fU,732
+llama_index_extractors_entity-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_extractors_entity-0.2.0.dist-info/RECORD,,
