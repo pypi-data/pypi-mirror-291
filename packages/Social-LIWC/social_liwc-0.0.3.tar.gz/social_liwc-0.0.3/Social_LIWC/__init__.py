@@ -1,0 +1,1 @@
+from .api.main import analise_liwc
