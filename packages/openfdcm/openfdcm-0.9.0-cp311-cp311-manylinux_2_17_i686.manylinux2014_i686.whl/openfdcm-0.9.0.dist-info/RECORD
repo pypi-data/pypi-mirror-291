@@ -1,0 +1,11 @@
+openfdcm.cpython-311-i386-linux-gnu.so,sha256=noZh2EK_NtIkwwwn8t65iCFeghzWDLya7CdnC7rsAMM,473057
+libz.so.1.3.1,sha256=s5eLuvES1VDvELQgPP_qSppqrTCNKA03MNvQK-FCsdA,120052
+libopenfdcm_matching.so,sha256=tRMOZ0neE9UocWPJNM-m0FTx5oG309HmH7Ht2mUsX1Q,324232
+libz.so.1,sha256=s5eLuvES1VDvELQgPP_qSppqrTCNKA03MNvQK-FCsdA,120052
+libz.so,sha256=s5eLuvES1VDvELQgPP_qSppqrTCNKA03MNvQK-FCsdA,120052
+openfdcm-0.9.0.dist-info/RECORD,,
+openfdcm-0.9.0.dist-info/WHEEL,sha256=zDdn_IL712Dn2TiNI0aGpaFNzz8k8r8WeQUNMDqL0A4,147
+openfdcm-0.9.0.dist-info/LICENSE,sha256=ZPgDQwFknZbwRR3W_b_DZDU1yg4K1S7wBI6Yg5o0Sdk,1066
+openfdcm-0.9.0.dist-info/top_level.txt,sha256=OV7AzwV40gFBx8n4vPg_wyiVTk3MN53oxEvKRZSZC4E,9
+openfdcm-0.9.0.dist-info/METADATA,sha256=6eINWVG-DN9Q8fS06cfIbbGWOROUuKefE4LtG-7fplo,8325
+openfdcm.libs/libopenfdcm_matching-b5130e67.so,sha256=dRSbTMNty0boF2ddHydiuQ7yQmsgWVxgrX3uu67NPmg,403249
