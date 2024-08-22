@@ -1,0 +1,5 @@
+tabula
+PyPDF2
+pandas
+pdfminer
+pdfminer.six

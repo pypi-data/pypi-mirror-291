@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: LibraCreditoPDF
+Version: 0.0.1
+Summary: Leitor de PDF extrato
+Author: Matheus Nascimento
+Author-email: matheuskater02@outlook.com
+License: MIT License
+Keywords: Libra crédito
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tabula
+Requires-Dist: PyPDF2
+Requires-Dist: pandas
+Requires-Dist: pdfminer
+Requires-Dist: pdfminer.six
+
+# Primeiro teste enviado.

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+LibraCreditoPDF.egg-info/PKG-INFO
+LibraCreditoPDF.egg-info/SOURCES.txt
+LibraCreditoPDF.egg-info/dependency_links.txt
+LibraCreditoPDF.egg-info/requires.txt
+LibraCreditoPDF.egg-info/top_level.txt
+leitor_all/__init__.py
+leitor_all/leitor_all.py
