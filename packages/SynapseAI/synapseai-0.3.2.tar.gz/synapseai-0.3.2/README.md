@@ -1,0 +1,115 @@
+
+# SynapseAI: Semantic Search Without LLMs
+
+This package provides an AI-powered document semantic search system that doesn't rely on large language models (LLMs). It allows you to process documents, web content, and scanned images, and then perform efficient semantic searches using cosine similarity.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install SynapseAI
+```
+
+#### Load a Document
+
+To load a document (PDF, DOCX, TXT, XLS, XLSX):
+
+```python
+from SynapseAI.data_loader import DataLoader
+
+# Load a document
+data_loader = DataLoader("path/to/document.pdf")
+documents = data_loader.load_document()
+```
+
+#### Chunk the Document
+
+To chunk the document into smaller pieces:
+
+```python
+# Chunk the document into smaller pieces
+chunks = data_loader.chunk_document(documents, chunk_size=1024, chunk_overlap=80)
+```
+
+#### Process the Chunks
+
+This step creates embeddings for the document chunks and builds a FAISS index for efficient similarity search:
+
+```python
+from SynapseAI.utils import process_chunks
+
+process_chunks(chunks)
+```
+
+### Web Crawling
+
+#### Crawl a Website
+
+To crawl a website and fetch its content:
+
+```python
+from SynapseAI.web_crawler import WebCrawler
+
+# Crawl a website
+crawler = WebCrawler("https://www.example.com")
+content = crawler.fetch_content()
+```
+
+#### Process the Crawled Content
+
+To process the content fetched from the website:
+
+```python
+from langchain.schema import Document as LangChainDocument
+
+document = LangChainDocument(page_content=content, metadata={"source": "https://www.example.com"})
+chunks = data_loader.chunk_document([document], chunk_size=1024, chunk_overlap=80)
+process_chunks(chunks)
+```
+
+### Semantic Search
+
+#### Perform a Semantic Search
+
+To perform a semantic search using the FAISS index and retrieve the top matching document chunks:
+
+```python
+from SynapseAI.utils import cosine_similarity, load_embeddings
+import numpy as np
+
+# Load the embeddings
+embeddings = load_embeddings()
+
+# Define a query
+query = "What is the main topic of the document?"
+query_embedding = embeddings.embed_query(query)
+
+# Reconstruct the document embeddings
+from SynapseAI.utils import FAISS
+vectorstore = FAISS.from_documents(documents=chunks, embedding=embeddings)
+document_embeddings = vectorstore.index.reconstruct_n(0, vectorstore.index.ntotal)
+
+# Calculate similarities and get the top results
+similarities = [cosine_similarity(query_embedding, doc_embedding) for doc_embedding in document_embeddings]
+top_k_indices = np.argsort(similarities)[-5:][::-1]
+
+for i, idx in enumerate(top_k_indices):
+    doc = vectorstore.docstore.search(vectorstore.index_to_docstore_id[idx])
+    print(f"Match {i+1} - Similarity: {similarities[idx]:.4f}")
+    print(doc.page_content)
+```
+
+This example shows how to load the embeddings, perform a semantic search using the FAISS index, and retrieve the top matching document chunks.
+
+## Customization
+
+You can customize the behavior of the document processing by adjusting the `chunk_size` and `chunk_overlap` parameters when calling the `chunk_document()` method. Larger chunk sizes provide more context, while smaller chunks can improve search precision.
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
