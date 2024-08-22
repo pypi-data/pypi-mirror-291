@@ -1,0 +1,10 @@
+goforge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goforge/main.py,sha256=Y2UZibyRU_PTMENf4X1xWt6xM4KBH75oDpVaixBmfkQ,759
+goforge/parser.py,sha256=Ss-fNzTLmSQ7DqlEML8WuWwrdG0ToBY-l0_xogr3SUQ,381
+goforge/writer/handler_maker.py,sha256=NJZYYAeClpHvQs9HamFnBibyA17kg4EcsAp3p-gMqMI,3920
+goforge/writer/server_maker.py,sha256=s-cFbztn5oNpymaTWDCR5r0kITTSBzvuJ_d-1wCVcTQ,2977
+goforge/writer/sql_maker.py,sha256=8NkTh5bxfhivxmJ2nyvKuSzZKY3u_FNxt34j6qkv6ZY,3028
+goforge-0.0.1.dist-info/METADATA,sha256=oXBQ48ORXKZZMtNJQGO_RIvZvaFsUTRooTIfqT_SsqE,1994
+goforge-0.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+goforge-0.0.1.dist-info/top_level.txt,sha256=2KxOuYlV52_PjrTII1sPBuRAy8eR_zJXkkhuWqHL4hA,8
+goforge-0.0.1.dist-info/RECORD,,
