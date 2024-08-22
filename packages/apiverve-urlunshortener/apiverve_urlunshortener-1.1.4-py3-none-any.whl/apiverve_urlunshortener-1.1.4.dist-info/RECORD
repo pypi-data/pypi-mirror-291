@@ -1,0 +1,11 @@
+apiverve_urlunshortener/__init__.py,sha256=b3eplFaCOHENyWJAkf93iWi3W8wmwTSRUbmdjeGBHKs,46
+apiverve_urlunshortener/apiClient.py,sha256=hXgJHRBvwt2coKwkur2yudD2o9fivkv0PURz4VhAp0s,1233
+apiverve_urlunshortener/exceptions.py,sha256=gCJ2iHX9xtGt6cJmUeNXyxufAvRqomxzpw0Ae6uHiX4,111
+apiverve_urlunshortener/setup.py,sha256=v9CaSajU9pXnLceSr5PDvWbb6X4FpGxFNyWuQrDQoOs,643
+apiverve_urlunshortener/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_urlunshortener/tests/test_api.py,sha256=jcCq8yfaCi6t_e-3rFufHYx4yHudPDgwxDuqAYbMHl0,626
+apiverve_urlunshortener-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_urlunshortener-1.1.4.dist-info/METADATA,sha256=-rj2OfSOrE4QtSTHQ9QgkNrIFJRd0Qu002nQXjp26bY,5643
+apiverve_urlunshortener-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_urlunshortener-1.1.4.dist-info/top_level.txt,sha256=7-YTDfWEtV_xGD2ZrDWGKM1ctUehx_-2CLlN9alHtX4,24
+apiverve_urlunshortener-1.1.4.dist-info/RECORD,,
