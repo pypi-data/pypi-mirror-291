@@ -1,0 +1,15 @@
+pconfig/__init__.py,sha256=w-hhU4Qi2JFJ34vMOfeD9-mAuBj_8mEeekSgYMl81QY,345
+pconfig/config.py,sha256=d2hyDpeCvujYhn1Lz3W17IH1x7lEIcP1Cnr94pY60ts,4077
+pconfig/config_value.py,sha256=1SKMZM60kzxVFeU3W2wg4TudQ_IYHCgKmZICnedIGjY,2497
+pconfig/error.py,sha256=VH8AbMREQQjk4ljLJ1Rj83rswrgJVpwIWdzlkjeQzcc,244
+pconfig/notset.py,sha256=YevCFfQU2h0d6yQHwZMyDhDnzIz8Q8rwZyqDXIn4jg4,578
+pconfig/loaders/__init__.py,sha256=bZFIGKVuUlGReRhVjtcTYXYUr0pJnFMKYP6bzAJYcxs,431
+pconfig/loaders/dotenv_loader.py,sha256=SpSL8Vx6wfT0eta8zlUZiTkoNXPQS5NudcBpJmOP8AM,1716
+pconfig/loaders/envvar_loader.py,sha256=XWU8DpjTS7bPEM4Qn95gnzKc8oUayXItXnX0bivb8VI,887
+pconfig/loaders/loader.py,sha256=1F7X94QVzFKLJEoAuvAiZovW2HenDj7KtLVvFcJVLhI,2933
+pconfig/loaders/yaml_loader.py,sha256=mK1Y2VbSEwUaj7sH4JKmW8ArViG0M_YP6ddvfIQvsYk,1385
+polidoro_config-1.0.1.dist-info/LICENSE,sha256=bYVu06y4AGLUxW5SSVAAIeJxYkOa_0aN0k64rd3-LBw,1072
+polidoro_config-1.0.1.dist-info/METADATA,sha256=tMZWu-W3umaEoU7IdbVkPQaY6p6eEbYKrVO-wawYFKs,7295
+polidoro_config-1.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+polidoro_config-1.0.1.dist-info/top_level.txt,sha256=Ry_6mV-qZTHmpNHC_HNf4WpYYyauO_-hJioJxMa7Pn8,8
+polidoro_config-1.0.1.dist-info/RECORD,,
