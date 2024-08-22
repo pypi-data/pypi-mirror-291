@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+NoCodeTextClassifier/Inference.py
+NoCodeTextClassifier/__init__.py
+NoCodeTextClassifier/inference.py
+NoCodeTextClassifier/main.py
+NoCodeTextClassifier/models.py
+NoCodeTextClassifier/preprocessing.py
+NoCodeTextClassifier/utils.py
+NoCodeTextClassifier.egg-info/PKG-INFO
+NoCodeTextClassifier.egg-info/SOURCES.txt
+NoCodeTextClassifier.egg-info/dependency_links.txt
+NoCodeTextClassifier.egg-info/requires.txt
+NoCodeTextClassifier.egg-info/top_level.txt
+NoCodeTextClassifier/exception/__init__.py
+NoCodeTextClassifier/logger/__init__.py
