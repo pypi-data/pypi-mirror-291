@@ -1,0 +1,6 @@
+setup.py
+pharo-pyqlib/__init__.py
+pharo_pyqlib.egg-info/PKG-INFO
+pharo_pyqlib.egg-info/SOURCES.txt
+pharo_pyqlib.egg-info/dependency_links.txt
+pharo_pyqlib.egg-info/top_level.txt
