@@ -1,0 +1,14 @@
+spherely.pyi,sha256=LpPvc_YjGlKnrYFoyVbtOR2fhz1v-Rn-TSpbuT_ViKM,3867
+spherely.cpython-313-darwin.so,sha256=IAbD1ohPcQYNuSXv9ab_RA5ropnFKXDmYixNlkc1szI,291168
+spherely.dylibs/libs2geography.dylib,sha256=wnph8U_JXYd3CXpQpkd7507xj0eTKrZBXfIbBLAfuUA,336336
+spherely.dylibs/libssl.3.dylib,sha256=lU4ZLNKb-tr7yr2LzOrkY_JIKVC3EoQram_1EnWzNqM,838736
+spherely.dylibs/libcrypto.3.dylib,sha256=6o1JdCq2VyPl0u6KM8Ge7ZCxdfFjQ9gzXd0E__zrZik,4222928
+spherely.dylibs/libs2.0.11.1.dylib,sha256=utiDMbgHQoKN_TnBKSlIZ3xTqCiyFGCh2Hg-svwibbE,2466016
+spherely-0.0.1.dist-info/RECORD,,
+spherely-0.0.1.dist-info/WHEEL,sha256=_puniN4YyxncBJOhdlg-vXqYUfa1tRtDyOR-hXCrqsA,114
+spherely-0.0.1.dist-info/METADATA,sha256=fwIOjarmEprH82k-0a3wDuJnxAWTKwMb8p-5wfO3gvU,3434
+spherely-0.0.1.dist-info/licenses/LICENSE,sha256=aZmQY-efxr8PYsOmPYbDPQn99kSnGH1Nxb1PNXPy73c,1519
+spherely-0.0.1.dist-info/licenses/LICENSE_absl.txt,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+spherely-0.0.1.dist-info/licenses/LICENSE_s2geography.md,sha256=Lh-qBbuRV0-jiCIBhfV7NgdwFxQFOXH3BKOzK865hRs,10480
+spherely-0.0.1.dist-info/licenses/LICENSE_s2geometry.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+spherely-0.0.1.dist-info/licenses/LICENSE_openssl.txt,sha256=fVRQyy0UJlG4r6MVtfI478gF2tgn2RujZ9hRa8nUnno,10175
