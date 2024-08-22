@@ -1,0 +1,5 @@
+llama_index/storage/kvstore/dynamodb/__init__.py,sha256=dI9cL4ziCVlyoB1wMieWvMol4JC7UhIbJZXcBsJXz8Q,101
+llama_index/storage/kvstore/dynamodb/base.py,sha256=pm5Quzn70URCsz-yK16LFdaL6zj0atM5rNfpDeMP5_8,6859
+llama_index_storage_kvstore_dynamodb-0.2.0.dist-info/METADATA,sha256=9jJK-WZd4r7Kk2Sy8TaKIjtKbdLKRDexvEabILwT8RI,707
+llama_index_storage_kvstore_dynamodb-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_storage_kvstore_dynamodb-0.2.0.dist-info/RECORD,,
