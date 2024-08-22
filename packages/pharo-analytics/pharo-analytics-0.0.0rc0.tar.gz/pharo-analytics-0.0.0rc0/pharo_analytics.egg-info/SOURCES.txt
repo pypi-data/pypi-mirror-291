@@ -1,0 +1,6 @@
+setup.py
+pharo-analytics/__init__.py
+pharo_analytics.egg-info/PKG-INFO
+pharo_analytics.egg-info/SOURCES.txt
+pharo_analytics.egg-info/dependency_links.txt
+pharo_analytics.egg-info/top_level.txt
