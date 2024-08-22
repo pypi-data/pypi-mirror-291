@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: redstone-lib
+Version: 0.1.1
+Summary: a package that does something very cool
+Author: Your Name
+Author-email: teamsdi1234@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: uplink (>=0.9.7,<0.10.0)
+Description-Content-Type: text/markdown
+
+
