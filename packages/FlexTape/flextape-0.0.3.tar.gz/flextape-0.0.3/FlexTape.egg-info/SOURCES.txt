@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+FlexTape.egg-info/PKG-INFO
+FlexTape.egg-info/SOURCES.txt
+FlexTape.egg-info/dependency_links.txt
+FlexTape.egg-info/requires.txt
+FlexTape.egg-info/top_level.txt
+flextape/__init__.py
+flextape/ready_request.py
