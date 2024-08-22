@@ -1,0 +1,39 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git | 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+
+package: evo_package_speak
+
+control:
+  CSpeakApi:
+    _DOC_: "CSpeakApi _DOC_"
+    
+    speak-tts:
+      description: "speak-tts _DESCRIPTION_"
+      required: "ESpeakInput.eApiText"
+      callback: onTts
+      input: EOBJECT ESpeakInput
+      output: EOBJECT ESpeakOutput
+
+    speak-stt:
+      description: "speak-stt _DESCRIPTION_"
+      callback: onStt
+      input: EAPIFILE audio
+      output: EAPIFILE
+
+    speak-get_model:
+      description: "speak-get_model _DESCRIPTION_"
+      required: "eApiQuery.eObjectID"
+      callback: onGetModel
+      input: EAPIQUERY
+      output: EOBJECT ESpeakModel
+
+    speak-query_model:
+      description: "speak-query_model _DESCRIPTION_"
+      required: "EApiQuery.query"
+      callback: onQueryModel
+      input: EAPIQUERY
+      output: EOBJECT ESpeakMapModel
