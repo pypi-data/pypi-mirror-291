@@ -1,0 +1,3 @@
+[console_scripts]
+anc=ac.cli:main
+
