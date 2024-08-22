@@ -1,0 +1,8 @@
+numpy
+brainglobe_atlasapi
+pandas
+requests
+pynrrd
+xmltodict
+opencv-python
+scikit-image
