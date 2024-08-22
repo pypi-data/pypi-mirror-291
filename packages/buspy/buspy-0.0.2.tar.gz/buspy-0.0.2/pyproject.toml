@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "buspy"
+version = "0.0.2"
+description = "The BusPy Python Library provides a structured way to work with events within your application."
+authors = ["Your Name <you@example.com>"]
+packages = [{include = "buspy"}]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8.0"
+pyee = [
+    { version = ">=9.0.0,<11.0.1", markers = "python_version < '3.12'" },
+    { version = ">=11.0.1", markers = "python_version >= '3.12'" }
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^5.0.0"
+pre-commit = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
