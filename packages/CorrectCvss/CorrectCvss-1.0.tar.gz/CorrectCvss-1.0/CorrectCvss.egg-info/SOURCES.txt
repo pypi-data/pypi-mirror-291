@@ -1,0 +1,9 @@
+README.md
+setup.py
+CorrectCvss/__init__.py
+CorrectCvss/correct_cvss.py
+CorrectCvss.egg-info/PKG-INFO
+CorrectCvss.egg-info/SOURCES.txt
+CorrectCvss.egg-info/dependency_links.txt
+CorrectCvss.egg-info/requires.txt
+CorrectCvss.egg-info/top_level.txt

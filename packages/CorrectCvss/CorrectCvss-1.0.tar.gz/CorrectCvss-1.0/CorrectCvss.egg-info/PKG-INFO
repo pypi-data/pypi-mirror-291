@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: CorrectCvss
+Version: 1.0
+Summary: 这是一个简单的Python包
+Home-page: https://github.com/bobolehe/CorrectCvss
+Author: bole
+Author-email: bobolehe@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# CorrectCvss 
+
+
+
+
+
