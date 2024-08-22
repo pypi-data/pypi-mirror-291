@@ -1,0 +1,5 @@
+setup.py
+anc.egg-info/PKG-INFO
+anc.egg-info/SOURCES.txt
+anc.egg-info/dependency_links.txt
+anc.egg-info/top_level.txt
