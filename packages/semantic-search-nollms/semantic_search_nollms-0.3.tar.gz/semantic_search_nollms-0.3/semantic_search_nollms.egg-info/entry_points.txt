@@ -1,0 +1,2 @@
+[console_scripts]
+semantic_search_nollms = semantic_search_nollms.main:main
