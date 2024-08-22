@@ -1,0 +1,5 @@
+llama_index/readers/couchdb/__init__.py,sha256=VnH71RhzplV__XEaeG2qwvyMVYrBAD5XycGVR33qFio,100
+llama_index/readers/couchdb/base.py,sha256=sxw1t9zTOP60i-UMzwul0h0rMUKaKAjg3-kqBWhN88c,2674
+llama_index_readers_couchdb-0.2.0.dist-info/METADATA,sha256=fl6SXQ15DSS90MA_O1gMpd3qTs2bLlJ6fOG0zKpi1lM,1544
+llama_index_readers_couchdb-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_couchdb-0.2.0.dist-info/RECORD,,
