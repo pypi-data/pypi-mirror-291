@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wbase/Go_zh_py.py
+wbase/__init__.py
+wbase/code.py
+wbase/easygui_zw.py
+wbase/function.py
+wbase/random_zw.py
+wbase/symbol.py
+wbase.egg-info/PKG-INFO
+wbase.egg-info/SOURCES.txt
+wbase.egg-info/dependency_links.txt
+wbase.egg-info/top_level.txt
