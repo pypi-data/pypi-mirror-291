@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: fast-blockcheck
+Version: 1.0
+Summary: Track internet blocking over time
+Author: usiqwerty
+Project-URL: Homepage, https://github.com/usiqwerty/fast-blockcheck
+Project-URL: Issues, https://github.com/usiqwerty/fast-blockcheck/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# fast blockcheck
+Track internet blocking over time
+
+## Usage:
+Could be used as tool to check access to websites 
+at the moment or to measure dynamics within some period of time.  
+
+```shell
+fbc [-h] [-t TIMEOUT] [-s] [-r REPEAT]
+```
+To run one-time check just run program without arguments:
+```shell
+fbc
+```
+
+Or do measurements every minute:
+```shell
+fbc -r 1
+```
+
+Default timeout is 5 seconds, but it could be useful to change it:
+```shell
+# set request timeout to 3 seconds
+fbc -t 3
+```
+
+## Features
+- Can run in loop

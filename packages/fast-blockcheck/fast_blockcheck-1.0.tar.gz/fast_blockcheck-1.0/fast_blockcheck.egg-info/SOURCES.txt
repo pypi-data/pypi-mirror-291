@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+fast_blockcheck.egg-info/PKG-INFO
+fast_blockcheck.egg-info/SOURCES.txt
+fast_blockcheck.egg-info/dependency_links.txt
+fast_blockcheck.egg-info/entry_points.txt
+fast_blockcheck.egg-info/requires.txt
+fast_blockcheck.egg-info/top_level.txt
+fbc/__init__.py
+fbc/__main__.py
+fbc/checker.py
+fbc/fbc.py
+fbc/format.py
+fbc/main.py
+fbc/targets.py
