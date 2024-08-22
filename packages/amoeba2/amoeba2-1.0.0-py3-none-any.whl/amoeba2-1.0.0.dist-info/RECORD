@@ -1,0 +1,11 @@
+amoeba2/__init__.py,sha256=0OBk-qyiLWhDUvcOqf6296kI1GObwfL0YnlomPYLzs8,206
+amoeba2/_version.py,sha256=4NnBnw9BbhZx1wzzw73N95Sl6TxerPcwu89jG5lU9vU,497
+amoeba2/physics.py,sha256=ftM6sDND14rRIPL0mnOiva_ax7Py34pRxKtWcojn2HQ,5396
+amoeba2/tau_model.py,sha256=QVruOnGxAb13eaPSiqZx2Df19Oc6cXj2NKdrwhfFkTc,9737
+amoeba2/tb_tau_model.py,sha256=mVd67M09jWFaHSs9admfo4JzXS0Fmtj2Ft7eNiz3ATg,4794
+amoeba2/utils.py,sha256=_rB_zz1DgGDq6jPShuLoOCppu4UhhTX7-DGQtPUQabs,5059
+amoeba2-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+amoeba2-1.0.0.dist-info/METADATA,sha256=WAcf0soZy5I5KGhHhIV1XIPk3lJLeK8i0ZRwB4zXV-U,50285
+amoeba2-1.0.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+amoeba2-1.0.0.dist-info/top_level.txt,sha256=RcQn2M2_9Wh0PbmbBXvcbEeDpLp5uqUIEJZ7BFtBwVI,8
+amoeba2-1.0.0.dist-info/RECORD,,
