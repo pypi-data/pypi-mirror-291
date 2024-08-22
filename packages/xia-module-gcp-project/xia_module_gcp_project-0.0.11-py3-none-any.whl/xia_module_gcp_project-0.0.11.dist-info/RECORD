@@ -1,0 +1,17 @@
+xia_module_gcp_project/__init__.py,sha256=UC8LgPsVKp8GbZ3k9mUM__OESVMZjfmyQFND70iozjs,283
+xia_module_gcp_project/organization.py,sha256=Sltt-bpjIdTh0N_3pknx3uKWVNQbcSpsO6jsIluZ2mE,104
+xia_module_gcp_project/project.py,sha256=zLnfbVI1nU9gWeVurHKC-_FSgLf8V2BSISHIgT69-OA,94
+xia_module_gcp_project/templates/gcp-module-organization/base/main.tf,sha256=m4E_rLnBcwUFFtjuvjz2MMBeDQdbJgiVRfOQPg8KsWU,315
+xia_module_gcp_project/templates/gcp-module-organization/example/landscape.yaml,sha256=WyC34N4_QefgfFHxZ1QS36p1WD96NRyqX4XTGVdkQ_s,460
+xia_module_gcp_project/templates/gcp-module-organization/module/main.tf,sha256=UGO8T_vomis7i6WI1iqU0nQFwf87K8FKwCrxqQwkZGI,4323
+xia_module_gcp_project/templates/gcp-module-organization/module/output.tf,sha256=oA7ygX5-SrRCF6a8BiHU1JcjRO1QWzCgaLHb07l8R7k,135
+xia_module_gcp_project/templates/gcp-module-organization/module/variables.tf,sha256=JL9Gu_Fh65ABwTZtt0QWBXK6-ZFJtamIuZAbtEQDZAU,626
+xia_module_gcp_project/templates/gcp-module-project/base/main.tf,sha256=lJfUZptlsPvhIcUpk-QSSoLifG6vnrYG0N6URIX4yr0,516
+xia_module_gcp_project/templates/gcp-module-project/module/main.tf,sha256=_Hftkha7jRA_KAxwJ9aaFWVnCgrNKk1cdTUx2ZPLjgo,7011
+xia_module_gcp_project/templates/gcp-module-project/module/output.tf,sha256=sp0P4Asnm27sDL5hr4QCDdq8SYjZ-QmGtOKZik-5Nz0,267
+xia_module_gcp_project/templates/gcp-module-project/module/variables.tf,sha256=bWq57vrdTFK_YlubmSlSPM0tV0xIPNXE9HRHEL-DFKM,830
+xia_module_gcp_project-0.0.11.dist-info/LICENSE,sha256=RJDBG1pyQlnqJqp7zHghqWIOzrnMJSSiw_voH1hh06Q,1062
+xia_module_gcp_project-0.0.11.dist-info/METADATA,sha256=jPfIA6XwVRsqTT07mCdBp11RW16ZZbYLgztzQnu1FR8,245
+xia_module_gcp_project-0.0.11.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+xia_module_gcp_project-0.0.11.dist-info/top_level.txt,sha256=Q5gcncdVnV7WJx_UvjdQqBSTQTGrgvnUb8tZCIxrjMw,23
+xia_module_gcp_project-0.0.11.dist-info/RECORD,,
