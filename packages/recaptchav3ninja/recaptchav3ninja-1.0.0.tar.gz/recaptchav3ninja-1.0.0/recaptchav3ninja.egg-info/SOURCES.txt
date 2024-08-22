@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+recaptchav3ninja/__init__.py
+recaptchav3ninja/ninja.py
+recaptchav3ninja.egg-info/PKG-INFO
+recaptchav3ninja.egg-info/SOURCES.txt
+recaptchav3ninja.egg-info/dependency_links.txt
+recaptchav3ninja.egg-info/requires.txt
+recaptchav3ninja.egg-info/top_level.txt
