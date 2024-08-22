@@ -1,0 +1,11 @@
+neuro_auth_client/__init__.py,sha256=x5Ndy1iWRJEG5KrJbD1ZOaOWkhmn4dAi5b-VcZeJIjY,460
+neuro_auth_client/api.py,sha256=g7HVA4Pwg-ywJK2joqlr60LzqO1WSzx4o7oJwlqJx6Y,1217
+neuro_auth_client/bearer_auth.py,sha256=fICHcmq-AsfxrqffgT1B0fOm_8QSzop9TjEN9uIJmGI,710
+neuro_auth_client/client.py,sha256=hcZOYbvo2YGTd8JqhlrUlJoslYmBzP6PYaBfRC41GL0,16598
+neuro_auth_client/py.typed,sha256=rFKpTCovpEgH9Cv-mamRCd2BJeKym4e7v6_5ED8OnLU,9
+neuro_auth_client/security.py,sha256=N_Q4zvv1QgQ76fD6Ffl-d8BsnN7R1JVlDK8N67f5CBg,4908
+neuro_auth_client-24.8.0.dist-info/LICENSE,sha256=pVb_3JM8l6iiZEkZq5-wPiL4om6oL4_xY0E9uzimRWg,582
+neuro_auth_client-24.8.0.dist-info/METADATA,sha256=vmC_1cigvnFBoFG4S6N-K5zkO6gCWcEbdnVgHLTUGug,548
+neuro_auth_client-24.8.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+neuro_auth_client-24.8.0.dist-info/top_level.txt,sha256=oyyVkUqyGkUNNK9DtKecXRUag7CaAZPra0Gj1I3-h9M,18
+neuro_auth_client-24.8.0.dist-info/RECORD,,
