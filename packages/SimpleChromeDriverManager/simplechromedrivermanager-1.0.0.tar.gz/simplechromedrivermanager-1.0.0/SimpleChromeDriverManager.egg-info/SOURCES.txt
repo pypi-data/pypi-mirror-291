@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+SimpleChromeDriverManager.egg-info/PKG-INFO
+SimpleChromeDriverManager.egg-info/SOURCES.txt
+SimpleChromeDriverManager.egg-info/dependency_links.txt
+SimpleChromeDriverManager.egg-info/requires.txt
+SimpleChromeDriverManager.egg-info/top_level.txt
+src/__init__.py
+src/chromedriver_manager.py
+src/test_chromedriver_manager.py
