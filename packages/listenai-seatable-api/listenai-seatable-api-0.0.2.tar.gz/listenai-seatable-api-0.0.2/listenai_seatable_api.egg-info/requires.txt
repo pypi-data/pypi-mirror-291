@@ -1,0 +1,4 @@
+requests
+python-socketio
+ply
+python_dateutil
