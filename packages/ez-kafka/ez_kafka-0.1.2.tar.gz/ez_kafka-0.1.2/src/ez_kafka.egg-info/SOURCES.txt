@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ez_kafka/__init__.py
+src/ez_kafka/consumer.py
+src/ez_kafka.egg-info/PKG-INFO
+src/ez_kafka.egg-info/SOURCES.txt
+src/ez_kafka.egg-info/dependency_links.txt
+src/ez_kafka.egg-info/requires.txt
+src/ez_kafka.egg-info/top_level.txt

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ez_kafka"
+version = "0.1.2"
+authors = [
+  { name="Moein Arabi", email="moein.mo81@gmail.com" },
+]
+description = "EZ consumer for Kafka"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "confluent-kafka >= 2.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ILoveBacteria/ez-kafka"
+Issues = "https://github.com/ILoveBacteria/ez-kafka/issues"
+
+[tool.bumpver]
+current_version = "0.1.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
