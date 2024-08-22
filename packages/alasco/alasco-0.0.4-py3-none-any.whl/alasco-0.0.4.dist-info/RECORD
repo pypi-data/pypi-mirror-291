@@ -1,0 +1,12 @@
+alasco/__init__.py,sha256=6_lz3tfaKFtBm7WmOcmkC0E3QoWsn9FrjZ-8CODsBgY,233
+alasco/client.py,sha256=tu4D8aEkYViaWQ69-l7QiS8JtpVusgl7smdYdW5Cq8A,953
+alasco/data_fetcher.py,sha256=JBbzHZjrRYE91OKmqVaNboKrze8Yzv7tIcnruzT0B5E,18886
+alasco/data_transformer.py,sha256=rEwEtPJdtYuODQFP026iLGl8OIqsS2jZMjicHGY3gZY,10002
+alasco/data_updater.py,sha256=31vxdDEl3JwyhmLmmNUflk_GBsC5fVgbn2CL8w7qBXI,708
+alasco/document_downloader.py,sha256=dEzX_oeNd5K2bK-hF1OASMCoWAXUeOUQPzkDwTmDmz0,18391
+alasco/document_uploader.py,sha256=1TGzDEB3_ypdRc2ec0P1Wv8yPoAXb0sfmIXNJpWl9VU,178
+alasco/utils.py,sha256=6K7yiCbWRVK8ihdlRRjGRX30-MhqfV4QbXzm7MpPlGo,7747
+alasco-0.0.4.dist-info/METADATA,sha256=niH-7hKRBVJKbsYudcnzkT1p3X1PhIJikRqqnpPWRJk,2656
+alasco-0.0.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+alasco-0.0.4.dist-info/licenses/LICENSE,sha256=A3S8UnpVr1BT-l_bbhfNUytaygld9Jl6O25oQTBobmQ,1071
+alasco-0.0.4.dist-info/RECORD,,
