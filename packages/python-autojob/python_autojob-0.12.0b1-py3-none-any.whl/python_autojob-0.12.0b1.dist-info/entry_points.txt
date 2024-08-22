@@ -1,0 +1,4 @@
+[console_scripts]
+autojob = autojob.cli.main:main
+restart-relaxation = autojob.cli.restart_relaxation:main
+run-vibration = autojob.cli.run_vibration:main

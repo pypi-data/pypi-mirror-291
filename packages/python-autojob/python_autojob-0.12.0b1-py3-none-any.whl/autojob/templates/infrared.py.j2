@@ -1,0 +1,20 @@
+import logging
+
+import ase.io
+from ase.calculators.{{ calculator|lower }} import {{ calculator|capitalize }}
+from ccu.relaxation import run_relaxation
+from ccu.thermo.infrared import run_infrared
+
+logging.basicConfig(level=logging.DEBUG)
+
+atoms = ase.io.read("{{ structure }}")
+
+calc = {{ calculator|capitalize }}(
+{% for key, value in parameters.items() %}
+    {{ key|lower }}={{ value }},
+{% endfor %}
+)
+
+atoms.calc = calc
+run_relaxation(atoms)
+run_infrared(atoms)
