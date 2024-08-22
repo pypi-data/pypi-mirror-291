@@ -1,0 +1,13 @@
+auto_mind/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_mind/supervised/__init__.py,sha256=2W_d9-jPTTGAdbz2xfM6IDooTy37GkGP4pokOjHrW-4,360
+auto_mind/supervised/_action.py,sha256=Vl8vLAgYwFOWYFhObXbOn-9P7vcp_hadOYRPGHgtT9g,35246
+auto_mind/supervised/_action_impl.py,sha256=ea91x7WkFrIkd0ZesDaB_3FydWOd26ZUBnR6aAxpk5A,57415
+auto_mind/supervised/_dataset.py,sha256=_3V1Coz5njVTVdZeTaMOLHJbDUWAjyUKSzJffWDlbxY,6350
+auto_mind/supervised/_general_action.py,sha256=XpUOl00Y4Fjg4xCiYs_mpAOgCo-qIVqhKcMykKKl1ZU,25439
+auto_mind/supervised/_manager.py,sha256=PXWhTjMHCr6ifAM152c72gK5E_Hy10EI3-B1CaBmUB8,14893
+auto_mind/supervised/data.py,sha256=RVkLifemD9KZEH3Oi-uGBdbM1UE1EmNGmAz6mjKLXpo,1619
+auto_mind/supervised/handlers.py,sha256=5u2b13kqDd2Gtum4YNxbgFqQ5TfjzxcDLhgFSE4AG8Q,1863
+auto_mind-0.2.2.dist-info/METADATA,sha256=vvWrYvF1uDpJ8N0rQQU4AInhbkJT_EjO_pR8VsfAPuM,2674
+auto_mind-0.2.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+auto_mind-0.2.2.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+auto_mind-0.2.2.dist-info/RECORD,,
