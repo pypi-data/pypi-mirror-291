@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dowy
+Version: 0.5
+Requires-Dist: pytubefix
+Requires-Dist: python-ffmpeg
+Requires-Dist: userpaths
+Requires-Dist: pywin32
+Requires-Dist: tabulate
+
