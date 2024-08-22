@@ -1,0 +1,11 @@
+jaxcam/__init__.py,sha256=NZlgEZelkZj3BOMix6tmuD5sNSsSumopwGT9zZZkw78,2186
+jaxcam/io.py,sha256=KUESB7JTdWW3SF76zSUpp4xjm1RJy5RLYYC-L59Ltio,977
+jaxcam/_src/camera.py,sha256=f4XL1CFW8IL1ZUa9LlkWuqnG43iTqkXJyk4P_k1CBnA,38169
+jaxcam/_src/io.py,sha256=W5m4Y8tspL8-qcH0zuSC63mlCPvBfYnZt3DG9fpEZn4,1966
+jaxcam/_src/math.py,sha256=t0cqjeOeMJ-m9LQCtRBRoAslGZDoaQBX-C9BhE3FAME,2177
+jaxcam/_src/rays.py,sha256=6LXU649dQJJ7fyRw1OZ0zivvgEwXhnC4gOHVX-qnM2M,12518
+jaxcam/_src/utils.py,sha256=-OoVf7bHG8aucfckrVPlsDE41MAQhjY1l6LwvbQx3eQ,4756
+jaxcam-0.3.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+jaxcam-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+jaxcam-0.3.0.dist-info/METADATA,sha256=4lyCPHwxLyROZnnhechA1J9qNY6LXiekkzOPKn7RXXA,2485
+jaxcam-0.3.0.dist-info/RECORD,,
