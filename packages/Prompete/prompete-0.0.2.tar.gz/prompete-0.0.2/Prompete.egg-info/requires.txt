@@ -1,0 +1,7 @@
+wheel
+pytest
+LLMEasyTools>=0.25
+setuptools>=61.0
+pytest-mock
+litellm
+jinja2

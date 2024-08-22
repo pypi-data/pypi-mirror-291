@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Prompete"
+dynamic = ["version"]
+description = "Prompting and templating"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Zbigniew Łukasiak", email = "zbigniew@lukasiak.me" }
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "wheel",
+    "pytest",
+    "LLMEasyTools>=0.25",
+    "setuptools>=61.0",
+    "pytest-mock",
+    "litellm",
+    "jinja2",
+]
+
+[project.urls]
+Homepage = "https://github.com/zby/Prompete"
+
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["prompete"]
+
+[tool.setuptools]
+packages = ["prompete"]
+
+[tool.setuptools.package-data]
+prompete = ["*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "prompete.__version__"}
+
+[pytest]
+markers = [
+    "using_external_apis: marks tests as using external APIs, and should be skipped unless explicitly requested",
+]

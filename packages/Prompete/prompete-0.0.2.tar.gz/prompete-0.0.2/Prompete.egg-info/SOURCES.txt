@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+Prompete.egg-info/PKG-INFO
+Prompete.egg-info/SOURCES.txt
+Prompete.egg-info/dependency_links.txt
+Prompete.egg-info/requires.txt
+Prompete.egg-info/top_level.txt
+prompete/__init__.py
+prompete/chat.py
+prompete/test_chat.py
