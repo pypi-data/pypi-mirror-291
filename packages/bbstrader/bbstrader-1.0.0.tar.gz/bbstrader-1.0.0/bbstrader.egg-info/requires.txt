@@ -1,0 +1,16 @@
+Metatrader5
+pandas
+numpy==1.26.4
+yfinance
+scipy
+hmmlearn
+pmdarima
+arch
+seaborn
+statsmodels
+matplotlib
+filterpy
+pytest
+sphinx
+sphinx-rtd-theme
+CurrencyConverter
