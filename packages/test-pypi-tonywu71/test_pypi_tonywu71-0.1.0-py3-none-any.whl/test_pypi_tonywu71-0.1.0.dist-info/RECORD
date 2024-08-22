@@ -1,0 +1,5 @@
+test_pypi_tonywu71/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pypi_tonywu71/example.py,sha256=ZDNewKzpbQgBq_-41ZAaxohV24vvMisYm84B7qLFHHc,55
+test_pypi_tonywu71-0.1.0.dist-info/METADATA,sha256=zf6JOHuCG60b5yio8lyduFHz5uEvXlma_TPxq2w2jxs,497
+test_pypi_tonywu71-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+test_pypi_tonywu71-0.1.0.dist-info/RECORD,,
