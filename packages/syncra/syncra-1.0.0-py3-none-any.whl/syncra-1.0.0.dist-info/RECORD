@@ -1,0 +1,7 @@
+syncra/__init__.py,sha256=gsTlOFsMhOAidaezDjM4PmFWAV1Ga1VjMEuEsZYVAZU,5541
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sync_async.py,sha256=KMe59s2OhQwl79p1qDhiHqrWW8XcxfIbzrdm4otDEy4,7089
+syncra-1.0.0.dist-info/METADATA,sha256=oiN8SKY14cbDcPrWJ2olZ8a-OW0f2EhpkVgXt-Xbkaw,2488
+syncra-1.0.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+syncra-1.0.0.dist-info/top_level.txt,sha256=XJyyU0GH_tlmvdagnhN-cdKefIkhloRNZ4fiPaQcr0o,13
+syncra-1.0.0.dist-info/RECORD,,
