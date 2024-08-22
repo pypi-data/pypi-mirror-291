@@ -1,0 +1,28 @@
+available_locales=사용 가능한 언어:
+locale_desc=사용할 언어: {{config_value_txt}}
+locale=언어
+locale_dialog=언어 선택:
+add_locale=로케일 추가
+remove_locale=로케일 제거
+locale_remove_dialog=제거할 로캘을 선택하세요:
+enter_locale_git_repo=로케일의 git 저장소를 입력하세요(예: <@t>https://github.com/fieryhenry/ExampleEditorLocale.git</>):
+locale_already_exists=<@e>이름이 <@s>{locale_name}</>인 로케일이 이미 존재합니다.</>\n덮어쓰시겠습니까? ({{y/n}}):
+locale_added=<@su>현지화가 성공적으로 추가되었습니다.</>
+checking_for_locale_updates=외부 지역화 <@t>{locale_name}</>에 대한 업데이트를 확인하는 중...
+external_locale_updated=<@su>외부 현지화 <@t>{locale_name}</>을 버전 <@t>{version}<@t>(으)로 성공적으로 업데이트했습니다.\n{{restart_to_see_changes}}</>
+external_locale_no_update=<@su>언어팩 <@t>{locale_name}</>가 최신버전<@t>{version}<@t></>입니다.</>
+invalid_git_repo=<@e>유효하지 않은 Git 레포</>
+locale_cancelled=<@e>취소됨</>
+restart_to_see_changes=모든 변경 사항을 보려면 편집기를 다시 시작해야 합니다.
+locale_changed=<@su>로케일이 <@t>{locale_name}</>(으)로 성공적으로 변경되었습니다.\n{{restart_to_see_changes}}</>
+locale_removed=<@su>로캘 <@t>{locale_name}</>을 성공적으로 제거했습니다.\n{{restart_to_see_changes}}</>
+no_external_locales=<@e>외부 로케일을 찾을 수 없습니다.</>
+
+locale_text=
+>현재 로케일: <@s>{locale_name}</> (버전: <@s>{locale_version}</>)
+<@s>{locale_author}님이 작성함</>
+>로케일 파일 위치: <@s>{locale_path}</>
+
+default_locale_text=
+>현재 로케일: <@s>한국어</>
+>로케일 파일 위치: <@s>{path}</>
