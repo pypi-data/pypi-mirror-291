@@ -1,0 +1,183 @@
+Metadata-Version: 2.1
+Name: openmmla-vision
+Version: 0.1.0.post1
+Summary: Vision module for the OpenMMLA platform.
+Author-email: Zaibei Li <lizaibeim@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/ucph-ccs/mbox-audio
+Classifier: Topic :: Multimedia :: Video :: Capture
+Classifier: Topic :: Education :: Computer Aided Instruction (CAI)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: influxdb-client==1.44.0
+Requires-Dist: matplotlib==3.9.1
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: paho-mqtt==2.1.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pupil_apriltags==1.0.4.post10
+Requires-Dist: redis==5.0.7
+Requires-Dist: scipy==1.14.0
+Requires-Dist: networkx==3.3
+Requires-Dist: pyecharts==2.0.6
+
+# OpenMMLA Vision
+
+[![PyPI version](https://img.shields.io/pypi/v/openmmla-vision.svg)](https://pypi.org/project/openmmla-vision/)
+
+Video module of the mBox - an open multimodal learning analytic platform.
+For more details, please refer
+to [mbox System design](https://github.com/ucph-ccs/mbox-uber/blob/main/docs/mbox_system.md).
+
+Other modules of the mBox:
+
+- [mbox-uber](https://github.com/ucph-ccs/mbox-uber)
+- [mbox-audio](https://github.com/ucph-ccs/mbox-audio)
+
+## Uber Server Setup
+
+Before setting up the video base, you need to set up a server hosting the InfluxDB, Redis, Mosquitto, and Nginx
+services.
+Please refer to [mbox-uber](https://github.com/ucph-ccs/mbox-uber/blob/main/README.md) module.
+
+## Video Base & Server Setup
+
+Downloading and Setting up the mbox-video analysis system is accomplished in three steps:  
+(1) Clone the repository from GitHub to your local home directory.  
+(2) Install openmmla-vision.  
+(3) Set up folder structure.
+
+1. Clone the repository from GitHub
+   ```sh
+   git clone https://github.com/ucph-ccs/mbox-video.git
+   ```
+
+2. Install openmmla-vision with [conda environment](https://docs.anaconda.com/free/miniconda/index.html)
+    - <details>
+      <summary> Conda </summary>
+
+        ```sh
+        # For Raspberry Pi
+        wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+        bash Miniforge3-$(uname)-$(uname -m).sh
+        
+        # For Mac and Linux
+        wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-$(uname)-$(uname -m).sh"
+        bash Miniconda3-latest-$(uname)-$(uname -m).sh
+        ```
+      </details>
+
+    - <details>
+      <summary> Video Base </summary>
+
+        ```sh
+        conda create -c conda-forge -n video-base python=3.10.12 -y
+        conda activate video-base
+        
+        # install openmmla-vision 
+        pip install openmmla-vision
+      
+        # install openmmla-vision in devlopment mode
+        pip install -e .
+        ```
+      </details>
+
+3. Set up folder structure
+    ```sh
+    cd mbox-video
+    ./reset.sh
+    ```
+    
+## Usage
+
+After setting up the uber server and installation of dependencies, you can run the real-time video analysis by
+following the instructions:
+
+1. Stream video from your camera(s) to the server (e.g., Raspberry Pi, MacBook, etc.)  
+   If you have multiple cameras and each wired to one machine, you can either run the video streaming on each machine or
+   stream all cameras to a centralized RTMP server by following the guidelines
+   in [raspi_rtmp_streaming.md](./docs/raspi_rtmp_streaming.md).
+
+2. Calibrate camera's intrinsic parameters
+    1. Go to ***./camera_calib/pattern***, print out the chessboard image and stick it on a flat surface.
+    2. Capture the chessboard image with your camera and calibrate the camera by running `./calib_camera.sh` bash
+       script.
+
+3. Synchronize multi-cameras' coordinate systems
+
+   If more than one camera is to be used at the same time, you need to calculate the transformation matrix between the
+   main and the alternative camera. The transformation matrix is used to convert the alternative camera's coordinate
+   system to the main camera's coordinate system.
+
+    1. **Centralized mode**  
+       If your cameras are streaming to a centralized RTMP server or serially wired to a single machine, then run
+       ```sh
+       # :param -d the number of cameras needed to sync, default to 2. 
+       # :param -s the number of camera sync manager, default to 1.
+       # e.g.
+       ./sync_camera.sh -d 2 -s 1
+       ```
+    2. **Distributed Mode**  
+       If your cameras are not streamed to a centralized RTMP server and serially wired to a single machine, run camera
+       detector on each your camera hosting machine, and camera sync manager on your synchronizing machine.
+       ```sh
+       # on camera hosting machine, e.g. Raspberry Pi
+       ./sync_camera.sh -d 1 -s 0
+       # on synchronizing machine, e.g. MacBook
+       ./sync_camera.sh -d 0 -s 1
+       ```
+
+4. Run real-time video analysis system
+    1. **Centralized mode**  
+       If your cameras are streaming to a centralized RTMP server or serially wired to a single machine, then run
+       ```sh
+       # :param -b the number of video base needed to run, default to 1. 
+       # :param -s the number of video base synchronizer needed to run, default to 1. 
+       # :param -v the number of visualizer need to run, default to 1. 
+       # :param -g whether to display the graphic window, default to true. 
+       # :param -r whether to record the video frames in image for clip baking, default to false.
+       # :param -v whether to store the real time visualizations with visualizer, default to false.
+       # e.g.
+       ./run.sh
+       ```
+    2. **Distributed Mode**  
+       If your cameras are not streamed to a centralized RTMP server and serially wired to a single machine, run video
+       base on each camera hosting machine and run the synchronizer and visualizer on your synchronizing machine.
+       ```sh
+       # on camera hosting machine, e.g. Raspberry Pi
+       ./run.sh -b 1 -s 0 -v 0 -g false
+       # on synchronizing machine, e.g. MacBook
+       ./run.sh -b 0 -s 1 -v 1
+       ```
+
+## [FAQ](https://github.com/ucph-ccs/mbox-uber/blob/main/docs/FAQ.md)
+
+## Citation
+
+If you use this code in your research, please cite the following paper:
+
+```
+@inproceedings{inproceedings,
+author = {Li, Zaibei and Jensen, Martin and Nolte, Alexander and Spikol, Daniel},
+year = {2024},
+month = {03},
+pages = {785-791},
+title = {Field report for Platform mBox: Designing an Open MMLA Platform},
+doi = {10.1145/3636555.3636872}
+}
+```
+
+## References
+
+- [apriltags](https://github.com/pupil-labs/apriltags)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+
+

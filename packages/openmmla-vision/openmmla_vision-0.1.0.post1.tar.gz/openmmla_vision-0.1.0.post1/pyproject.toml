@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openmmla-vision"
+version = "0.1.0.post1"
+description = "Vision module for the OpenMMLA platform."
+readme = "README.md"
+authors = [{name = "Zaibei Li", email = "lizaibeim@gmail.com"}]
+license = {text = "MIT License"}
+classifiers = [
+    "Topic :: Multimedia :: Video :: Capture",
+    "Topic :: Education :: Computer Aided Instruction (CAI)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.9.0"
+dependencies = [
+    "influxdb-client==1.44.0",
+    "matplotlib==3.9.1",
+    "opencv-python==4.10.0.84",
+    "paho-mqtt==2.1.0",
+    "pandas==2.2.2",
+    "pupil_apriltags==1.0.4.post10",
+    "redis==5.0.7",
+    "scipy==1.14.0",
+    "networkx==3.3",
+    "pyecharts==2.0.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/ucph-ccs/mbox-audio"
+
+[tool.setuptools]
+packages = ["openmmla_vision", "openmmla_vision.bases", "openmmla_vision.camera", "openmmla_vision.services", "openmmla_vision.utils"]
