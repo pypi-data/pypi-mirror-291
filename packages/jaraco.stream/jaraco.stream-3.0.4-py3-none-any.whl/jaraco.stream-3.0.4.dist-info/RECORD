@@ -1,0 +1,9 @@
+jaraco/stream/__init__.py,sha256=ox71B2jZWRHVa1PgcifEtA2etQbGyk3W0ziwyg72LWk,426
+jaraco/stream/buffer.py,sha256=LWRc-nNVlb7n4NtgNuawzVRHLYVZX5yDaPYSn5cOOgU,3200
+jaraco/stream/gzip.py,sha256=_WvF4-PtyHjqK6eDkgQaXNFrZCUnQEOEqGl5pq_avww,1296
+jaraco/stream/test_gzip.py,sha256=gbooVCdP2KHBQleR3Hf6XZc2xloCjhAMMiZZII6UpMU,2429
+jaraco.stream-3.0.4.dist-info/LICENSE,sha256=htoPAa6uRjSKPD1GUZXcHOzN55956HdppkuNoEsqR0E,1023
+jaraco.stream-3.0.4.dist-info/METADATA,sha256=L-PlEkfZ4imnOR-0IE7BdwIOnBuHfKR04N_okYWiyos,2221
+jaraco.stream-3.0.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+jaraco.stream-3.0.4.dist-info/top_level.txt,sha256=0JnN3LfXH4LIRfXL-QFOGCJzQWZO3ELx4R1d_louoQM,7
+jaraco.stream-3.0.4.dist-info/RECORD,,
