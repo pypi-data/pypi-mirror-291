@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: NoCodeTextClassifier
+Version: 0.0.4
+Summary: This package is for Text Classification of NLP Task
+Home-page: https://github.com/Al-Hasib/NoCodeTextClassifier
+Author: abdullah
+Author-email: alhasib.iu.cse@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pathlib
+Requires-Dist: nltk
+Requires-Dist: xgboost
+
+# No Code Text Classifier Tool
+
+This tool will help you to perform training, evaluation & prediction of Text Classification task without knowing any kind of code. You have to define the dataset directory and create your model and perform predictions without any issue. In the backend, this will automatically perform text preprocessing, model training etc. You can also perform hyperparameter techniques to get the best model through experiments. Let's get started.
