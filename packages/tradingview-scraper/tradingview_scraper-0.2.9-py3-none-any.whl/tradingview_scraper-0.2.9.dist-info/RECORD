@@ -1,0 +1,13 @@
+tradingview_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tradingview_scraper/tradingview_scraper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tradingview_scraper/data/exchanges.txt,sha256=mA4SrrLfNZd3HwEAv0NSwMabAFGINyZM7A-SeGbvunE,229
+tradingview_scraper/data/indicators.txt,sha256=Rv06b71hZt-39MRQ4yOPNscLF4ESOiMy_bvvU9EaEmg,1031
+tradingview_scraper/symbols/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tradingview_scraper/symbols/ideas.py,sha256=KUoKP08HYs1jaDSl1wsQaylifgCOW2NNS82YENuptIM,6025
+tradingview_scraper/symbols/technicals.py,sha256=2F9wdLRv-qckl83RJ1CGptsOt91-j_sRzIqwg0IvARY,4607
+tradingview_scraper/symbols/utils.py,sha256=16llWc_774IEh0v1vNi-bZ78MEUs6Dc9CF-66ZHad_E,6198
+tradingview_scraper-0.2.9.dist-info/LICENSE,sha256=yoCa5YU8g0CgKTjsLnpHaWtlTrvhfKcxCNEsoMN-DgU,1082
+tradingview_scraper-0.2.9.dist-info/METADATA,sha256=DFEqCSMItp-m9ZFv2RS30Kdvold8853MOza-xYVuZWo,6714
+tradingview_scraper-0.2.9.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+tradingview_scraper-0.2.9.dist-info/top_level.txt,sha256=ch_G3Nckn6gXLwcyowtbyAiderOxKjSnb-xr2vRDSvw,20
+tradingview_scraper-0.2.9.dist-info/RECORD,,
