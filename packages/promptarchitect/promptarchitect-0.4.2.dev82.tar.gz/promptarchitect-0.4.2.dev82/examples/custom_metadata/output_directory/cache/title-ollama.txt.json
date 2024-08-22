@@ -1,0 +1,35 @@
+{
+    "provider": "ollama",
+    "prompt_file_path": "prompts/generate_titles_ollama.prompt",
+    "output_path": "output_directory",
+    "input_file": "input/podcast_description.txt",
+    "input_text": "",
+    "latency": 18.09488404199874,
+    "cost": 0.0,
+    "errors": {
+        "errors": [],
+        "duplicates": 0
+    },
+    "completion": {
+        "system_role": "You're a humorist title writer. Whenever someone asks you to come up with a title for something, you always come up with something funny.",
+        "model": "gemma2",
+        "parameters": {
+            "provider": "ollama",
+            "model": "gemma2",
+            "prompt_version": 1.0,
+            "temperature": 0.2,
+            "input": "examples/quick_start/input/description.txt",
+            "output": "title-ollama.txt",
+            "system_role": "system_role.txt"
+        },
+        "cost": 0.0,
+        "is_json": false,
+        "test_path": "",
+        "response_message": "Here are 5 funny podcast titles about AI and Machine Learning, tailored for business-minded IT folks:\n\n1. **\"AI, Explained... Maybe? (We're Still Figuring It Out)\"** -  Plays on the \"Explainable AI\" theme with a touch of self-deprecating humor.\n2. **\"MLOps: Where Coffee Runs Hot and Models Go Cold\"** -  Relatable to IT professionals who know the struggles of both caffeine dependence and debugging.\n3. **\"Large Language Models: They Write Better Code Than You (Probably)\"** - A bit cheeky, but gets attention and speaks to the potential impact on developers.\n4. **\"Silicon Valley's New Gods: Talking to Robots Who Think They're Smarter\"** -  A satirical take on the hype surrounding AI, with a hint of existential dread.\n5. **\"From Bits to Bucks: Making Sense of AI for Your Bottom Line\"** -  Directly addresses the business audience while keeping it lighthearted. \n\n\n",
+        "latency": 18.09488404199874,
+        "provider_file": "claude.json"
+    },
+    "completion_type": "OllamaCompletion",
+    "response_message": "Here are 5 funny podcast titles about AI and Machine Learning, tailored for business-minded IT folks:\n\n1. **\"AI, Explained... Maybe? (We're Still Figuring It Out)\"** -  Plays on the \"Explainable AI\" theme with a touch of self-deprecating humor.\n2. **\"MLOps: Where Coffee Runs Hot and Models Go Cold\"** -  Relatable to IT professionals who know the struggles of both caffeine dependence and debugging.\n3. **\"Large Language Models: They Write Better Code Than You (Probably)\"** - A bit cheeky, but gets attention and speaks to the potential impact on developers.\n4. **\"Silicon Valley's New Gods: Talking to Robots Who Think They're Smarter\"** -  A satirical take on the hype surrounding AI, with a hint of existential dread.\n5. **\"From Bits to Bucks: Making Sense of AI for Your Bottom Line\"** -  Directly addresses the business audience while keeping it lighthearted. \n\n\n",
+    "response_texr": "Here are 5 funny podcast titles about AI and Machine Learning, tailored for business-minded IT folks:\n\n1. **\"AI, Explained... Maybe? (We're Still Figuring It Out)\"** -  Plays on the \"Explainable AI\" theme with a touch of self-deprecating humor.\n2. **\"MLOps: Where Coffee Runs Hot and Models Go Cold\"** -  Relatable to IT professionals who know the struggles of both caffeine dependence and debugging.\n3. **\"Large Language Models: They Write Better Code Than You (Probably)\"** - A bit cheeky, but gets attention and speaks to the potential impact on developers.\n4. **\"Silicon Valley's New Gods: Talking to Robots Who Think They're Smarter\"** -  A satirical take on the hype surrounding AI, with a hint of existential dread.\n5. **\"From Bits to Bucks: Making Sense of AI for Your Bottom Line\"** -  Directly addresses the business audience while keeping it lighthearted. \n\n\n"
+}
