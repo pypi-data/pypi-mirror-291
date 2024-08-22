@@ -1,0 +1,3 @@
+[console_scripts]
+tts-stt-tools = tts_stt_tools
+
