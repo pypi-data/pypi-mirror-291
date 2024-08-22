@@ -1,0 +1,11 @@
+shotgun_extensions/__init__.py,sha256=5vY68jDGl4lLVISpFel9BS8dy-T-GmHeG7UdV2uvlOk,176
+shotgun_extensions/query_fields.py,sha256=jkWvg3hWCgAeL-7IXsf-Bo84SzpzC8qknc1MGFIcrYM,14575
+tests/__init__.py,sha256=ICLEkD1CxAU_YC28Aq5QOHMQGakLBvCXLYqJKjW6IcM,35
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_query_fields.py,sha256=tSSwHVRGR5KOQB4QqvXpxhKxg0pDfTTI5fK2OplxUEI,1619
+tests/unit/test_version.py,sha256=xRuloP8YBth5UwI0ufA7ZIycCCC8zPxu1fiJF8Rg-DA,151
+shotgun_extensions-1.0.5.dist-info/LICENSE,sha256=fxULd9abN52Q6B5QoMO0PCejMl9V73RmuiwRl4Jyzjo,1088
+shotgun_extensions-1.0.5.dist-info/METADATA,sha256=yNdaYlEjfmaepMYpkSmTFyAAzFf9rLJpetV7ip0HNds,2474
+shotgun_extensions-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+shotgun_extensions-1.0.5.dist-info/top_level.txt,sha256=Bgz6s6u1_Ftv8AFnkPkXDLSpsAX90pUDxM8SSVfZSME,25
+shotgun_extensions-1.0.5.dist-info/RECORD,,
