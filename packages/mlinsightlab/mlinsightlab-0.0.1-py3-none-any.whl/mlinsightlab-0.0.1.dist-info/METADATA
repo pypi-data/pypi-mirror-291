@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mlinsightlab
+Version: 0.0.1
+Summary: Your Open Source Serverless Data Science Platform
+Home-page: https://github.com/jacobrenn/MLInsightLab/mlil
+Author: MLIL Team
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+Requires-Dist: pandas
+
+# MLIL Python Client
+This package allows you to more easily interact with the MLIL paltform via Python
+
+## Basic usage:
+
+    >>> import mlil
+    >>> client = mlil.MLIL_client()
+    >>> client.actions
+
