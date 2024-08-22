@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: api-foundry
+Version: 0.1.2
+Summary: The `api_foundry` project is a powerful tool designed to automate the deployment of REST APIs on AWS using Lambda services to access and interact with relational databases (RDBMS). This project leverages the OpenAPI specification to define and manage the APIs
+Author-email: Daniel Repik <danrepik@icloud.com>
+Project-URL: Documentation, https://github.com/DanRepik/api-foundry
+Project-URL: Source, https://github.com/DanRepik/api-foundry
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pyhumps
+Requires-Dist: cryptography
+Requires-Dist: requests
+Requires-Dist: simplejson
+Requires-Dist: pyyaml
+Requires-Dist: boto3
+Requires-Dist: pulumi
+Requires-Dist: pulumi-aws

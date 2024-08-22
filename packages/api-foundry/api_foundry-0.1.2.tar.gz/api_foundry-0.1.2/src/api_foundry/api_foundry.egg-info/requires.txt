@@ -1,0 +1,8 @@
+pyhumps
+cryptography
+requests
+simplejson
+pyyaml
+boto3
+pulumi
+pulumi-aws
