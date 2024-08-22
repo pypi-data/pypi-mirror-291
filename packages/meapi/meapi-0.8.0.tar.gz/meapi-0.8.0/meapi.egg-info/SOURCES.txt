@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+meapi.egg-info/PKG-INFO
+meapi.egg-info/SOURCES.txt
+meapi.egg-info/dependency_links.txt
+meapi.egg-info/top_level.txt

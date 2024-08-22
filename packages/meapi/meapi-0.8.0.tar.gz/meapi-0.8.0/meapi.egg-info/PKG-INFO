@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: meapi
+Version: 0.8.0
+Summary: Unofficial api for 'Me - Caller ID & Spam Blocker' app
+Author-email: David Lev <david@davidlev.dev>
+License: MIT
+Project-URL: Documentation, https://meapi.readthedocs.io/
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Taken down due to NFO request.
