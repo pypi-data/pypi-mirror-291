@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pytest_iteration/__init__.py
+pytest_iteration/plugin.py
+pytest_iteration.egg-info/PKG-INFO
+pytest_iteration.egg-info/SOURCES.txt
+pytest_iteration.egg-info/dependency_links.txt
+pytest_iteration.egg-info/entry_points.txt
+pytest_iteration.egg-info/requires.txt
+pytest_iteration.egg-info/top_level.txt
+pytest_iteration.egg-info/zip-safe
+tests/test_pytest_iteration.py
