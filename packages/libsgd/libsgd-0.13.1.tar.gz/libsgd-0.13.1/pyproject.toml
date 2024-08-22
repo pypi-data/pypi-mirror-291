@@ -1,0 +1,24 @@
+[project]
+name = "libsgd"
+
+version = "0.13.1"
+
+description = "Simple Game Development library"
+
+authors = [
+  { name="Mark Sibly", email="marksibly@zohomail.com" },
+]
+
+readme = "README.md"
+
+requires-python = ">=3.8,<=3.11"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: zlib/libpng License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+Homepage = "https://skirmish-dev.net/forum"
+Issues = "https://skirmish-dev.net/forum/category/10/libsgd-bug-reports"
