@@ -1,0 +1,3 @@
+[console_scripts]
+a7n=ac.cli:main
+
