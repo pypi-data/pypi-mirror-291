@@ -1,0 +1,48 @@
+# [tool.poetry]
+# name = "dbbpy"
+# version = "0.1.4"
+# description = ""
+# authors = ["ScipioneParmigiano <pcs.parmigiano@gmail.com>"]
+# readme = "README.md"
+
+# [tool.poetry.dependencies]
+# python = "^3.8"
+# numpy = "^1.21.0"
+# pybind11 = "^2.6.0"
+
+
+# [build-system]
+# requires = ["poetry-core"]
+# build-backend = "poetry.core.masonry.api"
+
+# [tool.poetry.dev-dependencies]
+# setuptools = "^56.0.0"
+
+[tool.poetry]
+name = "dbbpy"
+version = "0.1.5"
+description = "My Python package with C++ bindings"
+authors = ["Your Name <youremail@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21"
+pybind11 = "^2.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[tool.poetry.scripts]
+compile_bindings = "dbbpy.compile:compile_bindings"
+
+# [tool.poetry.include]
+# files = [
+#     "CMakeLists.txt",
+#     "src/*.cpp",
+#     "setup_bindings.py",
+#     "my_python_package/__init__.py"
+# ]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
