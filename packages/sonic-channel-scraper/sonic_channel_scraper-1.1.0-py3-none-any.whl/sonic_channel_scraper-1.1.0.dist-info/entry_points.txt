@@ -1,0 +1,3 @@
+[console_scripts]
+sonic_channel_scraper=sonic_channel_scraper:main
+

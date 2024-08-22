@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sonic-channel-scraper
+Version: 1.1.0
+Summary: Mass download from Sonic Channel website
+Home-page: https://github.com/shantih19/sonic_channel_scraper
+License: MIT
+Author: shantih19
+Author-email: shantih19@shantih19.xyz
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: lint
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/shantih19/sonic_channel_scraper
+Description-Content-Type: text/markdown
+
+# Sonic Channel Scraper
+
+Mass download Sonic Channel files.
+
+## Installation
+
+Install with `pip install sonic-channel-scraper` or with `poetry install`.
+
+## Usage
+
+```text
+usage: sonic_channel_scraper [-h] (--all | --wallpaper | --icon | --calendar | --coloring | --papercraft | --letterset) [--tar] [-c CHARACTER] [--pc | --mobile] dir
+
+positional arguments:
+  dir                   Directory to save into.
+
+options:
+  -h, --help            show this help message and exit
+
+Types:
+  --all                 Scrape all resource types.
+  --wallpaper           Scrape wallpapers.
+  --icon                Scrape icons.
+  --calendar            Scrape calendar pages.
+  --coloring            Scrape coloring pages.
+  --papercraft          Scrape papercraft sets.
+  --letterset           Scrape lettering sets.
+
+Options:
+  --tar                 Save all images into .tar.gz archive.
+  -c CHARACTER, --character CHARACTER
+                        Filter for character. Can be repeated for multiple.
+  --pc                  Download only PC wallpapers.
+  --mobile              Download only mobile wallpapers.
+```
+
