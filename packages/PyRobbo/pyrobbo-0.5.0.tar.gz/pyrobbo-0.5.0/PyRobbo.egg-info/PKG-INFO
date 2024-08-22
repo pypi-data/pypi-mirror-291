@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PyRobbo
+Version: 0.5.0
+Summary: Clone of an old 8-bit Atari game Robbo
+Author-email: Maciej Dems <macdems@gmail.com>
+License: GPL3
+Project-URL: Homepage, http://github.com/macdems/pyrobbo
+Keywords: game,pygame,robbo,atari,clone
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: Arcade
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame>=2.0.0
+Requires-Dist: PyYAML>=5.3.1
+Requires-Dist: appdirs>=1.4.4
+
+PyRobbo
+=======
+
+This is a clone of an old 8-bit Atari game Robbo, written in PyGame.
+
+A little robot needs to collect all parts of his capsule and escape
+hostile planets.
+
+The game has been originally written for Atari XE/XL by Janusz Pelc
+from "LK. Avalon".
+
+Graphics and level data are taken from the gnurobbo project
+(http://gnurobbo.sourceforge.net/).
