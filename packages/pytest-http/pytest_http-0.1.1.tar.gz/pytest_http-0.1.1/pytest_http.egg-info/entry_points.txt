@@ -1,0 +1,2 @@
+[pytest11]
+pytest-http = pytest_http.plugin
