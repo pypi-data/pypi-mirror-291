@@ -1,0 +1,11 @@
+image-processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image-processing/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image-processing/processing/combination.py,sha256=6rWNxzQrOlHNogXqFYvRI-EBKqG2e-pXqGah10zfSZA,1359
+image-processing/processing/transformation.py,sha256=CE-1I_FxlvYV1B1l8yyUnvNbIe7K6ZcaN_7J4mIG_Ow,346
+image-processing/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image-processing/utils/io.py,sha256=1k9zv9kzWYsXoVNMXVjpliccifnMi27dhXC3S2viHVo,191
+image-processing/utils/plot.py,sha256=zwLzJR0rL-9VyvurOcXzewAJFMccHsQH9l-Z3vxSGfY,922
+image_processing_package_clesiomatias-0.0.1.dist-info/METADATA,sha256=L2uCAcIn-nRUt-DAtmBOy0U1HujklFiJj9TWGzL4TRY,862
+image_processing_package_clesiomatias-0.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+image_processing_package_clesiomatias-0.0.1.dist-info/top_level.txt,sha256=3ARf_v6eRLUmr0jizzSkS6xf3h1ZEdmZhsWtlFeIVD8,17
+image_processing_package_clesiomatias-0.0.1.dist-info/RECORD,,

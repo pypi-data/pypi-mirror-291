@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: image-processing-package_clesiomatias
+Version: 0.0.1
+Summary: A package for image processing
+Home-page: https://github.com/clesiomatias/NTT_DIO_Bootcamp/
+Author: @clesiofmatias
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: matplotlib
+
+# image_processing
+
+Description.
+
+The package image_processing is used to:
+
+    Processing:
+
+* Histogram matching
+* Strutuctural similarity
+* Resize image
+
+Utils:
+
+* Read image
+* Save image
+* Plot image
+* Plot result
+* Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/ "Follow de package address")  to install  Image_processing
+
+```
+pip install image_processing
+```
+
+## Author
+
+@clesiofmatias
+
+## Licence
+
+[MIT](https://choosealicense.com/licenses/mit/ "Go to MIT license")
