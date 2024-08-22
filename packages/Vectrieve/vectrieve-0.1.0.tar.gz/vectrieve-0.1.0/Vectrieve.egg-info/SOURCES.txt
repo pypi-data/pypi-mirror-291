@@ -1,0 +1,11 @@
+README.md
+setup.py
+Vectrieve.egg-info/PKG-INFO
+Vectrieve.egg-info/SOURCES.txt
+Vectrieve.egg-info/dependency_links.txt
+Vectrieve.egg-info/requires.txt
+Vectrieve.egg-info/top_level.txt
+vectrieve/__init__.py
+vectrieve/data_loader.py
+vectrieve/functions.py
+vectrieve/utils.py
