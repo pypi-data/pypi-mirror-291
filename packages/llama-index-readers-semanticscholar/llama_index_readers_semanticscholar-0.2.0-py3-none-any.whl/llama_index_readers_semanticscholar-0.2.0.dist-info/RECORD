@@ -1,0 +1,5 @@
+llama_index/readers/semanticscholar/__init__.py,sha256=9qr43YgTRydnQ1KIvoYBd8ZyW9U4MoiiH-zcQ9qsUt8,112
+llama_index/readers/semanticscholar/base.py,sha256=OC_z5woRnYhGwa1VmMrzXN6oZsa_hQSfR_nKkNR-PSQ,7598
+llama_index_readers_semanticscholar-0.2.0.dist-info/METADATA,sha256=7v8ook36XfMxmjwkpUVdrYNujWXkpAYO7pDk8JcPI_E,4074
+llama_index_readers_semanticscholar-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_semanticscholar-0.2.0.dist-info/RECORD,,
