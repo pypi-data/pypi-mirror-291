@@ -1,0 +1,6 @@
+setuptools
+plone.base
+Zope>=5.10
+
+[test]
+Products.CMFPlone
