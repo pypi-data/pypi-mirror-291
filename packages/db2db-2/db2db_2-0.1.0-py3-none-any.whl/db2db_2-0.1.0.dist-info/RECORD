@@ -1,0 +1,14 @@
+db2db/__init__.py,sha256=yLXHm1CtrkOPAIWaHqH702JfMy4D2xsXeEH9ksRbCvA,37
+db2db/core.py,sha256=GOQ0NuLfqrLyFAOxXDVvdeTjc3znzauiubumwWN6Ik0,1900
+db2db/transfer.py,sha256=p0S8tvpsiltTavwZ-PChlJPs2j3pYwspVMEI9Jpm1gE,915
+db2db/utils.py,sha256=FRZLhHVLKUZ2kx3WYlTsZ7T39wtHypqpuvTLN37597E,1624
+dbtodb/__init__.py,sha256=yLXHm1CtrkOPAIWaHqH702JfMy4D2xsXeEH9ksRbCvA,37
+dbtodb/core.py,sha256=GOQ0NuLfqrLyFAOxXDVvdeTjc3znzauiubumwWN6Ik0,1900
+dbtodb/transfer.py,sha256=p0S8tvpsiltTavwZ-PChlJPs2j3pYwspVMEI9Jpm1gE,915
+dbtodb/utils.py,sha256=FRZLhHVLKUZ2kx3WYlTsZ7T39wtHypqpuvTLN37597E,1624
+tests/__init__.py,sha256=pJ6NBhdfGQj8Fj-bimw_hS1qTPIb2oojPbb6218u1Qo,583
+db2db_2-0.1.0.dist-info/LICENSE,sha256=4EEeUx84wHneEg04PjKR3Xt78EWCRNBK3MPE2lnKt5Q,1089
+db2db_2-0.1.0.dist-info/METADATA,sha256=ib0vbasUS6_BgFLRw5kyFmy3pDofEZ5dGBukQz3Rl8U,3786
+db2db_2-0.1.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+db2db_2-0.1.0.dist-info/top_level.txt,sha256=7x9BCKv-kewLo6KnfSfMADxGRnqHTMYZ-fvSd81IQ-Y,12
+db2db_2-0.1.0.dist-info/RECORD,,
