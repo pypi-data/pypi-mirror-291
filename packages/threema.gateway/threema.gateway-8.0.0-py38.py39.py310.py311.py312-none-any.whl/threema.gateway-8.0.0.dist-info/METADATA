@@ -1,0 +1,295 @@
+Metadata-Version: 2.1
+Name: threema.gateway
+Version: 8.0.0
+Summary: An API for the Threema gateway service to send and receive messages including text, images, files and delivery reports.
+Home-page: https://gateway.threema.ch/
+Author: Lennart Grahl
+Author-email: lennart.grahl@threema.ch
+License: MIT License
+Keywords: threema gateway service sdk api
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+License-File: LICENSE
+Requires-Dist: logbook <2,>=1.1.0
+Requires-Dist: libnacl <3,>=1.5.2
+Requires-Dist: click <9,>=8
+Requires-Dist: aiohttp <4,>=3.7.3
+Requires-Dist: wrapt <2,>=1.10.10
+Provides-Extra: dev
+Requires-Dist: pytest <9,>=8.3.2 ; extra == 'dev'
+Requires-Dist: pytest-asyncio <0.23,>=0.21.2 ; extra == 'dev'
+Requires-Dist: flake8 ==7.1.1 ; extra == 'dev'
+Requires-Dist: isort ==5.13.2 ; extra == 'dev'
+Requires-Dist: collective.checkdocs <0.3,>=0.2 ; extra == 'dev'
+Requires-Dist: Pygments >=2.18.0 ; extra == 'dev'
+Requires-Dist: mypy ==1.11.1 ; extra == 'dev'
+Provides-Extra: uvloop
+Requires-Dist: uvloop <2,>=0.8.0 ; extra == 'uvloop'
+
+Threema Gateway API
+===================
+
+**threema-gateway** is a Python 3 module for the Threema gateway service.
+This API can be used to send and receive text messages to and from any Threema
+user.
+
+Note
+****
+
+On machines where Python 3 is not the default Python runtime, you should
+use ``pip3`` instead of ``pip``.
+
+Prerequisites
+*************
+
+.. code-block:: bash
+
+    $ sudo apt-get install python3 python3-pip
+
+We recommend using `venv`_ to create an isolated Python environment:
+
+.. code-block:: bash
+
+    $ pyvenv venv
+
+You can switch into the created virtual environment *venv* by running
+this command:
+
+.. code-block:: bash
+
+    $ source venv/bin/activate
+
+While the virtual environment is active, all packages installed using
+``pip`` will be installed into this environment.
+
+To deactivate the virtual environment, just run:
+
+.. code-block:: bash
+
+    $ deactivate
+
+If you want easier handling of your virtualenvs, you might also want to
+take a look at `virtualenvwrapper`_.
+
+Installation
+------------
+
+If you are using a virtual environment, activate it first.
+
+Install the module by running:
+
+.. code-block:: bash
+
+    $ pip install threema.gateway
+
+The dependency ``libnacl`` will be installed automatically. However, you
+may need to install `libsodium`_ for ``libnacl`` to work.
+
+Command Line Usage
+******************
+
+The script ``threema-gateway`` provides a command line interface for
+the Threema gateway. Run the following command to see usage information:
+
+.. code-block:: bash
+
+    $ threema-gateway --help
+
+Gateway API Endpoint
+--------------------
+
+The default Gateway API Endpoint URL used is https://msgapi.threema.ch/.
+
+If you are a Threema OnPrem customer or have another reason to use a different
+Gateway API Endpoint, you may override the URL as follows:
+
+.. code-block:: bash
+
+    $ export GATEWAY_API_URL=https://onprem.myinstance.tld/msgapi
+
+Any following calls to ``threema-gateway`` will then use the supplied Gateway
+API Endpoint URL.
+
+Examples
+********
+
+You can find a few example scripts in the ``examples/`` directory.
+
+Note that most of them need to be adjusted to at least add your gateway ID
+credentials before they run successfully.
+
+Feature Levels
+**************
+
++---------+--------+----------------+---------+--------+-----------+
+| Level   | Text   | Capabilities   | Image   | File   | Credits   |
++=========+========+================+=========+========+===========+
+| 1       | X      |                |         |        |           |
++---------+--------+----------------+---------+--------+-----------+
+| 2       | X      | X              | X       | X      |           |
++---------+--------+----------------+---------+--------+-----------+
+| 3       | X      | X              | X       | X      | X         |
++---------+--------+----------------+---------+--------+-----------+
+
+You can see the implemented feature level by invoking the following
+command:
+
+.. code-block:: bash
+
+    $ threema-gateway version
+
+Contributing
+************
+
+If you want to contribute to this project, you should install the
+optional ``dev`` requirements of the project in an editable environment:
+
+.. code-block:: bash
+
+    $ git clone https://github.com/threema-ch/threema-msgapi-sdk-python.git
+    $ cd threema-msgapi-sdk-python
+    $ pip install -e .[dev]
+
+Before creating a pull request, it is recommended to run the following
+commands to check for code style violations (``flake8``), optimise
+imports (``isort``) and run the project's tests:
+
+.. code-block:: bash
+
+    $ flake8 .
+    $ isort .
+    $ py.test
+
+You should also run the type checker that might catch some additional bugs:
+
+.. code-block:: bash
+
+    $ mypy setup.py tests examples threema
+
+.. _asyncio: https://docs.python.org/3/library/asyncio.html
+.. _venv: https://docs.python.org/3/library/venv.html
+.. _virtualenvwrapper: https://virtualenvwrapper.readthedocs.io/
+.. _libsodium: https://download.libsodium.org/doc/installation/index.html
+
+Changelog
+*********
+
+`8.0.0`_ (2024-08-21)
+---------------------
+
+- Add support for Python 3.10/3.11/3.12
+- Drop support for Python versions below 3.8
+- Bump dependencies
+- Add `caption` to file message and to the CLI
+- Add an optional parameter to the CLI for `send-simple` and `send-e2e` to allow
+  passing the text as an argument instead from stdin.
+- Make the random padding spec compliant
+- Add an optional environment variable `GATEWAY_API_URL` to override the Gateway
+  API Endpoint URL
+
+`7.0.1`_ (2023-02-21)
+---------------------
+
+- Fix parsing of unknown reception capabilities
+- Add new `ReceptionCapability` items
+- Remove `ReceptionCapabilitiesError` (breaking)
+
+`6.0.0`_ (2022-06-13)
+---------------------
+
+General:
+
+- Add support for Python 3.10
+- Drop support for Python versions below 3.7
+- Major dependencies bump to increase compatibility with other packages
+- Updated all tests to work with the newest dependencies
+- Changed CLI syntax: All commands are now `dash-case` instead of `snake_case`,
+  e.g. the `send_e2e` command is now called `send-e2e`.
+
+
+`5.0.0`_ (2021-05-17)
+---------------------
+
+- Add custom session and session arguments to `Connection` (#55, #56)
+- Remove the `fingerprint` and `verify_fingerprint` arguments, see #55 for a
+  detailed explanation and how to achieve pinning
+
+`4.0.0`_ (2021-01-23)
+---------------------
+
+General:
+
+- Drop support for Python versions below 3.6.1.
+- Remove `ReceiptType.user_ack` after deprecation. Use
+  `ReceiptType.user_acknowledge` instead.
+- Simplify `util.aio_run`. It does not allow for passing a specific event loop
+  or closing the event loop on completion any longer.
+- Rename `util.aio_run_proxy_decorator` to `aio_run_proxy`. It now always
+  creates the class instance within a running event loop.
+
+Client:
+
+- In async mode, creation of the `Connection` instance must now be done within
+  an `async` function.
+- If you have used a `with` context manager block in async mode before, you
+  must now do this within an `async with` asynchronous context manager. No
+  change is required in blocking mode.
+- `Connection.close` is now an async function.
+
+Server:
+
+- The callback server has been refactored and the `AbstractCallback` class has
+  been removed for more flexibility and control of the underlying
+  `aiohttp <https://docs.aiohttp.org>`_ server. Take a look at
+  `examples/callback.py` on how to use it.
+- The callback server CLI has been removed because it was redundant. The
+  example provides the same functionality.
+
+`3.1.0`_ (2020-04-21)
+---------------------
+
+- Add video message
+- Fix slightly off calculation of image byte length
+
+`3.0.6`_ (2017-09-22)
+---------------------
+
+- Migrate to aiohttp2
+
+`3.0.5`_ (2017-07-25)
+---------------------
+
+- Fix to handle new `libnacl <https://github.com/saltstack/libnacl/pull/91>`_
+  exceptions.
+
+`3.0.4`_ (2017-05-23)
+---------------------
+
+- Fix CLI
+
+`3.0.2`_ (2017-05-12)
+---------------------
+
+- Initial publication on PyPI
+
+.. _8.0.0: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v7.0.1...v8.0.0
+.. _7.0.1: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v6.0.0...v7.0.1
+.. _6.0.0: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v5.0.0...v6.0.0
+.. _5.0.0: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v4.0.0...v5.0.0
+.. _4.0.0: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v3.1.0...v4.0.0
+.. _3.1.0: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v3.0.6...v3.1.0
+.. _3.0.6: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v3.0.5...v3.0.6
+.. _3.0.5: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v3.0.4...v3.0.5
+.. _3.0.4: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/v3.0.2...v3.0.4
+.. _3.0.2: https://github.com/threema-ch/threema-msgapi-sdk-python/compare/e982c74cbe564c76cc58322d3154916ee7f6863b...v3.0.2
