@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pytest_status/__init__.py
+pytest_status/plugin.py
+pytest_status.egg-info/PKG-INFO
+pytest_status.egg-info/SOURCES.txt
+pytest_status.egg-info/dependency_links.txt
+pytest_status.egg-info/entry_points.txt
+pytest_status.egg-info/requires.txt
+pytest_status.egg-info/top_level.txt
+pytest_status.egg-info/zip-safe
+tests/test_pytest_status.py
