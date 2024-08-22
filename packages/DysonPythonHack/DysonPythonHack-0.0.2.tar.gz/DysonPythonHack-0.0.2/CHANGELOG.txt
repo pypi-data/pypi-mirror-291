@@ -1,0 +1,10 @@
+Change Log
+==========
+
+0.0.1 (20/08/2024)
+-----------------
+- First Release
+
+0.0.2 (21/08/2024)
+-----------------
+- Linux automatic dyson ip finder fix
