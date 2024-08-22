@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/viavai.egg-info/PKG-INFO
+src/viavai.egg-info/SOURCES.txt
+src/viavai.egg-info/dependency_links.txt
+src/viavai.egg-info/top_level.txt
