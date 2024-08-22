@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: wavsetpos
+Version: 1.0
+Summary: A library for setting pos of a wav file with pygame.mixer.music
+Home-page: 
+Author: Raymond Grottodden
+Author-email: raymondgrotto651@gmail.com
+License: MIT
+Keywords: pygame,wav,music,mixer
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pydub ==0.25.1
+
+---
+This is a module to make setting the position of a wav file in pygame.mixer.music possible
+
+---
+
+# Functions
+## load_wav
+*Loads wav file into pygame mixer*
+
+`def load_wav(filename : str, namehint : str | None = "") -> None:...`
+
+**Example**
+```
+import wavsetpos as wsp
+import pygame
+
+# use in place of pygame.mixer.music.load()
+wsp.load_wav(...)
+...
+pygame.mixer.music.play()
+```
+
+## set_wav_pos
+*Sets position of wav file playing in pygame mixer*
+
+`def set_wav_pos(pos : int, dir : str | None = None) -> None:...`
+
+**Example**
+```
+import wavsetpos as wsp
+import pygame
+
+# use in place of pygame.mixer.music.load()
+wsp.load_wav(...)
+...
+pygame.mixer.music.play()
+
+# in seconds
+wsp.set_wav_pos(50)
+```
+
+
+Change Log
+==========
+
+0.1.8 (10/6/2023)
+-----------------
+- Fixed square roots in equation builder
+- Fixed division hanging
+- Added Precision default changer to docs
+
+0.1.6 (10/6/2023)
+-----------------
+- Made specific 10 ^ #, 100 ^ #... algorithm
+- Made negative exponents 
+
+0.1.5 (10/5/2023)
+-------------------
+- Massive limits fix
+- Fixed decimal exponent problem (cannot do decimal exponents)
+
+0.1.401 (10/3/2023)
+-------------------
+- Fixed -0
+
+0.1.4 (10/3/2023)
+-----------------
+- Fixed limits
+- Changed limit precision default from 50 -> 100
+
+0.1.3 (10/3/2023)
+-----------------
+- Updated documentation
+
+0.1.2 (10/2/2023)
+-----------------
+- Fixed negative numbers in limits
+
+0.1.1 (10/2/2023)
+-----------------
+- Added functionality to equation builder.
+- Added functions / limits
+
+0.1.0 (10/1/2023)
+-----------------
+- Initial Release
