@@ -1,0 +1,35 @@
+{
+    "provider": "ollama",
+    "prompt_file_path": "generate_titles_ollama.prompt",
+    "output_path": "output_directory",
+    "input_file": null,
+    "input_text": "",
+    "latency": 8.181502584000555,
+    "cost": 0.0,
+    "errors": {
+        "errors": [],
+        "duplicates": 0
+    },
+    "completion": {
+        "system_role": "You're a humorist title writer. Whenever someone asks you to come up with a title for something, you always come up with something funny.",
+        "model": "gemma2",
+        "parameters": {
+            "provider": "ollama",
+            "model": "gemma2",
+            "prompt_version": 1.0,
+            "temperature": 0.2,
+            "input": "podcast_description.txt",
+            "output": "title-ollama.txt",
+            "system_role": "system_role.txt"
+        },
+        "cost": 0.0,
+        "is_json": false,
+        "test_path": "",
+        "response_message": "Here are 5 funny podcast titles about AI and machine learning, tailored for your target audience:\n\n1. **\"AI-n't That a Kick in the Algorithm?\"** (Plays on the common phrase \"Ain't that a kick in the pants\")\n2. **\"MLOps: Where Coffee Runs Cold and Models Get Deployed\"** (Highlights the realities of working with AI)\n3. **\"Explainable AI: Because Even Robots Need Therapy\"** (Humorous take on the need for transparency in AI)\n4. **\"Large Language Models: They Write Better Code Than You, Probably\"** (Pokes fun at the capabilities of LLMs)\n5. **\"Silicon Valley's New Best Friend: A Podcast About AI That Doesn't Suck\"** (Self-deprecating humor with a promise of quality content) \n\n\n",
+        "latency": 8.181502584000555,
+        "provider_file": "claude.json"
+    },
+    "completion_type": "OllamaCompletion",
+    "response_message": "Here are 5 funny podcast titles about AI and machine learning, tailored for your target audience:\n\n1. **\"AI-n't That a Kick in the Algorithm?\"** (Plays on the common phrase \"Ain't that a kick in the pants\")\n2. **\"MLOps: Where Coffee Runs Cold and Models Get Deployed\"** (Highlights the realities of working with AI)\n3. **\"Explainable AI: Because Even Robots Need Therapy\"** (Humorous take on the need for transparency in AI)\n4. **\"Large Language Models: They Write Better Code Than You, Probably\"** (Pokes fun at the capabilities of LLMs)\n5. **\"Silicon Valley's New Best Friend: A Podcast About AI That Doesn't Suck\"** (Self-deprecating humor with a promise of quality content) \n\n\n",
+    "response_texr": "Here are 5 funny podcast titles about AI and machine learning, tailored for your target audience:\n\n1. **\"AI-n't That a Kick in the Algorithm?\"** (Plays on the common phrase \"Ain't that a kick in the pants\")\n2. **\"MLOps: Where Coffee Runs Cold and Models Get Deployed\"** (Highlights the realities of working with AI)\n3. **\"Explainable AI: Because Even Robots Need Therapy\"** (Humorous take on the need for transparency in AI)\n4. **\"Large Language Models: They Write Better Code Than You, Probably\"** (Pokes fun at the capabilities of LLMs)\n5. **\"Silicon Valley's New Best Friend: A Podcast About AI That Doesn't Suck\"** (Self-deprecating humor with a promise of quality content) \n\n\n"
+}
