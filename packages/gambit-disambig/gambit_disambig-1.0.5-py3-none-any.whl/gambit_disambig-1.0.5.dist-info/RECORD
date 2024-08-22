@@ -1,0 +1,11 @@
+gambit/__init__.py,sha256=6QyMS21ASqofQ9S6nsC5x-G8YL-TDkXvfNzlyjt1now,271
+gambit/main.py,sha256=LitcTex6UEwUzkeCbIhSDH8KM_uGGZA86zt1o6ZTOdc,1311
+gambit/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gambit/algorithms/bird.py,sha256=E-ayNa-bu9lvdio2DieXBREwMwzoLci0uWJMgfl5wdE,5159
+gambit/algorithms/gambit.py,sha256=ni0857nGLNYkY1y8pcqe9TulK6zftDQXlWCSZVz0JFg,9583
+gambit/algorithms/simple.py,sha256=9ypR9OxhOlzcZ82xaInHTob0vo5emDO0rrnzANXql68,1959
+gambit_disambig-1.0.5.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+gambit_disambig-1.0.5.dist-info/METADATA,sha256=k9edaOgVLMtCjaFWYci_Q4cywzngBuEUw_eJpIL9dLg,2968
+gambit_disambig-1.0.5.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+gambit_disambig-1.0.5.dist-info/top_level.txt,sha256=BVfDeN4D4p4zYvEh__8vMp4iDEwe3yPVNGUQSrWlugY,7
+gambit_disambig-1.0.5.dist-info/RECORD,,
