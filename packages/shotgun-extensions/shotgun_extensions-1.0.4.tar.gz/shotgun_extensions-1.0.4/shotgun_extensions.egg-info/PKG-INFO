@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: shotgun-extensions
+Version: 1.0.4
+Summary: shotgun_extensions extends the functionality of shotgun_api3 Python package
+Home-page: https://github.com/mbsurfer/shotgun-extensions
+Author: Ryan Neldner
+Author-email: rneldner@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: shotgun_api3
+
+# shotgun_extensions
+
+shotgun_extensions extends the functionality of shotgun_api3 Python package.
+
+Quick example:
+
+```python
+>>> from shotgun_api3 import Shotgun
+>>> from shotgun_extensions import sge_find_one
+>>> sg = Shotgun('https://your-server.com', script_name='Script Name', api_key='scrip_api_key')
+>>> my_shot = sge_find_one(sg, entity_type='Shot', 
+                               filters=[['code', 'is', '101_001_0001']], 
+                               fields=['name', 'query_field'])
+>>> print(my_shot)
+
+[{'name': '101_001_0001', 'query_field': 'value'}]
+```
+
+## Supported Features
+
+### Query Fields
+
+Currently, the ShotGun API does not support requesting query field values in the response from methods such as find and find_one.
+
+In order to get these values, you must request the entity schema and parse the response to generate additional queries to the API.
+
+See https://community.shotgridsoftware.com/t/api-to-get-query-field-values/11263 for details.
+
+The query_fields module provides two methods that are meant to replace the find and find_one methods from the shotgun_api3 package:
+  - sge_find
+  - sge_find_one

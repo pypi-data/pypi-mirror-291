@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+shotgun_extensions/__init__.py
+shotgun_extensions/query_fields.py
+shotgun_extensions.egg-info/PKG-INFO
+shotgun_extensions.egg-info/SOURCES.txt
+shotgun_extensions.egg-info/dependency_links.txt
+shotgun_extensions.egg-info/requires.txt
+shotgun_extensions.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/__init__.py
+tests/unit/test_query_fields.py
+tests/unit/test_version.py
