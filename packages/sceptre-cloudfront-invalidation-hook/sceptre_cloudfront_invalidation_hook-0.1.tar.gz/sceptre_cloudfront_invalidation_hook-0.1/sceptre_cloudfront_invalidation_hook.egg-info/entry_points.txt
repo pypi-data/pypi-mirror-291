@@ -1,0 +1,2 @@
+[sceptre.hooks]
+cloudfront_invalidate = sceptre_cloudfront_invalidation_hook:InvalidationHook
