@@ -1,0 +1,7 @@
+include src/__init__.py
+include src/ncut_pytorch.py
+include requirements.txt
+include MANIFEST.in
+include README.md
+include LICENSE
+include setup.py
