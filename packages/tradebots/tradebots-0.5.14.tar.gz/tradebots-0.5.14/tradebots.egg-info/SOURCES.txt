@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+tests/test.py
+tradebots/__init__.py
+tradebots/interface.py
+tradebots/server.py
+tradebots/tradebot.py
+tradebots.egg-info/PKG-INFO
+tradebots.egg-info/SOURCES.txt
+tradebots.egg-info/dependency_links.txt
+tradebots.egg-info/requires.txt
+tradebots.egg-info/top_level.txt
