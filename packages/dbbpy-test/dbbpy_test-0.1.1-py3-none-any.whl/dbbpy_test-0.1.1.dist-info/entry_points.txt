@@ -1,0 +1,3 @@
+[console_scripts]
+compile_bindings=dbbpy_test.compile:compile_bindings
+
