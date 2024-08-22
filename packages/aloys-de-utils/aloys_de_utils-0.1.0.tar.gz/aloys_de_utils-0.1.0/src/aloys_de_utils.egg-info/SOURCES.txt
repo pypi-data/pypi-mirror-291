@@ -1,0 +1,10 @@
+pyproject.toml
+src/aloys_de_utils/__init__.py
+src/aloys_de_utils/main.py
+src/aloys_de_utils/vm.py
+src/aloys_de_utils.egg-info/PKG-INFO
+src/aloys_de_utils.egg-info/SOURCES.txt
+src/aloys_de_utils.egg-info/dependency_links.txt
+src/aloys_de_utils.egg-info/entry_points.txt
+src/aloys_de_utils.egg-info/requires.txt
+src/aloys_de_utils.egg-info/top_level.txt
