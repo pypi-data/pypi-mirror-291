@@ -1,0 +1,12 @@
+networkx>2.4
+numpy
+lark-parser
+pandas
+grandiso>=2.1.0
+
+[neo4j]
+py2neo
+
+[neuprint]
+py2neo
+neuprint-python
