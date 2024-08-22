@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+cognitive_schema/__init__.py
+cognitive_schema/cli.py
+cognitive_schema/query.py
+cognitive_schema.egg-info/PKG-INFO
+cognitive_schema.egg-info/SOURCES.txt
+cognitive_schema.egg-info/dependency_links.txt
+cognitive_schema.egg-info/entry_points.txt
+cognitive_schema.egg-info/requires.txt
+cognitive_schema.egg-info/top_level.txt
+cognitive_schema/db/__init__.py
+cognitive_schema/db/download_schema.py
+cognitive_schema/db/generate_profiles.py
