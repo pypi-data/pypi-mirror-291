@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shopify_api_client"
+version = "0.2.2"
+description = ""
+authors = ["Brayden Brekke <Braydenbrekke@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+pytz = "^2024.1"
+datetime = "^5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
