@@ -1,0 +1,5 @@
+llama_index/readers/clickhouse/__init__.py,sha256=Wu9bK2V6KCopgrd0EcJAIs6336yw_bHN-2Dsc3BR-dU,188
+llama_index/readers/clickhouse/base.py,sha256=-xczdc1TWtC2-NJWBLUJChTrbSOHD-mqXqJT4mQstxU,5518
+llama_index_readers_clickhouse-0.2.0.dist-info/METADATA,sha256=SMs5ULHLmVlnuTL51KeiLm-NH0Xt2CnLHq9TkoYMTsw,2209
+llama_index_readers_clickhouse-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_clickhouse-0.2.0.dist-info/RECORD,,
