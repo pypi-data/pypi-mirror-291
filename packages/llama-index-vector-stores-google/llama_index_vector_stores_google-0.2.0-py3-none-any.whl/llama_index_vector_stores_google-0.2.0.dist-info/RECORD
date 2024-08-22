@@ -1,0 +1,7 @@
+llama_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/vector_stores/google/__init__.py,sha256=wb-V-30WiNg1qsqxWu5xs7OJ-xHo8jHLgcknMS8R5-k,165
+llama_index/vector_stores/google/base.py,sha256=wcbE6tl_x5ArYKVTvTT7s2H8jhyFPhaFr9uKt0TRqrY,17963
+llama_index/vector_stores/google/genai_extension.py,sha256=UyxgCdEb3itN2azS9N-fXBUJHzs78g6jDPNhI3JMB8o,18647
+llama_index_vector_stores_google-0.2.0.dist-info/METADATA,sha256=Gv9RDXG3Vlr8UNmIMEMlmT-1UQ0cdcRoW2fG_-LeTEE,713
+llama_index_vector_stores_google-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_google-0.2.0.dist-info/RECORD,,
