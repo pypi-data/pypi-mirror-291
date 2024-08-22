@@ -1,0 +1,16 @@
+aitclient/__init__.py,sha256=wMQTD_pKVnF-UzWqekvID9aqB-fwvItlchgaM5LgDWE,56
+aitclient/auth.py,sha256=12VR_Smzlfl4UnqhPlJLypFxMALAyZjJFj529ASQNxc,4118
+aitclient/upload.py,sha256=tPQXWMtTAgQzZpUdhXknz2RpJDqZYFG94VzeHDPbKMc,13379
+aitclient/certs/SAP_Global_Root.pem,sha256=hAzpPiyOPhX_nEizYPqHrHJvHrbSXLH8JxFzlRW6wTk,2280
+aitclient-0.1.23.dist-info/LICENSE,sha256=ZVo899N9J3OCdYC-Fm0R5iX0Eql87llZav0zIbtFGaI,1091
+aitclient-0.1.23.dist-info/METADATA,sha256=e8kgy18Xvb5_K0Xxfd1VC0E9kde4JkAKpJtFSnlTmOY,504
+aitclient-0.1.23.dist-info/PKG-INFO 2,sha256=aR60bx0HQB0mODP4yzSMvghs1IijdP4de6QcYQv-IRU,504
+aitclient-0.1.23.dist-info/SOURCES 2.txt,sha256=xk9-svMCUK6csKzr0VQ5tVbwrlDX5TZUgemgMI7q-NM,322
+aitclient-0.1.23.dist-info/WHEEL,sha256=Wyh-_nZ0DJYolHNn1_hMa4lM7uDedD_RGVwbmTjyItk,91
+aitclient-0.1.23.dist-info/dependency_links 2.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aitclient-0.1.23.dist-info/entry_points 2.txt,sha256=c0kSKF627k19VGqEyCU2NWWuacxR52XqDIxbuWy6cSE,45
+aitclient-0.1.23.dist-info/entry_points.txt,sha256=c0kSKF627k19VGqEyCU2NWWuacxR52XqDIxbuWy6cSE,45
+aitclient-0.1.23.dist-info/requires 2.txt,sha256=_l5glEWDzTA9ibN3ytQErUh0xwYIoDKkWd21-H2WuLI,16
+aitclient-0.1.23.dist-info/top_level 2.txt,sha256=kWPfMivEo7p-euqn_sk4iKJ1bj6nuzyWEADYLHKX-KI,10
+aitclient-0.1.23.dist-info/top_level.txt,sha256=kWPfMivEo7p-euqn_sk4iKJ1bj6nuzyWEADYLHKX-KI,10
+aitclient-0.1.23.dist-info/RECORD,,
