@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mesdf
+Version: 0.1.10
+Summary: SDF: Convert triangle mesh to continuous signed distance function + some other mesh utilities
+Author-email: Liam Robinson <liamers127@gmail.com>
+Requires-Python: >=3.10
+License-File: LICENSE.txt
+
