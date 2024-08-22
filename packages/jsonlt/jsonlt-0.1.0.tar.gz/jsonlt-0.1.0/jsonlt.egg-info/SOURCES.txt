@@ -1,0 +1,12 @@
+README.md
+setup.py
+jsonlt/__init__.py
+jsonlt/cli.py
+jsonlt/schema_gen.py
+jsonlt/xform.py
+jsonlt.egg-info/PKG-INFO
+jsonlt.egg-info/SOURCES.txt
+jsonlt.egg-info/dependency_links.txt
+jsonlt.egg-info/entry_points.txt
+jsonlt.egg-info/requires.txt
+jsonlt.egg-info/top_level.txt
