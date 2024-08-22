@@ -1,0 +1,14 @@
+pybmoore
+pygtrie
+lark
+
+[dev]
+flake8
+black==22.3.0
+isort
+twine
+pytest
+wheel
+flask
+orjson
+tqdm
