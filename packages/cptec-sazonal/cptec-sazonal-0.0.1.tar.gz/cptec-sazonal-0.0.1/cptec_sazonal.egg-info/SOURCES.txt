@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+cptec_sazonal.egg-info/PKG-INFO
+cptec_sazonal.egg-info/SOURCES.txt
+cptec_sazonal.egg-info/dependency_links.txt
+cptec_sazonal.egg-info/requires.txt
+cptec_sazonal.egg-info/top_level.txt
+sazonal/CPTEC_SAZ.py
