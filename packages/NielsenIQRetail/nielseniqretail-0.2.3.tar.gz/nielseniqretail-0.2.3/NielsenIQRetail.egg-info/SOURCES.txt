@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+NielsenDSRS/__init__.py
+NielsenDSRS/module.py
+NielsenIQRetail.egg-info/PKG-INFO
+NielsenIQRetail.egg-info/SOURCES.txt
+NielsenIQRetail.egg-info/dependency_links.txt
+NielsenIQRetail.egg-info/requires.txt
+NielsenIQRetail.egg-info/top_level.txt
