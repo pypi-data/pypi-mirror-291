@@ -1,0 +1,5 @@
+pip>=24.2
+tts-stt-tools>=0.1.6
+mycroft-mimic3-tts
+ipykernel
+jupyterlab
