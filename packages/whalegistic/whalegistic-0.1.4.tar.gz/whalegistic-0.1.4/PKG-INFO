@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: whalegistic
+Version: 0.1.4
+Summary: E-Commerce platform API
+Author: <Whalegistic>
+Author-email: <info@whalegistic.com>
+License: ISC
+Keywords: e-commerce,products,webstores,orders,pim,warehouse
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyjwt
+Requires-Dist: asyncio
+Requires-Dist: httpx
+
+Whalegistic is a E-Commerce platform and this package is the connection between Whalegistic platform API and users websites
