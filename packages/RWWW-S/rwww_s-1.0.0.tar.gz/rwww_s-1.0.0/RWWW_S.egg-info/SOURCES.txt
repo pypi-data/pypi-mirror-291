@@ -1,0 +1,11 @@
+CHANGE.LOG.md
+LICENCE
+MANIFEST.in
+README.md
+__init__.py
+pyproject.toml
+setup_tools.py
+RWWW_S.egg-info/PKG-INFO
+RWWW_S.egg-info/SOURCES.txt
+RWWW_S.egg-info/dependency_links.txt
+RWWW_S.egg-info/top_level.txt

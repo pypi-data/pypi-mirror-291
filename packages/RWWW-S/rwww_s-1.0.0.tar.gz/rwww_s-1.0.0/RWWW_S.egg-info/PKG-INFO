@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: RWWW_S
+Version: 1.0.0
+Summary: A removal tool for removing www and https://www. from dictionary's
+Home-page: https://github.com/IEYT/RW-s
+Author: Manveer Singh
+Author-email: manveer1113@outlook.com
+License: MIT
+Keywords: RemoveWWW
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+Change Log
+==========
+
+1.0.0 (8/12/2024): First Release, check out README.
+
+
+This is a tool for removing www. and https://www. in dictionary's. It was created partially by the tabnine ai and Me. Note that it creates a new dictionary and the original one is unchanged.
+
+<h4>Example of how it works</h4>
+
+```python
+from RWs import remove_www_fKey, remove_www_fVal, remove_www
+
+example_dict = {
+    "www.example": "https://www.example.com"
+}
+
+example_dict_2 = remove_www_fKey(example_dict)
+print(example_dict_2)
+
+example_dict_cop = remove_www_fVal(example_dict)
+print(example_dict_cop)
+
+example_dict_co = remove_www(example_dict)
+print(example_dict_co)
+```
+
+<h4>Result</h4>
+
+```py
+{'example': 'https://www.example.com'}
+{'www.example': 'example.com'}
+{'example': 'example.com'}
+```
+
+<h4>How to download</h4>
+
+```py
+pip install RWW_S
+```
