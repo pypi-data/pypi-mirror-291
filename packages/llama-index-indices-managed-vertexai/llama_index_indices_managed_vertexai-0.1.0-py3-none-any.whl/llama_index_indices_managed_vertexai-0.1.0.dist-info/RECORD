@@ -1,0 +1,6 @@
+llama_index/indices/managed/vertexai/__init__.py,sha256=lgCwEVBmR8wYEEWFSVT7HijQj0lxWrJ1_J6FRUZmQ8g,195
+llama_index/indices/managed/vertexai/base.py,sha256=nh-dBIAQISPhkSTN5WCHKdgl_7Jwwd_WyKq49bxjkfE,6835
+llama_index/indices/managed/vertexai/retriever.py,sha256=PWOr03tUAeioo9Sf1LtN0AtJYn28dpBrjgIrBw7eEPo,1753
+llama_index_indices_managed_vertexai-0.1.0.dist-info/METADATA,sha256=m3RB-dFw-5bsvUS5_LV5BBWnxHrkxWeE2Cva-LYXHkk,1185
+llama_index_indices_managed_vertexai-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_indices_managed_vertexai-0.1.0.dist-info/RECORD,,
