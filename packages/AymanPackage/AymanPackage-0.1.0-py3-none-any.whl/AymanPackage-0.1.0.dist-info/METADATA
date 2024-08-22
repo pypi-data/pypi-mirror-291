@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: AymanPackage
+Version: 0.1.0
+Summary: A small example package
+Author: Ayman Elsayeed
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
+# Developing Python Packages
+
+## Project Description
+
+this project is a template or a guide to help you develop your own python package.
+
+
+## Project Structure
+    .
+    ├── python-package
+    │   ├── pythonPackage
+    │   │   ├── __init__.py
+    │   │   ├── subpackage
+    │   │   │   ├── __init__.py
+    │   │   │   └── module.py
+    │   ├── setup.py
+    │   ├── README.md
+    │   ├── HISTORY.md
+    │   ├── LICENSE
+    │   ├── requirements.txt
+    │   ├── MANIFEST.in
+    │   ├── tox.ini
+    │   └── tests
+    │       ├── __init__.py
+    │       ├── pytest.ini
+    │       ├── config.py
+    │       └── test_sub_package
+    │           ├── __init__.py
+    │           └── test_module.py
+
+
+## Installation
+
+```bash
+
+pip install -e .
+
+```
+
+## How to build distribution package
+
+```bash
+python setup.py sdist bdist_wheel
+```
+sdidt: source distribution
+
+bdist_wheel: wheel distribution
+
+## Upload package to PyPi
+
+```bash
+twine upload dist/*
+```
+
+## Upload package to TestPyPi
+
+```bash
+twine upload -r testpypi dist/*
+```
+
+# History
+
+## 0.3.0
+### Added
+- What you added to this version.
+### Changed
+- What you changed in this version.
+
+## 0.2.0
+### Deprecated
+- What deprecated in this version.
+### Fixed
+- what fixed in this version.
+
+## 0.1.0
+### Added
+- What you added to this version.
