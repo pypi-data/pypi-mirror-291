@@ -1,0 +1,10 @@
+turtletree/__init__.py,sha256=1Mpf0aiOM-mp0qFpiDg5j0h80EdT5hltB98ENiasWKE,139
+turtletree/stdRV.py,sha256=2p0LzSUW2-cGpzx4tgZDaOVf-AAZ-R0gE0B_CGYV9Gg,4281
+turtletree/database/__init__.py,sha256=BQGcRAkGgaVW94RB91uy8gpet5Vl9LXbv6JMWc4Lv64,138
+turtletree/database/db.py,sha256=yVt4aFbRJA3LvSmo0VW1GhvFi3CBOb7Uw45Npbclfas,1710
+turtletree/database/item.py,sha256=mVHOM1_orqBXwP6I_wCrcCaRUR6F3CJufDyv5FJZJnE,2257
+turtletree/database/table.py,sha256=dblSdkDEQo0UDbnfh5VGvuvPfG-5nIgSWkTlSv2ooCo,2889
+turtletree-0.0.3.dist-info/METADATA,sha256=rlXZ3ITyDEnEJ2IOT1FUqIb5_ZLiY7dMr7uogDqnDB0,503
+turtletree-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+turtletree-0.0.3.dist-info/top_level.txt,sha256=Zo6FD08xmmTYEOjDuhYBa7mfTp1ANRALpwHgVpmqRzM,11
+turtletree-0.0.3.dist-info/RECORD,,
