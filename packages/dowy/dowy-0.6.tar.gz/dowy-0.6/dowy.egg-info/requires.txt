@@ -1,0 +1,5 @@
+pytubefix
+python-ffmpeg
+userpaths
+pywin32
+tabulate

@@ -1,0 +1,2 @@
+[console_scripts]
+dowy = dowy.command_line:main
