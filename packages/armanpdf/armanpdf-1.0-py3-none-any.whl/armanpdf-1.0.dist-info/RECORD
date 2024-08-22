@@ -1,0 +1,8 @@
+armanpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+armanpdf/pdf2image.py,sha256=8hl1Dye9KCoaoOhdDgjxbE5-FU3s2PobUnByDsggC6o,61
+armanpdf/pdf2text.py,sha256=VoBSbOXo1xGkm4GdfyGDGDHHnCxzgAgWeXjceYhJKFk,51
+armanpdf-1.0.dist-info/LICENSE,sha256=-BeIbua7Ze0wmKeYex6XgWU9FccfhVic4NKvZjxm03M,34888
+armanpdf-1.0.dist-info/METADATA,sha256=t8OaDygym_GAahzrNyXSyG8ldH8d5ozHQ2bWyvJHxUE,109
+armanpdf-1.0.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+armanpdf-1.0.dist-info/top_level.txt,sha256=2ZmeRswIXp7qnVdub_7wbGfbWj2lorwg2mBBmFY5O20,9
+armanpdf-1.0.dist-info/RECORD,,
