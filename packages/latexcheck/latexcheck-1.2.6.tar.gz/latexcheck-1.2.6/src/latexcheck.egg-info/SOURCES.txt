@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/latexcheck/__init__.py
+src/latexcheck.egg-info/PKG-INFO
+src/latexcheck.egg-info/SOURCES.txt
+src/latexcheck.egg-info/dependency_links.txt
+src/latexcheck.egg-info/entry_points.txt
+src/latexcheck.egg-info/requires.txt
+src/latexcheck.egg-info/top_level.txt
+src/latexcheck/helpers/__init__.py
