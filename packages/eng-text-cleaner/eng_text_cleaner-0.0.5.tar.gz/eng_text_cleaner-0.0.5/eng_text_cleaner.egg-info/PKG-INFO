@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: eng_text_cleaner
+Version: 0.0.5
+Summary: This package is for clean the text as text processing
+Home-page: https://github.com/Al-Hasib/eng_text_cleaner
+Author: abdullah
+Author-email: alhasib.iu.cse@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: textblob
+
+# Text Cleaning of English Language Python Package
+
+Text Cleaning is a common preprocessing technique for almost all NLP task. Mainly I have designed the package for Text Classification Task. Also You can use it for other NLP task also. You are welcome to contribute the package.
+
+**Install the package**
+
+```bash
+pip install eng-text-cleaner
+```
+
+There has number of methods to clean the text such as removing emoji, punctuation, html_tags, urls, characters not words or digits or underscore, digits, stopwords, spell correction, lemmatize the words. One Method named clean text will apply all the methods to clean the text at a glance. Let's explore the simple package.
+```python
+from eng_text_cleaner import preprocessing 
+```
+Start by removing punctuation
+```python
+text = "Neither too small nor too large, and nice resolution at a good price."
+# create textcleaner instance
+textcleaner = preprocessing.TextCleaner()
+# remove punctuation
+textcleaner.remove_punctuation(text)
+```
+Output:
+```bash
+Neither too small nor too large and nice resolution at a good price
+```
+For Clean the text totally
+```python
+# fully clean the text
+textcleaner.clean_text(text)
+```
+Output:
+```bash
+neither small large nice resolution good price
+```
+
+Author:
+* **Md Abdullah Al Hasib**
