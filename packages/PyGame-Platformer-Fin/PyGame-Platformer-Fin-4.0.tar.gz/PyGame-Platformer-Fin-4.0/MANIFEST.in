@@ -1,0 +1,5 @@
+include platformer/assets/Background/*.png
+include platformer/assets/Items/Checkpoints/End*.png
+include platformer/assets/MainCharacters/MaskDude.png
+include platformer/assets/Terrain/*.png
+include platformer/assets/Traps/Fire/*.png
