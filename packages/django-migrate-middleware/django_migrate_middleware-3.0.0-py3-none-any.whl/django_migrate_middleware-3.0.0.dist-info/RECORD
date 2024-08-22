@@ -1,0 +1,8 @@
+migrate_middleware/__init__.py,sha256=HuJh8ymESnSp4XyMGra-0CapvaJq4ox9HY9doLhiQb8,75
+migrate_middleware/apps.py,sha256=fJ_uUjGq7QrLwuTcOiuIijIY65YWbrdfcteLxyXnN5A,167
+migrate_middleware/conf.py,sha256=Rfy1omG2I02OHLPAa702DHVH7fyDZVuexjhpbql1HLg,137
+migrate_middleware/middleware/__init__.py,sha256=rW8BQdW9mOgz6vw8at9TdCCL0cB9VV6QL2Xm6D3wJMM,544
+django_migrate_middleware-3.0.0.dist-info/METADATA,sha256=_8e042QOTflvjaF_E2Ab1DPDuyxsG0d3c3VWS0DILys,2035
+django_migrate_middleware-3.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+django_migrate_middleware-3.0.0.dist-info/licenses/LICENSE,sha256=H2lo2MDUi8RZwDJGJU2fNsHHKjLqwjaUeIuFDtrD1k0,1072
+django_migrate_middleware-3.0.0.dist-info/RECORD,,
