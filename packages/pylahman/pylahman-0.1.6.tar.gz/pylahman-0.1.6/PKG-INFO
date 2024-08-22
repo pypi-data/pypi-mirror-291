@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: pylahman
+Version: 0.1.6
+Summary: Python Package for Sean Lahman's Baseball Database
+Project-URL: Homepage, https://github.com/daviddalpiaz/pylahman
+Project-URL: Issues, https://github.com/daviddalpiaz/pylahman/issues
+Author-email: David Dalpiaz <dalpiaz2@illinois.edu>
+Requires-Python: >=3.10
+Requires-Dist: importlib>=1.0.4
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pyarrow>=10.0.1
+Description-Content-Type: text/markdown
+
+# pylahman
+
+- data last updated based on download from <http://www.seanlahman.com/> on 2024-08-21.
