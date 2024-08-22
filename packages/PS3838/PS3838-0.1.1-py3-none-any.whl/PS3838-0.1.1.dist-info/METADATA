@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: PS3838
+Version: 0.1.1
+Summary: A package to interact with the PS3838 API, especially to retrieve odds and bet automatically.
+Home-page: https://github.com/gaetanlefournis/PS3838.git
+Author: Gaëtan Le Fournis
+Author-email: gaetanlf22@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/gaetanlefournis/PS3838/issues
+Project-URL: Source, https://github.com/gaetanlefournis/PS3838
+Keywords: PS3838,bet,betting,odds,football,soccer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Levenshtein>=0.25.1
+Requires-Dist: PyYAML>=6.0.1
+Requires-Dist: anyio>=4.4.0
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: rapidfuzz>=3.9.4
+Requires-Dist: requests>=2.32.3
+Provides-Extra: dev
+Requires-Dist: pytest-cov>=5.0.0; extra == "dev"
+Requires-Dist: pytest>=8.2.2; extra == "dev"
+
+# BET PS3838
+
+## Introduction
+
+**BET PS3838** This project aims to bet automatically on different odds available on PS3838. It is part of a bigger secret project, but can be used by anyone who wants to place some bets, or retrieve some football odds (indeed, only football for the moment).
+
+## How to use the package
+
+Here is an example of code to use the package
+
+```python
+import PS3838
+
+def betting():
+    print("oui")
+```
+
+## Package functionalities
+
+There are two functions in the package, plus one python file that can be useful for league correspondency :
+
+- **retrieving** :
+    This function retrieves the odds for a given list of matches. Thanks to the credentials, it creates a Retrieve API which is used to connect to PS3838. Then several functions are used to find each match and their corresponding odds.
+    
+        **Parameters**:
+            - credentials (Dict[str, str]): The credentials to connect to the PS3838 API.
+                Example: {"username": "my_username", "password": "my_password"}
+            - list_matches (List[Dict[str, Any]]): A list of matches to retrieve the odds for.
+                Example: [{"league" : 2036, "team1" : "Montpellier", "team2" : "Paris Saint-Germain", "date" : datetime(2024, 8, 17, 17, 0, 0)}, ...]
+            - api_retrieve (Optional[Retrieve]): An optional Retrieve object to use to retrieve the matches. If not provided, it will be created.
+            - logger_active (bool): A boolean to activate the logger. Default is True.
+            - logger (Optional[CustomLogger]): An optional CustomLogger object to use to log the information. If not provided, it will be created.
+            
+        **Returns**:
+            - List[List[Dict[str, Any]]]: A list of matches with their corresponding odds.
+                Example: [({'id': 1595460299, 'starts': '2024-08-23T18:45:00Z', 'home': 'Paris Saint-Germain', 'away': 'Montpellier HSC', 'rotNum': '3121', 'liveStatus': 2, 'status': 'O', 'parlayRestriction': 2, 'altTeaser': False, 'resultingUnit': 'Regular', 'betAcceptanceType': 0, 'version': 545200449, 'league': 2036, 'result': None, 'amount': None, 'odd_min': None, 'line_id': 2650184231}, {'team1_odds': 1.309, 'draw_odds': 6.14, 'team2_odds': 8.47}), ...]
+    
+
+- **betting** : 
+    This function places bets on the PS3838 API for a given list of matches. It retrieves the odds for each match and then places the bets under some conditions (bet not already placed, odds above a certain threshold, etc.).
+    
+        **Parameters**:
+            - credentials (Dict[str, str]): The credentials to connect to the PS3838 API.
+                Example: {"username": "my_username", "password": "my_password"}
+            - list_matches (List[Dict[str, Any]]): A list of matches to place the bets for. Note that they have to have 3 additional parameters "result", "amount", "odd_min".
+                Example: [{"league" : 2036, "team1" : "Montpellier", "team2" : "Paris Saint-Germain", "date" : datetime(2024, 8, 17, 17, 0, 0), "result" : 2, "amount" : 5, "odd_min" : 1.05}, ...]
+            - logger_active (bool): A boolean to activate the logger. Default is True.
+
+        **Returns**:
+            - List[List[Dict[str, Any]]] | None: A list of matches with their corresponding odds if the bets were placed, None otherwise.
+                Example: [({'id': 1595460299, 'starts': '2024-08-23T18:45:00Z', 'home': 'Paris Saint-Germain', 'away': 'Montpellier HSC', 'rotNum': '3121', 'liveStatus': 2, 'status': 'O', 'parlayRestriction': 2, 'altTeaser': False, 'resultingUnit': 'Regular', 'betAcceptanceType': 0, 'version': 545200449, 'league': 2036, 'result': 1, 'amount': 5, 'odd_min': 1.05, 'line_id': 2650184231}, {'team1_odds': 1.309, 'draw_odds': 6.14, 'team2_odds': 8.47}), ...]
+
+- **leagues_correspondency.py**
+    This file is the correspondency between the main leagues od sport_api and the ones of PS3838, because they are not excatly the same. Not everything has been linked but the most famous ones. To be sure that it finds the correspondency, you must use the league ID of sport API, to find the league ID of PS3838. Then in the code you must use the league ID of PS3838, and not the name of the league.
+
+    ```python
+    for match in matches:
+        print("oui")
+    ``` 
+
+### Schema of the retrieving function
+
+### Schema of the betting function
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
