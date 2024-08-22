@@ -1,0 +1,139 @@
+Here is a sample `README.md` file for your Django authentication package. This file includes instructions for installing the package, using it, and overriding components like the `User` model and views.
+
+```markdown
+# Django Accounts Package
+
+A reusable Django authentication package providing customizable user authentication views and models.
+
+## Installation
+
+Install the package via pip:
+
+```bash
+pip install ns-django-custom-auth
+```
+
+## Basic Setup
+
+After installation, add `accounts` to your `INSTALLED_APPS` in `settings.py`:
+
+```python
+INSTALLED_APPS = [
+    ...
+    'accounts',
+    ...
+]
+```
+
+Include the authentication URLs in your project's `urls.py`:
+
+```python
+from django.urls import path, include
+
+urlpatterns = [
+    path('api/auth/', include('accounts.urls')),
+    ...
+]
+```
+
+## Usage
+
+### Importing Views and User Model
+
+To use the default views and user model, you can import them as follows:
+
+```python
+from accounts import SignupApiView, LoginApiView, User
+```
+
+### Basic Usage Example
+
+In your `urls.py`, you can include the views provided by the package:
+
+```python
+from django.urls import path
+from accounts import SignupApiView, LoginApiView
+
+urlpatterns = [
+    path('signup/', SignupApiView.as_view(), name='signup'),
+    path('login/', LoginApiView.as_view(), name='login'),
+]
+```
+
+## Customizing the User Model
+
+To use a custom user model, define it in your app and set `AUTH_USER_MODEL` in `settings.py`:
+
+```python
+# custom_app/models.py
+
+from django.contrib.auth.models import AbstractUser
+from django.db import models
+
+class CustomUser(AbstractUser):
+    mobile_no = models.CharField(max_length=15, unique=True)
+    gender = models.CharField(max_length=10, null=True, blank=True)
+```
+
+In your `settings.py`:
+
+```python
+AUTH_USER_MODEL = 'custom_app.CustomUser'
+```
+
+## Overriding Signup and Login Views
+
+To customize the `SignupApiView` and `LoginApiView`, subclass them and override methods as needed:
+
+```python
+# custom_app/views.py
+
+from accounts.views import SignupApiView, LoginApiView
+from .models import CustomUser
+from .serializers import CustomUserSerializer
+
+class CustomSignupApiView(SignupApiView):
+    def post(self, request, *args, **kwargs):
+        # Custom logic for user registration
+        
+
+class CustomLoginApiView(LoginApiView):
+    def post(self, request, *args, **kwargs):
+        # Custom logic for user login
+        
+```
+
+In your `urls.py`:
+
+```python
+# custom_app/urls.py
+
+from django.urls import path
+from .views import CustomSignupApiView, CustomLoginApiView
+
+urlpatterns = [
+    path('signup/', CustomSignupApiView.as_view(), name='custom_signup'),
+    path('login/', CustomLoginApiView.as_view(), name='custom_login'),
+]
+```
+
+## License
+
+This package is licensed under the [MIT License](LICENSE).
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+
+## Contact
+
+For any questions or support, please contact [ns848410#gmail.com](mailto:ns848410#gmail.com).
+```
+
+### Summary
+- **Installation Instructions:** Details on how to install the package.
+- **Basic Usage:** How to include the default views and model.
+- **Customization:** Instructions for overriding the `User` model and views.
+- **License and Contribution Information:** Details on licensing and how to contribute.
+
+This `README.md` provides clear instructions for using your package and customizing it according to project needs.
