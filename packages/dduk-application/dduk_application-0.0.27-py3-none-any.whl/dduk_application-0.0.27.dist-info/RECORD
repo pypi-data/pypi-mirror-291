@@ -1,0 +1,17 @@
+dduk/__init__.py,sha256=vppNHqn0le9geLZVBSYVtX17kwppXcpjbXk8JV4oWj4,703
+dduk/__main__.py,sha256=MNMlh5jjtNLKPJysW8T9EskA8fwhR4mxc56Hhxjnh28,599
+dduk/application/__init__.py,sha256=efXLU9UPTDR-F_FYb6PCsRCtYB5q2jO9QpPwCft3jUY,978
+dduk/application/__main__.py,sha256=Wcz0-N1MyRbs2acampjMArg1yd14skMUlzbHhgMWeFU,864
+dduk/application/application.py,sha256=cpAcvY3SHGG2E0oLDMVWtuaaBkjnKbdOG_dirzhKdaE,11977
+dduk/application/applicationexecutetype.py,sha256=f4AaEdCr3xcJqm4-IsOwushAg6mAsu0yC6swLVVruGE,1820
+dduk/application/command.py,sha256=yhHi_r2iWJ59lvoZgIHoHneodhsRJQpij0ilxABT_X8,2407
+dduk/application/internaldata.py,sha256=qiDetrdeP_Cn3lLWFXUE_782uqvSCv8yZ__VpQ1nRQw,8539
+dduk/application/launcher.py,sha256=bpBRJ1IQr8zRHofuj9ROYR1AyqdHlETjdKDg_Jl2APA,10180
+dduk/application/predefinedsymbols.py,sha256=skvazz5IsjPJGFWZn5gdZVKSzvvmneKKSIweBWMw1oM,639
+dduk/application/prepareddata.py,sha256=PN5S9H6vTvEs9UnFP_vXWwSL9M6wGq3rIYbS8fLuTgw,1622
+dduk/application/preparer.py,sha256=SOmI8F-KHoZs1o6V2EzXbDVn-MqCc6lvXbl9C3Jrymw,6468
+dduk_application-0.0.27.dist-info/LICENSE,sha256=AU8OrUcHYBTd6RuKzW0BQx6bM2ALTnqc8vRQwMcRIW0,1087
+dduk_application-0.0.27.dist-info/METADATA,sha256=S8MpvN3IM_khSt7mMKsGKzC67Ctc6svlWzmvivtWQFU,1263
+dduk_application-0.0.27.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+dduk_application-0.0.27.dist-info/top_level.txt,sha256=9323yfNKXRVJxK6FKltPICtDJ0iQpbBE54kOEHJSsCU,5
+dduk_application-0.0.27.dist-info/RECORD,,
