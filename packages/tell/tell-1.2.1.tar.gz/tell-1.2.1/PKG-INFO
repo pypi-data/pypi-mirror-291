@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: tell
+Version: 1.2.1
+Summary: A model to predict total electricity loads
+Home-page: https://github.com/IMMM-SFA/tell.git
+Author: Casey McGrath; Casey Burleyson; Chris R. Vernon; Aowabin Rahman
+Author-email: casey.mcgrath@pnnl.gov
+License: BSD2-Clause
+Requires-Python: >=3.9, <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=49.2.1
+Requires-Dist: attrs>=21.4.0
+Requires-Dist: certifi>=2021.10.8
+Requires-Dist: charset-normalizer>=2.0.12
+Requires-Dist: click>=8.0.3
+Requires-Dist: click-plugins>=1.1.1
+Requires-Dist: cligj>=0.7.2
+Requires-Dist: convertdate>=2.4.0
+Requires-Dist: cycler>=0.11.0
+Requires-Dist: Fiona>=1.8.21
+Requires-Dist: fonttools>=4.29.1
+Requires-Dist: geopandas>=0.10.2
+Requires-Dist: hijri-converter>=2.2.3
+Requires-Dist: holidays>=0.13
+Requires-Dist: idna>=3.3
+Requires-Dist: joblib>=1.1.0
+Requires-Dist: kiwisolver>=1.3.2
+Requires-Dist: korean-lunar-calendar>=0.2.1
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: munch>=2.5.0
+Requires-Dist: numpy<2,>=1.21.5
+Requires-Dist: openpyxl>=3.0.9
+Requires-Dist: packaging>=21.3
+Requires-Dist: pandas>=1.3.5
+Requires-Dist: Pillow>=9.0.1
+Requires-Dist: PyMeeus>=0.5.11
+Requires-Dist: pyparsing>=3.0.7
+Requires-Dist: pyproj>=3.2.1
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pytz>=2021.3
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: requests>=2.27.1
+Requires-Dist: Rtree>=0.9.7
+Requires-Dist: scikit-learn==1.0.2
+Requires-Dist: scipy>=1.7.3
+Requires-Dist: Shapely>=1.8.0
+Requires-Dist: six>=1.16.0
+Requires-Dist: threadpoolctl>=3.1.0
+Requires-Dist: urllib3>=1.26.8
+Requires-Dist: fastparquet>=0.8.3
+Provides-Extra: dev
+Requires-Dist: build>=0.5.1; extra == "dev"
+Requires-Dist: nbsphinx>=0.8.6; extra == "dev"
+Requires-Dist: recommonmark>=0.7.1; extra == "dev"
+Requires-Dist: setuptools>=57.0.0; extra == "dev"
+Requires-Dist: sphinx>=4.0.2; extra == "dev"
+Requires-Dist: sphinx-panels>=0.6.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.0.0; extra == "dev"
+Requires-Dist: twine>=3.4.1; extra == "dev"
+Requires-Dist: pytest>=6.2.4; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.1; extra == "dev"
+
+[![build](https://github.com/IMMM-SFA/tell/actions/workflows/build.yml/badge.svg)](https://github.com/IMMM-SFA/tell/actions/workflows/build.yml) [![DOI](https://zenodo.org/badge/305802399.svg)](https://zenodo.org/badge/latestdoi/305802399)
+
+
+## tell
+
+#### `tell` is an open-source Python package to model future hourly total electricity loads.
+
+### Purpose
+`tell` was created to:
+
+  - Project the short- and long-term evolution of hourly electricity demand in response to changes in weather and climate.
+
+  - Work at a spatial resolution adequate for input to a unit commitment/economic dispatch (UC/ED) model.
+
+  - Maintain consistency with the long-term growth and evolution of annual state-level electricity demand projected by an economically driven human-Earth system model.
+
+### Install `tell`
+
+`tell` is available via GitHub repository by using the pip install functionality. `tell` requires a Python version between 3.8 and 4.0 as well as a pip install to import the package. `tell` has been tested on
+Windows and Mac platforms. (Note: For those installing on Windows, `tell`  is supported by GeoPandas functionality.  Please see suggestions for installing GeoPandas on Windows here:  
+https://geopandas.org/en/stable/getting_started/install.html)
+
+```bash
+pip install tell
+```
+
+### Check out a quickstarter tutorial to run `tell`
+
+Run `tell` using the quickstarter tutorial: [Quickstarter](https://immm-sfa.github.io/tell/tell_quickstarter.html).
+
+### Getting started
+
+New to `tell`?  Get familiar with what `tell` is all about in our [Getting Started](https://immm-sfa.github.io/tell/index.html#) documentation.
+
+### User guide
+
+Our [User Guide](https://immm-sfa.github.io/tell/user_guide.html) provides in-depth information on the key concepts of `tell` and how the model works. 
+
+### Contributing to `tell`
+
+Whether you find a typo in the documentation, find a bug, or want to develop functionality that you think will make `tell` more robust, you are welcome to contribute. Please see our [Contribution Guidelines](https://immm-sfa.github.io/tell/contributing.html) for more details.
+
+### API reference
+The [API Reference](https://immm-sfa.github.io/tell/modules.html) contains a detailed description of the `tell` API. The reference describes how the methods work and which parameters can be used. It assumes that you have an understanding of the key concepts.
+
+### Contact/Help
+Need help with `tell` or have a comment? Please open a [new Issue](https://github.com/IMMM-SFA/tell/issues/new/choose) with your question/comments. 
