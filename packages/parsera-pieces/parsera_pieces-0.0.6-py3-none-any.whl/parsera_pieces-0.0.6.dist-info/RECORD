@@ -1,0 +1,12 @@
+parsera_pieces/__init__.py,sha256=5vEW2N0pURS8h04LGUE9-0JSu3aXA-Gt4IHlT-8BuIw,62
+parsera_pieces/main.py,sha256=kuoNEgUu9wUfWuzAg9uvZ45xBZ4YH68jHFZTwz4SIK0,1254
+parsera_pieces/page.py,sha256=KDFWuR0S8OpAYGq6Yguwqok7n1Ha-OioWfxT5qTXU90,1313
+parsera_pieces/utils.py,sha256=Uv11ScW-Rssr8lZXJspq_LFtmDEuYnl5Rh8FeCkaKfQ,230
+parsera_pieces/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsera_pieces/engine/model.py,sha256=inttUZVOonNwpmTUBMlz9lAlkle5fOklAisdP1e_7U0,1509
+parsera_pieces/engine/simple_extractor.py,sha256=gRLYX0ALNPWnk92Mtkhi39Nl9BApn1uV5ovV4TaFu48,2506
+parsera_pieces-0.0.6.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+parsera_pieces-0.0.6.dist-info/METADATA,sha256=JvqaRcHtDe8E9DwYZyI96LYmxqPOhjmUycLe-rjSWNk,1859
+parsera_pieces-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parsera_pieces-0.0.6.dist-info/top_level.txt,sha256=o6lMIdRI0XseNw7cqPCv9oZPAm-kpchaGWLlH0vGuPE,15
+parsera_pieces-0.0.6.dist-info/RECORD,,
