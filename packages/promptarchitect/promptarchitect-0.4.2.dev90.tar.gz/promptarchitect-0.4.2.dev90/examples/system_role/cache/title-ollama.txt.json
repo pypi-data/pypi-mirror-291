@@ -1,0 +1,4 @@
+{
+    "provider": "ollama",
+    "prompt_file_path": "generate_titles_ollama.prompt",
+    "output_path": 

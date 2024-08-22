@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "name": "Launch",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/promptarchitect/main.py",
+            "args": [
+                "--prompts",
+                "${workspaceFolder}/examples/quickstart/prompts"
+            ]
+        }
+    ]
+}
