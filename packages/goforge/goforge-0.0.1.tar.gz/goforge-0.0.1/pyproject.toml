@@ -1,0 +1,20 @@
+[project]
+name = "goforge"
+version = "0.0.1"
+authors = [
+  { name="Prashant Bhatkal", email="prashantbhatkal2000@gmail.com" },
+]
+description = "generate entire CRUD backend for golang echo and postgres with one command"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[project.urls]
+Homepage = "https://github.com/PrashantBtkl/goforge"
+Issues = "https://github.com/PrashantBtkl/goforge/issues"
