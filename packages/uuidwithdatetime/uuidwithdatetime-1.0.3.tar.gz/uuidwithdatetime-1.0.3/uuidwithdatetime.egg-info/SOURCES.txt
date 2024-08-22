@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+uuidwithdatetime/__init__.py
+uuidwithdatetime/uuid_with_datetime.py
+uuidwithdatetime.egg-info/PKG-INFO
+uuidwithdatetime.egg-info/SOURCES.txt
+uuidwithdatetime.egg-info/dependency_links.txt
+uuidwithdatetime.egg-info/top_level.txt

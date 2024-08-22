@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: uuidwithdatetime
+Version: 1.0.3
+Summary: A package to generate a random UUID with the current date and time.
+Home-page: https://github.com/Manikandanpythonjs/pythonuuiddate
+Author: Manikandan AL
+Author-email: manipythonjs@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uuid_with_datetime
+
+A Python package to generate a random UUID with the current date and time. You can choose between 12-hour and 24-hour time formats.
+
+## Installation
+
+```bash
+pip install uuidwithdatetime
+```
+
+## Usage
+
+```bash
+import uuidwithdatetime
+uuid_with_datetime = uuidwithdatetime.generate_uuid_with_datetime()
+print(uuid_with_datetime)
+```
