@@ -1,0 +1,16 @@
+jupyter
+ipywidgets
+checkmarkandcross
+fa2_modified~=0.3.10
+ipyparallel~=8.8.0
+matplotlib~=3.9.1
+mlxtend~=0.23.1
+mpi4py~=3.1.6
+networkx~=3.3
+plotly~=5.22.0
+pandas~=2.2.2
+pyarrow~=17.0.0
+pyfpgrowth~=1.0
+pyspark~=3.5.1
+scikit-learn~=1.5.1
+scikit-learn-extra~=0.3.0
