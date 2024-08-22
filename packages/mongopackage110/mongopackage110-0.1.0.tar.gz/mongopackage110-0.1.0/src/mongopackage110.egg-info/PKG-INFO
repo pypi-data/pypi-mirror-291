@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mongopackage110
+Version: 0.1.0
+Summary: This is my first project_1
+Home-page: https://github.com/alipourranjbar/Myfirstpackage.git
+Author: Ali Pourranjbar
+Author-email: Ali Pourranjbar <a_pourranjbar@rocketmail.com>
+License: MIT
+Project-URL: homepage, https://your.project.homepage
+Project-URL: repository, https://github.com/alipourranjbar/Myfirstpackage.git
+Project-URL: documentation, https://your.project.docs
+Keywords: keyword1,keyword2,keyword3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=7.1.3; extra == "test"
+Requires-Dist: mypy>=0.971; extra == "test"
+Requires-Dist: flake8>=5.0.4; extra == "test"
+Requires-Dist: tox>=3.25.1; extra == "test"
+
+hi
