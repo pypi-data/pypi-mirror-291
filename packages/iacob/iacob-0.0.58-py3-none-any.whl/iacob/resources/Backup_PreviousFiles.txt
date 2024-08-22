@@ -1,0 +1,24 @@
+DataFiles
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/FIBRATLAS_01-065_S1_whole_brain_ROIs_cg.txt|DataNameFile
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/conductance_matrix_19-020_b.mat|DataFile
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/whole_brain_ROIs_cg.txt|DataNameFile
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/triplet.txt|DataFile
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/whole_brain_ROIs.mat|DataNameFile
+NameFiles
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/conductance_matrix_19-020_b.mat|C:/Users/Thibaud/Documents/Etude/Stage/big_file/list_code.txt
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/triplet.txt|C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/triplet_name.txt
+C:/Users/Thibaud/Documents/Etude/Stage/tibo_features/ressources/Data/whole_brain_ROIs_cg2.txt|C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/whole_brain_ROIs_cg_name.txt
+FlutFiles
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/triplet_flut.flut
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/whole_brain_ROIs - Copy (2).flut
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/whole_brain_ROIs - Copy (3) - Copy.flut
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/whole_brain_ROIs - Copy (4).flut
+C:/Users/Thibaud/Documents/Etude/Stage/merge/ressources/Data/brainstem.flut
+FiltersFiles
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/testexportfilter.json
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/test - Filters.json
+C:/Users/Thibaud/Documents/Etude/Stage/big_file\newTest-Filters.json
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/newTest-Filters - Copy (2).json
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/newTest-Filters - Copy (3).json
+ProjectFiles
+C:/Users/Thibaud/Documents/Etude/Stage/big_file/newTest.json
