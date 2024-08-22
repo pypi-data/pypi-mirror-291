@@ -1,0 +1,8 @@
+marisa_bindings/__init__.py,sha256=HZ9Xfqf5HhVvP92O9IA_eXxHUwf1YKeH87iAPU7gVXE,165
+marisa_bindings/_marisa.cpython-310-darwin.so,sha256=9pMf9ED3T5prb6mKTS4d_wQFm4B3sXuxG8HaFZNztNw,270560
+marisa_bindings/marisa.py,sha256=ontJ577B9zrynpgAbSreG_0f_eXYLXvvrT-NrukJx5c,7615
+marisa_bindings-1.0.0.dist-info/LICENSE,sha256=ZNp3tu9_2sJetLExjfQEwH67BZXRekHA04yLiBGSuBw,1306
+marisa_bindings-1.0.0.dist-info/METADATA,sha256=5BrvZVlSE0kEOTYSbjm5sE3m9zdXg4gLW4idjcmYL3o,4455
+marisa_bindings-1.0.0.dist-info/WHEEL,sha256=Z5wLBWSs-rRWzInth9i2Gg4LInamQbJ0u5l0pNR1Ovs,109
+marisa_bindings-1.0.0.dist-info/top_level.txt,sha256=YJ7upKQkxFG9c_9fFdejx_qqbtXcdwR84UueB5Na7-E,16
+marisa_bindings-1.0.0.dist-info/RECORD,,
