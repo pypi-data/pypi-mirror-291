@@ -1,0 +1,11 @@
+fastapi_authorization_gateway/__init__.py,sha256=coIC108lEn-cCvB3r3CYKtha3TSY1RrJ6DGoIswgJKY,60
+fastapi_authorization_gateway/auth.py,sha256=E5Hjzyv2p90QCaSErMV65TPyOFuOWRYowA5_EIN_zUA,6909
+fastapi_authorization_gateway/helpers.py,sha256=9hyM8wTMh2WGJqFkQTsvwceTzGRRZyc5LTXWLkqMjjc,627
+fastapi_authorization_gateway/permissions.py,sha256=klL3VGU4wpfn7z-JJkz1hJz6FHYYrAeK9tx_a2I2_NA,4348
+fastapi_authorization_gateway/search.py,sha256=Y0RP--6BjfkfDDvobesKeKYitEEEpLqtbTtEcD9iOIU,1004
+fastapi_authorization_gateway/types.py,sha256=MhSYtBNRC_57j2SWyVuBQaCY5_9tJw1J6SCeaptHdT8,2169
+fastapi_authorization_gateway/utils.py,sha256=N4CBm2tZi7TQUy7Rmow1cIBYPk1CW5qCDw5CNTeXrLQ,646
+fastapi_authorization_gateway-0.0.4.dist-info/METADATA,sha256=0C-JoPERcn3CeXbaKLCL4Jt0KCNDUWLibP5dZ9AzqP8,7001
+fastapi_authorization_gateway-0.0.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fastapi_authorization_gateway-0.0.4.dist-info/licenses/LICENSE,sha256=QSM6xs6BKtY-ahtLloXsVLByE3ONeY2G2_2Xqu6fCF8,1073
+fastapi_authorization_gateway-0.0.4.dist-info/RECORD,,
