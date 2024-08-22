@@ -1,0 +1,2 @@
+[console_scripts]
+codeforces-fetch = codeforcess.downloader:fetch_all_problems
