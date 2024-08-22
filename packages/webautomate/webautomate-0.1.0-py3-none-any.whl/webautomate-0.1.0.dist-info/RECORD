@@ -1,0 +1,10 @@
+browserselenium/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browserselenium/browser_selenium.py,sha256=3hIr5OZAHYRAoJs4jGohqUfE-ZosWS7-0omcvhTDbHE,13043
+webautomate/__init__.py,sha256=WJtanV9YTYu_s1NqThcLbqJeIQ7NtYEL_b0I4JJMCzg,51
+webautomate/browser_controller.py,sha256=rnVkkpcOaS1QEsCKgdnX1T3eNknALtN_mpgCZZKOXcM,13045
+webautomate/test.py,sha256=6Vyyye-aWHM0JvH1HUuwCfuspls-o-oXEAy41cQ3Krk,215
+webautomate-0.1.0.dist-info/LICENSE,sha256=p2Un9SlDyf2rZdVTgbsgI4KuZTXZ8oT2vFJiqOUP2fE,808
+webautomate-0.1.0.dist-info/METADATA,sha256=6ItgIiTJ_U0FslHzQhGxfAj3bF9ftXDOtMNmokF6K08,1463
+webautomate-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+webautomate-0.1.0.dist-info/top_level.txt,sha256=Bh0dcD1KFUJUnLpRNqAIt8WQ2DWz3mSVz1By8v1dTxU,12
+webautomate-0.1.0.dist-info/RECORD,,
