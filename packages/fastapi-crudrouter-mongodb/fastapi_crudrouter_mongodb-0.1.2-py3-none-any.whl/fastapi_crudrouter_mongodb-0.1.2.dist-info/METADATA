@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: fastapi-crudrouter-mongodb
+Version: 0.1.2
+Summary: A dynamic FastAPI router that automatically creates CRUD routes for your mongodb models
+Home-page: https://github.com/pierrod/fastapi-crudrouter-mongodb
+Author: Pierre DUVEAU
+Author-email: pierre@duveau.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: motor
+Requires-Dist: pydantic
+Requires-Dist: pymongo
+
+<p align="center">
+  <img src="./docs/assets/img/logo-long-color.png" height="200" />
+</p>
+<p align="center">
+  <em>⚡ Create CRUD routes with lighting speed</em> ⚡</br>
+  <sub>A dynamic FastAPI router that automatically creates CRUD routes for your Mongodb models</sub>
+</p>
+
+<div align="center">
+
+![Monthly Downloads Shield Badge](https://img.shields.io/pypi/dm/fastapi-crudrouter-mongodb?color=50b052&style=for-the-badge) ![Weekly Downloads Shield Badge](https://img.shields.io/pypi/dw/fastapi-crudrouter-mongodb?color=50b052&style=for-the-badge) ![Python Version](https://img.shields.io/pypi/v/fastapi-crudrouter-mongodb?color=50b052&style=for-the-badge) ![Python Version](https://img.shields.io/pypi/pyversions/fastapi-crudrouter-mongodb?color=3776AB&style=for-the-badge&logo=python&logoColor=white)
+
+</div>
+---
+
+**Documentation**: [https://pierrod.github.io/fastapi-crudrouter-mongodb-doc/](https://pierrod.github.io/fastapi-crudrouter-mongodb-doc/)
+
+**Source Code**: [https://github.com/pierrod/fastapi-crudrouter-mongodb](https://github.com/pierrod/fastapi-crudrouter-mongodb)
+
+**Credits** :
+
+- Base projet and idea : [awtkns](https://github.com/awtkns/fastapi-crudrouter)
+
+- Convert \_id to id (for previous versions of Pydantic) : [mclate github guide](https://github.com/tiangolo/fastapi/issues/1515)
+
+- For Pydantic v2 : [Stackoverflow](https://stackoverflow.com/questions/76686267/what-is-the-new-way-to-declare-mongo-objectid-with-pydantic-v2-0)
+
+---
+
+Are you exhausted from constantly rewriting basic CRUD routes? Do you find yourself needing to swiftly prototype features for presentations or hackathons? Well, rejoice! Introducing  [fastapi-crudrouter-mongodb](https://pierrod.github.io/fastapi-crudrouter-mongodb-doc/), your ultimate solution.
+
+As a complement to FastAPI's APIRouter, the [FastAPI](https://fastapi.tiangolo.com/) CRUDRouter for MongoDB 🌱 takes care of the heavy lifting for you. It automatically generates and documents your CRUD routes with minimal effort. Simply provide your model and your database connection, and you're good to go!
+
+
+## Installation
+
+---
+
+
+```
+ pip install fastapi-crudrouter-mongodb
+```
+
+
+## Basic Usage
+
+---
+
+I will provide more examples in the future, but for now, here is a basic example of how to use the FastAPI CRUDRouter for Mongodb :seedling:.
+
+```py linenums="1"
+from typing import Annotated
+from fastapi import FastAPI
+from fastapi_crudrouter_mongodb import (
+    ObjectId,
+    MongoObjectId,
+    MongoModel,
+    CRUDRouter,
+)
+import motor.motor_asyncio
+
+# Database connection using motor
+client = motor.motor_asyncio.AsyncIOMotorClient("mongodb://localhost:27017/local")
+
+# store the database in a global variable
+db = client.local
+
+# Database Model
+class UserModel(MongoModel):
+    id: Annotated[ObjectId, MongoObjectId] | None = None
+    name: str
+    email: str
+    password: str
+
+
+# Instantiating the CRUDRouter, and a lookup for the messages
+# a User is a model that contains a list of embedded addresses and related to multiple messages
+
+users_router = CRUDRouter(
+    model=UserModel,
+    db=db,
+    collection_name="users",
+    prefix="/users",
+    tags=["users"],
+)
+
+# Instantiating the FastAPI app
+app = FastAPI()
+app.include_router(users_router)
+```
+
+## Advanced Usage
+
+fastapi-crudrouter-mongodb offers several functionalities designed to maximize the benefits of your auto-generated CRUD routes. Here are some key highlights:
+
+- Automatic Lookups 
+- Automatic Embeds
+- Ability to provide **Custom** out schema
+- Ability to **Disable** specific routes
+- Ability to **Add custom dependencies** to specific routes
+
+
+## OpenAPI Support
+
+---
+
+### "Automatic OpenAPI Documentation"
+
+>By default, the CRUDRouter automatically documents all generated routes in accordance with the OpenAPI specification.
+
+The default routes generated by the CRUDRouter are displayed in the OpenAPI documentation generated by the system.
+
+![CRUDRouter OpenAPI schema](https://pierrod.github.io/fastapi-crudrouter-mongodb-doc/assets/img/openapi-basic-example.png)
+
+
+The CRUDRouter can dynamically generate comprehensive documentation based on the provided models.
+
+![CRUDRouter OpenAPI schema details](https://pierrod.github.io/fastapi-crudrouter-mongodb-doc/assets/img/openapi-basic-example-details.png)
+
+
