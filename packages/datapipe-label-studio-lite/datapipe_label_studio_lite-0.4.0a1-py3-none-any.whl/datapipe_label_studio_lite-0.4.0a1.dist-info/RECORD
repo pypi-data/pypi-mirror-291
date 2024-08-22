@@ -1,0 +1,10 @@
+datapipe_label_studio_lite/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+datapipe_label_studio_lite/create_projects_step.py,sha256=vD3vu8cbR7QWErfYVmQz4FuAO68CyrErFhM-1mhHliQ,8440
+datapipe_label_studio_lite/sdk_utils.py,sha256=XxN_TT8_0hk-dkWNOUWZxs1TAvxhJPPm5JLJLSO6AYM,4155
+datapipe_label_studio_lite/types.py,sha256=Qa1PWsHk2kGzVmS_vAJTTQU_aC78CFWWCZbU14bZ0-o,588
+datapipe_label_studio_lite/upload_predictions_pipeline.py,sha256=Cc5hhhI165Q-jCHERJl4msApRTmSbX-lFzSQMqp6crk,14777
+datapipe_label_studio_lite/upload_tasks_pipeline.py,sha256=An0FIQA8v_Zw8BgjAcEBiAEbc6VqR4dJ2ZhTvrlT0g4,29996
+datapipe_label_studio_lite/utils.py,sha256=nJFlQ088fz12gEiLReTdVqZ6PcFoP_JjyJ37GlEmvIc,501
+datapipe_label_studio_lite-0.4.0a1.dist-info/METADATA,sha256=myP5_Fp16F-JhYo5tJivDkbYR8TuVVMDnYa5dtMBpuM,654
+datapipe_label_studio_lite-0.4.0a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+datapipe_label_studio_lite-0.4.0a1.dist-info/RECORD,,
