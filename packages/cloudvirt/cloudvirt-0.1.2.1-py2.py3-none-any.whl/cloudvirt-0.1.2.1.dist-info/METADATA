@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cloudvirt
+Version: 0.1.2.1
+Summary: cloudvirt
+Author-email: gottaeat <mss@tutanota.de>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: pycdlib >= 1.14.0
+Requires-Dist: PyYAML >= 6.0.0
+Requires-Dist: passlib >= 1.6.0
+Requires-Dist: libvirt-python >= 9.5.0
+Project-URL: Home, https://github.com/gottaeat/cloudvirt
+
+# cloudvirt
+cloudvirt creates and destroys cloud-init powered VMs using the libVirt API.
+
