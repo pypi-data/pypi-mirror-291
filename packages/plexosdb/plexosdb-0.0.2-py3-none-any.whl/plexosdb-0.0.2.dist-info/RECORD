@@ -1,0 +1,13 @@
+plexosdb/__init__.py,sha256=0g75uR1G3LSl5ZprA4aI6lwJu_OVN7qo3z1sF1n4J1Y,69
+plexosdb/__version__.py,sha256=RDJlG4ZlUYZMUP1PHs0bEox4qgTpmeXmkMGu4BGSNt8,71
+plexosdb/enums.py,sha256=TdnzPgPhNowoG-TkRl9iSEqxSIvwxN-LnQWzBJr_CwQ,3346
+plexosdb/exceptions.py,sha256=6wNqs5TO8w4DzsEUIK3GQmPyBiH8YYxctJ1LmoGGCLU,235
+plexosdb/schema.sql,sha256=ExlLTof7b0ZdGfachpKlUZOOcuidCGCLOU3SO-lQx_I,9853
+plexosdb/sqlite.py,sha256=zJ1XCspVh3nO3Oh9SaeE3L465U5p1V6H4yMlLpDqi0s,42114
+plexosdb/utils.py,sha256=vjIeXXJDT1dLAOch9k_j-S9IwyGhP0mNOJXTJTFk_MQ,1215
+plexosdb/xml_handler.py,sha256=oFeDpsjbge55yxvR4dTR_GRXoa31AmxUs3RKJSVbGL8,9975
+plexosdb/queries/object_query.sql,sha256=W0nr9-RvpkAcuNQAMJ0x6FhmZesXETuk5_KZ99JqJt8,6202
+plexosdb-0.0.2.dist-info/METADATA,sha256=JSrczq6WZlS1fe1a6OxCkUq7aE3Rg0aT51GFyWn36WM,4969
+plexosdb-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+plexosdb-0.0.2.dist-info/licenses/LICENSE.txt,sha256=w67SB4Pp2PudOMffwB4H4uzQfO7rWM8lRHHy1aj7bgg,1526
+plexosdb-0.0.2.dist-info/RECORD,,
