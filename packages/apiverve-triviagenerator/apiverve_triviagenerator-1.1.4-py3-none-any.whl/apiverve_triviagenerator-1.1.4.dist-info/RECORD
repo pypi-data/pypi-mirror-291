@@ -1,0 +1,11 @@
+apiverve_triviagenerator/__init__.py,sha256=LNYJF83dxb0v5f5s2reldzPOkF0dYS5FyLvxHpA170I,38
+apiverve_triviagenerator/apiClient.py,sha256=jIoCECRD95an44bgy15UGo0RaQoZULQuhhhfsKVahec,1208
+apiverve_triviagenerator/exceptions.py,sha256=X67rak0UhNXE1r7kOqqiptct3FCZtzDaCPyO4GG7zsI,104
+apiverve_triviagenerator/setup.py,sha256=bQhEjH7BtOKPMMJ6KzBIBlWhSXpab1XloJe5vNdD1Gs,648
+apiverve_triviagenerator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_triviagenerator/tests/test_api.py,sha256=C1BBDvBq_9l7E19d_bDN4j6mXrsQDGfUYbypeqIzRd4,611
+apiverve_triviagenerator-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_triviagenerator-1.1.4.dist-info/METADATA,sha256=qBrPPt2KZuudaogDz_C5agUt0b-pzve5TDMz9wHvCkU,5608
+apiverve_triviagenerator-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_triviagenerator-1.1.4.dist-info/top_level.txt,sha256=fWfwpvZPk4-usm3LWe6UX2TC6hLuuDeRaBTQwDMU3WE,25
+apiverve_triviagenerator-1.1.4.dist-info/RECORD,,
