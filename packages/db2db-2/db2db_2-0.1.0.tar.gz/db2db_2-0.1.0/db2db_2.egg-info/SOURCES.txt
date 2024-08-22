@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+db2db/__init__.py
+db2db/core.py
+db2db/transfer.py
+db2db/utils.py
+db2db_2.egg-info/PKG-INFO
+db2db_2.egg-info/SOURCES.txt
+db2db_2.egg-info/dependency_links.txt
+db2db_2.egg-info/requires.txt
+db2db_2.egg-info/top_level.txt
+tests/__init__.py
