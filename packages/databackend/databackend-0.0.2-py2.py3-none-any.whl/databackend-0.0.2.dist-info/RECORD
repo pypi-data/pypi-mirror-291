@@ -1,0 +1,9 @@
+databackend/__init__.py,sha256=K9edIUYxd2EzSMn_3V0cBTuPO8d1_QOsMsCuz7iraVw,1213
+databackend/tests/a_data_class.py,sha256=H3mMdpHXYQYJWQYLApJNbN2f1b2gvvBFLxgp0h-gN-A,57
+databackend/tests/an_unimported_module.py,sha256=5hGgaOUNtj53Ew1ZSzYwhtbD0er7NdMEnwo2jkfM5K0,32
+databackend/tests/test_databackend.py,sha256=n8IWADiYP0ywtW3bD7mj_RnH_odlEoXvtgfxCUfH_kY,2271
+databackend-0.0.2.dist-info/LICENSE,sha256=WqaB49JAysJtv5eOI9GYs-gnds67A-7sQLVMGOP9TzU,1081
+databackend-0.0.2.dist-info/METADATA,sha256=I3BcwLnmf3aA3ONvXdQU63naKF1dltpOQ9jbNUOmnus,5113
+databackend-0.0.2.dist-info/WHEEL,sha256=GUeE9LxUgRABPG7YM0jCNs9cBsAIx0YAkzCB88PMLgc,109
+databackend-0.0.2.dist-info/top_level.txt,sha256=U9Ys-y1dw00Yu7rZBgxNsP7Yi0ucuFimerIJn8jLubo,12
+databackend-0.0.2.dist-info/RECORD,,
