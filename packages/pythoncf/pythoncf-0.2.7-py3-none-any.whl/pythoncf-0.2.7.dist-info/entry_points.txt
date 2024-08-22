@@ -1,0 +1,2 @@
+[console_scripts]
+pythoncf-run = codeforces.cf_run:main

@@ -1,0 +1,12 @@
+cf/__init__.py,sha256=UDdYKvGSll4Qp_PCzlixANOWrR3pYtQEcVjvV01MEv4,221
+cf/api.py,sha256=YYtOQGauIoVlfAOgaoXWT7ZTYCvS2gxrkLhN7GLK6QM,1868
+cf/cf_run.py,sha256=aDDSmsw1wIHqKFxlvwejx47ChSjf9E0znLDmGx8SEz4,2378
+cf/error.py,sha256=Ww9n0dkn5uJtbqcOg4qks-xI_XhgBrIHjnsZ2A8iWcg,399
+cf/problem.py,sha256=FZucxuV7ooN8YVRsm2nlsNtmnDj6rIAw2RDfvu1teBs,1959
+cf/submission.py,sha256=cNx7D5O8GJpzDDxom2Wt_Gr3J3l8qWGOlP57tnKGdlw,962
+pythoncf-0.2.7.dist-info/LICENSE,sha256=JNJSHBiv6EZF_mTlzPBiLQ4rt-qyLZ51vNqjvGAV0n4,1086
+pythoncf-0.2.7.dist-info/METADATA,sha256=7wxJcuNKXhqnLtukQuOwAWZEjMq_0rEkPUAazBoWH3g,2965
+pythoncf-0.2.7.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+pythoncf-0.2.7.dist-info/entry_points.txt,sha256=qKQZvza1VWleaWFZXyuOn6S6CI1DoWjy0dhgeygN5TI,56
+pythoncf-0.2.7.dist-info/top_level.txt,sha256=cUrmmwaPYMfak4xUhAOtnuh6nkmlJd3E5tNM_eVY1fA,3
+pythoncf-0.2.7.dist-info/RECORD,,
