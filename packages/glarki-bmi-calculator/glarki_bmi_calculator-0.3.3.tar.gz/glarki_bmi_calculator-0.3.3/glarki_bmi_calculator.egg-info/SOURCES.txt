@@ -1,0 +1,9 @@
+README.md
+setup.py
+glarki_bmi_calculator/__init__.py
+glarki_bmi_calculator/main.py
+glarki_bmi_calculator.egg-info/PKG-INFO
+glarki_bmi_calculator.egg-info/SOURCES.txt
+glarki_bmi_calculator.egg-info/dependency_links.txt
+glarki_bmi_calculator.egg-info/entry_points.txt
+glarki_bmi_calculator.egg-info/top_level.txt
