@@ -1,0 +1,2 @@
+[console_scripts]
+heave = heave.cli:cli
