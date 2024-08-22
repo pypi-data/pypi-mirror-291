@@ -1,0 +1,199 @@
+[project]
+name = "stuff_saver"
+description = "Just save stuffs"
+authors = [
+    { name = "Joris GUERRY", email = "j@9h.gg" },
+]
+readme = "README.md"
+dynamic = []
+requires-python = ">=3.9,<4.0"
+dependencies = []
+keywords = [
+    "python",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+version = "0.1.6"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://jorisgu.github.io/stuff-saver/"
+Repository = "https://github.com/jorisgu/stuff-saver"
+Documentation = "https://jorisgu.github.io/stuff-saver/"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.coverage.report]
+skip_empty = true
+
+[tool.coverage.run]
+branch = true
+source = [
+    "stuff_saver",
+]
+
+[tool.deptry]
+extend_exclude = [
+    "tasks/*",
+]
+
+[tool.deptry.package_module_name_map]
+graphql-core = "graphql"
+pillow = "PIL"
+python-magic-bin = "magic"
+
+[tool.mypy]
+files = [
+    "stuff_saver",
+]
+disallow_untyped_defs = true
+disallow_any_unimported = true
+no_implicit_optional = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+show_error_codes = true
+strict = true
+
+[tool.pytest.ini_options]
+addopts = "-rsxX -l --tb=short --strict"
+testpaths = [
+    "tests/",
+]
+python_files = [
+    "tests/*/test*.py",
+]
+markers = [
+    "skipif: conditionally skip tests",
+]
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+excludes = [
+    "./**/.git",
+    "tests",
+    ".idea",
+    ".vscode",
+    ".venv",
+    "pdm.lock",
+    ".gitignore",
+    "var",
+]
+package-dir = "."
+includes = [
+    "stuff_saver",
+]
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.2.0",
+    "pytest-cov>=4.0.0",
+]
+dev = [
+    "deptry>=0.6.4",
+    "mypy>=0.981",
+    "pre-commit>=2.20.0",
+    "tox>=3.25.1",
+    "ruff>=0.0.235",
+    "parver>=0.5",
+    "rich>=13.7.1",
+    "towncrier>=24.7.1",
+]
+docs = [
+    "mkdocs>=1.4.2",
+    "mkdocs-material>=8.5.10",
+    "mkdocstrings[python]>=0.19.0",
+]
+
+[tool.pdm.scripts]
+release = "python tasks/release.py"
+test = "pytest"
+tox = "tox"
+lint = "pre-commit run --all-files"
+
+[tool.pdm.scripts.coverage]
+shell = "python -m pytest --verbosity=3 --cov=src/pdm --cov-branch --cov-report term-missing tests/\n                    "
+
+[tool.pdm.scripts.doc]
+cmd = "mkdocs serve"
+help = "Start the dev server for docs preview"
+
+[tool.pdm.scripts.complete]
+call = "tasks.complete:main"
+help = "Create autocomplete files for bash and fish"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.ruff]
+target-version = "py37"
+line-length = 120
+fix = true
+
+[tool.ruff.lint]
+select = [
+    "YTT",
+    "S",
+    "B",
+    "A",
+    "C4",
+    "T10",
+    "SIM",
+    "I",
+    "C90",
+    "E",
+    "W",
+    "F",
+    "PGH",
+    "UP",
+    "RUF",
+    "TRY",
+]
+ignore = [
+    "E501",
+    "E731",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+    "S101",
+]
+"tasks/*" = [
+    "S603",
+    "S607",
+]
+
+[tool.towncrier]
+package = "stuff_saver"
+filename = "CHANGELOG.md"
+issue_format = "[#{issue}](https://github.com/jorisgu/stuff-saver/issues/{issue})"
+directory = "news/"
+title_format = "## Release v{version} ({project_date})"
+underlines = [
+    "",
+    "",
+    "",
+]
+type = [
+    { directory = "break", name = "Breaking Changes", showcontent = true },
+    { directory = "feature", name = "Features & Improvements", showcontent = true },
+    { directory = "bugfix", name = "Bug Fixes", showcontent = true },
+    { directory = "doc", name = "Documentation", showcontent = true },
+    { directory = "dep", name = "Dependencies", showcontent = true },
+    { directory = "removal", name = "Removals and Deprecations", showcontent = true },
+    { directory = "misc", name = "Miscellany", showcontent = true },
+]
