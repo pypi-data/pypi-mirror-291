@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "metalm-tools"
+version = "0.1.1"
+description = "MetaLM工具集"
+authors = ["陈立成 <jueyuan.clc@xuelangyun.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry2setup = "^1.1.0"
+requests = "^2.32.3"
+langchain-core = "^0.2.33"
+langchain-community = "^0.2.12"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
