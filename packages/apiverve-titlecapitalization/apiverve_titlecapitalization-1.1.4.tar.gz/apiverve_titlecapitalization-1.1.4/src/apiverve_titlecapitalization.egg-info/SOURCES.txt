@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_titlecapitalization/__init__.py
+src/apiverve_titlecapitalization/apiClient.py
+src/apiverve_titlecapitalization/exceptions.py
+src/apiverve_titlecapitalization/setup.py
+src/apiverve_titlecapitalization.egg-info/PKG-INFO
+src/apiverve_titlecapitalization.egg-info/SOURCES.txt
+src/apiverve_titlecapitalization.egg-info/dependency_links.txt
+src/apiverve_titlecapitalization.egg-info/top_level.txt
+src/apiverve_titlecapitalization/tests/__init__.py
+src/apiverve_titlecapitalization/tests/test_api.py
+tests/test_api.py
