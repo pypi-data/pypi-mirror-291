@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: roby
+Version: 0.0.3
+Summary: A general framework to analyse the robustness of a Neural Network
+Home-page: UNKNOWN
+Author: University of Bergamo
+Author-email: andrea.bombarda@unibg.it
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <=3.9.11
