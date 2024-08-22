@@ -1,0 +1,11 @@
+SynapseAI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SynapseAI/data_loader.py,sha256=8qYhvUdRq69lyrHLMHqabtEwoF2uPKRSWsfpkowrY_Q,2471
+SynapseAI/document_processor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SynapseAI/main.py,sha256=MsCyvUDmiaFDWtQxkJg_3eGeixz6ybBZB80uTh-Vm-M,3119
+SynapseAI/utils.py,sha256=JObPhsDsREeo-9x42deyB6O1WH0DthQ6zFS5CcLRmEc,2122
+SynapseAI/web_crawler.py,sha256=ve68OcCUPPTiNLKen-6hbysyGF7XFHw85I31QoGGRIo,469
+SynapseAI-0.3.3.dist-info/METADATA,sha256=kV6_bwEGeuVA6xYoz4hhRtLRh354PaG3L8Srw8s2dxQ,4002
+SynapseAI-0.3.3.dist-info/WHEEL,sha256=Wyh-_nZ0DJYolHNn1_hMa4lM7uDedD_RGVwbmTjyItk,91
+SynapseAI-0.3.3.dist-info/entry_points.txt,sha256=Q9e_IaNl1VVxhL-kMSw3FkLjPqJ8c6kc2MvtW7Q_phU,50
+SynapseAI-0.3.3.dist-info/top_level.txt,sha256=ItS0tnuGnw2RBODgnb57vvqsZrZc4hrXBIsLP8FcWbY,10
+SynapseAI-0.3.3.dist-info/RECORD,,
