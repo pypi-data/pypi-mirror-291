@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mm-eth
+Version: 0.1.1
+Requires-Python: >=3.12
+Requires-Dist: mm-std ~=0.1.0
+Requires-Dist: websocket-client ~=1.8.0
+Requires-Dist: web3 ~=6.20.0
+Requires-Dist: typer ~=0.12.0
+Requires-Dist: loguru ~=0.7.2
+
