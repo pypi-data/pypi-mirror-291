@@ -1,0 +1,2 @@
+[console_scripts]
+glarki_bmi_help = glarki_bmi_calculator:print_help
