@@ -1,0 +1,9 @@
+capvalidator/__init__.py,sha256=Yg_CqdYVxzuAr3JBoo6woDIp5hH3nv1VGLFqNsDQttM,3737
+capvalidator/cli.py,sha256=PD69SB3XDv0V4VHmIt36lmlLg50fWQqUbZrlAAa7BC8,1088
+capvalidator/validate.py,sha256=WGk6l5_YCwfeHkUpYrbRmIQihGXkWBvU2ceVDlArtc0,4081
+capvalidator/static/CAP-v1.2-schema.xsd,sha256=3XOi4fdu-kUYFLArEnu_TIbO3HuyGncgQjHDjITY_TY,13166
+capvalidator-0.1.0.dev4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+capvalidator-0.1.0.dev4.dist-info/METADATA,sha256=wNIF8slO_h5ugYQ08NG0sNL3Bimc0rSSGS8QuTU0R1g,17227
+capvalidator-0.1.0.dev4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+capvalidator-0.1.0.dev4.dist-info/top_level.txt,sha256=c2_0wToi91wqjuU5PJIa78N2R1BdFC8ZXJzetSJw1V8,13
+capvalidator-0.1.0.dev4.dist-info/RECORD,,
