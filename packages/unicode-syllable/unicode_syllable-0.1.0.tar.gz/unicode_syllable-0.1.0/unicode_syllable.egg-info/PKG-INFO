@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: unicode_syllable
+Version: 0.1.0
+Summary: Unicode Syllable break
+Home-page: https://github.com/khantkyaw6339/Unicode_Syllable_Break
+Author: Khant Kyaw
+Author-email: khantkyaw6339@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Unicode_Syllable_Break
+
+
+Syllable Break for Unicode text
+## Installation
+
+```bash
+pip install unicode_syllable

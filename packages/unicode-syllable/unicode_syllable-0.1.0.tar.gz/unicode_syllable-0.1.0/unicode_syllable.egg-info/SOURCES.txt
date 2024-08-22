@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+unicode_syllable/__init__.py
+unicode_syllable/unicode.py
+unicode_syllable.egg-info/PKG-INFO
+unicode_syllable.egg-info/SOURCES.txt
+unicode_syllable.egg-info/dependency_links.txt
+unicode_syllable.egg-info/top_level.txt
