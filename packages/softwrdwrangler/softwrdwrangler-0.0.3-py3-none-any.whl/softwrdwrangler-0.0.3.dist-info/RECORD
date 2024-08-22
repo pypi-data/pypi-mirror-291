@@ -1,0 +1,9 @@
+softwrdwrangler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+softwrdwrangler/s3/__init__.py,sha256=jOI-mfLktsjKrdGF-C_ilugwWvqkYmzudN7b-_P4BOY,106
+softwrdwrangler/s3/__json_operation.py,sha256=yvu6hZfnSOopkruWW7-3SPIMn88fE4nnCOH6B0m-uu4,2972
+softwrdwrangler/s3/__pickle_operation.py,sha256=mmgzk1DXxtMN60UKf1XNzRne0TQCN-SQw3F3ta-9j1k,1646
+softwrdwrangler/s3/__utils.py,sha256=KPAXtJ8G1Apsnu_53-zr-nlkF7Dr93jfRLROBFU-4QQ,376
+softwrdwrangler-0.0.3.dist-info/METADATA,sha256=bdiCRIsXYhj9a4qvRwKWSHapTdo093xUaomfMjx-_70,741
+softwrdwrangler-0.0.3.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+softwrdwrangler-0.0.3.dist-info/top_level.txt,sha256=AKCj_zFMHIhfjwJ1ukqsjFsJy0HyVbzppam4Cy_MZzQ,16
+softwrdwrangler-0.0.3.dist-info/RECORD,,
