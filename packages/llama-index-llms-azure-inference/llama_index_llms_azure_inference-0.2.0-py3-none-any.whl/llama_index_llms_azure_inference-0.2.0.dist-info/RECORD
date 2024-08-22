@@ -1,0 +1,5 @@
+llama_index/llms/azure_inference/__init__.py,sha256=6jrGPlJfm2n9S1L1ed6aX2_-xtBkFvHvJqWYKKfEUU8,113
+llama_index/llms/azure_inference/base.py,sha256=CTmW7bU1PhFOP1dllh8dhgOPNi6esV7036sv3YSGjUA,18350
+llama_index_llms_azure_inference-0.2.0.dist-info/METADATA,sha256=RdtHR45dJZVJEkRsFgI4YiDZuDdjCWPzD8P7MKMCFk4,1326
+llama_index_llms_azure_inference-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_llms_azure_inference-0.2.0.dist-info/RECORD,,
