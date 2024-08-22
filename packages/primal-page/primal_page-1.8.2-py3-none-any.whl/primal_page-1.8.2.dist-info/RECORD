@@ -1,0 +1,16 @@
+primal_page/__init__.py,sha256=d6593s-XBNvVxri9lr2qLUDZQ3Zk3-VXHEwdb4pj8qA,22
+primal_page/aliases.py,sha256=Xi9nHO7k-A2z51JEeUq1n2hsUfsbTKshVYqpo3tCjeo,2936
+primal_page/bedfiles.py,sha256=KtkiHhoFPY2TJ6hWkM79fVYGRvttLWfrofQJ73TumhA,10646
+primal_page/build_index.py,sha256=otXXCcEXalSpNSAy0Sf3SI8ZDTO0lxFQmjWVpqYPh0g,8473
+primal_page/dev.py,sha256=2abDI4gOV9yGduHEqovVgpRkUuhGI9t3pC1qgcTCfJ4,4303
+primal_page/doi.py,sha256=LWl_SMiDk1ChuzrKegE-_JiMYDOibHTB1P0MhjhWPRo,805
+primal_page/download.py,sha256=NhqCuxHo6uxLBzT_vfmUMd6Bhzxki_m7wnLqjRfE7os,5132
+primal_page/errors.py,sha256=dfq3uXsyTYSQhc9VSCTyAqDaudHAGl8sfjBBVhZY3zE,1739
+primal_page/logging.py,sha256=DOaz8JmHehXk9qDv-mu8c-qz06fl5pCflSi1pJdnKZk,220
+primal_page/main.py,sha256=_qBv0dId4knj8RbYPMj3uKIFb1Gj_3kiGlchC0_sIMQ,18484
+primal_page/modify.py,sha256=R52oRZOGRH6eMuHDs6JoTgyIEw6ynUkErWXmYsmao30,17035
+primal_page/schemas.py,sha256=9DeuN3Khem2Mb5tiglAGpIh7bfAiiWCY3hFKGs5NGc4,8705
+primal_page-1.8.2.dist-info/METADATA,sha256=yJ76ys56A0UZMknFSLYceCWUKEV-BymbhX9cu45IkE0,21753
+primal_page-1.8.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+primal_page-1.8.2.dist-info/entry_points.txt,sha256=MooJ2Afw4SsEo4J_d9oowoNUj-h6kcMcTZo80U0nVAw,52
+primal_page-1.8.2.dist-info/RECORD,,
