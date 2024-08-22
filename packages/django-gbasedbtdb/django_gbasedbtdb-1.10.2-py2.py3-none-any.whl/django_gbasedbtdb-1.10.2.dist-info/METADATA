@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: django_gbasedbtdb
+Version: 1.10.2
+Summary: A database driver for Django to connect to an GBase 8s database via ODBC
+Home-page: https://gbasedbt.com
+Author: liaosnet
+Author-email: liaosnet@gbasedbt.com
+License: APLv2
+Keywords: django gbasedbt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django<4,>=2.2.0
+Requires-Dist: pyodbc~=4.0.21
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+## A database driver for Django to connect to an GBase 8s database via pyodbc.  
+
+**Some limitations**:
+
+- Does not support default values  
+- GBase 8s automatically creates indexes on foreign keys, but Django attempts to do that
+  manually; the current implementation here just attempts to catch the error on index
+  creation. It may unintentionally catch other index creation errors where the index
+  already exists.
+
+### Release History  
+
+Version 1.10.2
+
+- Add datatypes support
+
+Version 1.10.1  
+
+- Fork from django_informixdb  
+- Fix 'unsupported column type -114'
