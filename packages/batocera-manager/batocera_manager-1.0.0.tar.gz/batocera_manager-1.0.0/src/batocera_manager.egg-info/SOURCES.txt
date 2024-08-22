@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/batocera_manager/__init__.py
+src/batocera_manager/errors.py
+src/batocera_manager/game.py
+src/batocera_manager/system.py
+src/batocera_manager.egg-info/PKG-INFO
+src/batocera_manager.egg-info/SOURCES.txt
+src/batocera_manager.egg-info/dependency_links.txt
+src/batocera_manager.egg-info/requires.txt
+src/batocera_manager.egg-info/top_level.txt
+src/batocera_manager/default_collections/__init__.py
+src/batocera_manager/default_collections/batocera.py
+src/batocera_manager/default_collections/const.py
