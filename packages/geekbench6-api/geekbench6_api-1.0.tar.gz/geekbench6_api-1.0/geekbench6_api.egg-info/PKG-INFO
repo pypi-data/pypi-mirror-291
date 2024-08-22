@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: geekbench6_api
+Version: 1.0
+Summary: geekbench6 non-officia api
+Author: HomeGravity
+Author-email: mycoding467@gmail.com
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: aiohttp
+Requires-Dist: bs4
