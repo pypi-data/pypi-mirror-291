@@ -1,0 +1,6 @@
+llama_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/vector_stores/epsilla/__init__.py,sha256=4lWHAHGbZv1ZLe1jedlzSd7e4a8OMJrrv6TAOeJdWzE,104
+llama_index/vector_stores/epsilla/base.py,sha256=88YpL1RP3BYksZCXwM-BvEQzJ_xrrJ-4ncbUph6RomM,9954
+llama_index_vector_stores_epsilla-0.2.0.dist-info/METADATA,sha256=9R14I-CKqNJDQI5cAmLRZTXHWSwW4XzqsMWiTy1weUY,708
+llama_index_vector_stores_epsilla-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_epsilla-0.2.0.dist-info/RECORD,,
