@@ -1,0 +1,8 @@
+setup.py
+invoicing-pdfs-akm/__init__.py
+invoicing-pdfs-akm/invoice.py
+invoicing_pdfs_akm.egg-info/PKG-INFO
+invoicing_pdfs_akm.egg-info/SOURCES.txt
+invoicing_pdfs_akm.egg-info/dependency_links.txt
+invoicing_pdfs_akm.egg-info/requires.txt
+invoicing_pdfs_akm.egg-info/top_level.txt
