@@ -1,0 +1,10 @@
+sequencefield/__init__.py,sha256=GxQa6yk7PKkolRhuuGo2-5nnFWKl-yz2zq6pEtYYd5M,276
+sequencefield/constraints.py,sha256=mwA5v9MSnoXTG61Z46UxQhw1_XBJyPufDvds_HC5joU,2852
+sequencefield/fields.py,sha256=qhVKj3lNJn0RutGYzIs4lxbULY3pNHIaoCkTzyckJgw,5636
+sequencefield/functions.py,sha256=b-84QndPfFMAPY_RvmvAuMkj0XpaKAMMp7lgfi4DqAs,1434
+sequencefield/metadata.py,sha256=AP5Y1mPivoBJ_AmRzIHwRTcxmhBkKK2p4-aJGT6aOzo,544
+django_sequencefield-1.0.12.dist-info/LICENSE.txt,sha256=CJM8-vNzIH7SamshwlaQibTv41ZXEqGSwABj1uLM0tg,1081
+django_sequencefield-1.0.12.dist-info/METADATA,sha256=IsIM3lgvpo8Tg8CTcuUPu2NIEhnaBQmB3f46fHZj_8Q,10088
+django_sequencefield-1.0.12.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+django_sequencefield-1.0.12.dist-info/top_level.txt,sha256=6AdeyW1SLvKymLTxEc95-x9gCtSGyz_xGtnaFWh2nmo,14
+django_sequencefield-1.0.12.dist-info/RECORD,,
