@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+examples.py
+pyproject.toml
+src/cpsms/__init__.py
+src/cpsms/cpsms.py
+src/cpsms.egg-info/PKG-INFO
+src/cpsms.egg-info/SOURCES.txt
+src/cpsms.egg-info/dependency_links.txt
+src/cpsms.egg-info/top_level.txt

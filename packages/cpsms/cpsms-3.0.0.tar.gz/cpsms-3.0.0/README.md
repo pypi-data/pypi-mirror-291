@@ -1,0 +1,42 @@
+# cpsms
+
+## This is
+
+A Python 3 wrapper around the SMS gateway from CPSMS <https://www.cpsms.dk/>.
+
+
+## This is not
+
+Some sort of magic, free SMS gateway.
+
+
+## Installation
+
+`cpsms` is available [from PyPI](https://pypi.python.org/pypi/cpsms). Easiest
+way to install is: `pip install cpsms`.
+
+
+## Requirements
+
+You need to have a (paid) account at CPSMS to be able to use their gateway.
+They sell a fair, no-nonsense product which I'd recommend if you want to be
+able to send SMS from your code (primarily to Danish phones).
+
+
+## How to use
+
+See a couple of example use cases in [example.py](./examples.py) that should
+have come along with this file. Apart from what is shown in examples.py, this
+also supports status callback URLs, delayed sending and flash messages.
+
+
+## Further information
+
+For more info on parameters, have a look at the
+[CPSMS API documentation](https://www.cpsms.dk/login/index.php?page=dokumentation).
+
+I believe the gateway software running at the CPSMS server is some sort of
+standard product. This may be able to talk to other remote SMS gateways as
+well, and that's why I made it an option to specify another gateway base
+URL. If you know of any other compatible gateways, please let me know, and
+I'll list them in the README.

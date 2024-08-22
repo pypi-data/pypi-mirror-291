@@ -1,0 +1,18 @@
+[project]
+name = "cpsms"
+version = "3.0.0"
+authors = [
+  { name="Mikkel Munch Mortensen", email="3xm@detfalskested.dk" },
+]
+description = "A Python wrapper around the SMS gateway from CPSMS <https://www.cpsms.dk/>."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://git.data.coop/gorgonzo.la/cpsms"
+Issues = "https://git.data.coop/gorgonzo.la/cpsms/issues"
