@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a3ddddocr_client/__init__.py
+a3ddddocr_client/ocr_client.py
+a3ddddocr_client.egg-info/PKG-INFO
+a3ddddocr_client.egg-info/SOURCES.txt
+a3ddddocr_client.egg-info/dependency_links.txt
+a3ddddocr_client.egg-info/not-zip-safe
+a3ddddocr_client.egg-info/requires.txt
+a3ddddocr_client.egg-info/top_level.txt

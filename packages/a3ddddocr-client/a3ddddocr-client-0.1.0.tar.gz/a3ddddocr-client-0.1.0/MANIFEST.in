@@ -1,0 +1,3 @@
+graft a3ddddocr_client
+global-exclude __pycache__
+global-exclude *.py[co]
