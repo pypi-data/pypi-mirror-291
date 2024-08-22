@@ -1,0 +1,12 @@
+setup.py
+gptzzzs/__init__.py
+gptzzzs/normal_change.py
+gptzzzs.egg-info/PKG-INFO
+gptzzzs.egg-info/SOURCES.txt
+gptzzzs.egg-info/dependency_links.txt
+gptzzzs.egg-info/top_level.txt
+gptzzzs/data/adjectives.json
+gptzzzs/data/common_words.json
+gptzzzs/data/finnlp-separate.json
+gptzzzs/data/finnlp-together.json
+gptzzzs/data/zaibacu.json
