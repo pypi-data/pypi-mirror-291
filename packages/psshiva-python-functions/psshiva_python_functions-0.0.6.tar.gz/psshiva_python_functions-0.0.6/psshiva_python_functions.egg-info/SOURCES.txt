@@ -1,0 +1,10 @@
+setup.py
+psshiva_python_functions/__init__.py
+psshiva_python_functions.egg-info/PKG-INFO
+psshiva_python_functions.egg-info/SOURCES.txt
+psshiva_python_functions.egg-info/dependency_links.txt
+psshiva_python_functions.egg-info/requires.txt
+psshiva_python_functions.egg-info/top_level.txt
+psshiva_python_functions/algorithms/__init__.py
+psshiva_python_functions/algorithms/sql_ai_converser/__init__.py
+psshiva_python_functions/algorithms/sql_ai_converser/openai_connector.py
