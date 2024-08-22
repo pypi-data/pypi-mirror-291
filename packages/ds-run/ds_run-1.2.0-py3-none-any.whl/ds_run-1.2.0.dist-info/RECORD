@@ -1,0 +1,13 @@
+ds/__init__.py,sha256=qKwmntdO7vnJBlBcBeaA3wMm4GmCsuY0LDiwiPQJZ08,4310
+ds/__main__.py,sha256=aaQsP5pGS7D1kh4g0qxxeMv_Nvb3kWquh7ZisVhXCu8,177
+ds/args.py,sha256=QSSFuXbdOVOhIloiXBRKjOZzPgQnza-R7MQLIe1Q0BA,7304
+ds/configs.py,sha256=98iP0KP9M5iLcnc5rZfWqOr6-3csvVnHgp7IOn_x1Oo,7761
+ds/env.py,sha256=ZONz-PtyAryGmGg_U7GStobpEUYUWDkVqF0yk3e-nGE,14167
+ds/symbols.py,sha256=PJSfU2YVsbxF92GoWXSd5M_Nx3gYlZ-Lsh926NMoQTA,2298
+ds/tasks.py,sha256=Bww6cgOufAUvgWdgTdEO7OL8REBTjxuMSwbKfq-htOc,10517
+ds_run-1.2.0.dist-info/LICENSE.md,sha256=_u_HItLNC8M9WaT9gAOPxI1xt1XXL-KwxHOqYaqIrDM,1052
+ds_run-1.2.0.dist-info/METADATA,sha256=BD8PFIu55VmKnf6OWh9cy4IVCWaQK7ZOtUl2HnMGuwA,26196
+ds_run-1.2.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+ds_run-1.2.0.dist-info/entry_points.txt,sha256=1KQ14hONsaHv21kdzi5OZXMpvMwsR0343hRWyWK9n-g,31
+ds_run-1.2.0.dist-info/top_level.txt,sha256=6m-FY1f1w1EQbckHM3aJi5UwREJQRXo6CYTDxjvrRRA,3
+ds_run-1.2.0.dist-info/RECORD,,
