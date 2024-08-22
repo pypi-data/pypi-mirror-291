@@ -1,0 +1,5 @@
+llama_index/tools/azure_speech/__init__.py,sha256=EyPJPJi1v-e_9ojniege7f_Gt01mOTafXLuN2XATBnQ,125
+llama_index/tools/azure_speech/base.py,sha256=Rt4eCpA3Yb0PW8c8mdzuwp6BGiBCMRR_4mDW1XbI-MM,3036
+llama_index_tools_azure_speech-0.2.0.dist-info/METADATA,sha256=0p2jNSZ6JKrU9tIFkJSIQwIhqxF1XP5_NahBwu2RLIM,1778
+llama_index_tools_azure_speech-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_tools_azure_speech-0.2.0.dist-info/RECORD,,
