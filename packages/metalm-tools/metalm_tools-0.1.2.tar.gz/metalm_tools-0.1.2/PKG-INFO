@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: metalm-tools
+Version: 0.1.2
+Summary: MetaLM工具集
+Author: 陈立成
+Author-email: jueyuan.clc@xuelangyun.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain-community (>=0.2.12,<0.3.0)
+Requires-Dist: langchain-core (>=0.2.33,<0.3.0)
+Requires-Dist: poetry2setup (>=1.1.0,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# MetaLM-tools
+
+metalm的工具集，当前只有代码解释器这一个工具。
+
+
+案例：
+```
+from metalm_tools import MetaLMInterpreterTool
+import time 
+import json
+
+packages=['numpy','pandas']
+#画图
+c = """
+import matplotlib.pyplot as plt
+import time
+
+# 数据
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+# 创建折线图
+plt.plot(x, y, marker='o')
+
+# 添加标题和轴标签
+plt.title("Simple Line Plot")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+
+# 显示图形
+plt.grid(True)  # 显示网格线
+plt.show()
+plt.savefig('test1.png')
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+# 创建折线图
+plt.plot(x, y, marker='o')
+
+# 添加标题和轴标签
+plt.title("Simple Line Plot")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+
+# 显示图形
+plt.grid(True)  # 显示网格线
+plt.show()
+plt.savefig('test2.png')
+
+for i in x:
+    print(i)
+    time.sleep(1)
+"""
+#操作csv
+c2 = """
+import pandas as pd
+
+# 读取CSV文件
+df = pd.read_csv('/codebox/1.csv')
+
+# 获取前5行
+df_first_five = df.head(5)
+
+# 保存前5行到新的CSV文件
+df_first_five.to_csv('output_file.csv', index=False)
+
+print("前5行已保存到 'output_file.csv'")
+
+"""
+
+tool = MetaLMInterpreterTool(<服务url>,'empty')
+print(tool.session.session_id)
+tool.install_python_packages(packages)
+res1 = tool.upload_files([<上传文件>],['这是要分析的数据'])
+res2 = tool.upload_files([<上传图片>],['这是图片'])
+print('path:',res1,res2)
+rsp = tool._run(c2)
+rsp = json.loads(rsp)
+print(rsp)
+tbyte = tool.download_files(['output_file.csv'])
+print(tbyte)
+
+rsp = tool._run(c)
+rsp = json.loads(rsp)
+print(rsp)
+
+tool.close()
+```
