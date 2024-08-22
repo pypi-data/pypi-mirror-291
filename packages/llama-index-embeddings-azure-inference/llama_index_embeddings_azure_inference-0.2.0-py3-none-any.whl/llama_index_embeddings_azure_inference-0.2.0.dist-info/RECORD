@@ -1,0 +1,5 @@
+llama_index/embeddings/azure_inference/__init__.py,sha256=ZzkJMxtVuQHsE83_0E5qH_UMANM_3dF-yMjJmwq3s0s,116
+llama_index/embeddings/azure_inference/base.py,sha256=TZnwlPT8-L8tPvYJfBXpw89x2vavgJaWVgiaFuzPe-M,6385
+llama_index_embeddings_azure_inference-0.2.0.dist-info/METADATA,sha256=ZFLrAORXE42LUlhG_iEC8arUC8jWVagm-5O-E1th3ro,1345
+llama_index_embeddings_azure_inference-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_embeddings_azure_inference-0.2.0.dist-info/RECORD,,
