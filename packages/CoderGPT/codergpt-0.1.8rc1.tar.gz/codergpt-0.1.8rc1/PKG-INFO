@@ -1,0 +1,189 @@
+Metadata-Version: 2.1
+Name: CoderGPT
+Version: 0.1.8rc1
+Summary: CoderGPT
+License: MIT
+Author: Harshad Hegde
+Author-email: hhegde@lbl.gov
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click
+Requires-Dist: importlib-metadata (>=4.8.0)
+Requires-Dist: langchain (>=0.1.6,<0.2.0)
+Requires-Dist: langchain-google-genai (>=0.0.8,<0.0.9)
+Requires-Dist: langchain-openai (>=0.0.5,<0.0.6)
+Requires-Dist: poetry-dynamic-versioning (>=1.2.0,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# CoderGPT
+
+CoderGPT is a versatile command-line interface (CLI) designed to enhance coding workflows. It leverages the capabilities of Large Language Models (LLM) and Generative Pre-trained Transformers (GPT) to assist developers in various tasks such as commenting, optimizing, documenting, and testing their code. This tool integrates seamlessly with [langchain](https://github.com/langchain-ai/langchain), providing a powerful backend for code generation and modification.
+
+# Model Providers Implemented
+ - [x] OpenAI [`gpt-3.5-turbo`, `gpt-4`, `gpt-4-turbo-preview`(default)]
+ - [x] Google [`gemini-pro`]
+ - [x] Anthropic [`claude-2.1`]
+
+## Prerequisites
+
+Before you begin using CoderGPT, you must set the `OPENAI_API_KEY`, `GOOGLE_API_KEY` and `ANTHROPIC_API_KEY` environment variables on your machine. This key enables authentication with the OpenAI and Google APIs, which are essential for the language model's operation.
+
+```sh
+export OPENAI_API_KEY='your-api-key-here'
+export GOOGLE_API_KEY='your-api-key-here'
+export ANTHROPIC_API_KEY='your-api-key-here''
+```
+
+Ensure that you replace `your-api-key-here` with your actual OpenAI API key to enable the full functionality of CoderGPT.
+
+## Getting Started
+
+### Installation
+
+Install CoderGPT easily using pip:
+
+```shell
+pip install codergpt
+```
+
+### Basic Usage
+
+Invoke the CoderGPT CLI with the following syntax:
+
+```shell
+codergpt [OPTIONS] COMMAND [ARGS]...
+```
+
+#### Options
+
+- `-v, --verbose INTEGER`: Adjust the verbosity level (0 for default, 1 for verbose, 2 for debug).
+- `-q, --quiet`: Suppress output.
+- `--version`: Show the version number and exit.
+- `--model`: Model to use for performing requests.
+  - Available models:
+    - OpenAI: [`gpt-3.5-turbo`, `gpt-4`, `gpt-4-turbo-preview`(default)]
+    - Google: [`gemini-pro`]
+    - Anthropic[`claude-2.1`]
+
+#### Commands
+
+##### Inspect
+
+Analyze a package and display its file-language mapping.
+
+```shell
+codergpt --model <model-name> inspect <path>
+```
+
+###### Example
+
+```shell
+$ codergpt --model gpt-4 inspect src/codergpt/
+```
+
+##### Explain
+
+Provide an explanation for a specific function or class within a package.
+
+```shell
+codergpt explain <path> [--function <function_name>] [--classname <class_name>]
+```
+
+###### Example
+
+```shell
+$ codergpt explain src/codergpt/explainer/explainer.py --function explain
+```
+
+##### Comment
+
+Automatically add comments to your code. Choose whether to overwrite the existing file or create a new one.
+
+```shell
+codergpt comment <path> [--overwrite/--no-overwrite]
+```
+
+###### Example
+
+```shell
+$ codergpt comment greetings.py --overwrite
+```
+
+##### Optimize
+
+Enhance your code by optimizing it and adding comments. You can decide to overwrite the original file or save the changes separately.
+
+```shell
+codergpt optimize <path> [--overwrite/--no-overwrite]
+```
+
+###### Example
+
+```shell
+$ codergpt optimize example.py --overwrite
+```
+
+##### Write Tests
+
+Generate test cases for a specified code file, targeting particular functions and/or classes.
+
+```shell
+codergpt write-tests <filename> [--function <function_name>] [--class <classname>] [--outfile <output_filename>]
+```
+
+###### Example
+
+```shell
+$ codergpt write-tests example.py --function add --class Calculator
+```
+
+##### Document
+
+Create documentation for a given code file by processing and explaining the code.
+
+```shell
+codergpt document <path> [--outfile <output_filename>]
+```
+
+###### Example
+
+```shell
+$ codergpt document example.py
+```
+
+## Development & Contribution
+
+The CoderGPT CLI is developed in Python, utilizing the `click` library for creating commands. Here's a template for adding a new command:
+
+```python
+import click
+from codergpt import CoderGPT
+
+coder = CoderGPT()
+
+@click.command()
+@click.argument('path', type=click.Path(exists=True))
+def new_command(path):
+    # Implement command logic here
+    pass
+```
+
+Contributions to CoderGPT are highly encouraged! Please review our [contributing guidelines](CONTRIBUTING.md) before making pull requests.
+
+## License
+
+CoderGPT is open-sourced under the MIT License. For more details, refer to the [LICENSE.md](LICENSE.md) file.
+
+## Acknowledgments
+
+This project was scaffolded using the [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) framework, based on the [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template). Updates are managed through [cruft](https://cruft.github.io/cruft/).
+
+For comprehensive details on the CoderGPT CLI, please refer to [the official documentation](https://hrshdhgd.github.io/CoderGPT/).
+
+---
