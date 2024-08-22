@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tetris-py"
+version = "0.0.6"
+authors = [
+  { name="Toma Popov", email="toma98@hotmail.co.uk" },
+]
+description = "A Tetris game written in Python."
+readme = "README.md"
+dependencies = [
+    "pygame",
+]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+tetris-py = "tetris:main.main"
+tetris-py-cli = "tetris:main_cli.main"
+
+[project.urls]
+Homepage = "https://github.com/tomapopov/tetris-game"
+Issues = "https://github.com/tomapopov/tetris-game/issues"
+
