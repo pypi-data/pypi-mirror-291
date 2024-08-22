@@ -1,0 +1,14 @@
+dbbpy_test/__init__.py,sha256=fHlqsNlYbEnEqcS-UUBV8-2gbsfoqo-ZerrG9-dBjWc,1366
+dbbpy_test/compile.py,sha256=JwJPU7nOHJuWTIwpOId0kqoyCm2hmQivXhQKgeJ-nHk,3168
+dbbpy_test/src/bindings.cp312-win_amd64.pyd,sha256=JsaIGOIrItN0rHEn9Uq99PA72pVhUYAPEawv-vkG7RE,4147712
+dbbpy_test/src/bindings.cpython-311-x86_64-linux-gnu.so,sha256=bSlfWlYH2VDXQ0JSABbNVDvgSpaYDnHBHNT2P2LB0gE,6139784
+dbbpy_test/src/main.cpp,sha256=FT3dgEsmTUQ0fRMbLqyuCnx7A_8vpZx2x82fBEyAGTI,474
+dbbpy_test/src/optimizer.cpp,sha256=vy73hUcivmGiFrOh-t-F72Yx_LGcCB8gAfMchqPxOKI,6168
+dbbpy_test/src/optimizer.hpp,sha256=KKeTiDXPYywMCNvjX0FLrH5QeIO0b8rBWeZwsVA-MiQ,1264
+dbbpy_test/src/option_cleaner.cpp,sha256=yrpnemGwlP6FSq14R-10GTxvpu1fPgiX56dDPrls0t4,12582
+dbbpy_test/src/option_cleaner.hpp,sha256=IHqAYm4VU8qEhm7bFE72kkx9b3puKz1RHc0IWy47GLw,2542
+dbbpy_test/src/utils.hpp,sha256=1a07FIu3udxHE_PIhZtuzDqCybggdUK0O1Q8WYi1N_w,1928
+dbbpy_test-0.1.2.dist-info/METADATA,sha256=TcH1gOLgGDQxeGizUHTcd9mH9sTwDcY8tLJTUR7jhtI,573
+dbbpy_test-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dbbpy_test-0.1.2.dist-info/entry_points.txt,sha256=YKEu8y_MF4HOsRwVzRP-MONZPZ1TzRYpNRRdaBepJWU,72
+dbbpy_test-0.1.2.dist-info/RECORD,,
