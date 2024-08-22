@@ -1,0 +1,15 @@
+CTApy/__init__.py,sha256=ZRwzjxnjOcJdmguZaxBYhC6y7p9B5C-I2VfceeP6aGE,471
+CTApy/allocate_topics.py,sha256=yVGa-chcgwi3xgyXN2k0NvuDA-7RVUaBVfe4hpaaw08,3491
+CTApy/calculate_clusters.py,sha256=oGOacryI1h64WdY-naHs6D2r58aPBGPkM2GZMFEBv6M,3472
+CTApy/calculate_quality_all.py,sha256=18nZxM3g6vuYG6NQkot1qcB__T8qWpGhVJ9kWHMe4_c,2134
+CTApy/create_cosine_matrix.py,sha256=fuXtnYR_jyRZNR1LuQo0TMoIyyKyzrmqo3-z4OTIIiA,2207
+CTApy/optimize_clusters.py,sha256=YDLnRPyaFfyQohbITzouAZRSVJC2tyUMSI8D3ixSpE4,3190
+CTApy/prediction.py,sha256=_uc73QiJng3mEwphZA7rjROYwi4XRkGkfeWKK_CgAvw,3042
+CTApy/preprocessing.py,sha256=3oQRNlPzy_z8eHqVD-bg0yr95__3hZ9Xm6s3hYtne6k,1479
+CTApy/tag_text.py,sha256=5aPeBrVNavh3buVC78H2aInqlFrI7BYY1-DEpChdp-k,2693
+CTApy/word_importance.py,sha256=iupsvhHw956aYBfZMui8S4aYiD6lbytiNtW9u1NhrDI,3087
+CTApy-0.1.4.dist-info/METADATA,sha256=FHbtjelwEtphKoV_ASEczS81iU-u7BuACNEKfCTbs34,2646
+CTApy-0.1.4.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+CTApy-0.1.4.dist-info/license.txt,sha256=v-5-niLkagsWIKJ1PGS5kwVK6aircIDcRQNoSR0sI2Q,1101
+CTApy-0.1.4.dist-info/top_level.txt,sha256=O8WG2SefO760MpJSeGxm-qNELrwB9cA55JRekzGrWXs,6
+CTApy-0.1.4.dist-info/RECORD,,
