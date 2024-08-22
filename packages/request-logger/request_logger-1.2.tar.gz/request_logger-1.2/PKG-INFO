@@ -1,0 +1,142 @@
+Metadata-Version: 2.1
+Name: request_logger
+Version: 1.2
+Home-page: https://github.com/EmreTurkmen-Hub/request-logger
+Author: Emre Türkmen
+Author-email: emre@parsyazilim.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Request Logger Module
+
+This Python module is designed to log and store incoming HTTP requests in a Django application. It helps developers track and analyze request data, including headers, methods, and payloads.
+
+## Features
+- Log and store HTTP requests.
+- Support for GET, POST, PUT, DELETE, and other HTTP methods.
+- Ability to filter requests by method or URL.
+- Easy integration with Django projects.
+
+## Installation
+
+1. **Install the package via pip:**
+
+    ```bash
+    pip install request-logger
+    ```
+
+2. **Add `request_logger` to your Django `INSTALLED_APPS`:**
+
+    Open your `settings.py` file and add `request_logger` to the `INSTALLED_APPS` list:
+
+    ```python
+    INSTALLED_APPS = [
+        # other apps
+        'request_logger',
+    ]
+    ```
+
+3. **Add the Request Logger Middleware:**
+
+    Include the `request_logger` middleware in your `MIDDLEWARE` list in `settings.py`:
+
+    ```python
+    MIDDLEWARE = [
+        # other middleware
+        'request_logger.middleware.request_logger.userLogCheck',
+    ]
+    ```
+
+4. **Run Migrations to Create the Necessary Database Tables:**
+
+    Apply the migrations to set up the required database tables:
+
+    ```bash
+    python manage.py migrate
+    ```
+
+## Usage
+
+1. **Filter Logged Requests by Method:**
+
+    You can filter logged requests by method using the following query:
+
+    ```python
+    from request_logger.models import userLog
+
+    get_requests = userLog.objects.filter(method='GET')
+    ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+# Request Logger ModÃ¼lÃ¼
+
+Bu Python modÃ¼lÃ¼, bir Django uygulamasÄ±nda gelen HTTP isteklerini kaydetmek ve saklamak iÃ§in tasarlanmÄ±ÅŸtÄ±r. GeliÅŸtiricilere, baÅŸlÄ±klar, yÃ¶ntemler ve payloadlar dahil olmak Ã¼zere istek verilerini izleme ve analiz etme imkanÄ± sunar.
+
+## Ã–zellikler
+- HTTP isteklerini kaydetme ve saklama.
+- GET, POST, PUT, DELETE ve diÄŸer HTTP yÃ¶ntemleri iÃ§in destek.
+- Ä°stekleri yÃ¶ntem veya URL'ye gÃ¶re filtreleme yeteneÄŸi.
+- Django projeleri ile kolay entegrasyon.
+
+## Kurulum
+
+1. **Pip ile paketi yÃ¼kleyin:**
+
+    ```bash
+    pip install request-logger
+    ```
+
+2. **`request_logger` modÃ¼lÃ¼nÃ¼ Django `INSTALLED_APPS` listenize ekleyin:**
+
+    `settings.py` dosyanÄ±zÄ± aÃ§Ä±n ve `INSTALLED_APPS` listesine `request_logger` ekleyin:
+
+    ```python
+    INSTALLED_APPS = [
+        # diÄŸer uygulamalar
+        'request_logger',
+    ]
+    ```
+
+3. **Request Logger Middleware'ini Ekleyin:**
+
+    `settings.py` dosyanÄ±zda `MIDDLEWARE` listesine `request_logger` middleware'ini dahil edin:
+
+    ```python
+    MIDDLEWARE = [
+        # diÄŸer middleware'ler
+        'request_logger.middleware.request_logger.userLogCheck',
+    ]
+    ```
+
+4. **Gerekli VeritabanÄ± TablolarÄ±nÄ± OluÅŸturmak Ä°Ã§in Migrations Ä°ÅŸlemini Ã‡alÄ±ÅŸtÄ±rÄ±n:**
+
+    Gerekli veritabanÄ± tablolarÄ±nÄ± oluÅŸturmak iÃ§in migrations iÅŸlemini uygulayÄ±n:
+
+    ```bash
+    python manage.py migrate
+    ```
+
+## KullanÄ±m
+
+
+1. **Kaydedilen Ä°stekleri YÃ¶nteme GÃ¶re Filtreleyin:**
+
+    Kaydedilen istekleri yÃ¶ntemine gÃ¶re filtreleyebilirsiniz:
+
+    ```python
+    from request_logger.models import userLog
+
+    get_requests = userLog.objects.filter(method='GET')
+    ```
+
+## Lisans
+
+Bu proje MIT LisansÄ± altÄ±nda lisanslanmÄ±ÅŸtÄ±r - detaylar iÃ§in [LICENSE](LICENSE) dosyasÄ±na bakÄ±n.
