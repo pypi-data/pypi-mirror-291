@@ -1,0 +1,98 @@
+package com.tencent.bkapi.{{ kebabcase .Package | replace "-" "" }};
+
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
+import okhttp3.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class Client {
+    private final String endpoint;
+    private final OkHttpClient httpClient;
+    private final ObjectMapper objectMapper;
+
+    public Client(String endpoint) {
+        this.endpoint = endpoint;
+        this.httpClient = new OkHttpClient();
+        this.objectMapper = new ObjectMapper();
+    }
+
+    {{- range .Operations }}
+    {{- $name := pascalize .Name -}}
+    {{- $docs := list (printf "%s for bkapi resource %s" $name .Name ) -}}
+
+    {{- with .Summary -}}
+    {{- $docs = concat $docs (regexSplit "\r?\n" . -1 ) -}}
+    {{- end -}}
+
+    {{- with .Description -}}
+    {{- $docs = concat $docs (regexSplit "\r?\n" . -1 ) -}}
+    {{- end -}}
+
+    {{- range $docs }}
+    // {{ . }}
+    {{- end }}
+    public Response {{ $name }}(RequestParams params) throws Exception {
+        // Construct the URL with path parameters
+        String url = endpoint + "{{ .Path }}";
+        for (Map.Entry<String, String> entry : params.getPathParams().entrySet()) {
+            url = url.replace("{" + entry.getKey() + "}", entry.getValue());
+        }
+
+        // Parse the URL and add query parameters
+        HttpUrl httpUrl = HttpUrl.parse(url);
+        if (httpUrl == null) {
+            throw new IllegalArgumentException("Invalid URL: " + url);
+        }
+        HttpUrl.Builder urlBuilder = httpUrl.newBuilder();
+        for (Map.Entry<String, String> entry : params.getQueryParams().entrySet()) {
+            urlBuilder.addQueryParameter(entry.getKey(), entry.getValue());
+        }
+        url = urlBuilder.build().toString();
+
+        // Create the request body
+        MediaType mediaType = MediaType.get(params.getHeaders().getOrDefault("Content-Type", "application/json; charset=utf-8"));
+        RequestBody body = null;
+        if (params.getData() != null) {
+            body = RequestBody.create(objectMapper.writeValueAsString(params.getData()), mediaType);
+        }
+
+        // Build the request
+        Request.Builder requestBuilder = new Request.Builder().url(url);
+        {{- if eq (upper .Method) "POST" }}
+        requestBuilder.post(body);
+        {{- else if eq (upper .Method) "GET" }}
+        requestBuilder.get();
+        {{- else if eq (upper .Method) "DELETE" }}
+        requestBuilder.delete(body);
+        {{- else if eq (upper .Method) "PUT" }}
+        requestBuilder.put(body);
+        {{- else if eq (upper .Method) "PATCH" }}
+        requestBuilder.patch(body);
+        {{- else }}
+        throw new IllegalArgumentException("Unsupported HTTP method: {{ .Method }}");
+        {{- end }}
+
+        // Add headers to the request
+        for (Map.Entry<String, String> entry : params.getHeaders().entrySet()) {
+            requestBuilder.addHeader(entry.getKey(), entry.getValue());
+        }
+
+        // Add authentication header
+        String authHeader = params.getAuthorizationHeader();
+        if (authHeader != null && !authHeader.isEmpty()) {
+            requestBuilder.addHeader("X-Bkapi-Authorization", authHeader);
+        }
+
+        // Set timeout
+        OkHttpClient clientWithTimeout = httpClient.newBuilder()
+                .callTimeout(params.getTimeout(), TimeUnit.SECONDS)
+                .build();
+
+        // Execute the request
+        Request request = requestBuilder.build();
+        return clientWithTimeout.newCall(request).execute();
+    }
+
+    {{ end }}
+}

@@ -1,0 +1,164 @@
+package com.tencent.bkapi.{{ kebabcase .Package | replace "-" "" }};
+
+import java.util.HashMap;
+import java.util.Map;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class RequestParams {
+    private Map<String, Object> data = new HashMap<>();
+    private Map<String, String> pathParams = new HashMap<>();
+    private Map<String, String> queryParams = new HashMap<>();
+    private Map<String, String> headers = new HashMap<>();
+    private int timeout = 10; // 默认超时
+    private String bkAppCode;
+    private String bkAppSecret;
+    private String bkToken;
+    private String bkTicket;
+    private String bkUserName;
+    private String accessToken;
+
+    public Map<String, Object> getData() {
+        return data;
+    }
+
+    public Map<String, String> getPathParams() {
+        return pathParams;
+    }
+
+    public Map<String, String> getQueryParams() {
+        return queryParams;
+    }
+
+    public Map<String, String> getHeaders() {
+        return headers;
+    }
+
+    public int getTimeout() {
+        return timeout;
+    }
+
+    public String getBkAppCode() {
+        return bkAppCode;
+    }
+
+    public String getBkAppSecret() {
+        return bkAppSecret;
+    }
+
+    public String getBkToken() {
+        return bkToken;
+    }
+
+    public String getBkTicket() {
+        return bkTicket;
+    }
+
+    public String getAccessToken() {
+        return accessToken;
+    }
+
+    public String getBkUserName() {
+        return bkUserName;
+    }
+
+    public String getAuthorizationHeader() {
+        Map<String, String> authMap = new HashMap<>();
+        if (bkAppCode != null) {
+            authMap.put("bk_app_code", bkAppCode);
+        }
+        if (bkAppSecret != null) {
+            authMap.put("bk_app_secret", bkAppSecret);
+        }
+        if (bkToken != null) {
+            authMap.put("bk_token", bkToken);
+        }
+        if (bkTicket != null) {
+            authMap.put("bk_ticket", bkTicket);
+        }
+        if (accessToken != null) {
+            authMap.put("access_token", accessToken);
+        }
+        if (bkUserName != null) {
+            authMap.put("bk_username", bkUserName);
+        }
+
+        // 使用Jackson将Map转换为JSON字符串
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            return objectMapper.writeValueAsString(authMap);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+            return null; // 处理异常
+        }
+    }
+
+    public static class Builder {
+        private RequestParams params;
+
+        public Builder() {
+            this.params = new RequestParams();
+        }
+
+        public Builder setData(Map<String, Object> data) {
+            this.params.data = data;
+            return this;
+        }
+
+        public Builder setPathParams(Map<String, String> pathParams) {
+            this.params.pathParams = pathParams;
+            return this;
+        }
+
+        public Builder setQueryParams(Map<String, String> queryParams) {
+            this.params.queryParams = queryParams;
+            return this;
+        }
+
+        public Builder setHeaders(Map<String, String> headers) {
+            this.params.headers = headers;
+            return this;
+        }
+
+        public Builder setTimeout(int timeout) {
+            this.params.timeout = timeout;
+            return this;
+        }
+
+        public Builder setBkAppCode(String bkAppCode) {
+            this.params.bkAppCode = bkAppCode;
+            return this;
+        }
+
+        public Builder setBkAppSecret(String bkAppSecret) {
+            this.params.bkAppSecret = bkAppSecret;
+            return this;
+        }
+
+        public Builder setBkToken(String bkToken) {
+            this.params.bkToken = bkToken;
+            return this;
+        }
+
+        public Builder setBkTicket(String bkTicket) {
+            this.params.bkTicket = bkTicket;
+            return this;
+       }
+
+        public Builder setAccessToken(String accessToken) {
+            this.params.accessToken = accessToken;
+            return this;
+        }
+
+        public Builder setBkUserName(String bkUserName) {
+            this.params.bkUserName = bkUserName;
+            return this;
+        }
+
+
+
+        public RequestParams build() {
+            return this.params;
+        }
+    }
+}
