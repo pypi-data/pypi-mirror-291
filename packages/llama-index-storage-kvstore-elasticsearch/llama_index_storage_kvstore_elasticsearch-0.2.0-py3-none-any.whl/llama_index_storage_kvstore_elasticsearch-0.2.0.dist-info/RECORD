@@ -1,0 +1,5 @@
+llama_index/storage/kvstore/elasticsearch/__init__.py,sha256=nBTL0yZ26QHvaSYcfoVLJF6bqI0jO9uqfow2XshHofU,116
+llama_index/storage/kvstore/elasticsearch/base.py,sha256=OdOnKiAkFALJML0nZLgIoAm6NdMT3ZEN1nVEYdkmBUU,9712
+llama_index_storage_kvstore_elasticsearch-0.2.0.dist-info/METADATA,sha256=kG9YiCNlQSZISDLGb4CBME740M_tRsY6dctfr6PwIHk,729
+llama_index_storage_kvstore_elasticsearch-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_storage_kvstore_elasticsearch-0.2.0.dist-info/RECORD,,
