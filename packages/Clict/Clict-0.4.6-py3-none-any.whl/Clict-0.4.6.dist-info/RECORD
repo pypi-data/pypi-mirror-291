@@ -1,0 +1,15 @@
+Clict/Typedef.py,sha256=nFjveeMFp-wY3eN8DEMrqjvDMxb9Xl3o3PwLJGpQUcA,4828
+Clict/__init__.py,sha256=AlXJFp5mJ-rd244G7IM25bAm-ocHtRoeVvblS6g_f_4,87
+Clict/main.py,sha256=PrxIbDo4Cx6gMxBAVIzdVq6uacjZeCfv3hwI7ZVaWdA,102
+Clict/Clict_from/__init__.py,sha256=SjxLLk3EV8Vqd_7jgcfmxL3dvMbAyL4N4Hw3ulOJ3sk,58
+Clict/Clict_from/config.py,sha256=DXIPniMYOCQ0NBw8JCGjbtB4Ia11zBKGnBq-kWVCH7M,3766
+Clict/Clict_to/__init__.py,sha256=cJmengkrDgmAYwLsM9pBsbYS8d7IvdB6Zc7R-D2VAWQ,79
+Clict/Clict_to/config.py,sha256=t6Ycxs4ADVkFJcg2I7kRByr_4uIvrMWA9_6Bgjqn7a4,652
+Clict/lib/__init__.py,sha256=cJmengkrDgmAYwLsM9pBsbYS8d7IvdB6Zc7R-D2VAWQ,79
+Clict/lib/fnText.py,sha256=Ri91RbLm3LIigtbbvGvE0iWsdhjASzNLNa0bmIcCXxA,2383
+Clict/lib/fnterm.py,sha256=WNvBujiLSbyhHen9DBOuMhcoN2RjGvu02KFzRRyDb8Y,1559
+Clict-0.4.6.dist-info/LICENSE,sha256=GzcsLYmIWriH_WaqYGA7J4bL2msx81BCIkMr_vvT4O8,1066
+Clict-0.4.6.dist-info/METADATA,sha256=QSpZ9ar6nD8f2Pi3SA4ZScgBSbCDkuPwwscDvHdyD1k,1505
+Clict-0.4.6.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+Clict-0.4.6.dist-info/top_level.txt,sha256=PpvJIODPFOp1piLb_aiVS8kMgdaMeA3Rlbw2MR4RDgU,6
+Clict-0.4.6.dist-info/RECORD,,
