@@ -1,0 +1,10 @@
+README.md
+setup.py
+codeforces_api/__init__.py
+codeforces_api/downloader.py
+codeforcess.egg-info/PKG-INFO
+codeforcess.egg-info/SOURCES.txt
+codeforcess.egg-info/dependency_links.txt
+codeforcess.egg-info/entry_points.txt
+codeforcess.egg-info/requires.txt
+codeforcess.egg-info/top_level.txt
