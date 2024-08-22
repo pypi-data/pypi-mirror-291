@@ -1,0 +1,10 @@
+protestr/__about__.py,sha256=HLJc82fZ6h65qdEwfCWx0U1_51VFQHVHv3kddt9t2Yk,23
+protestr/__init__.py,sha256=cuzt835rwoYkK7-HsOhXheVc-weQkowBMNc-KWpAk2g,102
+protestr/_provider.py,sha256=jNCdIZuSiNGQDav6ujO_0zd4manYWUd-0idt4SnaD2s,1088
+protestr/_resolver.py,sha256=YbEU0ej-4qyvoal0bkrFiP8xvLq9H62B-6EkRX5lAx8,921
+protestr/_specs.py,sha256=hy_8TWVyzEuNQ1UJ1dPZk96zbWD2yHEOnZPhXt9XFms,1411
+protestr/specs.py,sha256=F8JG2Jl5h1ToD7jxxY2WvkeFLr1OQrAvr0dltHs9uEA,170
+protestr-2.0.0.dist-info/METADATA,sha256=GBorfyGn34jiMU7Cjsfw5fyZ4a6rrajAiE3-n6POYPM,12999
+protestr-2.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+protestr-2.0.0.dist-info/licenses/LICENSE,sha256=itfKiRVjTyr18sCHObc8CT55qNlW9S2S05RLpszXnG4,1088
+protestr-2.0.0.dist-info/RECORD,,
