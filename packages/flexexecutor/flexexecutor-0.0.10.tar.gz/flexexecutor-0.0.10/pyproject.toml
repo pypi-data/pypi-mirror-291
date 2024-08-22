@@ -1,0 +1,107 @@
+[project]
+name = "flexexecutor"
+description = "Executors for both async and sync functions and automatically scales the number of workers"
+authors = [
+    { name = "leavers" },
+    { name = "Leavers", email = "leavers930@gmail.com" },
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+dependencies = []
+dynamic = []
+version = "0.0.10"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/leavers/flexexecutor"
+documentation = "https://github.com/leavers/flexexecutor/blob/main/README.md"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = [
+    "flexexecutor.py",
+]
+excludes = [
+    "tests",
+]
+
+[tool.pdm.version]
+source = "file"
+path = "flexexecutor.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "autoflake>=2.3.1",
+    "coverage[toml]>=7.6.1",
+    "mypy>=1.11.1",
+    "nox>=2024.4.15",
+    "pytest>=8.3.2",
+    "pytest-asyncio>=0.23.8",
+    "pytest-cov>=5.0.0",
+    "pytest-mock>=3.14.0",
+    "pytest-timeout>=2.3.1",
+    "ruoml>=0.11.0",
+    "ruff>=0.6.1",
+]
+
+[tool.autoflake]
+in-place = true
+recursive = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-duplicate-keys = true
+remove-unused-variables = true
+
+[tool.coverage.run]
+branch = true
+source = [
+    "flexexecutor.py",
+]
+parallel = true
+
+[tool.coverage.html]
+directory = "coverage_html_report"
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+check_untyped_defs = true
+follow_imports = "error"
+ignore_missing_imports = true
+show_error_codes = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
