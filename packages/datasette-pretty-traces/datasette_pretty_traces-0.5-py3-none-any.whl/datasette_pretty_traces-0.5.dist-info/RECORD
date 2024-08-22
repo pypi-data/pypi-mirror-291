@@ -1,0 +1,8 @@
+datasette_pretty_traces/__init__.py,sha256=1_vvGlkEKeIgz2nIGt0CrX0uuoamGT77ZDwR9VAz90Y,322
+datasette_pretty_traces/static/datasette-pretty-traces.js,sha256=uZIRRXZt9FeHH-HvLi1NvGiaZUaiT1JGglWOgrJ2bKM,3609
+datasette_pretty_traces-0.5.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+datasette_pretty_traces-0.5.dist-info/METADATA,sha256=LZ9GxJvc0IuakQUb9Zjb-xIixn1nS3pOQju7nufdOAo,2682
+datasette_pretty_traces-0.5.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+datasette_pretty_traces-0.5.dist-info/entry_points.txt,sha256=3iwOWtq8PoAmQuwCY7uWvkEJJ3Ws6YkfCgWAsZzufBk,52
+datasette_pretty_traces-0.5.dist-info/top_level.txt,sha256=L0G_gLPTUfP0zl-MRXKrLgUnEvh1cN62Y94MgYWM3pU,24
+datasette_pretty_traces-0.5.dist-info/RECORD,,
