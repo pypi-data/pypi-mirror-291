@@ -1,0 +1,5 @@
+llama_index/postprocessor/openvino_rerank/__init__.py,sha256=Ip7O5yCnmPgofZjIAzbEIBYkl5NeT3MHaCLONa48MS4,104
+llama_index/postprocessor/openvino_rerank/base.py,sha256=VZWvtO2FigRwoewiAxZm4FBqGZRvMlKZuNiW3nJPklg,7360
+llama_index_postprocessor_openvino_rerank-0.3.0.dist-info/METADATA,sha256=n284rvpAr_AX9qOmfIb2RXg3d7pJt5Yed6s3KuumvqM,791
+llama_index_postprocessor_openvino_rerank-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_postprocessor_openvino_rerank-0.3.0.dist-info/RECORD,,
