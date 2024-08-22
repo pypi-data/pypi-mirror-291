@@ -1,0 +1,12 @@
+fasterui/__init__.py,sha256=8K4IcOA3-pfzadoM6s2Sfg5460KlJUocGgyTJTJl96U,52
+fasterui/__main__.py,sha256=wsBwrjRuijbmKRtqwobQdsqxxVDFYhhBDW_-8i7HJRQ,3183
+fasterui/__version__.py,sha256=z0zCHFTcKSR0tJ6h5qrpNmRVP21QIPP8N0p7quCnnm0,23
+fasterui/components.py,sha256=xfxOeEM8-NCjQ-mxWqP2cAV-CgCf2-YQxRIH4mRegoc,11439
+fasterui/examples/__init__.py,sha256=tgYDR-x9Sye_4Dq2p6UXQHTSeyZGj_k2q41HX7wh270,57
+fasterui/examples/button.py,sha256=3_SnjNn2njhALzvpmeieapVQrnaqzIYAOTB8EV0fmzg,218
+fasterui/examples/page.py,sha256=WeuSV-Yn1WjhL3n6ARR79M1UdnV7XmfGD5mDivBFkA4,1465
+fasterui-0.1.10.dist-info/METADATA,sha256=XGCcTjVJhe1HOicCLzy9RbjUlLV8PyJvoMOZCN-e-aU,486
+fasterui-0.1.10.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+fasterui-0.1.10.dist-info/entry_points.txt,sha256=uySHvTOZUQ1PLFGykVa068qZ8jsARPi13utxbvZ2C-o,52
+fasterui-0.1.10.dist-info/top_level.txt,sha256=puchse2b9YUahfJDhNiiO05QqM2HDspDrF5SRI1zBvg,9
+fasterui-0.1.10.dist-info/RECORD,,
