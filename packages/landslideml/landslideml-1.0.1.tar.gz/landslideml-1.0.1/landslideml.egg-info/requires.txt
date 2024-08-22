@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+geopandas
+seaborn
+joblib
+geopandas
+netcdf4
+xarray
+
+[dev]
+pytest
+black
