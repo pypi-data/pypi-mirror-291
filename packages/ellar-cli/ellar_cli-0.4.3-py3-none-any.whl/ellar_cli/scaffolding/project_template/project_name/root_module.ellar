@@ -1,0 +1,8 @@
+from ellar.common import Module
+from ellar.core import ModuleBase
+from ellar.samples.modules import HomeModule
+
+
+@Module(modules=[HomeModule])
+class ApplicationModule(ModuleBase):
+    pass
