@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+policyengine_api_light.egg-info/PKG-INFO
+policyengine_api_light.egg-info/SOURCES.txt
+policyengine_api_light.egg-info/dependency_links.txt
+policyengine_api_light.egg-info/requires.txt
+policyengine_api_light.egg-info/top_level.txt

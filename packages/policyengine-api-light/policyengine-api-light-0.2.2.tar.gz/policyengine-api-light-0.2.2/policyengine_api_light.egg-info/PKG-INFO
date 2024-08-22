@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: policyengine-api-light
+Version: 0.2.2
+Summary: PolicyEngine API Light
+Author: PolicyEngine
+Author-email: hello@policyengine.org
+License-File: LICENSE
+Requires-Dist: flask>=1
+Requires-Dist: flask-cors>=3
+Requires-Dist: google-cloud-logging
+Requires-Dist: gunicorn
+Requires-Dist: markupsafe==2.0.1
+Requires-Dist: policyengine_canada==0.87.0
+Requires-Dist: policyengine-ng==0.5.1
+Requires-Dist: policyengine-il==0.1.0
+Requires-Dist: policyengine_uk==0.62.0
+Requires-Dist: policyengine_us==0.571.2
+Requires-Dist: Flask-Caching==2.0.2
+Provides-Extra: dev
+Requires-Dist: pytest-timeout; extra == "dev"
