@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: download-from-stupid-emby
+Version: 0.0.0
+Summary: 稳定的EMBY服资源下载器
+Author: lengmianzz
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: tomlkit (>=0.12.5,<0.13.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Download-From-Stupid-Emby
+
+## 介绍
+本项目提供一个稳定的EMBY服资源下载器。
+
+## 特点
+ - 自动下载汉语字幕
+ - 可以单独过滤出剧集，单集，电影
+ - 在下载资源时如果报错，可以继续下载上次未下载完的资源
+
+## 下载
+```
+pip install --upgrade download-from-stupid-emby
+```
+
+## 快速使用
+请填写(src/pyproject.toml)配置（服地址，账户，密码），注意不要自己手动填user_id和api_key，运行项目，跟着项目的提示走。
+
+如果觉得下载速度慢，请在配置里添加代理地址（请注意流量消耗）。
+
