@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: psshiva-python-functions
+Version: 0.0.7
+Summary: PS.Shiva's Python Functions
+Author: Pratik Satpathy
+Author-email: satpathypratik@gmail.com
+Keywords: psshiva,ps.shiva,PS.Shiva,PSSHIVA,python,functions,algorithms
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas<3.0.0,>=2.2.2
+Requires-Dist: sqlalchemy<3.0.0,>=2.0.32
+Requires-Dist: openai<2.0.0,>=1.42.0
+Requires-Dist: typing; python_version < "3.5"
+
+Package containing all the latest algorithms and functions by PS.Shiva
