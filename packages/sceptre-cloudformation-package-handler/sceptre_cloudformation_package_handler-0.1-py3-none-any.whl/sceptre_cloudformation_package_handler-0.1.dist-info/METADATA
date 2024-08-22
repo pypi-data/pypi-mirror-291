@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sceptre-cloudformation-package-handler
+Version: 0.1
+Summary: A template handler for cloudformation package command.
+Home-page: https://github.com/trinopoty/sceptre-cloudformation-package-handler
+Author: Trinopoty Biswas
+Author-email: Trinopoty Biswas <trinopoty@outlook.com>
+Project-URL: Homepage, https://github.com/trinopoty/sceptre-cloudformation-package-handler
+Project-URL: Issues, https://github.com/trinopoty/sceptre-cloudformation-package-handler/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sceptre CloudFormation package handler
+
+Provides support for packaging template file with cloudformation package command.
+This handler internally uses the `file` handler to load template files.
+
+## Usage
+In your config file, specify the template as follows:
+
+```yaml
+template:
+  type: cloudformation_package
+  path: my-template.yaml
+  artifact_bucket_name: my-artifacts-bucket
+  artifact_bucket_prefix: my-artifacts-prefix
+```
+
+## Options
+
+The following options are supported:
+
+| Option | Description                    |
+|--------|--------------------------------|
+| path | Path to the template file.     |
+| artifact_bucket_name | Bucket to upload artifacts to. |
+| artifact_bucket_prefix | *Optional* Prefix to upload artifacts to. |
