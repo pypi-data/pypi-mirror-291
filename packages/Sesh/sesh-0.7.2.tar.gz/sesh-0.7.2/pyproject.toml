@@ -1,0 +1,129 @@
+
+[project]
+name = "Sesh"
+description = "Sesh is a session management library for FastAPI"
+dynamic = ["version"]
+authors = [
+    {name = "Brian Farrell", email = "brian.farrell@me.com"},
+]
+license = {text = "AGPLv3"}
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: FastAPI",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed"
+]
+keywords = ["authentication", "cache", "caching", "cookie", "redis", "session"]
+
+dependencies = [
+    ##### app #####
+    # Advanced Enumerations (compatible with Python’s stdlib Enum), NamedTuples, and NamedConstants
+    "aenum>=3.1.15",
+    # A modern, fast, web framework for building APIs with Python based on standard Python type hints.
+    "fastapi>=0.111.1",
+    # Cryptographically sign data before sending to untrusted enviroments.
+    "itsdangerous>=2.2.0",
+    # Python logging made (supidly) simple
+    "loguru>=0.7.2",
+    # Data validation
+    "pydantic[email]>=2.8.2",
+    # Pydantic features for loading a settings or config class from environment variables or secrets files
+    "pydantic-settings>=2.3.4",
+    # Redis key/value store.
+    "redis[hiredis]>=5.0.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    # A simple, correct Python build frontend.
+    "build[virtualenv]",
+    # A fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects.
+    "setuptools",
+    # The blessed package to manage your versions by scm tags
+    "setuptools-scm[toml]",
+    # A utility for publishing Python packages on PyPI.
+    "twine>=5.1.1"
+]
+
+doc = [
+    # Unleash the power of Mkdocs static website generator, with the use of variables and macros.
+    "mkdocs-macros-plugin",
+    # A powerful documentation framework on top of MkDocs
+    "mkdocs-material[recommended,imaging]",
+    # Automatic documentation from sources for MkDocs
+    "mkdocstrings[python]",
+    # Manage multiple versions of your MkDocs-powered documentation
+    "mike"
+]
+
+example = [
+    # HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, HTTP/1.1 and HTTP/2.
+    # Pinning HTTPX because of weird cookie deprecation warning.
+    "httpx==0.27.0",
+    # An ASGI web server implementation for Python.
+    "uvicorn[standard]>=0.30.1"
+]
+
+
+test = [
+    # A much friendlier pytest asyncio plugin - run everything in the same event loop.
+    "alt-pytest-asyncio>=0.8.1",
+    # Programmatically send startup/shutdown lifespan events into ASGI applications.  Useful for testing.
+    "asgi-lifespan>=2.1.0",
+    # Tool for measuring code coverage of Python programs
+    "coverage[toml]>=7.6.0",
+    # Useful comparisons for unit testing
+    "dirty-equals>=0.7.1.post0",
+    # HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, HTTP/1.1 and HTTP/2.
+    # Pinning HTTPX because of weird cookie deprecation warning.
+    "httpx==0.27.0",
+    # Static type checker for Python
+    "mypy>=1.11.0",
+    # Simple powerful testing with Python
+    "pytest>=8.2.2",
+    # Enhanced support when using pytest with coverage
+    "pytest-cov>=5.0.0",
+    # pytest plugin that enables you to set environment variables in a pytest.ini or pyproject.toml file.
+    "pytest-env>=1.1.3",
+    # An ASGI web server implementation for Python.
+    "uvicorn[standard]>=0.30.1"
+]
+
+[project.urls]
+repository = "https://gitlab.com/brianfarrell/sesh/"
+documentation = "https://brianfarrell.gitlab.io/sesh/"
+
+[build-system]
+requires = ["build[virtualenv]", "setuptools", "setuptools-scm[toml]>=8.1.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sesh*"]
+
+[tool.setuptools_scm]
+# include arbitrary keyword arguments in that section to be supplied to get_version().
+version_scheme = "python-simplified-semver"
+write_to = "sesh/_version.py"
+
+[tool.coverage.run]
+source = [ "sesh" ]
+omit = [ "sesh/_version.py", "sesh/app/db/migrations/*", "sesh/app/db/tasks.py", "sesh/tests/*" ]
+
+[tool.coverage.html]
+directory = "reports/coverage/html"
+
+[tool.coverage.xml]
+output = "reports/coverage/coverage.xml"
+
+[tool.pytest.ini_options]
+testpaths = [ "tests" ]
+filterwarnings = [
+    "ignore::DeprecationWarning"
+]
+
+[tool.pytest_env]
+SESH_DEPLOYMENT_STAGE="TEST"

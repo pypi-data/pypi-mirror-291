@@ -1,0 +1,27 @@
+include LICENSE
+include CHANGES.md
+include README.md
+
+exclude .coverage
+exclude .env
+exclude .gitignore
+exclude *.gitlab-ci.yml
+exclude docker-compose*
+exclude epl*
+exclude load_env.py
+exclude mkdocs.yml
+exclude notes.text
+exclude run*
+exclude tasks*
+exclude sesh/*.dockerfile
+exclude sesh/.dockerignore
+
+prune .cache
+prune .idea
+prune docs
+prune reference
+prune sesh/example
+prune site
+prune tests
+
+global-exclude public/*
