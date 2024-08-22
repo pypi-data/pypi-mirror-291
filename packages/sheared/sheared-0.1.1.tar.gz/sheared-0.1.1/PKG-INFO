@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sheared
+Version: 0.1.1
+Summary: A brief description of your library
+Home-page: https://github.com/mjid13/sheared
+Author: Abdulmajeed Alhadhrami
+Author-email: Abdulmajeed@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11

@@ -1,0 +1,17 @@
+setup.py
+config/__init__.py
+config/api_provider.py
+config/settings.py
+core/__init__.py
+core/container.py
+core/urls_traker.py
+core/utils.py
+loaders/__init__.py
+loaders/base.py
+loaders/csv_data_sink.py
+loaders/json_data_sink.py
+loaders/yaml_data_sink.py
+sheared.egg-info/PKG-INFO
+sheared.egg-info/SOURCES.txt
+sheared.egg-info/dependency_links.txt
+sheared.egg-info/top_level.txt
