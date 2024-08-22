@@ -1,0 +1,12 @@
+sl_ai_models/__init__.py,sha256=GppTU19uXrvEZsiBKGceXOcJ6ITH1uaqlXnPOE2hRYA,368
+sl_ai_models/claude35sonnet.py,sha256=vPqd6F8ZylFSQ1JCgEDxKw6bL7UOwTGE9jT_Dbp-f3A,741
+sl_ai_models/deepgram_nova2.py,sha256=9MWVyKVTuUAwJ44aWLT9ssd7JCBFvHAZ1itu0X4X4O8,556
+sl_ai_models/exa_searcher.py,sha256=qKvKEKkIWMPN3woUerJ7CpuSIJ61ySl9clxQM9NqNek,15511
+sl_ai_models/gpt4o.py,sha256=iSonTOghvpAzJjI7fa-9Rv-N39i2Vm4wn17Mwebo2yo,719
+sl_ai_models/gpt4omini.py,sha256=-uF7l84Ff6t2nEqiZRCnDQdjc_g9O-kYYQtThnxwO4w,728
+sl_ai_models/gpt4ovision.py,sha256=5zWRMq2-uxcay1ByOAaN35sVZ58t7Kdc0A5NmqhC0mU,1121
+sl_ai_models/perplexity.py,sha256=UwukRgt0ZiRPJysxB_cFbFZbGyAaCiQQcmGGE46N-l8,807
+sl_ai_models-0.0.2.dist-info/METADATA,sha256=MZbAzPdaI5FwQ--5XH_AqrPU-16NfOhOAjdLZE9QArw,1658
+sl_ai_models-0.0.2.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+sl_ai_models-0.0.2.dist-info/top_level.txt,sha256=8Szy7yYFSpqaRyX3G2zM7rjtjhgWYHT-Xq3_rv5Dc7I,13
+sl_ai_models-0.0.2.dist-info/RECORD,,
