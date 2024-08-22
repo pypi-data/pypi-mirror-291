@@ -1,0 +1,7 @@
+README.md
+setup.py
+annnie_install.egg-info/PKG-INFO
+annnie_install.egg-info/SOURCES.txt
+annnie_install.egg-info/dependency_links.txt
+annnie_install.egg-info/requires.txt
+annnie_install.egg-info/top_level.txt
