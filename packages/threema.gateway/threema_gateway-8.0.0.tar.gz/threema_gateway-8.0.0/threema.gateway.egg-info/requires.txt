@@ -1,0 +1,17 @@
+logbook<2,>=1.1.0
+libnacl<3,>=1.5.2
+click<9,>=8
+aiohttp<4,>=3.7.3
+wrapt<2,>=1.10.10
+
+[dev]
+pytest<9,>=8.3.2
+pytest-asyncio<0.23,>=0.21.2
+flake8==7.1.1
+isort==5.13.2
+collective.checkdocs<0.3,>=0.2
+Pygments>=2.18.0
+mypy==1.11.1
+
+[uvloop]
+uvloop<2,>=0.8.0
