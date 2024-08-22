@@ -1,0 +1,9 @@
+paddlepaddle-gpu
+paddleocr
+pdf2image
+rich
+python-multipart
+fastapi
+uvicorn
+pydantic
+opencv-python
