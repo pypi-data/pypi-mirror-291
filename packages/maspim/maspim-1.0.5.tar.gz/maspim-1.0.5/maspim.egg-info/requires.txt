@@ -1,0 +1,17 @@
+matplotlib
+numpy
+pandas
+rpy2
+scipy
+tqdm
+opencv-python
+scikit-learn
+scikit-image
+psutil
+h5py
+pillow
+textdistance
+astropy
+
+[dev]
+twine
