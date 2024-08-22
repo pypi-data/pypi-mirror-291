@@ -1,0 +1,62 @@
+[[package]]
+name = "asgiref"
+version = "3.6.0"
+requires_python = ">=3.7"
+summary = "ASGI specs, helper code, and adapters"
+dependencies = [
+    "typing-extensions; python_version < \"3.8\"",
+]
+
+[[package]]
+name = "django"
+version = "3.2.16"
+requires_python = ">=3.6"
+summary = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+dependencies = [
+    "asgiref<4,>=3.3.2",
+    "pytz",
+    "sqlparse>=0.2.2",
+]
+
+[[package]]
+name = "pytz"
+version = "2022.7"
+summary = "World timezone definitions, modern and historical"
+
+[[package]]
+name = "sqlparse"
+version = "0.4.3"
+requires_python = ">=3.5"
+summary = "A non-validating SQL parser."
+
+[[package]]
+name = "typing-extensions"
+version = "4.4.0"
+requires_python = ">=3.7"
+summary = "Backported and Experimental Type Hints for Python 3.7+"
+
+[metadata]
+lock_version = "4.1"
+content_hash = "sha256:bbce717d4a357779e5f9506ec8a450c7a56eac4df8bc573c6ac79348fb0243dc"
+
+[metadata.files]
+"asgiref 3.6.0" = [
+    {url = "https://files.pythonhosted.org/packages/78/2d/797c0537426266d6c9377a2ed6a4ac61e50c2d5b1ab4da101a4b9bfe26e2/asgiref-3.6.0.tar.gz", hash = "sha256:9567dfe7bd8d3c8c892227827c41cce860b368104c3431da67a0c5a65a949506"},
+    {url = "https://files.pythonhosted.org/packages/8f/29/38d10a47b322a77b2d12c2b79c789f52956f733cb701d4d5157c76b5f238/asgiref-3.6.0-py3-none-any.whl", hash = "sha256:71e68008da809b957b7ee4b43dbccff33d1b23519fb8344e33f049897077afac"},
+]
+"django 3.2.16" = [
+    {url = "https://files.pythonhosted.org/packages/8a/c4/f946a6b02fcbba84e56074f2fc36866433b009bea2528b09fe0bac4fe1aa/Django-3.2.16-py3-none-any.whl", hash = "sha256:18ba8efa36b69cfcd4b670d0fa187c6fe7506596f0ababe580e16909bcdec121"},
+    {url = "https://files.pythonhosted.org/packages/f1/d7/8ddb9d8fbbffd33329cf6dfc33e8367a8969c05cf91bc63138ca116301ba/Django-3.2.16.tar.gz", hash = "sha256:3adc285124244724a394fa9b9839cc8cd116faf7d159554c43ecdaa8cdf0b94d"},
+]
+"pytz 2022.7" = [
+    {url = "https://files.pythonhosted.org/packages/3d/19/4de17f0d5cf5a0d87aa67532d4c2fa75e6e7d8df13c27635ff40fa6f4b76/pytz-2022.7-py2.py3-none-any.whl", hash = "sha256:93007def75ae22f7cd991c84e02d434876818661f8df9ad5df9e950ff4e52cfd"},
+    {url = "https://files.pythonhosted.org/packages/6d/37/54f2d7c147e42dc85ffbc6910862bb4f141fb3fc14d9a88efaa1a76c7df2/pytz-2022.7.tar.gz", hash = "sha256:7ccfae7b4b2c067464a6733c6261673fdb8fd1be905460396b97a073e9fa683a"},
+]
+"sqlparse 0.4.3" = [
+    {url = "https://files.pythonhosted.org/packages/97/d3/31dd2c3e48fc2060819f4acb0686248250a0f2326356306b38a42e059144/sqlparse-0.4.3-py3-none-any.whl", hash = "sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34"},
+    {url = "https://files.pythonhosted.org/packages/ba/fa/5b7662b04b69f3a34b8867877e4dbf2a37b7f2a5c0bbb5a9eed64efd1ad1/sqlparse-0.4.3.tar.gz", hash = "sha256:69ca804846bb114d2ec380e4360a8a340db83f0ccf3afceeb1404df028f57268"},
+]
+"typing-extensions 4.4.0" = [
+    {url = "https://files.pythonhosted.org/packages/0b/8e/f1a0a5a76cfef77e1eb6004cb49e5f8d72634da638420b9ea492ce8305e8/typing_extensions-4.4.0-py3-none-any.whl", hash = "sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e"},
+    {url = "https://files.pythonhosted.org/packages/e3/a7/8f4e456ef0adac43f452efc2d0e4b242ab831297f1bac60ac815d37eb9cf/typing_extensions-4.4.0.tar.gz", hash = "sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa"},
+]

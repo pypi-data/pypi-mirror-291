@@ -1,0 +1,32 @@
+{
+	"name": "Django Migrate Middleware",
+	"build": {
+		// Sets the run context to one level up instead of the .devcontainer folder.
+		"context": "..",
+		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		"--env-file=.env"
+	],
+	"features": {
+		"ghcr.io/dhoeric/features/hadolint:1": {},
+		"ghcr.io/guiyomh/features/vim:0": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/lukewiwa/features/shellcheck:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bungcip.better-toml",
+				"ms-python.black-formatter",
+				"streetsidesoftware.code-spell-checker",
+				"ms-python.flake8",
+				"eamodio.gitlens",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"ms-python.python",
+				"ms-python.vscode-pylance"
+			]
+		}
+	}
+}
