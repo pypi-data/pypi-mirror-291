@@ -1,0 +1,7 @@
+spark_insights/__init__.py,sha256=5OD2FRhfIiIui90lRJzbvQZra0MSHGHFyMpn3IoyKRs,278
+spark_insights/report_generator.py,sha256=qTDcXL-Pvs8_j_3ESp6I7ylh4HmObTBGQBOFhr9KF4Q,5830
+spark_insights/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark_insights-0.1.dist-info/METADATA,sha256=qoqJePLyOKaQdq9GohIljAyh0-ghCCNOdPyhpUfuEoQ,274
+spark_insights-0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+spark_insights-0.1.dist-info/top_level.txt,sha256=P5fyuwhEsJLNNAiU9rCUiP4rZIL2y7S6h1hmGPpZsj0,15
+spark_insights-0.1.dist-info/RECORD,,

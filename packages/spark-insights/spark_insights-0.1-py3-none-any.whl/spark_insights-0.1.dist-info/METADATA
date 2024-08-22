@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spark_insights
+Version: 0.1
+Summary: A package to generate HTML reports for Spark DataFrames with detailed data health checks.
+Author: Adhi
+Author-email: adhiyaman1705@gmail.com
+Requires-Dist: pandas
+Requires-Dist: jinja2
+Requires-Dist: pyspark
+
