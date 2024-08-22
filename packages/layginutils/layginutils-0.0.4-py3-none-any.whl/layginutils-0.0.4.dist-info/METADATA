@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: layginutils
+Version: 0.0.4
+Summary: frequently used methods
+Home-page: https://mp.weixin.qq.com/s/VSJDvalAlS5LgZgOwPwFow
+Author: gaolijun, laygin
+Author-email: gaolijun8080@163.com
+License: please refer to: https://mp.weixin.qq.com/s/z75Ct1a9U7foZ24fJ0dr6Q and https://mp.weixin.qq.com/s/VSJDvalAlS5LgZgOwPwFow
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pyclipper
+Requires-Dist: pycocotools
+Requires-Dist: shapely
+Requires-Dist: nicelogger
+Requires-Dist: imutils
+Requires-Dist: yacs
+
