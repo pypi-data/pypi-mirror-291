@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cmdpedia_generator/__init__.py
+cmdpedia_generator/__main__.py
+cmdpedia_generator/core.py
+cmdpedia_generator.egg-info/PKG-INFO
+cmdpedia_generator.egg-info/SOURCES.txt
+cmdpedia_generator.egg-info/dependency_links.txt
+cmdpedia_generator.egg-info/entry_points.txt
+cmdpedia_generator.egg-info/requires.txt
+cmdpedia_generator.egg-info/top_level.txt
+cmdpedia_generator/programs/__init__.py
+cmdpedia_generator/programs/click.py
+cmdpedia_generator/templates/index.html

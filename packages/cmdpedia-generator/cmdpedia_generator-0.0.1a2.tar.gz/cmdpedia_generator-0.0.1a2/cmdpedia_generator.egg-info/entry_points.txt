@@ -1,0 +1,2 @@
+[console_scripts]
+cmdpedia_generator = cmdpedia_generator.__main__:main
