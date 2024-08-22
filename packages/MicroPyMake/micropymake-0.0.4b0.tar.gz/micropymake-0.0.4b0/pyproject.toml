@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MicroPyMake"
+version = "0.0.4.beta"
+description = "The PyPI package of mpymake command"
+authors = [
+    { name = "CycleBai", email = "iscyclebai@outlook.com" }
+]
+# license = "MIT"
+# repository = "https://github.com/yourusername/HandPyMake"
+dependencies = [
+    "keyboard",
+    "mpremote",
+    "toml",
+    "requests",
+    "esptool"
+]
+
+[project.scripts]
+mpymake = "micromake.main:main"

@@ -1,0 +1,11 @@
+pyproject.toml
+MicroPyMake.egg-info/PKG-INFO
+MicroPyMake.egg-info/SOURCES.txt
+MicroPyMake.egg-info/dependency_links.txt
+MicroPyMake.egg-info/entry_points.txt
+MicroPyMake.egg-info/requires.txt
+MicroPyMake.egg-info/top_level.txt
+micropymake/__init__.py
+micropymake/main.py
+micropymake/process.py
+micropymake/test.py
