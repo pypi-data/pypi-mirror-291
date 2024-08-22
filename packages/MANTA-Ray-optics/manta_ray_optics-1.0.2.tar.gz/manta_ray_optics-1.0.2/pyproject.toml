@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "MANTA_Ray_optics"
+version = "1.0.2"
+authors = [
+  { name="Matt Lodge", email="matthew.g.lodge@gmail.com" },
+]
+description = "MANTA-Ray (Modified Absorption of Non-spherical Tiny Aggregates in the Rayleigh regime) is a model that calculates the absorption efficiency and absorption cross-section of fractal aggregates."
+readme = "README.md"
+requires-python = ">=3.0.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mglodge/MANTA-Ray/"
