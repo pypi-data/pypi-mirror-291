@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "ec2-dev-machine"
+version = "0.1.0"
+description = ""
+authors = ["Will Parr"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Will282/ec2-dev-machine"
+repository = "https://github.com/Will282/ec2-dev-machine"
+packages = [{include = "ec2_dev_machine"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aws-cdk-lib = "^2.152.0"
+constructs = "^10.0.0"
+pyyaml = "^6.0.0"
+pydantic = "^2.8.2"
+Jinja2 = "^3.1.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pre-commit = "^3.8.0"
+ipython = "^8.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
+ignore = ["E266", "W503", "E203"]
+exclude = [".git", "__pycache__", "build", "dist", ".venv"]
+
+[tool.isort]
+profile = "black"
+skip = [".yml"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+pythonpath = "."
