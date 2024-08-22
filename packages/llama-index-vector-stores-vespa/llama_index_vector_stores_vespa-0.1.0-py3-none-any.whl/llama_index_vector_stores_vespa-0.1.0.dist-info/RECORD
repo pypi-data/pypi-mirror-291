@@ -1,0 +1,7 @@
+llama_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/vector_stores/vespa/__init__.py,sha256=-ho_ZEcestwn841oMfQy4Ykwuu1hARBMGTJ6D-5LlDs,196
+llama_index/vector_stores/vespa/base.py,sha256=zGX9VKd1C-ogZdBbYJAIu8YNZVuI5BF1ByHlmnq_DAQ,20426
+llama_index/vector_stores/vespa/templates.py,sha256=V6fnXKENs4Jle6XfJ77_lxx6qNFcPLEDK1UnCXZLY74,3293
+llama_index_vector_stores_vespa-0.1.0.dist-info/METADATA,sha256=_5_OIwJy6Nu3C5irTZh3TfF45vdrvF7KGWTcgkFtlDQ,6559
+llama_index_vector_stores_vespa-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_vespa-0.1.0.dist-info/RECORD,,
