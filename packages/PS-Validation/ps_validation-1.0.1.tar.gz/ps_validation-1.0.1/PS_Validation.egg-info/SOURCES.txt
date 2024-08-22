@@ -1,0 +1,13 @@
+setup.py
+PS_Validation/ConnectOracledb.py
+PS_Validation/FinalDecision.py
+PS_Validation/ParsePDF.py
+PS_Validation/TablesData.py
+PS_Validation/TablesQuery.py
+PS_Validation/Validation.py
+PS_Validation/__init__.py
+PS_Validation/read_file.py
+PS_Validation.egg-info/PKG-INFO
+PS_Validation.egg-info/SOURCES.txt
+PS_Validation.egg-info/dependency_links.txt
+PS_Validation.egg-info/top_level.txt
