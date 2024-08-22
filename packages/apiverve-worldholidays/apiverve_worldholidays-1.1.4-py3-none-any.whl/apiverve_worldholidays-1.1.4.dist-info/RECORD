@@ -1,0 +1,11 @@
+apiverve_worldholidays/__init__.py,sha256=vhrLS8OM0_t1hZhjRZ94EBn__7MtNVGTlJHPkU4obT4,45
+apiverve_worldholidays/apiClient.py,sha256=grhetvAB4MO6m5zd7i3F8hsYgPQCFZbzjRKEdJjlm08,1229
+apiverve_worldholidays/exceptions.py,sha256=Pq_7yF2TAIarLJf8K7vLghcR8ngVxvTNaSTTzjN7ex4,109
+apiverve_worldholidays/setup.py,sha256=9KOkvMk75b0sfSvNfwd9--kdruzmFbkuLGaLgyJY1bM,657
+apiverve_worldholidays/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_worldholidays/tests/test_api.py,sha256=Eg9pap1-usXn3Vdxi1P4DqMj_aUms_Y68uGjwHxHZCk,623
+apiverve_worldholidays-1.1.4.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_worldholidays-1.1.4.dist-info/METADATA,sha256=X3JbAHueI2vcfIZs-ZHnQLCL8J0CutLvIxuY9lvXpc0,10243
+apiverve_worldholidays-1.1.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+apiverve_worldholidays-1.1.4.dist-info/top_level.txt,sha256=R4SpUJSGCHDuIUlieiiBqL-5-kpzo-fkn5wiYM1PYYQ,23
+apiverve_worldholidays-1.1.4.dist-info/RECORD,,
