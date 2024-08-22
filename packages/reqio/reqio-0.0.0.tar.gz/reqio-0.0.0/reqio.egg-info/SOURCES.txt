@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+reqio.egg-info/PKG-INFO
+reqio.egg-info/SOURCES.txt
+reqio.egg-info/dependency_links.txt
+reqio.egg-info/top_level.txt
