@@ -1,0 +1,35 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "prettyid"
+version = "0.2.0"
+description = "Pretty cool IDs for your APIs"
+authors = ["Alexander Pushkov <alexander@notpushk.in>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://codeberg.org/prettyid/python.git"
+keywords = []
+packages = [{include = "pretty_id"}]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://codeberg.org/prettyid/python/issues"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uuid-utils = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+wemake-python-styleguide = "^0.19.2"
+add-trailing-comma = "^3.1.0"
+mypy = "^1.11.1"
+isort = "^5.13.2"
+rope = "^1.13.0"
+sqlalchemy-stubs = "^0.4"
+autopep8 = "^2.3.1"
+pydantic = "^2.8.2"
