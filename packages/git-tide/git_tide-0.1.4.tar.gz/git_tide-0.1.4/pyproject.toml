@@ -1,0 +1,47 @@
+[project]
+name = "git-tide"
+
+[tool.poetry]
+name = "git-tide"
+packages = [
+    { include = "tide", from = "src" },
+]
+version = "0.1.4"
+description = "CLI for automated gitflow-style branching"
+authors = ["Chad Dombrova", "Matt Collie"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+commitizen = "3.16.0"
+tomli = { version = "^2.0.1", python = "<3.11" }
+click = "8.1.7"
+python-gitlab = { version = "4.8.0", optional = true }
+
+[tool.poetry.extras]
+init = ["python-gitlab"]
+
+[tool.poetry.scripts]
+tide = "tide.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+exclude = '''^(venv|\.ruff_cache|\.nox|\.pytest_cache|\.mypy_cache)/'''
+files = ["noxfile.py", "src"]
+ignore_missing_imports = true
+show_error_codes = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+markers = [
+    "smoke: mark a test as a smoke test",
+    "unit: mark a test as a unit test"
+]
+
+[tool.tide]
+tag_format = "$version"
+branches.beta = "develop"
+branches.rc = "staging"
+branches.stable = "master"
