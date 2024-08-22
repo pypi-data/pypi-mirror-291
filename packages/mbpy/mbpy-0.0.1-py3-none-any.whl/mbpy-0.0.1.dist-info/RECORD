@@ -1,0 +1,10 @@
+mbpy/__about__.py,sha256=s_cm3Vb0ulMn1fnHhAC-eMhBNzV2IJEt7_nXQJzp1ZM,140
+mbpy/__init__.py,sha256=ZujPZE5wObrWcSW_-pLWwVcYB0tvRxdsLMyDyk8b3A0,118
+mbpy/cli.py,sha256=fbWO6qoazdJZycl_joUXkRSk9DGx4ly-82zRIYCEhAU,10315
+mbpy/create.py,sha256=jsXWfuMSx5jDwNjVCEVDnuACiszfShPrmyUzIBbyDkE,9482
+mbpy/mpip.py,sha256=7IUDXY1_48sizxSQta6qAcjqKCO-vpo3dMBx1oyjqKc,20827
+mbpy-0.0.1.dist-info/METADATA,sha256=TMsVPnjiWWnxC4slKULp1MMF39wwtLxNd-zjIalfcrQ,2420
+mbpy-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mbpy-0.0.1.dist-info/entry_points.txt,sha256=9zXpfcEYC-x3N8Rb3paitvEBViOaEp--r3mKULO0HA4,38
+mbpy-0.0.1.dist-info/licenses/LICENSE,sha256=ufv7fH68SJM3IBc79lq9_jbu9jq8YtkuzYWO9P3AuU8,1062
+mbpy-0.0.1.dist-info/RECORD,,
