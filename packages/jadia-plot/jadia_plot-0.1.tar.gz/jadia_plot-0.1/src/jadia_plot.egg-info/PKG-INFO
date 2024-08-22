@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: jadia-plot
+Version: 0.1
+Summary: Plot functions for Jadia package
+Author-email: Sergey Skrebnev <sergey.skrebnev@gmail.com>
+Project-URL: Homepage, https://github.com/skrbnv/jadia-plot
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=2.1.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: jadia>=0.1
+
+### Plot add-on for Jadia diarization package
+
+# Install:
+You need [jadia](https://github.com/skrbnv/jadia) installed before using this package
+`pip install jadia-plot`
+
+### Usage
+```python
+# plot segments
+plot.plot_segments(
+    pred=segments,
+    ground_truth=reference,
+    filename=SEGMENTS_IMAGE_FILENAME,
+)
+# or predictions (+segments)
+plot.plot_predictions(
+    predictions=predictions,
+    segments=segments,
+    filename=PREDICTIONS_IMAGE_FILENAME,
+    ground_truth=reference,
+)
+```
+Look into `eval.ipynb` [here](https://github.com/skrbnv/jadia) notebook for plotting, metrics etc. 
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/jadia_plot/__init__.py
+src/jadia_plot/plot.py
+src/jadia_plot.egg-info/PKG-INFO
+src/jadia_plot.egg-info/SOURCES.txt
+src/jadia_plot.egg-info/dependency_links.txt
+src/jadia_plot.egg-info/requires.txt
+src/jadia_plot.egg-info/top_level.txt
