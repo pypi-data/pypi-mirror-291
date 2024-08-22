@@ -1,0 +1,5 @@
+llama_index/tools/vector_db/__init__.py,sha256=lLJcnS6ZcilBBSzODHPbKRzVZYkv95y3vuY38Jl1bGk,136
+llama_index/tools/vector_db/base.py,sha256=jcpk_L3Va4OuEspriFC-xKoPK_nmZzohwZrfejoIlSA,1725
+llama_index_tools_vector_db-0.2.0.dist-info/METADATA,sha256=OQLFQ6561DwI342oiA1MjJu8WPCCQiHOzRrOblImZJU,2386
+llama_index_tools_vector_db-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_tools_vector_db-0.2.0.dist-info/RECORD,,
