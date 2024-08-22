@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
+skip = [
+    '.eggs', '.git', '.hg', '.mypy_cache', '.nox', '.pants.d', '.tox',
+    '.venv', '_build', 'buck-out', 'build', 'dist', 'node_modules', 'venv',
+]
+skip_gitignore = true
+
+[project]
+name = "simpler_model"
+dynamic = ["version"]
+description = "This is a Schema extraction API based on the OpenAPI 3.1 specification.  You can find out more about Swagger at [https://swagger.io](https://swagger.io). "
+readme = "README.md"
+keywords = ["entity-relationship-model", "ER", "extraction", "model", "simpler", "openapi"]
+# license = {file = "LICENSE.md"}
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7"
+]
+authors = [
+  {name = "Philipp Schmurr", email = "philipp.schmurr@kit.edu" }
+]
+maintainers = [
+  {name = "Philipp Schmurr", email = "philipp.schmurr@kit.edu" }
+]
+
+dependencies = [
+  "typing-extensions~=4.8.0",
+  "pydantic~=2.6.4"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Cpprentice/FAIRlead-model-extraction"
+"Bug Reports" = "https://github.com/Cpprentice/FAIRlead-model-extraction/issues"
+"Source" = "https://github.com/Cpprentice/FAIRlead-model-extraction"
+
+#[tool.setuptools.dynamic]
+#version = {attr = "simpler_model.SPECIFICATION_VERSION"}
+
+[tool.setuptools_scm]
+root = ".."
+git_describe_command = "git describe --long --match model-*"
