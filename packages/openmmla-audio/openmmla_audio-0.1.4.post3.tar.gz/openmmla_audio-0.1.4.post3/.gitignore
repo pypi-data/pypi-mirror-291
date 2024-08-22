@@ -1,0 +1,26 @@
+# Ignore directories
+audio/
+audio_db/
+venv/
+.idea/
+tests/
+dataset/
+logs/
+logger/
+visualizations/
+*.egg-info/
+dist/
+build/
+server/
+
+# Ignore __pycache__ in subdirectories
+**/__pycache__/
+**/temp/
+
+# Ignore specific files
+.DS_Store
+test*.*
+*test.*
+
+# Unignore specific files
+!.gitkeep
