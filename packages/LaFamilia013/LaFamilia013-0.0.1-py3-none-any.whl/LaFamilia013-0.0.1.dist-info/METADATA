@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: LaFamilia013
+Version: 0.0.1
+Summary: Apenas teste
+Author: Matheus Nascimento
+Author-email: matheus.mn87@gmail.com
+License: MIT License
+Keywords: LaFamilia013
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# apenas testando.
