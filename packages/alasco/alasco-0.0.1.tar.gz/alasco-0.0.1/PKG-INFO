@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: alasco
+Version: 0.0.1
+Summary: A SDK to facilitate the interaction with the Alasco API.
+Project-URL: Homepage, https://github.com/sylvainHellin/Alasco
+Project-URL: Issues, https://github.com/sylvainHellin/Alasco/issues
+Author-email: Sylvain Hellin <hellinsylvain@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: pandas
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Alasco
+
+## Introduction  
+
+This package is SDK for `python` to facilitate interaction with the Alasco API.
+
+The official documentation from [Alasco](https://www.alasco.com/) can be found [here](https://developer.alasco.de/).
+
+## How to install it
+
+```bash
+pip install alasco
+```
+
+## Dependancies 
+
+It uses `pandas` and `requests` under the hood to facilitate the data manipulation.
