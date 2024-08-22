@@ -1,0 +1,12 @@
+libz.dylib,sha256=EMzYzgRur4M4TJqJnphOpYdt2r6WJtrgbIbrKDDcW14,138424
+openfdcm.pypy310-pp73-darwin.so,sha256=hwaNCcJP5Yr8eLkH-NHToC11CfvVEhHt_CLzokXn3C4,385216
+libz.1.3.1.dylib,sha256=EMzYzgRur4M4TJqJnphOpYdt2r6WJtrgbIbrKDDcW14,138424
+libopenfdcm_matching.dylib,sha256=sIbqH5uzs9aoNbZhc5so0N1CX9RGXFBMJPtRwiN-n_Q,239824
+libz.1.dylib,sha256=EMzYzgRur4M4TJqJnphOpYdt2r6WJtrgbIbrKDDcW14,138424
+openfdcm.dylibs/libz.1.3.1.dylib,sha256=ZIkbj2S_DeYcdIl2K-U4W7Mk5ra0O1lSxeb676Nvse4,157744
+openfdcm.dylibs/libopenfdcm_matching.dylib,sha256=fqUVlZ_u4M8oiIvlIKMi0tnZlK1_4R8sm0IKfbmcj9o,239824
+openfdcm-0.8.3.dist-info/RECORD,,
+openfdcm-0.8.3.dist-info/LICENSE,sha256=ZPgDQwFknZbwRR3W_b_DZDU1yg4K1S7wBI6Yg5o0Sdk,1066
+openfdcm-0.8.3.dist-info/WHEEL,sha256=v_q-iFPllw0fCa5fHQCOLGyHSafXnfUAl2fBPubeuyo,118
+openfdcm-0.8.3.dist-info/top_level.txt,sha256=OV7AzwV40gFBx8n4vPg_wyiVTk3MN53oxEvKRZSZC4E,9
+openfdcm-0.8.3.dist-info/METADATA,sha256=eVxA3pBwZLX-S1DGLmaJZCDBVV15_NcHX53riC2F5NI,8196
