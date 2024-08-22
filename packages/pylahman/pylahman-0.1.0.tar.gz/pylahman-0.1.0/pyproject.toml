@@ -1,0 +1,21 @@
+[project]
+name = "pylahman"
+version = "0.1.0"
+description = "Python Package for Sean Lahman's Baseball Database"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+    "importlib>=1.0.4",
+]
+
+[tool.hatch.build]
+include = [
+    "src/pylahman/**/*.py",
+    "data/**/*.parquet"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
