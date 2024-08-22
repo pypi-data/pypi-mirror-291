@@ -1,0 +1,12 @@
+cognitive_schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cognitive_schema/cli.py,sha256=Kksc-WGaaxG8f-0aMRS8vTeNyl7Irw8Hi-V64dgJ1VI,1514
+cognitive_schema/query.py,sha256=xXZVlLDvdxp6L-nxHFP7sGvrXjayC10SwCEdwvoBuww,1311
+cognitive_schema/db/__init__.py,sha256=9OPlOV2rqyj-QbcOWoMC5At8VWlGQPlTKY9_e0KzZT0,156
+cognitive_schema/db/download_schema.py,sha256=60jDQVkU_5bbgZ6XJStRJGxhGAmgtMXWUu2za6oyvbU,2036
+cognitive_schema/db/generate_profiles.py,sha256=AmDM0gOOr9H9FjGFGYgdpd_lR3Ow7dxGk4EPZ9EWiCU,3241
+cognitive_schema-0.2.0.dist-info/LICENSE,sha256=oNHk-EnZrJtrauymhHYVkpmAwN6NXPyFuqy2wKKY1n0,1067
+cognitive_schema-0.2.0.dist-info/METADATA,sha256=qIdA1ctyExZ3LJOkA80aCjP2O8e4MWnDbWIEqcIhsyM,482
+cognitive_schema-0.2.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+cognitive_schema-0.2.0.dist-info/entry_points.txt,sha256=YrkITWO_cmnSwbQH1VubW6clCnlSlSuXGl08yynRvQY,62
+cognitive_schema-0.2.0.dist-info/top_level.txt,sha256=8gXHcj-HlC1iX6OAnXm72rOid4DSlGpO_qXEDeKLSCI,17
+cognitive_schema-0.2.0.dist-info/RECORD,,
