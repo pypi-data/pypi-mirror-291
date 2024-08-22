@@ -1,0 +1,5 @@
+name: cadati_env
+dependencies:
+  - numpy
+  - pandas
+  - pip
