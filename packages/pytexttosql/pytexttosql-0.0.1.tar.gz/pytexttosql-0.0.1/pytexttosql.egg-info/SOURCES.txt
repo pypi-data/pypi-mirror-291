@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pytexttosql.egg-info/PKG-INFO
+pytexttosql.egg-info/SOURCES.txt
+pytexttosql.egg-info/dependency_links.txt
+pytexttosql.egg-info/requires.txt
+pytexttosql.egg-info/top_level.txt
