@@ -1,0 +1,9 @@
+google-cloud-bigquery
+google-auth
+cryptography
+python-dotenv
+pytz
+psycopg2-binary
+
+[dev]
+pytest
