@@ -1,0 +1,13 @@
+crud_forge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crud_forge/db.py,sha256=Q2aILeecN2bCONL8UYTWg1XHLP0Yj9F3qyUKFtWd0QE,7390
+crud_forge/generators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crud_forge/generators/crud.py,sha256=5qMhZgjG7n33Ie-HIU_6jyruIm-tb9OGPQLU3l78EtA,9473
+crud_forge/generators/models.py,sha256=RePPIMQi3gJhEpyDu8Rlv5fGy7PKYa5ZCXxlB45ESDk,5320
+crud_forge/generators/routes.py,sha256=C0ru5YdDWRUfuK7UQ3W4SI_BlBK0j5Kp4fZXyQMIoUA,2736
+crud_forge/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crud_forge/utils/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crud_forge-0.1.5.dist-info/LICENSE,sha256=wLum5sIywmDNXSzTgpV2XGuy7AVwZTJumRbFD039vlg,1089
+crud_forge-0.1.5.dist-info/METADATA,sha256=P9ivkEAuG0tfBEOYeQ-mL33kaXcE9zas3wvyZE56YCE,6393
+crud_forge-0.1.5.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+crud_forge-0.1.5.dist-info/top_level.txt,sha256=l6WNeLO7gOLD4mg1MgmVCCRdYvrPN5L3DljSEnp7QTY,11
+crud_forge-0.1.5.dist-info/RECORD,,
