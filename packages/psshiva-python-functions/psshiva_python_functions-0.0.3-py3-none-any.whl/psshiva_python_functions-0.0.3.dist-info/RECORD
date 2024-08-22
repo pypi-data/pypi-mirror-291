@@ -1,0 +1,8 @@
+psshiva_python_functions/__init__.py,sha256=8_P4-xZwUPA0LpZYECW0I_gorg2MefC2FG12IvhEX3I,24
+psshiva_python_functions/algorithms/__init__.py,sha256=j1fa_a2QUNqs6NE73c1RfoiYCBj4Es_DwBsN54Z13wg,45
+psshiva_python_functions/algorithms/sql_ai_converser/__init__.py,sha256=OvnHyg6FJrqNeDZPoPyfSeUhxYqK0CMK3YL2X_ZT_Rg,45
+psshiva_python_functions/algorithms/sql_ai_converser/openai_connector.py,sha256=M0vf9ked7OfNvSG7yFwt_y33oACrb0_GEVHXCXpbtcE,2311
+psshiva_python_functions-0.0.3.dist-info/METADATA,sha256=bTZCR4CnI5FaQ4ru8zqGG8JPli3V-TmI4X37ORTiu7A,729
+psshiva_python_functions-0.0.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+psshiva_python_functions-0.0.3.dist-info/top_level.txt,sha256=IZCbHsamSLPwLs9TlPtQTNv2WbDT8Xspl1QkXPkFjtM,25
+psshiva_python_functions-0.0.3.dist-info/RECORD,,
