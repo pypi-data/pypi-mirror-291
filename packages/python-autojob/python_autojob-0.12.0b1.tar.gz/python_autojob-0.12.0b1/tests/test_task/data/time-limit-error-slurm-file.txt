@@ -1,0 +1,156 @@
+
+### Setting up shell environment ...
+
+
+### Printing basic job infos to stdout ...
+
+START_TIME               = 22-09-14 23:17:45 1663219065
+HOSTNAME                 = fc102
+USER                     = ugochukwu.nwosu1
+SLURM_JOB_NAME           = vasp.sh
+SLURM_JOB_ID             = 16062214
+SLURM_SUBMIT_DIR         = /home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9
+SLURM_JOB_NUM_NODES      = 1
+SLURM_NTASKS             = 32
+SLURM_NODELIST           = fc102
+SLURM_JOB_NODELIST       = fc102
+--------------- ulimit -a -S ---------------
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767976
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 20971520
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767413
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+--------------- ulimit -a -H ---------------
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767976
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 20971520
+open files                      (-n) 131072
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767976
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+----------------------------------------------
+
+### Loading necessary modules ...
+
+
+### Creating TMP_WORK_DIR directory and changing to it ...
+
+JOB_WORK_DIR         = 16062214
+TMP_BASE_DIR         = /scratch
+TMP_WORK_DIR         = /scratch/16062214
+
+### Copying input files for job (if required):
+
+'/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/run.py' -> '/scratch/16062214/run.py'
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/*cif': No such file or directory
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/POSCAR': No such file or directory
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/coord': No such file or directory
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/*xyz': No such file or directory
+'/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/cu_tibtt_complete_relaxation.traj' -> '/scratch/16062214/cu_tibtt_complete_relaxation.traj'
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/CONTCAR': No such file or directory
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/*.pkl': No such file or directory
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/*xml': No such file or directory
+cp: cannot stat '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/WAVECAR': No such file or directory
+
+
+
+Running for 5h 0m and 0s.
+This means 18000 seconds.
+Will terminate at 17100.00s to copy back necessary files from scratch
+
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+vasp: ERROR: VASP command '/global/software/openmpi/gnu-8.4.1/4.1.1/bin/mpirun -n 32 /work/siahrostami_lab/tiago/VASP/openmpi-4.1.1-mkl_vasp-5.4.4_wBEEF/bin/vasp_gam' failed with exit code '1'. (exit code 1)
+
+real	36m56.739s
+user	0m0.324s
+sys	0m0.272s
+
+Cancelled due to time limit.
+
+
+### Cleaning up files ... removing unnecessary scratch files ...
+
+removed 'EIGENVAL'
+removed 'IBZKPT'
+removed 'PCDAT'
+removed 'WAVECAR'
+removed 'CHG'
+removed 'CHGCAR'
+
+### Compressing results and copying back result archive ...
+
+
+Creating result tgz-file '/home/ugochukwu.nwosu1/2D-Cu-MOFs/Linker-Effect/MOF-calculations/autojob_calcs/gSCPifWoQb/sg3nqh3HMt/cgBSN9eKct/jHPSasmWC9/16062214.tgz' ...
+
+16062214/
+16062214/run.py
+16062214/cu_tibtt_complete_relaxation.traj
+16062214/POSCAR
+16062214/INCAR
+16062214/POTCAR
+16062214/KPOINTS
+16062214/ase-sort.dat
+16062214/vdw_kernel.bindat
+16062214/vasprun.xml
+16062214/OUTCAR
+16062214/CONTCAR
+16062214/DOSCAR
+16062214/OSZICAR
+16062214/XDATCAR
+16062214/REPORT
+16062214/final.e
+
+### Remove TMP_WORK_DIR ...
+
+removed '/scratch/16062214/run.py'
+removed '/scratch/16062214/cu_tibtt_complete_relaxation.traj'
+removed '/scratch/16062214/POSCAR'
+removed '/scratch/16062214/INCAR'
+removed '/scratch/16062214/POTCAR'
+removed '/scratch/16062214/KPOINTS'
+removed '/scratch/16062214/ase-sort.dat'
+removed '/scratch/16062214/vdw_kernel.bindat'
+removed '/scratch/16062214/vasprun.xml'
+removed '/scratch/16062214/OUTCAR'
+removed '/scratch/16062214/CONTCAR'
+removed '/scratch/16062214/DOSCAR'
+removed '/scratch/16062214/OSZICAR'
+removed '/scratch/16062214/XDATCAR'
+removed '/scratch/16062214/REPORT'
+removed '/scratch/16062214/final.e'
+rm: cannot remove '/scratch/16062214': Permission denied
+
+Extracting result tgz-file
+
+/var/spool/slurmd/job16062214/slurm_script: line 181: ws_release: command not found
+END_TIME             = 22-09-14 23:54:53 1663221293
+
+### Exiting with exit code 0...

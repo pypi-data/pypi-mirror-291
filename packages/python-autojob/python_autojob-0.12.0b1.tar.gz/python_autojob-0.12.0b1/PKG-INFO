@@ -1,0 +1,126 @@
+Metadata-Version: 2.3
+Name: python-autojob
+Version: 0.12.0b1
+Summary: tools for automating job creation and management for DFT calculations
+Project-URL: Changelog, https://gitlab.com/ugognw/python-autojob/-/blob/main/CHANGELOG.rst
+Project-URL: Documentation, https://python-autojob.readthedocs.io/
+Project-URL: Issues, https://gitlab.com/ugognw/python-autojob/-/issues
+Project-URL: Source, https://gitlab.com/ugognw/python-autojob
+Author-email: Ugochukwu Nwosu <ugognw@gmail.com>
+License-File: AUTHORS.rst
+License-File: LICENSE
+Keywords: automation,dft,hpc,matter modeling
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Sphinx
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Requires-Dist: ase>=3.23.0
+Requires-Dist: cclib>=1.8.0
+Requires-Dist: click>=8.1.3
+Requires-Dist: comp-chem-utils>=0.0.5
+Requires-Dist: emmet-core>=0.68.0
+Requires-Dist: jinja2>=3.1.2
+Requires-Dist: monty>=2022.4.26
+Requires-Dist: numpy<2.0.0,>=1.23.1
+Requires-Dist: pydantic-settings>=2.0
+Requires-Dist: pydantic>=2.5.0
+Requires-Dist: pymatgen>=2022.9.8
+Requires-Dist: shortuuid>=1.0.9
+Provides-Extra: dev
+Requires-Dist: bump2version>=1.0.1; extra == 'dev'
+Requires-Dist: pre-commit>=3.7.0; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: esbonio>=0.16.0; extra == 'docs'
+Requires-Dist: furo>=2023.9.10; extra == 'docs'
+Requires-Dist: sphinx-autobuild>=2024.04.16; extra == 'docs'
+Requires-Dist: sphinx-click>=5.0.1; extra == 'docs'
+Requires-Dist: sphinx-copybutton>=0.5.0; extra == 'docs'
+Requires-Dist: sphinx>=7.2.6; extra == 'docs'
+Requires-Dist: sphinxcontrib-apidoc>=0.5.0; extra == 'docs'
+Requires-Dist: sphinxext-opengraph>=0.9.1; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-cov>=4.1.0; extra == 'test'
+Requires-Dist: pytest-datadir>=1.5.0; extra == 'test'
+Requires-Dist: pytest-xdist>=3.5.0; extra == 'test'
+Requires-Dist: pytest>=7.4.3; extra == 'test'
+Description-Content-Type: text/x-rst
+
+========
+Overview
+========
+
+.. start elevator-pitch
+
+``autojob`` is a (semi-)automatic framework for DFT job automation on massively parallel
+computing resources. With ``autojob``, you can manage complex, automated workflows while
+still retaining the flexibility to stop, make job-level changes, and resume the workflow.
+
+.. end elevator-pitch
+
+.. image:: docs/source/_static/autojob_light.png
+   :align: center
+
+.. start quickstart
+
+Requirements
+============
+
+``autojob`` requires the following dependencies:
+
+* Python 3.11+
+* ase
+* numpy
+* scipy
+* ccu
+* emmet
+* monty
+* shortuuid
+* pymatgen
+* click
+* Jinja2
+* pydantic
+* pydantic-settings
+* cclib
+
+Installation 🛠️
+===============
+
+(WIP)
+
+``autojob`` can be installed via ``pip``:
+
+.. code-block:: shell
+
+    pip install python-autojob
+
+You can also install the in-development version with ssh:
+
+.. code-block:: shell
+
+    pip install git+ssh://git@gitlab.com/ugognw/python-autojob.git@development"
+
+or https
+
+.. code-block:: shell
+
+    pip install git+https://gitlab.com/ugognw/python-autojob.git
+
+.. end quickstart
+
+Documentation
+=============
+
+https://python-autojob.readthedocs.io/

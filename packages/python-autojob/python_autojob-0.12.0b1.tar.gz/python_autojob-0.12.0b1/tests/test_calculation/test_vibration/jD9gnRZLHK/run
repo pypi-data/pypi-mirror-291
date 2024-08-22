@@ -1,0 +1,42 @@
+import logging
+
+import ase.io
+from ase.calculators.vasp import Vasp
+from ccu.thermo.vibration import run_vibration
+
+logging.basicConfig(level=logging.DEBUG)
+
+atoms = ase.io.read("Ag-Co-Mn-BHT_Ag_H_on_Ag_0.traj")
+
+calc = Vasp(
+    algo='Normal',
+    ediff=1e-08,
+    ediffg=-0.01,
+    encut=550,
+    gga='PE',
+    gamma=False,
+    ibrion=2,
+    isif=2,
+    ismear=0,
+    ispin=2,
+    ivdw=11,
+    kpar=4,
+    ldipol=False,
+    lmaxmix=4,
+    lorbit=11,
+    lplane=True,
+    lreal='Auto',
+    ncore=4,
+    nelm=250,
+    nsw=0,
+    potim=0.1,
+    prec='Accurate',
+    sigma=0.04,
+    smass=-3,
+    kpts=(4, 4, 1),
+    dipol=None,
+    ldau_luj={'H': {'L': -1, 'U': 0, 'J': 0}, 'N': {'L': -1, 'U': 0, 'J': 0}, 'O': {'L': -1, 'U': 0, 'J': 0}, 'S': {'L': -1, 'U': 0, 'J': 0}, 'Ag': {'L': 2, 'U': 3.87, 'J': 0}, 'Co': {'L': 2, 'U': 5.2, 'J': 0}, 'Mn': {'L': 2, 'U': 5.3, 'J': 0}, 'Ni': {'L': 2, 'U': 6.1, 'J': 0}},
+)
+
+atoms.calc = calc
+run_vibration(atoms)

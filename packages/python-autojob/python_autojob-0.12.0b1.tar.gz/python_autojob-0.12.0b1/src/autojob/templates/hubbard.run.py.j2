@@ -1,0 +1,20 @@
+import ase.io
+from ase.calculators.{{ calculator|lower }} import {{ calculator|capitalize }}
+from ccu.hubbard.vasp import get_hubbard_u
+
+atoms = ase.io.read("{{ structure }}")
+
+calc = {{ calculator|capitalize }}(
+{% for key, value in parameters.items() %}
+    {{ key|lower }}={{ value }},
+{% endfor %}
+)
+
+atoms.calc = calc
+
+for i, atom in enumerate(atoms):
+    if atom.symbol not in ('C', 'S'):
+        index = i
+        break
+
+u = get_hubbard_u(calc, atoms, index)

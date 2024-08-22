@@ -1,0 +1,24 @@
+from ase import io
+from ase.calculators.{{ calculator|lower }} import {{ calculator|capitalize }}
+from ase.optimize.bfgslinesearch import BFGSLineSearch
+
+atoms = io.read("./{{ structure }}")
+
+calc = {{ calculator|capitalize }}(
+{% for key, value in parameters.items() %}
+    {{ key|lower }}={{ value }},
+{% endfor %}
+)
+
+atoms.calc = calc
+
+dyn = BFGSLineSearch(atoms, logfile="BFGS_output.log", trajectory="relax.traj", restart='relax.pckl')
+dyn.run(fmax=0.01, steps=150)
+
+atoms.write('final.traj')
+
+e = atoms.get_potential_energy()
+print(f'final energy {e}')
+
+with open('final.e', 'x', encoding='utf-8') as file:
+    file.write(f'{e}\n')

@@ -1,0 +1,30 @@
+include:
+  - local: .gitlab/templates/*.yml
+
+variables:
+  PIPELINE_NAME: 'Pipeline for branch: $CI_COMMIT_BRANCH'
+  HATCH_VERSION: "1.7.0"
+  HATCH_ENV: $CI_JOB_NAME
+  PYTHON_IMAGE: python:3.11.6-bookworm
+
+workflow:
+  name: '$PIPELINE_NAME'
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS
+      when: never
+    - if: $CI_COMMIT_BRANCH
+
+default:
+  image: $PYTHON_IMAGE
+  before_script:
+    - python --version  # For debugging
+    - pip --version  # For debugging
+    - pip install hatch==$HATCH_VERSION
+    - echo '-----Finished Installing Hatch-----'
+    - hatch --version  # For debugging
+
+stages:
+  - test
+  - build
+  - publish

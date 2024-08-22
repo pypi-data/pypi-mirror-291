@@ -1,0 +1,16 @@
+test:
+  stage: test
+  variables:
+    HATCH_ENV: test.py3.11
+  script:
+    - hatch run test-cov
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    paths:
+      - coverage.xml
+
+lint:
+  stage: test
+  needs: []
+  script:
+    - hatch run all

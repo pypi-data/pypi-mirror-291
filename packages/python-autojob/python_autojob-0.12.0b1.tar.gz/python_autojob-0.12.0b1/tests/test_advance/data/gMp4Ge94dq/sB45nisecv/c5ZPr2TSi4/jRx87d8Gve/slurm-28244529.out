@@ -1,0 +1,193 @@
+
+### Setting up shell environment ...
+
+
+### Printing basic job infos to stdout ...
+
+START_TIME               = 24-02-20 13:41:14 1708461674
+HOSTNAME                 = fc100
+USER                     = ugochukwu.nwosu1
+SLURM_JOB_NAME           = FePc_med_spin_NHO_on_Fe_parallel_3-c5ZPr2TSi4
+SLURM_JOB_ID             = 28244529
+SLURM_SUBMIT_DIR         = /work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve
+SLURM_JOB_NUM_NODES      = 1
+SLURM_NTASKS             = 40
+SLURM_NODELIST           = fc100
+SLURM_JOB_NODELIST       = fc100
+--------------- ulimit -a -S ---------------
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767929
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 41943040
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767360
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+--------------- ulimit -a -H ---------------
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767929
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 41943040
+open files                      (-n) 131072
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767929
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+----------------------------------------------
+
+
+
+### Creating TMP_WORK_DIR directory and changing to it ...
+
+JOB_WORK_DIR         = 28244529
+TMP_BASE_DIR         = /scratch
+TMP_WORK_DIR         = /scratch/28244529
+
+### Copying input files for job (if required):
+
+cp: cannot stat '/work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve/*.com': No such file or directory
+cp: cannot stat '/work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve/*.chk': No such file or directory
+'/work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve/run.py' -> '/scratch/28244529/run.py'
+'/work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve/FePc_med_spin_NHO_on_Fe_parallel_3.traj' -> '/scratch/28244529/FePc_med_spin_NHO_on_Fe_parallel_3.traj'
+cp: cannot stat '/work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve/*.pkl': No such file or directory
+
+
+
+Running for 23h 0m and 0s.
+This means 82800 seconds.
+Will terminate at 74520.0s to copy back necessary files from scratch
+
+
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+Configuration geometry is not in the inputorientation. It is Standard
+
+real	476m20.171s
+user	18628m47.406s
+sys	9m57.983s
+
+Time limit not reached.
+
+
+### Cleaning up files ... removing unnecessary scratch files ...
+
+removed 'Gau-1141628.d2e'
+removed 'Gau-1216445.d2e'
+removed 'Gau-1220352.d2e'
+removed 'Gau-1141628.int'
+removed 'Gau-1216445.int'
+removed 'Gau-1220352.int'
+removed 'Gau-1141628.rwf'
+removed 'Gau-1216445.rwf'
+removed 'Gau-1220352.rwf'
+removed 'Gau-1141628.skr'
+removed 'Gau-1216445.skr'
+removed 'Gau-1220352.skr'
+
+### Compressing results and copying back result archive ...
+
+
+Creating result tgz-file '/work/siahrostami_lab/ugo/MPc-NRR/adsorption-calculations/gMp4Ge94dq/sB45nisecv/c5ZPr2TSi4/jRx87d8Gve/28244529.tgz' ...
+
+28244529/
+28244529/run.py
+28244529/FePc_med_spin_NHO_on_Fe_parallel_3.traj
+28244529/Gaussian.com
+28244529/Gaussian.log
+28244529/final.traj
+28244529/Gaussian.chk
+28244529/final.e
+
+### Remove TMP_WORK_DIR ...
+
+removed '/scratch/28244529/run.py'
+removed '/scratch/28244529/FePc_med_spin_NHO_on_Fe_parallel_3.traj'
+removed '/scratch/28244529/Gaussian.com'
+removed '/scratch/28244529/Gaussian.log'
+removed '/scratch/28244529/final.traj'
+removed '/scratch/28244529/Gaussian.chk'
+removed '/scratch/28244529/final.e'
+rm: cannot remove '/scratch/28244529': Permission denied
+
+Extracting result tgz-file
+
+/var/spool/slurmd/job28244529/slurm_script: line 179: ws_release: command not found
+END_TIME             = 24-02-20 21:37:48 1708490268
+
+### Exiting with exit code 0...
