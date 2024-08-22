@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+hdfstream.py
+pyproject.toml
+hdfstream.egg-info/PKG-INFO
+hdfstream.egg-info/SOURCES.txt
+hdfstream.egg-info/dependency_links.txt
+hdfstream.egg-info/requires.txt
+hdfstream.egg-info/top_level.txt
