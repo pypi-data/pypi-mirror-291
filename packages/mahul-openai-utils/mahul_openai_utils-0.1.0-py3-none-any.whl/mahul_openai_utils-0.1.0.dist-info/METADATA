@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mahul-openai-utils
+Version: 0.1.0
+Summary: A reusable utility module for OpenAI API
+Author: Mahul Rana
+Author-email: mahulrana007@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: openai
+
