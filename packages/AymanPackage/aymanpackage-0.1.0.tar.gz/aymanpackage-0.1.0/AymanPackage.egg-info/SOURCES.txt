@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AymanPackage.egg-info/PKG-INFO
+AymanPackage.egg-info/SOURCES.txt
+AymanPackage.egg-info/dependency_links.txt
+AymanPackage.egg-info/requires.txt
+AymanPackage.egg-info/top_level.txt
