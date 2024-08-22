@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-lolinfo
+Version: 0.1.1
+Summary: 以图片形式将 英雄联盟(LOL) 的各种数据进行互通
+License: LICENSE
+Author: Shadow403
+Requires-Python: >=3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: nonebot2 (>=2.3.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+<a href="https://v2.nonebot.dev/store">
+  <img src="https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo">
+</a>
+
+<p>
+  <img src="https://raw.githubusercontent.com/lgc-NB2Dev/readme/main/template/plugin.svg" alt="NoneBotPluginText">
+</p>
+
+# nonebot-plugin-lolinfo
+
+_✨ 基于 [NoneBot2](https://github.com/nonebot/nonebot2) & [ShadowAPI](https://api-docs.shadow403.cn/) 的一个 NoneBot 英雄联盟查询插件 ✨_
+
+<img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
+<a href="./LICENSE">
+  <img src="https://img.shields.io/github/license/shadow403/nonebot_plugin_lolinfo.svg" alt="license">
+</a>
+<a href="https://pypi.python.org/pypi/nonebot_plugin_lolinfo">
+  <img src="https://img.shields.io/pypi/v/nonebot_plugin_lolinfo.svg" alt="pypi">
+</a>
+
+</div>
+
+## 📖 介绍
+将英雄联盟的各种信息发送到QQ中 持续更新中 🚧
+
+## 💿 安装
+```pip
+pip install nonebot-plugin-lolinfo
+```
+
+</br>
+
+<details>
+<summary> 日志 </summary>
+
+`v0.1.0` 发布此项目
+
+`v0.1.1` 修改 README.md
+
