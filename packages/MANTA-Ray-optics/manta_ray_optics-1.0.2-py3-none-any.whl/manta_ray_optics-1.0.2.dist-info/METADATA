@@ -1,0 +1,82 @@
+Metadata-Version: 2.3
+Name: MANTA_Ray_optics
+Version: 1.0.2
+Summary: MANTA-Ray (Modified Absorption of Non-spherical Tiny Aggregates in the Rayleigh regime) is a model that calculates the absorption efficiency and absorption cross-section of fractal aggregates.
+Project-URL: Homepage, https://github.com/mglodge/MANTA-Ray/
+Author-email: Matt Lodge <matthew.g.lodge@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0.1
+Description-Content-Type: text/markdown
+
+![MANTA Ray logo final](https://github.com/user-attachments/assets/daace825-8432-44ba-a673-0f6d441a3116)
+
+MANTA-Ray (<ins>**M**</ins>odified <ins>**A**</ins>bsorption of <ins>**N**</ins>on-spherical <ins>**T**</ins>iny <ins>**A**</ins>ggregates in the <ins>**Ray**</ins>leigh regime) is a model that calculates the absorption efficiency and absorption cross-section of fractal aggregates. It is a very powerful and fast tool that can be used to estimate the amount of absorption that occurs in dust and haze particles of any shape, provided that the electromagnetic radiation is in the Rayleigh regime (see below for strict definition), often in the context of planetary atmospheres or protoplanetary disks. It obtains values within 10-20% of those calculated by a rigorous benchmark model (the discrete dipole approximation), but is $10^{13}$ times faster. It is provided here as a python function. For full details of the methodology, or if the code is useful in your project, please cite the paper below:
+
+  "MANTA-Ray: Supercharging Speeds for Calculating the Optical Properties of Fractal Aggregates in the Long-Wavelength Limit" (2024), Lodge, M.G., Wakeford H.R., and Leinhardt, Z.M.
+
+# Getting started
+
+The easiest way to run MANTA-Ray is to install it into your python environment using pip:
+
+	pip install MANTA_Ray_optics
+
+Then import the functions into your python code:
+
+	from MANTA_Ray_optics import MANTA_Ray
+
+The inputs to the functions are:
+
+1) wavelength: the wavelength ($\lambda$) of the electromagnetic radiation (in μm).
+2) radius: the particle radius ($R$) (in μm) -- see note below*.
+3) d_f: the fractal dimension ($d_f$) of the aggregate. The code has been tested for values between $d_f=$ 1.2 (linear) and 2.7 (compact). See section "The Model" below for more details.
+4) n: the real component of refractive index
+5) k: the imaginary component of refractive index
+
+*Because the aggregates are non-spherical, they do not have a radius. To represent the physical size of the particle, we use the radius of a <i>sphere that has exactly the same volume</i> as the fractal aggregate (i.e. the radius if the aggregate material was squashed/compacted into a sphere). 
+
+Note that to be in the Rayleigh regime, and for this theory to work, it is assumed that $\lambda \geq 100R$, and the code will return an error message if this condition is not true.
+
+To use each of functions, just provide the above inputs, strictly in that order. For example, to determine the absorption efficiency of an aggregate of fractal dimension 1.8, with a radius of 0.5 μm, at a wavelength of 100 μm, and assuming a refractive index $m=n+k$ i $=3+0.5$ i:
+
+	wavelength = 100   # in um
+ 	radius = 0.5   # in um
+	d_f = 1.8		
+ 	n = 3
+	k = 0.5
+	
+	Q_abs = MANTA_Ray.find_Q_abs(wavelength, radius, d_f, n, k)   # calculate Q_abs
+ 
+	print(Q_abs)
+ 
+If MANTA-Ray installed correctly, you should see:
+
+	Q_abs = 0.021153387751343056  
+
+Two functions are provided:
+
+1) find_Q_abs: calculates absorption efficiency $Q_{abs,MR}$ (Eq. 5 in Lodge et al. 2024)
+2) find_C_abs: calculates absorption cross-section (where $C_{abs}=Q_{abs} \pi R^2$)
+
+Both functions use the same input variables:
+
+	Q_abs = MANTA_Ray.find_Q_abs(wavelength, radius, d_f, n, k)
+	C_abs = MANTA_Ray.find_C_abs(wavelength, radius, d_f, n, k)
+
+If a pip install fails (or simply if you prefer), you could copy and paste the functions from MANTA_Ray.py directly into your code and use them in the same way.
+
+# The Model
+
+This section provides a brief overview of the model, but for a full explanation and more details, please read Lodge et al. 2024. 
+
+Transmission Electron Microscope (TEM) images of solid matter in Earth's atmosphere shows that they often form very complex shapes, which we call fractal aggregates. Their exact shape depends on the material and conditions under which they form. Typically, we characterise them by a single number -- their fractal dimension $d_f$:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7060caea-1465-45dd-9f64-74a351b0733b" alt="drawing" width="400" />
+</p>
+
+In the image above the two aggregates are both composed of 24 "monomers" (individual spheres), but in different arrangements. These shapes are characterised in many optical models by $d_f$ which is a number between 1 (representing a straight line) and 3 (compact and perfectly spherical).
+
+Modelling the optical properties of complex shapes is difficult, and Mie theory is often used (which assumes that the particles are spherical). However, this can often be a significant underestimate of the amount of absorption (by factors of up to 1,000 -- see Lodge et al. 2024). Calculating the optical properties for the true aggregate shape can be done using a rigorous code such as the discrete dipole approximation (DDA -- Draine and Flatau, 1994), but this is usually incredibly time consuming (and unfeasible for use in forward models that wish to study many wavelengths/particle sizes). In contrast, MANTA-Ray estimates absorption cross-sections with average accuracies of 10-20% compared to DDA, but $10^{13}$ times faster. It works for any wavelength, particle size, and refractive index $m$ within 1+0.01i< $m$ <11+11i. It is strictly only for use in the Rayleigh Regime (where the wavelength $\lambda$ is significantly larger than the radius $R$ of a sphere of equivalent volume to the aggregate -- here we define this regime as $\lambda \geq 100R$).
