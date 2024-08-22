@@ -1,0 +1,5 @@
+llama_index/postprocessor/cohere_rerank/__init__.py,sha256=IjJC4kYZElUYJCx-zzuJmxLKQVQ9ncehHsUUtnPHz0k,98
+llama_index/postprocessor/cohere_rerank/base.py,sha256=DaHKMVNPdQ6zXIgiBH0Dlrl3S_BbJBwggQvajNdxbbQ,3115
+llama_index_postprocessor_cohere_rerank-0.2.0.dist-info/METADATA,sha256=CNbvXtK5ei2MX8Da9JGXCp_jOe9hRPE5w4Je0Yj1PJY,723
+llama_index_postprocessor_cohere_rerank-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_postprocessor_cohere_rerank-0.2.0.dist-info/RECORD,,
