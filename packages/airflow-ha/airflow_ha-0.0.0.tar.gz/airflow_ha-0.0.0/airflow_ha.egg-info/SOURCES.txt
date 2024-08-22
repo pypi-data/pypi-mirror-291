@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+airflow_ha.egg-info/PKG-INFO
+airflow_ha.egg-info/SOURCES.txt
+airflow_ha.egg-info/dependency_links.txt
+airflow_ha.egg-info/top_level.txt
