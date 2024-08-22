@@ -1,0 +1,5 @@
+llama_index/tools/azure_cv/__init__.py,sha256=k4JJCXpmpVHXd4z0SvBxJGGrAAddM3xEwI0hbXxjFQo,140
+llama_index/tools/azure_cv/base.py,sha256=NoRVQq8Tdipaonb70TZYMGw64lzYD_NsgTJ4jXdlhFY,1693
+llama_index_tools_azure_cv-0.2.0.dist-info/METADATA,sha256=OpZukIYkmX2tJk1GK6ZA1vyYjvIFlfaEX8QzZnTa90o,1984
+llama_index_tools_azure_cv-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_tools_azure_cv-0.2.0.dist-info/RECORD,,
