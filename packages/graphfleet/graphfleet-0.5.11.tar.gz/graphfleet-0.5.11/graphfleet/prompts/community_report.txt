@@ -1,0 +1,250 @@
+
+You are an expert in computational linguistics and data science. You are skilled at analyzing complex text data, mapping out relationships, and understanding the structural dynamics within specialized communities. You are adept at helping people identify the relations and structure of the community of interest, specifically within the "Natural Language Processing and Information Retrieval" domain.
+
+# Goal
+Write a comprehensive assessment report of a community taking on the role of a A community analyst that is examining the "Natural Language Processing and Information Retrieval" domain, given a list of entities that belong to the community as well as their relationships and optional associated claims.
+The analysis will be used to inform researchers and practitioners about significant trends, key contributors, and emerging technologies within the community and their potential impact.
+
+Domain: "Natural Language Processing and Information Retrieval"
+Text: results,
+i.e., that na ¨ıve RAG produces the most direct responses across all comparisons.
+9Podcast Transcripts News Articles
+C0 C1 C2 C3 TS C0 C1 C2 C3 TS
+Units 34 367 969 1310 1669 55 555 1797 2142 3197
+Tokens 26657 225756 565720 746100 1014611 39770 352641 980898 1140266 1707694
+% Max 2.6 22.2 55.8 73.5 100 2.3 20.7 57.4 66.8 100
+Table 3: Number of context units (community summaries for C0-C3 and text chunks for TS), corre-
+sponding token counts, and percentage of the maximum token count. Map-reduce summarization of
+source texts is the most  , 21(5):88–92.
+Koesten, L., Gregory, K., Groth, P., and Simperl, E. (2021). Talking datasets–understanding data
+sensemaking behaviours. International journal of human-computer studies , 146:102562.
+Kuratov, Y ., Bulatov, A., Anokhin, P., Sorokin, D., Sorokin, A., and Burtsev, M. (2024). In search
+of needles in a 11m haystack: Recurrent memory finds what llms miss.
+LangChain (2024). Langchain graphs. https://python .langchain .com/docs/use cases/graph/.
+Laskar, M. T. R., Hoque, E., and Huang, J. (2020). Query focused abstractive summarization via
+incorporating query relevance and transfer learning with transformer models. In Advances in
+Artificial Intelligence:   system for covid-19 scholarly
+information management. arXiv preprint arXiv:2005.03975 .
+Tang, Y . and Yang, Y . (2024). MultiHop-RAG: Benchmarking retrieval-augmented generation for
+multi-hop queries. arXiv preprint arXiv:2401.15391 .
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y ., Bashlykov, N., Batra, S.,
+Bhargava, P., Bhosale, S., et al. (2023). Llama 2: Open foundation and fine-tuned chat models.
+arXiv preprint arXiv:2307.09288 .
+Traag, V . A., Waltman, L., and Van Eck, N. J. (2019). From Louvain to Leiden: guaranteeing
+well . arXiv preprint arXiv:2306.04136 .
+Ban, T., Chen, L., Wang, X., and Chen, H. (2023). From query tools to causal architects: Harnessing
+large language models for advanced causal discovery from data.
+Baumel, T., Eyal, M., and Elhadad, M. (2018). Query focused abstractive summarization: Incorpo-
+rating query relevance, multi-document coverage, and summary length constraints into seq2seq
+models. arXiv preprint arXiv:1801.07704 .
+Blondel, V . D., Guillaume, J.-L., Lambiotte, R., and Lefebvre, E. (2008). Fast unfolding of
+communities in large networks. Journal of statistical mechanics: theory and experiment ,
+2008(10):P10008.
+Brown, T., Mann, B., Ryder, N., Subbia  are the same across
+all six conditions (except for minor modifications to reference styles to match the types of context
+information used). Conditions only differ in how the contents of the context window are created.
+The graph index supporting conditions C0-C3was created using our generic prompts for entity and
+relationship extraction only, with entity types and few-shot examples tailored to the domain of the
+data. The graph indexing process used a context window size of 600 tokens with 1 gleaning for the
+Podcast dataset and 0 gleanings for the News dataset.
+3.4 Metrics
+LLMs have been shown to be good evaluators of natural language generation, achieving state-of-
+the-art or competitive results compared against human judgements (Wang et al., 2023a; Zheng et al.,
+2024). While this approach can generate reference-based metrics when gold standard answers are
+known, it is also capable of measuring the qualities of generated texts (e.g., fluency) in The next step is to create report-like summaries of each community in the Leiden hierarchy, using
+a method designed to scale to very large datasets. These summaries are independently useful in
+their own right as a way to understand the global structure and semantics of the dataset, and may
+themselves be used to make sense of a corpus in the absence of a question. For example, a user
+may scan through community summaries at one level looking for general themes of interest, then
+follow links to the reports at the lower level that provide more details for each of the subtopics. Here,
+however, we focus on their utility as part of a graph-based index used for answering global queries.
+Community summaries are generated in the following way:
+4(a) Root communities at level 0 (b) Sub-communities at level 1
+Figure 3: Graph communities detected using the Leiden algorithm (Traag et al., 2019) over the
+MultiHop-RAG (T  LLM-generated assessment.
+7Question Which public figures are repeatedly mentioned across various entertainment articles?
+Graph
+RAGOverview of Prominent Public Figures in Entertainment
+The entertainment industry is vast and diverse, encompassing film, television, music, sports, and
+digital media. Certain public figures stand out due to their significant contributions and influence
+across these sectors. The following summary highlights key individuals who are repeatedly
+mentioned in various entertainment articles, reflecting their impact and presence within the industry.
+Actors and Directors [...]Public Figures in Controversy [...]Musicians and Executives [...]
+Athletes and Coaches [...]Influencers and Entrepreneurs [...]
+The repeated mention of these figures in entertainment articles signifies their ongoing relevance and
+the public’s interest in their work. Their influence spans across various aspects of entertainment, from
+shaping cultural narratives in film and television to driving trends in music and digital media. These
+individuals not only contribute to their respective fields but also influence the broader cultural , query-focused abstractive summarization that generates natural language summaries and
+not just concatenated excerpts (Baumel et al., 2018; Laskar et al., 2020; Yao et al., 2017) . In recent
+years, however, such distinctions between summarization tasks that are abstractive versus extractive,
+generic versus query-focused, and single-document versus multi-document, have become less rele-
+vant. While early applications of the transformer architecture showed substantial improvements on
+the state-of-the-art for all such summarization tasks (Goodwin et al., 2020; Laskar et al., 2022; Liu
+and Lapata, 2019), these tasks are now trivialized by modern LLMs, including the GPT (Achiam
+et al., 2023; Brown et al., 2020), Llama (Touvron et al., 2023), and Gemini (Anil et al.,  diverse
+answers, we therefore used a fixed context window size of 8k tokens for the final evaluation.
+3.6 Results
+The indexing process resulted in a graph consisting of 8564 nodes and 20691 edges for the Podcast
+dataset, and a larger graph of 15754 nodes and 19520 edges for the News dataset. Table 3 shows the
+number of community summaries at different levels of each graph community hierarchy.
+Global approaches vs. na ¨ıve RAG . As shown in Figure 4, global approaches consistently out-
+performed the na ¨ıve RAG ( SS) approach in both comprehensiveness and diversity metrics across
+datasets. Specifically, global approaches achieved comprehensiveness win rates between 72-83%
+for Podcast transcripts and 72-80% for News articles, while diversity win rates ranged from 75-82%
+and 62-71% respectively. Our use of directness as a validity test also achieved the expected  generated by the LLM based on short
+descriptions of the target datasets. Questions target global understanding rather than specific details.
+3 Evaluation
+3.1 Datasets
+We selected two datasets in the one million token range, each equivalent to about 10 novels of text
+and representative of the kind of corpora that users may encounter in their real world activities:
+•Podcast transcripts . Compiled transcripts of podcast conversations between Kevin Scott,
+Microsoft CTO, and other technology leaders (Behind the Tech, Scott, 2024). Size: 1669
+×600-token text chunks, with 100-token overlaps between chunks ( ∼1 million tokens).
+•News articles . Benchmark dataset comprising news articles published from September
+2013 to December 2023 in a range of categories, including entertainment, business, sports,
+technology, health, and science (MultiHop-RAG; Tang and Yang, 2024). Size: 3197 ×
+600-token text chunks, with 100  view the role of policy and regulation
+Questions :
+1. Which episodes deal primarily with tech policy and government regulation?
+2. How do guests perceive the impact of privacy laws on technology development?
+3. Do any guests discuss the balance between innovation and ethical considerations?
+4. What are the suggested changes to current policies mentioned by the guests?
+5. Are collaborations between tech companies and governments discussed and how?
+News
+articlesUser : Educator incorporating current affairs into curricula
+Task: Teaching about health and wellness
+Questions :
+1. What current topics in health can be integrated into health education curricula?
+2. How do news articles address the concepts of preventive medicine and wellness?
+3. Are there examples of health articles that contradict each other, and if so, why?
+4. What insights can be gleaned about public health priorities based on news coverage?
+5. How can educators use the dataset to highlight the importance of health literacy?
+Table 1: Examples of potential users, tasks, and questions  public figures, primarily from the music industry
+and sports, and relies heavily on a single source for data, which makes it less diverse in perspectives
+and insights.
+Empowerment: Winner=1 (Graph RAG)
+Answer 1 is better because it provides a comprehensive and structured overview of public figures
+across various sectors of the entertainment industry, including film, television, music, sports, and
+digital media. It lists multiple individuals, providing specific examples of their contributions and the
+context in which they are mentioned in entertainment articles, along with references to data reports
+for each claim. This approach helps the reader understand the breadth of the topic and make informed
+judgments without being misled. In contrast, Answer 2 focuses on a smaller group of public figures
+and primarily discusses their personal lives and relationships, which may not provide as broad an
+understanding of the topic. While Answer 2 also cites sources, it does not match the depth and variety
+of Answer 1  final round of
+query-focused summarization over all community summaries reporting relevance to that query.
+“a motivated, continuous effort to understand connections (which can be among people, places, and
+events) in order to anticipate their trajectories and act effectively ” (Klein et al., 2006a). Supporting
+human-led sensemaking over entire text corpora, however, needs a way for people to both apply and
+refine their mental model of the data (Klein et al., 2006b) by asking questions of a global nature.
+Retrieval-augmented generation (RAG, Lewis et al., 2020) is an established approach to answering
+user questions over entire datasets, but it is designed for situations where these answers are contained
+locally within regions of text whose retrieval provides sufficient grounding for the generation task.
+Instead, a more appropriate task framing is query-focused summarization (QFS, Dang, 2006), and in
+particular  examples provided to the LLM for in-context learning (Brown et al., 2020).
+3For example, while our default prompt extracting the broad class of “named entities” like people,
+places, and organizations is generally applicable, domains with specialized knowledge (e.g., science,
+medicine, law) will benefit from few-shot examples specialized to those domains. We also support
+a secondary extraction prompt for any additional covariates we would like to associate with the
+extracted node instances. Our default covariate prompt aims to extract claims linked to detected
+entities, including the subject, object, type, description, source text span, and start and end dates.
+To balance the needs of efficiency and quality, we use multiple rounds of “gleanings”, up to a
+specified maximum, to encourage the LLM to detect any additional entities it may have missed
+on prior extraction rounds. This is a multi-stage process in which we first ask the LLM to assess
+whether all entities  resource-intensive approach requiring the highest number of context tokens.
+Root-level community summaries ( C0) require dramatically fewer tokens per query (9x-43x).
+Community summaries vs. source texts. When comparing community summaries to source texts
+using Graph RAG, community summaries generally provided a small but consistent improvement
+in answer comprehensiveness and diversity, except for root-level summaries. Intermediate-level
+summaries in the Podcast dataset and low-level community summaries in the News dataset achieved
+comprehensiveness win rates of 57% and 64%, respectively. Diversity win rates were 57% for
+Podcast intermediate-level summaries and 60% for News low-level community summaries. Table 3
+also illustrates the scalability advantages of Graph RAG compared to source text summarization: for
+low-level community summaries ( C3), Graph RAG required 26-33% fewer context tokens, while
+for root-level community summaries ( C0), it required over 97% fewer tokens.
+Role:. The content of this report includes an overview of the community's key entities and relationships.
+
+# Report Structure
+The report should include the following sections:
+- TITLE: community's name that represents its key entities - title should be short but specific. When possible, include representative named entities in the title.
+- SUMMARY: An executive summary of the community's overall structure, how its entities are related to each other, and significant points associated with its entities.
+- REPORT RATING: A float score between 0-10 that represents the relevance of the text to computational linguistics, data science, and the structural dynamics within specialized communities, with 1 being trivial or irrelevant and 10 being highly significant, impactful, and actionable in advancing the understanding of Natural Language Processing and Information Retrieval.
+- RATING EXPLANATION: Give a single sentence explanation of the rating.
+- DETAILED FINDINGS: A list of 5-10 key insights about the community. Each insight should have a short summary followed by multiple paragraphs of explanatory text grounded according to the grounding rules below. Be comprehensive.
+
+Return output as a well-formed JSON-formatted string with the following format. Don't use any unnecessary escape sequences. The output should be a single JSON object that can be parsed by json.loads.
+    {
+        "title": "<report_title>",
+        "summary": "<executive_summary>",
+        "rating": <threat_severity_rating>,
+        "rating_explanation": "<rating_explanation>"
+        "findings": "[{"summary":"<insight_1_summary>", "explanation": "<insight_1_explanation"}, {"summary":"<insight_2_summary>", "explanation": "<insight_2_explanation"}]"
+    }
+
+# Grounding Rules
+After each paragraph, add data record reference if the content of the paragraph was derived from one or more data records. Reference is in the format of [records: <record_source> (<record_id_list>, ...<record_source> (<record_id_list>)]. If there are more than 10 data records, show the top 10 most relevant records.
+Each paragraph should contain multiple sentences of explanation and concrete examples with specific named entities. All paragraphs must have these references at the start and end. Use "NONE" if there are no related roles or records. Everything should be in The primary language of the provided text is **English**. The text includes technical terms, references to academic papers, and other content that is characteristic of English-language academic and technical writing..
+
+Example paragraph with references added:
+This is a paragraph of the output text [records: Entities (1, 2, 3), Claims (2, 5), Relationships (10, 12)]
+
+# Example Input
+-----------
+Text:
+
+Entities
+
+id,entity,description
+5,ABILA CITY PARK,Abila City Park is the location of the POK rally
+
+Relationships
+
+id,source,target,description
+37,ABILA CITY PARK,POK RALLY,Abila City Park is the location of the POK rally
+38,ABILA CITY PARK,POK,POK is holding a rally in Abila City Park
+39,ABILA CITY PARK,POKRALLY,The POKRally is taking place at Abila City Park
+40,ABILA CITY PARK,CENTRAL BULLETIN,Central Bulletin is reporting on the POK rally taking place in Abila City Park
+
+Output:
+{
+    "title": "Abila City Park and POK Rally",
+    "summary": "The community revolves around the Abila City Park, which is the location of the POK rally. The park has relationships with POK, POKRALLY, and Central Bulletin, all
+of which are associated with the rally event.",
+    "rating": 5.0,
+    "rating_explanation": "The impact rating is moderate due to the potential for unrest or conflict during the POK rally.",
+    "findings": [
+        {
+            "summary": "Abila City Park as the central location",
+            "explanation": "Abila City Park is the central entity in this community, serving as the location for the POK rally. This park is the common link between all other
+entities, suggesting its significance in the community. The park's association with the rally could potentially lead to issues such as public disorder or conflict, depending on the
+nature of the rally and the reactions it provokes. [records: Entities (5), Relationships (37, 38, 39, 40)]"
+        },
+        {
+            "summary": "POK's role in the community",
+            "explanation": "POK is another key entity in this community, being the organizer of the rally at Abila City Park. The nature of POK and its rally could be a potential
+source of threat, depending on their objectives and the reactions they provoke. The relationship between POK and the park is crucial in understanding the dynamics of this community.
+[records: Relationships (38)]"
+        },
+        {
+            "summary": "POKRALLY as a significant event",
+            "explanation": "The POKRALLY is a significant event taking place at Abila City Park. This event is a key factor in the community's dynamics and could be a potential
+source of threat, depending on the nature of the rally and the reactions it provokes. The relationship between the rally and the park is crucial in understanding the dynamics of this
+community. [records: Relationships (39)]"
+        },
+        {
+            "summary": "Role of Central Bulletin",
+            "explanation": "Central Bulletin is reporting on the POK rally taking place in Abila City Park. This suggests that the event has attracted media attention, which could
+amplify its impact on the community. The role of Central Bulletin could be significant in shaping public perception of the event and the entities involved. [records: Relationships
+(40)]"
+        }
+    ]
+
+}
+
+# Real Data
+
+Use the following text for your answer. Do not make anything up in your answer.
+
+Text:
+{input_text}
+Output:
