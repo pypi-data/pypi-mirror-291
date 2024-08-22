@@ -1,0 +1,1388 @@
+"""
+**eclabtechniques**: Parameters for implemented techniques.
+-----------------------------------------------------------
+
+Implemented techniques:
+
+    - CA - Chronoamperometry / Chronocoulometry
+    - CP - Chronopotentiometry
+    - CV - Cyclic Voltammetry
+    - GCPL - Galvanostatic Cycling with Potential Limitation
+    - GEIS - Galvano Electrochemical Impedance Spectroscopy
+    - LOOP - Loop
+    - LSV - Linear Sweep Voltammetry
+    - MB - Modulo Bat
+    - OCV - Open Circuit Voltage
+    - PEIS - Potentio Electrochemical Impedance Spectroscopy
+    - WAIT - Wait
+    - ZIR - IR compensation (PEIS)
+
+The module also implements resolution determination for parameters of techniques,
+in :func:`get_resolution`.
+
+"""
+
+import re
+import numpy as np
+from typing import Union
+import bisect
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+# Short helper function for constructing params.
+def _prepend_ns(settings: list[str], params: list) -> list[str]:
+    """Prepends the 'Ns' parameter to the parameters if present.
+
+    Parameters
+    ----------
+    settings
+        The list of settings from the start of an .mpt or .mps file.
+    params
+        A list containing the first part of the technique parameter
+        names. The Ns is prepended to this if present in the settings.
+
+    Returns
+    -------
+    list[str]
+        The 'Ns'-prepended parameters or the unchanged parameters.
+
+    """
+    ns_match = re.search(r"^Ns.+", "\n".join(settings))
+    if ns_match:
+        return ["Ns"] + params
+    return params
+
+
+# ~~~~~~~~~~~~~ Chronoamperometry / Chronocoulometry ~~~~~~~~~~~~~
+def _ca_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the CA technique."""
+    params = [
+        "Ei",
+        "Ei_vs",
+        "ti",
+        "Imax",
+        "Imax_unit",
+        "Imin",
+        "Imin_unit",
+        "dQM",
+        "dQM_unit",
+        "record",
+        "dI",
+        "dI_unit",
+        "dQ",
+        "dQ_unit",
+        "dt",
+        "dta",
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "I_range_min",
+        "I_range_max",
+        "I_range_init",
+        "bandwidth",
+        "goto_Ns",
+        "nc_cycles",
+    ]
+    return _prepend_ns(settings, params)
+
+
+_ca_params_dtypes = [
+    np.dtype(
+        [
+            ("Ei", "<f4"),
+            ("Ei_vs", "|u1"),
+            ("ti", "<f4"),
+            ("Imax", "<f4"),
+            ("Imax_unit", "|u1"),
+            ("Imin", "<f4"),
+            ("Imin_unit", "|u1"),
+            ("dQM", "<f4"),
+            ("dQM_unit", "|u1"),
+            ("record", "|u1"),
+            ("dI", "<f4"),
+            ("dI_unit", "|u1"),
+            ("dQ", "<f4"),
+            ("dQ_unit", "|u1"),
+            ("dt", "<f4"),
+            ("dta", "<f4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("I_range_min", "|u1"),
+            ("I_range_max", "|u1"),
+            ("I_range_init", "|u1"),
+            ("bandwidth", "u1"),
+            ("goto_Ns", "<u4"),
+            ("nc_cycles", "<u4"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Chronopotentiometry ~~~~~~~~~~~~~
+def _cp_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the CP technique."""
+    params = [
+        "Is",
+        "Is_unit",
+        "Is_vs",
+        "ts",
+        "EM",
+        "dQM",
+        "dQM_unit",
+        "record",
+        "dEs",
+        "dts",
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "bandwidth",
+        "goto_Ns",
+        "nc_cycles",
+    ]
+    return _prepend_ns(settings, params)
+
+
+_cp_params_dtypes = [
+    np.dtype(
+        [
+            ("Is", "<f4"),
+            ("Is_unit", "|u1"),
+            ("Is_vs", "|u1"),
+            ("ts", "<f4"),
+            ("EM", "<f4"),
+            ("dQM", "<f4"),
+            ("dQM_unit", "|u1"),
+            ("record", "|u1"),
+            ("dEs", "<f4"),
+            ("dts", "<f4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("bandwidth", "|u1"),
+            ("goto_Ns", "<u4"),
+            ("nc_cycles", "<u4"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Cyclic Voltammetry ~~~~~~~~~~~~~
+def _cv_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the CV technique."""
+    params = [
+        "Ei",
+        "Ei_vs",
+        "dE/dt",
+        "dE/dt_unit",
+        "E1",
+        "E1_vs",
+        "step_percent",
+        "N",
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "I_range_min",
+        "I_range_max",
+        "I_range_init",
+        "bandwidth",
+        "E2",
+        "E2_vs",
+        "nc_cycles",
+        "reverse_scan",
+        "Ef",
+        "Ef_vs",
+    ]
+    return params
+
+
+_cv_params_dtypes = [
+    np.dtype(
+        [
+            ("Ei", "<f4"),
+            ("Ei_vs", "|u1"),
+            ("dE/dt", "<f4"),
+            ("dE/dt_unit", "|u1"),
+            ("E1", "<f4"),
+            ("E1_vs", "|u1"),
+            ("step_percent", "|u1"),
+            ("N", "<u4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("I_range_min", "|u1"),
+            ("I_range_max", "|u1"),
+            ("I_range_init", "|u1"),
+            ("bandwidth", "u1"),
+            ("E2", "<f4"),
+            ("E2_vs", "|u1"),
+            ("nc_cycles", "<u4"),
+            ("reverse_scan", "|u1"),
+            ("Ef", "<f4"),
+            ("Ef_vs", "|u1"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Galvanostatic Cycling with Potential Limitation ~~~~~~~~~~~~~
+def _gcpl_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the GCPL technique."""
+    params = [
+        "set_I/C",
+        "Is",
+        "Is_unit",
+        "Is_vs",
+        "N",
+        "I_sign",
+        "t1",
+        "I_range",
+        "bandwidth",
+        "dE1",
+        "dt1",
+        "EM",
+        "tM",
+        "Im",
+        "Im_unit",
+        "dI/dt",
+        "dI/dt_unit",
+        "E_range_min",
+        "E_range_max",
+        "dq",
+        "dq_unit",
+        "dtq",
+        "dQM",
+        "dQM_unit",
+        "dxM",
+        "tR",
+        "dER/dt",
+        "dER",
+        "dtR",
+        "EL",
+        "goto_Ns",
+        "nc_cycles",
+    ]
+    return _prepend_ns(settings, params)
+
+
+_gcpl_params_dtypes = [
+    np.dtype(
+        [
+            ("set_I/C", "|u1"),
+            ("Is", "<f4"),
+            ("Is_unit", "|u1"),
+            ("Is_vs", "|u1"),
+            ("N", "f4"),
+            ("I_sign", "|u1"),
+            ("t1", "<f4"),
+            ("I_range", "|u1"),
+            ("bandwidth", "|u1"),
+            ("dE1", "<f4"),
+            ("dt1", "<f4"),
+            ("EM", "<f4"),
+            ("tM", "<f4"),
+            ("Im", "<f4"),
+            ("Im_unit", "|u1"),
+            ("dI/dt", "<f4"),
+            ("dI/dt_unit", "|u1"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("dq", "<f4"),
+            ("dq_unit", "|u1"),
+            ("dtq", "<f4"),
+            ("dQM", "<f4"),
+            ("dQM_unit", "|u1"),
+            ("dxM", "<f4"),
+            ("tR", "<f4"),
+            ("dER/dt", "<f4"),
+            ("dER", "<f4"),
+            ("dtR", "<f4"),
+            ("EL", "<f4"),
+            ("goto_Ns", "<u4"),
+            ("nc_cycles", "<u4"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Galvano Electrochemical Impedance Spectroscopy ~~~~~~~~~~~~~
+def _geis_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the GEIS technique."""
+    params = [
+        "sine_mode",
+        "Is",
+        "Is_unit",
+        "Is_vs",
+        "tIs",
+        "record",
+        "dE",
+        "dt",
+        "fi",
+        "fi_unit",
+        "ff",
+        "ff_unit",
+        "Nd",
+        "points",
+        "spacing",
+        "Ia/Va",
+        "Ia",
+        "Ia_unit",
+        "va_pourcent",  # Random French parameter name?
+        "pw",
+        "Na",
+        "corr",
+    ]
+    params = _prepend_ns(settings, params)
+    lim_nb_match = re.search(r"^lim_nb\s+(?P<val>.+)", "\n".join(settings))
+    if lim_nb_match:
+        lim_nb = int(max(lim_nb_match["val"].split()))
+        params.append("lim_nb")
+        for i, __ in enumerate(range(lim_nb), 1):
+            limit = [
+                f"limit_type{i}",
+                f"limit_comp{i}",
+                f"limit_value{i}",
+                f"limit_unit{i}",
+            ]
+            params += limit
+    params += [
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "bandwidth",
+        "nc_cycles",
+        "goto_Ns",
+        "nr_cycles",
+        "inc_cycle",
+    ]
+    return params
+
+
+_geis_params_dtype = [
+    np.dtype(
+        [
+            ("sine_mode", "|u1"),
+            ("Is", "<f4"),
+            ("Is_unit", "|u1"),
+            ("Is_vs", "|u1"),
+            ("tIs", "<f4"),
+            ("record", "|u1"),
+            ("dE", "<f4"),
+            ("dt", "<f4"),
+            ("fi", "<f4"),
+            ("fi_unit", "|u1"),
+            ("ff", "<f4"),
+            ("ff_unit", "|u1"),
+            ("Nd", "<u4"),
+            ("points", "|u1"),
+            ("spacing", "|u1"),
+            ("Ia/Va", "|u1"),
+            ("Ia", "<f4"),
+            ("Ia_unit", "|u1"),
+            ("va_pourcent", "<f4"),
+            ("pw", "<f4"),
+            ("Na", "<u4"),
+            ("corr", "|u1"),
+            ("lim_nb", "|u1"),
+            ("limit_type1", "|u1"),
+            ("limit_comp1", "|u1"),
+            ("limit_value1", "<f4"),
+            ("limit_unit1", "|u1"),
+            ("limit_type2", "|u1"),
+            ("limit_comp2", "|u1"),
+            ("limit_value2", "<f4"),
+            ("limit_unit2", "|u1"),
+            ("limit_type3", "|u1"),
+            ("limit_comp3", "|u1"),
+            ("limit_value3", "<f4"),
+            ("limit_unit3", "|u1"),
+            ("limit_type4", "|u1"),
+            ("limit_comp4", "|u1"),
+            ("limit_value4", "<f4"),
+            ("limit_unit4", "|u1"),
+            ("limit_type5", "|u1"),
+            ("limit_comp5", "|u1"),
+            ("limit_value5", "<f4"),
+            ("limit_unit5", "|u1"),
+            ("limit_type6", "|u1"),
+            ("limit_comp6", "|u1"),
+            ("limit_value6", "<f4"),
+            ("limit_unit6", "|u1"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("bandwidth", "|u1"),
+            ("nc_cycles", "<u4"),
+            ("goto_Ns", "<u4"),
+            ("nr_cycles", "<u4"),
+            ("inc_cycle", "<u4"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Loop ~~~~~~~~~~~~~
+def _loop_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the LOOP technique."""
+    params = ["goto_Ne", "nt_times"]
+    return params
+
+
+# ~~~~~~~~~~~~~ Linear Sweep Voltammetry ~~~~~~~~~~~~~
+def _lsv_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the LSV technique."""
+    params = [
+        "tR",
+        "dER/dt",
+        "dER",
+        "dtR",
+        "dE/dt",
+        "dE/dt_unit",
+        "Ei",
+        "Ei_vs",
+        "EL",
+        "EL_vs",
+        "record",
+        "dI",
+        "dI_unit",
+        "tI",
+        "step_percent",
+        "N",
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "I_range_min",
+        "I_range_max",
+        "I_range_init",
+        "bandwidth",
+    ]
+    return params
+
+
+# ~~~~~~~~~~~~~ Linear Sweep Voltammetry ~~~~~~~~~~~~~
+_lsv_params_dtype = [
+    np.dtype(
+        [
+            ("tR", "<f4"),
+            ("dER/dt", "<f4"),
+            ("dER", "<f4"),
+            ("dtR", "<f4"),
+            ("dE/dt", "<f4"),
+            ("dE/dt_unit", "|u1"),
+            ("Ei", "<f4"),
+            ("Ei_vs", "|u1"),
+            ("EL", "<f4"),
+            ("EL_vs", "|u1"),
+            ("record", "|u1"),
+            ("dI", "<f4"),
+            ("dI_unit", "|u1"),
+            ("tI", "<f4"),
+            ("step_percent", "|u1"),
+            ("N", "<u4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("I_range_min", "|u1"),
+            ("I_range_max", "|u1"),
+            ("I_range_init", "|u1"),
+            ("bandwidth", "|u1"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Modulo Bat ~~~~~~~~~~~~~
+def _mb_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the MB technique."""
+    params = [
+        "ctrl_type",
+        "apply_I/C",
+        "ctrl1_val",
+        "ctrl1_val_unit",
+        "ctrl1_val_vs",
+        "ctrl2_val",
+        "ctrl2_val_unit",
+        "ctrl2_val_vs",
+        "ctrl3_val",
+        "ctrl3_val_unit",
+        "ctrl3_val_vs",
+        "N",
+        "charge/discharge",
+    ]
+    params = _prepend_ns(settings, params)
+    n1_match = re.search(r"N1\s+", "\n".join(settings))
+    print(f"{n1_match=}")
+    if n1_match:
+        n1 = [
+            "charge/discharge_1",
+            "apply_I/C_1",
+            "N1",
+            "ctrl4_val_unit",
+            "ctrl4_val_vs",
+        ]
+        params += n1
+    params += [
+        "ctrl_seq",
+        "ctrl_repeat",
+        "ctrl_trigger",
+        "ctrl_TO_t",
+        "ctrl_TO_t_unit",
+        "ctrl_Nd",
+        "ctrl_Na",
+        "ctrl_corr",
+    ]
+    lim_nb_match = re.search(r"lim_nb\s+(?P<val>.+)", "\n".join(settings))
+    if lim_nb_match:
+        lim_nb = int(max(lim_nb_match["val"].split()))
+        params.append("lim_nb")
+        for i, __ in enumerate(range(lim_nb), 1):
+            lim = [
+                f"lim{i}_type",
+                f"lim{i}_comp",
+                f"lim{i}_Q",
+                f"lim{i}_value",
+                f"lim{i}_value_unit",
+                f"lim{i}_action",
+                f"lim{i}_seq",
+            ]
+            params += lim
+    rec_nb_match = re.search(r"rec_nb\s+(?P<val>.+)", "\n".join(settings))
+    if rec_nb_match:
+        rec_nb = int(max(rec_nb_match["val"].split()))
+        params.append("rec_nb")
+        for i, __ in enumerate(range(rec_nb), 1):
+            rec = [f"rec{i}_type", f"rec{i}_value", f"rec{i}_value_unit"]
+            params += rec
+    params += [
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "I_range_min",
+        "I_range_max",
+        "I_range_init",
+        "auto_rest",
+        "bandwidth",
+    ]
+    return params
+
+
+_mb_params_dtypes = [
+    np.dtype(
+        [
+            ("ctrl_type", "|u1"),
+            ("apply_I/C", "|u1"),
+            ("ctrl1_val", "<f4"),
+            ("ctrl1_val_unit", "|u1"),
+            ("ctrl1_val_vs", "|u1"),
+            ("ctrl2_val", "<f4"),
+            ("ctrl2_val_unit", "|u1"),
+            ("ctrl2_val_vs", "|u1"),
+            ("ctrl3_val", "<f4"),
+            ("ctrl3_val_unit", "|u1"),
+            ("ctrl3_val_vs", "|u1"),
+            ("N", "<f4"),
+            ("charge/discharge", "|u1"),
+            ("charge/discharge_1", "|u1"),
+            ("apply_I/C_1", "|u1"),
+            ("N1", "<f4"),
+            ("ctrl4_val", "<f4"),
+            ("ctrl4_val_unit", "|u1"),
+            ("ctrl_seq", "<u4"),
+            ("ctrl_repeat", "<u4"),
+            ("ctrl_trigger", "|u1"),
+            ("ctrl_TO_t", "<f4"),
+            ("ctrl_TO_t_unit", "|u1"),
+            ("ctrl_Nd", "<u4"),
+            ("ctrl_Na", "<u4"),
+            ("ctrl_corr", "|u1"),
+            ("lim_nb", "|u1"),
+            ("lim1_type", "|u1"),
+            ("lim1_comp", "|u1"),
+            ("lim1_Q", "|u1"),
+            ("lim1_value", "<f4"),
+            ("lim1_value_unit", "|u1"),
+            ("lim1_action", "|u1"),
+            ("lim1_seq", "<u4"),
+            ("lim2_type", "|u1"),
+            ("lim2_comp", "|u1"),
+            ("lim2_Q", "|u1"),
+            ("lim2_value", "<f4"),
+            ("lim2_value_unit", "|u1"),
+            ("lim2_action", "|u1"),
+            ("lim2_seq", "<u4"),
+            ("lim3_type", "|u1"),
+            ("lim3_comp", "|u1"),
+            ("lim3_Q", "|u1"),
+            ("lim3_value", "<f4"),
+            ("lim3_value_unit", "|u1"),
+            ("lim3_action", "|u1"),
+            ("lim3_seq", "<u4"),
+            ("rec_nb", "|u1"),
+            ("rec1_type", "|u1"),
+            ("rec1_value", "<f4"),
+            ("rec1_value_unit", "|u1"),
+            ("rec2_type", "|u1"),
+            ("rec2_value", "<f4"),
+            ("rec2_value_unit", "|u1"),
+            ("rec3_type", "|u1"),
+            ("rec3_value", "<f4"),
+            ("rec3_value_unit", "|u1"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("I_range_min", "|u1"),
+            ("I_range_max", "|u1"),
+            ("I_range_init", "|u1"),
+            ("auto_rest", "|u1"),
+            ("bandwidth", "|u1"),
+        ]
+    ),
+    np.dtype(
+        [
+            ("ctrl_type", "|u1"),
+            ("apply_I/C", "|u1"),
+            ("ctrl1_val", "<f4"),
+            ("ctrl1_val_unit", "|u1"),
+            ("ctrl1_val_vs", "|u1"),
+            ("ctrl2_val", "<f4"),
+            ("ctrl2_val_unit", "|u1"),
+            ("ctrl2_val_vs", "|u1"),
+            ("ctrl3_val", "<f4"),
+            ("ctrl3_val_unit", "|u1"),
+            ("ctrl3_val_vs", "|u1"),
+            ("N", "<f4"),
+            ("charge/discharge", "|u1"),
+            ("ctrl_seq", "<u4"),
+            ("ctrl_repeat", "<u4"),
+            ("ctrl_trigger", "|u1"),
+            ("ctrl_TO_t", "<f4"),
+            ("ctrl_TO_t_unit", "|u1"),
+            ("ctrl_Nd", "<u4"),
+            ("ctrl_Na", "<u4"),
+            ("ctrl_corr", "|u1"),
+            ("lim_nb", "|u1"),
+            ("lim1_type", "|u1"),
+            ("lim1_comp", "|u1"),
+            ("lim1_Q", "|u1"),
+            ("lim1_value", "<f4"),
+            ("lim1_value_unit", "|u1"),
+            ("lim1_action", "|u1"),
+            ("lim1_seq", "<u4"),
+            ("lim2_type", "|u1"),
+            ("lim2_comp", "|u1"),
+            ("lim2_Q", "|u1"),
+            ("lim2_value", "<f4"),
+            ("lim2_value_unit", "|u1"),
+            ("lim2_action", "|u1"),
+            ("lim2_seq", "<u4"),
+            ("lim3_type", "|u1"),
+            ("lim3_comp", "|u1"),
+            ("lim3_Q", "|u1"),
+            ("lim3_value", "<f4"),
+            ("lim3_value_unit", "|u1"),
+            ("lim3_action", "|u1"),
+            ("lim3_seq", "<u4"),
+            ("rec_nb", "|u1"),
+            ("rec1_type", "|u1"),
+            ("rec1_value", "<f4"),
+            ("rec1_value_unit", "|u1"),
+            ("rec2_type", "|u1"),
+            ("rec2_value", "<f4"),
+            ("rec2_value_unit", "|u1"),
+            ("rec3_type", "|u1"),
+            ("rec3_value", "<f4"),
+            ("rec3_value_unit", "|u1"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("I_range_min", "|u1"),
+            ("I_range_max", "|u1"),
+            ("I_range_init", "|u1"),
+            ("auto_rest", "|u1"),
+            ("bandwidth", "|u1"),
+        ]
+    ),
+    np.dtype(
+        [
+            ("ctrl_type", "|u1"),
+            ("apply_I/C", "|u1"),
+            ("current/potential", "|u1"),
+            ("ctrl1_val", "<f4"),
+            ("ctrl1_val_unit", "|u1"),
+            ("ctrl1_val_vs", "|u1"),
+            ("ctrl2_val", "<f4"),
+            ("ctrl2_val_unit", "|u1"),
+            ("ctrl2_val_vs", "|u1"),
+            ("ctrl3_val", "<f4"),
+            ("ctrl3_val_unit", "|u1"),
+            ("ctrl3_val_vs", "|u1"),
+            ("N", "<f4"),
+            ("charge/discharge", "|u1"),
+            ("charge/discharge_1", "|u1"),
+            ("apply_I/C_1", "|u1"),
+            ("N1", "<f4"),
+            ("ctrl4_val", "<f4"),
+            ("ctrl4_val_unit", "|u1"),
+            ("ctrl_seq", "<u4"),
+            ("ctrl_repeat", "<u4"),
+            ("ctrl_trigger", "|u1"),
+            ("ctrl_TO_t", "<f4"),
+            ("ctrl_TO_t_unit", "|u1"),
+            ("ctrl_Nd", "<u4"),
+            ("ctrl_Na", "<u4"),
+            ("ctrl_corr", "|u1"),
+            ("lim_nb", "|u1"),
+            ("lim1_type", "|u1"),
+            ("lim1_comp", "|u1"),
+            ("lim1_Q", "|u1"),
+            ("lim1_value", "<f4"),
+            ("lim1_value_unit", "|u1"),
+            ("lim1_action", "|u1"),
+            ("lim1_seq", "<u4"),
+            ("lim2_type", "|u1"),
+            ("lim2_comp", "|u1"),
+            ("lim2_Q", "|u1"),
+            ("lim2_value", "<f4"),
+            ("lim2_value_unit", "|u1"),
+            ("lim2_action", "|u1"),
+            ("lim2_seq", "<u4"),
+            ("lim3_type", "|u1"),
+            ("lim3_comp", "|u1"),
+            ("lim3_Q", "|u1"),
+            ("lim3_value", "<f4"),
+            ("lim3_value_unit", "|u1"),
+            ("lim3_action", "|u1"),
+            ("lim3_seq", "<u4"),
+            ("rec_nb", "|u1"),
+            ("rec1_type", "|u1"),
+            ("rec1_value", "<f4"),
+            ("rec1_value_unit", "|u1"),
+            ("rec2_type", "|u1"),
+            ("rec2_value", "<f4"),
+            ("rec2_value_unit", "|u1"),
+            ("rec3_type", "|u1"),
+            ("rec3_value", "<f4"),
+            ("rec3_value_unit", "|u1"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("I_range_min", "|u1"),
+            ("I_range_max", "|u1"),
+            ("I_range_init", "|u1"),
+            ("auto_rest", "|u1"),
+            ("bandwidth", "|u1"),
+        ]
+    ),
+]
+
+
+# ~~~~~~~~~~~~~ Open Circuit Voltage ~~~~~~~~~~~~~
+def _ocv_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the OCV technique."""
+    params = ["tR", "dER/dt"]
+    record_match = re.search(r"^record.+", "\n".join(settings))
+    if record_match:
+        params += ["record"]
+    params += ["dER", "dtR", "E_range_min", "E_range_max"]
+    return params
+
+
+_ocv_params_dtypes = [
+    np.dtype(
+        [
+            ("tR", "<f4"),
+            ("dER/dt", "<f4"),
+            ("record", "|u1"),
+            ("dER", "<f4"),
+            ("dtR", "<f4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+        ]
+    ),
+    np.dtype(
+        [
+            ("tR", "<f4"),
+            ("dER/dt", "<f4"),
+            ("dER", "<f4"),
+            ("dtR", "<f4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+        ]
+    ),
+]
+
+
+# ~~~~~~~~~~~~~ Potentio Electrochemical Impedance Spectroscopy ~~~~~~~~~~~~~
+def _peis_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the PEIS technique."""
+    params = [
+        "sine_mode",
+        "E",
+        "E_vs",
+        "tE",
+        "record",
+        "dI",
+        "dI_unit",
+        "dt",
+        "fi",
+        "fi_unit",
+        "ff",
+        "ff_unit",
+        "Nd",
+        "points",
+        "spacing",
+        "Va",
+        "pw",
+        "Na",
+        "corr",
+    ]
+    params = _prepend_ns(settings, params)
+    lim_nb_match = re.search(r"^lim_nb\s+(?P<val>.+)", "\n".join(settings))
+    if lim_nb_match:
+        lim_nb = int(max(lim_nb_match["val"].split()))
+        params.append("lim_nb")
+        for i, __ in enumerate(range(lim_nb), 1):
+            limit = [
+                f"limit_type{i}",
+                f"limit_comp{i}",
+                f"limit_value{i}",
+                f"limit_unit{i}",
+            ]
+            params += limit
+    params += [
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "bandwidth",
+        "nc_cycles",
+        "goto_Ns",
+        "nr_cycles",
+        "inc_cycle",
+    ]
+    return params
+
+
+_peis_params_dtypes = [
+    np.dtype(
+        [
+            ("sine_mode", "|u1"),
+            ("E", "<f4"),
+            ("E_vs", "|u1"),
+            ("tE", "<f4"),
+            ("record", "|u1"),
+            ("dI", "<f4"),
+            ("dI_unit", "|u1"),
+            ("dt", "<f4"),
+            ("fi", "<f4"),
+            ("fi_unit", "|u1"),
+            ("ff", "<f4"),
+            ("ff_unit", "|u1"),
+            ("Nd", "<u4"),
+            ("points", "|u1"),
+            ("spacing", "|u1"),
+            ("Va", "<f4"),
+            ("pw", "<f4"),
+            ("Na", "<u4"),
+            ("corr", "|u1"),
+            ("lim_nb", "|u1"),
+            ("limit_type1", "|u1"),
+            ("limit_comp1", "|u1"),
+            ("limit_value1", "<f4"),
+            ("limit_unit1", "|u1"),
+            ("limit_type2", "|u1"),
+            ("limit_comp2", "|u1"),
+            ("limit_value2", "<f4"),
+            ("limit_unit2", "|u1"),
+            ("limit_type3", "|u1"),
+            ("limit_comp3", "|u1"),
+            ("limit_value3", "<f4"),
+            ("limit_unit3", "|u1"),
+            ("limit_type4", "|u1"),
+            ("limit_comp4", "|u1"),
+            ("limit_value4", "<f4"),
+            ("limit_unit4", "|u1"),
+            ("limit_type5", "|u1"),
+            ("limit_comp5", "|u1"),
+            ("limit_value5", "<f4"),
+            ("limit_unit5", "|u1"),
+            ("limit_type6", "|u1"),
+            ("limit_comp6", "|u1"),
+            ("limit_value6", "<f4"),
+            ("limit_unit6", "|u1"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("bandwidth", "|u1"),
+            ("nc_cycles", "<u4"),
+            ("goto_Ns", "<u4"),
+            ("nr_cycles", "<u4"),
+            ("inc_cycle", "<u4"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ Wait ~~~~~~~~~~~~~
+def _wait_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the WAIT technique."""
+    params = [
+        "select",
+        "td",
+        "from",
+        "tech_num",
+        "ole_date",
+        "ole_time",
+        "record",
+        "dE",
+        "dI",
+        "dI_unit",
+        "dt",
+    ]
+    return params
+
+
+_wait_params_dtypes = [
+    np.dtype(
+        [
+            ("select", "|u1"),
+            ("td", "<u4"),
+            ("from", "|u1"),
+            ("tech_num", "|u1"),
+            ("ole_date", "<f4"),  # Why the hell would they split this?!
+            ("ole_time", "<f4"),
+            ("record", "|u1"),
+            ("dE", "<f4"),
+            ("dI", "<f4"),
+            ("dI_unit", "|u1"),
+            ("dt", "<f4"),
+        ]
+    )
+]
+
+
+# ~~~~~~~~~~~~~ IR compensation (PEIS) ~~~~~~~~~~~~~
+def _zir_params(settings: list[str]) -> list[str]:
+    """Constructs the parameter names for the ZIR technique."""
+    params = [
+        "E",
+        "E_vs",
+        "f",
+        "f_unit",
+        "Va",
+        "pw",
+        "Na",
+        "E_range_min",
+        "E_range_max",
+        "I_range",
+        "bandwidth",
+        "comp_level",
+        "use_results",
+        "comp_mode",
+    ]
+    return params
+
+
+_zir_params_dtypes = [
+    np.dtype(
+        [
+            ("E", "<f4"),
+            ("E_vs", "|u1"),
+            ("f", "<f4"),
+            ("f_unit", "|u1"),
+            ("Va", "<f4"),
+            ("pw", "<f4"),
+            ("Na", "<u4"),
+            ("E_range_min", "<f4"),
+            ("E_range_max", "<f4"),
+            ("I_range", "|u1"),
+            ("bandwidth", "|u1"),
+            ("comp_level", "|u1"),
+            ("use_results", "|u1"),
+            ("comp_mode", "|u1"),
+        ]
+    )
+]
+
+
+def technique_params(technique: str, settings: list[str]) -> tuple[str, list]:
+    """Constructs the parameter names for different techniques.
+
+    Parameters
+    ----------
+    technique
+        The full name of the technique.
+
+    settings
+        The list of settings from the start of an .mpt or .mps file.
+
+    Returns
+    -------
+    tuple[str, list]
+        The short technique name and a full list of technique parameter
+        names depending on what is present in the file.
+
+    """
+    if technique == "Chronoamperometry / Chronocoulometry":
+        return "CA", _ca_params(settings)
+    if technique == "Chronopotentiometry":
+        return "CP", _cp_params(settings)
+    if technique == "Cyclic Voltammetry":
+        return "CV", _cv_params(settings)
+    if technique == "Galvano Electrochemical Impedance Spectroscopy":
+        return "GEIS", _geis_params(settings)
+    if technique == "Galvanostatic Cycling with Potential Limitation":
+        return "GCPL", _gcpl_params(settings)
+    if technique == "IR compensation (PEIS)":
+        return "ZIR", _zir_params(settings)
+    if technique == "Linear Sweep Voltammetry":
+        return "LSV", _lsv_params(settings)
+    if technique == "Loop":
+        return "LOOP", _loop_params(settings)
+    if technique == "Modulo Bat":
+        return "mb", _mb_params(settings)
+    if technique == "Open Circuit Voltage":
+        return "OCV", _ocv_params(settings)
+    if technique == "Potentio Electrochemical Impedance Spectroscopy":
+        return "PEIS", _peis_params(settings)
+    if technique == "Wait":
+        return "WAIT", _wait_params(settings)
+    raise NotImplementedError(f"'{technique}' not implemented.")
+
+
+# Maps the technique byte to its corresponding dtype.
+technique_params_dtypes = {
+    0x04: ("GCPL", _gcpl_params_dtypes),
+    0x06: ("CV", _cv_params_dtypes),
+    0x0B: ("OCV", _ocv_params_dtypes),
+    0x18: ("CA", _ca_params_dtypes),
+    0x19: ("CP", _cp_params_dtypes),
+    0x1C: ("WAIT", _wait_params_dtypes),
+    0x1D: ("PEIS", _peis_params_dtypes),
+    0x1E: ("GEIS", _geis_params_dtype),
+    0x32: ("ZIR", _zir_params_dtypes),
+    0x6C: ("LSV", _lsv_params_dtype),
+    0x7F: ("MB", _mb_params_dtypes),
+}
+
+param_map = {
+    "I_range": (
+        ("1 A", 9, 1),
+        ("100 mA", 10, 1e-1),
+        ("10 mA", 11, 1e-2),
+        ("1 mA", 12, 1e-3),
+        ("100 µA", 13, 1e-4),
+        ("10 µA", 14, 1e-5),
+        ("Auto", 15, None),  # Auto I Range
+        ("100 mA", 16, 1e-1),
+        ("10 mA", 17, 1e-2),
+        ("1 mA", 18, 1e-3),
+        ("100 µA", 19, 1e-4),
+        ("100 µA", 20, 1e-4),
+        ("10 µA", 21, 1e-5),
+        ("1 µA", 22, 1e-6),
+        ("100 nA", 23, 1e-7),
+        ("10 nA", 24, 1e-8),
+        ("1 nA", 25, 1e-9),
+        ("80 A", 26, 80.0),
+        ("4 A", 27, 4.0),
+        ("PAC", 28, None),  # PAC I Range
+        ("4 A", 29, 4.0),
+        ("100 µA", 30, 1e-4),
+        ("10 µA", 31, 1e-5),
+        ("1 µA", 32, 1e-6),
+        ("100 nA", 33, 1e-7),
+        ("10 nA", 34, 1e-8),
+        ("1 nA", 35, 1e-9),
+        ("8 A", 36, 8.0),
+        ("1 A", 37, 1.0),
+        ("100 mA", 38, 1e-1),
+        ("10 mA", 39, 1e-2),
+        ("1 mA", 40, 1e-3),
+        ("100 µA", 41, 1e-4),
+        ("10 µA", 42, 1e-5),
+        ("1 µA", 43, 1e-6),
+        ("100 nA", 44, 1e-7),
+        ("10 nA", 45, 1e-8),
+        ("50 A", 46, 50.0),
+        ("5 A", 47, 5.0),
+        ("100 A", 48, 1e2),
+        ("150 A", 49, 1.5e2),
+        ("1 A", 50, 1.0),
+        ("4 A", 51, 4.0),
+        ("100 µA", 52, 1e-4),
+        ("10 µA", 53, 1e-5),
+        ("1 µA", 54, 1e-6),
+        ("100 nA", 55, 1e-7),
+        ("10 nA", 56, 1e-8),
+        ("1 nA", 57, 1e-9),
+        ("100 pA", 58, 1e-10),
+        ("10 pA", 59, 1e-11),
+        ("1 pA", 60, 1e-12),
+        ("5 A", 61, 5.0),
+        ("10 A", 62, 10.0),
+        ("20 A", 63, 20.0),
+        ("40 A", 64, 40.0),
+        ("10 A", 65, 10.0),
+        ("2 A", 66, 2.0),
+        ("8 A", 67, 8.0),
+        ("12 A", 68, 12.0),
+        ("16 A", 69, 16.0),
+        ("20 A", 70, 20.0),
+        ("24 A", 71, 24.0),
+        ("28 A", 72, 28.0),
+        ("32 A", 73, 32.0),
+        ("36 A", 74, 36.0),
+        ("40 A", 75, 40.0),
+        ("44 A", 76, 44.0),
+        ("48 A", 77, 48.0),
+        ("52 A", 78, 52.0),
+        ("56 A", 79, 56.0),
+        ("60 A", 80, 60.0),
+        ("64 A", 81, 64.0),
+        ("20 A", 82, 20.0),
+        ("30 A", 83, 30.0),
+        ("40 A", 84, 40.0),
+        ("50 A", 85, 50.0),
+        ("60 A", 86, 60.0),
+        ("70 A", 87, 70.0),
+        ("80 A", 88, 80.0),
+        ("90 A", 89, 90.0),
+        ("100 A", 90, 100.0),
+        ("110 A", 91, 110.0),
+        ("120 A", 92, 120.0),
+        ("130 A", 93, 130.0),
+        ("140 A", 94, 140.0),
+        ("150 A", 95, 150.0),
+        ("160 A", 96, 160.0),
+        ("4 A", 97, 4.0),
+        ("6 A", 98, 6.0),
+        ("8 A", 99, 8.0),
+        ("10 A", 100, 10.0),
+        ("12 A", 101, 12.0),
+        ("14 A", 102, 14.0),
+        ("16 A", 103, 16.0),
+        ("18 A", 104, 18.0),
+        ("20 A", 105, 20.0),
+        ("22 A", 106, 22.0),
+        ("24 A", 107, 24.0),
+        ("26 A", 108, 26.0),
+        ("28 A", 109, 28.0),
+        ("30 A", 110, 30.0),
+        ("32 A", 111, 32.0),
+        ("10 A", 112, 10.0),
+        ("1 A", 113, 1.0),
+        ("100 mA", 114, 1e-1),
+        ("10 mA", 115, 1e-2),
+        ("1 mA", 116, 1e-3),
+        ("100 µA", 117, 1e-4),
+        ("10 µA", 118, 1e-5),
+        ("20 A", 119, 20.0),
+        ("40 A", 120, 40.0),
+        ("80 A", 121, 80.0),
+        ("Auto Limited", 122, None),  # Auto Limited I Range
+        ("Unset", 123, None),  # Unset I Range
+        ("300 mA", 124, 0.3),
+        ("3 A", 125, 3.0),
+        ("30 A", 126, 30.0),
+        ("60 A", 127, 60.0),
+        ("90 A", 128, 90.0),
+        ("120 A", 129, 120.0),
+        ("150 A", 130, 150.0),
+        ("180 A", 131, 180.0),
+        ("210 A", 132, 210.0),
+        ("240 A", 133, 240.0),
+        ("270 A", 134, 270.0),
+        ("300 A", 135, 300.0),
+        ("330 A", 136, 330.0),
+        ("360 A", 137, 360.0),
+        ("390 A", 138, 390.0),
+        ("420 A", 139, 420.0),
+        ("450 A", 140, 450.0),
+        ("480 A", 141, 480.0),
+        ("50 A", 142, 50.0),
+        ("100 A", 143, 100.0),
+        ("150 A", 144, 150.0),
+        ("200 A", 145, 200.0),
+        ("200 A", 146, 200.0),
+        ("400 A", 147, 400.0),
+        ("600 A", 148, 600.0),
+        ("800 A", 149, 800.0),
+        ("50 A", 150, 50.0),
+        ("100 A", 151, 100.0),
+        ("150 A", 152, 150.0),
+        ("200 A", 153, 200.0),
+        ("1 A", 154, 1.0),
+        ("2 A", 155, 2.0),
+        ("3 A", 156, 3.0),
+        ("4 A", 157, 4.0),
+        ("5 A", 158, 5.0),
+        ("6 A", 159, 6.0),
+        ("7 A", 160, 7.0),
+        ("8 A", 161, 8.0),
+        ("9 A", 162, 9.0),
+        ("10 A", 163, 10.0),
+        ("11 A", 164, 11.0),
+        ("12 A", 165, 12.0),
+        ("13 A", 166, 13.0),
+        ("14 A", 167, 14.0),
+        ("15 A", 168, 15.0),
+        ("16 A", 169, 16.0),
+        ("50 A", 170, 50.0),
+        ("100 A", 171, 100.0),
+        ("150 A", 172, 150.0),
+        ("200 A", 173, 200.0),
+        ("50 A", 174, 50.0),
+        ("100 A", 175, 100.0),
+        ("150 A", 176, 150.0),
+        ("200 A", 177, 200.0),
+        ("1 A", 178, 1.0),
+        ("2 A", 179, 2.0),
+        ("3 A", 180, 3.0),
+        ("4 A", 181, 4.0),
+        ("5 A", 182, 5.0),
+        ("6 A", 183, 6.0),
+        ("7 A", 184, 7.0),
+        ("8 A", 185, 8.0),
+        ("9 A", 186, 9.0),
+        ("10 A", 187, 10.0),
+        ("11 A", 188, 11.0),
+        ("12 A", 189, 12.0),
+        ("13 A", 190, 13.0),
+        ("14 A", 191, 14.0),
+        ("15 A", 192, 15.0),
+        ("16 A", 193, 16.0),
+        ("Auto", None, None),
+    ),
+    "Is_unit": (
+        ("A", 0),  # guess
+        ("mA", 1),
+        ("µA", 2),
+        ("nA", 3),  # guess
+        ("pA", 4),  # guess
+    ),
+    "set_I/C": (
+        ("I", 0),
+        ("C", 1),  # guess
+    ),
+    "apply_I/C": (
+        ("I", 0),
+        ("C", 1),
+    ),
+}
+
+
+def param_from_key(
+    param: str, key: Union[int, str], to_str: bool = True
+) -> Union[str, float]:
+    """
+    Convert a supplied key of a certain parameter to its string or float value.
+
+    The function uses the map defined in ``param_map`` to convert between the
+    entries in the tuples, which contain the :class:`str` value of the parameter
+    (present in ``.mpt`` files), the :class:`int` value of the parameter (present
+    in ``.mpr`` files), and the corresponding :class:`float` value in SI units.
+
+    Parameters
+    ----------
+    param
+        The name of the parameter, a key within the ``param_map``. If ``param``
+        is not present in ``param_map``, the supplied key is returned back.
+
+    key
+        The key of the parameter that is to be converted to a different representation.
+
+    to_str
+        A switch between :class:`str` and :class:`float` output.
+
+    Returns
+    -------
+    key: Union[str, float, int]
+        The key converted to the requested format.
+
+    """
+    ii = 1 if isinstance(key, int) else 0
+    if param in param_map:
+        for i in param_map[param]:
+            if i[ii] == key:
+                if to_str:
+                    return i[0]
+                else:
+                    return i[2]
+        raise ValueError(f"element '{key}' for parameter '{param}' not understood.")
+    return key
+
+
+def get_resolution(
+    name: str, value: float, unit: str, Erange: float, Irange: float
+) -> float:
+    """
+    Function that returns the resolution of a property based on its name, value,
+    E-range and I-range.
+
+    The values used here are hard-coded from VMP-3 potentiostats. Generally, the
+    resolution is returned, however in some cases only the accuracy is specified
+    (currently ``freq`` and ``Phase``).
+
+    """
+    if name in {"control_V/I", "control_V_I"}:
+        raise RuntimeError("")
+    elif name in {"control_V"}:
+        # VMP-3: bisect function between 5 µV and 300 µV, as the
+        # voltage is stored in a 16-bit int.
+        if Erange >= 20.0:
+            return 305.18e-6
+        else:
+            res = [5e-6, 10e-6, 20e-6, 50e-6, 100e-6, 150e-6, 200e-6, 300e-6, 305.18e-6]
+            i = bisect.bisect_right(res, Erange / np.iinfo(np.uint16).max)
+            return res[i]
+    elif name in {"control_I"}:
+        # VMP-3: 0.004% of FSR, 760 µV at 10 µA I-range
+        return max(Irange * 0.004 / 100, 760e-12)
+    elif unit in {"V", "mV", "μV"}:
+        # VMP-3: 0.0015% of FSR, 75 µV minimum
+        return max(Erange * 0.0015 / 100, 75e-6)
+    elif unit in {"A", "mA", "µA", "nA", "pA"}:
+        # VMP-3: 0.004% of FSR
+        if Irange is None:
+            logger.warning("'I range' not specified. Using 1 A.")
+            Irange = 1.0
+        return Irange * 0.004 / 100
+    elif unit in {"Hz"}:
+        # VMP-3: using accuracy: 1% of value
+        return value * 0.01
+    elif unit in {"deg"}:
+        # VMP-3: using accuracy: 1 degree
+        return 1.0
+    elif unit in {"Ω", "S", "W"}:
+        # [Ω] = [V]/[A];
+        # [S] = [A]/[V];
+        # [W] = [A]*[V];
+        return max(
+            get_resolution("U", value, "V", Erange, Irange),
+            get_resolution("I", value, "A", Erange, Irange),
+        )
+    elif unit in {"C"}:
+        # [C] = [A]*[s];
+        return get_resolution("I", value, "A", Erange, Irange)
+    elif unit in {"mA·h"}:
+        return get_resolution("Q", value / 3.6, "C", Erange, Irange)
+    elif unit in {"W·h"}:
+        return get_resolution("P", value / 3600, "W", Erange, Irange)
+    elif unit in {"µF"}:
+        # [F] = [C]/[V]
+        return max(
+            get_resolution("Q", value * 1e-6, "C", Erange, Irange),
+            get_resolution("U", value * 1e-6, "V", Erange, Irange),
+        )
+    elif unit in {"s"}:
+        # Based on the EC-Lib documentation,
+        # 50 us is a safe upper limit for timebase
+        return 50e-6
+    elif unit in {"%"}:
+        return 0.1
+    else:
+        raise RuntimeError(
+            f"Could not get resolution of quantity '{name}' with unit '{unit}."
+        )
