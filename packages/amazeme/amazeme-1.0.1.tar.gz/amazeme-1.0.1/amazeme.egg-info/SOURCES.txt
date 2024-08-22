@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+amazeme/__init__.py
+amazeme/__main__.py
+amazeme/amazeme.py
+amazeme.egg-info/PKG-INFO
+amazeme.egg-info/SOURCES.txt
+amazeme.egg-info/dependency_links.txt
+amazeme.egg-info/entry_points.txt
+amazeme.egg-info/requires.txt
+amazeme.egg-info/top_level.txt
