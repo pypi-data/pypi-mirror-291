@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: plexosdb
+Version: 0.0.1
+Summary: Coming soon
+Author-email: Pedro Andres Sanchez Perez <psanchez@nrel.gov>, Kodi Obika <kodi.obika@nrel.gov>
+Project-URL: Documentation, https://github.com/NREL/plexosdb#readme
+Project-URL: Issues, https://github.com/NREL/plexosdb/issues
+Project-URL: Source, https://github.com/NREL/plexosdb
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: loguru~=0.7.2
+Provides-Extra: all
+Requires-Dist: plexosdb[dev,docs]; extra == "all"
+Provides-Extra: docs
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: ghp-import; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: sphinx-tabs; extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: pudb; extra == "dev"
+Requires-Dist: mypy~=1.11.0; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff~=0.5.2; extra == "dev"
+
+### plexosdb
+> SQLite interface for Plexos XML
+
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) ![PyPI - License](https://img.shields.io/pypi/l/plexosdb) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/plexosdb)
+
+<br/>
+<br/>
+
+## Installation
+
+```console
+python -m pip install plexosdb
+```
+
+## Developer installation
+
+```console
+$ pip install -e ".[dev]"
+```
+
+Please install `pre-commit` so that your code is checked before making commits.
+
+```console
+pre-commit install
+```
+
+## License
+
+plexosdb is released under a BSD 3-Clause
+[License](https://github.com/NREL/plexosdb/blob/main/LICENSE.txt).
+
+plexosdb was developed under software record SWR-24-90 at the National Renewable Energy Laboratory
+([NREL](https://www.nrel.gov)).
