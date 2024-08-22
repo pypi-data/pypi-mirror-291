@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: policyengine-household-api
+Version: 0.5.53
+Summary: PolicyEngine Household API
+Author: PolicyEngine
+Author-email: hello@policyengine.org
+License-File: LICENSE
+Requires-Dist: Authlib>=1.3.1
+Requires-Dist: cloud-sql-python-connector
+Requires-Dist: flask>=2.2
+Requires-Dist: flask-cors>=3
+Requires-Dist: flask-sqlalchemy>=3
+Requires-Dist: google-cloud-logging
+Requires-Dist: gunicorn
+Requires-Dist: policyengine_canada==0.95.0
+Requires-Dist: policyengine-ng==0.5.1
+Requires-Dist: policyengine-il==0.1.0
+Requires-Dist: policyengine_uk==1.7.0
+Requires-Dist: policyengine_us==1.56.1
+Requires-Dist: pyjwt
+Requires-Dist: Flask-Caching==2.0.2
+Requires-Dist: urllib3<1.27,>=1.21.1
+Requires-Dist: python-dotenv
+Requires-Dist: pymysql
+Requires-Dist: black==24.3.0
+Requires-Dist: ratelimiter
+Provides-Extra: dev
+Requires-Dist: pytest-timeout; extra == "dev"
