@@ -1,0 +1,3 @@
+[console_scripts]
+assemblit = assemblit._app.cli.assemblit:main
+orchestrator = assemblit._orchestrator.cli.orchestrator:main

@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: assemblit
+Version: 0.1.13
+Summary: Assemblit is helping data analysts and scientists rapidly scale notebooks into analytics-as-a-service (AaaS) web-applications.
+Home-page: https://assemblit.org
+Author: Tom Eleff
+Project-URL: Issues, https://github.com/thomaseleff/assemblit/issues
+Project-URL: Releases, https://github.com/thomaseleff/assemblit/releases
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Database :: Front-Ends
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit ==1.37.0
+Requires-Dist: prefect ==2.16.6
+Requires-Dist: regex ==2023.10.3
+Requires-Dist: argon2-cffi ==23.1.0
+Requires-Dist: email-validator ==2.1.0.post1
+Requires-Dist: pandas >=2.0.3
+Requires-Dist: pandera ==0.20.3
+Requires-Dist: plotly ==5.23.0
+Requires-Dist: python-dotenv ==1.0.0
+Requires-Dist: pytensils ==1.2.0
+Requires-Dist: pyyaml ==6.0.1
+
+# assemblit
+
+|         |                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------- |
+| Tests   | [![Unit-Tests](https://github.com/thomaseleff/assemblit/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/thomaseleff/assemblit/actions/workflows/unit-tests.yml) [![Coverage](https://raw.githubusercontent.com/thomaseleff/assemblit/main/coverage/coverage.svg)](https://github.com/thomaseleff/assemblit/blob/main/coverage/COVERAGE.md) |
+| Package | [![PyPI latest release](https://img.shields.io/pypi/v/assemblit.svg)](https://pypi.org/project/assemblit/) [![PyPI downloads](https://img.shields.io/pypi/dm/assemblit.svg?label=PyPI%20downloads)](https://pypi.org/project/assemblit/) [![License - MIT](https://img.shields.io/pypi/l/assemblit.svg)](https://github.com/thomaseleff/assemblit/blob/main/LICENSE) [![Supported versions](https://img.shields.io/pypi/pyversions/assemblit.svg?logo=python&logoColor=FBE072)](https://pypi.org/project/assemblit/) |
+
+`alpha-release` coming soon!
+
+🦄 `assemblit` is a Python package that provides a framework of 👑 [streamlit](https://streamlit.io/) based web-components for quickly assembling end-to-end analytics-as-a-service (AaaS) web-applications. `assemblit` comes with user-authentication, a lightweight sqlite3-database backend, and workflow orchestration via 🧊 [prefect](https://www.prefect.io).
+
+## Installation
+The source code is available on [GitHub](https://github.com/thomaseleff/assemblit).
+
+`assemblit` can be installed via PyPI from the command-line, which allows for developing locally before deploying.
+
+1. Setup a Python developer environment. `assemblit` supports Python versions >= 3.8.
+2. From the command-line, run,
+
+   ```
+   # Via PyPI
+   pip install assemblit
+   ```
+
+3. Validate the installation by running,
+
+   ```
+   pip show assemblit
+   ```
+
+## First steps
+Build your first `assemblit` app with the command-line utility.
+
+1. Create a new folder to contain your `assemblit` project.
+2. Open a command prompt and navigate into the new folder.
+3. From the command-line, run,
+
+   ```
+   assemblit build demo
+   ```
